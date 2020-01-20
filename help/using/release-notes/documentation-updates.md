@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 Cette page répertorie toutes les mises à jour de la documentation de Journey Orchestration.
 You can also consult the Journey Orchestration [Release Notes](../release-notes/release-notes.md).
+
+## January 2020 {#january-2020}
+
+* Des limites de récupération ont été ajoutées pour les événements [et les](../datasource/adobe-experience-platform-data-source.md) segments [](../functions/functioninsegment.md)d’expérience.
+* La documentation [](../functions/functiongetbestsendtime.md) getBestSendTime a été mise à jour.
 
 ## December 2019 {#december-2019}
 
@@ -32,4 +37,3 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * [Les sections d’instruction](../expression/conditional-instruction.md) conditionnelle et de gestion [des](../expression/collection-management-functions.md) collections ont été déplacées et mises à jour.
 * La section [fonctions](../expression/functions.md) a été mise à jour avec de nouveaux exemples.
 * La documentation [de la fonction](../functions/functiontodatetime.md) toDateTime a été mise à jour pour refléter les modifications de la syntaxe du fuseau horaire.
-
