@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # A propos des événements {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;A propos des événements&quot;
+>abstract=&quot;Un événement est lié à une personne. Il s&#39;agit du comportement d&#39;une personne (par exemple, une personne a acheté un produit, a visité un magasin, est sortie d&#39;un site Web, etc.) ou un élément lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). C&#39;est ce que l&#39;orchestration de Journey écoutera dans les voyages pour orchestrer les meilleures actions suivantes.&quot;
 
 Un événement est lié à une personne. Il s&#39;agit du comportement d&#39;une personne (par exemple, une personne a acheté un produit, a visité un magasin, est sortie d&#39;un site Web, etc.) ou un élément lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). C&#39;est ce que Journey Orchestration écoutera dans les voyages pour orchestrer les meilleures actions suivantes.
 
