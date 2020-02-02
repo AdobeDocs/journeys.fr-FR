@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # A propos des actions {#about_actions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_actions&quot;
+>title=&quot;A propos des actions&quot;
+>abstract=&quot;C&#39;est là que vous définissez la connexion au système qui enverra des messages. Les actions définies ici seront alors disponibles dans la palette gauche de votre voyage, dans la catégorie Action.&quot;
 
 La configuration des actions personnalisées est toujours effectuée par un utilisateur **** technique.
 
