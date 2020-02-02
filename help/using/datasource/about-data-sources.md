@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # A propos des sources de données {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;A propos des sources de données&quot;
+>abstract=&quot;La configuration de la source de données est toujours effectuée par un utilisateur technique. La configuration de la source de données vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos voyages, par exemple : définition de condition, données de paramètre et de personnalisation dans les actions, définition d’attente personnalisée, définition de fuseau horaire personnalisé.&quot;
 
 La configuration de la source de données est toujours effectuée par un utilisateur **** technique.
 
