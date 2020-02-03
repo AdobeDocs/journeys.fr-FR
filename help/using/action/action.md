@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
+source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 ---
 
@@ -34,3 +34,5 @@ Pour afficher la liste des actions ou configurer une nouvelle action, cliquez su
 Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action prête à l’emploi. Reportez-vous à [](../action/working-with-adobe-campaign.md).
 
 Si vous utilisez un système tiers pour envoyer des messages, vous devez ajouter et configurer une action personnalisée. Reportez-vous à [](../action/about-custom-action-configuration.md).
+
+C&#39;est un test.
