@@ -1,6 +1,6 @@
 ---
 title: inNextHours
-description: En savoir plus sur la fonction dans NextHours
+description: En savoir plus sur la fonction inNextHours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
 
 # inNextHours {#inNextHours}
 
-Renvoie true si une date ou une dateTime donnée est comprise entre maintenant et maintenant + heures delta.
+Renvoie « true » si une date ou une valeur dateTime donnée est comprise entre maintenant et maintenant + delta heures.
 
 ## Catégorie
 
@@ -32,8 +32,8 @@ Date
 
 | Paramètre | Type |
 |-----------|------------------|
-| heure de la date | dateTime |
-| delta | integer |
+| date et heure | dateTime |
+| delta | entier |
 
 ## Signatures et type renvoyé
 
