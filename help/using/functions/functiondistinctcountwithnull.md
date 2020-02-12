@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-Compte le nombre de valeurs différentes, y compris les valeurs nulles.
+Compte le nombre de valeurs différentes, y compris les valeurs « null ».
 
 ## Catégorie
 
@@ -46,8 +46,8 @@ Agrégation
 
 Renvoie un entier.
 
-## Exemple 
+## Exemple
 
 `distinctCountWithNull([10,2,10,null])`
 
-Renvoie 3.
+Renvoie 3.
