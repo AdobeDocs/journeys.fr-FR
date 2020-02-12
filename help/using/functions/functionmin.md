@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # min {#min}
 
-Renvoie la valeur minimale d’un ensemble d’expressions, exprimée sous la forme d’une liste ou de deux expressions. Les valeurs nulles sont ignorées.
+Renvoie la valeur minimale d’un ensemble d’expressions, exprimée sous la forme d’une liste ou de deux expressions. Les valeurs « null » sont ignorées.
 
 ## Catégorie
 
@@ -35,8 +35,8 @@ Agrégation
 * listDecimal
 * listDateTime
 * listDateTimeOnly
-* duration
-* integer
+* durée
+* entier
 * décimal
 * dateTime
 * dateTimeOnly
@@ -57,7 +57,7 @@ Renvoie une date et une heure sans prendre en compte le fuseau horaire.
 
 `min(<listDateTime>)`
 
-Renvoie une date-time.
+Renvoie une date et une heure.
 
 `min(<listDecimal>)`
 
@@ -73,7 +73,7 @@ Renvoie une durée.
 
 `min(<dateTime>,<dateTime>)`
 
-Renvoie une date-time.
+Renvoie une date et une heure.
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
