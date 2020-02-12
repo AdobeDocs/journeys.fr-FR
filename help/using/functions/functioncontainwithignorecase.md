@@ -1,6 +1,6 @@
 ---
-title: containsWithIgnoreCase
-description: En savoir plus sur la fonction containsWithIgnoreCase
+title: containWithIgnoreCase
+description: En savoir plus sur la fonction containWithIgnoreCase
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 ---
 
 
-# containsWithIgnoreCase {#containWithIgnoreCase}
+# containWithIgnoreCase {#containWithIgnoreCase}
 
-Vérifie si la deuxième chaîne d’arguments est contenue dans la première chaîne d’arguments, sans tenir compte de la casse.
+Vérifie si la chaîne du deuxième argument est contenue dans la chaîne du premier argument, sans tenir compte de la casse.
 
 ## Catégorie
 
@@ -32,8 +32,8 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | string |
-| chaîne recherchée | string |
+| chaîne | chaîne |
+| chaîne recherchée | chaîne |
 
 ## Signature et type renvoyé
 
