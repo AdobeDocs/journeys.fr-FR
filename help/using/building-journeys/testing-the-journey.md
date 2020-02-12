@@ -1,6 +1,6 @@
 ---
 title: Test du parcours
-description: 'En savoir plus sur les tests de parcours '
+description: 'En savoir plus sur le test d’un parcours '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0ab3528b090e34867d54174421741c689e378e7
 
 ---
@@ -18,71 +18,71 @@ source-git-commit: a0ab3528b090e34867d54174421741c689e378e7
 
 # Test du parcours{#testing_the_journey}
 
-Avant de pouvoir tester votre voyage, vous devez résoudre toutes les erreurs éventuelles. Voir la section [](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Voir [](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
-Vous avez la possibilité de tester votre voyage avant sa publication, en utilisant des profils de test. Cela vous permet d’analyser le flux des individus dans le parcours et de résoudre les problèmes avant la publication.
+Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des clients dans le parcours et résoudre les problèmes avant la publication.
 
 >[!NOTE]
 >
->En mode test, toutes les activités d’attente sont automatiquement configurées pour durer 5 secondes. Vous pouvez ainsi accéder rapidement aux résultats du test.
+>En mode test, toutes les activités d’attente sont automatiquement définies sur une durée de 5 secondes. Vous pouvez ainsi accéder rapidement aux résultats du test.
 
-Pour utiliser le mode test, procédez comme suit :
+Pour utiliser le mode test, procédez comme suit :
 
-1. Avant de tester votre voyage, vérifiez qu’il est valide et qu’il n’y a aucune erreur. Vous ne pourrez pas lancer un test d’un voyage avec des erreurs. Voir la section [](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement s’affiche en cas d’erreur.
+1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Voir [](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
 
-1. Pour activer le mode test, cliquez sur la bascule **[!UICONTROL Test]**située dans le coin supérieur droit.
+1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
 
    ![](../assets/journeytest1.png)
 
-1. Cliquez sur **[!UICONTROL Déclencher un événement]**pour configurer et envoyer des événements au voyage. Veillez à envoyer des événements liés aux profils de test. Voir[déclenchement de vos événements](#firing_events).
+1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]**pour afficher le résultat du test et les vérifier. Voir[Affichage des journaux](#viewing_logs).
+1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des journaux](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
-1. En cas d’erreur, désactivez le mode test, modifiez votre voyage et testez-le à nouveau. Lorsque le test est concluant, vous pouvez publier votre voyage. Voir la section [](../building-journeys/publishing-the-journey.md).
+1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Voir [](../building-journeys/publishing-the-journey.md).
 
-## Remarques importantes {#important_notes}
+## Remarques importantes  {#important_notes}
 
-* Une interface est fournie pour déclencher les événements jusqu&#39;au voyage testé, mais les événements peuvent également être envoyés par des systèmes tiers tels que Postman.
-* Seules les personnes identifiées comme &quot;profils de test&quot; dans le service de profil client en temps réel seront autorisées à participer au voyage testé. Le processus de création d’un profil de test est identique à celui de création d’un profil dans la plateforme de données. Vous devez juste vous assurer que l&#39;indicateur de profil de test est vrai. Vous pouvez utiliser la section Segments de l’interface de la plateforme de données pour créer un segment de profils de test dans votre plateforme de données et afficher une liste non exhaustive. La liste exhaustive ne peut pas être affichée pour l&#39;instant.
-* Le mode test est disponible uniquement dans les brouillons de voyages qui utilisent un espace de noms. En effet, le mode test doit vérifier si une personne qui entre dans le voyage est un profil test ou non et doit donc être en mesure d’atteindre la plateforme de données.
-* Le nombre maximal de profils de test pouvant entrer dans un voyage au cours d’une session de test est de 100.
-* Lorsque vous désactivez le mode test, il vide les voyages de toutes les personnes qui y sont entrées dans le passé ou qui y sont actuellement.
+* Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
+* Seules les personnes identifiées comme « profils de test » dans le service Real-time Customer Profile Service sont autorisées à participer au parcours testé. Le processus de création d’un profil de test est identique à celui utilisé pour créer un profil dans Data Platform. Vous devez simplement vous assurer que l’indicateur de profil de test est défini sur « true ». Vous pouvez utiliser la section Segments de l’interface de Data Platform pour créer un segment de profils de test dans Data Platform et afficher une liste non exhaustive. La liste exhaustive ne peut pas être affichée pour l’instant.
+* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un namespace. En effet, le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Data Platform.
+* Le nombre maximum de profils de test pouvant participer à un parcours au cours d’une session de test est de 100.
+* Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
-* Vous ne pouvez pas modifier votre voyage lorsque le mode test est activé. En mode test, vous pouvez publier directement le voyage, sans avoir à désactiver le mode test auparavant.
+* Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 
-## Démarrage de vos événements {#firing_events}
+## Déclenchement d’événements {#firing_events}
 
-Le bouton **[!UICONTROL Déclencher un événement]**vous permet de configurer un événement qui fera entrer une personne dans le voyage.
+Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera entrer une personne dans le parcours.
 
-En tant que prérequis, vous devez savoir quels profils sont marqués comme profils de test dans la plateforme de données. En effet, le mode test n’autorise ces profils que dans le parcours et l’événement doit contenir un identifiant. L’ID attendu dépend de la configuration de l’événement. Il peut s&#39;agir d&#39;un ECID, par exemple.
+Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Data Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
 
-Cet écran vous permet de configurer les champs transmis dans l’événement et l’exécution de l’envoi d’événement. L’interface vous permet de transmettre les informations appropriées dans la charge utile de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test pour une utilisation ultérieure.
+Cet écran vous permet de configurer les champs transmis dans l’événement, ainsi que l’exécution de l’envoi d’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
 ![](../assets/journeytest4.png)
 
-L&#39;interface vous permet de transmettre des paramètres d&#39;événement simples. Si vous souhaitez transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez cliquer sur Affichage **[!UICONTROL du]**code pour voir l’intégralité du code de la charge utile et le modifier. Vous pouvez, par exemple, copier et coller des informations d’événement préparées par un utilisateur technique.
+L’interface vous permet de transmettre des paramètres d’événement simples. Si vous souhaitez transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez cliquer sur **[!UICONTROL Affichage du code]** pour voir l’intégralité du code de la payload et le modifier. Vous pouvez, par exemple, copier et coller des informations d’événement préparées par un utilisateur technique.
 
 ![](../assets/journeytest5.png)
 
-Un utilisateur technique peut également utiliser cette interface pour composer des charges d’événement et déclencher des événements sans avoir à utiliser un outil tiers.
+Un utilisateur technique peut également se servir de cette interface pour composer des payloads d’événement et déclencher des événements sans recourir à un outil tiers.
 
 ## Affichage des journaux {#viewing_logs}
 
-Le bouton **[!UICONTROL Afficher le journal]**vous permet d’afficher les résultats du test. Cette page affiche les informations actuelles du voyage au format JSON. Un bouton permet de copier des noeuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats du test du voyage.
+Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
 ![](../assets/journeytest3.png)
 
-Le nombre d’individus (techniquement, ils sont appelés instances) actuellement à l’intérieur du voyage s’affiche. Voici des informations utiles qui s’affichent pour chaque individu :
+Le nombre de personnes (appelées instances d’un point de vue technique) présentes actuellement à l’intérieur du parcours est affiché. Voici des informations utiles affichées pour chaque individu :
 
-* _Id_: l’ID interne de l’individu dans le parcours. Cela peut être utilisé à des fins de débogage.
-* _current_: l&#39;étape où l&#39;individu est dans le voyage. Nous vous recommandons d’ajouter des étiquettes à vos activités afin de les identifier plus facilement.
-* _current_ > phase : l’état du parcours de l’individu (exécution, achèvement, erreur ou expiration). Voir ci-dessous pour plus d’informations.
-* _current_ > _extraInfo_: description de l’erreur et d’autres informations contextuelles.
-* _externalKeys_: valeur de la formule clé définie dans l’événement.
-* _enrichissementData_: les données que le voyage a récupérées si le voyage utilise des sources de données.
-* _transitionHistory_: liste des étapes suivies par l&#39;individu. Pour les événements, la charge utile s’affiche.
+* _Id_ : identifiant interne de la personne dans le parcours. Il peut être utilisé à des fins de débogage.
+* _Currentstep_ : étape du parcours à laquelle se trouve la personne. Nous vous recommandons d’ajouter des libellés à vos activités afin de les identifier plus facilement.
+* _currentstep_ > phase : statut du parcours de la personne (en cours, terminé, erreur ou délai dépassé). Pour plus d’informations, voir ci-dessous.
+* _currentstep_ > _extraInfo_ : description de l’erreur et autres informations contextuelles.
+* _externalKeys_ : valeur de la formule de clé définie dans l’événement.
+* _enrichedData_ : données récupérées par le parcours si ce dernier utilise des sources de données.
+* _transitionHistory_ : liste des étapes suivies par la personne. Pour les événements, la payload est affichée.
 
