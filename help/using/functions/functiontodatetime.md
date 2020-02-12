@@ -10,14 +10,14 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 ---
 
 # toDateTime {#toDateTime}
 
-Convertit les paramètres en une valeur d’heure de date, selon leur type.
+Convertit les paramètres en une valeur de date et d’heure, selon leurs types.
 
 ## Catégorie
 
@@ -31,14 +31,14 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| heure de date au format ISO-8601 | string |
-| id de fuseau horaire | string |
-| heure de date sans fuseau horaire | dateTimeOnly |
-| valeur entière d’une époque en millisecondes | integer |
+| date et heure au format ISO-8601 | chaîne |
+| identifiant de fuseau horaire | chaîne |
+| date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
+| valeur entière d’une époque en millisecondes | entier |
 
 >[!NOTE]
 >
->L’ID de fuseau horaire doit être une constante de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression. Pour plus d’informations sur les types de données, voir [](../expression/data-types.md).
+>L’identifiant de fuseau horaire doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression. Pour plus d’informations sur les types de données, reportez-vous à la section [](../expression/data-types.md).
 
 ## Signatures et types renvoyés
 
