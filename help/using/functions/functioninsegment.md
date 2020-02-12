@@ -1,6 +1,6 @@
 ---
 title: inSegment
-description: En savoir plus sur la fonction dansSegment
+description: En savoir plus sur la fonction inSegment
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
 
 ---
@@ -20,17 +20,17 @@ source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
 
 Vérifie si une personne appartient à un segment donné.
 
-Le nom du segment doit être une constante de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression.
+Le nom du segment doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression.
 
-Les segments sont définis dans [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’éditeur d’expression fournit une liste de segments terminée automatiquement.
+Les segments sont définis dans [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’éditeur d’expression fournit une liste des segments avec saisie semi-automatique .
 
 >[!NOTE]
 >
->Vous pouvez récupérer jusqu’à 100 segments.
+>Vous pouvez récupérer jusqu’à 100 segments.
 
 ## Catégorie
 
-Adobe Experience Platform
+Adobe Experience Platform
 
 ## Syntaxe de la fonction
 
@@ -48,10 +48,10 @@ Adobe Experience Platform
 
 Renvoie une valeur booléenne.
 
-## Exemple 
+## Exemple
 
 `inSegment("men over 50")`
 
-Explication :
+Explication :
 
-La fonction renvoie **[!UICONTROL true]**si l’individu de l’instance de voyage fait partie du segment de plateforme nommé &quot;hommes de plus de 50 ans&quot;,**[!UICONTROL  false]** dans le cas contraire.
+La fonction renvoie **[!UICONTROL true]** si la personne concernée par l’instance de parcours figure dans le segment de plate-forme « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
