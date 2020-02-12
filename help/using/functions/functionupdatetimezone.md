@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # updateTimeZone {#updateTimeZone}
 
-Renvoie une nouvelle heure de date, avec un nouveau fuseau horaire au même instant.
+Renvoie une nouvelle valeur de date et heure, avec un nouveau fuseau horaire au même instant.
 
 ## Catégorie
 
@@ -30,16 +30,16 @@ Date
 
 ## Paramètres
 
-* ID de fuseau horaire : string
+* identifiant de fuseau horaire : chaîne
 * dateTime
 
 ## Signature et type renvoyé
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
-Renvoie une date-time.
+Renvoie une date et une heure.
 
-## Exemple 
+## Exemple
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
