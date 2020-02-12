@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # matchRegExp {#matchRegExp}
 
-Renvoie true si la chaîne du premier paramètre correspond à l’expression régulière du second paramètre. For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Renvoie « true » si la chaîne du premier paramètre correspond à l’expression régulière du second paramètre. Pour plus d’informations, consultez cette [page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Catégorie
 
@@ -32,21 +32,21 @@ Chaîne
 
 | Paramètre | Type |
 |--- |--- |
-| string | string |
-| regexp | string |
+| chaîne | chaîne |
+| regexp | chaîne |
 
 ## Signature et type renvoyé
 
 `matchRegExp(<string>,<string>)`
 
-Renvoie une valeur true.
+Renvoie true.
 
-## Exemple 
+## Exemple
 
 `matchRegExp("Hello World", "Hello\s+World")`
 
 Renvoie true.
 
-Explication :
+Explication :
 
-Vous pouvez vérifier ici si la chaîne satisfait à l’expression régulière (syntaxe java) : commence par &quot;Hello&quot;, puis tout type de chaîne et se termine par &quot;World&quot;.
+Vous pouvez vérifier ici si la chaîne satisfait à l’expression régulière (syntaxe java) : commence par « Hello », puis tout type de chaîne et se termine par « World ».
