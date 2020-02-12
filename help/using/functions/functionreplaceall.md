@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 Remplace toutes les occurrences correspondant à la chaîne cible par la chaîne de remplacement dans la chaîne de base.
 
-Le remplacement s’effectue du début de la chaîne à la fin, par exemple, le remplacement de &quot;aa&quot; par &quot;b&quot; dans la chaîne &quot;aaa&quot; entraînera &quot;ba&quot; plutôt que &quot;ab&quot;.
+Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 ## Catégorie
 
@@ -34,9 +34,9 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|--------------|
-| base | string |
-| cible | string |
-| remplacement | string |
+| base | chaîne |
+| cible | chaîne |
+| remplacement | chaîne |
 
 ## Signature et type renvoyé
 
@@ -44,8 +44,8 @@ Chaîne
 
 Renvoie une chaîne.
 
-## Exemple 
+## Exemple
 
 `replaceAll("Hello World", "l", "x")`
 
-Renvoie &quot;Hexxo Worxd&quot;.
+Renvoie « Hexxo Worxd ».
