@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # setHours {#setHours}
 
-Définit uniquement les heures d’une date ou d’une date. Par exemple, si vous voulez attendre une certaine heure demain, vous pouvez forcer l&#39;heure.
+Définit les heures d’une date ou d’une date sans prise en compte du fuseau horaire. Par exemple, si vous voulez attendre jusqu’à une certaine heure demain, vous pouvez forcer l’heure.
 
 ## Catégorie
 
@@ -32,15 +32,15 @@ Date
 
 | Paramètre | Type |
 |--- |--- |
-| heure de la date | dateTime |
-| heure de la date sans tenir compte du fuseau horaire | dateTimeOnly |
-| heures | integer |
+| date et heure | dateTime |
+| date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
+| heures | entier |
 
 ## Signatures et type renvoyé
 
 `setHours(<dateTime>,<hours>)`
 
-Renvoie une date-time.
+Renvoie une date et une heure.
 
 `setHours(<dateTimeOnly>,<hours>)`
 
@@ -54,4 +54,4 @@ Renvoie 2010-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Retourne demain à 20 heures.
+Renvoie la date de demain à 20 heures.
