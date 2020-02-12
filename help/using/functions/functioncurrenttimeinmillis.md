@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-Renvoie l’heure actuelle en quelques millisecondes.
+Renvoie l’heure actuelle en millisecondes depuis le début de l’époque.
 
 ## Catégorie
 
@@ -42,4 +42,4 @@ Renvoie un entier.
 
 `currentTimeInMillis()`
 
-Renvoie &quot;1544712617131&quot;.
+Renvoie « 1544712617131 ».
