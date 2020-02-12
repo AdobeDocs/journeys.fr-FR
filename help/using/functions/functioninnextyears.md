@@ -1,6 +1,6 @@
 ---
 title: inNextYears
-description: En savoir plus sur la fonction dans NextYears
+description: En savoir plus sur la fonction inNextYears
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1441402b50414443a6b6bb3087cf648cc74faa49
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 1441402b50414443a6b6bb3087cf648cc74faa49
 
 # inNextYears {#inNextYears}
 
-Renvoie true si une date ou une dateTime donnée est comprise entre maintenant et maintenant + années delta.
+Renvoie « true » si une date ou une valeur dateTime donnée est comprise entre maintenant et maintenant + delta ans.
 
 ## Catégorie
 
@@ -32,8 +32,8 @@ Date
 
 | Paramètre | Type |
 |-----------|------------------|
-| heure de la date | dateTime |
-| delta | integer |
+| date et heure | dateTime |
+| delta | entier |
 
 ## Signatures et type renvoyé
 
