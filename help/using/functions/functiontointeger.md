@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # toInteger {#toInteger}
 
-Convertit une valeur d’argument en entier.
+Convertit une valeur d’argument en nombre entier.
 
 ## Catégorie
 
@@ -32,10 +32,10 @@ Conversion
 
 | Paramètre | Description |
 |--- |--- |
-| string | convertit la valeur de chaîne en entier |
-| dateTime | convertit la date en millisecondes (quelques millisecondes) |
-| décimal | convertit en entier en supprimant la partie décimale (exemple : 1.5 devient 1) |
-| boolean | convertit la valeur booléenne en 1 si true, 0 si false |
+| chaîne | convertit la valeur de la chaîne en nombre entier |
+| dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
+| décimal | convertit la valeur d’argument en nombre entier en supprimant la partie décimale (exemple : 1,5 devient 1) |
+| booléen | convertit la valeur booléenne en 1 si true, 0 si false |
 
 ## Signatures et type renvoyé
 
@@ -49,7 +49,7 @@ Conversion
 
 `toInteger(<boolean>)`
 
-Renvoie un entier.
+Renvoie un nombre entier.
 
 ## Exemples
 
