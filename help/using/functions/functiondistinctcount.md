@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # distinctCount{#distinctCount}
 
-Compte le nombre de valeurs différentes ignorant les valeurs nulles.
+Compte le nombre de valeurs différentes en ignorant les valeurs « null ».
 
 ## Catégorie
 
@@ -46,7 +46,7 @@ Agrégation
 
 Renvoie un entier.
 
-## Exemple 
+## Exemple
 
 `distinctCount([10,2,10,null])`
 
