@@ -1,6 +1,6 @@
 ---
-title: contains
-description: En savoir plus sur la fonction contient
+title: contain
+description: En savoir plus sur la fonction contain
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
 
 
-# contains {#contain}
+# contain {#contain}
 
-Vérifie si la deuxième chaîne d’arguments est contenue dans la première chaîne d’arguments.
+Vérifie si la chaîne du deuxième argument est contenue dans la chaîne du premier argument.
 
 ## Catégorie
 
@@ -30,7 +30,7 @@ Chaîne
 
 ## Paramètres
 
-* string
+* chaîne
 
 ## Signature et type renvoyé
 
@@ -38,7 +38,7 @@ Chaîne
 
 Renvoie une valeur booléenne.
 
-## Exemple 
+## Exemple
 
 `contain("rowing is great', "great")`
 
