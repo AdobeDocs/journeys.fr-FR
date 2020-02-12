@@ -1,6 +1,6 @@
 ---
 title: sum
-description: En savoir plus sur la somme des fonctions
+description: En savoir plus sur la fonction sum
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 # sum {#sum}
 
-Renvoie la somme des valeurs d’un ensemble d’expressions. Les valeurs nulles sont ignorées.
+Renvoie la somme des valeurs d’un ensemble d’expressions. Les valeurs « null » sont ignorées.
 
 ## Catégorie
 
@@ -32,8 +32,8 @@ Agrégation
 
 * listInteger
 * listDecimal
-* duration
-* integer
+* durée
+* entier
 * décimal
 
 ## Signatures et types renvoyés
