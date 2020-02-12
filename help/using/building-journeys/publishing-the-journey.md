@@ -1,6 +1,6 @@
 ---
-title: Publication du voyage
-description: En savoir plus sur la publication de voyage
+title: Publication du parcours
+description: En savoir plus sur la publication de parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,30 +10,30 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 ---
 
 
-# Publication du voyage{#concept_mtc_lrt_52b}
+# Publication du parcours{#concept_mtc_lrt_52b}
 
-Vous pouvez publier un voyage après avoir testé sa validité.
+Vous pouvez publier un parcours après avoir testé sa validité.
 
-Si vous devez apporter des modifications à un voyage publié, vous devez créer une nouvelle version de votre voyage. Voir la section [](../building-journeys/journey-versions.md). Lorsqu&#39;un voyage est en lecture seule, vous ne pouvez modifier que les étiquettes et descriptions d&#39;activité, le nom du voyage et la description du voyage.
+Si vous devez apporter des modifications à un parcours publié, vous devez en créer une nouvelle version. Voir [](../building-journeys/journey-versions.md). Lorsqu’un parcours est en lecture seule, vous ne pouvez modifier que les libellés et descriptions d’activité, ainsi que le nom et la description du parcours.
 
-Si vous arrêtez un voyage, il sera arrêté définitivement. Toutes les personnes qui circulent dans le voyage seront arrêtées définitivement et le voyage cessera de permettre de nouvelles entrées. Si vous devez réutiliser le voyage, vous devez le dupliquer et le publier.
+Si vous arrêtez un parcours, il l’est définitivement. Toutes les personnes figurant dans le parcours seront définitivement arrêtées et les nouvelles entrées ne seront plus autorisées. Si vous devez réutiliser le parcours, vous devez le dupliquer et le publier.
 
-1. Avant de publier votre voyage, vérifiez qu’il est valide et qu’il n’y a aucune erreur. Vous ne pourrez pas publier un voyage avec des erreurs. Voir la section [](../about/troubleshooting.md#section_h3q_kqk_fhb). Il est également recommandé de tester votre voyage avant publication. Voir la section [](../building-journeys/testing-the-journey.md).
-1. Pour publier le voyage, cliquez sur l’option **[!UICONTROL Publier]**, située dans le menu déroulant supérieur droit.
+1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi toute publication s’avérera impossible. Voir [](../about/troubleshooting.md#section_h3q_kqk_fhb). Il est également recommandé de tester votre parcours avant de le publier. Voir [](../building-journeys/testing-the-journey.md).
+1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.
 
    ![](../assets/journeyuc1_18.png)
 
-Lorsque le voyage est publié, il est en mode lecture seule.
+Une fois le parcours publié, il est en lecture seule.
 
-Voici les différents statuts du parcours d&#39;un individu :
+Les différents statuts du parcours d’un client sont les suivants :
 
-* _En cours_: la personne est actuellement en voyage.
-* _Terminé_: l&#39; individu est à la fin du voyage.
-* _Erreur_: l&#39;individu est arrêté dans le voyage à cause d&#39;une erreur.
-* _Délai d’expiration_: l&#39; individu est arrêté dans le voyage à cause d&#39; une étape qui a pris trop de temps.
+* _En cours_ : le client figure actuellement dans le parcours.
+* _Terminé_ : le client a atteint la fin du parcours.
+* _Erreur_ : le parcours du client a été arrêté en raison d’une erreur.
+* _Délai dépassé_ : le parcours du client a été arrêté, car l’exécution d’une étape a pris trop de temps.
