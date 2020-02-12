@@ -1,6 +1,6 @@
 ---
-title: Versions de voyage
-description: En savoir plus sur les versions de voyage
+title: Versions de parcours
+description: En savoir plus sur les versions de parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,36 +10,36 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 ---
 
 
-# Versions de voyage{#concept_ldc_k55_zgb}
+# Versions de parcours{#concept_ldc_k55_zgb}
 
-Dans la liste des trajets, toutes les versions du voyage sont affichées avec le numéro de version. Voir la section [](../building-journeys/using-the-journey-designer.md). Lorsque vous recherchez un voyage, les nouvelles versions apparaissent en haut de la liste la première fois que l’application s’ouvre. Ensuite, vous pouvez définir le tri souhaité et l’application le conserve comme une préférence utilisateur. La version du voyage est également affichée en haut de l&#39;interface de l&#39;édition du voyage, au-dessus du canevas.
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [](../building-journeys/using-the-journey-designer.md). Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l’application. Vous pouvez ensuite définir l’ordre de tri souhaité ; l’application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus du canevas.
 
 ![](../assets/journeyversions1.png)
 
-Si vous devez effectuer un voyage en direct, vous devez créer une nouvelle version de votre voyage.
+Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
 
-1. Ouvrez la dernière version de votre parcours en direct, cliquez sur **[!UICONTROL Créer une nouvelle version]**et confirmez.
+1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
    ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
-   >Vous pouvez uniquement créer une nouvelle version à partir de la dernière version d’un voyage.
+   >Vous ne pouvez créer une version qu’à partir de la dernière version d’un parcours.
 
-1. Effectuez vos modifications, cliquez sur **[!UICONTROL Publier]**et confirmez.
+1. Effectuez vos modifications, cliquez sur **[!UICONTROL Publier]**, puis confirmez.
 
    ![](../assets/journeyversions3.png)
 
-Dès que le voyage sera publié, les individus commenceront à s&#39;introduire dans la dernière version du voyage. Les personnes qui sont déjà entrées dans une version précédente y restent jusqu&#39;à ce qu&#39;elles finissent le voyage. S&#39;ils reviennent plus tard dans le même voyage, ils entreront dans la dernière version.
+Aussitôt le parcours publié, les clients commencent à accéder à la dernière version. Les clients qui ont déjà accédé à une version antérieure y restent jusqu’à la fin du parcours. En cas de rentrée ultérieure dans le même parcours, les clients accéderont à la version la plus récente.
 
-Les versions de voyage peuvent être arrêtées individuellement. Toutes les versions des voyages portent le même nom.
+Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions des parcours portent le même nom.
 
 >[!NOTE]
 >
->Si vous disposez de plusieurs versions en direct et que vous arrêtez la dernière, les utilisateurs ne reviendront pas à une version précédente. Aucune entrée dans le voyage n&#39;aura lieu.
+>Si vous disposez de plusieurs versions actives et que vous arrêtez la dernière, les clients ne reviendront pas à une version active précédente. Aucune entrée dans le parcours ne sera effectuée.
