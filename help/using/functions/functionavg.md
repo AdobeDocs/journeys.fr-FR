@@ -1,6 +1,6 @@
 ---
 title: avg
-description: En savoir plus sur la variable de fonction
+description: En savoir plus sur la fonction avg
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 # avg {#avg}
 
-Renvoie la valeur moyenne d’un ensemble d’expressions, exprimée sous la forme d’une liste ou de deux expressions. Les valeurs nulles sont ignorées.
+Renvoie la valeur moyenne d’un ensemble d’expressions, exprimée sous la forme d’une liste ou de deux expressions. Les valeurs « null » sont ignorées.
 
 
 ## Catégorie
@@ -31,12 +31,12 @@ Agrégation
 
 ## Paramètres
 
-Types pris en charge :
+Types pris en charge :
 
 * listInteger
 * listDecimal
 * décimal
-* integer
+* entier
 
 ## Signatures et type renvoyé
 
@@ -62,8 +62,8 @@ Renvoie une valeur décimale.
 
 `avg([10,3,8])`
 
-Renvoie 7.0.
+Renvoie 7,0.
 
 `avg(10.2, 3)`
 
-Renvoie 6.6.
+Renvoie 6,6.
