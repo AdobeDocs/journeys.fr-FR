@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -32,7 +32,7 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | Chaîne |
+| chaîne | Chaîne |
 | valeur spécifiée | Chaîne |
 
 ## Signature et type renvoyé
@@ -41,12 +41,12 @@ Chaîne
 
 Renvoie un entier.
 
-## Exemple 
+## Exemple
 
 `lastIndexOf("Hello, "l"))`
 
 Renvoie 3.
 
-Explication :
+Explication :
 
-Dans &quot;Hello&quot;, la dernière occurrence de &quot;l&quot; est à la position 3.
+Dans « Hello », la dernière occurrence de « l » est en position 3.
