@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -32,10 +32,10 @@ Conversion
 
 | Paramètre | Description |
 |--- |--- |
-| string | convertit la valeur de chaîne en décimale. |
-| dateTime | convertit la date en millisecondes (quelques millisecondes) |
-| boolean | convertit la valeur booléenne en 1 si true, 0 si false |
-| integer | convertit en décimal (exemple).: 1 devient 1.0) |
+| chaîne | convertit la valeur de la chaîne en valeur décimale |
+| dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
+| booléen | convertit la valeur booléenne en 1 si true, 0 si false |
+| entier | convertit en valeur décimale (exemple :1 devient 1,0) |
 
 ## Signatures et types renvoyés
 
@@ -53,4 +53,4 @@ Renvoie une valeur décimale.
 
 `toDecimal("4.0")`
 
-Renvoie 4.0.
+Renvoie 4,0.
