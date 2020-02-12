@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # uuid {#uuid}
 
-Génère un UUID aléatoire (Universal Unique IDentifier).
+Génère un UUID (Universal Unique Identifier) aléatoire.
 
 ## Catégorie
 
@@ -38,8 +38,8 @@ Cette fonction ne requiert pas de paramètres.
 
 Renvoie une chaîne.
 
-## Exemple 
+## Exemple
 
 `uuid()`
 
-Renvoie &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;.s
+Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 »
