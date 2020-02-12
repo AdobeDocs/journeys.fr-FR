@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 # toString {#toString}
 
-Convertit une valeur d’argument en valeur de chaîne, selon son type. Pour plus d’informations sur les types de données, voir [](../expression/data-types.md).
+Convertit une valeur d’argument en valeur de chaîne, selon son type. Pour plus d’informations sur les types de données, reportez-vous à la section [](../expression/data-types.md).
 
 ## Catégorie
 
@@ -32,13 +32,13 @@ Conversion
 
 | Paramètre | Description |
 |--- |--- |
-| dateTime | convertit la date au format de date UTC |
-| dateTimeOnly | convertit la date au format de date UTC |
-| duration | convertir en nombre de millisecondes correspondant sous forme de chaîne |
-| fuseau horaire | convertir en représentation de chaîne d’ID de fuseau horaire (ID JODA) |
-| integer | convertit en représentation sous forme de chaîne de la valeur (1 devient &quot;1&quot;) |
-| décimal | convertit en représentation sous forme de chaîne de la valeur (1.5 devient &quot;1.5&quot;) |
-| boolean | convertir la valeur booléenne en &quot;true&quot; si true, &quot;false&quot; si false |
+| dateTime | Convertit la date au format UTC |
+| dateTimeOnly | Convertit la date au format UTC |
+| durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
+| fuseau horaire | Convertit le paramètre en représentation sous forme de chaîne de l’identifiant de fuseau horaire (id JODA) |
+| entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
+| décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
+| booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
 ## Signatures et type renvoyé
 
@@ -58,8 +58,8 @@ Conversion
 
 Renvoie une chaîne.
 
-## Exemple 
+## Exemple
 
 `toString(4)`
 
-Renvoie &quot;4&quot;.
+Renvoie « 4 ».
