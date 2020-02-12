@@ -1,6 +1,6 @@
 ---
-title: trier
-description: En savoir plus sur le tri des fonctions
+title: sort
+description: En savoir plus sur la fonction sort
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,13 +10,13 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
 
 
-# trier {#sort}
+# sort {#sort}
 
 Trie une liste de valeurs dans l’ordre naturel. Le premier argument est la liste des valeurs, le second est une valeur booléenne indiquant si le tri est croissant (true) ou décroissant (false).
 
@@ -49,7 +49,7 @@ Renvoie une liste de nombres entiers.
 
 `sort(<listDecimal>,<boolean>)`
 
-Renvoie une liste de décimales.
+Renvoie une liste de nombres décimaux.
 
 `sort(<listString>,<boolean>)`
 
@@ -57,22 +57,22 @@ Renvoie une liste de chaînes.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Renvoie une liste des datetimes sans tenir compte du fuseau horaire.
+Renvoie une liste de dates et heures sans tenir compte du fuseau horaire.
 
 `sort(<listDateTime>,<boolean>)`
 
-Renvoie une liste des datetimes.
+Renvoie une liste de dates et heures.
 
 `sort(<listBoolean>,<boolean>)`
 
-Renvoie une liste de booléens.
+Renvoie une liste de valeurs booléennes.
 
-## Exemple 
+## Exemple
 
 `sort(["A", "C", "B"], true)`
 
-Returns `["A","B","C"]`.
+Renvoie `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Returns `[3, 2, 1]`.
+Renvoie `[3, 2, 1]`.
