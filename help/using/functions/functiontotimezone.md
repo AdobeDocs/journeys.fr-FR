@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -32,7 +32,7 @@ Conversion
 
 | Paramètre | Description |
 |--- |--- |
-| string | La valeur de chaîne doit contenir l’identifiant de zone. Il peut s’agir d’une référence de champ ou d’une expression |
+| chaîne | La valeur de chaîne doit contenir l’identifiant de fuseau horaire. Il peut s’agir d’une référence de champ ou d’une expression |
 
 ## Signatures et types renvoyés
 
@@ -44,4 +44,4 @@ Renvoie un fuseau horaire.
 
 `toTimeZone("UTC")`
 
-Renvoie UTC.
+Renvoie un fuseau horaire au format UTC.
