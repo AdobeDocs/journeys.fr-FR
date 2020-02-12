@@ -1,6 +1,6 @@
 ---
 title: concat
-description: En savoir plus sur le concept de fonction
+description: En savoir plus sur la fonction concat
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 ---
@@ -33,7 +33,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|------------------|
 | Liste | listString |
-| string | string |
+| chaîne | chaîne |
 
 ## Signature et type renvoyé
 
@@ -43,12 +43,12 @@ Chaîne
 
 Renvoie une chaîne.
 
-## Exemple 
+## Exemple
 
 `concat("Hello","World")`
 
-Renvoie &quot;HelloWorld&quot;.
+Renvoie « HelloWorld ».
 
 `concat(["Hello"," ","World"])`
 
-Renvoie &quot;Hello World&quot;.
+Renvoie « Hello World ».
