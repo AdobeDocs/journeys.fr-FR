@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cdede8bc301203d88b551a5cb4dcdbe4e7fe49a7
 
 ---
@@ -18,18 +18,18 @@ source-git-commit: cdede8bc301203d88b551a5cb4dcdbe4e7fe49a7
 
 # Notes de mise à jour {#release-notes}
 
-Cette page dresse la liste de toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
-Vous pouvez également consulter les Mises à jour [de la](../release-notes/documentation-updates.md)documentation.
+Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
+Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version GA - Décembre 2019 {#ga-release---december-2019}
+## Version GA - Décembre 2019 {#ga-release---december-2019}
 
-L&#39;orchestration de Journey est maintenant GA.
+Journey Orchestration est maintenant disponible en version GA (disponibilité générale).
 
-Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
+Créez des cas pratiques d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
-L’orchestration du parcours permet une orchestration en temps réel basée sur des données contextuelles issues d’événements, des informations issues de la plateforme Adobe Experience Platform ou des données issues de services API tiers. L’application détermine, dans les flux à plusieurs étapes appelés voyages, les meilleures actions spécifiques au consommateur, en fonction de son profil et de ses comportements. Cela comprend à la fois le timing optimal et le type d’action, tel que l’envoi d’une notification Push au consommateur via les fonctionnalités de messagerie transactionnelle Adobe Campaign Standard (nécessite Adobe Campaign Standard) ou la notification d’un système tiers. Ces décisions sont prises en fonction des règles et des scores de Sensei.
+Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au consommateur, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push au consommateur à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction de scores Sensei et de règles.
 
-[En savoir plus](../action/working-with-adobe-campaign.md) sur l&#39;orchestration de Journey.
+[En savoir plus](../action/working-with-adobe-campaign.md) sur Journey Orchestration.
 
 Ressources supplémentaires :
 
