@@ -1,9 +1,9 @@
 ---
 keywords: Journeys;home;popular topics
 solution: Journeys
-title: Documentation du produit Journey Orchestration
+title: Documentation de Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ---
@@ -15,13 +15,13 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ## Prise en main
 
-* **[En quoi consiste l’orchestration d’un parcours ?](using/action/working-with-adobe-campaign.md)**<br/>En savoir plus sur l&#39;orchestration de Journey.
+* **[Présentation de Journey Orchestration](using/action/working-with-adobe-campaign.md)**<br/>En savoir plus sur Journey Orchestration.
 
-* **[Construisez votre premier voyage](using/about/get-started.md)**<br/>Découvrez les étapes principales pour configurer Journey Orchestration et construisez votre premier voyage.
+* **[Créer votre premier parcours](using/about/get-started.md)**<br/>Découvrez les principales étapes de configuration de Journey Orchestration et créez votre premier parcours.
 
-* **[Configuration d&#39;un événement](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Découvrez comment configurer les événements que vos voyages écouteront.
+* **[Configurer un événement](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Découvrez comment configurer les événements qui seront écoutés dans vos parcours.
 
-* **[Accorder l&#39;accès à l&#39;orchestration](using/about/access-management.md)**<br/>de Journey Découvrez comment gérer l&#39;accès de vos utilisateurs avec les profils et les droits des produits.
+* **[Accorder l’accès à Journey Orchestration](using/about/access-management.md)**<br/>Découvrez comment gérer l’accès de vos utilisateurs à l’aide de droits et de profils de produit.
 
 ## Pages principales
 
@@ -34,17 +34,17 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
     <div>
     <a href="using/about/troubleshooting.md"><strong>Résolution des problèmes</strong></a>
     </div>
-    <em></em>Découvrez les différents outils que vous pouvez utiliser pour dépanner vos voyages.
+    <em>Découvrez les différents outils mis à votre disposition pour résoudre les problèmes relatifs à vos parcours.</em>
     <br>
   </td>
   <td valign="top">
     <a href="using/usecase/building-the-journey.md">
-      <img alt="construire" src="using/assets/do-not-localize/design.png"/>
+      <img alt="build" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
-    <a href="using/usecase/building-the-journey.md"><strong>Utilisation :</strong></a>
+    <a href="using/usecase/building-the-journey.md"><strong>Cas pratique</strong></a>
     </div>
-    <em></em>Découvrez comment créer un voyage avancé étape par étape.
+    <em>Découvrez comment créer un parcours avancé, étape par étape.</em>
     <br>
   </td>
   <td valign="top">
@@ -54,7 +54,7 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Création d’expressions avancées</strong></a>
     </div>
-    <em>Découvrez comment créer des expressions complexes en exploitant les données des événements et des sources de données. </em>
+    <em>Découvrez comment créer des expressions complexes en exploitant les données issues d’événements et de sources de données. </em>
     <br>
   </td>
 </tr>
@@ -62,9 +62,9 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ## Ressources supplémentaires
 
-* [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
-* [Profil du client en temps réel](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Définition du champ XDM d’Experience Cloud](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Espace de noms Identity](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [API d&#39;importation en flux continu](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Messagerie transactionnelle Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
+* [Real-time Customer Profile](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
+* [Définition de champs XDM Experience Cloud](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
+* [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
+* [API d’ingestion de diffusion](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
+* [Messages transactionnels d’Adobe Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
