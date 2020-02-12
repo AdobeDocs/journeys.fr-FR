@@ -1,6 +1,6 @@
 ---
-title: maintenant
-description: En savoir plus sur la fonction maintenant
+title: now
+description: En savoir plus sur la fonction now
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 ---
 
 
-# maintenant {#now}
+# now {#now}
 
-Renvoie la date actuelle au format d’heure de la date. Pour plus d’informations sur les types de données, voir [](../expression/data-types.md).
+Renvoie la date actuelle au format date et heure. Pour plus d’informations sur les types de données, reportez-vous à la section [](../expression/data-types.md).
 
 ## Catégorie
 
@@ -32,7 +32,7 @@ Date
 
 | Paramètre | Description |
 |--- |--- |
-| string |  |
+| chaîne |  |
 
 ## Signatures et type renvoyé
 
@@ -40,7 +40,7 @@ Date
 
 `"now(<timeZone id>")`
 
-Renvoie une dateTime.
+Renvoie une valeur dateTime.
 
 ## Exemples
 
@@ -50,7 +50,7 @@ Renvoie 2019-06-03T06:30Z.
 
 `toString(now())`
 
-Renvoie &quot;2019-06-03T06:30Z&quot;
+Renvoie « 2019-06-03T06:30Z »
 
 `now("Europe/Paris")`
 
