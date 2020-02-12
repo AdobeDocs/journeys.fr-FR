@@ -1,6 +1,6 @@
 ---
-title: Aperçu de la charge utile
-description: Découvrez comment prévisualiser la charge utile
+title: Aperçu de la payload
+description: Découvrez comment prévisualiser la payload
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,29 +10,29 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 ---
 
 
 
-# Aperçu de la charge utile {#concept_jgf_4yk_4fb}
+# Aperçu de la payload {#concept_jgf_4yk_4fb}
 
-L’aperçu de la charge utile vous permet de valider la définition de la charge utile.
+Cet aperçu vous permet de valider la définition de la payload.
 
 >[!NOTE]
 >
->Lorsque vous créez un événement, avant d’afficher l’aperçu de la charge utile, enregistrez-le et rouvrez-le. Cette étape est nécessaire pour générer un ID d’événement dans la charge utile.
+>Lorsque vous créez un événement, enregistrez-le et rouvrez-le avant d’afficher l’aperçu de la payload. Cette étape est nécessaire pour générer un identifiant d’événement dans la payload.
 
-1. Cliquez sur l’icône **[!UICONTROL Afficher la charge utile]**pour prévisualiser la charge utile attendue par le système.
+1. Cliquez sur l’icône **[!UICONTROL Afficher la payload]** pour prévisualiser la payload attendue par le système.
 
    ![](../assets/journey13.png)
 
-   Vous pouvez constater que les champs sélectionnés sont affichés.
+   Vous remarquerez que les champs sélectionnés sont affichés.
 
    ![](../assets/journey14.png)
 
-1. Vérifiez l’aperçu pour valider la définition de charge utile.
+1. Vérifiez l’aperçu pour valider la définition de la payload.
 
-1. Vous pouvez ensuite partager l’aperçu de la charge utile avec la personne responsable de l’envoi de l’événement. Cette charge utile peut l&#39;aider à concevoir la configuration d&#39;un événement poussant vers l&#39;orchestration de Journey. Voir la section [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vous pouvez ensuite partager l’aperçu de la payload avec la personne responsable de l’envoi de l’événement. Cette payload peut l’aider à concevoir la configuration d’un envoi d’événement vers Journey Orchestration. Voir [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
