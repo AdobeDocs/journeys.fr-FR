@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # indexOf {#indexOf}
 
-Vérifie si la première chaîne d’arguments se termine par une chaîne spécifique (deuxième chaîne d’arguments). Si la chaîne est introuvable, renvoie -1.
+Vérifie si la chaîne du premier argument se termine par une chaîne spécifique (chaîne du deuxième argument). Si la chaîne est introuvable, renvoie -1.
 
 ## Catégorie
 
@@ -32,7 +32,7 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | Chaîne |
+| chaîne | Chaîne |
 | valeur spécifiée | Chaîne |
 
 ## Signature et type renvoyé
@@ -41,12 +41,12 @@ Chaîne
 
 Renvoie un entier.
 
-## Exemple 
+## Exemple
 
 `indexOf("Hello, "l"))`
 
-Renvoie 2.
+Renvoie 2.
 
-Explication :
+Explication :
 
-Dans &quot;Hello&quot;, la première occurrence de &quot;l&quot; est à la position 2.
+Dans « Hello », la première occurrence de « l » est en position 2.
