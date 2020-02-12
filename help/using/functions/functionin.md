@@ -1,6 +1,6 @@
 ---
 title: in
-description: En savoir plus sur la fonction dans
+description: En savoir plus sur la fonction in
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # in {#in}
 
-Vérifie si la première valeur d’argument figure dans la liste. La vérification est effectuée par l’intermédiaire d’une valeur Equal sur chaque valeur d’argument. Elle renvoie true si la valeur de l’argument est trouvée, false dans le cas contraire.
+Vérifie si la valeur du premier argument figure dans la liste. La vérification est effectuée par l’intermédiaire d’un opérateur Equal sur chaque valeur d’argument. Elle renvoie true si la valeur de l’argument est trouvée, false dans le cas contraire.
 
-Le type du `<expression>` doit correspondre aux éléments de la liste. Les types d’éléments de la liste, à titre de rappel, doivent correspondre les uns aux autres.
+Le type de l’`<expression>` doit correspondre aux éléments de la liste. Pour mémoire, les types d’éléments de la liste doivent correspondre les uns aux autres.
 
 ## Catégorie
 
@@ -67,7 +67,7 @@ Liste
 
 Renvoie une valeur booléenne.
 
-## Exemple 
+## Exemple
 
 `in(4,[4,5,3,4])`
 
