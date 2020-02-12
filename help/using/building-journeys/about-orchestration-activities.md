@@ -1,5 +1,5 @@
 ---
-title: A propos des activités d’orchestration
+title: À propos des activités d’orchestration
 description: En savoir plus sur les activités d’orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
 
 ---
 
 
-# A propos des activités d’orchestration {#concept_ksq_2rt_52b}
+# À propos des activités d’orchestration {#concept_ksq_2rt_52b}
 
-Dans la palette, sur le côté gauche de l’écran, les activités d’orchestration suivantes sont disponibles :
+Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
 * [](../building-journeys/condition-activity.md)
 * [](../building-journeys/end-activity.md)
