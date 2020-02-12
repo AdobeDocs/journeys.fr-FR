@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 
 ---
@@ -18,20 +18,20 @@ source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 
 # Fonctions {#concept_p1r_qj5_dgb}
 
-Une fonction peut avoir des signatures différentes (un ensemble de paramètres triés différent). Une signature de fonction peut avoir des expressions 0-N comme paramètres ordonnés.
+Une fonction peut avoir différentes signatures (ensemble différent de paramètres ordonnés). Une signature de fonction peut avoir de 0 à N expressions sous la forme de paramètres ordonnés.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Chaque fonction a un type renvoyé spécifique.
+Chaque fonction renvoie une valeur de type spécifique.
 
-Voici la liste des fonctions prises en charge.
+Voici la liste des fonctions prises en charge :
 
 ## Principales fonctions
 
 | Catégorie | Fonction |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
-| Adobe Experience Platform | [](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
+| Adobe Experience Platform | [](../functions/functioninsegment.md) |
 | Agrégation | [](../functions/functionavg.md) |
 | Agrégation | [](../functions/functioncount.md) |
 | Agrégation | [](../functions/functioncountonlynull.md) |
@@ -67,8 +67,8 @@ Voici la liste des fonctions prises en charge.
 | Liste | [](../functions/functionlistsize.md) |
 | Liste | [](../functions/functionserializelist.md) |
 | Liste | [](../functions/functionsort.md) |
-| Maths | [](../functions/functionrandom.md) |
-| Maths | [](../functions/functionround.md) |
+| Mathématique | [](../functions/functionrandom.md) |
+| Mathématique | [](../functions/functionround.md) |
 | Chaîne | [](../functions/functionconcat.md) |
 | Chaîne | [](../functions/functioncontain.md) |
 | Chaîne | [](../functions/functioncontainwithignorecase.md) |
