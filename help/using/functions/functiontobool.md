@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -20,8 +20,8 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 Convertit une valeur d’argument en valeur booléenne, selon son type.
 
-* De la chaîne : essayez de convertir la valeur de chaîne en valeur booléenne, de &quot;true&quot; si la valeur de chaîne est &quot;true&quot;, de &quot;false&quot; dans le cas contraire.
-* Numérique : true si la valeur numérique n’est pas égale à 0, false dans le cas contraire
+* À partir d’une chaîne : la fonction tente de convertir la valeur de chaîne en valeur booléenne. Renvoie true si la valeur de chaîne est « true », sinon renvoie false.
+* À partir d’une valeur numérique : renvoie true si la valeur numérique n’est pas égale à 0, sinon renvoie false.
 
 ## Catégorie
 
@@ -34,9 +34,9 @@ Conversion
 ## Paramètres
 
 * décimal
-* boolean
-* string
-* integer
+* booléen
+* chaîne
+* entier
 
 ## Signatures et types renvoyés
 
