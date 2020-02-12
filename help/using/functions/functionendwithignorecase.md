@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-Vérifie si la première chaîne d’arguments se termine par une chaîne spécifique (deuxième chaîne d’arguments), sans tenir compte de la casse.
+Vérifie si la chaîne du premier argument se termine par une chaîne spécifique (chaîne du deuxième argument), sans tenir compte de la casse.
 
 ## Catégorie
 
@@ -32,8 +32,8 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | string |
-| suffixe | string |
+| chaîne | chaîne |
+| suffixe | chaîne |
 
 ## Signature et type renvoyé
 
@@ -41,7 +41,7 @@ Chaîne
 
 Renvoie une valeur booléenne.
 
-## Exemple 
+## Exemple
 
 `endWithIgnoreCase("rowing is great', "AT")`
 
