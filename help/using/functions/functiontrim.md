@@ -1,6 +1,6 @@
 ---
-title: rogner
-description: En savoir plus sur le rognage de fonction
+title: trim
+description: En savoir plus sur la fonction trim
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,13 +10,13 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 ---
 
 
-# rogner {#trim}
+# trim {#trim}
 
 Supprime les espaces de début et de fin.
 
@@ -32,7 +32,7 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | string |
+| chaîne | chaîne |
 
 ## Signature et type renvoyé
 
@@ -40,8 +40,8 @@ Chaîne
 
 Renvoie une chaîne.
 
-## Exemple 
+## Exemple
 
 `trim(" Hello ")`
 
-Renvoie &quot;Hello&quot;.
+Renvoie « Hello ».
