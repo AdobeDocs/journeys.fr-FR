@@ -1,6 +1,6 @@
 ---
-title: equelWithIgnoreCase
-description: En savoir plus sur la fonction matchWithIgnoreCase
+title: equalWithIgnoreCase
+description: En savoir plus sur la fonction equalWithIgnoreCase
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
 
 
-# equelWithIgnoreCase {#equalWithIgnoreCase}
+# equalWithIgnoreCase {#equalWithIgnoreCase}
 
-Compare la première chaîne d’arguments à la seconde, en ignorant les considérations de casse.
+Compare la chaîne du premier argument à la chaîne du deuxième argument, en ignorant les considérations de casse.
 
 ## Catégorie
 
@@ -30,7 +30,7 @@ Chaîne
 
 ## Paramètres
 
-* string
+* chaîne
 
 ## Signature et type renvoyé
 
@@ -38,7 +38,7 @@ Chaîne
 
 Renvoie une valeur booléenne.
 
-## Exemple 
+## Exemple
 
 `equalWithIgnoreCase("rowing is great', "rowing is GREAT")`
 
