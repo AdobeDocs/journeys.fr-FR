@@ -1,6 +1,6 @@
 ---
 title: toDateTimeOnly
-description: En savoir plus sur la fonction toDateTime
+description: En savoir plus sur la fonction toDateTimeOnly
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-Convertit une valeur d’argument en une valeur d’heure de date uniquement.
+Convertit une valeur d’argument en une date et une heure sans prise en compte du fuseau horaire.
 
 ## Catégorie
 
@@ -32,7 +32,7 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| heure de date sans fuseau horaire au format ISO-8601 | string |
+| date et heure sans prise en compte du fuseau horaire au format ISO-8601 | chaîne |
 | dateTime | dateTime |
 
 ## Signatures et types renvoyés
@@ -43,7 +43,7 @@ Conversion
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-Retourne une date-heure sans prendre en compte le fuseau horaire.
+Renvoie une date et une heure sans prendre en compte le fuseau horaire.
 
 ## Exemples
 
