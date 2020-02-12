@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # setDays {#setDays}
 
-Définit uniquement le jour d’une date, d’une heure ou d’une heure de date. Par exemple, si vous souhaitez attendre un certain jour du mois, vous pouvez forcer le jour.
+Définit le jour d’une date ou d’une date sans prise en compte du fuseau horaire. Par exemple, si vous voulez attendre jusqu’à un certain jour du mois, vous pouvez forcer le jour.
 
 ## Catégorie
 
@@ -32,15 +32,15 @@ Date
 
 | Paramètre | Type |
 |--- |--- |
-| heure de la date | dateTime |
-| heure de la date sans tenir compte du fuseau horaire | dateTimeOnly |
-| jours | integer |
+| date et heure | dateTime |
+| date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
+| jours | entier |
 
 ## Signatures et type renvoyé
 
 `setDays(<dateTime>,<days>)`
 
-Renvoie une date-time.
+Renvoie une date et une heure.
 
 `setDays(<dateTimeOnly>,<days>)`
 
