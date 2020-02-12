@@ -1,6 +1,6 @@
 ---
-title: À propos de l'orchestration du voyage
-description: En savoir plus sur l'orchestration de Journey
+title: À propos de Journey Orchestration
+description: En savoir plus sur Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,44 +8,44 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
 
 ---
 
 
-# À propos de l&#39;orchestration du voyage{#concept_nd3_mqt_52b}
+# À propos de Journey Orchestration{#concept_nd3_mqt_52b}
 
-Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
+Créez des cas pratiques d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
-Journey Orchestration est un service d’applications intégré à la plateforme Experience Platform.
+Journey Orchestration est un service d’application intégré à Experience Platform.
 
 ![](../assets/journeydiagram.png)
 
-L’orchestration du parcours permet une orchestration en temps réel basée sur des données contextuelles issues d’événements, des informations issues de la plateforme Adobe Experience Platform ou des données issues de services API tiers. Vous pouvez configurer une action personnalisée si vous utilisez un système tiers pour envoyer vos messages. Si vous disposez d’Adobe Campaign Standard, vous pourrez envoyer des courriers électroniques, des notifications Push et des SMS à l’aide des fonctionnalités [de messagerie](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)transactionnelle d’Adobe Campaign Standard.
+Journey Orchestration permet une orchestration en temps réel qui s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. Vous pouvez configurer une action personnalisée si vous utilisez un système tiers pour envoyer vos messages. Si vous disposez d’Adobe Campaign Standard, vous pourrez envoyer des emails, des notifications push et des SMS à l’aide des [fonctionnalités de messagerie transactionnelle](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) de cette plate-forme.
 
-Dans l’onglet Configuration de l’événement, un utilisateur **** technique configure les événements attendus dans les voyages. Les données des événements entrants sont normalisées à la suite du modèle de données d’expérience Adobe (XDM). Les événements proviennent des API de gestion en flux continu pour les événements authentifiés et non authentifiés (tels que les événements Adobe Mobile SDK).
+L’onglet de configuration des événements permet à un **utilisateur technique** de configurer les événements prévus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion de diffusion (notamment ceux issus du kit de développement Adobe Mobile SDK).
 
-Dans l’onglet de configuration de la source de données, un utilisateur **** technique configure :
+Dans l’onglet de configuration des sources de données, un **utilisateur technique** configure les éléments suivants :
 
-* Les différents champs exposés à partir d’Adobe Experience Platform dans le concepteur du voyage à des fins de création de conditions et de personnalisation.
-* Sources de données personnalisées supplémentaires que vous exploitez dans le concepteur du voyage. Les sources de données personnalisées sont des connexions entre l’orchestration de Journey et des systèmes ou services tiers via l’API. Vous pouvez connecter un système tiers, tel qu’un système de fidélité. Les services tiers peuvent être, par exemple, une API météorologique.
+* Les différents champs accessibles à partir d’Adobe Experience Platform dans le concepteur de parcours pour créer et personnaliser des conditions.
+* Les sources de données personnalisées supplémentaires exploitées dans le concepteur de parcours. Les sources de données personnalisées sont des connexions entre Journey Orchestration et des systèmes ou des services tiers via l’API. Vous pouvez connecter un système tiers, par exemple un système de gestion de la fidélité. Vous pouvez aussi accéder à un service tiers, par exemple une API météorologique.
 
-Avec le concepteur du voyage, un utilisateur **** professionnel peut facilement faire glisser un événement d’entrée, ajouter des conditions et spécifier l’action à exécuter.
+Avec le concepteur de parcours, un **utilisateur chargé de la conception de parcours** peut facilement faire glisser un événement d’entrée, ajouter des conditions et spécifier l’action à exécuter.
 
-Vous créez ensuite des conditions basées sur :
+Il est ensuite possible de créer des conditions basées sur :
 
-* time
-* données provenant de la charge utile d’événement
-* informations provenant de sources de données : Source de données Profil du client en temps réel ou sources de données personnalisées
+* le temps ;
+* des données provenant de la payload de l’événement ;
+* des informations provenant de sources de données : Real-time Customer Profile ou sources personnalisées.
 
-Vous pouvez utiliser la condition de division pour envoyer les personnes dans le voyage dans différentes directions.
+Vous pouvez utiliser la condition de répartition pour orienter les personnes engagées dans le parcours vers différentes directions.
 
-Les activités d’action vous permettent ensuite d’envoyer un message via un système tiers. Si vous disposez d’Adobe Campaign Standard, envoyez des SMS personnalisés en temps réel, des notifications Push ou des courriers électroniques.
+Les activités d’action vous permettent ensuite d’envoyer un message via un système tiers. Si vous disposez d’Adobe Campaign Standard, il est possible d’envoyer en temps réel des SMS personnalisés, des notifications push ou des emails.
 
-Comme l&#39;orchestration du voyage est à plusieurs étapes, vous pouvez créer des scénarios avancés. Par exemple, après un premier événement et une première action, vous pouvez faire glisser d’autres événements. Ensuite, vous pouvez ajouter une seconde action, placer une activité d’attente pour attendre un certain temps, ajouter une condition de division pour pousser les personnes vers deux chemins différents, puis envoyer des messages différents.
+Journey Orchestration comportant plusieurs étapes, vous pouvez créer des scénarios avancés. Par exemple, après une action et un événement initiaux, vous pouvez placer d’autres événements à l’aide de la souris. Vous pouvez ensuite ajouter une deuxième action, placer une activité d’attente pendant une certaine durée, ajouter une condition de division pour orienter les personnes vers deux chemins différents, puis envoyer des messages distincts.
 
 >[!NOTE]
 >
->Cette documentation est fréquemment mise à jour pour refléter les modifications récentes du produit. Cependant, certaines captures d’écran peuvent légèrement différer de l’interface du produit.
+>Cette documentation est fréquemment mise à jour pour prendre en compte les modifications récentes du produit. Cependant, certaines captures d’écran peuvent être légèrement différentes de l’interface du produit.
 
