@@ -21,22 +21,6 @@ source-git-commit: 8023d7780d43f1de4447c63568f641ce204722c7
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version du 1er trimestre - février 2019 {#q1-release---february-2019}
-
-* Une fonction d’aide contextuelle est désormais disponible dans les différents écrans d’orchestration du voyage. Vous pouvez ainsi accéder directement et en un seul clic à la documentation relative à la fonctionnalité en cours d&#39;utilisation. Pour afficher l’aide contextuelle, cliquez sur l’icône &quot;i&quot; dans le coin supérieur droit de l’écran. Pour l’instant, cette fonctionnalité est disponible dans les écrans de liste Accueil, Sources de données, Evénements et Actions.
-
-* En mode test, toutes les activités d’attente sont désormais automatiquement définies pour durer 5 secondes. Vous pouvez ainsi accéder rapidement aux résultats du test.
-
-* API
-
-* Copier/coller les activités dans les voyages ?
-
-* Filtrage des événements dans les voyages
-
-* Multi-région ?
-
-* Test de plusieurs événements
-
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
 Journey Orchestration est maintenant disponible en version GA (disponibilité générale).
