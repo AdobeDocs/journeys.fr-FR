@@ -23,51 +23,19 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 
 ## Version du 1er trimestre - février 2019 {#q1-release---february-2019}
 
-**Gestion du fuseau horaire**
+* Une fonction d’aide contextuelle est désormais disponible dans les différents écrans d’orchestration du voyage. Vous pouvez ainsi accéder directement et en un seul clic à la documentation relative à la fonctionnalité en cours d&#39;utilisation. Pour afficher l’aide contextuelle, cliquez sur l’icône &quot;i&quot; dans le coin supérieur droit de l’écran. Pour l’instant, cette fonctionnalité est disponible dans les écrans de liste Accueil, Sources de données, Evénements et Actions.
 
-Les fuseaux horaires sont maintenant gérés au niveau du voyage. Deux paramètres ont été ajoutés aux propriétés de voyage :
+* API
 
-* La liste **déroulante Fuseau** de temps vous permet de sélectionner un fuseau horaire spécifique. Par défaut, le fuseau horaire du navigateur est utilisé.
+* Copier/coller les activités dans les voyages ?
 
-* La case à cocher Fuseau horaire **du** profil vous permet d’utiliser le fuseau horaire Profil de la plateforme d’expérience de la personne qui entre dans le voyage, le cas échéant. Dans le cas contraire, le fuseau horaire défini dans la liste déroulante sera utilisé. Cette fonctionnalité n’est pas compatible avec les voyages sans espace de noms.
+* Filtrage des événements dans les voyages
 
-**Aide contextuelle**
+* Multi-région ?
 
-Une fonction d’aide contextuelle est désormais disponible dans les différents écrans d’orchestration du voyage. Vous pouvez ainsi accéder directement et en un seul clic à la documentation relative à la fonctionnalité en cours d&#39;utilisation.
+* Minuteur en mode test
 
-Pour afficher l’aide contextuelle, cliquez sur l’icône &quot;i&quot; dans le coin supérieur droit de l’écran.
-
-Pour l’instant, cette fonctionnalité est disponible dans les écrans de liste Accueil, Sources de données, Evénements et Actions.
-
-**Autres changements**
-
-* En mode test, un nouveau paramètre vous permet de définir l’intervalle de temps.  les activités d’attente peuvent durer. Vous pouvez ainsi accéder rapidement aux résultats du test.
-
-* En mode test, vous pouvez désormais déclencher tous les événements du voyage.
-
-
-* un nouveau paramètre vous permet de définir l’attribut d’heure.  les activités d’attente peuvent durer. Vous pouvez ainsi accéder rapidement aux résultats du test.
-
-* L&#39;orchestration des voyages est désormais disponible dans la zone EMEA.
-
-* Nouvelle icône de la palette pour afficher ou non les éléments indisponibles. sans espace de noms. par défaut.
-
-* trame, déconnexion, petite icone, qui dit noeud déconnecté.
-
-* raccourci C ttes les listes
-
-* interface utilisateur de la palette, résultats de recherche icone de
-
-* Pouvoir capper les appelle a des APIS externes (sources de données ou actions). n&#39;accepté que 500 appels par seconde, marque elle européenne un plafonnement de 500 appels qui évite de surchargeur système de fidélité des niveaux
-
-* journaux du journal de test. Avant status = erreur. quand sur des systèmes de pomme. Possibilityé de voir code erreur qu&#39;à renvoyé le système. -> ds un test en cas d&#39;erreur, niveaux système, code d&#39;erreur, réponse d&#39;erreur.
-
-* fin du voyage de suppression
-
-* voyage : version 1 il te met à jour si
-
-1er mars.
-
+* Test de plusieurs événements
 
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
