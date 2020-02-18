@@ -25,6 +25,8 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 
 * Une fonction d’aide contextuelle est désormais disponible dans les différents écrans d’orchestration du voyage. Vous pouvez ainsi accéder directement et en un seul clic à la documentation relative à la fonctionnalité en cours d&#39;utilisation. Pour afficher l’aide contextuelle, cliquez sur l’icône &quot;i&quot; dans le coin supérieur droit de l’écran. Pour l’instant, cette fonctionnalité est disponible dans les écrans de liste Accueil, Sources de données, Evénements et Actions.
 
+* En mode test, toutes les activités d’attente sont désormais automatiquement définies pour durer 5 secondes. Vous pouvez ainsi accéder rapidement aux résultats du test.
+
 * API
 
 * Copier/coller les activités dans les voyages ?
@@ -32,8 +34,6 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 * Filtrage des événements dans les voyages
 
 * Multi-région ?
-
-* Minuteur en mode test
 
 * Test de plusieurs événements
 
