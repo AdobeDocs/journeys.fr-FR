@@ -37,7 +37,7 @@ Vous pouvez définir une condition afin de limiter l’attente à une certaine p
 >
 >La durée d’attente maximale est de 30 jours.
 >
->En mode test, le **délai d’attente dans le paramètre test** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [](../building-journeys/testing-the-journey.md)
+>En mode test, toutes les activités d’attente sont automatiquement définies sur une durée de 5 secondes. Vous pouvez ainsi accéder rapidement aux résultats du test.
 
 ## Durée de l’attente{#duration}
 
