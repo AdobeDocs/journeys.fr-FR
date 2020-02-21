@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a0ab3528b090e34867d54174421741c689e378e7
+translation-type: tm+mt
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -22,23 +22,23 @@ Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs 
 
 Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des clients dans le parcours et résoudre les problèmes avant la publication.
 
->[!NOTE]
->
->En mode test, toutes les activités d’attente sont automatiquement définies sur une durée de 5 secondes. Vous pouvez ainsi accéder rapidement aux résultats du test.
-
 Pour utiliser le mode test, procédez comme suit :
 
 1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Voir [](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
 
-1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
+1. Pour activer le mode , cliquez sur le bouton bascule **[!UICONTROL Test]** Test dans le coin supérieur droit de l’écran.
 
    ![](../assets/journeytest1.png)
 
-1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
+1. Utilisez le paramètre **Durée d’attente dans le paramètre test** , dans le coin inférieur gauche, pour définir la durée de chaque activité d’attente en mode test. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez abandonné une ou plusieurs activités d’attente dans votre parcours.
+
+   ![](../assets/journeytest_wait.png)
+
+1. Cliquez sur **[!UICONTROL Trigger an event]** pour configurer et envoyer des événements au voyage. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des journaux](#viewing_logs).
+1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. Voir [Affichage des journaux](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -56,15 +56,15 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Déclenchement d’événements {#firing_events}
 
-Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera entrer une personne dans le parcours.
+The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
 
 Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Data Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
 
-Cet écran vous permet de configurer les champs transmis dans l’événement, ainsi que l’exécution de l’envoi d’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
+Si votre voyage contient plusieurs événements, sélectionnez un événement dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
 ![](../assets/journeytest4.png)
 
-L’interface vous permet de transmettre des paramètres d’événement simples. Si vous souhaitez transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez cliquer sur **[!UICONTROL Affichage du code]** pour voir l’intégralité du code de la payload et le modifier. Vous pouvez, par exemple, copier et coller des informations d’événement préparées par un utilisateur technique.
+L’interface vous permet de transmettre des paramètres d’événement simples. If you want to pass collections or other advanced objects in the event, you can click on **[!UICONTROL Code View]** to see the entire code of the payload and modify it. Vous pouvez, par exemple, copier et coller des informations d’événement préparées par un utilisateur technique.
 
 ![](../assets/journeytest5.png)
 
@@ -72,9 +72,13 @@ Un utilisateur technique peut également se servir de cette interface pour compo
 
 ## Affichage des journaux {#viewing_logs}
 
-Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
+The **[!UICONTROL Show log]** button allows you to view the test results. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
 ![](../assets/journeytest3.png)
+
+>[!NOTE]
+>
+>Dans les journaux de test, en cas d’erreur lors de l’appel d’un système tiers (source de données ou action), le code d’erreur et la réponse à l’erreur s’affichent.
 
 Le nombre de personnes (appelées instances d’un point de vue technique) présentes actuellement à l’intérieur du parcours est affiché. Voici des informations utiles affichées pour chaque individu :
 
