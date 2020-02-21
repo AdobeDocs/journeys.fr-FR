@@ -8,8 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -26,15 +26,19 @@ Les erreurs sont représentées par un symbole d’avertissement, affiché sur l
 
 ![](../assets/journey63.png)
 
-En regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**, un signe d’avertissement peut s’afficher. Il indique les erreurs détectées par le système et empêche l’activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d’autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à l’identifier, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
+Par exemple, dans la trame, lorsque deux activités sont déconnectées, un avertissement s’affiche.
+
+![](../assets/canvas-disconnected.png)
+
+Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. Il indique les erreurs détectées par le système et empêche l’activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d’autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à l’identifier, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
 
 Le système détecte deux types de problèmes : les erreurs et les avertissements. Les erreurs bloquent la publication et l’activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l’activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Ce format facilite l’identification du problème par l’assistance technique.
 
-Le signe en regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]** peut apparaître dans deux couleurs différentes. Il est rouge en cas d’erreur, et orange pour un avertissement.
+Two different colors can be displayed on the sign next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button. Il est rouge en cas d’erreur, et orange pour un avertissement.
 
 ![](../assets/journey75.png)
 
-Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d’activité ou d’apparition dans le parcours, de gauche à droite. Le bouton **[!UICONTROL Copier les détails]** copie les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes.
+Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d’activité ou d’apparition dans le parcours, de gauche à droite. The **[!UICONTROL Copy details]** button copies technical information about the journey which the support team can use to troubleshoot.
 
 ## Vérification de l’envoi correct des événements{#section_rqz_11t_dgb}
 
