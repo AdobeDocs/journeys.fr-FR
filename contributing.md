@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5476f47904ddbd3e9480ab05c43180e93d642ada
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 translation-type: tm+mt
 
 ---
@@ -20,7 +20,7 @@ Commencez par déposer une publication. Les responsables actuels de ce projet tr
 
 ## Contrat de licence du contributeur
 
-Toutes les contributions de tiers à ce projet doivent être accompagnées d&#39;un accord de licence contributive signé. Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. [Signez notre CLA](http://opensource.adobe.com/cla.html). Vous n’avez besoin d’envoyer un CLA Adobe qu’une seule fois. Par conséquent, si vous en avez déjà soumis un, vous êtes bien avisé d’y aller !
+Toutes les contributions de tiers à ce projet doivent être accompagnées d&#39;un accord de licence contributive signé. Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. [Signez notre CLA](https://opensource.adobe.com/cla.html). Vous n’avez besoin d’envoyer un CLA Adobe qu’une seule fois. Par conséquent, si vous en avez déjà soumis un, vous êtes bien avisé d’y aller !
 
 ## Examens du code
 
