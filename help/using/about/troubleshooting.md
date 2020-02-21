@@ -26,10 +26,6 @@ Les erreurs sont représentées par un symbole d’avertissement, affiché sur l
 
 ![](../assets/journey63.png)
 
-Par exemple, dans la trame, lorsque deux activités sont déconnectées, un avertissement s’affiche.
-
-![](../assets/canvas-disconnected.png)
-
 Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. Il indique les erreurs détectées par le système et empêche l’activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d’autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à l’identifier, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
 
 Le système détecte deux types de problèmes : les erreurs et les avertissements. Les erreurs bloquent la publication et l’activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l’activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Ce format facilite l’identification du problème par l’assistance technique.
