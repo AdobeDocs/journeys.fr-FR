@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;A propos de la liste de parcours&quot;
->abstract=&quot;La liste des trajets vous permet de visualiser tous vos voyages à la fois, de voir leur statut et d&#39;effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas arrêter ou supprimer un voyage terminé. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.&quot;
+>abstract=&quot;La liste des trajets vous permet de visualiser tous vos voyages à la fois, de voir leur statut et d&#39;effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas arrêter ou supprimer un voyage arrêté. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Regarder la vidéo de démonstration&quot;
 
 
@@ -40,13 +40,9 @@ You can also access Journey Orchestration from the Experience Cloud home page, i
 
 ![](../assets/journey1bis.png)
 
-Les menus supérieurs vous permettent de naviguer parmi les différentes fonctionnalités de Journey Orchestration : **[!UICONTROL Home]**(les voyages),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+The top menus allows you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
-
-Cliquez sur l’ ![](../assets/icon-context.png) icône dans le coin supérieur droit de l’écran pour afficher l’aide contextuelle. Il est disponible dans les différents écrans de la liste d’orchestration de Journey (voyages, événements, actions et sources de données). Vous pouvez ainsi afficher une description rapide de la fonctionnalité actuelle et accéder aux articles et vidéos connexes.
-
-![](../assets/journey2bis.png)
 
 ## Recherche et filtrage{#section_lgm_hpz_pgb}
 
