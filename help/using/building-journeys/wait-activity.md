@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # Activité d’attente{#section_rlm_nft_dgb}
 
-Si vous souhaitez observer un temps d’attente avant d’exécuter l’activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d’exécution de l’activité suivante. Quatre options sont disponibles :
+If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. Cela vous permet de définir le moment d’exécution de l’activité suivante. Quatre options sont disponibles :
 
 * [Durée](#duration)
 * [Date fixe](#fixed_date)
@@ -37,7 +37,7 @@ Vous pouvez définir une condition afin de limiter l’attente à une certaine p
 >
 >La durée d’attente maximale est de 30 jours.
 >
->En mode test, toutes les activités d’attente sont automatiquement définies sur une durée de 5 secondes. Vous pouvez ainsi accéder rapidement aux résultats du test.
+>En mode test, le **délai d’attente dans le paramètre test** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [](../building-journeys/testing-the-journey.md)
 
 ## Durée de l’attente{#duration}
 
@@ -77,8 +77,8 @@ Ce type d’attente utilise un score calculé dans la plate-forme. Le score calc
 >
 >Cette fonctionnalité n’est disponible qu’après une activité **[!UICONTROL Email]**. Vous devez disposer d’Adobe Campaign Standard.
 
-1. Dans le champ **[!UICONTROL Laps de temps]**, définissez le nombre d’heures à prendre en compte pour optimiser l’envoi des emails.
-1. Dans le champ **[!UICONTROL Type d’optimisation]**, indiquez si l’optimisation doit augmenter le nombre de clics ou d’ouvertures.
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
 1. Dans le champ **Heure par défaut**, définissez le délai d’attente par défaut à utiliser si le score de l’heure d’envoi prédictif n’est pas disponible.
 
    >[!NOTE]
