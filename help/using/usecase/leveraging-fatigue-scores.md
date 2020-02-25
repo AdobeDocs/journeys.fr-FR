@@ -18,7 +18,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 # Utilisation des scores de fatigue {#concept_dsh_1ry_wfb}
 
-Ce cas pratique montre comment tirer parti des scores de fatigue pour éviter de trop solliciter les clients dans les parcours.
+Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour éviter de trop solliciter les clients dans les parcours.
 
 >[!CAUTION]
 >
@@ -36,7 +36,7 @@ Pour sélectionner les champs de score de fatigue dans la source de données int
 
    ![](../assets/journey23.png)
 
-1. Vérifiez que les champs requis pour votre cas pratique sont sélectionnés.
+1. Vérifiez que les champs requis pour votre cas d’utilisation sont sélectionnés.
 1. Cliquez sur **[!UICONTROL Ajouter un nouveau groupe de champs]**, sélectionnez le modèle **[!UICONTROL Profils]**, puis ajoutez les champs **[!UICONTROL fatigueLevel]** et **[!UICONTROL fatigueScore]** (au-dessous de _journeyAI > emailScore > fatigue_).
 
    ![](../assets/journeyuc3_1.png)
@@ -47,7 +47,7 @@ Pour sélectionner les champs de score de fatigue dans la source de données int
 
 Pour créer, valider et publier le parcours, suivez les étapes décrites dans la section [](../building-journeys/journey.md).
 
-Dans notre cas pratique, nous utilisons le champ **[!UICONTROL fatigueLevel]**. Vous pouvez également avoir recours au champ **[!UICONTROL fatigueScore]**.
+Dans notre cas d’utilisation, nous employons le champ **[!UICONTROL fatigueLevel]**. Vous pouvez également avoir recours au champ **[!UICONTROL fatigueScore]**.
 
 Pour utiliser le niveau de fatigue dans votre parcours, procédez comme suit :
 
