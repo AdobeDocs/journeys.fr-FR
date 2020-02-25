@@ -88,7 +88,7 @@ Deux catégories sont disponibles : **[!UICONTROL Cible]** et **[!UICONTROL Don
 >
 >Cette catégorie n’est visible que si vous sélectionnez un message basé sur événement. Pour les messages basés sur un profil, les champs **[!UICONTROL Cible]** sont automatiquement récupérés par le système à l’aide de la réconciliation effectuée par Adobe Campaign Standard.
 
-Dans cette section, vous devez définir la **[!UICONTROL plate-forme push]**. La liste déroulante vous permet de sélectionner **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Vous avez aussi la possibilité de sélectionner un champ spécifique à partir d’un événement ou d’une source de données, ou de définir une expression avancée.
+Dans cette section, vous devez définir la **[!UICONTROL plateforme push]**. La liste déroulante vous permet de sélectionner **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Vous avez aussi la possibilité de sélectionner un champ spécifique à partir d’un événement ou d’une source de données, ou de définir une expression avancée.
 
 Vous devez également définir le **[!UICONTROL jeton d’enregistrement]**. L’expression dépend de la manière dont le jeton est défini dans la payload de l’événement ou dans d’autres informations de Journey Orchestration. Il peut s’agir d’un champ simple ou d’une expression plus complexe au cas où le jeton serait défini dans une collection, par exemple :
 
