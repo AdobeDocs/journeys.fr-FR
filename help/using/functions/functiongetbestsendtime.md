@@ -26,7 +26,7 @@ Pour utiliser cette fonction, un [namespace](../event/selecting-the-namespace.md
 
 >[!NOTE]
 >
->Notez que le score de l’heure d’envoi optimale peut être indisponible s’il n’y a pas assez de données pour effectuer le calcul. Dans ce cas, vous êtes informé, au moment de la publication, que l’heure par défaut est appliquée.
+>Notez que le score de l’heure d’envoi optimale peut être indisponible s’il n’y a pas assez de données pour effectuer le calcul. Dans ce cas, vous êtes informé, au moment de la publication, que laps de temps par défaut est appliqué.
 
 ## Catégorie
 
@@ -40,7 +40,7 @@ Adobe Experience Platform
 
 | Paramètre | Description | Type |
 |--- |--- |--- |
-| Quantité de temps | Nombre d’heures à prendre en compte à partir de l’heure actuelle (max. : 168) pour optimiser l’envoi des emails | `<integer>` |
+| Laps de temps | Nombre d’heures à prendre en compte à partir de l’heure actuelle (max. : 168) pour optimiser l’envoi des emails | `<integer>` |
 | Type d’optimisation | &quot;open&quot; ou &quot;click&quot; | `<string>` |
 | Temps d’attente par défaut en heures | Dans le cas où les scores prédictifs d’horaire d’envoi ne sont pas disponibles | `<integer>` |
 
