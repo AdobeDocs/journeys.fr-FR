@@ -41,7 +41,7 @@ Chaîne
 
 Renvoie une valeur booléenne.
 
-## Exemple 
+## Exemple
 
 `containWithIgnoreCase("rowing is great', "GREAT")`
 
