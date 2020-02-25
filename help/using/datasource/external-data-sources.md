@@ -70,7 +70,7 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
 Pour le jeu de paramètres « long/lat », nous créons un groupe de champs avec les informations suivantes :
 
-* **[!UICONTROL Utilisé dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
+* **[!UICONTROL Utilisé(e) dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
 * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous choisissons la méthode GET.
 * **[!UICONTROL Durée de mise en cache]** : dans ce cas, nous souhaitons que les données météo soient mises en cache pendant 10 minutes.
 * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de la payload renvoyée par l’appel. Dans cet exemple, nous avons utilisé une payload trouvée sur un site web d’API météo. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller une nouvelle payload]** si vous souhaitez modifier la payload actuellement transmise.
@@ -122,7 +122,7 @@ La définition du point d’entrée à appeler pour générer le jeton d’accè
 
 La définition de la méthode d’injection du jeton d’accès dans la requête HTTP de l’action :
 
-* authorizedType : définit la manière dont le jeton d’accès généré doit être injecté dans l’appel HTTP pour l’action. Les valeurs possibles sont les suivantes :
+* authorizationType : définit la manière dont le jeton d’accès généré doit être injecté dans l’appel HTTP pour l’action. Les valeurs possibles sont les suivantes :
 
    * bearer : indique que le jeton d’accès doit être injecté dans l’en-tête Authorization ; par exemple, _Authorization: Bearer &lt;jeton d’accès>_
    * header : indique que le jeton d’accès doit être injecté en tant qu’en-tête ; nom d’en-tête défini par la propriété tokenTarget. Par exemple, si la propriété tokenTarget est myHeader, le jeton d’accès est injecté sous la forme d’un en-tête : _myHeader: &lt;jeton d’accès>_.
