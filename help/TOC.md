@@ -32,7 +32,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
 + Configuration d’une source de données {#data-source-journeys}
    + [À propos des sources de données](using/datasource/about-data-sources.md)
    + [Groupes de champs](using/datasource/field-groups.md)
-   + [Groupes de champs](using/datasource/adobe-experience-platform-data-source.md)
+   + [Source de données Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
    + [Sources de données externes](using/datasource/external-data-sources.md)
 + Configuration d’une action {#action-journeys}
    + [À propos des actions](using/action/action.md)
@@ -146,14 +146,14 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
    + [À propos des rapports de parcours](using/reporting/about-journey-reports.md)
    + [Création de rapports de parcours](using/reporting/creating-your-journey-reports.md)
    + [Mesures et dimensions](using/reporting/metrics-and-dimensions.md)
-+ Cas pratiques{#use-cases-journeys}
-   + Cas pratique simple{#use-case-simple}
-      + [À propos du cas pratique simple](using/usecase/about-the-simple-use-case.md)
++ Cas d’utilisation{#use-cases-journeys}
+   + Cas d’utilisation simple{#use-case-simple}
+      + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
       + [Configuration de l’événement](using/usecase/configuring-the-event.md)
       + [Configuration de la source de données](using/usecase/configuring-the-data-source.md)
       + [Création du parcours](using/usecase/simple-uc-building-the-journey.md)
-   + Cas pratique avancé{#use-case-advanced}
-      + [À propos du cas pratique avancé](using/usecase/about-the-advanced-use-case.md)
+   + Cas d’utilisation avancé{#use-case-advanced}
+      + [À propos du cas d’utilisation avancé](using/usecase/about-the-advanced-use-case.md)
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
       + [Création du parcours](using/usecase/building-the-journey.md)
