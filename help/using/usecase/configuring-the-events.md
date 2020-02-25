@@ -1,6 +1,6 @@
 ---
 title: Configuration des événements
-description: Découvrez comment configurer les événements pour un cas pratique avancé de parcours
+description: Découvrez comment configurer les événements pour un cas d’utilisation avancé de parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -32,11 +32,11 @@ Pour plus d’informations sur la configuration des événements, voir [](../eve
 
 <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc2_3.png" placement="break" width="800" id="image_is5_2sn_z2b"/></li-->
 
-1. Nous sélectionnons ensuite le schéma et définissons la payload attendue pour cet événement. Nous sélectionnons les champs nécessaires dans le modèle normalisé XDM. Nous avons besoin de l’Experience Cloud ID pour identifier la personne dans la base de données Real-time Customer Profile : &quot;endUserIDs > _experience > mcid > id&quot;.
+1. Nous sélectionnons ensuite le schéma et définissons la payload attendue pour cet événement. Nous sélectionnons les champs nécessaires dans le modèle normalisé XDM. Nous avons besoin de l’Experience Cloud ID pour identifier la personne dans la base de données des profils clients en temps réel : &quot;endUserIDs > _experience > mcid > id&quot;.
 
    Nous avons également besoin du jeton d’enregistrement pour envoyer des messages push : &quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
 
-   Un identifiant est automatiquement généré pour cet événement et stocké dans le champ **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Dans notre cas pratique, cet identifiant est utilisé pour déterminer l’emplacement de la balise. Chaque fois qu’une personne se rapproche de la balise du hall d’entrée de l’hôtel, un événement contenant cet identifiant d’événement spécifique est envoyé. Le même principe s’applique aux événements relatifs à la balise du restaurant. Le système sait ainsi quelle balise a déclenché l’envoi de l’événement.
+   Un identifiant est automatiquement généré pour cet événement et stocké dans le champ **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Dans notre cas d’utilisation, cet identifiant est utilisé pour déterminer l’emplacement de la balise. Chaque fois qu’une personne se rapproche de la balise du hall d’entrée de l’hôtel, un événement contenant cet identifiant d’événement spécifique est envoyé. Le même principe s’applique aux événements relatifs à la balise du restaurant. Le système sait ainsi quelle balise a déclenché l’envoi de l’événement.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -58,4 +58,4 @@ Pour plus d’informations sur la configuration des événements, voir [](../eve
 
    ![](../assets/journeyuc2_5.png)
 
-De la même manière, créez l’événement « RestaurantBeacon ». Ces deux événements de balise sont créés et utilisables dans le parcours. Vous devez maintenant configurer l’application mobile afin qu’elle puisse envoyer la payload attendue au point d’entrée des API d’ingestion de diffusion. Voir section [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+De la même manière, créez l’événement « RestaurantBeacon ». Ces deux événements de balise sont créés et utilisables dans le parcours. Vous devez maintenant configurer l’application mobile afin qu’elle puisse envoyer la payload attendue au point d’entrée des API d’ingestion en flux continu. Voir [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
