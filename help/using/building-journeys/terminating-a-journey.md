@@ -42,7 +42,7 @@ Vous pouvez également procéder comme suit :
    ![](../assets/finish_drop_down_list.png)
 
 1. Cliquez sur **[!UICONTROL Terminer]**. Une boîte de dialogue s’affiche alors.
-1. Cliquez sur **[!UICONTROL Terminer]** pour valider.
+1. Cliquez sur **[!UICONTROL Terminer]** pour confirmer.
 
 ## Arrêt d’un parcours
 
@@ -62,4 +62,4 @@ Vous pouvez également procéder comme suit :
 ![](../assets/finish_drop_down_list.png)
 
 1. Cliquez sur **[!UICONTROL Arrêter]**. Une boîte de dialogue s’affiche alors.
-1. Cliquez sur **[!UICONTROL Arrêter]** pour valider.
+1. Cliquez sur **[!UICONTROL Arrêter]** pour confirmer.
