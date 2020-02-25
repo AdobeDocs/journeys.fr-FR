@@ -42,7 +42,7 @@ L’onglet **[!UICONTROL Modifier]** permet les opérations suivantes :
 
 * **[!UICONTROL Annuler]** : annule la dernière action effectuée sur votre tableau de bord.
 * **[!UICONTROL Rétablir]** : annule la dernière action **[!UICONTROL Annuler]** effectuée sur votre tableau de bord.
-* **[!UICONTROL Effacer tout]** : supprime tous les panneaux sur votre tableau de bord.
+* **[!UICONTROL Tout effacer]** : supprime tous les panneaux sur votre tableau de bord.
 
 Le tableau **[!UICONTROL Insérer]** vous permet de personnaliser vos rapports en ajoutant des graphiques et des tableaux à votre tableau de bord :
 
@@ -92,7 +92,7 @@ La **[!UICONTROL synthèse du parcours]** contient les données disponibles le c
 * **[!UICONTROL Entrés]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 * **[!UICONTROL Taux d’achèvement]** : nombre total de personnes ayant atteint la fin du parcours par rapport au nombre total de personnes entrées dans le parcours.
 * **[!UICONTROL Actuel]** : nombre total de personnes actuellement dans le parcours.
-* **[!UICONTROL Échec]** : nombre total de parcours qui n’ont pas été exécutés avec succès.
+* **[!UICONTROL En échec]** : nombre total de parcours qui n’ont pas été exécutés avec succès.
 * **[!UICONTROL Taux d’échec]** : nombre total de parcours qui n’ont pas été exécutés avec succès par rapport au nombre de parcours exécutés.
 
 Le tableau **[!UICONTROL Meilleurs événements]** affiche les événements avec le plus de succès et le tableau **[!UICONTROL Meilleures actions]**, les actions avec le plus de succès de vos parcours.
