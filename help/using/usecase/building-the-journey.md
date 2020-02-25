@@ -1,6 +1,6 @@
 ---
 title: Création du parcours
-description: 'Découvrez comment créer un cas pratique avancé de parcours '
+description: 'Découvrez comment créer un cas d’utilisation avancé de parcours '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -82,7 +82,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
 1. Nous devons sélectionner un namespace. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les namespaces, consultez la section [](../event/selecting-the-namespace.md).
 
-Dans notre cas pratique, nous ne voulons réagir qu’à ces deux conditions. Nous n’allons donc pas cocher la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
+Dans notre cas d’utilisation, nous ne voulons réagir qu’à ces deux conditions. Nous n’allons donc pas cocher la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
 
 Après la condition, deux chemins sont créés :
 
@@ -97,7 +97,7 @@ Après la condition, deux chemins sont créés :
 
    ![](../assets/journeyuc2_17.png)
 
-1. Choisissez le type **[!UICONTROL Condition de source de données]** et définissez cette condition en fonction des informations d’état de réservation récupérées du système de réservation :
+1. Choisissez le type **[!UICONTROL Condition de source de données]** et définissez cette condition en fonction des informations de statut de réservation récupérées du système de réservation :
 
    ```
    #{MarltonReservation.MarltonFieldGroup.reservation} == true
