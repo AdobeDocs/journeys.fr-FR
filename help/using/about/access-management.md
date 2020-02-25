@@ -38,7 +38,7 @@ Admin console permet d’attribuer aux utilisateurs l’un des profils de produ
    * Gérer et exécuter les parcours
    * Gérer les rapports
 
-Vous trouverez [ici](../assets/do-not-localize/acs_rights_journeys.pdf) des informations relatives à la compatibilité entre les droits et les différentes fonctionnalités d’orchestration du parcours.
+Vous trouverez [ici](../assets/do-not-localize/acs_rights_journeys.pdf) des informations relatives à la compatibilité entre les droits et les différentes fonctionnalités de Journey Orchestration.
 
 ## Attribution d’un profil de produit {#assigning-product-profile}
 
@@ -64,4 +64,4 @@ Pour attribuer un profil de produit à un utilisateur et lui permettre d’accé
 
    ![](../assets/user_management_4.png)
 
-L’utilisateur doit alors recevoir un email pour le rediriger vers votre instance d’orchestration du parcours.
+L’utilisateur doit alors recevoir un email pour le rediriger vers votre instance de Journey Orchestration.
