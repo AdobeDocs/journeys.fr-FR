@@ -26,7 +26,7 @@ La définition du fuseau horaire est disponible dans les activités suivantes :
 * [](../building-journeys/wait-activity.md#custom)
 * [](../building-journeys/wait-activity.md#fixed_date)
 
-Si un namespace est associé à l’événement d’entrée du parcours, ce qui signifie que ce dernier peut accéder au service Real-time Customer Profile de Data Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de la personne qui participe au parcours. Si le profil de la personne ne contient pas de fuseau horaire, celui de l’instance est utilisé. Vous pouvez contacter votre administrateur pour connaître le fuseau horaire de l’instance.
+Si un namespace est associé à l’événement d’entrée du parcours, ce qui signifie que ce dernier peut accéder au service de profil client en temps réel de Data Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de la personne qui participe au parcours. Si le profil de la personne ne contient pas de fuseau horaire, celui de l’instance est utilisé. Vous pouvez contacter votre administrateur pour connaître le fuseau horaire de l’instance.
 
 ![](../assets/journey73.png)
 
