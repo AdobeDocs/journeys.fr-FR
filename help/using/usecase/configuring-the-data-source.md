@@ -1,6 +1,6 @@
 ---
 title: Configuration de la source de données
-description: Découvrez comment configurer la source de données pour le cas pratique simple de parcours
+description: Découvrez comment configurer la source de données pour le cas d’utilisation simple de parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -18,7 +18,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 # Configuration de la source de données{#concept_ax3_bcy_w2b}
 
-Dans notre cas pratique, nous voulons utiliser des données de personnalisation pour nos messages. Nous devons aussi vérifier si la personne est une femme. Ces informations sont stockées dans la base de données Real-time Customer Profile. Un **utilisateur technique** doit vérifier que ces champs sont définis dans la source de données Experience Platform intégrée.
+Dans notre cas d’utilisation, nous voulons utiliser des données de personnalisation pour nos messages. Nous devons aussi vérifier si la personne est une femme. Ces informations sont stockées dans la base de données des profils clients en temps réel. Un **utilisateur technique** doit vérifier que ces champs sont définis dans la source de données Experience Platform intégrée.
 
 Pour plus d’informations sur la configuration des sources de données, reportez-vous à la section [](../datasource/about-data-sources.md).
 
