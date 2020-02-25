@@ -1,6 +1,6 @@
 ---
 title: Création du parcours
-description: Découvrez comment créer un cas pratique simple de parcours
+description: Découvrez comment créer un cas d’utilisation simple de parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -71,7 +71,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc1_17.png)
 
-1. Cliquez sur le bouton bascule **[!UICONTROL Test]** et vérifiez votre parcours à l’aide des profils de test. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Reportez-vous à la section [](../building-journeys/testing-the-journey.md) pour plus d’informations sur le mode de test.
+1. Cliquez sur le bouton bascule **[!UICONTROL Test]** et vérifiez votre parcours à l’aide des profils de test. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Reportez-vous à la section [](../building-journeys/testing-the-journey.md) pour plus d’informations sur le mode test.
 
    ![](../assets/journeyuc1_18bis.png)
 
