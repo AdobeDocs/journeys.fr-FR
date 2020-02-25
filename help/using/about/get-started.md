@@ -30,7 +30,7 @@ Les principales étapes pour configurer et utiliser Journey Orchestration sont l
 
 1. **Configurer la source de données**
 
-   Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Experience Platform intégrée est également définie au moment de la configuration. Cette étape n’est pas obligatoire si vous n’exploitez que les données des événements de votre parcours. Elle est effectuée par un **utilisateur technique**.
+   Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Experience Platform intégrée est également définie au moment de l’approvisionnement. Cette étape n’est pas obligatoire si vous n’exploitez que les données des événements de votre parcours. Elle est effectuée par un **utilisateur technique**.
 
    Voir à ce sujet la section [](../datasource/about-data-sources.md).
 
