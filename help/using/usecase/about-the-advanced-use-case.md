@@ -1,6 +1,6 @@
 ---
-title: À propos du cas pratique avancé
-description: En savoir plus sur le cas pratique avancé de parcours
+title: À propos du cas d’utilisation avancé
+description: En savoir plus sur le cas d’utilisation avancé de parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,7 +16,7 @@ source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
 ---
 
 
-# À propos du cas pratique avancé{#concept_vzy_ncy_w2b}
+# À propos du cas d’utilisation avancé{#concept_vzy_ncy_w2b}
 
 ## Objectif {#purpose}
 
@@ -24,7 +24,7 @@ Prenons l’exemple d’une marque hôtelière appelée Marlton. Dans ces hôtel
 
 >[!NOTE]
 >
->Dans ce cas pratique, nous utilisons Adobe Campaign Standard pour envoyer des messages.
+>Dans ce cas d’utilisation, nous employons Adobe Campaign Standard pour envoyer des messages.
 
 Nous allons voir comment envoyer en temps réel des messages personnalisés aux clients lorsqu’ils se rapprochent d’une balise spécifique.
 
@@ -39,7 +39,7 @@ Nous vérifions ensuite deux conditions :
 
 ![](../assets/journeyuc2_29.png)
 
-Dans ce cas pratique, nous devrons créer deux événements (voir [](../usecase/configuring-the-events.md)) :
+Dans ce cas d’utilisation, nous devrons créer deux événements (voir [](../usecase/configuring-the-events.md)) :
 
 * L’événement de balise de hall d’entrée qui sera envoyé au système lorsqu’un client entre dans l’hôtel.
 * L’événement de balise de restaurant qui sera envoyé au système lorsqu’un client entre dans le restaurant.
@@ -47,11 +47,11 @@ Dans ce cas pratique, nous devrons créer deux événements (voir [](../usecase/
 Nous devrons configurer une connexion à deux sources de données (voir [](../usecase/configuring-the-data-sources.md)) :
 
 * La source de données Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’adhésion au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
-* Le système de réservation de l’hôtel, pour récupérer les informations d’état de la réservation.
+* Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
 
-## Conditions requises  {#prerequisites}
+## Conditions requises   {#prerequisites}
 
-Pour notre cas pratique, nous avons conçu trois modèles de messages transactionnels Adobe Campaign Standard. Nous utilisons des modèles de messages transactionnels basés sur un événement. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Pour notre cas d’utilisation, nous avons conçu trois modèles de messages transactionnels Adobe Campaign Standard. Nous utilisons des modèles de messages transactionnels basés sur un événement. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard est configuré pour envoyer des emails et des notifications push.
 
