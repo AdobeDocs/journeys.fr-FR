@@ -31,7 +31,7 @@ Lorsqu’un champ de source de données est utilisé dans un parcours, le systè
 
 La **[!UICONTROL durée de mise en cache]** est également un élément important, car elle contribue à l’optimisation des performances. Concrètement, cela signifie que dans le cadre d’un parcours, si des données d’un groupe de champs sont récupérées une fois, le système les met temporairement en cache. Si les mêmes données sont requises plus tard dans le même parcours, le système n’effectue aucune autre requête vers la source de données. La configuration de la durée de mise en cache doit être adaptée à chaque cas d’utilisation. Si vous devez récupérer des données en temps réel, telles que le statut d’une réservation d’hôtel, des informations météorologiques ou le nombre de points de fidélité, vous associerez le groupe contenant ces champs à une durée de mise en cache brève (1 seconde, par exemple). Pour les champs mis à jour moins souvent (nom, genre, etc.), vous créerez un deuxième groupe de champs avec une durée de mise en cache plus longue (5 jours, par exemple).
 
-Le nombre de parcours qui font appel à un groupe de champs est affiché dans le champ **[!UICONTROL Utilisé dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
+Le nombre de parcours qui font appel à un groupe de champs est affiché dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
 
 >[!NOTE]
 >
@@ -49,8 +49,8 @@ Pour supprimer un champ d’un groupe utilisé dans un ou plusieurs parcours, pr
 
 1. Dans la liste des groupes de champs, placez le curseur sur « Groupe de champs A » et cliquez ensuite sur l’icône **[!UICONTROL Dupliquer]** située à droite. Appelez le groupe de champs dupliqué « Groupe de champs B », par exemple.
 1. Dans « Groupe de champs B », supprimez les champs dont vous n’avez plus besoin.
-1. Dans « Groupe de champs A », vérifiez à quel emplacement ce groupe de champs est utilisé. Ces informations sont affichées dans le champ **[!UICONTROL Utilisé dans]**.
+1. Dans « Groupe de champs A », vérifiez à quel emplacement ce groupe de champs est utilisé. Ces informations sont affichées dans le champ **[!UICONTROL Utilisé(e) dans]**.
 1. Ouvrez tous les parcours qui utilisent « Groupe de champs A ».
-1. Créez des nouvelles versions de chacun de ces parcours. Modifiez toutes les activités qui utilisent « Groupe de champs A » et sélectionnez « Groupe de champs B ».
+1. Créez de nouvelles versions de chacun de ces parcours. Modifiez toutes les activités qui utilisent « Groupe de champs A » et sélectionnez « Groupe de champs B ».
 1. Arrêtez les anciennes versions des parcours qui utilisent « Groupe de champs A ». Normalement, il ne devrait plus y avoir de parcours qui utilisent « Groupe de champs A ».
 1. Supprimez « Groupe de champs A », car il n’est plus utilisé.
