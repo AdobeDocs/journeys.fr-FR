@@ -1,6 +1,6 @@
 ---
 title: Mesures et dimensions
-description: En savoir plus sur les dimensions et les mesures disponibles pour l’orchestration du parcours
+description: En savoir plus sur les dimensions et les mesures disponibles pour Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -26,7 +26,7 @@ Cette section contient la liste de tous les composants disponibles dans les rapp
 
 Le tableau ci-dessous contient la liste des dimensions utilisées dans les différents rapports de parcours et leurs définitions.
 
-Pour plus d’informations sur la compatibilité entre les dimensions et les mesures, consultez [cette page](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
+Pour en savoir plus sur la compatibilité entre les dimensions et les mesures, consultez [cette page](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
 ## Dimensions de parcours {#MBE_table_wk4_bnj_w2b}
 
@@ -54,7 +54,7 @@ Le tableau ci-dessous contient la liste des dimensions de diffusion utilisées d
 | **Type de message** | Canal utilisé pour la diffusion, par exemple email, SMS, notification push ou In-App. |
 | **Nom de l’application mobile** | Nom de l’application mobile. |
 | **Plate-forme** | Plate-forme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic. |
-| **[!UICONTROL Plate-forme push]** | Plate-forme de l’appareil sur lequel la notification push a été ouverte (iOS ou Android, par exemple). |
+| **[!UICONTROL Plateforme push]** | Plateforme de l’appareil sur lequel la notification push a été ouverte (iOS ou Android, par exemple). |
 | **Domaine du destinataire** | Domaine utilisé pour ouvrir l’email. |
 | **URL de tracking** | URL sur laquelle a cliqué l’utilisateur dans le message. |
 | **Catégorie de l’URL de tracking** | Catégorie affectée à l’URL de tracking. |
