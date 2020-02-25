@@ -50,4 +50,4 @@ Renvoie un entier.
 
 `distinctCountWithNull([10,2,10,null])`
 
-Renvoie 3.
+Renvoie 3.
