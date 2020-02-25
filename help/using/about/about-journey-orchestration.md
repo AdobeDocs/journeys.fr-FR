@@ -16,7 +16,7 @@ source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
 
 # À propos de Journey Orchestration{#concept_nd3_mqt_52b}
 
-Créez des cas pratiques d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
+Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
 Journey Orchestration est un service d’application intégré à Experience Platform.
 
@@ -24,7 +24,7 @@ Journey Orchestration est un service d’application intégré à Experience Pl
 
 Journey Orchestration permet une orchestration en temps réel qui s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. Vous pouvez configurer une action personnalisée si vous utilisez un système tiers pour envoyer vos messages. Si vous disposez d’Adobe Campaign Standard, vous pourrez envoyer des emails, des notifications push et des SMS à l’aide des [fonctionnalités de messagerie transactionnelle](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) de cette plate-forme.
 
-L’onglet de configuration des événements permet à un **utilisateur technique** de configurer les événements prévus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion de diffusion (notamment ceux issus du kit de développement Adobe Mobile SDK).
+L’onglet de configuration des événements permet à un **utilisateur technique** de configurer les événements prévus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK).
 
 Dans l’onglet de configuration des sources de données, un **utilisateur technique** configure les éléments suivants :
 
@@ -37,7 +37,7 @@ Il est ensuite possible de créer des conditions basées sur :
 
 * le temps ;
 * des données provenant de la payload de l’événement ;
-* des informations provenant de sources de données : Real-time Customer Profile ou sources personnalisées.
+* des informations provenant de sources de données : profil client en temps réel ou sources personnalisées.
 
 Vous pouvez utiliser la condition de répartition pour orienter les personnes engagées dans le parcours vers différentes directions.
 
