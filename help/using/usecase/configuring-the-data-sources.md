@@ -1,6 +1,6 @@
 ---
 title: Configuration des sources de données
-description: Découvrez comment configurer la source de données pour un cas pratique avancé de parcours
+description: Découvrez comment configurer la source de données pour un cas d’utilisation avancé de parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -18,7 +18,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 # Configuration des sources de données {#concept_vml_hdy_w2b}
 
-Dans notre cas pratique, nous voulons utiliser des données de personnalisation pour nos messages. Nous devons aussi vérifier si la personne est un membre du programme de fidélité et si elle n’a pas été contactée au cours des dernières 24 heures. Ces informations sont stockées dans la base de données Real-time Customer Profile. Un **utilisateur technique** doit configurer la source de données Experience Platform pour récupérer ces champs.
+Dans notre cas d’utilisation, nous voulons utiliser des données de personnalisation pour nos messages. Nous devons aussi vérifier si la personne est un membre du programme de fidélité et si elle n’a pas été contactée au cours des dernières 24 heures. Ces informations sont stockées dans la base de données des profils clients en temps réel. Un **utilisateur technique** doit configurer la source de données Experience Platform pour récupérer ces champs.
 
 Pour plus d’informations sur la configuration des sources de données, reportez-vous à la section [](../datasource/about-data-sources.md).
 
@@ -62,7 +62,7 @@ Nous devons aussi vérifier si la personne a une réservation dans le système d
 
    * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre exemple, nous choisissons la méthode GET.
    * **[!UICONTROL Durée de mise en cache]** : cette durée varie en fonction de la fréquence des appels d’API. Dans le cas présent, le système de réservation est mis à jour toutes les 10 minutes.
-   * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de payload. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Dans notre exemple, la payload ne contient que l’état de réservation :
+   * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de payload. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Dans notre exemple, la payload ne contient que le statut de réservation :
 
    ```
    {
