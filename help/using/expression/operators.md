@@ -97,7 +97,7 @@ Voici la liste des opérateurs pris en charge :
 
 <table>
 <thead>
-<tr ><th  >Opérateur</th><th  >Expression littérale </th><th  >Exemple </th></tr>
+<tr ><th  >Opérateur</th><th  >Expression littérale </th><th  >Exemple</th></tr>
 </thead>
 <tbody><tr ><td>+</td><td><p><pre>&lt;chaîne&gt; + &lt;expression&gt;</pre></p><p><pre>&lt;expression&gt; + &lt;chaîne&gt;</pre></p><p>Cet opérateur concatène deux expressions. </p><p>L’une des expressions doit être une chaîne de caractères.</p></td><td><p><pre>"il est actuellement " + (now())</pre></p> Renvoie « Il est actuellement 2019-09-23T09:30:06.693Z »<p><pre>(now()) + " est l’heure actuelle"</pre></p>Renvoie « 2019-09-23T09:30:06.693Z est l’heure actuelle »<p><pre>"a" + "b" + "c" + 1234</pre></p> Renvoie « abc1234 ».</td></tr>
 </tbody>
@@ -107,7 +107,7 @@ Voici la liste des opérateurs pris en charge :
 
 <table>
 <thead>
-<tr ><th  >Opérateur</th><th  >Expression littérale </th><th  >Exemple </th></tr>
+<tr ><th  >Opérateur</th><th  >Expression littérale </th><th  >Exemple</th></tr>
 </thead>
 <tbody>
 <tr ><td>+</td><td><p><pre>&lt;expression&gt; + &lt;durée&gt;</pre></p><p>Permet d’ajouter une durée à une valeur dateTimeOnly ou à une durée.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>Renvoie 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>Renvoie 2011-12-03T15:30:30<p><pre>now() + toDuration("PT1H")</pre></p><p>Renvoie une valeur dateTime (avec fuseau horaire UTC) une heure plus tard que l’heure actuelle</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>Renvoie PT2H</p></td></tr>
