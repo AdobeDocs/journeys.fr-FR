@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,7 +22,7 @@ Le menu Accueil du parcours vous permet de consulter la **liste des parcours**. 
 
 ## Liste des parcours {#journey_list}
 
-La liste des **parcours** vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Ainsi, vous ne pouvez pas arrêter un parcours qui a déjà été arrêté. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.
+La liste des **parcours** vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas arrêter ou supprimer un voyage terminé. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.
 
 The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. Le menu Filtres vous permet de filtrer les parcours affichés selon différents critères (statut, parcours que vous avez créés, parcours modifiés au cours des 30 derniers jours, versions les plus récentes uniquement, etc.). Vous pouvez également choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique. Les colonnes affichées dans la liste peuvent être configurées. Tous les filtres et colonnes sont enregistrés par utilisateur.
 
@@ -45,6 +45,12 @@ La **palette** se situe sur la partie gauche de l’écran. All available activi
 >Notez qu’il existe certaines règles en matière de configuration d’un parcours. Une configuration non autorisée est ignorée. Ainsi, vous ne pouvez pas placer des actions en parallèle, lier une activité à une étape précédente pour créer une boucle, démarrer un parcours avec un élément autre qu’un événement, etc.
 
 ![](../assets/journey38.png)
+
+L’icône **Afficher les éléments** désactivés dans le coin supérieur gauche vous permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre voyage. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, elles apparaîtront grisées.
+
+Lors de l’utilisation du champ **Rechercher** , le nombre de résultats s’affiche pour chaque catégorie d’activité de canevas.
+
+![](../assets/palette-filter.png)
 
 ## Canevas {#canvas}
 
@@ -79,3 +85,7 @@ Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre 
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
 
 ![](../assets/journey42ter.png)
+
+Dans la trame, lorsque deux activités sont déconnectées, un avertissement s’affiche. Placez votre curseur sur l’icône d’avertissement pour afficher le message d’erreur. Pour résoudre le problème, déplacez simplement l’activité déconnectée et connectez-la à l’activité précédente.
+
+![](../assets/canvas-disconnected.png)
