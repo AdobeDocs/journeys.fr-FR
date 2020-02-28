@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+translation-type: tm+mt
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ Les types de conditions disponibles sont au nombre de quatre :
 
 ## À propos de l’activité Condition {#about_condition}
 
-Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans le canevas après l’activité.
+Cliquez sur **[!UICONTROL Add a path]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans le canevas après l’activité.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Notez que la conception de parcours n’est pas sans conséquences sur le plan f
 
 ![](../assets/journey48.png)
 
-Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**. Notez que cette option n’est pas disponible dans les conditions de division. Voir [Division en pourcentage](#percentage_split).
+Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant **[!UICONTROL Show path for other cases than the one(s) above]**. Notez que cette option n’est pas disponible dans les conditions de division. Voir [Division en pourcentage](#percentage_split).
 
 Le mode simple vous permet d’exécuter des requêtes simples en fonction d’une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Faites glisser des champs dans la zone principale. Pour combiner les différents éléments, imbriquez-les afin de créer différents groupes et/ou niveaux de groupes. Vous pouvez alors sélectionner un opérateur logique afin de combiner les éléments de même niveau :
 
@@ -58,7 +58,11 @@ Vous pouvez définir une condition en fonction de champs issus des sources de do
 
 ## Condition de temps{#time_condition}
 
-Cette condition vous permet d’effectuer des actions différentes en fonction de l’heure et/ou du jour. Par exemple, les jours de semaine, vous pouvez choisir d’envoyer des SMS pendant la journée et des emails la nuit. Vous pouvez définir un fuseau horaire spécifique pour cette condition. Voir [](../building-journeys/timezone-management.md).
+Cette condition vous permet d’effectuer des actions différentes en fonction de l’heure et/ou du jour. Par exemple, les jours de semaine, vous pouvez choisir d’envoyer des SMS pendant la journée et des emails la nuit.
+
+>[!NOTE]
+>
+>Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du voyage dans les propriétés du voyage. Voir [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ Cette option vous permet de fractionner l’audience de manière aléatoire afin
 
 ## Condition de date {#date_condition}
 
-Cette condition vous permet de définir un flux différent en fonction de la date. Par exemple, si la personne accède à l’étape pendant la période de soldes, vous lui enverrez un message spécifique. Le reste de l’année, vous lui enverrez un autre message. Lorsque vous définissez une condition de date, vous devez indiquer un fuseau horaire. Voir [](../building-journeys/timezone-management.md).
+Cette condition vous permet de définir un flux différent en fonction de la date. Par exemple, si la personne accède à l’étape pendant la période de soldes, vous lui enverrez un message spécifique. Le reste de l’année, vous lui enverrez un autre message.
+
+>[!NOTE]
+>
+>Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du voyage dans les propriétés du voyage. Voir [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
