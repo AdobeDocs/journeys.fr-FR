@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 
 ---
 
@@ -21,10 +21,25 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 Cette page répertorie toutes les mises à jour de la documentation de Journey Orchestration.
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de Journey Orchestration.
 
+## March 2020 {#march-2020}
+
+* Le déclenchement de plusieurs événements a été ajouté à la section Mode test [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
+* La section Mode Test a été mise à jour concernant le nouveau paramètre **Délai d&#39;attente dans le paramètre test** . [En savoir plus](../building-journeys/testing-the-journey.md)
+* La section Journal des tests a été mise à jour avec les codes d&#39;erreur d&#39;appel externe et les réponses. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
+* La gestion du fuseau horaire est désormais centralisée dans le panneau des propriétés du voyage. En savoir plus [ici](../building-journeys/changing-properties.md#timezone) et [ici](../building-journeys/timezone-management.md)
+* La section Conception de Voyage a été mise à jour pour refléter les améliorations récentes. [En savoir plus](../building-journeys/using-the-journey-designer.md)
+* La description de l’interface a été mise à jour avec des informations sur l’aide contextuelle. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
+* Lorsque vous parcourez les champs **** XDM, le nom convivial s’affiche. Les sections connexes ont été mises à jour. [En savoir plus](../about/user-interface.md#friendly-names-display)
+
+
+## February 2020 {#february-2020}
+
+* La section de raccourci a été mise à jour. Le raccourci clavier **C** vous permet de créer un nouvel élément dans tous les écrans de liste. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
+
 ## Janvier 2020 {#january-2020}
 
-* Des limites de récupération ont été ajoutées pour les événements [et les](../datasource/adobe-experience-platform-data-source.md) segments [](../functions/functioninsegment.md)d’expérience.
-* La documentation [](../functions/functiongetbestsendtime.md) getBestSendTime a été mise à jour.
+* Des limites de récupération ont été ajoutées pour les [événements d’expérience](../datasource/adobe-experience-platform-data-source.md) et les [segments](../functions/functioninsegment.md).
+* La [documentation getBestSendTime](../functions/functiongetbestsendtime.md) a été mise à jour.
 
 ## Décembre 2019 {#december-2019}
 
