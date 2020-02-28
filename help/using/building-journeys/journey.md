@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ Un seul namespace est autorisé par parcours. Lorsque vous déposez le premier �
 
 Les principales étapes nécessaires pour créer et publier un parcours sont les suivantes :
 
-1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Accueil]**.
+1. In the top menu, click the **[!UICONTROL Home]** tab.
 
    La liste des parcours s’affiche. Pour plus d’informations sur l’interface, voir [](../building-journeys/using-the-journey-designer.md).
 
    ![](../assets/journey30.png)
 
-1. Cliquez sur **[!UICONTROL Créer]** pour créer un parcours.
+1. Click **[!UICONTROL Create]** to create a new journey.
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
    ![](../assets/journey32.png)
 
 1. Commencez par faire glisser une activité d’événement de la palette vers le canevas. Vous pouvez également double-cliquer sur une activité pour l’ajouter au canevas.
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey36.png)
 
-## Fin d’un parcours{#ending_a_journey}
+## Fin d’un parcours {#ending_a_journey}
 
 Vous pouvez mettre fin à un parcours de deux façons différentes :
 
@@ -64,4 +63,3 @@ Vous pouvez mettre fin à un parcours de deux façons différentes :
 * Le client arrive à une activité de condition (ou à une activité d’attente avec une condition) et ne répond à aucune des conditions.
 
 Il peut alors réintégrer le parcours si la rentrée est autorisée. Voir [](../building-journeys/changing-properties.md).
-
