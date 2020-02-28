@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 
 ![](../assets/journey4.png)
 
-## Affichage des noms de champs XDM{#friendly-names-display}
+## Navigation dans les champs de la plateforme de données {#friendly-names-display}
 
-Les noms de champs XDM sont définis dans les schémas sous les noms de champs et les noms d’affichage lors de la définition de la charge [](../event/defining-the-payload-fields.md)d’événement, de la charge [de groupe de](../datasource/field-groups.md) champs et de la sélection de champs dans l’éditeur [d’](../expression/expressionadvanced.md)expression.
-Lors de la sélection d’un champ, son nom technique s’affiche ainsi qu’un nom plus convivial.
+Lors de la définition de la charge utile [](../event/defining-the-payload-fields.md)d’événement, de la charge [de groupe de](../datasource/field-groups.md) champs et de la sélection de champs dans l’éditeur [d’](../expression/expressionadvanced.md)expression, le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition de schéma dans le modèle de données d’expérience.
 
-Vous pouvez fournir des descripteurs tels que &quot;xdm:alternativeDisplayInfo&quot; lors de la configuration de schémas pour définir des noms conviviaux qui remplaceront les noms d’affichage. Il vous permet également de modifier les valeurs &quot;titre&quot; et &quot;description&quot; des champs du schéma.
-
-Si un nom convivial est disponible, le champ s’affiche sous la forme `<friendly-name>(<name>)`. Si aucun nom convivial n’est disponible, le nom d’affichage s’affiche, par exemple `<display-name>(<name>)`. Si aucun d’eux n’est défini, seul le nom technique du champ s’affiche `<name>`.
-
-Vous pouvez configurer des descripteurs de nom conviviaux via un appel d’API. Pour plus d&#39;informations, consultez le guide [du développeur](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema Registry.
+Si des descripteurs tels que &quot;xdm:alternativeDisplayInfo&quot; sont fournis lors de la configuration de schémas, les noms conviviaux remplacent les noms d’affichage. Elle est particulièrement utile lorsque vous utilisez des &quot;eVars&quot; et des champs génériques. Vous pouvez configurer des descripteurs de nom conviviaux par le biais d’un appel d’API. Pour plus d&#39;informations, consultez le guide [du développeur](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema Registry.
 
 ![](../assets/xdm-from-descriptors.png)
+
+Si un nom convivial est disponible, le champ s’affiche sous la forme `<friendly-name>(<name>)`. Si aucun nom convivial n’est disponible, le nom d’affichage s’affiche, par exemple `<display-name>(<name>)`. Si aucun d’eux n’est défini, seul le nom technique du champ s’affiche `<name>`.
 
 >[!NOTE]
 >
