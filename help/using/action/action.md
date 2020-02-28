@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ba4259a31a6f71e842d59bdbccf07c3edf3fafd
+translation-type: tm+mt
+source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
 
 ---
 
@@ -23,14 +23,24 @@ source-git-commit: 4ba4259a31a6f71e842d59bdbccf07c3edf3fafd
 >title=&quot;À propos des actions&quot;
 >abstract=&quot;C’est à ce niveau qu’est définie la connexion au système qui enverra les messages. Les actions définies ici seront ensuite disponibles dans la palette de gauche de votre parcours, dans la catégorie Action. &quot;
 
-La configuration des actions personnalisées est toujours effectuée par un **utilisateur technique**.
+Les actions sont des connexions par le biais desquelles vous proposez des expériences personnalisées en temps réel aux clients, telles que des notifications Push, des courriers électroniques, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise.
 
-C’est à ce niveau qu’est définie la connexion au système qui enverra les messages. Les actions définies ici seront ensuite disponibles dans la palette de gauche de votre parcours, dans la catégorie **[!UICONTROL Action]** (voir [](../building-journeys/about-action-activities.md)).
+Les actions personnalisées vous permettent de configurer la connexion d’un système tiers pour envoyer des messages ou des appels d’API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec une charge utile au format JSON.
 
-Pour afficher la liste des actions ou configurer une nouvelle action, cliquez sur **[!UICONTROL Actions]** dans les menus supérieurs. La liste des actions s’affiche. Pour plus d’informations sur l’interface, voir [](../about/user-interface.md).
+Les actions sont disponibles dans la palette gauche de votre voyage, dans la **[!UICONTROL Action]** catégorie (voir [](../building-journeys/about-action-activities.md) ).
+
+>[!NOTE]
+>
+>La configuration des actions personnalisées est toujours effectuée par un **utilisateur technique**.
+
+Dans la liste **Actions**, vous pouvez appuyer sur la touche c pour créer un nouveau voyage, une nouvelle action, une nouvelle source de données ou un nouvel événement. Pour plus d’informations sur les raccourcis dans Journey Orchestration, voir [](../about/user-interface.md#section_ksq_zr1_ffb).
+
+Pour afficher la liste des ou configurer une nouvelle action, cliquez sur **[!UICONTROL Actions]** Actions dans les menus supérieurs. La liste des actions s’affiche. Pour plus d’informations sur l’interface, voir [](../about/user-interface.md).
 
 ![](../assets/custom1.png)
 
-Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action d’usine. Voir [](../action/working-with-adobe-campaign.md).
+Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action prête à l’emploi pour envoyer des courriers électroniques, des notifications Push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Standard. Voir [](../action/working-with-adobe-campaign.md).
 
-Si vous utilisez un système tiers pour l’envoi de messages, vous devez ajouter et configurer une action personnalisée. Voir [](../action/about-custom-action-configuration.md).
+Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [](../action/about-custom-action-configuration.md).
+
+Pour plus d&#39;informations sur la configuration d&#39;une orchestration Action pour Journey et comment l&#39;utiliser dans un voyage, regardez ce didacticiel [vidéo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
