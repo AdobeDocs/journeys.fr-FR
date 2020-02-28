@@ -8,8 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+translation-type: tm+mt
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -22,7 +22,7 @@ Journey Orchestration est un service d’application intégré à Experience Pl
 
 ![](../assets/journeydiagram.png)
 
-Journey Orchestration permet une orchestration en temps réel qui s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. Vous pouvez configurer une action personnalisée si vous utilisez un système tiers pour envoyer vos messages. Si vous disposez d’Adobe Campaign Standard, vous pourrez envoyer des emails, des notifications push et des SMS à l’aide des [fonctionnalités de messagerie transactionnelle](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) de cette plate-forme.
+Journey Orchestration permet une orchestration en temps réel qui s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. Vous pouvez configurer une action personnalisée si vous utilisez un système tiers pour envoyer vos messages. Si vous disposez d’Adobe Campaign Standard, vous pourrez envoyer des emails, des notifications push et des SMS à l’aide des [fonctionnalités de messagerie transactionnelle](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) de cette plate-forme.
 
 L’onglet de configuration des événements permet à un **utilisateur technique** de configurer les événements prévus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK).
 
@@ -48,4 +48,3 @@ Journey Orchestration comportant plusieurs étapes, vous pouvez créer des scén
 >[!NOTE]
 >
 >Cette documentation est fréquemment mise à jour pour prendre en compte les modifications récentes du produit. Cependant, certaines captures d’écran peuvent être légèrement différentes de l’interface du produit.
-
