@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -25,6 +25,10 @@ Avant de tester et de publier votre parcours, vérifiez que toutes les activité
 Les erreurs sont représentées par un symbole d’avertissement, affiché sur l’activité elle-même, dans le canevas. Placez le curseur sur le point d’exclamation pour afficher le message d’erreur. Si vous cliquez sur l’activité, vous devez voir la ligne contenant l’erreur associée à un avertissement. Par exemple, si un champ obligatoire est vide, une erreur s’affiche.
 
 ![](../assets/journey63.png)
+
+Par exemple, dans la trame, lorsque deux activités sont déconnectées, un avertissement s’affiche.
+
+![](../assets/canvas-disconnected.png)
 
 Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. Il indique les erreurs détectées par le système et empêche l’activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d’autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à l’identifier, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
 
@@ -42,7 +46,7 @@ Le point de départ d’un parcours est toujours un événement. Il est possible
 
 Vous pouvez ainsi vérifier si l’appel d’API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l’en-tête (et en particulier l’identifiant d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur l’URL appropriée pour l’accès.
 
-Les événements ne sont pas directement transmis de la source à Journey Orchestration. En effet, Journey Orchestration s’appuie sur les API d’ingestion de diffusion d’Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) pour la résolution des problèmes concernant les API d’ingestion de diffusion.
+Les événements ne sont pas directement transmis de la source à Journey Orchestration. En effet, Journey Orchestration s’appuie sur les API d’ingestion en flux continu d’Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 ## Vérification de l’entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
@@ -56,7 +60,7 @@ En tant qu’administrateur, vous devez vérifier les points suivants :
 * Avez-vous enregistré l’événement avant de copier la payload depuis l’aperçu de la payload ?
 * La payload d’événement contient-elle un identifiant d’événement ?
 * Avez-vous atteint la bonne URL ?
-* Avez-vous appliqué la structure de payload des API d’ingestion de diffusion en utilisant l’aperçu de la structure de payload dans le volet de configuration des événements ? Voir [](../event/previewing-the-payload.md).
+* Avez-vous appliqué la structure de payload des API d’ingestion en flux continu en utilisant l’aperçu de la structure de payload dans le volet de configuration des événements ? Voir [](../event/previewing-the-payload.md).
 * Avez-vous utilisé les paires clé/valeur appropriées dans l’en-tête de l’événement ?
 
    ```
@@ -78,7 +82,7 @@ Les éléments à vérifier sont les suivants :
 Si les visiteurs suivent le bon chemin dans le parcours sans recevoir de messages, vous pouvez vérifier les points suivants :
 
 * La messagerie transactionnelle a correctement pris en compte la demande d’envoi du message. Un utilisateur chargé de la conception de parcours peut accéder au message transactionnel censé être envoyé et vérifier si l’heure de la dernière exécution correspond à l’heure d’exécution de votre parcours. Il peut également vérifier les derniers appels/événements d’API reçus par la messagerie transactionnelle.
-* La messagerie transactionnelle a bien envoyé le message. Dans les journaux d’envoi des messages transactionnels, vous pouvez voir l’état de chaque exécution, en vert ou en rouge, et la nature du problème. Un utilisateur chargé de la conception de parcours peut accéder à cet écran et envoyer les journaux à un administrateur pour plus d’informations.
+* La messagerie transactionnelle a bien envoyé le message. Dans les journaux d’envoi des messages transactionnels, vous pouvez voir le statut de chaque exécution, en vert ou en rouge, et la nature du problème. Un utilisateur chargé de la conception de parcours peut accéder à cet écran et envoyer les journaux à un administrateur pour plus d’informations.
 
 Dans le cas d’un message envoyé par le biais d’une action personnalisée, le seul élément vérifiable pendant le test du parcours est l’apparition ou non d’une erreur suite à l’appel du système à l’aide d’une action personnalisée. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais ne déclenche pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.
 
