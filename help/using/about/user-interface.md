@@ -9,20 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ---
 
 
-# Interface utilisateur {#concept_rcq_lqt_52b}
+# Interface utilisateur{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
->title=&quot;A propos de la liste de parcours&quot;
->abstract=&quot;La liste des trajets vous permet de visualiser tous vos voyages à la fois, de voir leur statut et d&#39;effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas arrêter ou supprimer un voyage arrêté. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.&quot;
+>title=&quot;À propos de la liste des parcours&quot;
+>abstract=&quot;La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas arrêter ou supprimer un voyage terminé. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Regarder la vidéo de démonstration&quot;
-
 
 >[!NOTE]
 >
@@ -40,9 +39,13 @@ You can also access Journey Orchestration from the Experience Cloud home page, i
 
 ![](../assets/journey1bis.png)
 
-The top menus allows you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+Les menus supérieurs vous permettent de naviguer parmi les différentes fonctionnalités de Journey Orchestration : **[!UICONTROL Home]**(les voyages),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
+
+Cliquez sur l’ ![](../assets/icon-context.png) icône dans le coin supérieur droit de l’écran pour afficher l’aide contextuelle. Il est disponible dans les différents écrans de la liste d’orchestration de Journey (voyages, événements, actions et sources de données). Vous pouvez ainsi afficher une description rapide de la fonctionnalité actuelle et accéder aux articles et vidéos connexes.
+
+![](../assets/journey2bis.png)
 
 ## Recherche et filtrage{#section_lgm_hpz_pgb}
 
@@ -52,11 +55,13 @@ The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on t
 
 In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **Creation filters** to filter on the creation date and user. Vous pouvez, par exemple, choisir de n’afficher que les événements créés au cours des 30 derniers jours.
 
-In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can also choose to only display the journeys that use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**). The **[!UICONTROL Publication filters]** let you select a publication date or user. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Voir [](../building-journeys/using-the-journey-designer.md).
+In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). Vous pouvez également choisir d&#39;afficher uniquement les voyages qui utilisent un événement, un groupe de champs ou une action spécifique (**[!UICONTROL Activity filters]** et **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Vous pouvez sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Voir [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Notez que les colonnes affichées peuvent être personnalisées à l’aide du bouton de configuration en haut à droite des listes. La personnalisation est enregistrée pour chaque utilisateur.
+
+Les **[!UICONTROL Last update]** colonnes et **[!UICONTROL Last update by]** les colonnes vous permettent d&#39;afficher quand a eu lieu la dernière mise à jour de vos voyages et quel utilisateur l&#39;a fait.
 
 ![](../assets/journey74.png)
 
@@ -68,9 +73,26 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 
 ![](../assets/journey4.png)
 
+## Affichage des noms de champs XDM{#friendly-names-display}
+
+Les noms de champs XDM sont définis dans les schémas sous les noms de champs et les noms d’affichage lors de la définition de la charge [](../event/defining-the-payload-fields.md)d’événement, de la charge [de groupe de](../datasource/field-groups.md) champs et de la sélection de champs dans l’éditeur [d’](../expression/expressionadvanced.md)expression.
+Lors de la sélection d’un champ, son nom technique s’affiche ainsi qu’un nom plus convivial.
+
+Vous pouvez fournir des descripteurs tels que &quot;xdm:alternativeDisplayInfo&quot; lors de la configuration de schémas pour définir des noms conviviaux qui remplaceront les noms d’affichage. Il vous permet également de modifier les valeurs &quot;titre&quot; et &quot;description&quot; des champs du schéma.
+
+Si un nom convivial est disponible, le champ s’affiche sous la forme `<friendly-name>(<name>)`. Si aucun nom convivial n’est disponible, le nom d’affichage s’affiche, par exemple `<display-name>(<name>)`. Si aucun d’eux n’est défini, seul le nom technique du champ s’affiche `<name>`.
+
+Vous pouvez configurer des descripteurs de nom conviviaux via un appel d’API. Pour plus d&#39;informations, consultez le guide [du développeur](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema Registry.
+
+![](../assets/xdm-from-descriptors.png)
+
+>[!NOTE]
+>
+>Les noms conviviaux ne sont pas récupérés lorsque vous sélectionnez des champs dans une union de schémas.
+
 ## Utilisation des différents raccourcis{#section_ksq_zr1_ffb}
 
-L’interface de l’orchestration du parcours propose différents raccourcis.
+L’interface de Journey Orchestration propose différents raccourcis.
 
 _Dans les listes de parcours, d’actions, de sources de données ou d’événements :_
 
@@ -97,7 +119,7 @@ _Dans le volet de configuration d’un événement, d’une source de données o
 
 _Dans l’éditeur d’expression simple :_
 
-* Double-cliquez sur un champ, à gauche, pour ajouter une requête (ce qui équivaut à effecteur un glisser-déposer).
+* Double-cliquez sur un champ, à gauche, pour ajouter une requête (ce qui équivaut à effectuer un glisser-déposer).
 
 _Lors du parcours des champs XDM :_
 
