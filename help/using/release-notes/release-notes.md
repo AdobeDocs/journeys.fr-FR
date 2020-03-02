@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <td>
 <p>La <strong>palette</strong>Voyage, sur le côté gauche du concepteur du voyage, a été améliorée :</p>
 <ul>
-<li>Une nouvelle icône, en regard de la barre **Recherche**, vous permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués.</li>
+<li>Une nouvelle icône, en regard de la barre de <strong>recherche</strong> , vous permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués.</li>
 <li>Lors de l’utilisation du champ <strong>Rechercher</strong> , le nombre de résultats pour chaque catégorie d’activité de canevas est maintenant affiché.</li>
 <li>La navigation entre les différentes catégories d’activités a été améliorée.</li>
 </ul>
