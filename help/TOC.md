@@ -153,7 +153,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
       + [Configuration de la source de données](using/usecase/configuring-the-data-source.md)
       + [Création du parcours](using/usecase/simple-uc-building-the-journey.md)
    + Cas d’utilisation avancé{#use-case-advanced}
-      + [À propos du cas d’utilisation avancé](using/usecase/about-the-advanced-use-case.md)
+      + [À propos du cas d’utilisation avancé](using/usecase/about-the-advanced-use-case.md)
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
       + [Création du parcours](using/usecase/building-the-journey.md)
