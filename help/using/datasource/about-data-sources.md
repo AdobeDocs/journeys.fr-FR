@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple :
 
 * [Définition d’une condition](../building-journeys/condition-activity.md)
-* parameter and personalization data in [actions](../action/action.md)
+* Données de paramètre et de personnalisation dans les [actions](../action/action.md)
 * [Définition d’une attente personnalisée](../building-journeys/wait-activity.md#custom)
 * [Définition d’un fuseau horaire personnalisé](../building-journeys/timezone-management.md)
 
@@ -39,7 +39,7 @@ Il existe deux types de sources de données :
 
 Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [](../datasource/field-groups.md).
 
-Pour plus d’informations sur la configuration d’une source de données de plateforme d’expérience et d’une source de données externe, ainsi que sur la manière de rechercher et d’utiliser des données dans un parcours, regardez cette vidéo [de](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)didacticiel.
+Pour plus d’informations sur la configuration d’une source de données Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Les principales étapes de configuration d’une source de données sont les suivantes :
 
@@ -47,7 +47,7 @@ Les principales étapes de configuration d’une source de données sont les sui
 >
 >La configuration d’une source de données est toujours effectuée par un **utilisateur technique**.
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab.
+1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]**.
 
    La liste des sources de données s’affiche. Pour plus d’informations sur l’interface, voir [](../about/user-interface.md).
 
@@ -57,6 +57,6 @@ Les principales étapes de configuration d’une source de données sont les sui
 
    ![](../assets/journey23.png)
 
-1. Clics **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    La source de données est maintenant configurée et prête à être utilisée dans vos parcours.
