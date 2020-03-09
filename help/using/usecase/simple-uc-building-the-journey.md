@@ -51,7 +51,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc1_11.png)
 
-1. À l’aide de l’éditeur d’expression simple, recherchez le champ « gender » (_person > gender_) et déposez-le dans la partie droite pour créer la condition suivante : « gender est égal à female ».
+1. À l’aide de l’éditeur d’expression simple, recherchez le champ « gender » (_person > gender_) et déposez-le dans la partie droite pour créer la condition suivante : « gender est égale à female ».
 
    ![](../assets/journeyuc1_12.png)
 
