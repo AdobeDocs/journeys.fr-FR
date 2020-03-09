@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 # Activité d’attente{#section_rlm_nft_dgb}
 
-If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. Cela vous permet de définir le moment d’exécution de l’activité suivante. Quatre options sont disponibles :
+Si vous souhaitez observer un temps d’attente avant d’exécuter l’activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d’exécution de l’activité suivante. Quatre options sont disponibles :
 
 * [Durée](#duration)
 * [Date fixe](#fixed_date)
@@ -37,7 +37,7 @@ Vous pouvez définir une condition afin de limiter l’attente à une certaine p
 >
 >La durée d’attente maximale est de 30 jours.
 >
->En mode test, le **délai d’attente dans le paramètre test** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [](../building-journeys/testing-the-journey.md)
+>En mode test, le paramètre **Temps d’attente en test** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [](../building-journeys/testing-the-journey.md)
 
 ## Durée de l’attente{#duration}
 
@@ -59,7 +59,7 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 >
 >Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Event.offerOpened.activity.endTime}), le champ de l’événement se présentant sous la forme 2016-08-12T09:46:06.
 >
->Le fuseau **horaire** est attendu dans les propriétés de votre voyage. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [](../building-journeys/timezone-management.md).
+>La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
@@ -77,8 +77,8 @@ Ce type d’attente utilise un score calculé dans la plate-forme. Le score calc
 >
 >Cette fonctionnalité n’est disponible qu’après une activité **[!UICONTROL Email]**. Vous devez disposer d’Adobe Campaign Standard.
 
-1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
-1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. Dans le champ **[!UICONTROL Laps de temps]**, définissez le nombre d’heures à prendre en compte pour optimiser l’envoi des emails.
+1. Dans le champ **[!UICONTROL Type d’optimisation]**, indiquez si l’optimisation doit augmenter le nombre de clics ou d’ouvertures.
 1. Dans le champ **Laps de temps par défaut**, définissez le délai d’attente par défaut si le score de l’heure d’envoi prédictif n’est pas disponible.
 
    >[!NOTE]
