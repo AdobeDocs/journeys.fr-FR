@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 
 ---
@@ -21,20 +21,20 @@ source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 Cette page répertorie toutes les mises à jour de la documentation de Journey Orchestration.
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de Journey Orchestration.
 
-## March 2020 {#march-2020}
+## Mars 2020 {#march-2020}
 
-* Le déclenchement de plusieurs événements a été ajouté à la section Mode test [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
-* La section Mode Test a été mise à jour concernant le nouveau paramètre **Délai d&#39;attente dans le paramètre test** . [En savoir plus](../building-journeys/testing-the-journey.md)
-* La section Journal des tests a été mise à jour avec les codes d&#39;erreur d&#39;appel externe et les réponses. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
-* La gestion du fuseau horaire est désormais centralisée dans le panneau des propriétés du voyage. En savoir plus [ici](../building-journeys/changing-properties.md#timezone) et [ici](../building-journeys/timezone-management.md)
-* La section Conception de Voyage a été mise à jour pour refléter les améliorations récentes. [En savoir plus](../building-journeys/using-the-journey-designer.md)
+* Des informations sur le déclenchement de plusieurs événements ont été ajoutées à la section sur le mode test [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
+* La section sur le mode test a été mise à jour avec des informations concernant le nouveau paramètre **Temps d’attente en test**. [En savoir plus](../building-journeys/testing-the-journey.md)
+* La section sur les journaux de test a été mise à jour avec des informations sur les codes d’erreur et les réponses des appels externes. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
+* La gestion des fuseaux horaires est maintenant centralisée dans le panneau des propriétés du parcours. En savoir plus [ici](../building-journeys/changing-properties.md#timezone) et [ici](../building-journeys/timezone-management.md)
+* La section Concepteur de parcours a été mise à jour pour prendre en compte les améliorations récentes. [En savoir plus](../building-journeys/using-the-journey-designer.md)
 * La description de l’interface a été mise à jour avec des informations sur l’aide contextuelle. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
-* Lorsque vous parcourez les champs **** XDM, le nom convivial s’affiche. Les sections connexes ont été mises à jour. [En savoir plus](../about/user-interface.md#friendly-names-display)
+* Lorsque vous parcourez les **champs XDM**, le nom convivial s’affiche désormais. Les sections connexes ont été mises à jour. [En savoir plus](../about/user-interface.md#friendly-names-display)
 
 
-## February 2020 {#february-2020}
+## Février 2020 {#february-2020}
 
-* La section de raccourci a été mise à jour. Le raccourci clavier **C** vous permet de créer un nouvel élément dans tous les écrans de liste. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
+* La section concernant les raccourcis a été mise à jour. Le raccourci clavier **C** vous permet de créer un élément dans tous les écrans de liste. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## Janvier 2020 {#january-2020}
 
