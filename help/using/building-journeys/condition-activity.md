@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
@@ -29,7 +29,7 @@ Les types de conditions disponibles sont au nombre de quatre :
 
 ## À propos de l’activité Condition {#about_condition}
 
-Cliquez sur **[!UICONTROL Add a path]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans le canevas après l’activité.
+Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans le canevas après l’activité.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Notez que la conception de parcours n’est pas sans conséquences sur le plan f
 
 ![](../assets/journey48.png)
 
-Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant **[!UICONTROL Show path for other cases than the one(s) above]**. Notez que cette option n’est pas disponible dans les conditions de division. Voir [Division en pourcentage](#percentage_split).
+Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**. Notez que cette option n’est pas disponible dans les conditions de division. Voir [Division en pourcentage](#percentage_split).
 
 Le mode simple vous permet d’exécuter des requêtes simples en fonction d’une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Faites glisser des champs dans la zone principale. Pour combiner les différents éléments, imbriquez-les afin de créer différents groupes et/ou niveaux de groupes. Vous pouvez alors sélectionner un opérateur logique afin de combiner les éléments de même niveau :
 
@@ -62,7 +62,7 @@ Cette condition vous permet d’effectuer des actions différentes en fonction d
 
 >[!NOTE]
 >
->Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du voyage dans les propriétés du voyage. Voir [](../building-journeys/timezone-management.md).
+>Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -83,6 +83,6 @@ Cette condition vous permet de définir un flux différent en fonction de la dat
 
 >[!NOTE]
 >
->Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du voyage dans les propriétés du voyage. Voir [](../building-journeys/timezone-management.md).
+>Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
