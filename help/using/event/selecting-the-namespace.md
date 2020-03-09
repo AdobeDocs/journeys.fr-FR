@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 ---
@@ -22,9 +22,9 @@ Un namespace vous permet de définir le type de clé utilisé pour identifier la
 
 Vous pouvez utiliser l’un des namespaces prédéfinis ou en créer un à l’aide du service Identity Namespace. À ce propos, consultez cette [page](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md).
 
-If you select a schema that has a primary identity, then the **[!UICONTROL Key]** and **[!UICONTROL Namespace]** fields are pre-filled. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un et la clé sera préremplie (sous le champ **[!UICONTROL Namespace]** Namespace) à l’aide de _identityMap > id_.
+Si vous sélectionnez un schéma doté d’une identité principale, les champs **[!UICONTROL Clé]** et **[!UICONTROL Namespace]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un namespace et la clé sera préremplie (sous le champ **[!UICONTROL Namespace]**) à l’aide de _identityMap > id_.
 
-Lors de la sélection de champs, les champs d’identité principaux sont balisés.
+Lors de la sélection de champs, les champs d’identité principale sont balisés.
 
 ![](../assets/primary-identity.png)
 
