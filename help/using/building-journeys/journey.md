@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
@@ -29,13 +29,13 @@ Un seul namespace est autorisé par parcours. Lorsque vous déposez le premier �
 
 Les principales étapes nécessaires pour créer et publier un parcours sont les suivantes :
 
-1. In the top menu, click the **[!UICONTROL Home]** tab.
+1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Accueil]**.
 
    La liste des parcours s’affiche. Pour plus d’informations sur l’interface, voir [](../building-journeys/using-the-journey-designer.md).
 
    ![](../assets/journey30.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. Cliquez sur **[!UICONTROL Créer]** pour créer un parcours.
 
    ![](../assets/journey31.png)
 
