@@ -3,8 +3,8 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Documentation de Journey Orchestration
 topic: Premium
-translation-type: ht
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+translation-type: tm+mt
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## Prise en main
 
-* **[En quoi consiste Journey Orchestration ?](using/action/working-with-adobe-campaign.md)**<br/>En savoir plus sur Journey Orchestration.
+* **[En quoi consiste Journey Orchestration ?](using/about/about-journey-orchestration.md)**<br/>En savoir plus sur Journey Orchestration.
 
 * **[Créer votre premier parcours](using/about/get-started.md)**<br/>Découvrez les principales étapes de configuration de Journey Orchestration et créez votre premier parcours.
 
@@ -62,9 +62,9 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## Ressources supplémentaires
 
-* [Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
+* [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Profil client en temps réel](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
 * [Définition de champs XDM Experience Cloud](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
 * [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
 * [API d’ingestion en flux continu](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Messages transactionnels d’Adobe Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Messages transactionnels d’Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
