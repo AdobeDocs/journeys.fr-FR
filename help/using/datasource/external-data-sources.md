@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
@@ -34,7 +34,7 @@ L’appel est composé d’une URL principale (_https://api.adobeweather.org/wea
 
 Les principales étapes nécessaires pour créer et configurer une source de données externe sont les suivantes :
 
-1. From the list of data sources, Click **[!UICONTROL Add]** to create a new external data source.
+1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Ajouter]** pour créer une source de données externe.
 
    ![](../assets/journey25.png)
 
@@ -57,29 +57,29 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
    ![](../assets/journey27.png)
 
-1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** ou **[!UICONTROL API key]**. Pour plus d’informations sur le mode d’authentification personnalisé, voir [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Dans cet exemple, nous allons effectuer les choix suivants :
+1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisé]** ou **[!UICONTROL Clé API]**. Pour plus d’informations sur le mode d’authentification personnalisé, voir [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Dans cet exemple, nous allons effectuer les choix suivants :
 
 
-   * **[!UICONTROL Type]**: &quot;Clé API&quot;
-   * **[!UICONTROL Value]**: &quot;1234&quot; (valeur de la clé d’API)
-   * **[!UICONTROL Name]**: &quot;appid&quot; (il s’agit du nom du paramètre de clé d’API)
-   * **[!UICONTROL Location]**: &quot;Paramètre de requête&quot; (la clé API se trouve dans l’URL)
+   * **[!UICONTROL Type]** : « API key »
+   * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
+   * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
+   * **[!UICONTROL Emplacement]** : « Paramètre de requête » (la clé API se trouve dans l’URL)
    ![](../assets/journey28.png)
 
-1. Ajoutez un nouveau groupe de champs pour chaque jeu de paramètres d’API en cliquant sur **[!UICONTROL Add a New Field Group]**. N’utilisez ni espaces ni caractères spéciaux dans le nom du groupe de champs. Dans cet exemple, nous devons créer deux groupes de champs, un pour chaque jeu de paramètres (city et long/lat).
+1. Ajoutez un nouveau groupe de champs pour chaque jeu de paramètres d’API en cliquant sur **[!UICONTROL Ajouter un nouveau groupe de champs]**. N’utilisez ni espaces ni caractères spéciaux dans le nom du groupe de champs. Dans cet exemple, nous devons créer deux groupes de champs, un pour chaque jeu de paramètres (city et long/lat).
 
 Pour le jeu de paramètres « long/lat », nous créons un groupe de champs avec les informations suivantes :
 
-* **[!UICONTROL Used in]**: affiche le nombre de voyages qui utilisent un groupe de champs. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this field group.
-* **[!UICONTROL Method]**: sélectionnez la méthode POST ou GET. Dans notre exemple, nous choisissons la méthode GET.
-* **[!UICONTROL Cache duration]**: dans notre cas, nous voulons que la météo soit mise en cache pendant 10 minutes.
-* **[!UICONTROL Response Payload]**: cliquez dans le **[!UICONTROL Payload]** champ et collez un exemple de charge utile renvoyée par l’appel. Dans cet exemple, nous avons utilisé une payload trouvée sur un site web d’API météo. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
-* **[!UICONTROL Dynamic Values]**: entrez les différents paramètres séparés par une virgule, &quot;long,lat&quot; dans notre exemple. Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [](../expression/expressionadvanced.md).
-* **[!UICONTROL Sent Payload]**: ce champ n&#39; apparaît pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez la payload qui sera envoyée au système tiers.
+* **[!UICONTROL Utilisé(e) dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
+* **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous choisissons la méthode GET.
+* **[!UICONTROL Durée de mise en cache]** : dans ce cas, nous souhaitons que les données météo soient mises en cache pendant 10 minutes.
+* **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de la payload renvoyée par l’appel. Dans cet exemple, nous avons utilisé une payload trouvée sur un site web d’API météo. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller une nouvelle payload]** si vous souhaitez modifier la payload actuellement transmise.
+* **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres, séparés par une virgule (« long,lat » dans notre exemple). Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [](../expression/expressionadvanced.md).
+* **[!UICONTROL Payload envoyée]** : ce champ ne figure pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez la payload qui sera envoyée au système tiers.
 
-In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Parameters]** field and they are automatically added at the end of the call. Dans le cas d’un appel POST, vous devez :
+Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous devez indiquer ce(s) dernier(s) dans le champ **[!UICONTROL Paramètres]** et ils sont alors automatiquement ajoutés à la fin de l’appel. Dans le cas d’un appel POST, vous devez :
 
-* list the parameters to be passed at call time in the **[!UICONTROL Parameter]** field (in the example below: “identifier”).
+* répertorier les paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Paramètre]** (&quot;identifier&quot; dans l’exemple ci-dessous) ;
 * spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour ce faire, vous devez ajouter : &quot;param&quot;: &quot;nom de votre paramètre&quot; (&quot;identifier&quot; dans l’exemple ci-dessous). Respectez la syntaxe ci-dessous :
 
    ```
@@ -88,7 +88,7 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
 
 ![](../assets/journey29.png)
 
-Clics **[!UICONTROL Save]**.
+Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La source de données est maintenant configurée et prête à être utilisée dans vos parcours ; par exemple, dans vos conditions ou pour personnaliser un email. Si la température est supérieure à 30° C, vous pouvez choisir d’envoyer une communication spécifique.
 
