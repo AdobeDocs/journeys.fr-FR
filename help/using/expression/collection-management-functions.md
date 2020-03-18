@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
@@ -171,7 +171,7 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements et **currentDataPackField**,
->lors de la manipulation de collections de sources de données. When processing collections with **[!UICONTROL all]**, **[!UICONTROL first]** and **[!UICONTROL last]**, we
+>lors de la manipulation de collections de sources de données. Lors du traitement de collections avec les fonctions **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous
 >les exécutons en boucle sur chaque élément de la collection. **[!UICONTROL currentEventField]** et **currentDataPackField**
 >correspondent à l’élément exécuté en boucle.
 
