@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
@@ -21,25 +21,25 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
+## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
 
 **Nouveautés**
 
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations du mode de test</strong><br/></th>
+<th><strong>Améliorations du mode test</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les améliorations suivantes ont été apportées au mode test :</p>
+<p>Les améliorations suivantes ont été apportées au mode test :</p>
 <ul>
-<li>Lorsqu’un voyage utilise plusieurs événements, vous pouvez désormais les déclencher individuellement dans une liste déroulante, dans l’écran de configuration <strong>de l’</strong> événement du mode test. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p></li>
-<li><p>Lorsqu’une ou plusieurs activités <strong>d’attente</strong> sont utilisées dans un voyage, vous pouvez maintenant définir le temps de fin de chacune de ces activités en mode test. La durée par défaut est de 10 secondes. Vous pouvez le modifier à l’aide du paramètre <strong>Durée d’attente dans le paramètre test</strong> , dans le coin inférieur gauche. <a href="../building-journeys/testing-the-journey.md">En savoir plus</a></p><img src="../assets/rn-test.png"/>
+<li>Lorsqu’un parcours utilise plusieurs événements, vous pouvez maintenant les déclencher séparément depuis une liste déroulante dans l’écran <strong>Configuration d'événement</strong> du mode test. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p></li>
+<li><p>Lorsqu’une ou plusieurs activités d’<strong>attente</strong> sont utilisées dans un parcours, vous pouvez maintenant définir la durée de chacune d’entre elles en mode test. La durée par défaut est de 10 secondes. Vous pouvez la modifier à l’aide du paramètre <strong>Temps d’attente en test</strong>, dans le coin inférieur gauche. <a href="../building-journeys/testing-the-journey.md">En savoir plus</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>Dans les journaux <strong>de</strong>test, en cas d’erreur lors de l’appel d’un système tiers (source de données ou action), le code d’erreur et la réponse à l’erreur s’affichent désormais. <a href="../building-journeys/testing-the-journey.md#viewing_logs">En savoir plus</a>
+<li>En cas d’erreur lors de l’appel d’un système tiers (source de données ou action), le code d’erreur et la réponse d’erreur s’affichent maintenant dans les <strong>journaux de test</strong>. <a href="../building-journeys/testing-the-journey.md#viewing_logs">En savoir plus</a>
 </li>
 </ul>
 </td>
@@ -56,13 +56,13 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <tbody>
 <tr> 
 <td>
-<p>La gestion du fuseau horaire est désormais centralisée dans le panneau des propriétés du voyage. Deux paramètres ont été ajoutés aux propriétés de voyage :</p>
+<p>La gestion des fuseaux horaires est maintenant centralisée dans le panneau des propriétés du parcours. Deux paramètres ont été ajoutés aux propriétés du parcours :</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>La liste <strong>déroulante Fuseau</strong> horaire vous permet de sélectionner un fuseau horaire spécifique. Par défaut, le fuseau horaire du navigateur est utilisé.</li>
-<li>La case à cocher Fuseau horaire <strong>du</strong> profil vous permet d’utiliser le fuseau horaire Profil de la plateforme d’expérience de la personne qui entre dans le voyage, le cas échéant. Dans le cas contraire, le fuseau horaire défini dans la liste déroulante est utilisé. Cette fonctionnalité n’est pas compatible avec les voyages utilisant des événements qui n’ont pas d’espace de noms.</li>
+<li>La liste déroulante <strong>Fuseau horaire</strong> vous permet de sélectionner un fuseau horaire spécifique. Par défaut, le fuseau horaire du navigateur est utilisé.</li>
+<li>La case à cocher <strong>Fuseau horaire du profil</strong> vous permet d’utiliser le fuseau horaire du profil Experience Platform de la personne qui entre dans le parcours, le cas échéant. Si ce fuseau horaire n’est pas disponible, le fuseau horaire défini dans la liste déroulante est utilisé. Cette fonctionnalité n’est pas compatible avec les parcours utilisant des événements qui n’ont pas de namespace.</li>
 </ul>
-<p>Pour plus d’informations, reportez-vous aux sections <a href="../building-journeys/changing-properties.md#timezone">Modification des propriétés</a> et gestion <a href="../building-journeys/timezone-management.md">du</a> fuseau horaire.</p>
+<p>Pour plus d’informations, reportez-vous aux sections <a href="../building-journeys/changing-properties.md#timezone">Modification des propriétés</a> et <a href="../building-journeys/timezone-management.md">Gestion des fuseaux horaires</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -71,20 +71,20 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations du concepteur de voyage</strong><br/></th>
+<th><strong>Améliorations du concepteur de parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>La <strong>palette</strong>Voyage, sur le côté gauche du concepteur du voyage, a été améliorée :</p>
+<p>La <strong>palette</strong> des parcours, dans la partie gauche du concepteur de parcours, a été améliorée :</p>
 <ul>
-<li>Une nouvelle icône, en regard de la barre de <strong>recherche</strong> , vous permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués.</li>
-<li>Lors de l’utilisation du champ <strong>Rechercher</strong> , le nombre de résultats pour chaque catégorie d’activité de canevas est maintenant affiché.</li>
-<li>La navigation entre les différentes catégories d’activités a été améliorée.</li>
+<li>Une nouvelle icône, en regard de la barre <strong>Recherche</strong>, permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un namespace différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués.</li>
+<li>Lors de l’utilisation du champ <strong>Recherche</strong> , le nombre de résultats s’affiche maintenant pour chaque catégorie d’activité du canevas.</li>
+<li>La navigation entre les différentes catégories d’activité a été améliorée.</li>
 </ul>
-<p>Dans le concepteur du voyage, vous pouvez désormais vérifier que vous accédez à la dernière version du voyage. Ces informations s’affichent en regard du numéro de version.</p>
-<p>Dans le <strong>canevas</strong>de voyage, lorsque deux activités sont déconnectées, un message d’avertissement s’affiche.</p>
+<p>Dans le concepteur de parcours, vous pouvez maintenant vérifier que vous accédez à la dernière version d’un parcours. Cette information s’affiche en regard du numéro de version.</p>
+<p>Dans le <strong>canevas</strong> des parcours, un message d’avertissement s’affiche maintenant lorsque deux activités sont déconnectées.</p>
 <img src="../assets/rn-canvas.png"/>
 <p>Pour plus d'informations, consultez la <a href="../building-journeys/using-the-journey-designer.md">documentation détaillée</a>.</p>
 </td>
@@ -101,8 +101,8 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <tbody>
 <tr>
 <td>
-<p>Une aide contextuelle est désormais disponible dans les différents écrans de la liste Orchestration du voyage (voyages, événements, actions et sources de données). Vous pouvez ainsi afficher une description rapide de la fonctionnalité actuelle et accéder aux articles et vidéos connexes.</p>
-<p>Pour afficher l’aide contextuelle, cliquez sur l’ <img src="../assets/icon-context.png"/> icône dans le coin supérieur droit de l’écran. </p>
+<p>Une aide contextuelle est maintenant disponible dans les différents écrans des listes Journey Orchestration (parcours, événements, actions et sources de données). Vous pouvez ainsi afficher une description rapide de la fonctionnalité actuelle et accéder aux articles et vidéos connexes.</p>
+<p>Pour afficher l’aide contextuelle, cliquez sur l’icône <img src="../assets/icon-context.png"/> dans le coin supérieur droit de l’écran. </p>
 <img src="../assets/rn-context.png"/>
 </td>
 </tr>
@@ -111,15 +111,15 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 
 **Autres améliorations**
 
-* Outre les Etats-Unis, Journeys Orchestration est désormais disponible dans **EMEA**. La demande et la documentation sont disponibles en français et en allemand.
+* Outre les États-Unis, Journey Orchestration est maintenant disponible dans les pays de la zone **EMEA**. L’application et la documentation sont disponibles en français et en allemand.
 
-* Experience League est désormais intégrée dans le produit. Cela simplifie l’accès au contenu associé et vous permet de tirer le meilleur parti d’Experience Cloud. Vous pouvez accéder directement à la documentation de l’orchestration de Journey en bas de l’onglet Aide. De plus, cliquez sur Aide > Commentaires pour signaler des problèmes ou partager vos idées avec Adobe.
+* Le portail Experience League est maintenant intégré dans le produit. Cette intégration simplifie l’accès au contenu associé et vous permet de tirer le meilleur parti d’Experience Cloud. Vous pouvez accéder directement à la documentation de Journey Orchestration en bas de l’onglet Aide. En outre, cliquez sur Aide > Commentaires pour signaler des problèmes ou partager vos idées avec Adobe.
 
-* Le raccourci clavier **C** , qui vous permet de créer un élément, est désormais disponible dans tous les écrans de liste : voyages, sources de données, actions et événements. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
+* Le raccourci clavier **C**, qui vous permet de créer un élément, est maintenant disponible dans tous les écrans de liste : parcours, sources de données, actions et événements. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
 
-* Vous pouvez désormais **supprimer** les voyages interrompus. Les rapports associés à ces voyages supprimés ne seront pas disponibles.
+* Vous pouvez maintenant **supprimer** les parcours arrêtés. Les rapports associés à ces parcours supprimés ne seront pas disponibles.
 
-* Lorsque vous parcourez les champs **de plateforme de** données (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition de schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, le nom d’affichage alternatif s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs d’eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
+* Lorsque vous parcourez les **champs Data Platform** (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées de la définition du schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, l’autre nom d’affichage s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
 
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
@@ -134,4 +134,4 @@ Journey Orchestration permet une orchestration en temps réel et s’appuie sur 
 Ressources supplémentaires :
 
 * [Tutoriels](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity)
+* [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity_fr)
