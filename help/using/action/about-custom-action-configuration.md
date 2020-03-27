@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
 
 ---
 
@@ -23,7 +23,7 @@ Les restrictions sont répertoriées ici : [](../action/custom-action-limitatio
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 
-1. Dans la liste **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Ajouter]** pour créer une action. Le volet de configuration des actions s’ouvre dans la droite de l’écran.
+1. From the **[!UICONTROL Actions]** list, click **[!UICONTROL Add]** to create a new action. Le volet de configuration des actions s’ouvre dans la droite de l’écran.
 
    ![](../assets/custom2.png)
 
@@ -34,14 +34,14 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
    >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
 1. Ajoutez une description à l’action. Cette étape est facultative.
-1. Le nombre de parcours qui font appel à cette action apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cette action.
-1. Définissez les différents paramètres de **[!UICONTROL Configuration d’URL]**. Voir [](../action/url-configuration.md).
-1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Voir [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Définissez les **[!UICONTROL Paramètres de message]**. Voir [](../action/defining-the-message-parameters.md).
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
+1. Définissez les différents **[!UICONTROL URL Configuration]** paramètres. Voir [](../action/url-configuration.md).
+1. Configurez la **[!UICONTROL Authentication]** section. Cette configuration est la même que pour les sources de données.  Voir [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Définissez le **[!UICONTROL Message parameters]**. Voir [](../action/defining-the-message-parameters.md).
+1. Clics **[!UICONTROL Save]**.
 
    L’action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Voir [](../building-journeys/about-action-activities.md).
 
    >[!NOTE]
    >
-   >Lorsqu’une action personnalisée est utilisée dans une version de parcours, la plupart des paramètres sont en lecture seule. Vous ne pouvez modifier que les champs Nom et Description.
+   >Lorsqu’une action personnalisée est utilisée dans une version de parcours, la plupart des paramètres sont en lecture seule. Vous pouvez uniquement modifier les champs **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la **[!UICONTROL Authentication]** section.
