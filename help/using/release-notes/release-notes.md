@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
+translation-type: tm+mt
+source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 ---
 
@@ -59,7 +59,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <p>La gestion des fuseaux horaires est maintenant centralisée dans le panneau des propriétés du parcours. Deux paramètres ont été ajoutés aux propriétés du parcours :</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>La liste déroulante <strong>Fuseau horaire</strong> vous permet de sélectionner un fuseau horaire spécifique. Par défaut, le fuseau horaire du navigateur est utilisé.</li>
+<li>La liste déroulante <strong>Fuseau horaire</strong> vous permet de sélectionner un fuseau horaire spécifique. Par défaut, le fuseau horaire du navigateur est utilisé. </li>
 <li>La case à cocher <strong>Fuseau horaire du profil</strong> vous permet d’utiliser le fuseau horaire du profil Experience Platform de la personne qui entre dans le parcours, le cas échéant. Si ce fuseau horaire n’est pas disponible, le fuseau horaire défini dans la liste déroulante est utilisé. Cette fonctionnalité n’est pas compatible avec les parcours utilisant des événements qui n’ont pas de namespace.</li>
 </ul>
 <p>Pour plus d’informations, reportez-vous aux sections <a href="../building-journeys/changing-properties.md#timezone">Modification des propriétés</a> et <a href="../building-journeys/timezone-management.md">Gestion des fuseaux horaires</a>.</p>
@@ -134,4 +134,4 @@ Journey Orchestration permet une orchestration en temps réel et s’appuie sur 
 Ressources supplémentaires :
 
 * [Tutoriels](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity_fr)
+* [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity)
