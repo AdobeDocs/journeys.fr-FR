@@ -23,6 +23,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Mars 2020 {#march-2020}
 
+* Ajout de descriptions de paramètres pour _actionExecutionErrors_ et _fetchErrors_ dans la section des journaux de test. [En savoir plus](../action/testing-the-journey.md#viewing_logs)
 * Les limites des actions personnalisées utilisées dans un voyage ont été mises à jour. Vous pouvez également modifier le champ **URL** et les paramètres **d’authentification** . [En savoir plus](../action/about-custom-action-configuration.md)
 * De nouvelles entrées d’aide contextuelle ont été ajoutées. Le volet de charge utile de l’authentification personnalisée (dans les actions et les sources de données) comprend désormais une icône d’aide qui pointe vers cette [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Les voyages terminés peuvent maintenant être arrêtés. [En savoir plus](../building-journeys/using-the-journey-designer.md)
