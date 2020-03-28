@@ -22,7 +22,7 @@ Le menu Accueil du parcours vous permet de consulter la **liste des parcours**. 
 
 ## Liste des parcours {#journey_list}
 
-La liste des **parcours** vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ou redémarrer un voyage terminé. Vous pouvez créer une nouvelle version à partir de celle-ci ou la . Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.
+La liste des **parcours** vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ou redémarrer un voyage terminé. Vous pouvez créer une nouvelle version à partir de celle-ci, la  ou l’arrêter. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.
 
 The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. Le menu Filtres vous permet de filtrer les parcours affichés selon différents critères (statut, parcours que vous avez créés, parcours modifiés au cours des 30 derniers jours, versions les plus récentes uniquement, etc.). Vous pouvez également choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique. Les colonnes affichées dans la liste peuvent être configurées. Tous les filtres et colonnes sont enregistrés par utilisateur.
 
