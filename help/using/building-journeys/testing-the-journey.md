@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+translation-type: tm+mt
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -26,7 +26,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Voir [](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
 
-1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
+1. Pour activer le mode , cliquez sur le bouton bascule **[!UICONTROL Test]** Test dans le coin supérieur droit de l’écran.
 
    ![](../assets/journeytest1.png)
 
@@ -34,11 +34,11 @@ Pour utiliser le mode test, procédez comme suit :
 
    ![](../assets/journeytest_wait.png)
 
-1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
+1. Cliquez sur **[!UICONTROL Trigger an event]** pour configurer et envoyer des  au parcours. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des journaux](#viewing_logs).
+1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. Voir [Affichage des journaux](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -56,7 +56,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Déclenchement d’événements {#firing_events}
 
-Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera entrer une personne dans le parcours.
+The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
 
 Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Data Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
 
@@ -64,7 +64,7 @@ Si votre parcours contient plusieurs événements, sélectionnez-les dans la lis
 
 ![](../assets/journeytest4.png)
 
-L’interface vous permet de transmettre des paramètres d’événement simples. Si vous souhaitez transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez cliquer sur **[!UICONTROL Affichage du code]** pour voir l’intégralité du code de la payload et le modifier. Vous pouvez, par exemple, copier et coller des informations d’événement préparées par un utilisateur technique.
+L’interface vous permet de transmettre des paramètres d’événement simples. If you want to pass collections or other advanced objects in the event, you can click on **[!UICONTROL Code View]** to see the entire code of the payload and modify it. Vous pouvez, par exemple, copier et coller des informations d’événement préparées par un utilisateur technique.
 
 ![](../assets/journeytest5.png)
 
@@ -72,7 +72,7 @@ Un utilisateur technique peut également se servir de cette interface pour compo
 
 ## Affichage des journaux {#viewing_logs}
 
-Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
+The **[!UICONTROL Show log]** button allows you to view the test results. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
 ![](../assets/journeytest3.png)
 
@@ -86,7 +86,9 @@ Le nombre de personnes (appelées instances d’un point de vue technique) prés
 * _Currentstep_ : étape du parcours à laquelle se trouve la personne. Nous vous recommandons d’ajouter des libellés à vos activités afin de les identifier plus facilement.
 * _currentstep_ > phase : statut du parcours de la personne (en cours, terminé, erreur ou délai dépassé). Pour plus d’informations, voir ci-dessous.
 * _currentstep_ > _extraInfo_ : description de l’erreur et autres informations contextuelles.
+* _current_ > _fetchErrors_: informations sur les erreurs de récupération de données survenues au cours de cette étape.
 * _externalKeys_ : valeur de la formule de clé définie dans l’événement.
 * _enrichedData_ : données récupérées par le parcours si ce dernier utilise des sources de données.
 * _transitionHistory_ : liste des étapes suivies par la personne. Pour les événements, la payload est affichée.
+* _actionExecutionErrors_ : informations sur les erreurs qui se sont produites.
 
