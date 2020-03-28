@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -44,4 +44,4 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
    >[!NOTE]
    >
-   >Lorsqu’une action personnalisée est utilisée dans une version de parcours, la plupart des paramètres sont en lecture seule. Vous pouvez uniquement modifier les champs **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la **[!UICONTROL Authentication]** section.
+   >Lorsqu’une action personnalisée est utilisée dans un voyage, la plupart des paramètres sont en lecture seule. Vous pouvez uniquement modifier les champs **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la **[!UICONTROL Authentication]** section.
