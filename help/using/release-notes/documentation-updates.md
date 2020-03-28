@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+translation-type: tm+mt
+source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ---
 
@@ -23,6 +23,10 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Mars 2020 {#march-2020}
 
+* Les limites des actions personnalisées utilisées dans un voyage ont été mises à jour. Vous pouvez également modifier le champ **URL** et les paramètres **d’authentification** . [En savoir plus](../action/about-custom-action-configuration.md)
+* De nouvelles entrées d’aide contextuelle ont été ajoutées. Le volet de charge utile de l’authentification personnalisée (dans les actions et les sources de données) comprend désormais une icône d’aide qui pointe vers cette [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+* Les voyages terminés peuvent maintenant être arrêtés. [En savoir plus](../building-journeys/using-the-journey-designer.md)
+* La section de description de l’interface a été réorganisée. [En savoir plus](../about/user-interface.md)
 * Des informations sur le déclenchement de plusieurs événements ont été ajoutées à la section sur le mode test [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
 * La section sur le mode test a été mise à jour avec des informations concernant le nouveau paramètre **Temps d’attente en test**. [En savoir plus](../building-journeys/testing-the-journey.md)
 * La section sur les journaux de test a été mise à jour avec des informations sur les codes d’erreur et les réponses des appels externes. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
