@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -23,10 +23,10 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >Lors de la création d’un événement, Journey Orchestration génère automatiquement un identifiant qui lui correspond. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [](../event/previewing-the-payload.md).
 
-Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans Journey Orchestration, procédez comme suit :
+To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in Journey Orchestration, you need to follow these steps:
 
-1. Récupérez l’URL d’inlet à partir des API de Data Platform (voir [API d’ingestion en flux continu](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)).
-1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. Voir [](../event/defining-the-payload-fields.md).
+1. Récupérez l’URL d’inlet à partir des API de Data Platform (voir [API d’ingestion en flux continu](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)).
+1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. Voir [](../event/defining-the-payload-fields.md).
 
 Vous devez ensuite configurer le système de données qui envoie les événements vers les API d’ingestion en flux continu à l’aide de la payload que vous avez copiée :
 
@@ -95,4 +95,4 @@ Voici un exemple d’événement d’API d’ingestion en flux continu :
 
 Pour identifier plus facilement l’endroit où coller la partie « données », vous pouvez utiliser un outil de visualisation JSON tel que [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com).
 
-Pour résoudre les problèmes liés aux API d’ingestion en flux continu, consultez cette [page](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md).
+Pour résoudre les problèmes liés aux API d’ingestion en flux continu, consultez cette [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html).
