@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '742'
+ht-degree: 98%
 
 ---
 
@@ -45,11 +48,11 @@ Le service Pipeline filtre les événements avec une payload contenant les event
 
 Les principales étapes nécessaires pour configurer un nouvel événement sont les suivantes :
 
-1. In the top menu, click on the **[!UICONTROL Events]** tab. La liste des événements s’affiche. Pour plus d’informations sur l’interface, voir [](../about/user-interface.md).
+1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Événements]**. La liste des événements s’affiche. Pour plus d’informations sur l’interface, voir [](../about/user-interface.md).
 
    ![](../assets/journey5.png)
 
-1. Click **[!UICONTROL Add]** to create a new event. Le volet de configuration d’événement s’ouvre dans la partie droite de l’écran.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer un événement. Le volet de configuration d’événement s’ouvre dans la partie droite de l’écran.
 
    ![](../assets/journey6.png)
 
@@ -61,11 +64,11 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
 
 1. Ajoutez une description à l’événement. Cette étape est facultative.
 1. Définissez les champs de payload et de schéma : c’est dans ces champs que vous sélectionnez les informations d’événement (désignées généralement sous le nom de payload) que Journey Orchestration s’attend à recevoir. Vous pourrez alors utiliser ces informations dans votre parcours. Voir [](../event/defining-the-payload-fields.md).
-1. The number of journeys that use this event is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this event.
+1. Le nombre de parcours qui font appel à cet événement apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cet événement.
 1. Ajoutez un namespace. Cette étape est facultative, mais recommandée. En effet, l’ajout d’un namespace permet d’exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l’événement. Voir [](../event/selecting-the-namespace.md).
 1. Définissez la clé : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un namespace. En effet, Journey Orchestration sélectionne la clé qui doit correspondre au namespace ; par exemple, si vous sélectionnez un namespace d’email, la clé d’email est sélectionnée. Voir [](../event/defining-the-event-key.md).
 1. Ajoutez une condition. Cette étape est facultative. Elle permet au système de traiter uniquement les événements qui répondent à la condition. Cette condition ne peut être basée que sur les informations contenues dans l’événement. Voir [](../event/adding-a-condition.md).
-1. Clics **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/journey7.png)
 
