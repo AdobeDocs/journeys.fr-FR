@@ -10,6 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 95%
 
 ---
 
@@ -22,13 +25,13 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 >
 >Cette documentation est fréquemment mise à jour pour prendre en compte les modifications récentes du produit. Cependant, certaines captures d’écran peuvent être légèrement différentes de l’interface du produit.
 
-## Accès à l&#39;orchestration de Journey{#accessing_journey_orchestration}
+## Accès à l&#39;orchestration du trajet{#accessing_journey_orchestration}
 
-To access the Journey Orchestration&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Sous « Experience Platform », cliquez sur **[!UICONTROL Journey Orchestration]**, dans la partie droite.
+Pour accéder à l’interface de Journey Orchestration, cliquez sur l’icône de **[!UICONTROL sélecteur d’applications]**, en haut à droite. Sous « Experience Platform », cliquez sur **[!UICONTROL Journey Orchestration]**, dans la partie droite.
 
 ![](../assets/journey1.png)
 
-You can also access Journey Orchestration from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
+Vous pouvez également accéder à Journey Orchestration à partir de la page d’accueil d’Experience Cloud, dans la section **[!UICONTROL Accès rapide]**.
 
 ![](../assets/journey1bis.png)
 
@@ -36,11 +39,11 @@ You can also access Journey Orchestration from the Experience Cloud home page, i
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
->title="À propos de Journey "
->abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ou redémarrer un voyage terminé. Vous pouvez créer une nouvelle version à partir de celle-ci ou la . Vous pouvez également utiliser la barre de recherche pour rechercher un parcours."
->additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Vidéo de démonstration"
+>title="A propos de la liste de parcours"
+>abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ou redémarrer un voyage terminé. Vous pouvez créer une nouvelle version à partir de celle-ci ou la duplicata. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Regarder une vidéo de démonstration"
 
-The top menus allow you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+Les menus supérieurs vous permettent de naviguer parmi les différentes fonctionnalités de Journey Orchestration : **[!UICONTROL Accueil]** (les parcours), **[!UICONTROL Sources de données]**, **[!UICONTROL Evénements]** et **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
@@ -50,23 +53,23 @@ Cliquez sur l’icône ![](../assets/icon-context.png) dans le coin supérieur d
 
 ## Recherche et filtrage{#section_lgm_hpz_pgb}
 
-In the **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, a search bar allows you to search for an item.
+Une barre de recherche vous permet de rechercher un élément dans les listes **[!UICONTROL Accueil]**, **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**.
 
-The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. Le menu Filtres permet de filtrer les éléments affichés en fonction de différents critères. Il est possible d’afficher uniquement les éléments d’un certain type ou dans un statut donné, ceux que vous avez créés, ou ceux que vous avez modifiés au cours des 30 derniers jours.
+Pour accéder aux **[!UICONTROL filtres]**, cliquez sur l’icône en forme de filtre en haut à gauche de la liste. Le menu Filtres permet de filtrer les éléments affichés en fonction de différents critères. Il est possible d’afficher uniquement les éléments d’un certain type ou dans un statut donné, ceux que vous avez créés, ou ceux que vous avez modifiés au cours des 30 derniers jours.
 
-In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **Creation filters** to filter on the creation date and user. Vous pouvez, par exemple, choisir de n’afficher que les événements créés au cours des 30 derniers jours.
+Pour filtrer des éléments en fonction de la date de création et de l’utilisateur, utilisez les **filtres de création** contenus dans les listes **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**. Vous pouvez, par exemple, choisir de n’afficher que les événements créés au cours des 30 derniers jours.
 
-In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can also choose to only display the journeys that use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**).The **[!UICONTROL Publication filters]** let you select a publication date or user. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Voir [](../building-journeys/using-the-journey-designer.md).
+Dans la liste des parcours (page **[!UICONTROL Accueil]**), outre les **[!UICONTROL filtres de création]**, vous pouvez également filtrer les parcours affichés en fonction de leur statut et de leur version (**[!UICONTROL filtres de statut et de version]**). Vous pouvez également choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique (**[!UICONTROL Filtres d’activité]** et **[!UICONTROL Filtres de données]**). Les **[!UICONTROL Filtres de publication]** vous permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Voir [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Notez que les colonnes affichées peuvent être personnalisées à l’aide du bouton de configuration en haut à droite des listes. La personnalisation est enregistrée pour chaque utilisateur.
 
-The **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns allow you to display when has the last update of your journeys occured and which user operated it.
+Les colonnes **[!UICONTROL Dernière mise à jour]** et **[!UICONTROL Dernière mise à jour par]** vous permettent d’afficher quand la dernière mise à jour de vos parcours a eu lieu et quel utilisateur l’a effectuée.
 
 ![](../assets/journey74.png)
 
-In the event, data source and action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
+Dans les volets de configuration des sources de données, des événements et des actions, le champ **[!UICONTROL Utilisé(e) dans]** affiche le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 
 ![](../assets/journey3bis.png)
 
@@ -100,19 +103,19 @@ _Lors de la configuration d’une activité dans un parcours :_
 
 Le canevas est automatiquement enregistré. Vous pouvez voir le statut d’enregistrement, en haut à gauche du canevas.
 
-* Appuyez sur **Échap** pour fermer le volet de configuration et ignorer les modifications apportées. Il s’agit de l’équivalent du bouton **[!UICONTROL Cancel]**.
-* Press **[!UICONTROL Enter]** or click outside the pane to close the configuration pane. Les modifications sont enregistrées. Il s’agit de l’équivalent du bouton **[!UICONTROL Ok]**.
-* If you press **[!UICONTROL Delete]** or **backspace**, you can then press **[!UICONTROL Enter]** to confirm the deletion.
+* Appuyez sur **Échap** pour fermer le volet de configuration et ignorer les modifications apportées. Il s’agit de l’équivalent du bouton **[!UICONTROL Annuler]**.
+* Appuyez sur **[!UICONTROL Entrée]** ou cliquez en dehors du volet pour fermer le volet de configuration. Les modifications sont enregistrées. Il s’agit de l’équivalent du bouton **[!UICONTROL OK]**.
+* Si vous appuyez sur **[!UICONTROL Supprimer]** ou **Retour arrière**, vous pouvez ensuite appuyer sur **[!UICONTROL Entrée]** pour confirmer la suppression.
 
 _Dans les fenêtres contextuelles :_
 
 * Appuyez sur **Échap** pour fermer une fenêtre (équivalent du bouton **Annuler**).
-* Press **[!UICONTROL Enter]** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* Appuyez sur **[!UICONTROL Entrée]** pour enregistrer ou confirmer (équivalent du bouton **[!UICONTROL OK]** ou **[!UICONTROL Enregistrer]**).
 
 _Dans le volet de configuration d’un événement, d’une source de données ou d’une action :_
 
 * Appuyez sur **Échap** pour fermer le volet de configuration sans effectuer d’enregistrement.
-* Press **[!UICONTROL Enter]** to save modifications and close the configuration pane.
+* Appuyez sur **[!UICONTROL Entrée]** pour enregistrer les modifications et fermer le volet de configuration.
 * Appuyez sur la touche **tabulation** pour passer d’un champ à un autre et les configurer.
 
 _Dans l’éditeur d’expression simple :_
@@ -134,5 +137,5 @@ _Dans un écran contenant une barre de recherche :_
 _Dans le canevas d’un parcours :_
 
 * Utilisez la combinaison de touches **Ctrl/Commande + A** pour sélectionner toutes les activités.
-* When one or several activities are selected, press **[!UICONTROL Delete]** or **backspace** to delete them. Then you can press **[!UICONTROL Enter]** to confirm in the confirmation pop-up.
+* Lorsqu’une ou plusieurs activités sont sélectionnées, appuyez sur **[!UICONTROL Supprimer]** ou **Retour arrière** pour les supprimer. Vous pouvez ensuite appuyer sur **[!UICONTROL Entrée]** pour confirmer la suppression dans la fenêtre contextuelle de confirmation.
 * Double-cliquez sur une activité dans la palette de gauche pour l’ajouter dans la première position disponible (du haut vers le bas).
