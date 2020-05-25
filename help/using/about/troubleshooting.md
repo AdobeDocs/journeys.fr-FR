@@ -8,8 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: ht
+source-wordcount: '1018'
+ht-degree: 100%
 
 ---
 
@@ -22,23 +25,23 @@ Cette section décrit comment résoudre les problèmes liés aux parcours avant 
 
 Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
 
-Les erreurs sont représentées par un symbole d’avertissement, affiché sur l’activité elle-même, dans le canevas. Placez le curseur sur le point d’exclamation pour afficher le message d’erreur. Si vous cliquez sur l’activité, vous devez voir la ligne contenant l’erreur associée à un avertissement. Par exemple, si un champ obligatoire est vide, une erreur s’affiche.
+Les erreurs sont représentées par un symbole d’avertissement, affiché sur l’activité elle-même, dans la zone de travail. Placez le curseur sur le point d’exclamation pour afficher le message d’erreur. Si vous cliquez sur l’activité, vous devez voir la ligne contenant l’erreur associée à un avertissement. Par exemple, si un champ obligatoire est vide, une erreur s’affiche.
 
 ![](../assets/journey63.png)
 
-Par exemple, dans le canevas, lorsque deux activités sont déconnectées, un avertissement s’affiche.
+Par exemple, dans la zone de travail, lorsque deux activités sont déconnectées, un avertissement s’affiche.
 
 ![](../assets/canvas-disconnected.png)
 
-Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. Il indique les erreurs détectées par le système et empêche l’activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d’autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à l’identifier, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
+En regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**, un signe d’avertissement peut s’afficher. Il indique les erreurs détectées par le système et empêche l’activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d’autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à l’identifier, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
 
 Le système détecte deux types de problèmes : les erreurs et les avertissements. Les erreurs bloquent la publication et l’activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l’activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Ce format facilite l’identification du problème par l’assistance technique.
 
-Two different colors can be displayed on the sign next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button. Il est rouge en cas d’erreur, et orange pour un avertissement.
+Le signe en regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]** peut apparaître dans deux couleurs différentes. Il est rouge en cas d’erreur, et orange pour un avertissement.
 
 ![](../assets/journey75.png)
 
-Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d’activité ou d’apparition dans le parcours, de gauche à droite. The **[!UICONTROL Copy details]** button copies technical information about the journey which the support team can use to troubleshoot.
+Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d’activité ou d’apparition dans le parcours, de gauche à droite. Le bouton **[!UICONTROL Copier les détails]** copie les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes.
 
 ## Vérification de l’envoi correct des événements{#section_rqz_11t_dgb}
 
@@ -46,7 +49,7 @@ Le point de départ d’un parcours est toujours un événement. Il est possible
 
 Vous pouvez ainsi vérifier si l’appel d’API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l’en-tête (et en particulier l’identifiant d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur l’URL appropriée pour l’accès.
 
-Les événements ne sont pas directement transmis de la source à Journey Orchestration. En effet, Journey Orchestration s’appuie sur les API d’ingestion en flux continu d’Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source à Journey Orchestration. En effet, Journey Orchestration s’appuie sur les API d’ingestion en flux continu d’Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 ## Vérification de l’entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
@@ -70,7 +73,7 @@ En tant qu’administrateur, vous devez vérifier les points suivants :
 
 ## Vérification de la manière dont les visiteurs naviguent dans le parcours{#section_l5y_yzs_dgb}
 
-Les rapports produits par Journey Orchestration mesurent la progression des visiteurs dans un parcours. Il est très facile d’identifier où et pourquoi une personne s’est arrêtée.
+Les rapports produits par Journey Orchestration mesurent la progression des individus dans un parcours. Il est très facile d’identifier où et pourquoi une personne s’est arrêtée.
 
 Les éléments à vérifier sont les suivants :
 
@@ -79,7 +82,7 @@ Les éléments à vérifier sont les suivants :
 
 ## Vérification de l’envoi des messages{#section_qb1_yzs_dgb}
 
-Si les visiteurs suivent le bon chemin dans le parcours sans recevoir de messages, vous pouvez vérifier les points suivants :
+Si les individus suivent le bon chemin dans le parcours sans recevoir de messages, vous pouvez vérifier les points suivants :
 
 * La messagerie transactionnelle a correctement pris en compte la demande d’envoi du message. Un utilisateur chargé de la conception de parcours peut accéder au message transactionnel censé être envoyé et vérifier si l’heure de la dernière exécution correspond à l’heure d’exécution de votre parcours. Il peut également vérifier les derniers appels/événements d’API reçus par la messagerie transactionnelle.
 * La messagerie transactionnelle a bien envoyé le message. Dans les journaux d’envoi des messages transactionnels, vous pouvez voir le statut de chaque exécution, en vert ou en rouge, et la nature du problème. Un utilisateur chargé de la conception de parcours peut accéder à cet écran et envoyer les journaux à un administrateur pour plus d’informations.
