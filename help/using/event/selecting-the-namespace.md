@@ -10,19 +10,22 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: ht
+source-wordcount: '205'
+ht-degree: 100%
 
 ---
 
 
 # Sélection du namespace {#concept_ckb_3qt_52b}
 
-Un namespace vous permet de définir le type de clé utilisé pour identifier la personne associée à l’événement. Sa configuration est facultative. Elle est obligatoire si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant de [profil client en temps réel](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html). Il n’est pas nécessaire de définir le namespace si vous utilisez uniquement des données provenant d’un système tiers via une source de données personnalisée.
+Un namespace vous permet de définir le type de clé utilisé pour identifier la personne associée à l’événement. Sa configuration est facultative. Elle est obligatoire si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant de [profil client en temps réel](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html). Il n’est pas nécessaire de définir le namespace si vous utilisez uniquement des données provenant d’un système tiers via une source de données personnalisée.
 
-Vous pouvez utiliser l’un des namespaces prédéfinis ou en créer un à l’aide du service Identity Namespace. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html).
+Vous pouvez utiliser l’un des namespaces prédéfinis ou en créer un à l’aide du service Identity Namespace. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/identity/home.html).
 
-If you select a schema that has a primary identity, then the **[!UICONTROL Key]** and **[!UICONTROL Namespace]** fields are pre-filled. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un et la clé sera préremplie (sous le champ **[!UICONTROL Namespace]** Namespace) à l’aide de _identityMap > id_.
+Si vous sélectionnez un schéma doté d’une identité principale, les champs **[!UICONTROL Clé]** et **[!UICONTROL Namespace]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un namespace et la clé sera préremplie (sous le champ **[!UICONTROL Namespace]**) à l’aide de _identityMap > id_.
 
 Lors de la sélection de champs, les champs d’identité principale sont balisés.
 
