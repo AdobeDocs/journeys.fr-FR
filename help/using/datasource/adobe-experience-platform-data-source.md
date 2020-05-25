@@ -10,15 +10,18 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
 
 # Source de données Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-La source de données Experience Platform définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. Pour plus d’informations sur le service de profil client en temps réel, consultez cette [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
+La source de données Experience Platform définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. Pour plus d’informations sur le service de profil client en temps réel, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -36,13 +39,13 @@ Les principales étapes nécessaires pour ajouter des groupes de champs à la so
 
    ![](../assets/journey23.png)
 
-1. Cliquez sur **[!UICONTROL Add a New Field Group]** pour définir une nouvelle série de champs à récupérer. Voir [](../datasource/field-groups.md).
+1. Cliquez sur **[!UICONTROL Ajouter un nouveau groupe de champs]** pour définir une nouvelle série de champs à récupérer. Voir [](../datasource/field-groups.md).
 
    ![](../assets/journey24.png)
 
-1. Select a schema from the **[!UICONTROL Schema]** drop-down. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans la plate-forme. La création du schéma n’est pas effectuée dans Journey Orchestration, mais dans Data Platform.
+1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans la plate-forme. La création du schéma n’est pas effectuée dans Journey Orchestration, mais dans Data Platform.
 1. Sélectionnez les champs que vous souhaitez utiliser.
 1. Définissez la durée de mise en cache.
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Lorsque vous placez le curseur sur le nom d’un groupe de champs, deux icônes s’affichent à droite. Elles vous permettent de supprimer et de dupliquer le groupe de champs. Note that the **[!UICONTROL Delete]** icon is only available if the field group is not used in any live or draft journey (information displayed in the **[!UICONTROL Used in]** field).
+Lorsque vous placez le curseur sur le nom d’un groupe de champs, deux icônes s’affichent à droite. Elles vous permettent de supprimer et de dupliquer le groupe de champs. Notez que l’icône **[!UICONTROL Supprimer]** n’est disponible que si le groupe de champs n’est utilisé dans aucun parcours actif ou dans un état de brouillon (cette information est affichée dans le champ **[!UICONTROL Utilisé(e) dans]**).
