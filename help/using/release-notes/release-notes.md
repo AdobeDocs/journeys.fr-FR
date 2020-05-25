@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
+workflow-type: ht
+source-wordcount: '758'
+ht-degree: 100%
 
 ---
 
@@ -80,11 +83,11 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <p>La <strong>palette</strong> des parcours, dans la partie gauche du concepteur de parcours, a été améliorée :</p>
 <ul>
 <li>Une nouvelle icône, en regard de la barre <strong>Recherche</strong>, permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un namespace différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués.</li>
-<li>Lors de l’utilisation du champ <strong>Recherche</strong> , le nombre de résultats s’affiche maintenant pour chaque catégorie d’activité du canevas.</li>
+<li>Lors de l’utilisation du champ <strong>Recherche</strong>, le nombre de résultats s’affiche maintenant pour chaque catégorie d’activité de la zone de travail.</li>
 <li>La navigation entre les différentes catégories d’activité a été améliorée.</li>
 </ul>
 <p>Dans le concepteur de parcours, vous pouvez maintenant vérifier que vous accédez à la dernière version d’un parcours. Cette information s’affiche en regard du numéro de version.</p>
-<p>Dans le <strong>canevas</strong> des parcours, un message d’avertissement s’affiche maintenant lorsque deux activités sont déconnectées.</p>
+<p>Dans la <strong>zone de travail</strong> des parcours, un message d’avertissement s’affiche maintenant lorsque deux activités sont déconnectées.</p>
 <img src="../assets/rn-canvas.png"/>
 <p>Pour plus d'informations, consultez la <a href="../building-journeys/using-the-journey-designer.md">documentation détaillée</a>.</p>
 </td>
@@ -134,4 +137,4 @@ Journey Orchestration permet une orchestration en temps réel et s’appuie sur 
 Ressources supplémentaires :
 
 * [Tutoriels](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity)
+* [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity_fr)
