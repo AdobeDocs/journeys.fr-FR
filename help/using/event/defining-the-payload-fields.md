@@ -10,17 +10,20 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: ht
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
 
 # Définition des champs de payload {#concept_yrw_3qt_52b}
 
-La définition de la payload vous permet de choisir les informations que le système s’attend à recevoir de l’événement dans votre parcours, ainsi que la clé permettant d’identifier la personne associée à l’événement. La payload est basée sur la définition de champ XDM d’Experience Cloud. Pour plus d’informations sur XDM, consultez cette [page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+La définition de la payload vous permet de choisir les informations que le système s’attend à recevoir de l’événement dans votre parcours, ainsi que la clé permettant d’identifier la personne associée à l’événement. La payload est basée sur la définition de champ XDM d’Experience Cloud. Pour plus d’informations sur XDM, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/home.html).
 
-1. Select an XDM schema from the list and click on the **[!UICONTROL Payload]** field or on the **[!UICONTROL Edit]** icon.
+1. Sélectionnez un schéma XDM dans la liste et cliquez ensuite sur le champ **[!UICONTROL Payload]** ou sur l’icône **[!UICONTROL Modifier]**.
 
    ![](../assets/journey8.png)
 
@@ -40,7 +43,7 @@ La définition de la payload vous permet de choisir les informations que le syst
    >
    >Le champ **[!UICONTROL eventID]** est automatiquement ajouté à la liste des champs sélectionnés afin que Journey Orchestration puisse identifier l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [](../event/previewing-the-payload.md).
 
-1. When you&#39;re done selecting the needed fields, click **[!UICONTROL Save]** or press **[!UICONTROL Enter]**.
+1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL Enregistrer]** ou appuyez sur la touche **[!UICONTROL Entrée]**.
 
    ![](../assets/journey11.png)
 
