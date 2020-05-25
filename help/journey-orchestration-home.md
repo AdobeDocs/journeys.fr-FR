@@ -3,8 +3,11 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Documentation de Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
+workflow-type: ht
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -64,9 +67,9 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ## Ressources supplémentaires
 
-* [Documentation de la plateforme d’expérience](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
-* [Documentation sur les clients en temps réel](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Définition de champs XDM Experience Cloud](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [Documentation sur les  d&#39;identité](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
-* [API d’ingestion en flux continu](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard documentation sur les messages transactionnels](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Documentation Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
+* [Documentation sur le profil client en temps réel](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
+* [Définition de champs XDM Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/home.html)
+* [Documentation sur le service Identity Namespace](https://docs.adobe.com/content/help/fr-FR/experience-platform/identity/home.html)
+* [API d’ingestion en flux continu](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/overview.html)
+* [Documentation sur la messagerie transactionnelle de Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
