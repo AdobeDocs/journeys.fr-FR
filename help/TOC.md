@@ -3,8 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Aide de Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
    + [Résolution des problèmes](using/about/troubleshooting.md)
 + Configuration d’un événement {#events-journeys}
    + [À propos des événements](using/event/about-events.md)
-   + [A propos des Schémas ExperienceEvent](using/event/experience-event-schema.md)
+   + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
    + [Sélection du namespace](using/event/selecting-the-namespace.md)
    + [Définition de la clé d’événement](using/event/defining-the-event-key.md)
@@ -117,7 +120,7 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
          + [in](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
-         + [trier](using/functions/functionsort.md)
+         + [sort](using/functions/functionsort.md)
       + Mathématiques {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
