@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 >
 >Cette documentation est fréquemment mise à jour pour prendre en compte les modifications récentes du produit. Cependant, certaines captures d’écran peuvent être légèrement différentes de l’interface du produit.
 
-## Accès à l&#39;orchestration du trajet{#accessing_journey_orchestration}
+## Accès à Journey Orchestration{#accessing_journey_orchestration}
 
 Pour accéder à l’interface de Journey Orchestration, cliquez sur l’icône de **[!UICONTROL sélecteur d’applications]**, en haut à droite. Sous « Experience Platform », cliquez sur **[!UICONTROL Journey Orchestration]**, dans la partie droite.
 
@@ -39,8 +39,8 @@ Vous pouvez également accéder à Journey Orchestration à partir de la page d�
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
->title="A propos de la liste de parcours"
->abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ou redémarrer un voyage terminé. Vous pouvez créer une nouvelle version à partir de celle-ci ou la duplicata. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours."
+>title="À propos de la liste des parcours"
+>abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ni redémarrer un parcours terminé. Vous pouvez le dupliquer ou en créer une nouvelle version. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Regarder une vidéo de démonstration"
 
 Les menus supérieurs vous permettent de naviguer parmi les différentes fonctionnalités de Journey Orchestration : **[!UICONTROL Accueil]** (les parcours), **[!UICONTROL Sources de données]**, **[!UICONTROL Evénements]** et **[!UICONTROL Actions]**.
@@ -81,7 +81,7 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 
 Lors de la définition du [payload d’événement](../event/defining-the-payload-fields.md), du [payload du groupe de champs](../datasource/field-groups.md), et de la sélection de champs dans l’[éditeur d’expression](../expression/expressionadvanced.md), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience.
 
-Si des descripteurs tels que « xdm:alternativeDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d’affichage. Ceci est particulièrement utile lors de l’utilisation des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux par le biais d’un appel API. Pour plus d’informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+Si des descripteurs tels que « xdm:alternativeDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d’affichage. Ceci est particulièrement utile lors de l’utilisation des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux par le biais d’un appel API. Pour plus d’informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -101,7 +101,7 @@ _Dans les listes de parcours, d’actions, de sources de données ou d’événe
 
 _Lors de la configuration d’une activité dans un parcours :_
 
-Le canevas est automatiquement enregistré. Vous pouvez voir le statut d’enregistrement, en haut à gauche du canevas.
+La zone de travail est automatiquement enregistrée. Vous pouvez voir le statut d’enregistrement, en haut à gauche de la zone de travail.
 
 * Appuyez sur **Échap** pour fermer le volet de configuration et ignorer les modifications apportées. Il s’agit de l’équivalent du bouton **[!UICONTROL Annuler]**.
 * Appuyez sur **[!UICONTROL Entrée]** ou cliquez en dehors du volet pour fermer le volet de configuration. Les modifications sont enregistrées. Il s’agit de l’équivalent du bouton **[!UICONTROL OK]**.
@@ -134,7 +134,7 @@ _Dans un écran contenant une barre de recherche :_
 
 * Utilisez la combinaison de touches **Ctrl/Commande + F** pour sélectionner la barre de recherche.
 
-_Dans le canevas d’un parcours :_
+_Dans la zone de travail d’un parcours :_
 
 * Utilisez la combinaison de touches **Ctrl/Commande + A** pour sélectionner toutes les activités.
 * Lorsqu’une ou plusieurs activités sont sélectionnées, appuyez sur **[!UICONTROL Supprimer]** ou **Retour arrière** pour les supprimer. Vous pouvez ensuite appuyer sur **[!UICONTROL Entrée]** pour confirmer la suppression dans la fenêtre contextuelle de confirmation.
