@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -99,8 +99,8 @@ La source de données est maintenant configurée et prête à être utilisée da
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
->title="A propos de l’authentification personnalisée"
->abstract="Le mode d’authentification personnalisée est utilisé pour l’authentification complexe afin d’appeler les protocoles d’encapsulation d’API tels que OAuth2. L’exécution de l’action est un processus en deux étapes. Tout d’abord, un appel au point de terminaison est effectué pour générer le jeton d&#39;accès. Ensuite, le jeton d&#39;accès est injecté dans la requête HTTP de l’action."
+>title="À propos de l’authentification personnalisée"
+>abstract="Le mode d’authentification personnalisé, utilisé pour l’authentification complexe, permet d’appeler les protocoles d’encapsulage d’API tels qu’OAuth2. L’exécution de l’action est un processus en deux étapes. Tout d’abord, un appel au point d’entrée est effectué pour générer le jeton d’accès. Ensuite, le jeton d’accès est injecté dans la requête HTTP de l’action."
 
 Ce mode d’authentification est utilisé pour une authentification complexe. Il est fréquemment utilisé pour appeler les protocoles d’encapsulage d’API, comme OAuth2, afin de récupérer un jeton d’accès à injecter dans la requête HTTP réelle pour l’action.
 
@@ -112,7 +112,7 @@ Si le test réussit, le bouton devient vert.
 
 ![](../assets/journey29-ter.png)
 
-Avec cette authentification, l’exécution de l’action est un processus en deux étapes :
+Avec cette authentification, l’exécution de l’action est un processus en deux étapes :
 
 1. Appelez le point d’entrée pour générer le jeton d’accès.
 1. Appelez l’API REST en injectant correctement le jeton d’accès.
