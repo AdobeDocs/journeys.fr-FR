@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Aide de Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [Restrictions relatives aux actions personnalisées](using/action/custom-action-limitations.md)
       + [Configuration d’URL](using/action/url-configuration.md)
       + [Définition des paramètres de message](using/action/defining-the-message-parameters.md)
++ Utilisation des segments de formulaire {#configuring-segment}
+   + [A propos des segments de formulaire](using/segment/about-segments.md)
+   + [Création d’un segment](using/segment/creating-a-segment.md)
+   + [Utilisation de segments dans des conditions](using/segment/using-a-segment.md)
 + Création d’un parcours {#building-journeys}
    + À propos de la création de parcours {#about-journey-building}
       + [Création d’un parcours](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [Utilisation d’actions personnalisées](using/building-journeys/using-custom-actions.md)
    + [Test du parcours](using/building-journeys/testing-the-journey.md)
    + [Publication du parcours](using/building-journeys/publishing-the-journey.md)
+   + Partage des étapes du voyage avec la plate-forme {#sharing-journey-steps}
+      + [Présentation du partage des étapes du parcours](using/building-journeys/sharing-overview.md)
+      + [Champs communs aux événements de parcoursSteps](using/building-journeys/sharing-common-fields.md)
+      + [Champs d&#39;exécution d&#39;action de événements de parcoursStep](using/building-journeys/sharing-execution-fields.md)
+      + [Champs de récupération des données des événements travelStep](using/building-journeys/sharing-fetch-fields.md)
+      + [Champs d&#39;identité du événement cheminementStep](using/building-journeys/sharing-identity-fields.md)
+      + [Champs de voyage](using/building-journeys/sharing-journey-fields.md)
 + Utilisation de l’éditeur d’expression avancé {#building-advanced-conditions-journeys}
    + [À propos de l’éditeur d’expression avancé](using/expression/expressionadvanced.md)
    + Syntaxe {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
       + [Création du parcours](using/usecase/building-the-journey.md)
    + [Utilisation des scores de fatigue](using/usecase/leveraging-fatigue-scores.md)
++ Utilisation des API{#working-with-apis}
+   + [API de plafonnement](using/api/capping.md)
 
