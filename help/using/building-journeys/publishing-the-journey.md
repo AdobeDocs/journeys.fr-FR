@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: ffcb0bd7c6b94a412878bae16ac9ffd1742d34d2
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
@@ -30,10 +33,3 @@ Si vous arrêtez un parcours, il l’est définitivement. Toutes les personnes f
    ![](../assets/journeyuc1_18.png)
 
 Une fois le parcours publié, il est en lecture seule.
-
-Les différents statuts du parcours d’un client sont les suivants :
-
-* _En cours_ : le client figure actuellement dans le parcours.
-* _Terminé_ : le client a atteint la fin du parcours.
-* _Erreur_ : le parcours du client a été arrêté en raison d’une erreur.
-* _Délai dépassé_ : le parcours du client a été arrêté, car l’exécution d’une étape a pris trop de temps.
