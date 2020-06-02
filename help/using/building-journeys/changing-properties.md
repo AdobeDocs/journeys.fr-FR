@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
+translation-type: tm+mt
+source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+workflow-type: tm+mt
+source-wordcount: '486'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +32,7 @@ Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une 
 
 Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c’est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse effectuer une rentrée dans le parcours et bénéficier à nouveau de l’offre.
 
-Lorsqu’un parcours prend fin, le statut **[!UICONTROL Terminé]** lui est attribué. Il n’est alors plus accessible aux nouveaux clients. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
+When a journey &quot;ends&quot;, it will have the status **[!UICONTROL Closed (no entrance)]**. Il n’est alors plus accessible aux nouveaux clients. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
 
 ## Délai dépassé et erreur dans les activités du parcours {#timeout_and_error}
 
