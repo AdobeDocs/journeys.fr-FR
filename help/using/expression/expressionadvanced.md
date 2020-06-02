@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +33,6 @@ _Interface de l’éditeur d’expression avancé_
 Vous pouvez utiliser l’éditeur d’expression avancé pour les opérations suivantes :
 
 * créer des [conditions avancées](../building-journeys/condition-activity.md#about_condition) sur les sources de données et les informations relatives aux événements ;
-* définir des [fuseaux horaires](../building-journeys/timezone-management.md) personnalisés dans des conditions de date, des activités d’attente à date fixe et des activités d’attente personnalisées ;
 * définir des activités [d’attente personnalisées](../building-journeys/wait-activity.md#custom) ;
 * définir le mappage des paramètres d’action.
 
@@ -50,7 +52,7 @@ Il est possible d’accéder de différentes manières à l’éditeur d’expre
 
    ![](../assets/journeyuc2_33.png)
 
-* Lorsque vous créez un fuseau horaire personnalisé ou un retardateur personnalisé, l’éditeur avancé s’affiche directement.
+* Lorsque vous créez un minuteur personnalisé, l’éditeur avancé s’affiche directement.
 * Lorsque vous mappez le paramètre d’action, cliquez sur le **[!UICONTROL Mode avancé]**.
 
 ## Découverte de l’interface{#section_otq_tnj_cjb}
