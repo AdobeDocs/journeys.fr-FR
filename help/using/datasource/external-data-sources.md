@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
+source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 95%
 
 ---
 
@@ -163,4 +163,30 @@ Le format de cette authentification est le suivant :
     },
     "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
 }
+```
+
+Vous pouvez modifier la durée du cache du jeton pour une source de données d’authentification personnalisée. Vous trouverez ci-dessous un exemple de charge utile d’authentification personnalisée. La durée du cache est définie dans le paramètre &quot;cacheDuration&quot;. Il spécifie la durée de rétention du jeton généré dans le cache. L&#39;unité peut être en millisecondes, secondes, minutes, heures, jours, mois, années.
+
+```
+"authentication": {
+    "type":"customAuthorization",
+    "authorizationType":"Bearer",
+    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
+    "method":"POST",
+    "headers": {
+        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
+        },
+    "body": {
+        "bodyType":"form",
+        "bodyParams": {
+             "scope":"cn mail givenname uid employeeNumber",
+             "grant_type":"password",
+             "username":"${epsilonUserName}",
+             "password":"${epsilonUserPassword}"
+             }
+        },
+    "tokenInResponse":"json://access_token",
+    "cacheDuration":
+             { "duration":5, "timeUnit":"seconds" }
+    }
 ```
