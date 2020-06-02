@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
-workflow-type: ht
-source-wordcount: '916'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+workflow-type: tm+mt
+source-wordcount: '1121'
+ht-degree: 86%
 
 ---
 
@@ -73,6 +73,16 @@ L’interface vous permet de transmettre des paramètres d’événement simples
 
 Un utilisateur technique peut également se servir de cette interface pour composer des payloads d’événement et déclencher des événements sans recourir à un outil tiers.
 
+Lorsque vous cliquez sur le bouton **Envoyer** , le test commence. La progression de l&#39;individu dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert au fur et à mesure que l&#39;individu se déplace dans le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher plus d’informations sur l’erreur et accéder à des détails complets (le cas échéant).
+
+![](../assets/journeytest6.png)
+
+Lorsque vous sélectionnez un autre profil de test dans l’écran de configuration du événement et que vous réexécutez le test, le flux visuel est effacé et indique le chemin d’accès de la nouvelle personne.
+
+Lors de l&#39;ouverture d&#39;un voyage dans le test, le chemin affiché correspond au dernier test exécuté.
+
+Le flux visuel s&#39;affiche uniquement lorsque le événement envoyé au voyage est défini dans l&#39;écran de configuration du événement. Si le événement est défini en externe, par exemple à l&#39;aide de Postman, le flux visuel ne s&#39;affiche pas.
+
 ## Affichage des journaux {#viewing_logs}
 
 Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
@@ -95,3 +105,9 @@ Le nombre d’individus (appelés instances d’un point de vue technique) prés
 * _transitionHistory_ : liste des étapes suivies par l’individu. Pour les événements, la payload est affichée.
 * _actionExecutionErrors_ : informations sur les erreurs qui se sont produites.
 
+Les différents statuts du parcours d’un client sont les suivants :
+
+* _En cours_ : le client figure actuellement dans le parcours.
+* _Terminé_ : le client a atteint la fin du parcours.
+* _Erreur_ : le parcours du client a été arrêté en raison d’une erreur.
+* _Délai dépassé_ : le parcours du client a été arrêté, car l’exécution d’une étape a pris trop de temps.
