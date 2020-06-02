@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,4 @@ Selon le contexte d’utilisation, l’éditeur d’expression peut renvoyer dif
 |--- |--- |
 | Condition (condition de source de données, condition de date) | booléen |
 | Retardateur personnalisé | dateTimeOnly |
-| Fuseau horaire personnalisé | timeZone ou chaîne (par exemple : Europe/Paris) |
 | Mappage des paramètres d’action | Tous types |
