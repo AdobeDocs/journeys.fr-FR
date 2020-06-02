@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +56,5 @@ Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Util
 ![](../assets/journey72.png)
 
 ## Utilisation des fuseaux horaires dans les expressions {#timezone-in-expressions}
-
-Les fuseaux horaires sont utilisés pour créer une expression avec l’éditeur d’expression avancé. Dans ce cas, vous utiliserez l’éditeur d’expression pour sélectionner à quel endroit le système doit récupérer ces informations. Voir [](../expression/expressionadvanced.md).
 
 Les dates de début et de fin d’un parcours ne peuvent pas être liées à un fuseau horaire spécifique. Elles sont automatiquement associées à celui de l’instance.
