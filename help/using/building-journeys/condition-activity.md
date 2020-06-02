@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 538b350165365479caef499a74346381643033d5
+translation-type: tm+mt
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +48,9 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 * OU : union de deux critères. Les éléments répondant à au moins l’un des deux critères sont pris en compte.
 
 ![](../assets/journey64.png)
+
+Si vous utilisez [Platform Segmentation Service](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) pour créer vos segments, vous pouvez les exploiter dans vos conditions de voyage. Reportez-vous à [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
+
 
 >[!NOTE]
 >
