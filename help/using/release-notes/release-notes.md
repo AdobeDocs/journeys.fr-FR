@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,72 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## Version du 2e trimestre - juin 2020 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Améliorations de l’intégration de la plateforme d’expérience Adobe</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les améliorations suivantes ont été apportées à l’intégration de la plate-forme :</p>
+<ul>
+<li><p>Une nouvelle activité permet d'écouter les entrées/sorties des segments de plateforme pour faire entrer ou avancer les personnes dans un voyage. <a href="../building-journeys/event-activities.md#segment-qualification">En savoir plus</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>Les segments de plateforme peuvent désormais être créés et modifiés sans quitter l’interface d’orchestration du voyage, grâce à un nouvel onglet <strong>Segments</strong> . Disponibilité efficace : 15 juin 2020. <a href="../segment/about-segments.md">En savoir plus</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>Dans l’éditeur d’expressions simple, les segments de plateforme sont désormais directement répertoriés dans l’arborescence de navigation afin de faciliter la configuration de conditions telles que "cette personne appartient-elle au segment A ?". <a href="../segment/using-a-segment.md">En savoir plus</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>L'orchestration du voyage transmet désormais automatiquement, à la plateforme de données Adobe, les étapes suivies par les individus dans les voyages. Cela inclut les erreurs potentielles survenues. Ces informations peuvent être utilisées à des fins d’analyse ou de segmentation. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>L'orchestration du voyage peut maintenant être connectée à la plateforme de production et non-production Sandbox. Disponibilité efficace : 15 juin 2020. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Améliorations des modes de conception et de test de parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les améliorations suivantes ont été apportées au concepteur de voyage et au mode test :</p>
+<ul>
+<li><p>Vous pouvez désormais copier les activités collées d'un voyage vers un autre, en sélectionnant 1 ou N activités de voyage. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">En savoir plus</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>Après avoir tiré un événement pour faire un profil d'essai entrer dans un voyage, vous pouvez maintenant voir sa progression le long du parcours grâce à un flux visuel coloré. En cas d'erreur dans le parcours, les détails des erreurs s'affichent également. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>L'état du voyage <strong>Terminé</strong> a été renommé <strong>Fermé (pas d'entrée)</strong> pour mieux refléter ce que cet état signifie.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Autres améliorations**
+
+Pour éviter d&#39;envoyer trop d&#39;appels d&#39;API à des systèmes tiers, nous introduisons une nouvelle API publique pour configurer des règles de &quot;plafonnement&quot;. Les règles de plafonnement permettent de définir un nombre maximal d’appels à un point de terminaison API par millisecondes. [En savoir plus](../api/capping.md)
+
+Le Contrôle d&#39;accès permet désormais une plus grande granularité dans la gestion de l’accès des utilisateurs. Disponibilité efficace : 15 juin 2020. [En savoir plus](../about/access-management.md#create-product-profile)
+
+L&#39;orchestration du trajet est désormais disponible en APAC (centre de données australien). Disponibilité efficace : 15 juin 2020
+
+L&#39;interface Orchestration du voyage est disponible en japonais.
 
 ## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
 
