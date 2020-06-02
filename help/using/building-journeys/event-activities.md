@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 77%
 
 ---
 
@@ -62,6 +65,38 @@ La procédure de configuration des événements de réaction comprend les étape
 >[!CAUTION]
 >
 >Les clients de messagerie tels que Gmail autorisent le blocage d’images. Le suivi des ouvertures d’email est effectué à l’aide d’une image de 0 pixel incluse dans l’email. Si les images sont bloquées, les ouvertures d’email ne sont pas prises en compte.
+
+## événements de qualification de segment {#segment-qualification}
+
+Cette activité permet à votre voyage d&#39;écouter les entrées et les sorties des profils dans les segments de la Plateforme afin de faire entrer ou avancer les personnes dans un voyage. For more information on segment creation, refer to this [section](../segment/about-segments.md).
+
+Supposons que vous ayez un segment &quot;client argenté&quot;. Avec cette activité, vous pouvez faire entrer tous les nouveaux clients argentés dans un voyage et leur envoyer une série de messages personnalisés.
+
+Ce type de événement peut être positionné comme la première étape ou plus tard dans le parcours.
+
+Si le segment est diffusé en continu avec l’option Audiences haute fréquence de la plate-forme, l’entrée et les sorties sont écoutées en temps réel. Si le segment n’est pas en flux continu, les entrées et les sorties sont prises en compte au moment du calcul du segment.
+
+1. Dépliez la catégorie **Événements** et déposez une activité de qualification **de** segment dans votre canevas.
+
+   ![](../assets/segment5.png)
+
+1. Add a **Label** to the activity. Cette étape est facultative.
+
+1. Cliquez dans le champ **Segment** et sélectionnez les segments à exploiter.
+
+   ![](../assets/segment6.png)
+
+1. Dans le champ **Comportement** , choisissez d’écouter les entrées de segments, les sorties ou les deux.
+
+1. Sélectionnez un espace de nommage. Cela n&#39;est nécessaire que si le événement est considéré comme la première étape du voyage.
+
+   ![](../assets/segment7.png)
+
+La charge utile contient les informations contextuelles suivantes, que vous pouvez utiliser dans des conditions et des actions :
+
+* le comportement (entrée, sortie)
+* l&#39;horodatage de la qualification
+* l’identifiant de segment
 
 ## Utilisation avancée : événements avec une activité d’attente en parallèle{#section_vxv_h25_pgb}
 
