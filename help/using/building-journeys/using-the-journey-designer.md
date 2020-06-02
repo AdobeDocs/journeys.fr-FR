@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
-workflow-type: ht
-source-wordcount: '1047'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+workflow-type: tm+mt
+source-wordcount: '1372'
+ht-degree: 74%
 
 ---
 
@@ -25,7 +25,7 @@ Le menu Accueil du parcours vous permet de consulter la **liste des parcours**. 
 
 ## Liste des parcours {#journey_list}
 
-La liste des **parcours** vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ni redémarrer un parcours terminé. Vous pouvez en créer une nouvelle version, le dupliquer ou l’arrêter. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.
+La liste des **parcours** vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ou redémarrer un voyage qui est fermé. Vous pouvez en créer une nouvelle version, le dupliquer ou l’arrêter. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.
 
 Pour accéder aux **[!UICONTROL filtres]**, cliquez sur l’icône en forme de filtre en haut à gauche de la liste. Le menu Filtres vous permet de filtrer les parcours affichés selon différents critères (statut, parcours que vous avez créés, parcours modifiés au cours des 30 derniers jours, versions les plus récentes uniquement, etc.). Vous pouvez également choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique. Les colonnes affichées dans la liste peuvent être configurées. Tous les filtres et colonnes sont enregistrés par utilisateur.
 
@@ -71,7 +71,7 @@ Dans la zone de travail, vos activités d’action et d’événement sont repr�
 
 ## Actions de la barre supérieure {#top_actions}
 
-Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent en fonction du contexte. Ainsi, le bouton de journal du mode test s’affiche lorsque le mode test est activé (voir [](../building-journeys/testing-the-journey.md)). Le bouton de reporting s’affiche dans le cas d’un parcours actif, arrêté ou terminé.
+Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent en fonction du contexte. Ainsi, le bouton de journal du mode test s’affiche lorsque le mode test est activé (voir [](../building-journeys/testing-the-journey.md)). Le bouton rapports s’affiche lorsque le voyage est en cours, arrêté ou fermé.
 
 ![](../assets/journey41.png)
 
@@ -92,3 +92,28 @@ Pour supprimer le chemin, placez votre curseur sur celui-ci et cliquez sur l’i
 Dans la zone de travail, un avertissement s’affiche lorsque deux activités sont déconnectées. Placez le curseur sur l’icône d’avertissement pour afficher le message d’erreur. Pour résoudre le problème, il suffit de déplacer l’activité déconnectée et de la relier à l’activité précédente.
 
 ![](../assets/canvas-disconnected.png)
+
+## Copie et collage d’activités {#copy-paste}
+
+Vous pouvez copier une ou plusieurs activités d&#39;un voyage et les coller soit dans le même voyage, soit dans un autre. Cela vous permet de gagner du temps si vous souhaitez réutiliser de nombreuses activités qui ont déjà été configurées lors d’un voyage précédent.
+
+**Remarques importantes**
+
+* Vous pouvez copier/coller sur différents onglets et navigateurs. Vous pouvez uniquement copier/coller des activités dans la même instance.
+* Vous ne pouvez pas copier/coller un événement si le voyage de destination comporte un événement qui utilise un autre espace de nommage.
+* Les activités collées peuvent référencer des données qui n’existent pas dans le parcours de destination, par exemple si vous copiez/collez des données sur différents sandbox. Vérifiez toujours les erreurs et effectuez les ajustements nécessaires.
+* Notez que vous ne pouvez pas annuler une action. Pour supprimer des activités collées, vous devez les sélectionner et les supprimer. Par conséquent, veillez à ne sélectionner que les activités dont vous avez besoin avant de les copier.
+* Vous pouvez copier des activités de n’importe quel voyage, même celles qui sont en lecture seule.
+* Vous pouvez sélectionner n’importe quelle activité, même celles qui ne sont pas liées. Les activités liées resteront liées après avoir été collées.
+
+Pour copier/coller des activités, procédez comme suit :
+
+1. Ouvre un voyage.
+1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande** . Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
+   ![](../assets/copy-paste1.png)
+1. Appuyez sur **Ctrl/Commande + C**.
+Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dessus et utiliser l&#39;icône **Copier** en haut à gauche du volet de configuration de l&#39;activité.
+   ![](../assets/copy-paste2.png)
+1. Dans tout voyage, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un noeud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées afin que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au noeud.
+   ![](../assets/copy-paste3.png)
+
