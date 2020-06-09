@@ -8,28 +8,31 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 94%
 
 ---
 
 
-# À propos de Journey Orchestration{#concept_nd3_mqt_52b}
+# À propos de [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
-Journey Orchestration est un service d’application intégré à Experience Platform.
+[!DNL Journey Orchestration] est un service d’application intégré à Experience Platform.
 
 ![](../assets/journeydiagram.png)
 
-Journey Orchestration permet une orchestration en temps réel qui s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. Vous pouvez configurer une action personnalisée si vous utilisez un système tiers pour envoyer vos messages. Si vous disposez d’Adobe Campaign Standard, vous pourrez envoyer des emails, des notifications push et des SMS à l’aide des [fonctionnalités de messagerie transactionnelle](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) de cette plate-forme.
+[!DNL Journey Orchestration] permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. Vous pouvez configurer une action personnalisée si vous utilisez un système tiers pour envoyer vos messages. Si vous disposez d’Adobe Campaign Standard, vous pourrez envoyer des emails, des notifications push et des SMS à l’aide des [fonctionnalités de messagerie transactionnelle](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) de cette plate-forme.
 
 L’onglet de configuration des événements permet à un **utilisateur technique** de configurer les événements prévus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK).
 
 Dans l’onglet de configuration des sources de données, un **utilisateur technique** configure les éléments suivants :
 
 * Les différents champs accessibles à partir d’Adobe Experience Platform dans le concepteur de parcours pour créer et personnaliser des conditions.
-* Les sources de données personnalisées supplémentaires exploitées dans le concepteur de parcours. Les sources de données personnalisées sont des connexions entre Journey Orchestration et des systèmes ou des services tiers via l’API. Vous pouvez connecter un système tiers, par exemple un système de gestion de la fidélité. Vous pouvez aussi accéder à un service tiers, par exemple une API météorologique.
+* Les sources de données personnalisées supplémentaires exploitées dans le concepteur de parcours. Custom data sources are connections between [!DNL Journey Orchestration] and third-party systems or services via API. Vous pouvez connecter un système tiers, par exemple un système de gestion de la fidélité. Vous pouvez aussi accéder à un service tiers, par exemple une API météorologique.
 
 Avec le concepteur de parcours, un **utilisateur chargé de la conception de parcours** peut facilement faire glisser un événement d’entrée, ajouter des conditions et spécifier l’action à exécuter.
 
@@ -43,7 +46,7 @@ Vous pouvez utiliser la condition de répartition pour orienter les personnes en
 
 Les activités d’action vous permettent ensuite d’envoyer un message via un système tiers. Si vous disposez d’Adobe Campaign Standard, il est possible d’envoyer en temps réel des SMS personnalisés, des notifications push ou des emails.
 
-Journey Orchestration comportant plusieurs étapes, vous pouvez créer des scénarios avancés. Par exemple, après une action et un événement initiaux, vous pouvez placer d’autres événements à l’aide de la souris. Vous pouvez ensuite ajouter une deuxième action, placer une activité d’attente pendant une certaine durée, ajouter une condition de division pour orienter les personnes vers deux chemins différents, puis envoyer des messages distincts.
+As [!DNL Journey Orchestration] is multistep, you can create advanced scenarios. Par exemple, après une action et un événement initiaux, vous pouvez placer d’autres événements à l’aide de la souris. Vous pouvez ensuite ajouter une deuxième action, placer une activité d’attente pendant une certaine durée, ajouter une condition de division pour orienter les personnes vers deux chemins différents, puis envoyer des messages distincts.
 
 >[!NOTE]
 >
