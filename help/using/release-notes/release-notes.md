@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 72%
+source-wordcount: '1094'
+ht-degree: 71%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations de l’intégration de la plateforme d’expérience Adobe</strong><br/></th>
+<th><strong>Améliorations de l’intégration d’Adobe Experience Platform</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -46,8 +46,8 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <li><p>Dans l’éditeur d’expressions simple, les segments de plateforme sont désormais directement répertoriés dans l’arborescence de navigation afin de faciliter la configuration de conditions telles que "cette personne appartient-elle au segment A ?". <a href="../segment/using-a-segment.md">En savoir plus</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>L'orchestration du voyage transmet désormais automatiquement, à la plateforme de données Adobe, les étapes suivies par les individus dans les voyages. Cela inclut les erreurs potentielles survenues. Ces informations peuvent être utilisées à des fins d’analyse ou de segmentation. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
-<img src="../assets/rn-sharing.png"/>
+<li><p>L'orchestration du voyage transmet désormais automatiquement, à la plateforme de données Adobe, les étapes effectuées dans les voyages. Cela inclut les erreurs potentielles survenues. Ces informations peuvent être utilisées pour obtenir un rapports et un dépannage en exécutant des requêtes sur les événements d'étape du trajet pour un voyage particulier ou pour tous les voyages. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
+<img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>L'orchestration du voyage peut maintenant être connectée à la plateforme de production et non-production Sandbox. Disponibilité efficace : 15 juin 2020. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
