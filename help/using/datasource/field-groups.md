@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Pour chaque source de données, vous pouvez définir plusieurs groupes de champs
 
 Vous pouvez, par exemple, créer un groupe de champs avec le numéro de téléphone, l’adresse email, le prénom et l’adresse du profil. Vous pourrez alors utiliser ces données dans votre parcours afin de créer des conditions. Par exemple, vous pouvez choisir de n’envoyer un SMS que si le numéro de téléphone du profil est renseigné. Si le champ est vide, vous pouvez envoyer un email.
 
-Bien qu’un nom par défaut soit automatiquement ajouté à votre groupe de champs, nous vous recommandons d’attribuer un nom personnalisé. En effet, ce nom sera visible par d’autres utilisateurs de Journey Orchestration. Il est conseillé d’attribuer au groupe un nom pertinent.
+Bien qu’un nom par défaut soit automatiquement ajouté à votre groupe de champs, nous vous recommandons d’attribuer un nom personnalisé. En effet, ce nom sera visible par d’autres utilisateurs de [!DNL Journey Orchestration]. Il est conseillé d’attribuer au groupe un nom pertinent.
 
 Lorsqu’un champ de source de données est utilisé dans un parcours, le système récupère tous ceux qui sont définis pour ce groupe. Par conséquent, il est recommandé de ne sélectionner que les champs dont vous avez besoin pour vos parcours. Cela permettra de réduire la latence des requêtes dans vos parcours et d’améliorer les performances. Notez que vous pourrez facilement ajouter d’autres champs dans les groupes ultérieurement.
 
