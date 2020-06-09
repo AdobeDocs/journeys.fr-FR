@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 71%
+source-wordcount: '1098'
+ht-degree: 70%
 
 ---
 
@@ -40,16 +40,17 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <li><p>Une nouvelle activité permet d'écouter les entrées/sorties des segments de plateforme pour faire entrer ou avancer les personnes dans un voyage. <a href="../building-journeys/event-activities.md#segment-qualification">En savoir plus</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Les segments de plateforme peuvent désormais être créés et modifiés sans quitter l’interface d’orchestration du voyage, grâce à un nouvel onglet <strong>Segments</strong> . Disponibilité efficace : 15 juin 2020. <a href="../segment/about-segments.md">En savoir plus</a></p>
+<li><p>Les segments de plateforme peuvent désormais être créés et modifiés sans quitter l’interface d’orchestration du voyage, grâce à un nouvel onglet <strong>Segments</strong> .<a href="../segment/about-segments.md">En savoir plus</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Dans l’éditeur d’expressions simple, les segments de plateforme sont désormais directement répertoriés dans l’arborescence de navigation afin de faciliter la configuration de conditions telles que "cette personne appartient-elle au segment A ?". <a href="../segment/using-a-segment.md">En savoir plus</a></p>
+<li><p>Dans l’éditeur d’expressions simple, les segments de plateforme sont désormais directement répertoriés dans l’arborescence de navigation afin de faciliter la configuration de conditions telles que "cette personne appartient-elle au segment A ?".<a href="../segment/using-a-segment.md">En savoir plus</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>L'orchestration du voyage transmet désormais automatiquement, à la plateforme de données Adobe, les étapes effectuées dans les voyages. Cela inclut les erreurs potentielles survenues. Ces informations peuvent être utilisées pour obtenir un rapports et un dépannage en exécutant des requêtes sur les événements d'étape du trajet pour un voyage particulier ou pour tous les voyages. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>L'orchestration du voyage peut maintenant être connectée à la plateforme de production et non-production Sandbox. Disponibilité efficace : 15 juin 2020. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
+</li>
+<li><p>L’orchestration du parcours peut désormais être connectée à des sandbox Plate-forme de production et non-production. Notez que les sandbox sont une fonctionnalité bêta. Disponibilité efficace : 30 juin 2020. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
 </td>
 </tr>
@@ -84,9 +85,9 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 
 Pour éviter d&#39;envoyer trop d&#39;appels d&#39;API à des systèmes tiers, nous introduisons une nouvelle API publique pour configurer des règles de &quot;plafonnement&quot;. Les règles de plafonnement permettent de définir un nombre maximal d’appels à un point de terminaison API par millisecondes. [En savoir plus](../api/capping.md)
 
-Le Contrôle d&#39;accès permet désormais une plus grande granularité dans la gestion de l’accès des utilisateurs. Disponibilité efficace : 15 juin 2020. [En savoir plus](../about/access-management.md#create-product-profile)
+Le Contrôle d&#39;accès permet désormais une plus grande granularité dans la gestion de l’accès des utilisateurs. Disponibilité efficace : 30 juin 2020. [En savoir plus](../about/access-management.md#create-product-profile)
 
-L&#39;orchestration du trajet est désormais disponible en APAC (centre de données australien). Disponibilité efficace : 15 juin 2020
+L&#39;orchestration du trajet est désormais disponible en APAC (centre de données australien). Disponibilité efficace : 30 juin 2020
 
 L&#39;interface Orchestration du voyage est disponible en japonais.
 
