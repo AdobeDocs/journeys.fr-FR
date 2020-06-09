@@ -10,23 +10,23 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '331'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 88%
 
 ---
 
 
 
-# Étapes supplémentaires pour l’envoi d’événements à Journey Orchestration {#concept_xrz_n1q_y2b}
+# Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->Lors de la création d’un événement, Journey Orchestration génère automatiquement un identifiant qui lui correspond. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [](../event/previewing-the-payload.md).
+>When creating an event, [!DNL Journey Orchestration] automatically generates an ID for this event. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [](../event/previewing-the-payload.md).
 
-Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans Journey Orchestration, procédez comme suit :
+Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans , procédez comme suit :[!DNL Journey Orchestration]
 
 1. Récupérez l’URL d’inlet à partir des API de Data Platform (voir [API d’ingestion en flux continu](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/overview.html)).
 1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. Voir [](../event/defining-the-payload-fields.md).
@@ -34,7 +34,7 @@ Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL AP
 Vous devez ensuite configurer le système de données qui envoie les événements vers les API d’ingestion en flux continu à l’aide de la payload que vous avez copiée :
 
 1. Configurez un appel d’API POST à l’URL des API d’ingestion en flux continu (désignée sous le nom « inlet »).
-1. Utilisez la payload que vous avez copiée dans Journey Orchestration dans le corps (« section de données ») de l’appel d’API vers les API d’ingestion en flux continu. Reportez-vous à l’exemple ci-dessous.
+1. Use the payload you copied from [!DNL Journey Orchestration] in the body (&quot;data section&quot;) of the API call to Streaming Ingestion APIs. Reportez-vous à l’exemple ci-dessous.
 1. Déterminez où obtenir toutes les variables présentes dans la payload. Exemple : si l’événement est censé transmettre l’adresse, la payload collée indique &quot;address&quot;: &quot;string&quot;. &quot;string&quot; doit être remplacé par la variable qui renseigne automatiquement la valeur appropriée, c’est-à-dire l’adresse email du destinataire du message. Notez que dans la section **[!UICONTROL Header]** de l’aperçu de la payload, de nombreuses valeurs sont renseignées automatiquement afin de vous faciliter la tâche.
 1. Sélectionnez &quot;application/json&quot; comme type de corps.
 1. Transmettez votre identifiant d’organisation IMS dans l’en-tête à l’aide de la clé &quot;x-gw-ims-org-id&quot;. Pour cette valeur, utilisez votre identifiant d’organisation IMS (&quot;XXX@AdobeOrg&quot;).
