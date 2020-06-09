@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '357'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Les principales étapes nécessaires pour ajouter des groupes de champs à la so
 
    ![](../assets/journey24.png)
 
-1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans la plate-forme. La création du schéma n’est pas effectuée dans Journey Orchestration, mais dans Data Platform.
+1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans la plate-forme. Schema creation is not performed in [!DNL Journey Orchestration]. dans Data Platform.
 1. Sélectionnez les champs que vous souhaitez utiliser.
 1. Définissez la durée de mise en cache.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
