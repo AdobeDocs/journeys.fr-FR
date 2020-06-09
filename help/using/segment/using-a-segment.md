@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # Utilisation de segments dans des conditions {#using-a-segment}
-
->L&#39;onglet Segments et la création/modification de segments dans Journey Orchestration seront disponibles le 15 juin.
 
 Cette section explique comment utiliser un segment dans une condition de voyage.
 Pour savoir comment utiliser un événement de qualification **de** segment dans votre parcours, reportez-vous aux activités [](../building-journeys/event-activities.md#segment-qualification)Événements.
