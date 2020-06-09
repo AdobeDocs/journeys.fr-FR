@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 100%
 
 ---
 
@@ -35,4 +38,4 @@ Cet aperçu vous permet de valider la définition de la payload.
 
 1. Vérifiez l’aperçu pour valider la définition de la payload.
 
-1. Vous pouvez ensuite partager l’aperçu de la payload avec la personne responsable de l’envoi de l’événement. Cette payload peut l’aider à concevoir la configuration d’un envoi d’événement vers Journey Orchestration. Voir [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vous pouvez ensuite partager l’aperçu de la payload avec la personne responsable de l’envoi de l’événement. Cette payload peut l’aider à concevoir la configuration d’un envoi d’événement vers [!DNL Journey Orchestration]. Voir [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
