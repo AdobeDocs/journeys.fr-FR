@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '1018'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 99%
 
 ---
 
@@ -49,11 +49,11 @@ Le point de départ d’un parcours est toujours un événement. Il est possible
 
 Vous pouvez ainsi vérifier si l’appel d’API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l’en-tête (et en particulier l’identifiant d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur l’URL appropriée pour l’accès.
 
-Les événements ne sont pas directement transmis de la source à Journey Orchestration. En effet, Journey Orchestration s’appuie sur les API d’ingestion en flux continu d’Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source à [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Experience Platform’s streaming ingestion APIs. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 ## Vérification de l’entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
-Les rapports produits par Journey Orchestration donnent des mesures en temps réel des entrées des visiteurs dans un parcours.
+[!DNL Journey Orchestration]Les rapports produits par donnent des mesures en temps réel des entrées des visiteurs dans un parcours.
 
 Si l’événement a été envoyé avec succès, mais que vous ne voyez pas d’entrée dans le parcours, cela signifie qu’une erreur s’est produite entre l’envoi de l’événement et la réception de l’événement dans le parcours.
 
@@ -73,7 +73,7 @@ En tant qu’administrateur, vous devez vérifier les points suivants :
 
 ## Vérification de la manière dont les visiteurs naviguent dans le parcours{#section_l5y_yzs_dgb}
 
-Les rapports produits par Journey Orchestration mesurent la progression des individus dans un parcours. Il est très facile d’identifier où et pourquoi une personne s’est arrêtée.
+[!DNL Journey Orchestration]Les rapports produits par mesurent la progression des individus dans un parcours. Il est très facile d’identifier où et pourquoi une personne s’est arrêtée.
 
 Les éléments à vérifier sont les suivants :
 
