@@ -9,10 +9,10 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f28bdc0e74359ff9f8d84961769b84973ae3f39
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 24%
+source-wordcount: '1065'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 ## Introduction
 
-Les API de Journey Orchestration prennent en charge 5 000 événements/secondes, mais certains systèmes externes ou API ne peuvent pas avoir un débit équivalent. C&#39;est pourquoi Journey Orchestration est fourni avec une fonctionnalité dédiée appelée API de plafonnement pour surveiller et limiter le taux que nous imposons aux systèmes externes.
+[!DNL Journey Orchestration]Les API de prennent en charge 5 000 événements/secondes, mais certains systèmes ou API externes ne peuvent pas avoir un débit équivalent. C&#39;est pourquoi [!DNL Journey Orchestration] est fourni avec une fonctionnalité dédiée appelée API de plafonnement pour surveiller et limiter la vitesse que nous imposons aux systèmes externes.
 
 Lors de la configuration d&#39;une source de données, vous allez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées dans vos voyages, ou pour une définition d&#39;action, vous allez configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Chaque fois qu&#39;un appel d&#39;API est effectué par Journey, l&#39;API de plafonnement est interrogée, l&#39;appel est transmis par le moteur d&#39;API. Si une limite est définie, l&#39;appel est rejeté et le système externe ne sera pas surchargé.
 
@@ -30,9 +30,9 @@ Pour en savoir plus sur l’action ou la configuration des sources de données, 
 
 ## Ressources
 
-L’API de mappage d’orchestration de parcours est décrite dans un fichier Swagger disponible [ici](https://adobedocs.github.io/JourneyAPI/docs/).
+L’API [!DNL Journey Orchestration] de plafonnement est décrite dans un fichier Swagger disponible [ici](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Pour utiliser cette API avec votre instance d’orchestration de parcours, vous devez utiliser la console AdobeIO. Vous pouvez le début en suivant cette [section Prise en main de Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) , puis en utilisant les sections de cette page.
+Pour utiliser cette API avec votre [!DNL Journey Orchestration] instance, vous devez utiliser la console AdobeIO. Vous pouvez le début en suivant cette [section Prise en main de Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) , puis en utilisant les sections de cette page.
 
 Pour tester et préparer votre intégration, une collection Postman est disponible [ici](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -40,14 +40,14 @@ Pour tester et préparer votre intégration, une collection Postman est disponib
 
 ### Configuration de l’accès aux API
 
-L’accès à l’API d’orchestration du trajet est configuré par les étapes ci-dessous. Chacune de ces étapes est détaillée dans la documentation [Adobe IO](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+[!DNL Journey Orchestration] L’accès à l’API est configuré par les étapes ci-dessous. Chacune de ces étapes est détaillée dans la documentation [Adobe IO](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
 >Pour gérer les certificats dans Adobe IO, assurez-vous de disposer des droits d’<b>administrateur système</b> sur l’organisation ou d’un <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">compte de développeur </a> dans la console d’administration.
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
-1. **Créez une nouvelle intégration au service** d’orchestration Journey dans les E/S Adobe et configurez-la. L’accès au profil du produit est nécessaire pour l’orchestration du voyage et la plateforme d’expérience Adobe. Vos informations d’identification seront alors générées (clé d’API, secret client...).
+1. **[!DNL Journey Orchestration]Créez une nouvelle intégration avec Service** dans Adobe IO et configurez-la. L’accès au profil du produit est nécessaire pour [!DNL Journey Orchestration] Adobe Experience Platform. Vos informations d’identification seront alors générées (clé d’API, secret client...).
 1. **Créez un jeton Web JSON (JWT)** à partir des informations d’identification précédemment générées, et signez-le avec votre clé privée. Le jeton JWT code toutes les informations d’identité et de sécurité dont Adobe a besoin pour vérifier votre identité et vous accorder l’accès à l’API. Cette étape est détaillée dans cette [section](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Échangez votre JWT pour un Jeton d&#39;accès** via une demande POST ou via l’interface de la Console développeur. Ce jeton d’accès devra être utilisé dans chaque en-tête de vos requêtes d’API.
 
@@ -67,7 +67,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ACCESS_TOKEN>**: Votre jeton d&#39;accès personnel, qui a été récupéré lors de l’échange de votre JWT par le biais d’une demande POST.
 
-* **&lt;API_KEY>** : votre clé d’API personnelle. Il est fourni dans les E/S Adobe après avoir créé une nouvelle intégration à Journey Orchestration Service.
+* **&lt;API_KEY>** : votre clé d’API personnelle. It is provided in Adobe I/O after creating a new integration to [!DNL Journey Orchestration] Service.
 
 
 
@@ -164,14 +164,14 @@ L&#39;avertissement potentiel est :
 
 ## Cas d’utilisation
 
-Dans cette section, vous trouverez les cinq principaux cas d&#39;utilisation que vous pouvez effectuer pour gérer votre configuration de plafonnement dans Journey Orchestration.
+Dans cette section, vous trouverez les cinq principaux cas d&#39;utilisation que vous pouvez effectuer pour gérer votre configuration de plafonnement dans [!DNL Journey Orchestration].
 
 Pour vous aider dans vos tests et votre configuration, une collection Postman est disponible [ici](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 Cette collection Postman a été créée pour partager la collection de variables Postman générée via Intégrations __[de la Console d&#39;E/S d&#39;](https://console.adobe.io/integrations)Adobe > Essayez-la > Télécharger pour Postman__, qui génère un fichier d&#39;Environnement Postman avec les valeurs d&#39;intégration sélectionnées.
 
 Une fois téléchargé et téléchargé dans Postman, vous devez ajouter deux variables : `{JO_HOST}` et `{Base_Path}`.
-* `{JO_HOST}` : URL de la passerelle d&#39;orchestration du trajet
+* `{JO_HOST}` : [!DNL Journey Orchestration] URL de passerelle
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &quot;/authoring&quot;
 
 
