@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Les valeurs autorisées sont comprises entre 1 et 30 secondes.
 
 Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Délai dépassé et erreur]** si votre parcours est sensible au temps (c’est le cas, par exemple, lorsqu’il convient de réagir à la position en temps réel d’une personne), car l’action ne peut pas être différée de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d’accorder davantage de temps au système appelé pour envoyer une réponse valide.
 
-Journey Orchestration utilise également un délai d’expiration global. Pour plus d’informations, consultez la [section suivante](#global_timeout).
+[!DNL Journey Orchestration] utilise également un délai d’expiration global. Pour plus d’informations, consultez la [section suivante](#global_timeout).
 
 ## Délai de parcours global {#global_timeout}
 
@@ -50,7 +50,7 @@ Outre le [délai d’expiration](#timeout_and_error) utilisé dans les activité
 
 >[!NOTE]
 >
->Sur le plan de la confidentialité, Journey Orchestration ne réagit pas directement aux demandes d’opt-out, de suppression ou d’accès. Cependant, le délai d’expiration global limite à 30 jours la durée d’activité d’un individu au sein d’un parcours.
+>[!DNL Journey Orchestration]Sur le plan de la confidentialité,  ne réagit pas directement aux demandes d’opt-out, de suppression ou d’accès. Cependant, le délai d’expiration global limite à 30 jours la durée d’activité d’un individu au sein d’un parcours.
 
 Compte tenu du délai d’expiration de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont intégré le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu’une personne y a déjà accédé il y a plus de 30 jours.
 
