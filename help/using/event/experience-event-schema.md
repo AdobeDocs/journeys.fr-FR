@@ -10,35 +10,35 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9b8d4bebe024e90733cb1ae6d31b36fb6ce4b606
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 67%
 
 ---
 
 
 
-# À propos des schémas ExperienceEvent pour les événements Journey Orchestration
+# About ExperienceEvent Schemas for [!DNL Journey Orchestration] Events
 
-Les événements Journey Orchestration sont des événements d’expérience XDM envoyés à Adobe Experience Platform par l’intermédiaire de l’ingestion en flux continu.
+[!DNL Journey Orchestration]Les événements sont des événements d’expérience XDM envoyés à Adobe Experience Platform par l’intermédiaire de l’ingestion en flux continu.
 
-À ce titre, un prérequis important pour la configuration des événements dans Journey Orchestration est de maîtriser le modèle de données d’expérience (ou XDM) de Platform et de savoir composer des schémas d’événements d’expérience XDM et diffuser des données au format XDM vers Platform.
+As such, an important prerequisite for setting up events for [!DNL Journey Orchestration] is that you are familiar with the Platform’s Experience Data Model (or XDM) and how to compose XDM Experience Event schemas, as well as how to stream XDM-formatted data to the Platform.
 
-## Schéma requis pour les événements Journey Orchestration
+## Schema requirements for [!DNL Journey Orchestration] Events
 
-La première étape de la configuration d’un événement pour Journey Orchestration consiste à définir un schéma XDM pour représenter l’événement et à créer un jeu de données pour enregistrer les instances de l’événement dans Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements, mais envoyer les événements à un jeu de données spécifique permettra de conserver l’historique des événements des utilisateurs pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d’un schéma et d’un jeu de données appropriés pour votre événement, il est possible de réaliser ces deux tâches dans l’interface web de Platform.
+The first step in setting up an event for [!DNL Journey Orchestration] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on the Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements, mais envoyer les événements à un jeu de données spécifique permettra de conserver l’historique des événements des utilisateurs pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d’un schéma et d’un jeu de données appropriés pour votre événement, il est possible de réaliser ces deux tâches dans l’interface web de Platform.
 
 ![](../assets/schema1.png)
 
-Un schéma XDM destiné aux événements Journey Orchestration doit répondre aux exigences suivantes :
+Any XDM schema that will be used for [!DNL Journey Orchestration] events should meet the following requirements:
 
 * Le schéma doit appartenir à la classe XDM ExperienceEvent.
 
 ![](../assets/schema2.png)
 
-* Le schéma doit contenir le mixin Orchestration eventID. Journey Orchestration emploie ce champ pour identifier les événements utilisés dans les parcours.
+* Le schéma doit contenir le mixin Orchestration eventID. [!DNL Journey Orchestration] emploie ce champ pour identifier les événements utilisés dans les parcours.
 
 ![](../assets/schema3.png)
 
