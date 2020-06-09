@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Présentation du partage des étapes du parcours{#sharing-overview}
 
-L’orchestration du voyage envoie automatiquement les données de performances du voyage à Adobe Experience Platform afin qu’elles puissent être combinées à d’autres données à des fins d’analyse.
+[!DNL Journey Orchestration] envoie automatiquement les données de performances du voyage à Adobe Experience Platform afin qu’elles puissent être combinées à d’autres données à des fins d’analyse.
 
-Par exemple, vous avez configuré un voyage qui envoie plusieurs courriers électroniques. Cette fonctionnalité vous permet de combiner les données d’orchestration de parcours avec les données de événement en aval, telles que le nombre de conversions survenues, le nombre d’engagements survenues sur le site Web ou le nombre de transactions survenues dans le magasin. Les informations de voyage peuvent être combinées avec les données de la plate-forme, que ce soit à partir d&#39;autres propriétés numériques ou de propriétés hors ligne pour offrir une vue plus complète des performances.
+Par exemple, vous avez configuré un voyage qui envoie plusieurs courriers électroniques. Cette fonctionnalité vous permet de combiner [!DNL Journey Orchestration] des données avec des données de événement en aval, telles que le nombre de conversions survenues, le nombre d’interactions survenues sur le site Web ou le nombre de transactions survenues dans le magasin. Les informations de voyage peuvent être combinées avec les données de la plate-forme, que ce soit à partir d&#39;autres propriétés numériques ou de propriétés hors ligne pour offrir une vue plus complète des performances.
 
-L&#39;orchestration du voyage crée automatiquement les schémas et flux nécessaires dans les ensembles de données de la Plateforme pour chaque étape d&#39;un voyage individuel. Un événement d’étape correspond à une personne qui se déplace d’un noeud à un autre au cours d’un voyage. Par exemple, dans le cadre d’un voyage qui comporte un événement, une condition et une action, trois événements d’étape sont envoyés à la Plateforme.
+[!DNL Journey Orchestration] crée automatiquement les schémas et flux nécessaires dans les jeux de données de la Plateforme pour chaque étape d&#39;un voyage individuel. Un événement d’étape correspond à une personne qui se déplace d’un noeud à un autre au cours d’un voyage. Par exemple, dans le cadre d’un voyage qui comporte un événement, une condition et une action, trois événements d’étape sont envoyés à la Plateforme.
 
 La liste des champs XDM transmis est complète. Certains contiennent des codes générés par le système et d&#39;autres ont des noms conviviaux lisibles. Par exemple, l&#39;étiquette de l&#39;activité de voyage ou l&#39;état de l&#39;étape : nombre de fois où une action a expiré ou s’est terminée par erreur.
 
@@ -45,9 +45,9 @@ Les voyages envoient les données au fur et à mesure, en flux continu. Vous pou
 
 Les schémas suivants sont créés :
 
-* schéma de Événement du Profil du voyage pour l&#39;orchestration du voyage - Événements d&#39;expérience pour les étapes effectuées dans un voyage ainsi qu&#39;une carte d&#39;identité à utiliser pour le mappage à un participant individuel du voyage.
-* schéma de Événement d&#39;étape du parcours pour l&#39;orchestration du parcours - événement d&#39;étape du parcours lié à une Métadonnées de parcours.
-* schéma de voyage avec les champs de voyage pour l&#39;orchestration du voyage - Métadonnées de voyage pour décrire les voyages.
+* schéma de Événement du Profil du parcours [!DNL Journey Orchestration] - Événements d&#39;expérience pour les étapes effectuées dans un voyage avec une carte d&#39;identité à utiliser pour le mappage à un participant individuel du voyage.
+* schéma de Événement d&#39;étape du parcours pour [!DNL Journey Orchestration] - événement d&#39;étape du parcours lié à une Métadonnées de parcours.
+* schéma de voyage avec champs de voyage pour [!DNL Journey Orchestration] - Métadonnées de voyage pour décrire les voyages.
 
 ![](../assets/sharing1.png)
 
@@ -55,7 +55,7 @@ Les schémas suivants sont créés :
 
 Les jeux de données suivants sont transmis :
 
-* schéma de Événement du Profil du parcours pour l&#39;orchestration du parcours
+* schéma de Événement du Profil du parcours [!DNL Journey Orchestration]
 * Événements de parcours
 * Parcours
 
