@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
+source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -35,9 +35,9 @@ La liste des champs XDM transmis est complète. Certains contiennent des codes g
 >
 >![](../assets/sharing4.png)
 
->[!]
+>[!NOTE]
 >
->Les voyages ont également la possibilité d&#39;envoyer ou non le événement de Profil du voyage à la plate-forme.  Journeys maintient une technologie pour décider ça.
+>Les voyages ont également la possibilité d&#39;envoyer ou non le événement du Profil d&#39;étape du voyage à Plateforme. Journeys maintient une technologie pour décider ça.
 >
 >![](../assets/techtoggle.png)
 
