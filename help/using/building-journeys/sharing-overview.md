@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
+source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,7 @@ La liste des champs XDM transmis est complète. Certains contiennent des codes g
 
 >[!CAUTION]
 >
->Par défaut, les jeux de données ne sont pas activés pour le service de profil en temps réel. Si vous souhaitez qu’un jeu de données soit activé dans le service de profil, vous devez l’activer (bascule **Profil** ). Sachez qu&#39;un volume élevé de événements prendra enregistrement dans votre quota. Veuillez procéder avec soin avant d&#39;activer un jeu de données pour les profils
->
->![](../assets/sharing4.png)
-
->[!NOTE]
->
->Les voyages ont également la possibilité d&#39;envoyer ou non le événement du Profil d&#39;étape du voyage à Plateforme. Journeys maintient une technologie pour décider ça.
->
->![](../assets/techtoggle.png)
+>Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que la bascule **Profil** est désactivée.
 
 Les voyages envoient les données au fur et à mesure, en flux continu. Vous pouvez requête ces données à l’aide de Requête Service. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI aux données de vue liées à ces étapes.
 
