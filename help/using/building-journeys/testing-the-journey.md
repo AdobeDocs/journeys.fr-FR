@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 86%
+source-wordcount: '1103'
+ht-degree: 88%
 
 ---
 
@@ -81,7 +81,7 @@ Lorsque vous sélectionnez un autre profil de test dans l’écran de configurat
 
 Lors de l&#39;ouverture d&#39;un voyage dans le test, le chemin affiché correspond au dernier test exécuté.
 
-Le flux visuel s&#39;affiche uniquement lorsque le événement envoyé au voyage est défini dans l&#39;écran de configuration du événement. Si le événement est défini en externe, par exemple à l&#39;aide de Postman, le flux visuel ne s&#39;affiche pas.
+Le flux visuel fonctionne si le événement est déclenché par l&#39;interface ou de manière externe (à l&#39;aide de Postman, par exemple).
 
 ## Affichage des journaux {#viewing_logs}
 
