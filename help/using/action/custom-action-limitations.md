@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 295112e2d18fd275a0fd2826aa8bd87a8ed12636
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Voici quelques restrictions concernant l’utilisation des actions personnalisées :
 
-* Il n’y a pas de limitation ni de lissage/mise en mémoire tampon concernant le volume d’envoi.
+* Il n&#39;y a pas de mise en mémoire tampon/lissage du volume d&#39;envoi.
 * En cas d’erreur, deux reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé.
-* L’événement **[!UICONTROL Réaction]** intégré vous permet de réagir aux actions d’usine (voir [](../building-journeys/event-activities.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
+* L’événement **[!UICONTROL Réaction]** intégré vous permet de réagir aux actions d’usine (voir [](../building-journeys/event-activities.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
 * Seules les méthodes d’appel POST et PUT sont prises en charge.
 * Le nom du paramètre de requête ou de l’en-tête ne doit pas commencer par « . » ni par « $ ».
