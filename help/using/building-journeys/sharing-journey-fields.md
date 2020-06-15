@@ -1,6 +1,6 @@
 ---
-title: Champs de voyage
-description: Champs de voyage
+title: Champs du parcours
+description: Champs du parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,41 +14,41 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Champs de voyage {#sharing-journey-fields}
+# Champs du parcours {#sharing-journey-fields}
 
-Ce mixin est utilisé dans le schéma de voyage (en relation avec voyageStepEvent). Il contient les champs suivants :
+Ce mixin est utilisé dans le schéma du parcours (en relation avec journeyStepEvent). Il contient les champs suivant :
 
-## travelID
+## journeyID
 
-Identifiant du voyage principal.
+Identifiant du parcours principal.
 
-Type : string
+Type : chaîne
 
-## travelVersionID
+## journeyVersionID
 
-Identifiant de la version du voyage. Cet identifiant représente l&#39;identité d&#39;un voyage.
+Identifiant de la version du parcours. Cet identifiant représente l’identité d’un parcours.
 
-Type : string
+Type : chaîne
 
 ## name
 
-Nom du voyage.
+Nom du parcours.
 
-Type : string
+Type : chaîne
 
 ## description
 
-Description du voyage.
+Description du parcours.
 
-Type : string
+Type : chaîne
 
 ## version
 
-Version, représentée par `major`.`minor`
+Version, représentée sous la forme `major`.`minor`
 
-Type : string
+Type : chaîne
