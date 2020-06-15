@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -47,11 +47,11 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Voir [](../building-journeys/publishing-the-journey.md).
 
-## Remarques importantes      {#important_notes}
+## Remarques importantes       {#important_notes}
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Le processus de création d’un profil de test est identique à celui utilisé pour créer un profil dans Data Platform. Vous devez simplement vous assurer que l’indicateur de profil de test est défini sur « true ». Vous pouvez utiliser la section Segments de l’interface de Data Platform pour créer un segment de profils de test dans Data Platform et afficher une liste non exhaustive. La liste exhaustive ne peut pas être affichée pour l’instant.
-* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un namespace. En effet, le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Data Platform.
+* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. En effet, le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Data Platform.
 * Le nombre maximum de profils de test pouvant participer à un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
@@ -73,13 +73,13 @@ L’interface vous permet de transmettre des paramètres d’événement simples
 
 Un utilisateur technique peut également se servir de cette interface pour composer des payloads d’événement et déclencher des événements sans recourir à un outil tiers.
 
-Lorsque vous cliquez sur le bouton **Envoyer** , le test commence. La progression de l&#39;individu dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert au fur et à mesure que l&#39;individu se déplace dans le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher plus d’informations sur l’erreur et accéder à des détails complets (le cas échéant).
+Lorsque vous cliquez sur le bouton **Envoyer**, le test commence. La progression de l’individu dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert à mesure du déplacement de l’individu dans le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher des informations plus précises sur l’erreur et accéder aux détails complets (le cas échéant).
 
 ![](../assets/journeytest6.png)
 
-Lorsque vous sélectionnez un autre profil de test dans l’écran de configuration du événement et que vous réexécutez le test, le flux visuel est effacé et indique le chemin d’accès de la nouvelle personne.
+Si vous sélectionnez un autre profil de test dans l’écran de configuration d’un événement et que vous exécutez de nouveau le test, le flux visuel est effacé et indique le chemin du nouvel individu.
 
-Lors de l&#39;ouverture d&#39;un voyage dans le test, le chemin affiché correspond au dernier test exécuté.
+Lorsque vous ouvrez un parcours en cours de test, le chemin affiché correspond au dernier test exécuté.
 
 Le flux visuel fonctionne si le événement est déclenché par l&#39;interface ou de manière externe (à l&#39;aide de Postman, par exemple).
 
@@ -105,9 +105,9 @@ Le nombre d’individus (appelés instances d’un point de vue technique) prés
 * _transitionHistory_ : liste des étapes suivies par l’individu. Pour les événements, la payload est affichée.
 * _actionExecutionErrors_ : informations sur les erreurs qui se sont produites.
 
-Les différents statuts du parcours d’un client sont les suivants :
+Les différents statuts du parcours d’un individu sont les suivants :
 
-* _En cours_ : le client figure actuellement dans le parcours.
-* _Terminé_ : le client a atteint la fin du parcours.
-* _Erreur_ : le parcours du client a été arrêté en raison d’une erreur.
-* _Délai dépassé_ : le parcours du client a été arrêté, car l’exécution d’une étape a pris trop de temps.
+* _En cours_ : l’individu figure actuellement dans le parcours.
+* _Terminé_ : l’individu a atteint la fin du parcours.
+* _Erreur_ : le parcours de l’individu a été arrêté en raison d’une erreur.
+* _Délai dépassé_ : le parcours de l’individu a été arrêté, car l’exécution d’une étape a pris trop de temps.
