@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 100%
 
 ---
 
@@ -44,11 +47,11 @@ Pour plus d’informations sur la configuration des événements, voir [](../eve
    >
    >La liste des champs varie d’un schéma à l’autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
 
-1. Nous devons sélectionner un namespace. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les namespaces, consultez la section [](../event/selecting-the-namespace.md).
+1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les espaces de noms, consultez la section [](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
-1. Une clé est présélectionnée en fonction des propriétés du schéma et du namespace sélectionné. Vous pouvez la conserver.
+1. Une clé est présélectionnée en fonction des propriétés du schéma et de l’espace de noms sélectionné. Vous pouvez la conserver.
 
    ![](../assets/journeyuc2_4bis.png)
 
