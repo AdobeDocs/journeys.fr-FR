@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 100%
 
 ---
 
@@ -28,6 +31,6 @@ Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine 
 
 Si vous avez configuré des actions personnalisées, elles s’affichent également à cet emplacement (voir [](../building-journeys/using-custom-actions.md)).
 
-Lorsque vous déposez une activité d’action dans le canevas, vous pouvez définir un **[!UICONTROL libellé]**. Vous pouvez ainsi ajouter un suffixe au nom de l’action, lequel apparaîtra sous votre activité dans le canevas. Cela s’avère utile si vous utilisez plusieurs fois la même action dans votre parcours et souhaitez faciliter son identification. Les rapports seront également plus faciles à lire. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
+Lorsque vous déposez une activité d’action dans la zone de travail, vous pouvez définir un **[!UICONTROL libellé]**. Vous pouvez ainsi ajouter un suffixe au nom de l’action, lequel apparaîtra sous votre activité dans la zone de travail. Cela s’avère utile si vous utilisez plusieurs fois la même action dans votre parcours et souhaitez faciliter son identification. Les rapports seront également plus faciles à lire. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
 
 ![](../assets/journey59bis.png)
