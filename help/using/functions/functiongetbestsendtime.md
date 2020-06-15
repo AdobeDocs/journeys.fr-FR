@@ -10,19 +10,22 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 100%
 
 ---
 
 
 # getBestSendTime {#getBestSendTime}
 
-Fournit une prédiction de l’heure optimale pour envoyer un email à une personne.
+Fournit une prédiction de l’heure optimale pour envoyer un email à un individu.
 
 Cette fonction utilise un score calculé dans Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, l’heure par défaut est appliquée. Pour plus d’informations, reportez-vous à la section [](../building-journeys/wait-activity.md).
 
-Pour utiliser cette fonction, un [namespace](../event/selecting-the-namespace.md) est nécessaire.
+Pour utiliser cette fonction, un [espace de noms](../event/selecting-the-namespace.md) est nécessaire.
 
 >[!NOTE]
 >
@@ -56,4 +59,4 @@ getBestSendTime(12,&quot;open&quot;,8)
 
 Explication :
 
-La fonction renvoie l’heure optimale pour envoyer un message au cours des 12 heures suivantes afin d’optimiser la probabilité d’ouverture par une personne dans l’instance de parcours. Si les données ne sont pas suffisantes pour effectuer le calcul, l’heure renvoyée sera fixée à 8 heures après l’heure actuelle.
+La fonction renvoie l’heure optimale pour envoyer un message au cours des 12 heures suivantes afin d’optimiser la probabilité d’ouverture par un individu dans l’instance de parcours. Si les données ne sont pas suffisantes pour effectuer le calcul, l’heure renvoyée sera fixée à 8 heures après l’heure actuelle.
