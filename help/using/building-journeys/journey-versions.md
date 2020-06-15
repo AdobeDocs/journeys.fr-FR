@@ -10,15 +10,18 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 100%
 
 ---
 
 
 # Versions de parcours{#concept_ldc_k55_zgb}
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [](../building-journeys/using-the-journey-designer.md). Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l’application. Vous pouvez ensuite définir l’ordre de tri souhaité ; l’application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus du canevas.
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [](../building-journeys/using-the-journey-designer.md). Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l’application. Vous pouvez ensuite définir l’ordre de tri souhaité ; l’application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail.
 
 ![](../assets/journeyversions1.png)
 
@@ -36,7 +39,7 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
 
    ![](../assets/journeyversions3.png)
 
-Aussitôt le parcours publié, les clients commencent à accéder à la dernière version. Les clients qui ont déjà accédé à une version antérieure y restent jusqu’à la fin du parcours. En cas de rentrée ultérieure dans le même parcours, les clients accéderont à la version la plus récente.
+Aussitôt le parcours publié, les individus commencent à accéder à la dernière version. Les clients qui ont déjà accédé à une version antérieure y restent jusqu’à la fin du parcours. En cas de rentrée ultérieure dans le même parcours, les clients accéderont à la version la plus récente.
 
 Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions des parcours portent le même nom.
 
