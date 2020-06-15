@@ -1,6 +1,6 @@
 ---
-title: Champs d'identité du événement cheminementStep
-description: Champs d'identité du événement cheminementStep
+title: Champs d’identité des événements journeyStep
+description: Champs d’identité des événements journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,25 +14,25 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Champs d&#39;identité du événement cheminementStep {#sharing-identity-fields}
+# Champs d’identité des événements journeyStep {#sharing-identity-fields}
 
-Ce mixin est spécifique à voyageStepEvent : ce événement est en relation avec le voyage, et ne possède pas la carte d&#39;identité, décrivant l&#39;identité du profil, le cas échéant.
+Ce mixin est spécifique à journeyStepEvent : cet événement est en relation avec le parcours, et ne dispose pas de l’identityMap décrivant l’identité du profil, le cas échéant.
 
-Pour travelStepEvent, nous devons également ajouter des champs liés à l&#39;identité :
+Pour un événement journeyStepEvent, nous devons également ajouter des champs liés à l’identité :
 
 ## profileID
 
-Identificateur de Profil
+Identifiant de profil
 
-Type : string
+Type : chaîne
 
 ## profileNamespace
 
-espace de nommage d&#39;identifiant de Profil
+Espace de noms de l’identifiant de profil
 
-Type : string
+Type : chaîne
