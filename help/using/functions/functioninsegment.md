@@ -10,15 +10,18 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
 
 # inSegment {#inSegment}
 
-Vérifie si une personne appartient à un segment donné.
+Vérifie si un individu appartient à un segment donné.
 
 Le nom du segment doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression.
 
@@ -54,4 +57,4 @@ Renvoie une valeur booléenne.
 
 Explication :
 
-La fonction renvoie **[!UICONTROL true]** si la personne concernée par l’instance de parcours figure dans le segment de plate-forme « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
+La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours figure dans le segment de plate-forme « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
