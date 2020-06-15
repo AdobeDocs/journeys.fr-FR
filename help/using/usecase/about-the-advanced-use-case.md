@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +52,7 @@ Nous devrons configurer une connexion à deux sources de données (voir [](../us
 * La source de données Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’adhésion au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
 * Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
 
-## Conditions requises   {#prerequisites}
+## Conditions requises    {#prerequisites}
 
 Pour notre cas d’utilisation, nous avons conçu trois modèles de messages transactionnels Adobe Campaign Standard. Nous utilisons des modèles de messages transactionnels basés sur un événement. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
