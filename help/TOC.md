@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 + Nouveautés{#release-notes}
    + [Notes de mise à jour](using/release-notes/release-notes.md)
    + [Mises à jour de la documentation](using/release-notes/documentation-updates.md)
-+ En commençant par [!DNL Journey Orchestration] {#starting-with-journeys}
++ Prise en main de [!DNL Journey Orchestration] {#starting-with-journeys}
    + [À propos de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Prise en main](using/about/get-started.md)
    + [Interface utilisateur](using/about/user-interface.md)
@@ -28,7 +28,7 @@ ht-degree: 86%
    + [À propos des événements](using/event/about-events.md)
    + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
-   + [Sélection du namespace](using/event/selecting-the-namespace.md)
+   + [Sélection de l’espace de noms](using/event/selecting-the-namespace.md)
    + [Définition de la clé d’événement](using/event/defining-the-event-key.md)
    + [Ajout d’une condition](using/event/adding-a-condition.md)
    + [Aperçu de la payload](using/event/previewing-the-payload.md)
@@ -46,8 +46,8 @@ ht-degree: 86%
       + [Restrictions relatives aux actions personnalisées](using/action/custom-action-limitations.md)
       + [Configuration d’URL](using/action/url-configuration.md)
       + [Définition des paramètres de message](using/action/defining-the-message-parameters.md)
-+ Utilisation des segments de formulaire {#configuring-segment}
-   + [A propos des segments de formulaire](using/segment/about-segments.md)
++ Utilisation des segments Plaform {#configuring-segment}
+   + [À propos des segments Platform](using/segment/about-segments.md)
    + [Création d’un segment](using/segment/creating-a-segment.md)
    + [Utilisation de segments dans des conditions](using/segment/using-a-segment.md)
 + Création d’un parcours {#building-journeys}
@@ -71,13 +71,13 @@ ht-degree: 86%
          + [Utilisation d’actions personnalisées](using/building-journeys/using-custom-actions.md)
    + [Test du parcours](using/building-journeys/testing-the-journey.md)
    + [Publication du parcours](using/building-journeys/publishing-the-journey.md)
-   + Partage des étapes du voyage avec la plate-forme {#sharing-journey-steps}
+   + Partage des étapes du parcours avec Platform {#sharing-journey-steps}
       + [Présentation du partage des étapes du parcours](using/building-journeys/sharing-overview.md)
-      + [Champs communs aux événements de parcoursSteps](using/building-journeys/sharing-common-fields.md)
-      + [Champs d&#39;exécution d&#39;action de événements de parcoursStep](using/building-journeys/sharing-execution-fields.md)
-      + [Champs de récupération des données des événements travelStep](using/building-journeys/sharing-fetch-fields.md)
-      + [Champs d&#39;identité du événement cheminementStep](using/building-journeys/sharing-identity-fields.md)
-      + [Champs de voyage](using/building-journeys/sharing-journey-fields.md)
+      + [Champs communs aux événements journeySteps](using/building-journeys/sharing-common-fields.md)
+      + [Champs d’exécution d’action des événements journeyStep](using/building-journeys/sharing-execution-fields.md)
+      + [Champs de récupération des données des événements journeyStep](using/building-journeys/sharing-fetch-fields.md)
+      + [Champs d’identité des événements journeyStep](using/building-journeys/sharing-identity-fields.md)
+      + [Champs du parcours](using/building-journeys/sharing-journey-fields.md)
 + Utilisation de l’éditeur d’expression avancé {#building-advanced-conditions-journeys}
    + [À propos de l’éditeur d’expression avancé](using/expression/expressionadvanced.md)
    + Syntaxe {#syntax}
@@ -175,5 +175,5 @@ ht-degree: 86%
       + [Création du parcours](using/usecase/building-the-journey.md)
    + [Utilisation des scores de fatigue](using/usecase/leveraging-fatigue-scores.md)
 + Utilisation des API{#working-with-apis}
-   + [API de plafonnement](using/api/capping.md)
+   + [API de limitation](using/api/capping.md)
 
