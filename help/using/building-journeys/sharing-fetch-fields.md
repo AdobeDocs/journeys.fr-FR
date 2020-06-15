@@ -1,6 +1,6 @@
 ---
-title: Champs de récupération des données des événements travelStep
-description: Champs de récupération des données des événements travelStep
+title: Champs de récupération des données des événements journeyStep
+description: Champs de récupération des données des événements journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,59 +14,59 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Champs de récupération des données des événements travelStep {#sharing-fetch-fields}
+# Champs de récupération des données des événements journeyStep {#sharing-fetch-fields}
 
-Ce mixin sera partagé par les variables voyageStepEvent et voyageStepProfileEvent.
+Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
-Au cours d’un traitement par étape, aucune donnée ne peut être récupérée sur les groupes de champs.
+Lors du traitement d’une étape, il est possible de récupérer un nombre quelconque de données dans les groupes de champs.
 
 ## fetchTotalTime
 
-Durée totale de la récupération des données pendant des millis pendant le traitement de l’étape.
+Laps de temps total, en millisecondes, consacré à la récupération des données lors du traitement d’une étape.
 
-Type : long
+Type : long
 
 ## fetchTypeInError
 
-Définit si la récupération par erreur se trouve sur la plateforme ou sur une source de données personnalisée.
+Définit si la récupération en erreur se trouve sur la plateforme ou sur une source de données personnalisée.
 
-Type : string
+Type : chaîne
 
-Valeurs:
+Valeurs :
 * aep
-* personnalisé
+* custom
 
 ## fetchError
 
-Type d’erreur survenant lors du traitement de la récupération des données.
+Type d’erreur se produisant lors du traitement de la récupération des données.
 
-Type : string
+Type : chaîne
 
-Valeurs:
+Valeurs :
 * http
-* recouvrement
+* capping
 * timedout
 * error
 
 ## fetchErrorCode
 
-Code de l&#39;erreur de récupération. Présente si l’erreur comporte un code, par exemple HTTP. Par exemple, si actionExecError est http, le code 404 représente l’erreur HTTP 404.
+Code de l’erreur de récupération. Présent si l’erreur comporte un code, par exemple HTTP. Par exemple, si actionExecError contient http, le code 404 représente l’erreur HTTP 404.
 
-Type : string
+Type : chaîne
 
 ## fetchOriginError
 
-Un dépassement de délai peut se produire dans deux cas :
+Un dépassement de délai peut se produire dans deux cas :
 
-* lors de la première tentative, l&#39;action est exécutée. Dans ce cas, l’exécution n’est pas terminée, il n’y a donc pas d’erreur sous-jacente.
-* sur une nouvelle tentative : dans ce cas, actionExecOrigError/actionExecOrigErrorCode décrit l&#39;erreur rencontrée lors de la tentative avant la nouvelle tentative.
+* Lors de la première tentative d’exécution de l’action. Dans ce cas, l’exécution n’est pas terminée, il n’y a donc pas d’erreur associée.
+* Lors d’une nouvelle tentative : dans ce cas, le code actionExecOrigError/actionExecOrigErrorCode décrit l’erreur rencontrée lors de la tentative, et avant la nouvelle tentative.
 
-Par exemple, les données sont extraites du service de Profil unifié et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est refaite, mais la durée des deux tentatives dépasse le délai d&#39;attente. Ensuite, l’exécution de l’action est balisée en tant que délai d’expiration. La partie action se présente comme suit :
+Par exemple, les données sont extraites du service Profil unifié et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède le délai d’attente. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
 
 ```
     ...
@@ -77,40 +77,40 @@ Par exemple, les données sont extraites du service de Profil unifié et une err
     "fetchOrigErrorCode": "500"
 ```
 
-Type : string
+Type : chaîne
 
 ## fetchOriginErrorCode
 
-Le code d&#39;erreur fourni par le système [!DNL Journey Orchestration] interroge. Par exemple, il peut s’agir de 404, 500, etc.
+Code d’erreur fourni par le système interrogé par [!DNL Journey Orchestration]. Il peut s’agir par exemple d’un code 404, 500, etc.
 
-Type : string
+Type : chaîne
 
 ## fetchCount
 
-Combien de fois les données sont extraites, quel que soit le type de source.
+Nombre de récupérations de données, quel que soit le type de source.
 
-Type : long
+Type : long
 
 ## fetchPlatformTotalTime
 
-Durée totale de récupération des données de la plateforme de données en millions. Remarque : cette durée est calculée à partir du moment où le moteur envoie le événement d&#39;enrichissement au service d&#39;enrichissement et reçoit la réponse.
+Laps de temps total en millisecondes consacré à la récupération des données sur Data Platform. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
 
-Type : long
+Type : long
 
 ## fetchPlatformCount
 
-Combien de fois les données sont extraites de la plate-forme.
+Nombre de récupérations de données sur Platform.
 
-Type : long
+Type : long
 
 ## fetchCustomTotalTime
 
-Durée de récupération des données personnalisées en millions. Remarque : cette durée est calculée à partir du moment où le moteur envoie le événement d&#39;enrichissement au service d&#39;enrichissement et reçoit la réponse
+Laps de temps consacré à la récupération des données personnalisées en millisecondes. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse
 
-Type : long
+Type : long
 
 ## fetchCustomCount
 
-Nombre de fois où les données personnalisées sont extraites de systèmes externes.
+Nombre de récupérations de données personnalisées depuis les systèmes externes.
 
-Type : long
+Type : long
