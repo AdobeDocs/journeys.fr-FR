@@ -133,7 +133,7 @@ Le résultat de l’expression est **3**.
 
 **Exemple 3 :**
 
-Dans cet exemple, nous allons vérifier si une personne n’a reçu aucune communication au cours des dernières 24 heures. Nous allons filtrer la collection d’événements d’expérience récupérés à partir de la source de données Experience Platform, en utilisant deux expressions basées sur deux éléments de la collection. En particulier, l’horodatage de l’événement est comparé à la valeur dateTime renvoyée par la fonction **[!UICONTROL nowWithDelta]**.
+Dans cet exemple, nous allons vérifier si un individu n’a reçu aucune communication au cours des dernières 24 heures. Nous allons filtrer la collection d’événements d’expérience récupérés à partir de la source de données Experience Platform, en utilisant deux expressions basées sur deux éléments de la collection. En particulier, l’horodatage de l’événement est comparé à la valeur dateTime renvoyée par la fonction **[!UICONTROL nowWithDelta]**.
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -145,7 +145,7 @@ Le résultat sera true si aucun événement d’expérience ne correspond aux de
 
 **Exemple 4 :**
 
-Notre objectif ici est de vérifier si une personne a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel.
+Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel.
 
 ```
 count(
