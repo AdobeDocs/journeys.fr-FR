@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 Cette étape est effectuée par l’**utilisateur chargé de la conception de parcours**. C’est là que vous créez vos parcours. Combinez les différentes activités d’événement, d’orchestration et d’action afin de créer des scénarios cross-canal à plusieurs étapes.
 
-L’interface de parcours vous permet de faire glisser facilement des activités de la palette vers le canevas. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans le canevas à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
+L’interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
 
-Un seul namespace est autorisé par parcours. Lorsque vous déposez le premier événement, ceux dont les namespaces sont différents sont grisés. Si le premier événement est dépourvu de namespace, tous ceux qui en sont pourvus sont grisés. Voir [](../event/selecting-the-namespace.md). En outre, les groupes de champs Experience Platform apparaissent en grisé si le parcours contient des événements sans namespace. Ajoutons encore que si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même namespace.
+Un seul espace de noms est autorisé par parcours. Lorsque vous déposez le premier événement, ceux dont les espaces de noms sont différents sont grisés. Si le premier événement est dépourvu d’espace de noms, tous ceux qui en sont pourvus sont grisés. Voir [](../event/selecting-the-namespace.md). En outre, les groupes de champs Experience Platform apparaissent en grisé si le parcours contient des événements sans espace de noms. Ajoutons encore que si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même espace de noms.
 
 ## Démarrage rapide {#creating_journey}
 
@@ -43,7 +46,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey32.png)
 
-1. Commencez par faire glisser une activité d’événement de la palette vers le canevas. Vous pouvez également double-cliquer sur une activité pour l’ajouter au canevas.
+1. Commencez par faire glisser une activité d’événement de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l’ajouter à la zone de travail.
 
    ![](../assets/journey33.png)
 
