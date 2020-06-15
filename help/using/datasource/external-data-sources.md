@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
 workflow-type: tm+mt
 source-wordcount: '1307'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -67,6 +67,7 @@ Les principales étapes nécessaires pour créer et configurer une source de don
    * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
    * **[!UICONTROL Emplacement]** : « Paramètre de requête » (la clé API se trouve dans l’URL)
+
    ![](../assets/journey28.png)
 
 1. Ajoutez un nouveau groupe de champs pour chaque jeu de paramètres d’API en cliquant sur **[!UICONTROL Ajouter un nouveau groupe de champs]**. N’utilisez ni espaces ni caractères spéciaux dans le nom du groupe de champs. Dans cet exemple, nous devons créer deux groupes de champs, un pour chaque jeu de paramètres (city et long/lat).
@@ -165,7 +166,7 @@ Le format de cette authentification est le suivant :
 }
 ```
 
-Vous pouvez modifier la durée du cache du jeton pour une source de données d’authentification personnalisée. Vous trouverez ci-dessous un exemple de charge utile d’authentification personnalisée. La durée du cache est définie dans le paramètre &quot;cacheDuration&quot;. Il spécifie la durée de rétention du jeton généré dans le cache. L&#39;unité peut être en millisecondes, secondes, minutes, heures, jours, mois, années.
+Vous pouvez modifier la durée de mise en cache du jeton pour une source de données d’authentification personnalisée. Vous trouverez ci-dessous un exemple de payload d’authentification personnalisée. La durée de mise en cache est définie dans le paramètre « cacheDuration ». Elle spécifie la durée de conservation du jeton généré dans le cache. L’unité peut être en millisecondes, secondes, minutes, heures, jours, mois, années.
 
 ```
 "authentication": {
