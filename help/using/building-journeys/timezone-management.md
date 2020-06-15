@@ -37,7 +37,7 @@ Vous pouvez sélectionner un fuseau horaire ou choisir d’utiliser celui défin
 
 ## Définition d’un fuseau horaire fixe {#fixed-timezone}
 
-Le fuseau horaire peut également être fixe. Effacez le fuseau horaire prédéfini et sélectionnez-en un dans la liste déroulante. Si vous utilisez un fuseau horaire fixe, il sera identique pour toutes les personnes qui participent au parcours.
+Le fuseau horaire peut également être fixe. Effacez le fuseau horaire prédéfini et sélectionnez-en un dans la liste déroulante. Si vous utilisez un fuseau horaire fixe, il sera identique pour tous les individus qui participent au parcours.
 
 Pour cela, dans **[!UICONTROL Propriétés]**, sélectionnez un fuseau horaire.
 
@@ -45,11 +45,11 @@ Pour cela, dans **[!UICONTROL Propriétés]**, sélectionnez un fuseau horaire.
 
 ## Utilisation de profils pour définir le fuseau horaire du parcours {#timezone-from-profiles}
 
-Si un namespace est associé à l’événement d’entrée du parcours, ce qui signifie que ce dernier peut accéder au service de profil client en temps réel de Data Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de la personne qui participe au parcours.
+Si un espace de noms est associé à l’événement d’entrée du parcours, ce qui signifie que ce dernier peut accéder au service de profil client en temps réel de Data Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de l’individu qui participe au parcours.
 
 Si un fuseau horaire est défini dans le profil Experience Platform, il peut être récupéré dans le parcours.
 
-Si le profil de la personne ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
+Si le profil de l’individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
 
 Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Utiliser le fuseau horaire du profil dans les retardateurs et conditions]**.
 
