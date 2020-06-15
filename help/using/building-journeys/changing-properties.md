@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une 
 
 Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c’est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse effectuer une rentrée dans le parcours et bénéficier à nouveau de l’offre.
 
-When a journey &quot;ends&quot;, it will have the status **[!UICONTROL Closed (no entrance)]**. Il n’est alors plus accessible aux nouveaux clients. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
+Lorsqu’un parcours « prend fin », l’état **[!UICONTROL Fermé (aucune entrée)]** lui est attribué. Il n’est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
 
 ## Délai dépassé et erreur dans les activités du parcours {#timeout_and_error}
 
@@ -46,11 +46,11 @@ Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Dé
 
 ## Délai de parcours global {#global_timeout}
 
-Outre le [délai d’expiration](#timeout_and_error) utilisé dans les activités de parcours, il existe un délai d’expiration global qui n’est pas affiché dans l’interface et qui ne peut pas être modifié. Cette valeur mettra fin à la progression des utilisateurs dans le parcours 30 jours après leur entrée. En d’autres termes, la durée du parcours d’un individu ne peut pas excéder 30 jours. Après cette période de 30 jours, les données le concernant sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période sont arrêtées et considérées comme des « erreurs » dans le cadre du reporting.
+Outre le [délai d’expiration](#timeout_and_error) utilisé dans les activités de parcours, il existe un délai d’expiration global qui n’est pas affiché dans l’interface et qui ne peut pas être modifié. Cette valeur mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d’autres termes, la durée du parcours d’un individu ne peut pas excéder 30 jours. Après cette période de 30 jours, les données le concernant sont supprimées. Les individus qui sont encore actifs dans le parcours au terme de cette période sont arrêtés et considérés comme des « erreurs » dans le cadre du reporting.
 
 >[!NOTE]
 >
->[!DNL Journey Orchestration]Sur le plan de la confidentialité,  ne réagit pas directement aux demandes d’opt-out, de suppression ou d’accès. Cependant, le délai d’expiration global limite à 30 jours la durée d’activité d’un individu au sein d’un parcours.
+>Sur le plan de la confidentialité, [!DNL Journey Orchestration] ne réagit pas directement aux demandes d’opt-out, de suppression ou d’accès. Cependant, le délai d’expiration global limite à 30 jours la durée d’activité d’un individu au sein d’un parcours.
 
 Compte tenu du délai d’expiration de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont intégré le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu’une personne y a déjà accédé il y a plus de 30 jours.
 
