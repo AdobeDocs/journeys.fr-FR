@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b87de729f48c4624554eb19b6d418cb3cf70b805
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-### Ajouter un tableau Structure libre   {#adding-a-freeform-table}
+### Ajouter un tableau Structure libre    {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **[!UICONTROL Composant]**.
 
@@ -156,6 +159,7 @@ L’onglet **[!UICONTROL Visualisations]** vous permet de positionner des élém
    * **[!UICONTROL Afficher l’axe double]** : ajoute un axe à votre graphique.
    * **[!UICONTROL Limiter les éléments maximum]** : limite le nombre de graphiques affichés.
    * **[!UICONTROL Seuil]** : permet de configurer un seuil pour votre graphique. Il apparaît sous forme de ligne pointillée noire.
+
    ![](../assets/dynamic_report_visualization_3.png)
 
 Cette visualisation vous permet d’avoir une vue plus claire de vos données dans les rapports.
