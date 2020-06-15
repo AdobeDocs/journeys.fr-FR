@@ -1,6 +1,6 @@
 ---
-title: A propos des segments de plateformes
-description: Découvrez comment configurer un segment de plateforme
+title: À propos des segments Platform
+description: Découvrez comment configurer un segment Platform
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,21 +14,21 @@ translation-type: tm+mt
 source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# A propos des segments de plateformes {#about-segments}
+# À propos des segments Platform {#about-segments}
 
-Si vous utilisez le service [de segmentation de](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) plateformes pour créer vos segments, vous pouvez les exploiter dans [!DNL Journey Orchestration]. Grâce à une activité de événement dédiée, vous pouvez faire entrer des personnes ou les faire avancer dans un voyage basé sur les entrées et sorties du segment Plateforme. Cela vous permet également de créer des conditions complexes dans vos voyages en utilisant l&#39;éditeur d&#39;expressions simple ou avancé.
+Si vous utilisez le [service de segmentation Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) pour créer vos segments, vous pouvez les exploiter dans [!DNL Journey Orchestration]. Grâce à une activité d’événement dédiée, vous pouvez faire entrer des individus ou leur permettre de progresser dans un parcours en fonction des entrées et des sorties de segments Platform. Vous pouvez également créer des conditions complexes dans vos parcours grâce à l’éditeur d’expression simple ou avancé.
 
-Supposons que vous ayez un segment &quot;client argenté&quot;. Avec cette activité, vous pouvez faire entrer tous les nouveaux clients argentés dans un voyage et leur envoyer une série de messages personnalisés. Vous pouvez également créer facilement des conditions basées sur ce segment.
+Supposons que vous ayez un segment « client Silver ». Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés. Vous pouvez aussi créer facilement des conditions basées sur ce segment.
 
-Vous trouverez ci-dessous une [!DNL Journey Orchestration] offre des possibilités avec les segments :
+Les possibilités que vous apporte [!DNL Journey Orchestration] concernant les segments sont présentées ci-dessous :
 
-* Accédez à la liste des segments de plateforme. See [Creating a segment](../segment/creating-a-segment.md).
-* Créez des segments directement de [!DNL Journey Orchestration] la même manière que vous les créez à l’aide du service de segmentation. See [Creating a segment](../segment/creating-a-segment.md).
-* Tirez parti des segments dans les conditions de vos voyages à l&#39;aide de l&#39;éditeur d&#39;expressions simple ou avancé. Voir [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
-* Ajoutez un événement de qualification **de** segment à votre parcours afin d’écouter les entrées et les sorties des profils dans les segments de plateforme. Voir activités [](../building-journeys/event-activities.md#segment-qualification)Événements.
+* Accéder à la liste des segments Platform. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
+* Créer des segments directement dans [!DNL Journey Orchestration] comme vous le faites avec le service de segmentation. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
+* Tirer parti des segments dans les conditions de vos parcours à l’aide de l’éditeur d’expression simple ou avancé. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
+* Ajouter un événement de **qualification de segment** à votre parcours pour écouter les entrées et les sorties des profils dans les segments Platform. Voir la section [Activités d’événement](../building-journeys/event-activities.md#segment-qualification).
 
