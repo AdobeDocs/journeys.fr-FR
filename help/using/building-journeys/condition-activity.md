@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les types de conditions disponibles sont au nombre de quatre :
 
 ## À propos de l’activité Condition {#about_condition}
 
-Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans le canevas après l’activité.
+Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans la zone de travail après l’activité.
 
 ![](../assets/journey47.png)
 
@@ -49,7 +49,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![](../assets/journey64.png)
 
-Si vous utilisez [Platform Segmentation Service](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) pour créer vos segments, vous pouvez les exploiter dans vos conditions de voyage. Reportez-vous à [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
+Si vous utilisez le [service de segmentation Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) pour créer vos segments, vous pouvez les exploiter dans vos conditions de parcours. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
 
 
 >[!NOTE]
