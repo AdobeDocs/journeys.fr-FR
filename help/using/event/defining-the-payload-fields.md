@@ -41,7 +41,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL eventID]** est automatiquement ajouté à la liste des champs sélectionnés afin que puisse identifier l’événement. [!DNL Journey Orchestration] Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [](../event/previewing-the-payload.md).
+   >Le champ **[!UICONTROL eventID]** est automatiquement ajouté à la liste des champs sélectionnés afin que [!DNL Journey Orchestration] puisse identifier l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [](../event/previewing-the-payload.md).
 
 1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL Enregistrer]** ou appuyez sur la touche **[!UICONTROL Entrée]**.
 
