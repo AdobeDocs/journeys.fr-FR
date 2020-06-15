@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ La source de données Experience Platform définit la connexion au service de p
 >
 >Vous pouvez récupérer les 1 000 derniers événements d’expérience créés il y a moins d’un an.
 
-Pour autoriser la connexion au service de profil client en temps réel, nous devons utiliser une clé afin d’identifier une personne, ainsi qu’un namespace qui contextualise la clé. Par conséquent, vous ne pouvez utiliser cette source de données que si vos parcours commencent par un événement contenant une clé et un namespace. Voir [](../building-journeys/journey.md).
+Pour autoriser la connexion au service de profil client en temps réel, nous devons utiliser une clé afin d’identifier une personne, ainsi qu’un espace de noms qui contextualise la clé. Par conséquent, vous ne pouvez utiliser cette source de données que si vos parcours commencent par un événement contenant une clé et un espace de noms. Voir [](../building-journeys/journey.md).
 
 Vous pouvez modifier le groupe de champs préconfiguré nommé « ProfileFieldGroup », en ajouter de nouveaux et supprimer ceux qui ne sont pas utilisés dans les parcours actifs ou dans un état de brouillon. Voir [](../datasource/field-groups.md).
 
@@ -43,7 +43,7 @@ Les principales étapes nécessaires pour ajouter des groupes de champs à la so
 
    ![](../assets/journey24.png)
 
-1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans la plate-forme. Schema creation is not performed in [!DNL Journey Orchestration]. dans Data Platform.
+1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans la plate-forme. La création du schéma n’est pas effectuée dans [!DNL Journey Orchestration], mais dans Data Platform.
 1. Sélectionnez les champs que vous souhaitez utiliser.
 1. Définissez la durée de mise en cache.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
