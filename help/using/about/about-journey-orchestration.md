@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ L’onglet de configuration des événements permet à un **utilisateur techniqu
 Dans l’onglet de configuration des sources de données, un **utilisateur technique** configure les éléments suivants :
 
 * Les différents champs accessibles à partir d’Adobe Experience Platform dans le concepteur de parcours pour créer et personnaliser des conditions.
-* Les sources de données personnalisées supplémentaires exploitées dans le concepteur de parcours. Custom data sources are connections between [!DNL Journey Orchestration] and third-party systems or services via API. Vous pouvez connecter un système tiers, par exemple un système de gestion de la fidélité. Vous pouvez aussi accéder à un service tiers, par exemple une API météorologique.
+* Les sources de données personnalisées supplémentaires exploitées dans le concepteur de parcours. Les sources de données personnalisées sont des connexions entre [!DNL Journey Orchestration] et des systèmes ou des services tiers via l’API. Vous pouvez connecter un système tiers, par exemple un système de gestion de la fidélité. Vous pouvez aussi accéder à un service tiers, par exemple une API météorologique.
 
 Avec le concepteur de parcours, un **utilisateur chargé de la conception de parcours** peut facilement faire glisser un événement d’entrée, ajouter des conditions et spécifier l’action à exécuter.
 
@@ -46,7 +46,7 @@ Vous pouvez utiliser la condition de répartition pour orienter les personnes en
 
 Les activités d’action vous permettent ensuite d’envoyer un message via un système tiers. Si vous disposez d’Adobe Campaign Standard, il est possible d’envoyer en temps réel des SMS personnalisés, des notifications push ou des emails.
 
-As [!DNL Journey Orchestration] is multistep, you can create advanced scenarios. Par exemple, après une action et un événement initiaux, vous pouvez placer d’autres événements à l’aide de la souris. Vous pouvez ensuite ajouter une deuxième action, placer une activité d’attente pendant une certaine durée, ajouter une condition de division pour orienter les personnes vers deux chemins différents, puis envoyer des messages distincts.
+[!DNL Journey Orchestration] comportant plusieurs étapes, vous pouvez créer des scénarios avancés. Par exemple, après une action et un événement initiaux, vous pouvez placer d’autres événements à l’aide de la souris. Vous pouvez ensuite ajouter une deuxième action, placer une activité d’attente pendant une certaine durée, ajouter une condition de division pour orienter les personnes vers deux chemins différents, puis envoyer des messages distincts.
 
 >[!NOTE]
 >
