@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Commencez toujours votre parcours en faisant glisser une activité d’événeme
 
 ![](../assets/journey44.png)
 
-Lorsque vous cliquez sur l’activité d’événement dans le canevas, le volet de configuration correspondant s’affiche. Par défaut, lorsque vous utilisez plusieurs fois un même événement, un nombre incrémenté est ajouté à son nom dans le canevas. Vous pouvez, en outre, utiliser le champ **[!UICONTROL Libellé]** pour ajouter au nom de l’événement un suffixe qui apparaîtra sous votre activité dans le canevas. Cela s’avère utile pour identifier vos événements dans le canevas, notamment si vous utilisez le même événement à plusieurs reprises. Cela facilite également le débogage lorsque des erreurs se produisent et permet une lecture plus facile des rapports.
+Lorsque vous cliquez sur l’activité d’événement dans la zone de travail, le volet de configuration correspondant s’affiche. Par défaut, lorsque vous utilisez plusieurs fois un même événement, un nombre incrémenté est ajouté à son nom dans la zone de travail. Vous pouvez, en outre, utiliser le champ **[!UICONTROL Libellé]** pour ajouter au nom de l’événement un suffixe qui apparaîtra sous votre activité dans la zone de travail. Cela s’avère utile pour identifier vos événements dans la zone de travail, notamment si vous utilisez le même événement à plusieurs reprises. Cela facilite également le débogage lorsque des erreurs se produisent et permet une lecture plus facile des rapports.
 
 ![](../assets/journey33.png)
 
@@ -43,7 +43,7 @@ Parmi les différentes activités d’événement disponibles dans la palette, v
 
 Vous pouvez également utiliser ce mécanisme pour effectuer une action en l’absence de réaction à vos messages. Pour ce faire, créez un deuxième chemin parallèlement à l’activité de réaction et ajoutez une activité d’attente. En l’absence de réaction au cours de la période définie dans l’activité d’attente, ce deuxième chemin sera choisi. Vous pouvez opter, par exemple, pour l’envoi d’un message de relance.
 
-Notez que vous ne pouvez utiliser une activité de réaction dans le canevas que s’il existe, au préalable, une activité de type email, Push ou SMS.
+Notez que vous ne pouvez utiliser une activité de réaction dans la zone de travail que s’il existe, au préalable, une activité de type email, Push ou SMS.
 
 Voir [](../building-journeys/about-action-activities.md).
 
@@ -66,36 +66,36 @@ La procédure de configuration des événements de réaction comprend les étape
 >
 >Les clients de messagerie tels que Gmail autorisent le blocage d’images. Le suivi des ouvertures d’email est effectué à l’aide d’une image de 0 pixel incluse dans l’email. Si les images sont bloquées, les ouvertures d’email ne sont pas prises en compte.
 
-## événements de qualification de segment {#segment-qualification}
+## Événements de qualification de segment {#segment-qualification}
 
-Cette activité permet à votre voyage d&#39;écouter les entrées et les sorties des profils dans les segments de la Plateforme afin de faire entrer ou avancer les personnes dans un voyage. For more information on segment creation, refer to this [section](../segment/about-segments.md).
+Cette activité permet à votre parcours d’écouter les entrées et les sorties des profils dans les segments Platform pour faire entrer ou avancer les individus dans le parcours. Pour plus d’informations sur la création de segments, consultez cette [section](../segment/about-segments.md).
 
-Supposons que vous ayez un segment &quot;client argenté&quot;. Avec cette activité, vous pouvez faire entrer tous les nouveaux clients argentés dans un voyage et leur envoyer une série de messages personnalisés.
+Supposons que vous ayez un segment « client Silver ». Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés.
 
-Ce type de événement peut être positionné comme la première étape ou plus tard dans le parcours.
+Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
 
-Si le segment est diffusé en continu avec l’option Audiences haute fréquence de la plate-forme, l’entrée et les sorties sont écoutées en temps réel. Si le segment n’est pas en flux continu, les entrées et les sorties sont prises en compte au moment du calcul du segment.
+Si le segment est diffusé en continu avec l’option des audiences haute fréquence de Platform, les entrées et les sorties sont écoutées en temps réel. Si le segment n’est pas en flux continu, les entrées et les sorties sont prises en compte au moment du calcul du segment.
 
-1. Dépliez la catégorie **Événements** et déposez une activité de qualification **de** segment dans votre canevas.
+1. Développez la catégorie **Événements** et déposez une activité de **qualification de segment** dans la zone de travail.
 
    ![](../assets/segment5.png)
 
-1. Add a **Label** to the activity. Cette étape est facultative.
+1. Ajoutez un **libellé** à l’activité. Cette étape est facultative.
 
 1. Cliquez dans le champ **Segment** et sélectionnez les segments à exploiter.
 
    ![](../assets/segment6.png)
 
-1. Dans le champ **Comportement** , choisissez d’écouter les entrées de segments, les sorties ou les deux.
+1. Dans le champ **Comportement**, choisissez d’écouter les entrées de segments, les sorties ou les deux.
 
-1. Sélectionnez un espace de nommage. Cela n&#39;est nécessaire que si le événement est considéré comme la première étape du voyage.
+1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours.
 
    ![](../assets/segment7.png)
 
-La charge utile contient les informations contextuelles suivantes, que vous pouvez utiliser dans des conditions et des actions :
+La payload contient les informations contextuelles suivantes, utilisables dans des conditions et des actions :
 
 * le comportement (entrée, sortie)
-* l&#39;horodatage de la qualification
+* l’horodatage de la qualification
 * l’identifiant de segment
 
 ## Utilisation avancée : événements avec une activité d’attente en parallèle{#section_vxv_h25_pgb}
