@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 100%
 
 ---
 
@@ -71,6 +74,7 @@ Nous devons aussi vérifier si la personne a une réservation dans le système d
    ```
 
    * **[!UICONTROL Valeurs dynamiques]** : entrez le paramètre correspondant à la clé utilisée pour identifier chaque client, « id » dans cet exemple. La valeur de ce paramètre sera définie pendant le parcours.
+
    ![](../assets/journeyuc2_11.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
