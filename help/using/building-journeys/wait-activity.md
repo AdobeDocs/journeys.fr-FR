@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -73,7 +76,7 @@ Ce type d’attente utilise un score calculé dans la plate-forme. Le score calc
 
 >[!NOTE]
 >
->Le premier événement de votre parcours doit avoir un namespace.
+>Le premier événement de votre parcours doit avoir un espace de noms.
 >
 >Cette fonctionnalité n’est disponible qu’après une activité **[!UICONTROL Email]**. Vous devez disposer d’Adobe Campaign Standard.
 
