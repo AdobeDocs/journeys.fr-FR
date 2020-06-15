@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5b3c8b6adafaedbdd80db3091300e7a26249a3e
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 100%
 
 ---
 
@@ -72,9 +75,9 @@ Chaque tableau est représenté par des nombres et des graphiques de synthèse. 
 
 Les IPC suivants sont disponibles en haut du rapport :
 
-* **[!UICONTROL Parcours - Entrés]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
-* **[!UICONTROL Parcours - Taux d’achèvement]** : nombre total de personnes ayant atteint la fin du parcours (ou dans le cas d’une personne ne correspondant à aucune condition) par rapport au nombre total de personnes entrées dans le parcours.
-* **[!UICONTROL Parcours - Actuel]** : nombre total de personnes actuellement dans le parcours.
+* **[!UICONTROL Parcours - Entrés]** : nombre total d’individus ayant atteint l’événement d’entrée du parcours.
+* **[!UICONTROL Parcours - Taux d’achèvement]** : nombre total d’individus ayant atteint la fin du parcours (ou dans le cas d’un individu ne correspondant à aucune condition) par rapport au nombre total d’individus entrés dans le parcours.
+* **[!UICONTROL Parcours - Actuel]** : nombre total d’individus actuellement dans le parcours.
 * **[!UICONTROL Parcours - Taux d’échec]** : nombre total de parcours qui n’ont pas été exécutés avec succès par rapport au nombre de parcours exécutés.
 * **[!UICONTROL Délivrabilité - Messages envoyés]** : nombre total de messages envoyés.
 * **[!UICONTROL Taux de délivrabilité]** : nombre total de messages délivrés avec succès par rapport aux messages envoyés.
@@ -89,9 +92,9 @@ La visualisation du flux du parcours permet de voir le chemin de vos profils cib
 
 La **[!UICONTROL synthèse du parcours]** contient les données disponibles le concernant, notamment :
 
-* **[!UICONTROL Entrés]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
-* **[!UICONTROL Taux d’achèvement]** : nombre total de personnes ayant atteint la fin du parcours par rapport au nombre total de personnes entrées dans le parcours.
-* **[!UICONTROL Actuel]** : nombre total de personnes actuellement dans le parcours.
+* **[!UICONTROL Entrés]** : nombre total d’individus ayant atteint l’événement d’entrée du parcours.
+* **[!UICONTROL Taux d’achèvement]** : nombre total d’individus ayant atteint la fin du parcours par rapport au nombre total d’individus entrés dans le parcours.
+* **[!UICONTROL Actuel]** : nombre total d’individus actuellement dans le parcours.
 * **[!UICONTROL En échec]** : nombre total de parcours qui n’ont pas été exécutés avec succès.
 * **[!UICONTROL Taux d’échec]** : nombre total de parcours qui n’ont pas été exécutés avec succès par rapport au nombre de parcours exécutés.
 
