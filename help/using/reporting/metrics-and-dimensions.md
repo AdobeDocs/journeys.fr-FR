@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '1035'
+ht-degree: 100%
 
 ---
 
@@ -68,10 +71,10 @@ Le tableau ci-dessous contient la liste des mesures utilisées dans les différe
 
 | Mesure | Définition |
 |--- |---|
-| **Achevés** | Nombre total de personnes qui ont normalement terminé le parcours. |
-| **Taux d’achèvement** | Nombre total de personnes qui ont normalement terminé le parcours par rapport au nombre total qui sont entrés dans le parcours. |
-| **Actuel** | Nombre total de personnes actuellement engagées dans le parcours, à savoir le nombre de personnes entrées moins celles qui sont sorties, les erreurs et les expirations de délai. |
-| **Taux actuel** | Nombre total de personnes actuellement engagées dans le parcours par rapport au nombre total qui sont entrées dans le parcours. |
+| **Achevés** | Nombre total d’individus qui ont normalement terminé le parcours. |
+| **Taux d’achèvement** | Nombre total d’individus qui ont normalement terminé le parcours par rapport au nombre total qui sont entrés dans le parcours. |
+| **Actuel** | Nombre total d’individus actuellement engagés dans le parcours, à savoir le nombre de personnes entrées moins celles qui sont sorties, les erreurs et les expirations de délai. |
+| **Taux d’encours** | Nombre total d’individus actuellement engagés dans le parcours par rapport au nombre total qui sont entrés dans le parcours. |
 | **Entrés** | Nombre total d’événements qui se sont produits pour démarrer une entrée individuelle dans le parcours. |
 | **Erreurs** | Nombre total d’erreurs survenues au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
 | **Erreurs dans les actions** | Nombre total d’erreurs s’étant produites pour les actions. |
