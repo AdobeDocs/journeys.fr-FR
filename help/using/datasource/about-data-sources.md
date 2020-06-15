@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="À propos des sources de données"
->abstract="La configuration d’une source de données est toujours effectuée par un utilisateur technique. La configuration de la source de données vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos voyages, pour : définition de condition, données de paramètre et de personnalisation dans les actions, définition d’attente personnalisée, définition de fuseau horaire."
+>abstract="La configuration d’une source de données est toujours effectuée par un utilisateur technique. Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple : définition de conditions, données de paramètres et de personnalisation dans les actions, définition d’attente personnalisée, définition de fuseau horaire."
 
 Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple :
 
 * [Définition d’une condition](../building-journeys/condition-activity.md)
 * Données de paramètre et de personnalisation dans les [actions](../action/action.md)
 * [Définition d’une attente personnalisée](../building-journeys/wait-activity.md#custom)
-* [définition du fuseau horaire](../building-journeys/timezone-management.md)
+* [Définition d’un fuseau horaire](../building-journeys/timezone-management.md)
 
 Cette configuration n’est pas requise si vos parcours utilisent uniquement les données locales provenant d’une payload d’événement. Par exemple, si votre parcours comprend un événement suivi d’une activité d’email qui utilise uniquement les données de l’événement, il n’est pas nécessaire de configurer une source de données.
 
