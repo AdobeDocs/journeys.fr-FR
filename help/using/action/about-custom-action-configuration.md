@@ -14,14 +14,14 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # À propos de la configuration des actions personnalisées {#concept_sxy_bzs_dgb}
 
-If you&#39;re using a third-party system to send messages or if you want [!DNL Journey Orchestration] to send API calls to a third-party system, this is where you configure its connection to [!DNL Journey Orchestration]. L’action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette de gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [](../building-journeys/about-action-activities.md)). À titre d’exemple, Epsilon, Facebook, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à l’aide d’actions personnalisées : 
+Si vous utilisez un système tiers pour envoyer des messages ou si vous souhaitez que [!DNL Journey Orchestration] envoie des appels d’API à un système tiers, vous devez configurer la connexion de ce système à [!DNL Journey Orchestration]. L’action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette de gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [](../building-journeys/about-action-activities.md)). À titre d’exemple, Epsilon, Facebook, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à l’aide d’actions personnalisées : 
 Les restrictions sont répertoriées ici : [](../action/custom-action-limitations.md).
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
