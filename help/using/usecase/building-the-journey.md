@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +45,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc2_12.png)
 
-1. Commencez à concevoir le parcours en faisant glisser l’événement « LobbyBeacon » de la palette vers le canevas. Vous pouvez également double-cliquer sur l’événement dans la palette pour l’ajouter au canevas.
+1. Commencez à concevoir le parcours en faisant glisser l’événement « LobbyBeacon » de la palette vers la zone de travail. Vous pouvez également double-cliquer sur l’événement dans la palette pour l’ajouter à la zone de travail.
 
    ![](../assets/journeyuc2_13.png)
 
@@ -50,7 +53,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc2_14.png)
 
-1. Sélectionnez le type **[!UICONTROL Condition de source de données]**, puis cliquez dans le champ **[!UICONTROL Expression]**. Il est également possible de définir un libellé de condition qui apparaîtra sur la flèche, dans le canevas. Dans notre exemple, nous remplaçons « Condition 1 » par « Loyalty member » (membre du programme de fidélité).
+1. Sélectionnez le type **[!UICONTROL Condition de source de données]**, puis cliquez dans le champ **[!UICONTROL Expression]**. Il est également possible de définir un libellé de condition qui apparaîtra sur la flèche, dans la zone de travail. Dans notre exemple, nous remplaçons « Condition 1 » par « Loyalty member » (membre du programme de fidélité).
 
    ![](../assets/journeyuc2_15.png)
 
@@ -80,7 +83,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
    >
    >Dans la deuxième partie de l’expression,« Profile » est facultatif.
 
-1. Nous devons sélectionner un namespace. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les namespaces, consultez la section [](../event/selecting-the-namespace.md).
+1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les espaces de noms, consultez la section [](../event/selecting-the-namespace.md).
 
 Dans notre cas d’utilisation, nous ne voulons réagir qu’à ces deux conditions. Nous n’allons donc pas cocher la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
 
@@ -121,6 +124,7 @@ Après la condition, deux chemins sont créés :
 
    * _Clients ayant réservé une chambre_
    * _Clients n’ayant pas réservé de chambre._
+
    ![](../assets/journeyuc2_21.png)
 
 1. Dans le premier chemin (chambre réservée), déposez une activité **[!UICONTROL Push]**, puis sélectionnez votre application mobile et votre modèle « Welcome ».
