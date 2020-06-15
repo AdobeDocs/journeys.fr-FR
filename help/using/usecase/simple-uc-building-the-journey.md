@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc1_8.png)
 
-1. Commencez à concevoir le parcours en faisant glisser l’événement « SpaBeacon » de la palette vers le canevas. Vous pouvez également double-cliquer sur l’événement dans la palette pour l’ajouter au canevas.
+1. Commencez à concevoir le parcours en faisant glisser l’événement « SpaBeacon » de la palette vers la zone de travail. Vous pouvez également double-cliquer sur l’événement dans la palette pour l’ajouter à la zone de travail.
 
    ![](../assets/journeyuc1_9.png)
 
@@ -47,7 +50,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc1_10.png)
 
-1. Sélectionnez le type **[!UICONTROL Condition de source de données]**, puis cliquez dans le champ **[!UICONTROL Expression]**. Il est également possible de définir un libellé de condition qui apparaîtra sur la flèche, dans le canevas.
+1. Sélectionnez le type **[!UICONTROL Condition de source de données]**, puis cliquez dans le champ **[!UICONTROL Expression]**. Il est également possible de définir un libellé de condition qui apparaîtra sur la flèche, dans la zone de travail.
 
    ![](../assets/journeyuc1_11.png)
 
