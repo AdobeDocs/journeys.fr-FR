@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez utiliser un modèle de message transactionnel basé sur un événeme
 
 >[!NOTE]
 >
->Lorsque nous envoyons des messages transactionnels en temps réel (rtEvent) ou acheminons des messages à l’aide d’un système tiers par le biais d’une action personnalisée, une configuration spécifique est requise pour la gestion de la fatigue, des blacklistes ou des désabonnements. Par exemple, si un attribut « blacklist » ou « unsubscribe » est stocké dans Data Platform ou dans un système tiers, une condition doit être ajoutée avant l’envoi du message pour vérifier cette condition.
+>Lorsque nous envoyons des messages transactionnels en temps réel (rtEvent) ou lorsque nous acheminons des messages avec un système tiers grâce à une action personnalisée, une configuration spécifique est nécessaire pour la gestion de la fatigue, de la liste bloquée ou de la désinscription. Par exemple, si un attribut de désabonnement est stocké dans Platform ou dans un système tiers, une condition doit être ajoutée avant l’envoi du message pour vérifier cette condition.
 
 Lorsque vous sélectionnez un modèle, tous les champs attendus dans la payload du message sont affichés dans le volet de configuration des activités sous **[!UICONTROL Adresse]** et **[!UICONTROL Données de personnalisation]**. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Vous pouvez également utiliser l’éditeur d’expression avancé pour transmettre une valeur manuellement, effectuer une manipulation de données sur les informations récupérées (convertir une chaîne en majuscules, par exemple) ou utiliser des fonctions telles que « if, then, else ». Voir [](../expression/expressionadvanced.md).
 
