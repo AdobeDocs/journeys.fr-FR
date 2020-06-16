@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 98%
 
 ---
 
@@ -95,8 +95,8 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 
 | Mesure | Définition |
 |--- |--- |
-| **En blackliste** | Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable. |
-| **Taux d’éléments en blackliste** | Nombre total de messages marqués comme placés en blackliste par rapport aux messages envoyés. |
+| **Sur la liste bloquée** | Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable. |
+| **Taux de Liste bloquée** | Nombre total de messages à la liste bloquée par rapport aux messages envoyés. |
 | **Bounces + erreurs** | Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés. |
 | **Taux Bounce + Erreurs** | Nombre total de messages qui ont fait l’objet d’un bounce par rapport aux messages envoyés. |
 | **Clics** | Nombre de clics sur un contenu dans une diffusion. |
