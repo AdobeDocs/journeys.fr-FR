@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <li><p>Dans l’éditeur d’expression simple, les segments Platform sont maintenant directement répertoriés dans l’arborescence de navigation pour faciliter la configuration de conditions telles que « cette personne appartient-elle au segment A ? ». <a href="../segment/using-a-segment.md">En savoir plus</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>L'orchestration du voyage transmet désormais automatiquement, à la plateforme de données Adobe, les étapes effectuées dans les voyages. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées pour obtenir un rapports et un dépannage en exécutant des requêtes sur les événements d'étape du trajet pour un voyage particulier ou pour tous les voyages. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
+<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Data Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d'étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>L’orchestration du parcours peut désormais être connectée à des sandbox Plate-forme de production et non-production. Notez que les sandbox sont une fonctionnalité bêta. Disponibilité effective : 30 juin 2020. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
+<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version bêta. Disponibilité effective : 30 juin 2020. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
 </td>
 </tr>
