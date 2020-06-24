@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -178,7 +178,7 @@ Once downloaded and uploaded into Postman, you need to add three variables: `{JO
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &#39;/authoring&#39;
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, &quot;prod&quot;) correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez l’aperçu [des](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) sandbox.
 
-Dans la section suivante, vous trouverez les appels d&#39;API REST commandés à la liste d&#39;exécution du cas d&#39;utilisation.
+Dans la section suivante, vous trouverez la liste classée des appels API REST pour effectuer le cas d&#39;utilisation.
 
 Cas d’utilisation n°1 : **création et déploiement d’une nouvelle configuration de limitation**
 
