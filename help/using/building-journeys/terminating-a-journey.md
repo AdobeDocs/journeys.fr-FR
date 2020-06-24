@@ -1,5 +1,5 @@
 ---
-title: Arrêt d’un parcours
+title: Terminaison d’un parcours
 description: Découvrez comment terminer un parcours
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -10,16 +10,16 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
 ---
 
 
-# Arrêt d’un parcours
+# Terminaison d’un parcours
 
 Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entrées]** permettent de terminer les parcours **actifs**. Fermer un parcours suppose le **blocage de tout nouvel accès** et la possibilité, pour les clients ayant déjà rejoints le parcours, de poursuivre l’expérience jusqu’à son terme. Il s’agit de la méthode recommandée pour mettre fin à un parcours, car elle offre la meilleure expérience pour les clients. L’arrêt d’un parcours suppose qu’il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l’arrêt.
 
