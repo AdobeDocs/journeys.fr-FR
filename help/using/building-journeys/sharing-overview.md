@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La liste des champs XDM transmis est complète. Certains contiennent des codes g
 
 >[!CAUTION]
 >
->Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que la bascule **Profil** est désactivée.
+>Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que le bouton bascule **Profil** est désactivé.
 
 Les parcours envoient les données au fur et à mesure, en flux continu. Vous pouvez appliquer des requêtes à ces données à l’aide du service Requêtes. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI pour visualiser les données concernant ces étapes.
 
