@@ -3,9 +3,9 @@ product: Journeys
 audience: end-user
 user-guide-title: Aide de Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
       + [Utilisation du concepteur de parcours](using/building-journeys/using-the-journey-designer.md)
       + [Modification des propriétés](using/building-journeys/changing-properties.md)
       + [Versions de parcours](using/building-journeys/journey-versions.md)
-      + [Arrêt d’un parcours](using/building-journeys/terminating-a-journey.md)
+      + [Terminaison d’un parcours](using/building-journeys/terminating-a-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
    + Activités {#about-journey-building}
       + [Activités d’événement](using/building-journeys/event-activities.md)
