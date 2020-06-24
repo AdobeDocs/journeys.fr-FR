@@ -9,10 +9,10 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 96%
+source-wordcount: '1114'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,7 @@ Pour en savoir plus sur la configuration d’une action ou d’une source de don
 >
 >L’API de limitation de [!DNL Journey Orchestration] est décrite dans un fichier Swagger disponible [ici](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Pour utiliser cette API avec votre instance[!DNL Journey Orchestration], vous devez utiliser la console Adobe IO. Vous pouvez y accéder selon les indications de la section [Prise en main d’Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md), puis les différentes sections de cette page.
+To use this API with your [!DNL Journey Orchestration] instance, you need to use the AdobeI/O Console. Vous pouvez y accéder selon les indications de la section [Prise en main d’Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md), puis les différentes sections de cette page.
 
 Pour tester et préparer votre intégration, une collection Postman est disponible [ici](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -42,14 +42,14 @@ Pour tester et préparer votre intégration, une collection Postman est disponib
 
 ### Configuration de l’accès aux API
 
-La configuration de l’accès aux API [!DNL Journey Orchestration] est effectuée comme suit. Chacune de ces étapes est détaillée dans la documentation [Adobe IO](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+La configuration de l’accès aux API [!DNL Journey Orchestration] est effectuée comme suit. Each of these steps is detailed in the [Adobe I/O documentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Pour gérer les certificats dans Adobe IO, assurez-vous de disposer des droits d’<b>administrateur système</b> sur l’organisation ou d’un [compte de développeur ](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans la console d’administration.
+>To manage certificates in Adobe I/O, make sure you have <b>System administrator</b> rights on the organization or a [developer account](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) in the Admin console.
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
-1. **Créez une nouvelle intégration avec[!DNL Journey Orchestration]Service** dans Adobe IO et configurez-la. L’accès au profil du produit est nécessaire pour [!DNL Journey Orchestration] et Adobe Experience Platform. Vos informations d’identification seront alors générées (clé d’API, secret client...).
+1. **Créez une nouvelle intégration au service[!DNL Journey Orchestration]** dans les E/S Adobe et configurez-la. L’accès au profil du produit est nécessaire pour [!DNL Journey Orchestration] et Adobe Experience Platform. Vos informations d’identification seront alors générées (clé d’API, secret client...).
 1. **Créez un jeton Web JSON (JWT)** à partir des informations d’identification précédemment générées, et signez-le avec votre clé privée. Le jeton JWT code toutes les informations d’identité et de sécurité dont Adobe a besoin pour vérifier votre identité et vous accorder l’accès à l’API. Cette étape est présentée dans cette [section](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Échangez votre jeton JWT pour un jeton d’accès** à l’aide d’une requête POST ou via l’interface de Developer Console. Ce jeton d’accès devra être utilisé dans chaque en-tête de vos requêtes d’API.
 
@@ -65,7 +65,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZATION>** : il s’agit de votre ORGANIZATION ID personnel, fourni par Adobe pour chacune de vos instances :
 
    * &lt;ORGANIZATION> : votre instance de production
-   Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la <a href="https://www.adobe.io/authentication.html">documentation Adobe IO</a>).
+
+   Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe I/O documentation</a>).
 
 * **&lt;ACCESS_TOKEN>** : votre jeton d’accès personnel, récupéré lors de l’échange de votre JWT par le biais d’une requête POST.
 
@@ -79,14 +80,14 @@ L’API de limitation vous permet de créer, configurer et suivre vos configurat
 
 | Méthodologie | Chemin | Description |
 |---|---|---|
-| POST | list/endpointConfigs | Obtention d’une liste des configurations de limitation des points d’entrée |
-| POST | /endpointConfigs | Création d’une configuration de limitation des points d’entrée |
-| POST | /endpointConfigs/{uid}/deploy | Déploiement d’une configuration de limitation des points d’entrée |
-| POST | /endpointConfigs/{uid}/undeploy | Annulation du déploiement d’une configuration de limitation des points d’entrée |
-| POST | /endpointConfigs/{uid}/canDeploy | Vérification de la possibilité de déployer ou non une configuration de limitation des points d’entrée |
-| PUT | /endpointConfigs/{uid} | Mise à jour de la configuration de limitation des points d’entrée |
-| GET | /endpointConfigs/{uid} | Récupération d’une configuration de limitation des points d’entrée |
-| DELETE | /endpointConfigs/{uid} | Suppression d’une configuration de limitation des points d’entrée |
+| [!DNL POST] | list/endpointConfigs | Obtention d’une liste des configurations de limitation des points d’entrée |
+| [!DNL POST] | /endpointConfigs | Création d’une configuration de limitation des points d’entrée |
+| [!DNL POST] | /endpointConfigs/{uid}/deploy | Déploiement d’une configuration de limitation des points d’entrée |
+| [!DNL POST] | /endpointConfigs/{uid}/undeploy | Annulation du déploiement d’une configuration de limitation des points d’entrée |
+| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Vérification de la possibilité de déployer ou non une configuration de limitation des points d’entrée |
+| [!DNL PUT] | /endpointConfigs/{uid} | Mise à jour de la configuration de limitation des points d’entrée |
+| [!DNL GET] | /endpointConfigs/{uid} | Récupération d’une configuration de limitation des points d’entrée |
+| [!DNL DELETE] | /endpointConfigs/{uid} | Suppression d’une configuration de limitation des points d’entrée |
 
 Lorsqu’une configuration est créée ou mise à jour, une vérification est automatiquement effectuée pour garantir la syntaxe et l’intégrité de la payload.
 Si certains problèmes se produisent, l’opération renvoie un avertissement ou des erreurs pour vous aider à corriger la configuration.
@@ -172,9 +173,10 @@ Pour vous aider dans les tests et la configuration, une collection Postman est d
 
 Elle a été créée pour partager la collection de variables Postman générée par le biais des options __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayez-la > Télécharger pour Postman__, qui génère un fichier d’environnement Postman contenant les valeurs d’intégration sélectionnées.
 
-Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter deux variables : `{JO_HOST}` et `{Base_Path}`.
+Once downloaded and uploaded into Postman, you need to add three variables: `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Orchestration]
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &#39;/authoring&#39;
+* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, &quot;prod&quot;) correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez l’aperçu [des](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) sandbox.
 
 Dans la section suivante, vous trouverez les appels d&#39;API REST commandés à la liste d&#39;exécution du cas d&#39;utilisation.
 
