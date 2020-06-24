@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ## Gestion des accès {#about-access-management}
 
-[!DNL Journey Orchestration] vous permet d’attribuer un ensemble de droits à vos utilisateurs afin de définir la partie de l’interface à laquelle ils peuvent accéder.
+[!DNL Journey Orchestration] permet d&#39;affecter un ensemble de droits à vos utilisateurs afin de définir la partie de l&#39;interface à laquelle ils ont accès.
 
 Ils peuvent être gérés par des administrateurs qui ont accès à Admin Console. Pour plus d’informations sur Admin Console, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 
@@ -87,7 +87,7 @@ Pour créer un profil de produit et attribuer un ensemble de droits et d’envir
 
    >[!NOTE]
    >
-   >Platform Sandbox est une fonctionnalité bêta.
+   >Platform Sandbox est une fonctionnalité en version bêta.
    <br>Pour plus d’informations sur les environnements Sandbox, consultez cette [section](../about/access-management.md#sandboxes).
 
 1. Si nécessaire, dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône X la plus proche pour supprimer les autorisations de votre profil de produit.
@@ -130,7 +130,7 @@ L’utilisateur doit alors recevoir un email le redirigeant vers votre instance 
 
 >[!NOTE]
 >
->Platform Sandbox est une fonctionnalité bêta.
+>Platform Sandbox est une fonctionnalité en version bêta.
 
 [!DNL Journey Orchestration] vous permet de partitionner votre instance en environnements virtuels séparés appelés Sandbox.
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
