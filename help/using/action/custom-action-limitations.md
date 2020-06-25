@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 295112e2d18fd275a0fd2826aa8bd87a8ed12636
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 Voici quelques restrictions concernant l’utilisation des actions personnalisées :
 
-* Il n&#39;y a pas de mise en mémoire tampon/lissage du volume d&#39;envoi.
+* Il n’y a pas de lissage/mise en mémoire tampon concernant le volume d’envoi.
 * En cas d’erreur, deux reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé.
 * L’événement **[!UICONTROL Réaction]** intégré vous permet de réagir aux actions d’usine (voir [](../building-journeys/event-activities.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
