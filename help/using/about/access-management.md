@@ -8,10 +8,10 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
-workflow-type: ht
-source-wordcount: '864'
+translation-type: tm+mt
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+workflow-type: tm+mt
+source-wordcount: '852'
 ht-degree: 100%
 
 ---
@@ -71,11 +71,15 @@ Pour créer un profil de produit et attribuer un ensemble de droits et d’envir
 
 1. Sélectionnez **[!UICONTROL Journey Orchestration]** dans Admin console. Dans l’onglet **[!UICONTROL Profil produit]**, cliquez sur **[!UICONTROL Nouveau profil]**.
 
+   ![](../assets/user_management_5.png)
+
 1. Ajoutez un **[!UICONTROL nom de profil]** et une **[!UICONTROL description]** à votre nouveau profil de produit. Si vous souhaitez que le **[!UICONTROL Nom d’affichage]** du profil soit différent, désélectionnez **[!UICONTROL Identique au nom de profil]** et saisissez le **[!UICONTROL Nom d’affichage]**.
 
 1. Dans la catégorie **[!UICONTROL Notifications utilisateur]**, indiquez si les utilisateurs seront avertis par email lorsqu’ils seront ajoutés ou supprimés de ce profil de produit.
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Terminé]**. Votre nouveau profil de produit est maintenant créé.
+
+   ![](../assets/user_management_6.png)
 
 1. Sélectionnez votre nouveau profil de produit pour commencer à gérer les autorisations. Dans l’onglet **[!UICONTROL Utilisateurs]**, ajoutez des utilisateurs à votre profil de produit. Pour plus d’informations à ce propos, consultez cette [page](../about/access-management.md#assigning-product-profile).
 
@@ -83,17 +87,20 @@ Pour créer un profil de produit et attribuer un ensemble de droits et d’envir
 
 1. Dans l’onglet **[!UICONTROL Autorisations]**, sélectionnez l’une des deux catégories **[!UICONTROL Sandbox]** ou **[!UICONTROL Création]** pour ouvrir la page **[!UICONTROL Modifier les autorisations]** et ajouter ou supprimer des autorisations pour votre profil de produit.
 
-1. Dans la catégorie d’autorisation **[!UICONTROL Sandbox]**, sélectionnez un ou plusieurs environnements Sandbox à affecter à votre profil de produit. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des environnements Sandbox à votre profil.
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >Platform Sandbox est une fonctionnalité en version bêta.
-   <br>Pour plus d’informations sur les environnements Sandbox, consultez cette [section](../about/access-management.md#sandboxes).
+1. Dans la catégorie d’autorisation **[!UICONTROL Sandbox]**, sélectionnez un ou plusieurs environnements Sandbox à affecter à votre profil de produit. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des environnements Sandbox à votre profil. Pour plus d’informations sur les environnements Sandbox, consultez cette [section](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. Si nécessaire, dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône X la plus proche pour supprimer les autorisations de votre profil de produit.
 
+   ![](../assets/user_management_9.png)
+
 1. Dans la catégorie d’autorisation **[!UICONTROL Création]**, procédez comme indiqué ci-dessus pour ajouter des droits à votre profil de produit.
    <br>Pour plus d’informations sur les droits et la compatibilité entre les droits et les différentes fonctionnalités de [!DNL Journey Orchestration], consultez cette [section](../about/access-management.md#about-access-management).
+
+   ![](../assets/user_management_10.png)
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -127,10 +134,6 @@ Pour attribuer un profil de produit à un utilisateur et lui permettre d’accé
 L’utilisateur doit alors recevoir un email le redirigeant vers votre instance de [!DNL Journey Orchestration]
 
 ## Utilisation des environnements Sandbox {#sandboxes}
-
->[!NOTE]
->
->Platform Sandbox est une fonctionnalité en version bêta.
 
 [!DNL Journey Orchestration] vous permet de partitionner votre instance en environnements virtuels séparés appelés Sandbox.
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
