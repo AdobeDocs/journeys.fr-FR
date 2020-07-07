@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 14c8828a8c8e223b58b3512f02f2ee06136b98c5
+workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -29,6 +29,6 @@ Les possibilités que vous apporte [!DNL Journey Orchestration] concernant les s
 
 * Accéder à la liste des segments Platform. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
 * Créer des segments directement dans [!DNL Journey Orchestration] comme vous le faites avec le service de segmentation. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
-* Tirer parti des segments dans les conditions de vos parcours à l’aide de l’éditeur d’expression simple ou avancé. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
+* Tirez parti des segments dans les conditions de votre voyage à l’aide de l’éditeur d’expressions simple ou avancé. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
 * Ajouter un événement de **qualification de segment** à votre parcours pour écouter les entrées et les sorties des profils dans les segments Platform. Voir la section [Activités d’événement](../building-journeys/event-activities.md#segment-qualification).
 
