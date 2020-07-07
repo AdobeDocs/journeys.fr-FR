@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
-workflow-type: ht
-source-wordcount: '971'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3937f92035651fca5ddd7f54c9b650d050f2587f
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez également utiliser ce mécanisme pour effectuer une action en l’a
 
 Notez que vous ne pouvez utiliser une activité de réaction dans la zone de travail que s’il existe, au préalable, une activité de type email, Push ou SMS.
 
-Voir [](../building-journeys/about-action-activities.md).
+See [About action activities](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -58,11 +58,13 @@ La procédure de configuration des événements de réaction comprend les étape
 
 >[!NOTE]
 >
+>Les événements de réactions fonctionnent avec l&#39;Adobe Campaign Standard, qu&#39;il soit déployé sur des serveurs AWS ou Azure.
+>
 >Les événements de réaction ne peuvent pas effectuer le suivi des actions de type email, SMS ou Push qui se produisent dans un autre parcours.
 >
 >Ils effectuent le suivi des clics sur les liens de type « tracké » (pour plus d’informations, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Les liens de désabonnement et de page miroir ne sont pas pris en compte.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les clients de messagerie tels que Gmail autorisent le blocage d’images. Le suivi des ouvertures d’email est effectué à l’aide d’une image de 0 pixel incluse dans l’email. Si les images sont bloquées, les ouvertures d’email ne sont pas prises en compte.
 
@@ -97,6 +99,12 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 * le comportement (entrée, sortie)
 * l’horodatage de la qualification
 * l’identifiant de segment
+
+Lorsque vous utilisez l’éditeur d’expressions dans une condition ou une action qui suit une activité de qualification **de** segment, vous avez accès au noeud **SegmentQualification** . Vous pouvez choisir entre l’heure **de** dernière qualification **et l’** état(entrée ou sortie).
+
+Voir activité [](../building-journeys/condition-activity.md#about_condition)des conditions.
+
+![](../assets/segment8.png)
 
 ## Utilisation avancée : événements avec une activité d’attente en parallèle{#section_vxv_h25_pgb}
 
