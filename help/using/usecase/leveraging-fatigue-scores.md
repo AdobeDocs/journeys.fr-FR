@@ -11,19 +11,19 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Utilisation des scores de fatigue {#concept_dsh_1ry_wfb}
+# Exploitation de l&#39;IA de parcours {#concept_dsh_1ry_wfb}
 
 Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour éviter de trop solliciter les clients dans les parcours.
 
->[!CAUTION]
+>[!NOTE]
 >
 >La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent la fonction Service de données d’Adobe Campaign Standard.
 
