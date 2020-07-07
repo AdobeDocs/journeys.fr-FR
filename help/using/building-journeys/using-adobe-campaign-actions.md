@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 92%
+source-wordcount: '924'
+ht-degree: 85%
 
 ---
 
@@ -28,6 +28,10 @@ Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine 
 >Pour cela, vous devez configurer l’action intégrée. Voir [](../action/working-with-adobe-campaign.md).
 
 Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transactionnel Adobe Campaign Standard. En effet, [!DNL Journey Orchestration] n’est pas une solution d’envoi de messages. Pour les canaux Email, SMS et Push intégrés, l’envoi de messages est confié à la messagerie transactionnelle. Cela signifie que si vous souhaitez utiliser un modèle de message spécifique dans vos parcours, vous devez le publier dans Adobe Campaign Standard. Reportez-vous à cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) pour en savoir plus sur l’utilisation de cette fonctionnalité.
+
+>[!NOTE]
+>
+>Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés en Journey Orchestration. Si le événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface du Journey Orchestration. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface du Journey Orchestration, mais il ne sera pas utilisable.
 
 ![](../assets/journey59.png)
 
