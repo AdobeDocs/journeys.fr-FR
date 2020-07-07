@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
-workflow-type: ht
-source-wordcount: '1103'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
+workflow-type: tm+mt
+source-wordcount: '1164'
+ht-degree: 89%
 
 ---
 
@@ -50,16 +50,74 @@ Pour utiliser le mode test, procédez comme suit :
 ## Remarques importantes        {#important_notes}
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
-* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Le processus de création d’un profil de test est identique à celui utilisé pour créer un profil dans Data Platform. Vous devez simplement vous assurer que l’indicateur de profil de test est défini sur « true ». Vous pouvez utiliser la section Segments de l’interface de Data Platform pour créer un segment de profils de test dans Data Platform et afficher une liste non exhaustive. La liste exhaustive ne peut pas être affichée pour l’instant.
+* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Voir [](../building-journeys/testing-the-journey.md#create-test-profile).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. En effet, le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Data Platform.
 * Le nombre maximum de profils de test pouvant participer à un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 
+## Creating a test profile{#create-test-profile}
+
+Le processus de création d’un profil de test est le même que lorsque vous créez un profil dans l’Experience Platform. Elle est effectuée par le biais d’appels d’API. See this [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
+
+Vous devez utiliser un schéma de Profil contenant le mixin &quot;Détails du test de profil&quot;. En effet, l’indicateur testProfile fait partie de ce mixin.
+
+Lors de la création d’un profil, veillez à transmettre la valeur : testprofile = true.
+
+Notez que vous pouvez également mettre à jour un profil existant pour remplacer son indicateur testProfile par &quot;true&quot;.
+
+Voici un exemple d’appel d’API pour créer un profil de test :
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## Déclenchement d’événements {#firing_events}
 
 Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera entrer une personne dans le parcours.
+
+>[!NOTE]
+>
+>Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour d’autres voyages à l’écoute de ce événement.
 
 Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Data Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
 
