@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 77%
+ht-degree: 84%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 77%
 Cette page répertorie toutes les mises à jour de la documentation de [!DNL Journey Orchestration].
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
 
-## Juillet 2020 {#july-2020}
+## Juillet 2020 {#july-2020}
 
 * Ajouté une nouvelle section sur les fonctionnalités Alpha qui sont testées auprès d’un nombre limité de clients. [En savoir plus](../alpha/alpha-overview.md)
-* Ajoute une nouvelle section sur l’intégration avec les services intelligents. [En savoir plus](../ai-services/ai-services-overview.md)
-* Ajoute une nouvelle section sur la création du profil de test. [En savoir plus](../building-journeys/testing-the-journey.md#create-test-profile)
-* Informations Ajoutées sur la manière d’utiliser le noeud **SegmentQualification** dans une condition de voyage ou une action. [En savoir plus](../building-journeys/event-activities.md#segment-qualification)
-* Une note a été ajoutée à la publication du message transactionnel et du événement de Campaign. Voir [Utilisation d’actions](../action/working-with-adobe-campaign.md) d’Adobe Campaign [et](../building-journeys/using-adobe-campaign-actions.md)d’Adobe Campaign.
+* Ajout d’une nouvelle section sur l’intégration avec les Services intelligents. [En savoir plus](../ai-services/ai-services-overview.md)
+* Ajout d’une nouvelle section sur la création de profils de test. [En savoir plus](../building-journeys/testing-the-journey.md#create-test-profile)
+* Ajout d’informations sur l’utilisation du nœud **Qualification de segment** dans une condition ou une action de parcours. [En savoir plus](../building-journeys/event-activities.md#segment-qualification)
+* Ajout d’une note à la publication des messages transactionnels et des événements de Campaign. Voir [Utilisation d’actions](../action/working-with-adobe-campaign.md) d’Adobe Campaign [et](../building-journeys/using-adobe-campaign-actions.md)d’Adobe Campaign.
 * Des informations ont été ajoutées sur les vérifications effectuées lors du test de l’URL de l’instance de Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
 * Des informations ont été ajoutées sur la compatibilité des événements de réaction avec les instances de Campaign Standard hébergées sur des serveurs AWS ou Azure. [En savoir plus](../building-journeys/event-activities.md#section_dhx_gss_dgb)
 * Une note a été ajoutée sur la nécessité de configurer une règle de plafonnement lors de l&#39;utilisation de la messagerie transactionnelle Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
@@ -77,7 +77,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 * Toutes les captures d’écran ont été mises à jour afin de prendre en compte les modifications de l’interface.
 * La section du mode test a été mise à jour. [En savoir plus](../building-journeys/testing-the-journey.md)
-* Un avertissement a été ajouté dans les sections [Optimisation de l’heure d’envoi des emails](../building-journeys/wait-activity.md) et [ Score de fatigue prédictif](../ai-services/leveraging-fatigue-scores.md). Ces fonctionnalités ne sont disponibles que pour les clients qui utilisent la fonction Service de données d’Adobe Campaign Standard.
+* Un avertissement a été ajouté dans les sections [Optimisation de l’heure d’envoi des emails](../building-journeys/wait-activity.md) et [Score de fatigue prédictif](../ai-services/leveraging-fatigue-scores.md). Ces fonctionnalités ne sont disponibles que pour les clients qui utilisent la fonction Service de données d’Adobe Campaign Standard.
 * Il est maintenant possible de supprimer les parcours arrêtés. Les pages de documentation connexes ont été mises à jour.
 * Deux couleurs s’affichent maintenant lorsque des problèmes sont détectés dans un parcours. Rouge pour les erreurs et orange pour les avertissements. [En savoir plus](../about/troubleshooting.md)
 * La section de l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../expression/expressionadvanced.md).
