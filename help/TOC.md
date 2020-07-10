@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -162,10 +162,10 @@ ht-degree: 93%
    + [À propos des rapports de parcours](using/reporting/about-journey-reports.md)
    + [Création de rapports de parcours](using/reporting/creating-your-journey-reports.md)
    + [Mesures et dimensions](using/reporting/metrics-and-dimensions.md)
-+ Intégration de services intelligents{#use-case-advanced}
-   + [A propos de l’intégration AI](using/ai-services/ai-services-overview.md)
-   + [Exploitation de l&#39;IA de parcours](using/ai-services/leveraging-fatigue-scores.md)
-   + [Exploitation de l&#39;intelligence artificielle des clients](using/ai-services/leveraging-customer-ai.md)
++ Intégration des Services intelligents{#use-case-advanced}
+   + [À propos de l’intégration de l’IA](using/ai-services/ai-services-overview.md)
+   + [Utilisation de l’IA dédiée aux parcours](using/ai-services/leveraging-fatigue-scores.md)
+   + [Utilisation de l’IA dédiée aux clients](using/ai-services/leveraging-customer-ai.md)
 + Cas d’utilisation{#use-cases-journeys}
    + Cas d’utilisation simple{#use-case-simple}
       + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
@@ -179,9 +179,9 @@ ht-degree: 93%
       + [Création du parcours](using/usecase/building-the-journey.md)
 + Utilisation des API{#working-with-apis}
    + [API de limitation](using/api/capping.md)
-+ Fonctions Alpha {#alpha}
++ Fonctionnalités Alpha {#alpha}
    + [Présentation des fonctionnalités Alpha](using/alpha/alpha-overview.md)
    + [Interface utilisateur](using/alpha/alpha-interface.md)
-   + [activité du déclencheur de segment](using/alpha/alpha-segment-trigger.md)
-   + [événements basés sur des règles](using/alpha/alpha-events.md)
+   + [Activité Déclencheur de segment](using/alpha/alpha-segment-trigger.md)
+   + [Événements basés sur des règles](using/alpha/alpha-events.md)
 
