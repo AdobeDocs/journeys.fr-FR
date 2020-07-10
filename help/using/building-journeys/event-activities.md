@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 3937f92035651fca5ddd7f54c9b650d050f2587f
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez également utiliser ce mécanisme pour effectuer une action en l’a
 
 Notez que vous ne pouvez utiliser une activité de réaction dans la zone de travail que s’il existe, au préalable, une activité de type email, Push ou SMS.
 
-See [About action activities](../building-journeys/about-action-activities.md).
+Voir [À propos des activités d’action](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -58,7 +58,7 @@ La procédure de configuration des événements de réaction comprend les étape
 
 >[!NOTE]
 >
->Les événements de réactions fonctionnent avec l&#39;Adobe Campaign Standard, qu&#39;il soit déployé sur des serveurs AWS ou Azure.
+>Les événements Réactions fonctionnent avec Adobe Campaign Standard, qu’il soit déployé sur des serveurs AWS ou Azure.
 >
 >Les événements de réaction ne peuvent pas effectuer le suivi des actions de type email, SMS ou Push qui se produisent dans un autre parcours.
 >
@@ -100,7 +100,7 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 * l’horodatage de la qualification
 * l’identifiant de segment
 
-Lorsque vous utilisez l’éditeur d’expressions dans une condition ou une action qui suit une activité de qualification **de** segment, vous avez accès au noeud **SegmentQualification** . Vous pouvez choisir entre l’heure **de** dernière qualification **et l’** état(entrée ou sortie).
+Lorsque vous utilisez l’éditeur d’expressions dans une condition ou une action qui suit une activité de qualification **de** segment, vous avez accès au noeud **SegmentQualification** . You can choose between the **Last qualification time** and the **status** (enter or exit).
 
 Voir activité [](../building-journeys/condition-activity.md#about_condition)des conditions.
 
