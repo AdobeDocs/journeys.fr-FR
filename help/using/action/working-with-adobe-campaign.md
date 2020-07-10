@@ -1,6 +1,6 @@
 ---
 title: Utilisation d’Adobe Campaign
-description: En savoir plus sur les actions Adobe Campaign
+description: En savoir plus sur les actions Adobe Campaign
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 6685565797a6cdc43b9c8fc39c9354ae6d213f1f
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ Vous pouvez envoyer des emails, des notifications push et des SMS à l’aide de
 
 [!DNL Journey Orchestration] est fourni avec une action d’usine qui permet de se connecter à Adobe Campaign Standard.
 
-Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés en Journey Orchestration. Si le événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface du Journey Orchestration. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface du Journey Orchestration, mais il ne sera pas utilisable.
+Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Orchestration. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Orchestration. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Orchestration, mais il ne sera pas utilisable.
 
 >[!NOTE]
 >
->Pour éviter de surcharger les messages transactionnels d’Adobe Campaign Standard, il est recommandé de configurer une règle **de** plafonnement pour l’intégration du Campaign Standard.
+>Pour éviter de surcharger les messages transactionnels d’Adobe Campaign Standard, il est recommandé de configurer une **règle de limitation** pour l’intégration de Campaign Standard.
 >
->Pour en savoir plus sur les contrats SLA de messagerie transactionnelle, consultez la description [du produit](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
+>Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la [description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html).
 
 La procédure de configuration est la suivante :
 
@@ -45,15 +45,15 @@ La procédure de configuration est la suivante :
 
    >[!NOTE]
    >
-   >Ce test vérifie que :
+   >Ce test vérifie que les conditions suivantes sont remplies :
    >
-   >* L’hôte est &quot;.campaign.adobe.com&quot; ou &quot;.campaign-sandbox.adobe.com&quot;,
-   >* L&#39;URL début avec https,
-   >* L&#39;ORG associé à cette instance d&#39;Adobe Campaign Standard est identique à l&#39;ORG du Journey Orchestration.
+   >* L’hôte est « .campaign.adobe.com » ou « .campaign-sandbox.adobe.com ».
+   >* L’URL commence par https.
+   >* L’organisation associée à cette instance d’Adobe Campaign Standard est identique à l’organisation de Journey Orchestration.
 
 
-When designing your journey, three actions will be available in the **[!UICONTROL Action]** category: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (see [Using Adobe Campaign actions](../building-journeys/using-adobe-campaign-actions.md)). **Le événement** Réactions vous permet également de réagir sur les clics sur les messages, les ouvertures, etc. (voir événements [](../building-journeys/event-activities.md#section_dhx_gss_dgb)de réactions).
+Lors de la conception de votre parcours, trois actions sont disponibles dans la catégorie **[!UICONTROL Action]** : **[!UICONTROL Email]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]** (voir [Utilisation d’actions Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). L’**événement Réactions** vous permet également de réagir sur les clics, les ouvertures des messages, etc. (Voir [Événements Réactions](../building-journeys/event-activities.md#section_dhx_gss_dgb)).
 
 ![](../assets/journey58.png)
 
-Si vous utilisez un système tiers pour l’envoi de messages, vous devez ajouter et configurer une action personnalisée. See [About custom action configuration](../action/about-custom-action-configuration.md).
+Si vous utilisez un système tiers pour l’envoi de messages, vous devez ajouter et configurer une action personnalisée. Voir [À propos de la configuration d’actions personnalisées](../action/about-custom-action-configuration.md).
