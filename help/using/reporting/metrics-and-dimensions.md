@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 | Mesure | Définition |
 |--- |--- |
 | **Sur la liste bloquée** | Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable. |
-| **Taux de Liste bloquée** | Nombre total de messages à la liste bloquée par rapport aux messages envoyés. |
+| **Taux de placement sur la liste bloquée** | Nombre total de messages sur la liste bloquée par rapport aux messages envoyés. |
 | **Bounces + erreurs** | Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés. |
 | **Taux Bounce + Erreurs** | Nombre total de messages qui ont fait l’objet d’un bounce par rapport aux messages envoyés. |
 | **Clics** | Nombre de clics sur un contenu dans une diffusion. |
