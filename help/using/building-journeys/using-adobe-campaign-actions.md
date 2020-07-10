@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transact
 
 >[!NOTE]
 >
->Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés en Journey Orchestration. Si le événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface du Journey Orchestration. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface du Journey Orchestration, mais il ne sera pas utilisable.
+>Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Orchestration. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Orchestration. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Orchestration, mais il ne sera pas utilisable.
 
 ![](../assets/journey59.png)
 
@@ -39,7 +39,7 @@ Vous pouvez utiliser un modèle de message transactionnel basé sur un événeme
 
 >[!NOTE]
 >
->Lorsque nous envoyons des messages transactionnels en temps réel (rtEvent) ou lorsque nous acheminons des messages avec un système tiers grâce à une action personnalisée, une configuration spécifique est nécessaire pour la gestion de la fatigue, de la liste bloquée ou de la désinscription. Par exemple, si un attribut de désabonnement est stocké dans Platform ou dans un système tiers, une condition doit être ajoutée avant l’envoi du message pour vérifier cette condition.
+>Lorsque nous envoyons des messages transactionnels en temps réel (rtEvent) ou acheminons des messages à l’aide d’un système tiers par le biais d’une action personnalisée, une configuration spécifique est requise pour la gestion de la fatigue, des listes bloquées ou des désabonnements. Par exemple, si un attribut « unsubscribe » est stocké dans Platform ou dans un système tiers, une condition doit être ajoutée avant l’envoi du message pour vérifier cette condition.
 
 Lorsque vous sélectionnez un modèle, tous les champs attendus dans la payload du message sont affichés dans le volet de configuration des activités sous **[!UICONTROL Adresse]** et **[!UICONTROL Données de personnalisation]**. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Vous pouvez également utiliser l’éditeur d’expression avancé pour transmettre une valeur manuellement, effectuer une manipulation de données sur les informations récupérées (convertir une chaîne en majuscules, par exemple) ou utiliser des fonctions telles que « if, then, else ». Voir [](../expression/expressionadvanced.md).
 
