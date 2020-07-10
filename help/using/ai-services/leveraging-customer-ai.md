@@ -1,6 +1,6 @@
 ---
-title: Exploitation des scores d'intelligence artificielle des clients
-description: Exploitation des scores d'intelligence artificielle des clients
+title: Utilisation des scores de l’IA dédiée aux clients
+description: Utilisation des scores de l’IA dédiée aux clients
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,21 +14,21 @@ translation-type: tm+mt
 source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Exploitation de l&#39;intelligence artificielle des clients {#customer-ai}
+# Utilisation de l’IA dédiée aux clients {#customer-ai}
 
-L’intelligence artificielle du client fait partie des services intelligents. Cela permet de prévoir ce qu’un client est susceptible de faire. See the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+L’IA dédiée aux clients fait partie des Services intelligents. Elle permet de prévoir ce qu’un client est susceptible de faire. Reportez-vous à la [documentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/intelligent-services/customer-ai/overview.html).
 
-L’IA du client permet aux marques de créer des scores basés sur l’apprentissage automatique de conversion ou d’exécution qui seront disponibles en tant qu’attributs de profil dans les profils Experience Platform (Profil client en temps réel).
+L’IA dédiée aux clients permet aux marques de créer des scores basés sur le machine learning d’attrition ou de conversion qui seront disponibles en tant qu’attributs de profil dans les profils Experience Platform (profil client en temps réel).
 
-Par conséquent, ils peuvent être utilisés comme tout autre attribut de profil dans les conditions des Journey Orchestration (pour prendre les meilleures décisions), les actions ou la création de segments.
+Par conséquent, ils peuvent être utilisés comme tout autre attribut de profil dans les conditions de Journey Orchestration (pour prendre les meilleures décisions), les actions ou la création de segments.
 
 ![](../assets/customer-ai.png)
 
-Notez que l’IA du client est une fonction payante de l’Experience Platform.
+Veuillez noter que l’IA dédiée aux clients est une fonction payante d’Experience Platform.
 
 
