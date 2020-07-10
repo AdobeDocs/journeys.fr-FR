@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Exploitation de l&#39;IA de parcours {#concept_dsh_1ry_wfb}
+# Utilisation de l’IA dédiée aux parcours {#concept_dsh_1ry_wfb}
 
 Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour éviter de trop solliciter les clients dans les parcours.
 
