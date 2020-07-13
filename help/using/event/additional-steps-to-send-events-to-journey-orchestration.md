@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
+workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Vous devez ensuite configurer le système de données qui envoie les événement
 1. Utilisez la payload que vous avez copiée depuis [!DNL Journey Orchestration], dans le corps (« section de données ») de l’appel d’API, vers les API d’ingestion en flux continu. Reportez-vous à l’exemple ci-dessous.
 1. Déterminez où obtenir toutes les variables présentes dans la payload. Exemple : si l’événement est censé transmettre l’adresse, la payload collée indique &quot;address&quot;: &quot;string&quot;. &quot;string&quot; doit être remplacé par la variable qui renseigne automatiquement la valeur appropriée, c’est-à-dire l’adresse email du destinataire du message. Notez que dans la section **[!UICONTROL Header]** de l’aperçu de la payload, de nombreuses valeurs sont renseignées automatiquement afin de vous faciliter la tâche.
 1. Sélectionnez &quot;application/json&quot; comme type de corps.
-1. Transmettez votre identifiant d’organisation IMS dans l’en-tête à l’aide de la clé &quot;x-gw-ims-org-id&quot;. Pour cette valeur, utilisez votre identifiant d’organisation IMS (&quot;XXX@AdobeOrg&quot;).
+1. Transmettez votre ID d’organisation IMS dans l’en-tête à l’aide de la clé &quot;x-gw-ims-org-id&quot;. Pour cette valeur, utilisez votre ID d’organisation IMS (&quot;XXX@AdobeOrg&quot;).
 
 Voici un exemple d’événement d’API d’ingestion en flux continu :
 
