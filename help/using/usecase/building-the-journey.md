@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 100%
+source-wordcount: '905'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc2_15.png)
 
-1. Cliquez sur **[!UICONTROL Mode avancé]** et définissez la condition suivante en fonction des champs « timestamp » et « directMarketing.sends.value » issus de la source de données Experience Platform. La syntaxe de l’expression est la suivante :
+1. Click **[!UICONTROL Advanced mode]** and define the following condition based on the &quot;timestamp&quot; and &quot;directMarketing.sends.value&quot; fields coming from the Adobe Experience Platform data source. La syntaxe de l’expression est la suivante :
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
