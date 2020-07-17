@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2dbcdae1284ef5932a8313d7ef169bc7073741f
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 80%
@@ -21,18 +21,18 @@ ht-degree: 80%
 
 # Utilisation de segments dans des conditions {#using-a-segment}
 
-Cette section explique comment utiliser un segment dans une condition de parcours. Pour savoir comment utiliser un événement de **qualification de segment** dans votre parcours, reportez-vous à la section [Activités d’événement](../building-journeys/event-activities.md#segment-qualification).
+Cette section explique comment utiliser un segment dans une condition de parcours. Pour savoir comment utiliser un événement de **[!UICONTROL qualification de segment]** dans votre parcours, reportez-vous à la section [Activités d’événement](../building-journeys/segment-qualification-events.md).
 
 Pour utiliser un segment dans une condition de parcours, procédez comme suit :
 
-1. Ouvrez un parcours, déposez une activité **Condition** et choisissez la **condition de source de données**.
+1. Ouvrez un parcours, déposez une activité **[!UICONTROL Condition]** et choisissez la **condition de source de données**.
    ![](../assets/journey47.png)
 
-1. Cliquez sur **Ajouter un chemin** pour chaque chemin supplémentaire nécessaire. Pour chaque chemin, cliquez sur le champ **Expression**.
+1. Cliquez sur **[!UICONTROL Ajouter un chemin]** pour chaque chemin supplémentaire nécessaire. Pour chaque chemin, cliquez sur le champ **[!UICONTROL Expression]**.
 
    ![](../assets/segment3.png)
 
-1. On the left side, unfold **Segments** node. Faites glisser et déposez le segment à utiliser pour votre condition. Par défaut, la condition sur le segment est &#39;true&#39;.
+1. On the left side, unfold **[!UICONTROL Segments]** node. Faites glisser et déposez le segment à utiliser pour votre condition. Par défaut, la condition sur le segment est &#39;true&#39;.
 
    ![](../assets/segment4.png)
 
