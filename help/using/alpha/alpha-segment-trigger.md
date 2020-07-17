@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 91%
+source-wordcount: '473'
+ht-degree: 74%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 91%
 
 ## À propos de l’activité Déclencheur de segment {#about-segment-trigger-actvitiy}
 
-L’activité Déclencheur de segment vous permet de faire entrer dans un parcours toutes les personnes appartenant à un segment Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
+L’activité Déclencheur de segment vous permet de faire entrer dans un voyage toutes les personnes appartenant à un segment d’Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
-Supposons que vous ayez un segment client Gold sur Experience Platform. Avec l’activité Déclencheur de segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment client Gold entrent dans un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
+Supposons que vous ayez un segment client Gold sur l&#39;Adobe Experience Platform. Avec l’activité Déclencheur de segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment client Gold entrent dans un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Supposons que vous ayez un segment client Gold sur Experience Platform. Avec l�
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. In the **[!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ Supposons que vous ayez un segment client Gold sur Experience Platform. Avec l�
 
    >[!IMPORTANT]
    >
-   >Gardez à l’esprit que les segments Experience Platform sont calculés une fois par jour (segments **par lot**) ou en temps réel (segments **en flux continu**).
+   >Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
    >
-   >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement entrer dans le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement entrer dans le parcours lorsque le calcul du segment est exécuté sur Experience Platform.
+   >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement entrer dans le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement entrer dans le parcours lorsque le calcul du segment est exécuté sur l’Adobe Experience Platform.
