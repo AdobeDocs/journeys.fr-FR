@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Toutes les versions de vos parcours apparaissent dans la liste, accompagnées d�
 
 >[!NOTE]
 >
->Pour ouvrir la zone de travail d’un parcours dans un autre onglet du navigateur, maintenez la touche **Ctrl** ou **Commande** enfoncée, puis cliquez sur le parcours en question.
+>To open a journey&#39;s canvas in a different browser tab, hold the **Control** or **Command** key and click on the journey.
 
 ## Palette {#palette}
 
@@ -49,9 +49,9 @@ La **palette** se situe sur la partie gauche de l’écran. Toutes les activité
 
 ![](../assets/journey38.png)
 
-L’icône **Afficher les éléments désactivés** dans le coin supérieur gauche vous permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, ils apparaîtront grisés.
+L’icône **[!UICONTROL Afficher les éléments désactivés]** dans le coin supérieur gauche vous permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, ils apparaîtront grisés.
 
-Lors de l’utilisation du champ **Recherche**, le nombre de résultats s’affiche pour chaque catégorie d’activité de la zone de travail.
+Lors de l’utilisation du champ **[!UICONTROL Recherche]**, le nombre de résultats s’affiche pour chaque catégorie d’activité de la zone de travail.
 
 ![](../assets/palette-filter.png)
 
