@@ -1,6 +1,6 @@
 ---
-title: À propos des segments Platform
-description: Découvrez comment configurer un segment Platform
+title: A propos des segments d’Adobe Experience Platform
+description: Découvrez comment configurer un segment d'Adobe Experience Platform
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,24 +11,23 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14c8828a8c8e223b58b3512f02f2ee06136b98c5
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 93%
+source-wordcount: '211'
+ht-degree: 48%
 
 ---
 
 
-# À propos des segments Platform {#about-segments}
+# A propos des segments d’Adobe Experience Platform {#about-segments}
 
-Si vous utilisez le [service de segmentation Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) pour créer vos segments, vous pouvez les exploiter dans [!DNL Journey Orchestration]. Grâce à une activité d’événement dédiée, vous pouvez faire entrer des individus ou leur permettre de progresser dans un parcours en fonction des entrées et des sorties de segments Platform. Vous pouvez également créer des conditions complexes dans vos parcours grâce à l’éditeur d’expression simple ou avancé.
+If you&#39;re using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) to create your segments, you can leverage them in [!DNL Journey Orchestration]. Grâce à une activité de événement dédiée, vous pouvez faire entrer ou avancer des individus dans un voyage en fonction des entrées et sorties des segments d&#39;Adobe Experience Platform. Vous pouvez également créer des conditions complexes dans vos parcours grâce à l’éditeur d’expression simple ou avancé.
 
 Supposons que vous ayez un segment « client Silver ». Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés. Vous pouvez aussi créer facilement des conditions basées sur ce segment.
 
 Les possibilités que vous apporte [!DNL Journey Orchestration] concernant les segments sont présentées ci-dessous :
 
-* Accéder à la liste des segments Platform. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
+* Accédez à la liste des segments d’Adobe Experience Platform. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
 * Créer des segments directement dans [!DNL Journey Orchestration] comme vous le faites avec le service de segmentation. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
 * Tirez parti des segments dans les conditions de votre voyage à l’aide de l’éditeur d’expressions simple ou avancé. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
-* Ajouter un événement de **qualification de segment** à votre parcours pour écouter les entrées et les sorties des profils dans les segments Platform. Voir la section [Activités d’événement](../building-journeys/event-activities.md#segment-qualification).
-
+* Add a **[!UICONTROL Segment qualification]** event to your journey in order to listen to the entrances and exits of profiles in Adobe Experience Platform segments. Voir la section [Activités d’événement](../building-journeys/segment-qualification-events.md).
