@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Fournit une prédiction de l’heure optimale pour envoyer un email à un individu.
 
-Cette fonction utilise un score calculé dans Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, l’heure par défaut est appliquée. Pour plus d’informations, reportez-vous à la section [](../building-journeys/wait-activity.md).
+Cette fonction utilise un score calculé dans l’Adobe Experience Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, l’heure par défaut est appliquée. Pour plus d’informations, reportez-vous à la section [](../building-journeys/wait-activity.md).
 
 Pour utiliser cette fonction, un [espace de noms](../event/selecting-the-namespace.md) est nécessaire.
 
