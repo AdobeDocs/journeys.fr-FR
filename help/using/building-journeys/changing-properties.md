@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,6 @@ Compte tenu du délai d’expiration de 30 jours, lorsque la rentrée n’est p
 
 Les fuseaux horaires sont définis au niveau du parcours.
 
-Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Experience Platform pour définir le fuseau horaire du parcours.
+Vous pouvez entrer un fuseau horaire fixe ou utiliser des profils d&#39;Adobe Experience Platform pour définir le fuseau horaire du voyage.
 
 Pour plus d’informations sur la gestion des fuseaux horaires, voir [](../building-journeys/timezone-management.md).
