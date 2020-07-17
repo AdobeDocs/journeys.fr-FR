@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 100%
+source-wordcount: '1107'
+ht-degree: 85%
 
 ---
 
@@ -35,22 +35,22 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <tbody>
 <tr>
 <td>
-<p>Les améliorations suivantes ont été apportées à l’intégration de Platform :</p>
+<p>Les améliorations suivantes ont été apportées à l’intégration des Adobes Experience Platform :</p>
 <ul>
-<li><p>Une nouvelle activité permet d’écouter les entrées/sorties des segments de Platform pour faire entrer ou avancer les personnes dans un parcours. <a href="../building-journeys/event-activities.md#segment-qualification">En savoir plus</a></p>
+<li><p>Une nouvelle activité permet d'écouter les entrées/sorties des segments d'Adobe Experience Platform pour faire entrer ou avancer les gens dans un voyage. <a href="../building-journeys/segment-qualification-events.md">En savoir plus</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Il est désormais possible de créer et modifier les segments Platform sans quitter l’interface de Journey Orchestration, grâce au nouvel onglet <strong>Segments.</strong><a href="../segment/about-segments.md">En savoir plus</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">En savoir plus</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Dans l’éditeur d’expression simple, les segments Platform sont maintenant directement répertoriés dans l’arborescence de navigation pour faciliter la configuration de conditions telles que « cette personne appartient-elle au segment A ? ». <a href="../segment/using-a-segment.md">En savoir plus</a></p>
+<li><p>Dans l’éditeur d’expressions simple, les segments d’Adobe Experience Platform sont désormais directement répertoriés dans l’arborescence de navigation afin de faciliter la configuration de conditions telles que "cette personne appartient-elle au segment A ?".<a href="../segment/using-a-segment.md">En savoir plus</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Data Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d'étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
+<li><p>Le Journey Orchestration transmet désormais automatiquement à l’Adobe Experience Platform les étapes effectuées dans les voyages. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d'étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
+<li><p>Le Journey Orchestration peut désormais être connecté à des sandbox d’Adobe Experience Platform de production et non de production. Notez que les sandbox sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
 </td>
 </tr>
@@ -130,7 +130,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>La liste déroulante <strong>Fuseau horaire</strong> vous permet de sélectionner un fuseau horaire spécifique. Par défaut, le fuseau horaire du navigateur est utilisé. </li>
-<li>La case à cocher <strong>Fuseau horaire du profil</strong> vous permet d’utiliser le fuseau horaire du profil Experience Platform de la personne qui entre dans le parcours, le cas échéant. Si ce fuseau horaire n’est pas disponible, le fuseau horaire défini dans la liste déroulante est utilisé. Cette fonctionnalité n’est pas compatible avec les parcours utilisant des événements qui n’ont pas d’espace de noms.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. Si ce fuseau horaire n’est pas disponible, le fuseau horaire défini dans la liste déroulante est utilisé. Cette fonctionnalité n’est pas compatible avec les parcours utilisant des événements qui n’ont pas d’espace de noms.</li>
 </ul>
 <p>Pour plus d’informations, reportez-vous aux sections <a href="../building-journeys/changing-properties.md#timezone">Modification des propriétés</a> et <a href="../building-journeys/timezone-management.md">Gestion des fuseaux horaires</a>.</p>
 </td>
@@ -189,7 +189,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 
 * Vous pouvez maintenant **supprimer** les parcours arrêtés. Les rapports associés à ces parcours supprimés ne seront pas disponibles.
 
-* Lorsque vous parcourez les **champs Data Platform** (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées de la définition du schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, l’autre nom d’affichage s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
+* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. Ces informations sont récupérées de la définition du schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, l’autre nom d’affichage s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
 
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
