@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
-workflow-type: ht
-source-wordcount: '259'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 75%
 
 ---
 
@@ -45,9 +45,9 @@ Pour cela, dans **[!UICONTROL Propriétés]**, sélectionnez un fuseau horaire.
 
 ## Utilisation de profils pour définir le fuseau horaire du parcours {#timezone-from-profiles}
 
-Si un espace de noms est associé à l’événement d’entrée du parcours, ce qui signifie que ce dernier peut accéder au service de profil client en temps réel de Data Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de l’individu qui participe au parcours.
+Si le événement d&#39;entrée du voyage a un espace de nommage, ce qui signifie que le voyage peut atteindre le service de Profil client en temps réel de l&#39;Adobe Experience Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de la personne qui effectue le voyage.
 
-Si un fuseau horaire est défini dans le profil Experience Platform, il peut être récupéré dans le parcours.
+Si un fuseau horaire est défini dans le profil de l&#39;Adobe Experience Platform, il peut être récupéré dans le parcours.
 
 Si le profil de l’individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
 
