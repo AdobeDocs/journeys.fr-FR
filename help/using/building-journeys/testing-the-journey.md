@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 100%
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    ![](../assets/journeytest1.png)
 
-1. Utilisez le paramètre **Temps d’attente en test**, dans le coin inférieur gauche, pour définir la durée d’attente de chaque activité d’attente en mode test. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
+1. Utilisez le paramètre **[!UICONTROL Temps d’attente en test]**, dans le coin inférieur gauche, pour définir la durée d’attente de chaque activité d’attente en mode test. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
 
    ![](../assets/journeytest_wait.png)
 
@@ -51,17 +51,17 @@ Pour utiliser le mode test, procédez comme suit :
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Voir [](../building-journeys/testing-the-journey.md#create-test-profile).
-* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. En effet, le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Data Platform.
+* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui entre dans le voyage est un profil d&#39;essai ou non et doit donc être en mesure d&#39;atteindre l&#39;Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant participer à un parcours au cours d’une session de test est de 100.
-* Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives.
+* Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi le rapports.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 
 ## Créer un profil de test{#create-test-profile}
 
-Le processus de création d’un profil de test est identique à celui utilisé pour créer un profil dans Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
+Le processus de création d’un profil de test est le même que lorsque vous créez un profil dans l’Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
 
-Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». En effet, l’indicateur testProfile fait partie de ce mixin.
+Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce mixin.
 
 Lors de la création d’un profil, veillez à transmettre la valeur : testprofile = true.
 
@@ -71,7 +71,7 @@ Voici un exemple d’appel API pour créer un profil de test :
 
 ```
 curl -X POST \
-'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+'https://dcs.adobedc.net/collection/xxxxxxxxxxxxxx' \
 -H 'Cache-Control: no-cache' \
 -H 'Content-Type: application/json' \
 -H 'Postman-Token: xxxxx' \
@@ -119,7 +119,7 @@ Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer 
 >
 >Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
 
-Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Data Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
+Pour cela, vous devez savoir quels profils sont marqués comme profils de test dans l’Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
@@ -131,7 +131,7 @@ L’interface vous permet de transmettre des paramètres d’événement simples
 
 Un utilisateur technique peut également se servir de cette interface pour composer des payloads d’événement et déclencher des événements sans recourir à un outil tiers.
 
-Lorsque vous cliquez sur le bouton **Envoyer**, le test commence. La progression de l’individu dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert à mesure du déplacement de l’individu dans le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher des informations plus précises sur l’erreur et accéder aux détails complets (le cas échéant).
+Lorsque vous cliquez sur le bouton **[!UICONTROL Envoyer]**, le test commence. La progression de l’individu dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert à mesure du déplacement de l’individu dans le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher des informations plus précises sur l’erreur et accéder aux détails complets (le cas échéant).
 
 ![](../assets/journeytest6.png)
 
