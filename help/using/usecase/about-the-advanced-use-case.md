@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ Dans ce cas d’utilisation, nous devrons créer deux événements (voir [](../u
 
 Nous devrons configurer une connexion à deux sources de données (voir [](../usecase/configuring-the-data-sources.md)) :
 
-* La source de données Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’adhésion au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
+* Source de données d’Adobe Experience Platform intégrée, permettant de récupérer les informations relatives à nos deux conditions (adhésion de fidélité et date de dernier contact) ainsi que les informations de personnalisation des messages.
 * Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
 
 ## Conditions requises    {#prerequisites}
