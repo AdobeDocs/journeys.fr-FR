@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '108'
+ht-degree: 76%
 
 ---
 
@@ -57,4 +57,4 @@ Renvoie une valeur booléenne.
 
 Explication :
 
-La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours figure dans le segment de plate-forme « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
+The function will return **[!UICONTROL true]** if the individual within the journey instance is part of the Adobe Experience Platform segment named “men over 50”, **[!UICONTROL false]** otherwise.
