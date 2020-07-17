@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '1010'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+workflow-type: tm+mt
+source-wordcount: '1052'
+ht-degree: 95%
 
 ---
 
@@ -43,13 +43,15 @@ Le signe en regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICO
 
 Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d’activité ou d’apparition dans le parcours, de gauche à droite. Le bouton **[!UICONTROL Copier les détails]** copie les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes.
 
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d&#39;erreur]**. Voir [](../building-journeys/using-the-journey-designer.md#paths).
+
 ## Vérification de l’envoi correct des événements{#section_rqz_11t_dgb}
 
 Le point de départ d’un parcours est toujours un événement. Il est possible d’effectuer des tests à l’aide d’outils tels que Postman.
 
 Vous pouvez ainsi vérifier si l’appel d’API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l’en-tête (et en particulier l’identifiant d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur l’URL appropriée pour l’accès.
 
-Les événements ne sont pas directement transmis de la source à [!DNL Journey Orchestration]. En effet, [!DNL Journey Orchestration] s’appuie sur les API d’ingestion en flux continu d’Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source à [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. En cas de problèmes relatifs aux événements, vous pouvez donc vous référer à cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 ## Vérification de l’entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
