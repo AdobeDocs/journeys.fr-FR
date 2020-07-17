@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
+source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 74%
+source-wordcount: '921'
+ht-degree: 71%
 
 ---
 
@@ -143,7 +143,7 @@ L’utilisateur doit alors recevoir un email le redirigeant vers votre instance 
 [!DNL Journey Orchestration] vous permet de partitionner votre instance en environnements virtuels séparés appelés Sandbox.
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] reflète les environnements Sandbox Platform qui ont été créés pour une organisation donnée.
-Vous pouvez créer ou réinitialiser des environnements Sandbox Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html) pour connaître les étapes détaillées.
+[!DNL Journey Orchestration] reflète les sandbox d’Adobe Experience Platform créés pour une organisation donnée.
+Les sandbox d’Adobe Experience Platform peuvent être créés ou réinitialisés à partir de votre instance d’Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html) pour connaître les étapes détaillées.
 
 La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d’un environnement Sandbox à un autre, cliquez sur l’environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
