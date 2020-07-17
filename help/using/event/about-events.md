@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 97%
 
 ---
 
@@ -36,11 +36,11 @@ Si vous modifiez un événement utilisé dans un parcours actif ou dans un état
 
 ## Principe général {#section_r1f_xqt_pgb}
 
-Les événements sont des appels d’API POST. Ils sont envoyés à Adobe Experience Cloud Data Platform par le biais des API d’ingestion en flux continu. L’URL de destination des événements envoyés via les API de messagerie transactionnelle est appelée « inlet ». La payload des événements respecte la mise en forme XDM.
+Les événements sont des appels d’API POST. Ils sont envoyés à Adobe Experience  Platform par le biais des API d’ingestion en flux continu. L’URL de destination des événements envoyés via les API de messagerie transactionnelle est appelée « inlet ». La payload des événements respecte la mise en forme XDM.
 
 La payload contient les informations nécessaires au fonctionnement des API d’ingestion en flux continu (dans l’en-tête) et de [!DNL Journey Orchestration] (l’identifiant d’événement, un élément du corps de la payload), ainsi que des informations à utiliser dans les parcours (dans le corps, par exemple, le montant d’un panier abandonné). Il existe deux modes d’ingestion en flux continu : authentifié et non authentifié. Pour plus d’informations sur les API d’ingestion en flux continu, cliquez sur [ce lien](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
 
-Après avoir transité par les API d’ingestion en flux continu, les événements se propagent dans un service interne appelé Pipeline, puis dans Data Platform. Si l’indicateur du service de profil client en temps réel est activé pour le schéma d’événement et que ce dernier comprend également un identifiant de jeu de données avec l’indicateur de profil client en temps réel, le schéma est propagé dans ce service.
+Une fois les API d&#39;importation en flux continu arrivées, les événements s&#39;enchaînent dans un service interne appelé Pipeline, puis dans l&#39;Adobe Experience Platform. Si l’indicateur du service de profil client en temps réel est activé pour le schéma d’événement et que ce dernier comprend également un identifiant de jeu de données avec l’indicateur de profil client en temps réel, le schéma est propagé dans ce service.
 
 Le service Pipeline filtre les événements avec une payload contenant les eventID de [!DNL Journey Orchestration] (reportez-vous au processus de création d’événements ci-dessous) fournis par [!DNL Journey Orchestration] et contenus dans une payload d’événement. Ces événements sont écoutés par [!DNL Journey Orchestration] et le parcours correspondant est déclenché.
 
