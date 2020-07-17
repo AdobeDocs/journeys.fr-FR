@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Vous pouvez définir une condition afin de limiter l’attente à une certaine p
 >
 >La durée d’attente maximale est de 30 jours.
 >
->En mode test, le paramètre **Temps d’attente en test** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [](../building-journeys/testing-the-journey.md)
+>En mode test, le paramètre **[!UICONTROL Temps d’attente en test]** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [](../building-journeys/testing-the-journey.md)
 
 ## Durée de l’attente{#duration}
 
@@ -72,7 +72,7 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 >
 >La fonctionnalité d’optimisation de l’heure d’envoi des emails n’est disponible que pour les clients qui utilisent la fonction Service de données d’Adobe Campaign Standard.
 
-Ce type d’attente utilise un score calculé dans la plate-forme. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, le temps d’attente par défaut est appliqué. Au moment de la publication, vous serez informé que le laps de temps par défaut s’applique.
+Ce type d’attente utilise un score calculé dans l’Adobe Experience Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, le temps d’attente par défaut est appliqué. Au moment de la publication, vous serez informé que le laps de temps par défaut s’applique.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Ce type d’attente utilise un score calculé dans la plate-forme. Le score calc
 
 1. Dans le champ **[!UICONTROL Laps de temps]**, définissez le nombre d’heures à prendre en compte pour optimiser l’envoi des emails.
 1. Dans le champ **[!UICONTROL Type d’optimisation]**, indiquez si l’optimisation doit augmenter le nombre de clics ou d’ouvertures.
-1. Dans le champ **Laps de temps par défaut**, définissez le délai d’attente par défaut si le score de l’heure d’envoi prédictif n’est pas disponible.
+1. Dans le champ **[!UICONTROL Laps de temps par défaut]**, définissez le délai d’attente par défaut si le score de l’heure d’envoi prédictif n’est pas disponible.
 
    >[!NOTE]
    >
