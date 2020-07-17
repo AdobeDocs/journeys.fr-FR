@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 78%
 
 ---
 
@@ -34,3 +34,5 @@ Si vous avez configuré des actions personnalisées, elles s’affichent égalem
 Lorsque vous déposez une activité d’action dans la zone de travail, vous pouvez définir un **[!UICONTROL libellé]**. Vous pouvez ainsi ajouter un suffixe au nom de l’action, lequel apparaîtra sous votre activité dans la zone de travail. Cela s’avère utile si vous utilisez plusieurs fois la même action dans votre parcours et souhaitez faciliter son identification. Les rapports seront également plus faciles à lire. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
 
 ![](../assets/journey59bis.png)
+
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d&#39;erreur]**. Voir [](../building-journeys/using-the-journey-designer.md#paths).
