@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
-Il s’agit des champs XDM communs que [!DNL Journey Orchestration] envoie à Adobe Data Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
+These are the common XDM fields that [!DNL Journey Orchestration] sends to Adobe Experience Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
 
 Certains de ces champs ne sont disponibles que dans des modèles de traitement spécifiques (exécution d’une action, récupération de données, etc.) pour limiter la taille des événements.
 
