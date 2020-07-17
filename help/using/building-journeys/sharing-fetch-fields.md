@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ Type : long
 
 ## fetchTypeInError
 
-Définit si la récupération en erreur se trouve sur la plateforme ou sur une source de données personnalisée.
+Définit si la récupération par erreur se trouve sur l’Adobe Experience Platform ou sur une source de données personnalisée.
 
 Type : chaîne
 
@@ -93,13 +93,13 @@ Type : long
 
 ## fetchPlatformTotalTime
 
-Laps de temps total en millisecondes consacré à la récupération des données sur Data Platform. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
+Durée totale de récupération des données de l’Adobe Experience Platform en millions. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
 
 Type : long
 
 ## fetchPlatformCount
 
-Nombre de récupérations de données sur Platform.
+Combien de fois les données sont extraites de l’Adobe Experience Platform.
 
 Type : long
 
