@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
-workflow-type: ht
-source-wordcount: '357'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 86%
 
 ---
 
@@ -37,12 +37,12 @@ Cette configuration n’est pas requise si vos parcours utilisent uniquement les
 
 Il existe deux types de sources de données :
 
-* La source de données Experience Platform préconfigurée qui définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [](../datasource/adobe-experience-platform-data-source.md).
+* Source de données d’Adobe Experience Platform préconfigurée qui définit la connexion au service de Profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [](../datasource/adobe-experience-platform-data-source.md).
 * Les sources de données externes qui vous permettent de définir une connexion à des systèmes externes. Il s’agit des sources de données que vous pouvez créer. Voir [](../datasource/external-data-sources.md).
 
 Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [](../datasource/field-groups.md).
 
-Pour plus d’informations sur la configuration d’une source de données Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Les principales étapes de configuration d’une source de données sont les suivantes :
 
