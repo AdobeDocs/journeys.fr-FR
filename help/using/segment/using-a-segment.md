@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ Pour utiliser un segment dans une condition de parcours, procédez comme suit :
 
    ![](../assets/segment3.png)
 
-1. On the left side, unfold **[!UICONTROL Segments]** node. Faites glisser et déposez le segment à utiliser pour votre condition. Par défaut, la condition sur le segment est &#39;true&#39;.
+1. Sur le côté gauche, développez le nœud **[!UICONTROL Segments]**. Faites glisser et déposez le segment à utiliser pour votre condition. Par défaut, la condition sur le segment est &#39;true&#39;.
 
    ![](../assets/segment4.png)
 
-For more information on journey conditions and how to use the simple expression editor, refer to [Condition activity](../building-journeys/condition-activity.md#about_condition).
+Pour plus d’informations sur les conditions de parcours et sur l’utilisation de l’éditeur d’expression simple, consultez la section [Activité de condition](../building-journeys/condition-activity.md#about_condition).
