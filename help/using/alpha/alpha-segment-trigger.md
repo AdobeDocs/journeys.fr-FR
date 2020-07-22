@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -53,7 +53,7 @@ Supposons que vous ayez un segment client Gold sur l&#39;Adobe Experience Platfo
 
    >[!NOTE]
    >
-   >Les personnes appartenant à un segment qui n&#39;a pas l&#39;identité sélectionnée (espace de nommage) parmi leurs différentes identités ne peuvent pas entrer dans le voyage.
+   >Les personnes appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas entrer dans le parcours.
 
 1. Cliquez sur **[!UICONTROL Ok]** pour confirmer. Vous pouvez ensuite exploiter les activités disponibles pour créer votre parcours.
 
