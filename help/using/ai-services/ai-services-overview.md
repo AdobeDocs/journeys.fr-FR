@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Pour plus d’informations sur les Services intelligents, consultez la [document
 
 Cette intégration vous permet d’utiliser les éléments suivants :
 
-* customer predictions , see [Leveraging Customer AI](../ai-services/leveraging-customer-ai.md)
-* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)
+* prédiction du client, voir [Exploitation de l’IA dédiée aux clients](../ai-services/leveraging-customer-ai.md)
+* scores de fatigue, voir [Exploitation de l’IA dédiée aux parcours](../ai-services/leveraging-fatigue-scores.md)
 
 
 
