@@ -1,6 +1,6 @@
 ---
 title: Activité Déclencheur de segment
-description: Découvrir xxxx
+description: En savoir plus sur le déclencheur de segment
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 79%
+source-wordcount: '536'
+ht-degree: 69%
 
 ---
 
@@ -23,15 +23,19 @@ ht-degree: 79%
 
 ## À propos de l’activité Déclencheur de segment {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>Si une activité d&#39;action prête à l&#39;emploi d&#39;un Adobe Campaign Standard est présente dans la trame au moment de la publication ou de l&#39;activation du mode d&#39;essai, le parcours est ralenti à 13 entrées par seconde. <br>Si aucune activité d&#39;action prête à l&#39;emploi d&#39;Adobe Campaign Standard n&#39;est présente dans le canevas au moment de la publication ou de l&#39;activation du mode de test, le parcours sera ralenti à 1 000 événements par seconde.
+
 L’activité Déclencheur de segment vous permet de faire entrer dans un voyage toutes les personnes appartenant à un segment d’Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
 Supposons que vous ayez un segment client Gold sur l&#39;Adobe Experience Platform. Avec l’activité Déclencheur de segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment client Gold entrent dans un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
 
+## Configurer l’activité {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >En raison des latences d’exportation de segments, il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
-
-## Configurer l’activité {#configuring-segment-trigger-activity}
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Déclencheur de segment]** dans votre zone de travail.
 
