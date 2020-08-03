@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -53,9 +53,9 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 * l’horodatage de la qualification
 * l’identifiant de segment
 
-Lorsque vous utilisez l’éditeur d’expressions dans une condition ou une action qui suit une activité de qualification **[!UICONTROL de]** segment, vous avez accès au noeud **[!UICONTROL SegmentQualification]** . You can choose between the **[!UICONTROL Last qualification time]** and the **[!UICONTROL status]** (enter or exit).
+Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification du segment]**, vous avez accès au nœud **[!UICONTROL Qualification de segment]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
 
-Voir activité [](../building-journeys/condition-activity.md#about_condition)des conditions.
+Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
 
