@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
 
