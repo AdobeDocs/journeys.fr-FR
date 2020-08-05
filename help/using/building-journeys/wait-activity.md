@@ -72,7 +72,7 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 >
 >La fonctionnalité d’optimisation de l’heure d’envoi des emails n’est disponible que pour les clients qui utilisent la fonction Service de données d’Adobe Campaign Standard.
 
-Ce type d’attente utilise un score calculé dans l’Adobe Experience Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, le temps d’attente par défaut est appliqué. Au moment de la publication, vous serez informé que le laps de temps par défaut s’applique.
+Ce type d’attente utilise un score calculé dans le Adobe Experience Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, le temps d’attente par défaut est appliqué. Au moment de la publication, vous serez informé que le laps de temps par défaut s’applique.
 
 >[!NOTE]
 >
