@@ -23,7 +23,7 @@ ht-degree: 95%
 
 Fournit une prédiction de l’heure optimale pour envoyer un email à un individu.
 
-Cette fonction utilise un score calculé dans l’Adobe Experience Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, l’heure par défaut est appliquée. Pour plus d’informations, reportez-vous à la section [](../building-journeys/wait-activity.md).
+Cette fonction utilise un score calculé dans le Adobe Experience Platform. Le score calcule la propension d’un client à cliquer sur un email ou à l’ouvrir dans le futur en se basant sur son comportement passé. Notez qu’une certaine quantité de données est nécessaire pour que l’algorithme qui calcule le score puisse fonctionner. Par conséquent, lorsque les données sont insuffisantes, l’heure par défaut est appliquée. Pour plus d’informations, reportez-vous à la section [](../building-journeys/wait-activity.md).
 
 Pour utiliser cette fonction, un [espace de noms](../event/selecting-the-namespace.md) est nécessaire.
 
