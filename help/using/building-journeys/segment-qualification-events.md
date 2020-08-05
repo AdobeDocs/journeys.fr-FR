@@ -23,13 +23,13 @@ ht-degree: 32%
 
 ## About segment qualification events{#about-segment-qualification}
 
-Cette activité permet à votre voyage d&#39;écouter les entrées et les sorties des profils dans les segments d&#39;Adobe Experience Platform afin de faire entrer ou avancer des personnes dans un voyage. Pour plus d’informations sur la création de segments, consultez cette [section](../segment/about-segments.md).
+Cette activité permet à votre voyage d&#39;écouter les entrées et les sorties des profils dans les segments Adobe Experience Platform afin de faire entrer ou avancer les personnes dans un voyage. Pour plus d’informations sur la création de segments, consultez cette [section](../segment/about-segments.md).
 
 Supposons que vous ayez un segment « client Silver ». Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés.
 
 Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
 
-Si le segment est diffusé en continu avec l’option Audiences haute fréquence d’Adobe Experience Platform, l’entrée et la sortie sont écoutées en temps réel. Si le segment n’est pas en flux continu, les entrées et les sorties sont prises en compte au moment du calcul du segment.
+Si le segment est diffusé en continu avec l’option Audiences haute fréquence de Adobe Experience Platform, l’entrée et les sorties sont écoutées en temps réel. Si le segment n’est pas en flux continu, les entrées et les sorties sont prises en compte au moment du calcul du segment.
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification de segment]** dans la zone de travail.
 
@@ -61,7 +61,7 @@ Voir [Activité de condition](../building-journeys/condition-activity.md#about_c
 
 ## Recommandations relatives aux segments {#best-practices-segments}
 
-L&#39;activité **[!UICONTROL de qualification]** de segment permet l&#39;entrée immédiate dans les voyages des personnes qualifiées ou disqualifiées d&#39;un segment d&#39;Adobe Experience Platform.
+L&#39;activité **[!UICONTROL de qualification]** de segment permet l&#39;entrée immédiate dans les voyages des personnes qualifiées ou disqualifiées d&#39;un segment Adobe Experience Platform.
 
 La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçues par seconde. Par conséquent, vous devez vous assurer de comprendre comment les pics d&#39;entrée peuvent se produire, comment les éviter et comment préparer votre voyage pour eux.
 
@@ -77,7 +77,7 @@ Lors de l’utilisation de la qualification de segment pour les segments en flux
 
 ### Comment éviter les surchargements{#overloads-speed-segment-qualification}
 
-Voici quelques bonnes pratiques qui aideront à éviter la surcharge des systèmes utilisés dans les voyages (sources de données, actions personnalisées, actions d’Adobe Campaign Standard).
+Voici quelques bonnes pratiques qui aideront à éviter la surcharge des systèmes utilisés dans les voyages (sources de données, actions personnalisées, actions Adobe Campaign Standard).
 
 N’utilisez pas, dans une activité de qualification **[!UICONTROL de]** segment, un segment de lot immédiatement après sa création. Il évitera le premier pic de calcul. Notez qu’il y aura un avertissement jaune dans la trame de parcours si vous êtes sur le point d’utiliser un segment qui n’a jamais été calculé.
 
@@ -85,6 +85,6 @@ N’utilisez pas, dans une activité de qualification **[!UICONTROL de]** segmen
 
 Mettez en place une règle de plafonnement pour les sources de données et les actions utilisées dans les voyages pour éviter de les surcharger (reportez-vous à cette [section](../api/capping.md)). Notez que la règle de plafonnement n’a pas de nouvelle tentative. Si vous devez réessayer, vous devez utiliser un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d&#39;erreur]** dans les conditions ou les actions.
 
-Avant d’utiliser le segment dans un parcours de production, évaluez toujours d’abord le volume de personnes admissibles à ce segment tous les jours. Pour ce faire, vous pouvez vérifier la section **[!UICONTROL Segments]** de l’Adobe Experience Platform et regarder le graphique sur le côté droit.
+Avant d’utiliser le segment dans un parcours de production, évaluez toujours d’abord le volume de personnes admissibles à ce segment tous les jours. Pour ce faire, vous pouvez vérifier la section **[!UICONTROL Segments]** dans le Adobe Experience Platform et regarder le graphique sur le côté droit.
 
 ![](../assets/segment-overload.png)
