@@ -77,7 +77,7 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 
 ![](../assets/journey4.png)
 
-## Navigation dans les champs d’Adobe Experience Platform {#friendly-names-display}
+## Navigation dans les champs Adobe Experience Platform {#friendly-names-display}
 
 Lors de la définition du [payload d’événement](../event/defining-the-payload-fields.md), du [payload du groupe de champs](../datasource/field-groups.md), et de la sélection de champs dans l’[éditeur d’expression](../expression/expressionadvanced.md), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience.
 
