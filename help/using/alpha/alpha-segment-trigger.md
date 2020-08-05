@@ -25,11 +25,11 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Si une activité d&#39;action prête à l&#39;emploi d&#39;un Adobe Campaign Standard est présente dans la trame au moment de la publication ou de l&#39;activation du mode d&#39;essai, le parcours est ralenti à 13 entrées par seconde. <br>Si aucune activité d&#39;action prête à l&#39;emploi d&#39;Adobe Campaign Standard n&#39;est présente dans le canevas au moment de la publication ou de l&#39;activation du mode de test, le parcours sera ralenti à 1 000 événements par seconde.
+>Si une activité d&#39;action prête à l&#39;emploi Adobe Campaign Standard est présente dans le canevas au moment de la publication ou de l&#39;activation du mode d&#39;essai, le parcours est ralenti à 13 entrées par seconde. <br>Si aucune activité d’action prête à l’emploi n’est présente dans le canevas au moment de la publication ou de l’activation du mode de test, le parcours est ralenti à 1 000 événements par seconde.
 
-L’activité Déclencheur de segment vous permet de faire entrer dans un voyage toutes les personnes appartenant à un segment d’Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
+L’activité Déclencheur de segment vous permet de faire entrer un voyage pour toutes les personnes appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
-Supposons que vous ayez un segment client Gold sur l&#39;Adobe Experience Platform. Avec l’activité Déclencheur de segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment client Gold entrent dans un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
+Supposons que vous ayez un segment de clients Gold sur Adobe Experience Platform. Avec l’activité Déclencheur de segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment client Gold entrent dans un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}
 
@@ -75,4 +75,4 @@ Supposons que vous ayez un segment client Gold sur l&#39;Adobe Experience Platfo
    >
    >Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
    >
-   >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement entrer dans le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement entrer dans le parcours lorsque le calcul du segment est exécuté sur l’Adobe Experience Platform.
+   >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement entrer dans le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement entrer dans le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
