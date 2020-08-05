@@ -51,7 +51,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Voir [](../building-journeys/testing-the-journey.md#create-test-profile).
-* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui entre dans le voyage est un profil d&#39;essai ou non et doit donc être en mesure d&#39;atteindre l&#39;Adobe Experience Platform.
+* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui entre dans le voyage est un profil d&#39;essai ou non et doit donc être en mesure d&#39;atteindre le Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant participer à un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi le rapports.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
@@ -59,7 +59,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Créer un profil de test{#create-test-profile}
 
-Le processus de création d’un profil de test est le même que lorsque vous créez un profil dans l’Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
+Le processus de création d’un profil de test est identique à celui de création d’un profil dans le Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
 
 Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce mixin.
 
@@ -119,7 +119,7 @@ Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer 
 >
 >Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
 
-Pour cela, vous devez savoir quels profils sont marqués comme profils de test dans l’Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
+Pour cela, vous devez savoir quels profils sont marqués comme profils de test dans le Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
