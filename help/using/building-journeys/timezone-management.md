@@ -45,9 +45,9 @@ Pour cela, dans **[!UICONTROL Propriétés]**, sélectionnez un fuseau horaire.
 
 ## Utilisation de profils pour définir le fuseau horaire du parcours {#timezone-from-profiles}
 
-Si le événement d&#39;entrée du voyage a un espace de nommage, ce qui signifie que le voyage peut atteindre le service de Profil client en temps réel de l&#39;Adobe Experience Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de la personne qui effectue le voyage.
+Si le événement d&#39;entrée du voyage a un espace de nommage, ce qui signifie que le voyage peut atteindre le service de Profil client en temps réel du Adobe Experience Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de la personne qui effectue le voyage.
 
-Si un fuseau horaire est défini dans le profil de l&#39;Adobe Experience Platform, il peut être récupéré dans le parcours.
+Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
 
 Si le profil de l’individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
 
