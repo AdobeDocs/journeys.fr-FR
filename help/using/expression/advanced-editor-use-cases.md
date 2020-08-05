@@ -31,7 +31,7 @@ L’éditeur d’expression avancé sert à créer des conditions pour filtrer l
 
 L’éditeur d’expression avancé est obligatoire pour effectuer des requêtes sur des séries temporelles, comme une liste d’achats ou des clics antérieurs sur des messages. L’éditeur simple ne permet pas d’effectuer ces requêtes.
 
-Les événements d’expérience sont récupérés de l’Adobe Experience Platform sous forme de collection dans l’ordre chronologique inverse, ce qui explique :
+Les événements d’expérience sont récupérés du Adobe Experience Platform en tant que collection dans l’ordre chronologique inverse, ce qui explique :
 
 * La fonction first renvoie l’événement le plus récent.
 * La fonction last renvoie l’événement le plus ancien.
