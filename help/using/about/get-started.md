@@ -33,7 +33,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
 1. **Configurer la source de données**
 
-   Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données d’Adobe Experience Platform intégrée est également configurée au moment de la mise en service. Cette étape n’est pas obligatoire si vous n’exploitez que les données des événements de votre parcours. Elle est effectuée par un **utilisateur technique**.
+   Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également configurée au moment de la mise en service. Cette étape n’est pas obligatoire si vous n’exploitez que les données des événements de votre parcours. Elle est effectuée par un **utilisateur technique**.
 
    Voir à ce sujet la section [](../datasource/about-data-sources.md).
 
