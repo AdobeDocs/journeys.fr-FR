@@ -21,7 +21,7 @@ ht-degree: 86%
 
 # Source de données Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-La source de données d’Adobe Experience Platform définit la connexion au service de Profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. Pour plus d’informations sur le service de profil client en temps réel, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html).
+La source de données Adobe Experience Platform définit la connexion au service de Profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. Pour plus d’informations sur le service de profil client en temps réel, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Vous pouvez modifier le groupe de champs préconfiguré nommé « ProfileFieldG
 
 Les principales étapes nécessaires pour ajouter des groupes de champs à la source de données intégrée sont les suivantes :
 
-1. Dans la liste des sources de données, sélectionnez la source de données d’Adobe Experience Platform intégrée.
+1. Dans la liste des sources de données, sélectionnez la source de données Adobe Experience Platform intégrée.
 
    Le volet de configuration de la source de données s’ouvre alors dans la partie droite de l’écran.
 
@@ -43,7 +43,7 @@ Les principales étapes nécessaires pour ajouter des groupes de champs à la so
 
    ![](../assets/journey24.png)
 
-1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ liste les schémas Profil et Événements d’expérience disponibles dans l’Adobe Experience Platform. La création du schéma n’est pas effectuée dans [!DNL Journey Orchestration], mais Il est exécuté dans l’Adobe Experience Platform.
+1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ liste les schémas Profil et Événements d’expérience disponibles dans le Adobe Experience Platform. La création du schéma n’est pas effectuée dans [!DNL Journey Orchestration], mais Il est exécuté dans le Adobe Experience Platform.
 1. Sélectionnez les champs que vous souhaitez utiliser.
 1. Définissez la durée de mise en cache.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
