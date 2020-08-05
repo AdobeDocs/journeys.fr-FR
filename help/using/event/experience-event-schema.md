@@ -28,7 +28,7 @@ As such, an important prerequisite for setting up events for [!DNL Journey Orche
 
 ## Schéma requis pour les événements [!DNL Journey Orchestration]
 
-The first step in setting up an event for [!DNL Journey Orchestration] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on the Adobe Experience Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements, mais envoyer les événements à un jeu de données spécifique permettra de conserver l’historique des événements des utilisateurs pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d&#39;un schéma et d&#39;un jeu de données appropriés pour votre événement, ces deux tâches peuvent être effectuées dans l&#39;interface Web de l&#39;Adobe Experience Platform.
+The first step in setting up an event for [!DNL Journey Orchestration] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on the Adobe Experience Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements, mais envoyer les événements à un jeu de données spécifique permettra de conserver l’historique des événements des utilisateurs pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d&#39;un schéma et d&#39;un jeu de données appropriés pour votre événement, ces deux tâches peuvent être effectuées dans l&#39;interface Web de Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
