@@ -58,6 +58,6 @@ Compte tenu du délai d’expiration de 30 jours, lorsque la rentrée n’est p
 
 Les fuseaux horaires sont définis au niveau du parcours.
 
-Vous pouvez entrer un fuseau horaire fixe ou utiliser des profils d&#39;Adobe Experience Platform pour définir le fuseau horaire du voyage.
+Vous pouvez entrer un fuseau horaire fixe ou utiliser des profils Adobe Experience Platform pour définir le fuseau horaire du voyage.
 
 Pour plus d’informations sur la gestion des fuseaux horaires, voir [](../building-journeys/timezone-management.md).
