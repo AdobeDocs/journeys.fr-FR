@@ -37,7 +37,7 @@ Cette configuration n’est pas requise si vos parcours utilisent uniquement les
 
 Il existe deux types de sources de données :
 
-* Source de données d’Adobe Experience Platform préconfigurée qui définit la connexion au service de Profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [](../datasource/adobe-experience-platform-data-source.md).
+* Source de données Adobe Experience Platform préconfigurée qui définit la connexion au service de Profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [](../datasource/adobe-experience-platform-data-source.md).
 * Les sources de données externes qui vous permettent de définir une connexion à des systèmes externes. Il s’agit des sources de données que vous pouvez créer. Voir [](../datasource/external-data-sources.md).
 
 Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [](../datasource/field-groups.md).
