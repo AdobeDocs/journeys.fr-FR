@@ -49,7 +49,7 @@ Dans ce cas d’utilisation, nous devrons créer deux événements (voir [](../u
 
 Nous devrons configurer une connexion à deux sources de données (voir [](../usecase/configuring-the-data-sources.md)) :
 
-* Source de données d’Adobe Experience Platform intégrée, permettant de récupérer les informations relatives à nos deux conditions (adhésion de fidélité et date de dernier contact) ainsi que les informations de personnalisation des messages.
+* La source de données Adobe Experience Platform intégrée, pour récupérer les informations relatives à nos deux conditions (adhésion de fidélité et date de dernier contact) ainsi que les informations de personnalisation des messages.
 * Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
 
 ## Conditions requises    {#prerequisites}
