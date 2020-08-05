@@ -33,7 +33,7 @@ Type : long
 
 ## fetchTypeInError
 
-Définit si la récupération par erreur se trouve sur l’Adobe Experience Platform ou sur une source de données personnalisée.
+Définit si l’erreur de récupération se trouve sur le Adobe Experience Platform ou sur une source de données personnalisée.
 
 Type : chaîne
 
@@ -93,13 +93,13 @@ Type : long
 
 ## fetchPlatformTotalTime
 
-Durée totale de récupération des données de l’Adobe Experience Platform en millions. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
+Durée totale de récupération des données de Adobe Experience Platform en millions. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
 
 Type : long
 
 ## fetchPlatformCount
 
-Combien de fois les données sont extraites de l’Adobe Experience Platform.
+Combien de fois les données sont extraites de Adobe Experience Platform.
 
 Type : long
 
