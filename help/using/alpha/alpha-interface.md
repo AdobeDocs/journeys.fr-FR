@@ -36,7 +36,7 @@ Lorsque vous accédez à [!DNL Journey Orchestration], le menu **[!UICONTROL Par
 
 ![](../assets/interface-journeys.png)
 
-The **[!UICONTROL Segments]** menu allows you to access and create Adobe Experience Platform segments. Voir [A propos des segments](../segment/about-segments.md)d’Adobe Experience Platform.
+The **[!UICONTROL Segments]** menu allows you to access and create Adobe Experience Platform segments. Voir [A propos des segments](../segment/about-segments.md)Adobe Experience Platform.
 
 ![](../assets/interface-segments.png)
 
