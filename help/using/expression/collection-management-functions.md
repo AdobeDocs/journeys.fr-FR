@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -208,7 +208,7 @@ Le résultat est &quot;token_2&quot;.
 
 >[!NOTE]
 >
->Les événements d’expérience sont récupérés du Adobe Experience Platform sous forme de collection dans l’ordre chronologique inverse, d’où :
+>Les événements d’expérience sont extraits d’Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
 >* La fonction **[!UICONTROL first]** renvoie l’événement le plus récent.
 >* La fonction **[!UICONTROL last]** renvoie l’événement le plus ancien.
 
