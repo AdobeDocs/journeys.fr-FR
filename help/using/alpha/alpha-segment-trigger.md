@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 87%
+source-wordcount: '576'
+ht-degree: 83%
 
 ---
 
@@ -41,6 +41,8 @@ Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. 
 
    L’activité doit être la première étape d’un parcours.
 
+1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
+
 1. Configurez le **[!UICONTROL type de planificateur]** de l’activité.
 
    Par défaut, le segment entre dans le parcours **[!UICONTROL Dès que possible]**, c’est-à-dire 1 heure après la publication du parcours. Si vous souhaitez que le segment entre dans le parcours à une date/heure spécifique ou sur une base récurrente, sélectionnez l’option de votre choix dans la liste.
@@ -51,7 +53,17 @@ Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. 
 
 1. Dans le champ **[!UICONTROL Segment]**, sélectionnez le segment Adobe Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
+   >[!NOTE]
+   >
+   >Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** vous permet de copier son nom et son ID :
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. Pour plus d’informations sur les espaces de noms, consultez [cette section](../event/selecting-the-namespace.md).
 
