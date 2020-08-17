@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![](../assets/journey64.png)
 
-If you&#39;re using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) to create your segments, you can leverage them in your journey conditions. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
+Si vous utilisez le [service de segmentation Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html) pour créer vos segments, vous pouvez les exploiter dans vos conditions de parcours. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -57,7 +57,7 @@ If you&#39;re using the [Adobe Experience Platform Segmentation Service](https:/
 >Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [](../expression/expressionadvanced.md).
 
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d&#39;erreur]**. Voir [](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d&#39;erreur]**. Voir [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condition de source de données {#data_source_condition}
 
