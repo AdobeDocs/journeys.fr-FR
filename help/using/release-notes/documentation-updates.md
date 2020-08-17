@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 100%
 Cette page répertorie toutes les mises à jour de la documentation de [!DNL Journey Orchestration].
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
 
-## Juillet 2020 {#july-2020}
+## Août 2020 {#august-2020}
+
+* Informations Ajoutées sur le tri et la sélection des colonnes à afficher dans la liste de segments. [En savoir plus](../building-journeys/segment-qualification-events.md)
+* Informations Ajoutées sur la copie du nom et de l’identifiant d’un segment après sa sélection. [En savoir plus](../building-journeys/segment-qualification-events.md)
+* Les occurrences d&#39;Experience Platform ont été harmonisées dans les différentes pages.
+
+## Juillet 2020 {#july-2020}
 
 * Ajout à Adobe Experience Platform d’un lien vers un nouveau tutoriel vidéo sur les rapports des événements d’étape. [En savoir plus](../building-journeys/sharing-overview.md)
 * La section sur les activités des événements a été réorganisée en sous-sections dédiées à chaque type d’événement. [En savoir plus](../building-journeys/event-activities.md)
@@ -81,7 +87,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 * Toutes les captures d’écran ont été mises à jour afin de prendre en compte les modifications de l’interface.
 * La section du mode test a été mise à jour. [En savoir plus](../building-journeys/testing-the-journey.md)
-* Un avertissement a été ajouté dans les sections [Optimisation de l’heure d’envoi des emails](../building-journeys/wait-activity.md) et [Score de fatigue prédictif](../ai-services/leveraging-fatigue-scores.md). Ces fonctionnalités ne sont disponibles que pour les clients qui utilisent la fonction Service de données d’Adobe Campaign Standard.
+* Un avertissement a été ajouté dans les sections [Optimisation de l’heure d’envoi des emails](../building-journeys/wait-activity.md) et [Score de fatigue prédictif](../ai-services/leveraging-fatigue-scores.md). Ces fonctionnalités ne sont disponibles que pour les clients qui utilisent le connecteur [de données](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)Adobe Experience Platform.
 * Il est maintenant possible de supprimer les parcours arrêtés. Les pages de documentation connexes ont été mises à jour.
 * Deux couleurs s’affichent maintenant lorsque des problèmes sont détectés dans un parcours. Rouge pour les erreurs et orange pour les avertissements. [En savoir plus](../about/troubleshooting.md)
 * La section de l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../expression/expressionadvanced.md).
