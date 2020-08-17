@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '686'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,17 @@ Si le segment est diffusé en continu avec l’option des audiences haute fréqu
 
 1. Cliquez dans le champ **[!UICONTROL Segment]** et sélectionnez les segments à exploiter.
 
+   >[!NOTE]
+   >
+   >Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
+
    ![](../assets/segment6.png)
+
+   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** vous permet de copier son nom et son ID :
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segments, les sorties ou les deux.
 
@@ -59,7 +69,7 @@ Voir [Activité de condition](../building-journeys/condition-activity.md#about_c
 
 ![](../assets/segment8.png)
 
-## Bonnes pratiques relatives aux segments {#best-practices-segments}
+## Bonnes pratiques {#best-practices-segments}
 
 L’activité **[!UICONTROL Qualification du segment]** permet une entrée immédiate dans les parcours des particuliers qualifiés ou disqualifiés d&#39;un segment Adobe Experience Platform.
 
