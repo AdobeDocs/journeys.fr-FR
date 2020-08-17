@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ L’éditeur d’expression avancé sert à créer des conditions pour filtrer l
 
 L’éditeur d’expression avancé est obligatoire pour effectuer des requêtes sur des séries temporelles, comme une liste d’achats ou des clics antérieurs sur des messages. L’éditeur simple ne permet pas d’effectuer ces requêtes.
 
-Les événements d’expérience sont récupérés du Adobe Experience Platform en tant que collection dans l’ordre chronologique inverse, ce qui explique :
+Les événements d’expérience sont extraits d’Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
 
 * La fonction first renvoie l’événement le plus récent.
 * La fonction last renvoie l’événement le plus ancien.
@@ -150,4 +150,4 @@ L’expression suivante permet de définir l’identifiant CRM dans un champ de 
 
 Explication : cet exemple utilise les fonctions `substr` et `lastIndexOf` pour supprimer les accolades qui encadrent l’identifiant CRM transmis avec un événement de lancement d’application mobile.
 
-Pour en savoir plus sur l’utilisation de l’éditeur d’expression avancé, regardez [cette vidéo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Pour en savoir plus sur l’utilisation de l’éditeur d’expression avancé, regardez [cette vidéo](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/create-a-journey.html).
