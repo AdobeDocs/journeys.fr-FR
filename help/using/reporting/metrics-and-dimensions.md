@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
 | Dimensions | Définition |
 |--- |--- |
 | **Action** | Liste de chaque action (**nom de l’action - libellé de l’action**) utilisée dans les parcours, par exemple Push – Confirmation de passage en caisse, Email - Fidélité récompensée. |
-| **Source de données** | List of data sources (**data source name**) used to enrich data in a journey e.g. Adobe Experience platform, Reservation system. |
+| **Source de données** | Liste des sources de données (**nom de la source de données**) utilisées pour enrichir les données des parcours, par exemple Adobe Experience Platform, système de réservation. |
 | **[!UICONTROL Événement]** | Liste de chaque événement (**nom de l’événement - libellé de l’événement**) utilisé dans les parcours, par exemple Événement Geometrixx - Passage en caisse Geometrixx. |
 | **Groupe de champs** | Liste des groupes de champs (**nom du groupe de champs**) utilisés pour enrichir les données des parcours, par exemple groupe de champs Profil, système de réservation Geometrixx. |
 | **Parcours** | Liste de chaque parcours (**nom du parcours**) en mode test et actif, par exemple abandon de panier, notification de réservation d’hôtel. |
