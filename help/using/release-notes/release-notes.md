@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -181,7 +181,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 
 **Autres améliorations**
 
-* Outre les États-Unis, Journey Orchestration est maintenant disponible dans les pays de la zone **EMEA**. L’application et la documentation sont disponibles en français et en allemand.
+* In addition to US, Journey Orchestration is now available in **EMEA**. L’application et la documentation sont disponibles en français et en allemand.
 
 * Le portail Experience League est maintenant intégré dans le produit. Cette intégration simplifie l’accès au contenu associé et vous permet de tirer le meilleur parti d’Experience Cloud. Vous pouvez accéder directement à la documentation de Journey Orchestration en bas de l’onglet Aide. En outre, cliquez sur Aide > Commentaires pour signaler des problèmes ou partager vos idées avec Adobe.
 
