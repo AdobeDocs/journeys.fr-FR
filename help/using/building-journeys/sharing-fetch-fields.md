@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Type : long
 
 ## fetchTypeInError
 
-Définit si l’erreur de récupération se trouve sur le Adobe Experience Platform ou sur une source de données personnalisée.
+Définit si la récupération en erreur se trouve sur Adobe Experience Platform ou sur une source de données personnalisée.
 
 Type : chaîne
 
@@ -93,13 +93,13 @@ Type : long
 
 ## fetchPlatformTotalTime
 
-Durée totale de récupération des données de Adobe Experience Platform en millions. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
+Laps de temps total en millisecondes consacré à la récupération des données sur Adobe Experience Platform. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
 
 Type : long
 
 ## fetchPlatformCount
 
-Combien de fois les données sont extraites de Adobe Experience Platform.
+Nombre de récupérations de données sur Adobe Experience Platform.
 
 Type : long
 
