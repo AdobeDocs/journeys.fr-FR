@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
    + Activités {#about-journey-building}
       + Activités d’événement {#events-activities}
-         + [A propos des activités de événements](using/building-journeys/event-activities.md)
+         + [À propos des activités d’événement](using/building-journeys/event-activities.md)
          + [Événements généraux](using/building-journeys/general-events.md)
          + [Événements de réaction](using/building-journeys/reaction-events.md)
          + [Événements de qualification de segment](using/building-journeys/segment-qualification-events.md)
@@ -75,7 +75,7 @@ ht-degree: 97%
          + [Utilisation d’actions personnalisées](using/building-journeys/using-custom-actions.md)
    + [Test du parcours](using/building-journeys/testing-the-journey.md)
    + [Publication du parcours](using/building-journeys/publishing-the-journey.md)
-   + Partage des étapes du voyage avec Adobe Experience Platform {#sharing-journey-steps}
+   + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
       + [Présentation du partage des étapes du parcours](using/building-journeys/sharing-overview.md)
       + [Champs communs aux événements journeySteps](using/building-journeys/sharing-common-fields.md)
       + [Champs d’exécution d’action des événements journeyStep](using/building-journeys/sharing-execution-fields.md)
