@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Juillet 2020 {#july-2020}
 
-* Ajouté un lien vers un nouveau didacticiel vidéo sur les événements pas rapports à Adobe Experience Platform. [En savoir plus](../building-journeys/sharing-overview.md)
-* La section activités des événements a été réorganisée en sous-sections dédiées à chaque type de événement. [En savoir plus](../building-journeys/event-activities.md)
-* Meilleures pratiques Ajoutées pour éviter la surcharge avec la classification des segments. [En savoir plus](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* Ajouté une note expliquant comment poursuivre un voyage après une erreur dans une action ou une condition. [En savoir plus](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* Ajout à Adobe Experience Platform d’un lien vers un nouveau tutoriel vidéo sur les rapports des événements d’étape. [En savoir plus](../building-journeys/sharing-overview.md)
+* La section sur les activités des événements a été réorganisée en sous-sections dédiées à chaque type d’événement. [En savoir plus](../building-journeys/event-activities.md)
+* Ajout de bonnes pratiques pour éviter la surcharge avec la qualification de segment. [En savoir plus](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Ajout d’une note expliquant comment faire pour qu’un parcours continue après une erreur dans une action ou une condition. [En savoir plus](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Ajout d’une nouvelle section sur les fonctionnalités Alpha qui sont testées auprès d’un nombre limité de clients. [En savoir plus](../alpha/alpha-overview.md)
 * Ajout d’une nouvelle section sur l’intégration avec les Services intelligents. [En savoir plus](../ai-services/ai-services-overview.md)
 * Ajout d’une nouvelle section sur la création de profils de test. [En savoir plus](../building-journeys/testing-the-journey.md#create-test-profile)
