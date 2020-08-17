@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 ## Accéder aux [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Pour accéder à l’interface de [!DNL Journey Orchestration], cliquez sur l’icône de **[!UICONTROL sélecteur d’applications]**, en haut à droite. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Pour accéder à l’interface de [!DNL Journey Orchestration], cliquez sur l’icône de **[!UICONTROL sélecteur d’applications]**, en haut à droite. Cliquez ensuite sur **[!UICONTROL Journey Orchestration]** dans la partie droite, sous **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -77,11 +77,11 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 
 ![](../assets/journey4.png)
 
-## Navigation dans les champs Adobe Experience Platform {#friendly-names-display}
+## Navigation dans les champs Adobe Experience Platform {#friendly-names-display}
 
 Lors de la définition du [payload d’événement](../event/defining-the-payload-fields.md), du [payload du groupe de champs](../datasource/field-groups.md), et de la sélection de champs dans l’[éditeur d’expression](../expression/expressionadvanced.md), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience.
 
-Si des descripteurs tels que « xdm:alternativeDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d’affichage. Ceci est particulièrement utile lors de l’utilisation des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux par le biais d’un appel API. Pour plus d’informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
+Si des descripteurs tels que « xdm:alternateDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d’affichage. Ceci est particulièrement utile lors de l’utilisation des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux par le biais d’un appel API. Pour plus d’informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
