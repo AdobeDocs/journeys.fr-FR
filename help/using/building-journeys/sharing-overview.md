@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 71%
 
 [!DNL Journey Orchestration] envoie automatiquement les données de performances à Adobe Experience Platform pour les combiner avec d’autres données à des fins d’analyse.
 
-Par exemple, vous avez configuré un parcours qui envoie plusieurs emails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Orchestration] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations sur le parcours peuvent être combinées avec les données sur le Adobe Experience Platform, que ce soit à partir d’autres propriétés numériques ou de propriétés hors ligne pour offrir une vue plus complète des performances.
+Par exemple, vous avez configuré un parcours qui envoie plusieurs emails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Orchestration] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
-[!DNL Journey Orchestration] crée automatiquement les schémas et les flux nécessaires dans les jeux de données au Adobe Experience Platform pour chaque étape d&#39;un voyage. Un événement d’étape correspond à un individu qui se déplace d’un nœud à un autre d’un parcours. Par exemple, dans un voyage qui comporte un événement, une condition et une action, trois événements d’étape sont envoyés au Adobe Experience Platform.
+[!DNL Journey Orchestration] crée automatiquement les schémas et les flux nécessaires dans les jeux de données de Adobe Experience Platform pour chaque étape d’un parcours individuel. Un événement d’étape correspond à un individu qui se déplace d’un nœud à un autre d’un parcours. Par exemple, dans le cadre d’un parcours comportant un événement, une condition et une action, trois événements d’étape sont envoyés à Adobe Experience Platform.
 
 La liste des champs XDM transmis est complète. Certains contiennent des codes générés par le système et d’autres portent des noms conçus pour être lisibles. Il peut s’agir, par exemple, du libellé de l’activité de parcours ou du statut de l’étape : nombre de fois où une action a été en dépassement de délai ou s’est terminée par une erreur.
 
@@ -53,7 +53,7 @@ Les jeux de données suivants sont transmis :
 
 ![](../assets/sharing3.png)
 
-Les listes des champs XDM transmis au Adobe Experience Platform sont détaillées ici :
+Les listes des champs XDM transmis à Adobe Experience Platform sont détaillées ici :
 
 * [Champs communs aux événements journeySteps](../building-journeys/sharing-common-fields.md)
 * [Champs d’exécution d’action des événements journeyStep](../building-journeys/sharing-execution-fields.md)
@@ -61,4 +61,4 @@ Les listes des champs XDM transmis au Adobe Experience Platform sont détaillée
 * [Champs d’identité des événements journeyStep](../building-journeys/sharing-identity-fields.md)
 * [Champs du parcours](../building-journeys/sharing-journey-fields.md)
 
-Pour plus d&#39;informations sur les événements d&#39;étape rapports à Adobe Experience Platform, regardez cette vidéo [](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)didacticiel.
+Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
