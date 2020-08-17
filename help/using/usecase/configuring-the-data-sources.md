@@ -14,18 +14,18 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Configuration des sources de données {#concept_vml_hdy_w2b}
 
-Dans notre cas d’utilisation, nous voulons utiliser des données de personnalisation pour nos messages. Nous devons aussi vérifier si la personne est un membre du programme de fidélité et si elle n’a pas été contactée au cours des dernières 24 heures. Ces informations sont stockées dans la base de données des profils clients en temps réel. The **technical user** needs to configure the Adobe Experience Platform data source to retrieve those fields.
+Dans notre cas d’utilisation, nous voulons utiliser des données de personnalisation pour nos messages. Nous devons aussi vérifier si la personne est un membre du programme de fidélité et si elle n’a pas été contactée au cours des dernières 24 heures. Ces informations sont stockées dans la base de données des profils clients en temps réel. Un **utilisateur technique** doit configurer la source de données Adobe Experience Platform pour récupérer ces champs.
 
 Pour plus d’informations sur la configuration des sources de données, reportez-vous à la section [](../datasource/about-data-sources.md).
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Adobe Experience Platform data source.
+1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]** et sélectionnez la sources de données Adobe Experience Platform intégrée.
 
    ![](../assets/journey23.png)
 
