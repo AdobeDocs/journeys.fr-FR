@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Toutes les versions de vos parcours apparaissent dans la liste, accompagnées d�
 
 >[!NOTE]
 >
->To open a journey&#39;s canvas in a different browser tab, hold the **Control** or **Command** key and click on the journey.
+>Pour ouvrir la zone de travail d’un parcours dans un autre onglet du navigateur, maintenez la touche **Ctrl** ou **Commande** enfoncée, puis cliquez sur le parcours en question.
 
 ## Palette {#palette}
 
