@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour év
 
 >[!NOTE]
 >
->La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent la fonction Service de données d’Adobe Campaign Standard.
+>The predictive fatigue score capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 ## Configuration de l’événement {#section_ptb_ws1_ffb}
 
