@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -38,8 +38,8 @@ Les expressions sont évaluées de gauche à droite. L’associativité des opé
 
 Les règles de respect de la casse sont les suivantes :
 
-* Tous les opérateurs (and, or, etc.) doivent être en minuscules. Par exemple, _`<expression1>`and`<expression2>`_est une expression valide, contrairement à l’expression_`<expression1>` AND `<expression2>`_.
-* Tous les noms de fonctions sont sensibles à la casse. Par exemple, _getBestSendTime()_ est valide, contrairement à la fonction _GETBESTSENDTIME()_.
+* Tous les opérateurs (and, or, etc.) doivent être en minuscules. Par exemple, _`<expression1>`and`<expression2>`_ est une expression valide, contrairement à l’expression _`<expression1>`AND`<expression2>`_.
+* Tous les noms de fonctions sont sensibles à la casse. For instance, _inSegment()_ is valid whereas the function _INSEGMENT()_ is not.
 * Les références aux champs et les valeurs constantes sont sensibles à la casse : ces éléments ne sont pas intégrés au langage (par opposition aux opérateurs et aux fonctions), mais créés par l’utilisateur.
 
 ## Type d’expression renvoyé{#section_gyc_435_53b}
