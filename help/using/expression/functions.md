@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,6 @@ Voici la liste des fonctions prises en charge :
 
 | Catégorie | Fonction |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
 | Adobe Experience Platform | [](../functions/functioninsegment.md) |
 | Agrégation | [](../functions/functionavg.md) |
 | Agrégation | [](../functions/functioncount.md) |
