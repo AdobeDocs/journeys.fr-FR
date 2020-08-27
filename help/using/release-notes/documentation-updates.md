@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 91%
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -81,13 +81,14 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 ## Janvier 2020 {#january-2020}
 
 * Des limites de récupération ont été ajoutées pour les [événements d’expérience](../datasource/adobe-experience-platform-data-source.md) et les [segments](../functions/functioninsegment.md).
-* La [documentation getBestSendTime](../functions/functiongetbestsendtime.md) a été mise à jour.
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## Décembre 2019 {#december-2019}
 
 * Toutes les captures d’écran ont été mises à jour afin de prendre en compte les modifications de l’interface.
 * La section du mode test a été mise à jour. [En savoir plus](../building-journeys/testing-the-journey.md)
-* Un avertissement a été ajouté dans les sections [Optimisation de l’heure d’envoi des emails](../building-journeys/wait-activity.md) et [Score de fatigue prédictif](../ai-services/leveraging-fatigue-scores.md). Ces fonctionnalités ne sont disponibles que pour les clients qui utilisent le connecteur [de données](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)Adobe Experience Platform.
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * Il est maintenant possible de supprimer les parcours arrêtés. Les pages de documentation connexes ont été mises à jour.
 * Deux couleurs s’affichent maintenant lorsque des problèmes sont détectés dans un parcours. Rouge pour les erreurs et orange pour les avertissements. [En savoir plus](../about/troubleshooting.md)
 * La section de l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../expression/expressionadvanced.md).
