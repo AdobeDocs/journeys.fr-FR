@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 100%
+source-wordcount: '85'
+ht-degree: 85%
 
 ---
 
@@ -25,10 +25,6 @@ L’intégration avec les Services intelligents vous permet d’exploiter la pui
 
 Pour plus d’informations sur les Services intelligents, consultez la [documentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/intelligent-services/home.html).
 
-Cette intégration vous permet d’utiliser les éléments suivants :
+Cette intégration vous permet de tirer parti des prévisions des clients, voir [Exploitation de l’intelligence artificielle des clients](../ai-services/leveraging-customer-ai.md)
 
-* prédiction du client, voir [Exploitation de l’IA dédiée aux clients](../ai-services/leveraging-customer-ai.md)
-* scores de fatigue, voir [Exploitation de l’IA dédiée aux parcours](../ai-services/leveraging-fatigue-scores.md)
-
-
-
+<!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->
