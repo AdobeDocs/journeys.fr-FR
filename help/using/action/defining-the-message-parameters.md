@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae0fb0a8560bbb00ed5be47abf7f42bae5015a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Dans la section **[!UICONTROL Paramètres de message]**, collez un exemple de pa
 
 ![](../assets/customactionpayloadmessage.png)
 
-Vous pourrez définir le type de paramètre (par exemple : string, integer, etc.).
+Vous aurez la possibilité de définir le type de paramètre (par exemple : string, integer, etc.).
 
-Vous aurez également le choix entre indiquer si un paramètre est une constante ou une variable :
+Vous pourrez également préciser si le paramètre est une constante ou une variable :
 
 * Le paramètre « Constante » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une personne ayant un rôle technique. La valeur reste identique dans tous les parcours et le marketeur ne la voit pas lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s’agir, par exemple, d’un identifiant attendu par le système tiers. Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond à la valeur transmise.
 * Le paramètre « Variable » signifie que la valeur du paramètre varie. Le marketeur qui utilise cette action personnalisée dans un parcours peut transmettre la valeur de son choix ou bien indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le marketeur voit dans le parcours pour nommer ce paramètre.
