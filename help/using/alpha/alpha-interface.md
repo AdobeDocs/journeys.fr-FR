@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les concepts généraux sur l’utilisation et la navigation dans l’interface 
 
 ## Accès aux fonctionnalités de [!DNL Journey Orchestration]{#accessing-journey-orchestration-functionalities}
 
-La barre de menus située à gauche permet d&#39;accéder aux différentes fonctionnalités. Cliquez sur une icône pour accéder au menu correspondant. Vous pouvez cliquer sur la flèche en bas à gauche pour développer ou réduire la barre de menus.
+La barre de menus située à gauche permet d’accéder aux différentes fonctionnalités. Cliquez sur une icône pour accéder au menu correspondant. Vous pouvez cliquer sur la flèche en bas à gauche pour développer ou réduire la barre de menus.
 
 ![](../assets/interface-journeys2.png)
 
