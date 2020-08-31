@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Si le segment est diffusé en continu avec l’option des audiences haute fréqu
 
    ![](../assets/segment6.png)
 
-   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** vous permet de copier son nom et son ID :
+   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
