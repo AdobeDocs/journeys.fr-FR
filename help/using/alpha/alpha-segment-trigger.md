@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->Si une activité d&#39;action prête à l&#39;emploi Adobe Campaign Standard est présente dans le canevas au moment de la publication ou de l&#39;activation du mode d&#39;essai, le parcours est ralenti à 13 entrées par seconde. <br>Si aucune activité d’action prête à l’emploi n’est présente dans le canevas au moment de la publication ou de l’activation du mode de test, le parcours est ralenti à 1 000 événements par seconde.
+>Si une activité d’action Adobe Campaign Standard d’usine est présente dans la zone de travail au moment de la publication ou de l’activation du mode test, le parcours est limité à 13 entrées par seconde. <br>Dans le cas contraire, le parcours est limité à 1 000 événements par seconde.
 
 L’activité Déclencheur de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
@@ -35,7 +35,7 @@ Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. 
 
 >[!NOTE]
 >
->En raison des latences d’exportation de segments, il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
+>En raison des latences d’export de segments, il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Déclencheur de segment]** dans votre zone de travail.
 
@@ -59,7 +59,7 @@ Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. 
 
    ![](../assets/segment-trigger-segment-selection.png)
 
-   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** vous permet de copier son nom et son ID :
+   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
