@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
-workflow-type: ht
-source-wordcount: '1107'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,127 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## August 2020 Release {#august-release}
+
+### Mises à jour GA{#august-ga-update}
+
+La charge utile des événements de qualification de segment contient désormais les informations contextuelles suivantes, que vous pouvez utiliser dans les conditions et actions : le comportement (entrée, sortie), l’horodatage de la qualification et l’identifiant de segment. [En savoir plus](../building-journeys/segment-qualification-events.md)
+
+### Mises à jour Alpha{#august-alpha-update}
+
+Pour découvrir l&#39;étendue de l&#39;Alpha, reportez-vous à cette [section](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Déclencheur de segment</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les améliorations suivantes ont été apportées à l’activité Déclencheur de segment :
+</p>
+<ul>
+<li><p>Le nom de l’activité a été remplacé par "Lire le segment". </p>
+</li>
+<li><p>La configuration du Planificateur de voyage a été supprimée des propriétés de l’activité. Il est maintenant accessible directement à partir des propriétés du voyage, dans une section dédiée qui s'affichera si une activité de segment de lecture a été déposée dans la trame. </p>
+</li>
+<li><p>Vous pouvez maintenant tester le parcours sur un profil unitaire et suivre sa progression dans le parcours en utilisant le flux visuel.</p>
+</li>
+</ul>
+<p>Pour plus d’informations, consultez la <a href="../alpha/alpha-segment-trigger.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Événements basés sur des règles</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les améliorations suivantes ont été apportées aux événements fondés sur des règles :
+</p>
+<ul>
+<li><p>Vous pouvez désormais exploiter toutes les données de événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans la plate-forme afin de déclencher des voyages et d’automatiser les expériences pour vos clients. <a href="../alpha/alpha-events.md#analytics-data">En savoir plus</a></p>
+</li>
+<li><p>Lors du déclenchement d’un événement basé sur des règles en mode test, vous pouvez désormais directement vue à la condition d’identifiant de événement. En outre, une info-bulle a été ajoutée en regard de chaque champ qui fait partie de l’évaluation des règles. <a href="../alpha/alpha-events.md#configuring-rule-based">En savoir plus</a></p>
+</li>
+<li><p>L’écran de définition de événement basé sur des règles a été réorganisé pour améliorer l’expérience. <a href="../alpha/alpha-events.md#test-rule-based">En savoir plus</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Version Alpha - Juillet 2020 {#alpha-release---july-2020}
+
+Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
+
+Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.md)dédiée.
+
+<table>
+<thead>
+<tr>
+<th><strong>Interface utilisateur améliorée</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La navigation dans les menus du Journey Orchestration a été améliorée afin de fournir une interface cohérente avec Adobe Experience Platform :
+</p>
+<ul>
+<li><p>Les menus sont passés du haut à gauche de l'interface. </p>
+</li>
+<li><p>Regroupement des fonctionnalités d’administration en un seul tableau de bord</p>
+</li>
+</ul>
+<p>Pour plus d’informations, consultez la <a href="../alpha/alpha-interface.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Déclencheur de segment</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’activité Déclencheur de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement. <a href="../alpha/alpha-segment-trigger.md">En savoir plus</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Événements basés sur des règles</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nous avons simplifié la configuration des événements d’expérience. Nous proposons une nouvelle méthode qui ne nécessite pas l’utilisation d’un identifiant d’événement. Lorsque vous configurez votre événement dans Journey Orchestration, vous pouvez désormais définir un événement basé sur des règles. <a href="../alpha/alpha-events.md">En savoir plus</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Version du 2e trimestre - Juin 2020 {#q2-release---june-2020}
 
@@ -49,9 +170,9 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d'étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-</li>
 <li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
+</ul>
 </td>
 </tr>
 </tbody>
