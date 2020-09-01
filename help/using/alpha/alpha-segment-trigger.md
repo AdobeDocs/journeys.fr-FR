@@ -1,6 +1,6 @@
 ---
-title: Activité Déclencheur de segment
-description: En savoir plus sur le déclencheur de segment
+title: Lire l’activité de segment
+description: En savoir plus sur l’activité de lecture de segment.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,26 +10,26 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 39%
 
 ---
 
 
-# Activité Déclencheur de segment {#segment-trigger-activity}
+# Lire l’activité de segment {#segment-trigger-activity}
 
-## À propos de l’activité Déclencheur de segment {#about-segment-trigger-actvitiy}
+## A propos de l’activité de segment de lecture {#about-segment-trigger-actvitiy}
 
 >[!NOTE]
 >
->Si une activité d’action Adobe Campaign Standard d’usine est présente dans la zone de travail au moment de la publication ou de l’activation du mode test, le parcours est limité à 13 entrées par seconde. <br>Dans le cas contraire, le parcours est limité à 1 000 événements par seconde.
+>Si une activité d’action Adobe Campaign Standard d’usine est présente dans la zone de travail au moment de la publication ou de l’activation du mode test, le parcours est limité à 13 entrées par seconde. Sinon, le trajet sera limité à 1000 événements par seconde.
 
-L’activité Déclencheur de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
+L’activité Lire le segment vous permet de faire entrer un voyage pour toutes les personnes appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
-Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. Avec l’activité Déclencheur de segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment client Gold entrent dans un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
+Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. Grâce à l’activité Lire le segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment de clients Gold entrent dans un voyage et les faire s’enchaîner dans des voyages personnalisés qui exploiteront toutes les fonctionnalités du voyage : conditions, minuteries, événements, actions.
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}
 
@@ -37,19 +37,11 @@ Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. 
 >
 >En raison des latences d’export de segments, il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
 
-1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Déclencheur de segment]** dans votre zone de travail.
+1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Read Segment]** activity into your canvas.
 
    L’activité doit être la première étape d’un parcours.
 
-1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
-
-1. Configurez le **[!UICONTROL type de planificateur]** de l’activité.
-
-   Par défaut, le segment entre dans le parcours **[!UICONTROL Dès que possible]**, c’est-à-dire 1 heure après la publication du parcours. Si vous souhaitez que le segment entre dans le parcours à une date/heure spécifique ou sur une base récurrente, sélectionnez l’option de votre choix dans la liste.
-
-   En cas de parcours récurrents, vous pouvez également définir le début et la fin du parcours.
-
-   ![](../assets/segment-trigger-schedule.png)
+1. Add a **[!UICONTROL Label]** to the activity (optional).
 
 1. Dans le champ **[!UICONTROL Segment]**, sélectionnez le segment Adobe Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -71,20 +63,34 @@ Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. 
    >
    >Les personnes appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas entrer dans le parcours.
 
-1. Cliquez sur **[!UICONTROL Ok]** pour confirmer. Vous pouvez ensuite exploiter les activités disponibles pour créer votre parcours.
+1. L’activité de segment **** lu vous permet de spécifier l’heure à laquelle le segment entrera dans le parcours. Pour ce faire, cliquez sur le lien **[!UICONTROL Modifier la planification]** du voyage pour accéder aux propriétés du voyage, puis configurez le champ Type **[!UICONTROL de]** Planificateur.
 
-1. Une fois le parcours prêt, vous pouvez potentiellement le tester (voir [Test du parcours](../building-journeys/testing-the-journey.md)).
+   ![](../assets/segment-trigger-schedule.png)
 
-   Lorsque le mode test est activé sur un parcours commençant par une activité **[!UICONTROL Déclencheur de segment]**, 100 profils de test sont sélectionnés de manière aléatoire parmi les profils qualifiés pour le segment sélectionné. Les journaux de test vous permettront de voir le chemin des personnes dans le parcours et les erreurs potentielles rencontrées (voir [Affichage des journaux](../building-journeys/testing-the-journey.md#viewing_logs)).
+   By default, segments enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. Si vous souhaitez que le segment entre dans le parcours à une date/heure spécifique ou sur une base récurrente, sélectionnez la valeur souhaitée dans la liste.
 
    >[!NOTE]
    >
-   >Veuillez noter que vous ne pourrez pas voir les 100 personnes qui suivent le parcours à l’aide de la fonction de flux visuel qui existe dans les parcours unitaires.
+   >Notez que la section **[!UICONTROL Planification]** n’est disponible que lorsqu’une activité de segment **[!UICONTROL de]** lecture a été supprimée dans le canevas.
 
-1. Vous pouvez ensuite publier votre parcours (voir [Publication du parcours](../building-journeys/publishing-the-journey.md)). Les personnes appartenant au segment entreront dans le parcours à la date/heure spécifiée dans le planificateur d’activité Déclencheur de segment.
+   ![](../assets/segment-trigger-properties.png)
 
-   >[!IMPORTANT]
-   >
-   >Gardez à l’esprit que les segments Adobe Experience Platform sont calculés une fois par jour (segments **par lot**) ou en temps réel (segments **en flux continu**).
-   >
-   >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
+## Test et publication du parcours {#testing-publishing}
+
+L’activité **[!UICONTROL Lire le segment]** vous permet de tester le parcours soit sur un profil unitaire, soit sur 100 profils de test aléatoire sélectionnés parmi les profils qualifiés pour le segment.
+
+Pour ce faire, activez le mode de test, puis sélectionnez l’option de votre choix dans le volet de gauche.
+
+![](../assets/segment-trigger-test-modes.png)
+
+Vous pouvez ensuite configurer le mode de test comme d’habitude. Les étapes détaillées de test d&#39;un voyage sont présentées dans [cette section](../building-journeys/testing-the-journey.md).
+
+Notez que tester le parcours en utilisant jusqu&#39;à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours en utilisant le flux visuel.
+
+Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](../building-journeys/publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey&#39;s properties **[!UICONTROL Scheduler]** section.
+
+>[!IMPORTANT]
+>
+>Gardez à l’esprit que les segments Adobe Experience Platform sont calculés une fois par jour (segments **par lot**) ou en temps réel (segments **en flux continu**).
+>
+>Si le segment sélectionné est diffusé en continu, les individus appartenant à ce segment peuvent éventuellement entrer dans le voyage en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
