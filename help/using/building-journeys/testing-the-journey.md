@@ -10,10 +10,10 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
-workflow-type: ht
-source-wordcount: '1173'
+translation-type: tm+mt
+source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+workflow-type: tm+mt
+source-wordcount: '1169'
 ht-degree: 100%
 
 ---
@@ -122,10 +122,6 @@ Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer 
 Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
-
->[!NOTE]
->
->Notez que les **[!UICONTROL DATE ET HEURE]**
 
 ![](../assets/journeytest4.png)
 
