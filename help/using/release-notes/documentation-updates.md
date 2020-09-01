@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -26,8 +26,8 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Août 2020 {#august-2020}
 
-* Informations Ajoutées sur le tri et la sélection des colonnes à afficher dans la liste de segments. [En savoir plus](../building-journeys/segment-qualification-events.md)
-* Informations Ajoutées sur la copie du nom et de l’identifiant d’un segment après sa sélection. [En savoir plus](../building-journeys/segment-qualification-events.md)
+* Ajout d’informations sur le tri et la sélection des colonnes à afficher dans la liste des segments. [En savoir plus](../building-journeys/segment-qualification-events.md)
+* Ajout d’informations sur la copie du nom et de l’identifiant d’un segment après sa sélection. [En savoir plus](../building-journeys/segment-qualification-events.md)
 * Les occurrences d&#39;Experience Platform ont été harmonisées dans les différentes pages.
 
 ## Juillet 2020 {#july-2020}
