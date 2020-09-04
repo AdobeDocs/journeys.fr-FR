@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Aide de Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
