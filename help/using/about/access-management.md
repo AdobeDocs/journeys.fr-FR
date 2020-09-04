@@ -8,9 +8,9 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
