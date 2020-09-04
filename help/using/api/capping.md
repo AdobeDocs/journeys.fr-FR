@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: journeys
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1114'
 ht-degree: 100%
 
