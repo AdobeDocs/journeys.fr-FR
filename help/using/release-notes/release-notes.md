@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 82%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## August 2020 Release {#august-release}
+## Version d&#39;août 2020 {#august-release}
 
-### Mises à jour GA{#august-ga-update}
+### Mises à jour de la version GA{#august-ga-update}
 
-La charge utile des événements de qualification de segment contient désormais les informations contextuelles suivantes, que vous pouvez utiliser dans les conditions et actions : le comportement (entrée, sortie), l’horodatage de la qualification et l’identifiant de segment. [En savoir plus](../building-journeys/segment-qualification-events.md)
+Le payload des événements de qualification de segment contient maintenant les informations contextuelles suivantes, que vous pouvez utiliser dans les conditions et actions : le comportement (entrée, sortie), l’horodatage de la qualification et l’identifiant du segment. [En savoir plus](../building-journeys/segment-qualification-events.md)
 
-### Mises à jour Alpha{#august-alpha-update}
+### Mises à jour de la version Alpha{#august-alpha-update}
 
-Pour découvrir l&#39;étendue de l&#39;Alpha, reportez-vous à cette [section](../alpha/alpha-overview.md).
+Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [section](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -46,11 +46,11 @@ Pour découvrir l&#39;étendue de l&#39;Alpha, reportez-vous à cette [section](
 <p>Les améliorations suivantes ont été apportées à l’activité Déclencheur de segment :
 </p>
 <ul>
-<li><p>Le nom de l’activité a été remplacé par "Lire le segment". </p>
+<li><p>Le nom de l’activité a été remplacé par « Lecture de segment ». </p>
 </li>
-<li><p>La configuration du Planificateur de voyage a été supprimée des propriétés de l’activité. Il est maintenant accessible directement à partir des propriétés du voyage, dans une section dédiée qui s'affichera si une activité de segment de lecture a été déposée dans la trame. </p>
+<li><p>La configuration du planificateur de parcours a été supprimée des propriétés de l’activité. Elle est maintenant accessible directement à partir des propriétés du parcours, dans une section dédiée qui s'affichera si une activité de Lecture de segment a été déposée dans la zone de travail. </p>
 </li>
-<li><p>Vous pouvez maintenant tester le parcours sur un profil unitaire et suivre sa progression dans le parcours en utilisant le flux visuel.</p>
+<li><p>Vous pouvez maintenant tester le parcours sur un profil unitaire et suivre sa progression dans le parcours à l’aide du flux visuel.</p>
 </li>
 </ul>
 <p>Pour plus d’informations, consultez la <a href="../alpha/alpha-segment-trigger.md">documentation détaillée</a>.</p>
@@ -68,14 +68,14 @@ Pour découvrir l&#39;étendue de l&#39;Alpha, reportez-vous à cette [section](
 <tbody>
 <tr>
 <td>
-<p>Les améliorations suivantes ont été apportées aux événements fondés sur des règles :
+<p>Les améliorations suivantes ont été apportées aux événements basés sur des règles :
 </p>
 <ul>
-<li><p>Vous pouvez désormais exploiter toutes les données de événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans la plate-forme afin de déclencher des voyages et d’automatiser les expériences pour vos clients. <a href="../alpha/alpha-events.md#analytics-data">En savoir plus</a></p>
+<li><p>Vous pouvez maintenant utiliser toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients. <a href="../alpha/alpha-events.md#analytics-data">En savoir plus</a></p>
 </li>
-<li><p>Lors du déclenchement d’un événement basé sur des règles en mode test, vous pouvez désormais directement vue à la condition d’identifiant de événement. En outre, une info-bulle a été ajoutée en regard de chaque champ qui fait partie de l’évaluation des règles. <a href="../alpha/alpha-events.md#configuring-rule-based">En savoir plus</a></p>
+<li><p>Lors du déclenchement d’un événement basé sur des règles en mode test, vous pouvez désormais afficher directement la condition d’identifiant d’événement. En outre, une info-bulle a été ajoutée en regard de chaque champ qui fait partie de l’évaluation des règles. <a href="../alpha/alpha-events.md#configuring-rule-based">En savoir plus</a></p>
 </li>
-<li><p>L’écran de définition de événement basé sur des règles a été réorganisé pour améliorer l’expérience. <a href="../alpha/alpha-events.md#test-rule-based">En savoir plus</a></p>
+<li><p>L’écran de définition des événements basés sur des règles a été réorganisé pour améliorer l’expérience. <a href="../alpha/alpha-events.md#test-rule-based">En savoir plus</a></p>
 </li>
 </ul>
 </td>
@@ -87,7 +87,7 @@ Pour découvrir l&#39;étendue de l&#39;Alpha, reportez-vous à cette [section](
 
 Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
 
-Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.md)dédiée.
+Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.md) dédiée.
 
 <table>
 <thead>
@@ -98,10 +98,10 @@ Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.m
 <tbody>
 <tr>
 <td>
-<p>La navigation dans les menus du Journey Orchestration a été améliorée afin de fournir une interface cohérente avec Adobe Experience Platform :
+<p>La navigation dans les menus Journey Orchestration a été améliorée afin de fournir une interface en cohérence avec Adobe Experience Platform :
 </p>
 <ul>
-<li><p>Les menus sont passés du haut à gauche de l'interface. </p>
+<li><p>Menus déplacés du haut vers le côté gauche de l’interface </p>
 </li>
 <li><p>Regroupement des fonctionnalités d’administration en un seul tableau de bord</p>
 </li>
