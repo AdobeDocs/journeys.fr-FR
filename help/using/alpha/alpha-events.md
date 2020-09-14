@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -27,27 +27,27 @@ Ce nouveau type d’événement ne génère pas d’identifiant d’événement.
 
 Cette nouvelle méthode est majoritairement transparente pour les utilisateurs. La seule modification est un nouveau champ dans l’écran de définition de l’événement.
 
-## Exploitation des données Adobe Analytics{#analytics-data}
+## Utilisation des données Adobe Analytics{#analytics-data}
 
 >[!NOTE]
 >
->Cette section s’applique uniquement aux clients qui doivent utiliser des données Adobe Analytics.
+>Cette section s’applique uniquement aux clients qui doivent utiliser des données Adobe Analytics.
 
-Vous pouvez exploiter toutes les données de événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans la plate-forme afin de déclencher des voyages et d’automatiser les expériences pour vos clients.
+Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
 
-Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, la suite de rapports que vous souhaitez exploiter :
+Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, la suite de rapports que vous souhaitez utiliser :
 
-1. Dans Adobe Experience Platform, sélectionnez **[!UICONTROL Sources]** , puis **[!UICONTROL Ajoutez les données]** dans la section Adobe Analytics. La liste des suites de rapports Adobe Analytics disponibles s’affiche.
+1. Dans Adobe Experience Platform, sélectionnez **[!UICONTROL Sources]**, puis **[!UICONTROL Ajouter des données]** dans la section Adobe Analytics. La liste des suites de rapports Adobe Analytics disponibles s’affiche.
 
 1. Sélectionnez la suite de rapports à activer, cliquez sur **[!UICONTROL Suivant]** et sur **[!UICONTROL Terminer]**.
 
 1. Partagez l’ID de données source avec votre point de contact de programme Alpha.
 
-Ceci active le connecteur source Analytics pour cette suite de rapports. Chaque fois que les données entrent, elles sont transformées en événement d’expérience et envoyées dans Adobe Experience Platform.
+Cela active le connecteur source Analytics pour cette suite de rapports. Chaque fois que des données entrent, elles sont transformées en événement d’expérience et envoyées dans Adobe Experience Platform.
 
 ![](../assets/alpha-event9.png)
 
-Pour plus d’informations sur le connecteur source Adobe Analytics, consultez la [documentation](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) et le [didacticiel](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Pour plus d’informations sur le connecteur source Adobe Analytics, consultez la [documentation](https://docs.adobe.com/help/fr-FR/experience-platform/sources/connectors/adobe-applications/analytics.html) et le [tutoriel](https://docs.adobe.com/content/help/fr-FR/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
 
 ## Configuration d’un événement basé sur des règles{#configuring-rule-based}
 
@@ -93,13 +93,13 @@ Les autres étapes pour la configuration d’événement et la création de parc
 
 L’événement est maintenant configuré et prêt à être déposé dans un parcours comme n’importe quel autre événement. Chaque fois qu’un événement correspondant à la règle est envoyé au système, il est transmis à Journey Orchestration pour déclencher vos parcours.
 
-## Mode de test pour les événements basés sur des règles{#test-rule-based}
+## Mode test pour les événements basés sur des règles{#test-rule-based}
 
-Le mode test est également disponible pour les voyages qui utilisent un événement basé sur des règles.
+Le mode test est également disponible pour les parcours qui utilisent un événement basé sur des règles.
 
-Lors du déclenchement d&#39;un événement, l&#39;écran de configuration **du** Événement vous permet de définir les paramètres de événement à transmettre au test. Vous pouvez vue la condition d’ID de événement en cliquant sur l’icône d’info-bulle située dans le coin supérieur droit. Une info-bulle est également disponible en regard de chaque champ qui fait partie de l’évaluation des règles.
+Lors du déclenchement d&#39;un événement, l&#39;écran de **configuration de l’événement** permet de définir les paramètres d’événement à transmettre au test. Vous pouvez afficher la condition d’identifiant d’événement en cliquant sur l’icône d’info-bulle située dans le coin supérieur droit. Une info-bulle est également disponible en regard de chaque champ qui fait partie de l’évaluation des règles.
 
 ![](../assets/alpha-event8.png)
 
-For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
+Pour plus d’informations sur l’utilisation du mode test, consultez [](../building-journeys/testing-the-journey.md).
 
