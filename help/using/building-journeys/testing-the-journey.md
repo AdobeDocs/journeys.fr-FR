@@ -47,7 +47,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Voir [](../building-journeys/publishing-the-journey.md).
 
-## Remarques importantes             {#important_notes}
+## Remarques importantes              {#important_notes}
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Voir [](../building-journeys/testing-the-journey.md#create-test-profile).
