@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## September 2020 Release {#september-release}
+
+### Mises à jour de la version GA{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Améliorations de l’activité de condition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Lorsque vous ajoutez des conditions à votre voyage, vous pouvez désormais définir une étiquette. Si vous utilisez plusieurs conditions dans un voyage, cela vous permet de les identifier plus facilement.
+</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/condition-activity.md#about_condition">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mises à jour de la version Alpha{#september-alpha-update}
+
+Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [section](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Amélioration de l’activité des segments de lecture</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>Les voyages par segment affichent désormais, au-dessus de la trame, un rappel du type de planification du voyage. Vous pouvez cliquer sur ce rappel pour accéder au menu de configuration de planification.</p>
+</li>
+<li><p>La granularité des journaux de mode test a été améliorée pour afficher l’état de progression de l’exportation du segment.</p>
+</li>
+</ul>
+<p>Pour plus d'informations sur l'activité du segment <strong></strong> Lu, consultez la documentation <a href="../alpha/alpha-segment-trigger.md"></a>détaillée.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Version d&#39;août 2020 {#august-release}
 
