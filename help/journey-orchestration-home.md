@@ -3,10 +3,10 @@ keywords: Journeys;home;popular topics
 title: Documentation de Journey Orchestration
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 13cc1fe1b35b570f893b4fc137d002ccf4a1b40c
+source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 * **[Configurer un événement](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Découvrez comment configurer les événements qui seront écoutés dans vos parcours.
 
-* **[Accorder l’accès à Journey Orchestration](using/about/access-management.md)**<br/>Découvrez comment gérer l’accès de vos utilisateurs à l’aide de droits et de profils de produit.
-
 * **[Découvrez les nouveautés](using/release-notes/release-notes.md)**<br/>Découvrez les détails des dernières versions.
+
+* **[Fonctionnalités](using/alpha/alpha-overview.md)**<br/>d&#39;Alpha Découvrez les fonctionnalités actuellement disponibles via le programme Alpha.
 
 ## Pages principales
 
