@@ -10,10 +10,10 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
-workflow-type: ht
-source-wordcount: '120'
+translation-type: tm+mt
+source-git-commit: e5644e28d66652b013d9873275d1d564ad75b97d
+workflow-type: tm+mt
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 # Présentation des fonctionnalités Alpha
 
-Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
+Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
 
 Cette section se concentre uniquement sur les fonctionnalités Alpha. Si vous ne faites pas partie du programme Alpha et que vous souhaitez en savoir plus sur les autres fonctionnalités de Journey Orchestration, reportez-vous aux autres sections de cette [documentation](../../journey-orchestration-home.md).
 
