@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
+workflow-type: tm+mt
+source-wordcount: '1357'
+ht-degree: 86%
 
 ---
 
@@ -169,3 +169,18 @@ Les différents statuts du parcours d’un individu sont les suivants :
 * _Terminé_ : l’individu a atteint la fin du parcours.
 * _Erreur_ : le parcours de l’individu a été arrêté en raison d’une erreur.
 * _Délai dépassé_ : le parcours de l’individu a été arrêté, car l’exécution d’une étape a pris trop de temps.
+
+Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
+
+Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
+
+Le mode test crée automatiquement un Événement d’expérience et l’envoie à Adobe Experience Platform. Le nom de la source de ce Événement d’expérience est &quot;Événements de test Journey Orchestration&quot;.
+
+Dans le cas de plusieurs événements déclenchés par plusieurs voyages
+
+Il y a un scénario où plusieurs événements sont envoyés à partir de plusieurs voyages qui auront des Schémas différents. Un schéma peut-il mapper sur un jeu de données 1 ? Si ce n&#39;est pas le cas, plusieurs jeux de données seront nécessaires.
+
+La création et le nommage automatiques de ces jeux de données sont effectués si un jeu de données de destination n’est pas inclus dans le événement d’expérience. C&#39;est pourquoi nous voyons aujourd&#39;hui le &quot;jeu de données créé automatiquement pour voyageur&quot;.
+
+Le nommage de notre source entraîne la création automatique. Si nous avons plusieurs événements, nous devrions concaténer et le faire être &quot;Événement d&#39;essai Journey Orchestration - NOM DU SCHÉMA&quot;. Ce paramètre devient automatiquement &quot;Jeu de données généré automatiquement pour le Événement de test du Journey Orchestration - NOM DU SCHÉMA&quot;.
+
