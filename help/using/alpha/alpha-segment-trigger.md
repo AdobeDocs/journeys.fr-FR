@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 78%
 
 ---
 
@@ -83,14 +83,20 @@ Pour cela, activez le mode test, puis sélectionnez l’option de votre choix da
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Vous pouvez ensuite configurer le mode test comme vous le faites habituellement. Les étapes détaillées pour tester un parcours sont présentées dans [cette section](../building-journeys/testing-the-journey.md).
+Vous pouvez ensuite configurer et exécuter le mode de test comme vous le faites habituellement. Les étapes détaillées pour tester un parcours sont présentées dans [cette section](../building-journeys/testing-the-journey.md).
 
-Notez que tester le parcours en utilisant jusqu&#39;à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
+Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les journaux]** vous permet d’afficher les résultats du test en fonction de l’option de test sélectionnée :
+
+* **[!UICONTROL Profil unique à la fois]**: les journaux de test affichent les mêmes informations que lors de l’utilisation du mode de test unitaire. Voir à ce propos [cette section](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Jusqu&#39;à 100 profils à la fois]**: les journaux de test vous permettent de suivre la progression de l&#39;exportation de segments à partir de Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes qui sont entrées dans le parcours.
+
+   Notez que tester le parcours en utilisant jusqu&#39;à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
+
+   ![](../assets/read-segment-log.png)
 
 Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](../building-journeys/publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Gardez à l’esprit que les segments Adobe Experience Platform sont calculés une fois par jour (segments **par lot**) ou en temps réel (segments **en flux continu**).
->
->Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
+>Lors d’une nouvelle version d’un voyage basé sur un segment qui n’est pas récurrent (commençant dès que possible ou &quot;une fois&quot;), toutes les personnes qui sont entrées dans le voyage précédemment n’entreront pas à nouveau dans sa nouvelle version lorsque vous la publierez. Si vous voulez leur permettre de rentrer à nouveau, vous devriez duplicata le voyage.
