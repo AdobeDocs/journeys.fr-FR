@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,10 @@ Nous avons simplifié la configuration des événements d’expérience. Nous pr
 Ce nouveau type d’événement ne génère pas d’identifiant d’événement. En utilisant l’éditeur d’expression simple, vous définissez désormais simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos parcours. Cette règle peut être basée sur n’importe quel champ disponible dans le payload, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
 
 Cette nouvelle méthode est majoritairement transparente pour les utilisateurs. La seule modification est un nouveau champ dans l’écran de définition de l’événement.
+
+>[!CAUTION]
+>
+>Une règle de plafonnement est définie pour les événements basés sur des règles. Il limite à 400 000 le nombre de événements qualifiés qu&#39;un voyage peut traiter à la minute. Pour plus d&#39;informations, veuillez contacter votre point de contact du programme Alpha.
 
 ## Utilisation des données Adobe Analytics{#analytics-data}
 
