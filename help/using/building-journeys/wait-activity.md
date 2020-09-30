@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,7 +61,7 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 
 >[!NOTE]
 >
->Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Event.offerOpened.activity.endTime}), le champ de l’événement se présentant sous la forme 2016-08-12T09:46:06.
+>Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. For example: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, the field in the event being of the form 2016-08-12T09:46:06Z.
 >
 >La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [](../building-journeys/timezone-management.md).
 
