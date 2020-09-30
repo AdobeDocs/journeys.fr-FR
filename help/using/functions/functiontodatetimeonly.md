@@ -10,10 +10,10 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
-workflow-type: ht
-source-wordcount: '49'
+translation-type: tm+mt
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
+workflow-type: tm+mt
+source-wordcount: '47'
 ht-degree: 100%
 
 ---
@@ -35,8 +35,8 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| date et heure sans prise en compte du fuseau horaire au format ISO-8601 | chaîne |
-| dateTime | dateTime |
+| date et heure au format ISO-8601 | chaîne |
+| date et heure | dateTime |
 
 ## Signatures et types renvoyés
 
@@ -50,7 +50,7 @@ Renvoie une date et une heure sans prendre en compte le fuseau horaire.
 
 ## Exemples
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123")`
+`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
 
 Renvoie 2016-08-18T23:17:59.123.
 
