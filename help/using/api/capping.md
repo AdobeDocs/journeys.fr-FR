@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: journeys
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
-workflow-type: ht
-source-wordcount: '1114'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -82,12 +82,12 @@ L’API de limitation vous permet de créer, configurer et suivre vos configurat
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Obtention d’une liste des configurations de limitation des points d’entrée |
 | [!DNL POST] | /endpointConfigs | Création d’une configuration de limitation des points d’entrée |
-| [!DNL POST] | /endpointConfigs/{uid}/deploy | Déploiement d’une configuration de limitation des points d’entrée |
-| [!DNL POST] | /endpointConfigs/{uid}/undeploy | Annulation du déploiement d’une configuration de limitation des points d’entrée |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Vérification de la possibilité de déployer ou non une configuration de limitation des points d’entrée |
-| [!DNL PUT] | /endpointConfigs/{uid} | Mise à jour de la configuration de limitation des points d’entrée |
-| [!DNL GET] | /endpointConfigs/{uid} | Récupération d’une configuration de limitation des points d’entrée |
-| [!DNL DELETE] | /endpointConfigs/{uid} | Suppression d’une configuration de limitation des points d’entrée |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | Déploiement d’une configuration de limitation des points d’entrée |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | Annulation du déploiement d’une configuration de limitation des points d’entrée |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Vérification de la possibilité de déployer ou non une configuration de limitation des points d’entrée |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | Mise à jour de la configuration de limitation des points d’entrée |
+| [!DNL GET] | /endpointConfigs/`{uid}` | Récupération d’une configuration de limitation des points d’entrée |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | Suppression d’une configuration de limitation des points d’entrée |
 
 Lorsqu’une configuration est créée ou mise à jour, une vérification est automatiquement effectuée pour garantir la syntaxe et l’intégrité de la payload.
 Si certains problèmes se produisent, l’opération renvoie un avertissement ou des erreurs pour vous aider à corriger la configuration.
@@ -156,7 +156,7 @@ Les erreurs potentielles sont les suivantes :
 * **ERR_ENDPOINTCONFIG_108**: capping config: invalid max calls count (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: capping config: can&#39;t create endpoint config: invalid payload
 * **ERR_ENDPOINTCONFIG_112**: capping config: can&#39;t create endpoint config: expecting a JSON payload
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name <!--<given value>-->: must be &#39;dataSource&#39; or &#39;action&#39;
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name `<!--<given value>-->`: must be &#39;dataSource&#39; or &#39;action&#39;
 
 
 L’avertissement potentiel est :
