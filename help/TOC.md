@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Guide Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -168,13 +168,13 @@ ht-degree: 100%
 + Intégration des Services intelligents{#use-case-advanced}
    + [À propos de l’intégration de l’IA](using/ai-services/ai-services-overview.md)
    + [Utilisation de l’IA dédiée aux clients](using/ai-services/leveraging-customer-ai.md)
-+ Cas d’utilisation{#use-cases-journeys}
-   + Cas d’utilisation simple{#use-case-simple}
++ Cas pratiques{#use-cases-journeys}
+   + Sending a personalized email{#use-case-simple}
       + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
       + [Configuration de l’événement](using/usecase/configuring-the-event.md)
       + [Configuration de la source de données](using/usecase/configuring-the-data-source.md)
       + [Création du parcours](using/usecase/simple-uc-building-the-journey.md)
-   + Cas d’utilisation avancé{#use-case-advanced}
+   + Building a cross-channel journey{#use-case-advanced}
       + [À propos du cas d’utilisation avancé](using/usecase/about-the-advanced-use-case.md)
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
