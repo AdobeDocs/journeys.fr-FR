@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
-workflow-type: ht
-source-wordcount: '686'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,12 @@ Supposons que vous ayez un segment « client Silver ». Avec cette activité, 
 
 Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
 
-Si le segment est diffusé en continu avec l’option des audiences haute fréquence d’Adobe Experience Platform, les entrées et les sorties sont écoutées en temps réel. Si le segment n’est pas en flux continu, les entrées et les sorties sont prises en compte au moment du calcul du segment.
+>[!IMPORTANT]
+>
+>Gardez à l’esprit que les segments Adobe Experience Platform sont calculés une fois par jour (segments **par lot** ) ou en temps réel (segments **diffusés** , à l’aide de l’option Audiences haute fréquence de Adobe Experience Platform).
+>
+>Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
+
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification de segment]** dans la zone de travail.
 
