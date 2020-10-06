@@ -1,6 +1,6 @@
 ---
 title: À propos de la création de parcours
-description: Découvrez comment créer un parcours
+description: En tant qu'utilisateur d'entreprise, apprenez à combiner des activités de événement, d'orchestration et d'action pour construire un parcours.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 95%
 
 ---
 
