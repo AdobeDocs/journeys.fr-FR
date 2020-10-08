@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 
 >[!NOTE]
 >
->Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. For example: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, the field in the event being of the form 2016-08-12T09:46:06Z.
+>Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, le champ de l’événement se présentant sous la forme 2016-08-12T09:46:06Z.
 >
 >La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [](../building-journeys/timezone-management.md).
 
