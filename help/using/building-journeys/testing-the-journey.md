@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Voir [](../building-journeys/publishing-the-journey.md).
 
-## Remarques importantes              {#important_notes}
+## Remarques importantes               {#important_notes}
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Voir [](../building-journeys/testing-the-journey.md#create-test-profile).
@@ -172,13 +172,13 @@ Lorsqu’un événement est déclenché en mode test, un jeu de données est aut
 
 Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
 
-Le mode test crée automatiquement un Événement d’expérience et l’envoie à Adobe Experience Platform. Le nom de la source de ce Événement d’expérience est &quot;Événements de test Journey Orchestration&quot;.
+Le mode test crée automatiquement un événement d’expérience et l’envoie à Adobe Experience Platform. Le nom de la source de cet événement d’expérience est « Événements de test Journey Orchestration ».
 
-Dans le cas de plusieurs événements déclenchés par plusieurs voyages
+Dans le cas de plusieurs événements déclenchés par plusieurs parcours
 
-Il y a un scénario où plusieurs événements sont envoyés à partir de plusieurs voyages qui auront des Schémas différents. Un schéma peut-il mapper sur un jeu de données 1 ? Si ce n&#39;est pas le cas, plusieurs jeux de données seront nécessaires.
+Il existe un scénario où plusieurs événements sont envoyés à partir de plusieurs parcours qui auront des schémas différents. Est-il possible de mapper n schéma sur 1 jeu de données ? Si ce n’est pas possible, plusieurs jeux de données seront nécessaires.
 
-La création et le nommage automatiques de ces jeux de données sont effectués si un jeu de données de destination n’est pas inclus dans le événement d’expérience. C&#39;est pourquoi nous voyons aujourd&#39;hui le &quot;jeu de données créé automatiquement pour voyageur&quot;.
+La création automatique et l’attribution d’un nom à ces jeux de données sont effectués si un jeu de données de destination n’est pas inclus dans l’événement d’expérience. C&#39;est pourquoi nous voyons aujourd&#39;hui le « jeu de données créé automatiquement pour Voyager ».
 
-Le nommage de notre source entraîne la création automatique. Si nous avons plusieurs événements, nous devrions concaténer et le faire être &quot;Événement d&#39;essai Journey Orchestration - NOM DU SCHÉMA&quot;. Ce paramètre devient automatiquement &quot;Jeu de données généré automatiquement pour le Événement de test du Journey Orchestration - NOM DU SCHÉMA&quot;.
+L’attribution d’un nom à notre source entraîne la création automatique. Si nous avons plusieurs événements, nous devrions concaténer et nommer le tout « Événement de test Journey Orchestration - NOM DU SCHÉMA ». Cela se transforme automatiquement en « Jeu de données généré automatiquement pour l’Événement de test Journey Orchestration - NOM DU SCHÉMA ».
 
