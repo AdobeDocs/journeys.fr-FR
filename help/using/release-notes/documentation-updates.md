@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Septembre 2020 {#september-2020}
 
-* La section de description de l’interface a été mise à jour afin de refléter le nouveau menu du sélecteur **** Tous. [En savoir plus](../about/user-interface.md)
-* Ajouté une note sur les nouvelles versions des voyages par segment qui ne sont pas récurrentes. [En savoir plus](../alpha/alpha-segment-trigger.md)
+* Mise à jour de la section de description de l’interface pour prendre en compte le nouveau menu **Tout sélecteur**. [En savoir plus](../about/user-interface.md)
+* Ajout d’une note sur les nouvelles versions des parcours basés sur les segments qui ne sont pas récurrents. [En savoir plus](../alpha/alpha-segment-trigger.md)
 
 ## Août 2020 {#august-2020}
 
