@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## September 2020 Release {#september-release}
+## Version de septembre 2020 {#september-release}
 
 ### Mises à jour de la version GA{#september-ga-update}
 
@@ -35,7 +35,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <tbody>
 <tr>
 <td>
-<p>Lorsque vous ajoutez des conditions à votre voyage, vous pouvez désormais définir une étiquette. Si vous utilisez plusieurs conditions dans un voyage, cela vous permet de les identifier plus facilement.
+<p>Lorsque vous ajoutez des conditions à votre parcours, vous pouvez maintenant définir un libellé. Si vous utilisez plusieurs conditions dans un parcours, vous pouvez ainsi les identifier plus facilement.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/condition-activity.md#about_condition">documentation détaillée</a>.</p>
 </td>
@@ -50,21 +50,21 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 <table>
 <thead>
 <tr>
-<th><strong>Amélioration de l’activité des segments de lecture</strong><br/></th>
+<th><strong>Amélioration de l’activité Lecture de segment</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p>Les améliorations suivantes ont été apportées à l’activité <strong>Lecture de segment</strong> :
 </p>
 <ul>
-<li><p>Les voyages par segment affichent désormais, au-dessus de la trame, un rappel du type de planification du voyage. Vous pouvez cliquer sur ce rappel pour accéder au menu de configuration de planification.</p>
+<li><p>Les parcours basés sur des segments affichent maintenant, au-dessus de la zone de travail, un rappel du type de planification du parcours Vous pouvez cliquer sur ce rappel pour accéder au menu de configuration des planifications.</p>
 </li>
-<li><p>La granularité des journaux de mode test a été améliorée pour afficher l’état de progression de l’exportation du segment.</p>
+<li><p>La granularité des journaux du mode test a été améliorée pour afficher l’état d’avancement de l’export des segments.</p>
 </li>
 </ul>
-<p>Pour plus d'informations sur l'activité du segment <strong></strong> Lu, consultez la documentation <a href="../alpha/alpha-segment-trigger.md"></a>détaillée.</p>
+<p>Pour plus d'informations sur l'activité <strong>Lecture de segment</strong>, consultez la <a href="../alpha/alpha-segment-trigger.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
