@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -81,13 +81,13 @@ Pour cela, activez le mode test, puis sélectionnez l’option de votre choix da
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Vous pouvez ensuite configurer et exécuter le mode de test comme vous le faites habituellement. Les étapes détaillées pour tester un parcours sont présentées dans [cette section](../building-journeys/testing-the-journey.md).
+Vous pouvez ensuite configurer et exécuter le mode test comme vous le faites habituellement. Les étapes détaillées pour tester un parcours sont présentées dans [cette section](../building-journeys/testing-the-journey.md).
 
-Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les journaux]** vous permet d’afficher les résultats du test en fonction de l’option de test sélectionnée :
+Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les journaux]** vous permet d’afficher les résultats du test en fonction de l’option de test sélectionnée :
 
-* **[!UICONTROL Profil unique à la fois]**: les journaux de test affichent les mêmes informations que lors de l’utilisation du mode de test unitaire. Voir à ce propos [cette section](../building-journeys/testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Profil unique à la fois]** : les journaux de test affichent les mêmes informations que lors de l’utilisation du mode test unitaire. Voir à ce propos [cette section](../building-journeys/testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Jusqu&#39;à 100 profils à la fois]**: les journaux de test vous permettent de suivre la progression de l&#39;exportation de segments à partir de Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes qui sont entrées dans le parcours.
+* **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** : les journaux de test vous permettent de suivre l’avancement de l&#39;export des segments à partir d’Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes ayant rejoint le parcours.
 
    Notez que tester le parcours en utilisant jusqu&#39;à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
 
@@ -97,4 +97,4 @@ Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publicati
 
 >[!NOTE]
 >
->Lors d’une nouvelle version d’un voyage basé sur un segment qui n’est pas récurrent (commençant dès que possible ou &quot;une fois&quot;), toutes les personnes qui sont entrées dans le voyage précédemment n’entreront pas à nouveau dans sa nouvelle version lorsque vous la publierez. Si vous voulez leur permettre de rentrer à nouveau, vous devriez duplicata le voyage.
+>Lors de la création d’une nouvelle version d’un parcours basé sur des segments qui n’est pas récurrent (commençant le plus tôt possible ou « une fois »), tous les individus ayant rejoint précédemment le parcours ne rejoindront pas de nouveau la nouvelle version lorsque vous la publierez. Si vous voulez leur permettre de rejoindre de nouveau le parcours, vous devrez le dupliquer.
