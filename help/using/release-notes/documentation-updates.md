@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +25,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 ## Septembre 2020 {#september-2020}
 
 * La section de description de l’interface a été mise à jour afin de refléter le nouveau menu du sélecteur **** Tous. [En savoir plus](../about/user-interface.md)
-* ajouté une note sur les nouvelles versions des voyages par segment qui ne sont pas récurrentes. [En savoir plus](../alpha/alpha-segment-trigger.md)
+* Ajouté une note sur les nouvelles versions des voyages par segment qui ne sont pas récurrentes. [En savoir plus](../alpha/alpha-segment-trigger.md)
 
 ## Août 2020 {#august-2020}
 
