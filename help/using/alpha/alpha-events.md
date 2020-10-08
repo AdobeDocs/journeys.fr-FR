@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Cette nouvelle méthode est majoritairement transparente pour les utilisateurs. 
 
 >[!CAUTION]
 >
->Une règle de plafonnement est définie pour les événements basés sur des règles. Il limite à 400 000 le nombre de événements qualifiés qu&#39;un voyage peut traiter à la minute. Pour plus d&#39;informations, veuillez contacter votre point de contact du programme Alpha.
+>Une règle de limitation est définie pour les événements basés sur des règles. Elle limite à 400 000 par minute le nombre d’événements qualifiés qu’un parcours peut traiter. Pour plus d’informations, contactez votre point de contact du programme Alpha.
 
 ## Utilisation des données Adobe Analytics{#analytics-data}
 
