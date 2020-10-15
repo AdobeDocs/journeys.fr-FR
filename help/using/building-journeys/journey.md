@@ -1,6 +1,6 @@
 ---
 title: À propos de la création de parcours
-description: En tant qu'utilisateur d'entreprise, apprenez à combiner des activités de événement, d'orchestration et d'action pour construire un parcours.
+description: En tant qu’utilisateur d’entreprise, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
