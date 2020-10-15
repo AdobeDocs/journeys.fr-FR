@@ -2,12 +2,12 @@
 product: Journeys
 audience: end-user
 user-guide-title: Guide Journey Orchestration
-user-guide-description: Provides how-to instructions for implementing and building journeys.
+user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
