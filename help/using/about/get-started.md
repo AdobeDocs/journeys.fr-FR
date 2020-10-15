@@ -1,6 +1,6 @@
 ---
 title: Prise en main
-description: Découvrez les étapes principales pour configurer le Journey Orchestration et créer votre premier voyage.
+description: Découvrez les étapes principales pour configurer le Journey Orchestration et créer votre premier parcours.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,8 +11,8 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
