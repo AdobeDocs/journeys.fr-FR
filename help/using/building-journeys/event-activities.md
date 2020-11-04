@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 39%
 
 ---
 
@@ -31,12 +31,29 @@ Lorsque vous cliquez sur l’activité d’événement dans la zone de travail, 
 
 ![](../assets/journey33.png)
 
-## Utilisation avancée : événements avec une activité d’attente en parallèle{#section_vxv_h25_pgb}
+## Écoute des événements pendant une période spécifique
 
-**Comment faire pour écouter un événement pendant une certaine période ?**
+Une activité d’événement située dans le parcours « écoute » les événements pendant une durée indéterminée. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer un délai d’expiration pour le événement.
 
-Une activité d’événement située dans le parcours « écoute » les événements pendant une durée indéterminée. Pour limiter la durée d’écoute à une période bien définie, vous devez ajouter une activité d’attente parallèlement au chemin de l’événement. Ce faisant, le parcours écoutera l’événement au cours de la période définie dans l’activité d’attente. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l’événement. Dans le cas contraire, il sera placé dans le chemin d’attente.
+Le parcours écoute ensuite le événement pendant le délai d’attente spécifié. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l’événement. Si ce n&#39;est pas le cas, le client va soit suivre un délai d&#39;attente, soit terminer son voyage.
 
-Supposons, par exemple, que vous ayez envoyé une première notification push de bienvenue à un client et que vous souhaitiez lui envoyer une notification push de remise sur un repas, uniquement s’il se rend dans le restaurant dans les 6 prochaines heures. Pour ce faire, vous allez créer un deuxième chemin (parallèlement à l’événement « restaurant » numéro 1) avec une activité d’attente de 6 heures. Si l’événement « restaurant » est reçu moins de 6 heures après la notification push de bienvenue, l’activité push de remise sur un repas est envoyée. Si aucun événement « restaurant » n’est reçu sous 6 heures, le client passe par le chemin d’attente.
+Pour configurer un délai d’expiration pour un événement, procédez comme suit :
 
-![](../assets/journeyuc2_31.png)
+1. Activez l’option **[!UICONTROL Activer le délai d’expiration]** du événement à partir des propriétés du événement.
+
+1. Indiquez la durée d’attente du événement pour le parcours.
+
+1. Si vous souhaitez envoyer les individus dans un chemin de temporisation lorsqu’aucun événement n’est reçu dans le délai d’attente spécifié, activez l’option **[!UICONTROL Définir le chemin]** de temporisation. Si cette option n&#39;est pas activée, le parcours se termine pour l&#39;individu une fois le délai dépassé.
+
+   ![](../assets/event-timeout.png)
+
+Dans cet exemple, le voyage envoie un premier message de bienvenue à un client. Il envoie alors une remise de repas uniquement si le client entre dans le restaurant le lendemain. Nous avons donc configuré le événement de restaurant avec un délai d&#39;attente d&#39;un jour :
+
+* Si le événement du restaurant est reçu moins d&#39;une journée après la poussée de bienvenue, l&#39;activité de remise de repas est envoyée.
+* Si aucun événement de restaurant n’est reçu le lendemain, la personne passe par le chemin du délai d’attente.
+
+Notez que si vous souhaitez configurer un délai d’attente sur plusieurs événements positionnés après une activité d’ **[!UICONTROL attente]** , vous devez configurer le délai d’attente sur un seul de ces événements uniquement.
+
+Le délai d’attente s’applique à tous les événements postérieurs à l’activité d’ **[!UICONTROL attente]** . Si aucun événement n’est reçu après le délai d’attente spécifié, les individus s’enchaînent dans un seul chemin d’expiration ou terminent leur voyage.
+
+![](../assets/event-timeout-group.png)
