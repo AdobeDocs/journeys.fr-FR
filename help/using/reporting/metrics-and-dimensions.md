@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 98%
 
 ---
 
@@ -38,8 +38,10 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
 | **Action** | Liste de chaque action (**nom de l’action - libellé de l’action**) utilisée dans les parcours, par exemple Push – Confirmation de passage en caisse, Email - Fidélité récompensée. |
 | **Source de données** | Liste des sources de données (**nom de la source de données**) utilisées pour enrichir les données des parcours, par exemple Adobe Experience Platform, système de réservation. |
 | **[!UICONTROL Événement]** | Liste de chaque événement (**nom de l’événement - libellé de l’événement**) utilisé dans les parcours, par exemple Événement Geometrixx - Passage en caisse Geometrixx. |
+| **[!UICONTROL Origine événement]** | Ventiler les événements par catégorie : **[!UICONTROL Événement]** interne et événement **** externe. Pour plus d’informations, consultez cette [page](../building-journeys/jump.md). |
 | **Groupe de champs** | Liste des groupes de champs (**nom du groupe de champs**) utilisés pour enrichir les données des parcours, par exemple groupe de champs Profil, système de réservation Geometrixx. |
 | **Parcours** | Liste de chaque parcours (**nom du parcours**) en mode test et actif, par exemple abandon de panier, notification de réservation d’hôtel. |
+| **[!UICONTROL Origine du voyage]** | Ventilation du événement **** interne par voyage. |
 | **Version du parcours** | Liste de chaque version publiée d’un parcours (**nom du parcours + numéro de version**), par exemple abandon de panier v1, notification de réservation d’hôtel v2. |
 | **Orchestration** | Liste de chaque activité d’orchestration (**Condition, Fin, Attente**) définie et utilisée dans les parcours. |
 
@@ -61,7 +63,6 @@ Le tableau ci-dessous contient la liste des dimensions de diffusion utilisées d
 | **Catégorie de l’URL de tracking** | Catégorie affectée à l’URL de tracking. |
 | **Libellé de l’URL de tracking** | Libellé de l’URL (page miroir, contactez-nous, ou ouverture, par exemple). |
 | **Variante** | Variante de l’email en cas de test A/B. |
-
 
 ## Mesures de parcours {#MBE_p_p22_c4j_w2b}
 
