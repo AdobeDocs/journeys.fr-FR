@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: ba0f8c2afdba433d415a40ef3758c32ae21f0898
+source-git-commit: 76a03422d7c096c2af4a1e9c95a9bc8bf5f8b214
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1731'
 ht-degree: 96%
 
 ---
@@ -23,8 +23,6 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
 ## October 2020 Release {#october-release}
-
-### Mises à jour de la version GA{#october-ga-update}
 
 <table>
 <thead>
