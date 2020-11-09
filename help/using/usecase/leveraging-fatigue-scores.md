@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour év
 
 ## Configuration de l’événement {#section_ptb_ws1_ffb}
 
-Suivez les étapes décrites dans la section [](../event/about-events.md).
+Suivez les étapes décrites dans [cette page](../event/about-events.md).
 
 ## Configuration de la source de données {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ Pour sélectionner les champs de score de fatigue dans la source de données int
 
 ## Création du parcours {#section_uzm_pyy_wfb}
 
-Pour créer, valider et publier le parcours, suivez les étapes décrites dans la section [](../building-journeys/journey.md).
+To create, validate and publish the journey, follow the steps described in [this page](../building-journeys/journey.md).
 
 Dans notre cas d’utilisation, nous employons le champ **[!UICONTROL fatigueLevel]**. Vous pouvez également avoir recours au champ **[!UICONTROL fatigueScore]**.
 
