@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
@@ -63,7 +63,7 @@ Il est possible d’associer une valeur par défaut à un nom de champ. La synta
 
 **Référence d’un champ dans les collections**
 
-Les éléments définis dans les collections sont référencés à l’aide des fonctions spécifiques « all », « first » et « last ». Pour plus d’informations, reportez-vous à la section [](../expression/collection-management-functions.md).
+Les éléments définis dans les collections sont référencés à l’aide des fonctions spécifiques « all », « first » et « last ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
 Exemple :
 
@@ -73,17 +73,17 @@ Exemple :
 
 **Référence d’un champ défini dans un mapping**
 
-Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’entrée avec une clé donnée. Elle est par exemple utilisée lors de la définition de la clé d’un événement, selon l’espace de noms sélectionné. Voir Sélection de l’espace de noms. Pour plus d’informations, reportez-vous à la section [](../event/selecting-the-namespace.md).
+Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’entrée avec une clé donnée. Elle est par exemple utilisée lors de la définition de la clé d’un événement, selon l’espace de noms sélectionné. Voir Sélection de l’espace de noms. Pour plus d’informations, consultez cette [page](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Dans cette expression, nous obtenons l’entrée correspondant à la clé « Email » du champ « IdentityMap » d’un événement. L’entrée « Email » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, reportez-vous à la section [](../expression/collection-management-functions.md).
+Dans cette expression, nous obtenons l’entrée correspondant à la clé « Email » du champ « IdentityMap » d’un événement. L’entrée « Email » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez cette [page](../expression/collection-management-functions.md).
 
 **Valeurs de paramètre d’une source de données (valeurs dynamiques de la source de données)**
 
-Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre, un nouvel onglet s’affiche à droite pour vous permettre de spécifier ce paramètre. Voir [](../expression/expressionadvanced.md).
+Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre, un nouvel onglet s’affiche à droite pour vous permettre de spécifier ce paramètre. Voir [cette page](../expression/expressionadvanced.md).
 
 Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les paramètres de la source de données dans l’expression principale, vous pouvez définir leurs valeurs à l’aide du mot-clé _params_. Un paramètre peut être constitué de n’importe quelle expression valide, même provenant d’une autre source de données contenant également un autre paramètre.
 
