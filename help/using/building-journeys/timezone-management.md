@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,10 @@ Pour accéder aux propriétés, cliquez sur l’icône en forme de crayon dans l
 
 Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un élément temporel tel que :
 
-* [](../building-journeys/condition-activity.md#time_condition)
-* [](../building-journeys/condition-activity.md#date_condition)
-* [](../building-journeys/wait-activity.md#custom)
-* [](../building-journeys/wait-activity.md#fixed_date)
+* [Condition de temps](../building-journeys/condition-activity.md#time_condition)
+* [Condition de date](../building-journeys/condition-activity.md#date_condition)
+* [Attente personnalisée](../building-journeys/wait-activity.md#custom)
+* [Attente à date fixe](../building-journeys/wait-activity.md#fixed_date)
 
 Vous pouvez sélectionner un fuseau horaire ou choisir d’utiliser celui défini dans le profil utilisateur.
 
