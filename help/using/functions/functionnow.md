@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 100%
+source-wordcount: '49'
+ht-degree: 79%
 
 ---
 
 
 # now {#now}
 
-Renvoie la date actuelle au format date et heure. Pour plus d’informations sur les types de données, reportez-vous à la section [](../expression/data-types.md).
+Renvoie la date actuelle au format date et heure. For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## Catégorie
 
