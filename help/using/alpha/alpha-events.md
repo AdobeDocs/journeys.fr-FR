@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 100%
+source-wordcount: '687'
+ht-degree: 97%
 
 ---
 
@@ -103,5 +103,4 @@ Lors du déclenchement d&#39;un événement, l&#39;écran de **configuration de 
 
 ![](../assets/alpha-event8.png)
 
-Pour plus d’informations sur l’utilisation du mode test, consultez [](../building-journeys/testing-the-journey.md).
-
+For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
