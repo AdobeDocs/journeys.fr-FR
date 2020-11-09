@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 98%
 
 ---
 
@@ -58,4 +58,4 @@ Les fuseaux horaires sont définis au niveau du parcours.
 
 Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours.
 
-Pour plus d’informations sur la gestion des fuseaux horaires, voir [](../building-journeys/timezone-management.md).
+For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
