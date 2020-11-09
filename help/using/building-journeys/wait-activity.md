@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Vous pouvez définir une condition afin de limiter l’attente à une certaine p
 >
 >La durée d’attente maximale est de 30 jours.
 >
->En mode test, le paramètre **[!UICONTROL Temps d’attente en test]** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [](../building-journeys/testing-the-journey.md)
+>En mode test, le paramètre **[!UICONTROL Temps d’attente en test]** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [cette page](../building-journeys/testing-the-journey.md)
 
 ## Durée de l’attente{#duration}
 
@@ -55,13 +55,13 @@ Sélectionnez la date d’exécution de l’activité suivante.
 
 ## Attente personnalisée{#custom}
 
-Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L’expression figurant dans l’éditeur d’expression doit fournir un format dateTimeOnly. Voir [](../expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, voir [](../expression/data-types.md).
+Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L’expression figurant dans l’éditeur d’expression doit fournir un format dateTimeOnly. Voir [cette page](../expression/expressionadvanced.md). For more information on dateTimeOnly format, see [this page](../expression/data-types.md).
 
 >[!NOTE]
 >
 >Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, le champ de l’événement se présentant sous la forme 2016-08-12T09:46:06Z.
 >
->La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [](../building-journeys/timezone-management.md).
+>La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
