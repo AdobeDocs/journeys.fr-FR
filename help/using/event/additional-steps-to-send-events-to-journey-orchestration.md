@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Lors de la création d’un événement, [!DNL Journey Orchestration] génère automatiquement un identifiant qui lui correspond. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [](../event/previewing-the-payload.md).
+>Lors de la création d’un événement, [!DNL Journey Orchestration] génère automatiquement un identifiant qui lui correspond. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [cette page](../event/previewing-the-payload.md).
 
 Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans [!DNL Journey Orchestration], procédez comme suit :
 
 1. Récupérez l’URL d’inlet à partir des API d’Adobe Experience Platform (voir [API d’ingestion en flux continu](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/overview.html)).
-1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. Voir [](../event/defining-the-payload-fields.md).
+1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. Voir [cette page](../event/defining-the-payload-fields.md).
 
 Vous devez ensuite configurer le système de données qui envoie les événements vers les API d’ingestion en flux continu à l’aide de la payload que vous avez copiée :
 
