@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Un **utilisateur chargé de la conception de parcours** peut maintenant créer l
 >
 >Les activités **[!UICONTROL Push]** et **[!UICONTROL Email]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
 
-Pour plus d’informations sur la création d’un parcours, consultez la section [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Accueil]** et **[!UICONTROL Créer]** pour créer un parcours.
 
@@ -72,7 +72,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
 
    ![](../assets/journeyuc1_17.png)
 
-1. Cliquez sur le bouton bascule **[!UICONTROL Test]** et vérifiez votre parcours à l’aide des profils de test. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Reportez-vous à la section [](../building-journeys/testing-the-journey.md) pour plus d’informations sur le mode test.
+1. Cliquez sur le bouton bascule **[!UICONTROL Test]** et vérifiez votre parcours à l’aide des profils de test. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
