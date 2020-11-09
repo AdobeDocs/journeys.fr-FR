@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Un mécanisme de validation de syntaxe vérifie l’intégrité du code. Les err
 
 **Nécessité de paramètres pour la création de conditions à l’aide de l’éditeur d’expression avancé**
 
-Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre (voir [](../datasource/external-data-sources.md). Le paramètre « ville », par exemple, est fréquemment utilisé dans une source de données météorologiques. Vous devez donc sélectionner l’emplacement où vous souhaitez obtenir ce paramètre. Il est également possible d’appliquer des fonctions aux paramètres pour effectuer des modifications de format ou des concaténations.
+If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). Le paramètre « ville », par exemple, est fréquemment utilisé dans une source de données météorologiques. Vous devez donc sélectionner l’emplacement où vous souhaitez obtenir ce paramètre. Il est également possible d’appliquer des fonctions aux paramètres pour effectuer des modifications de format ou des concaténations.
 
 ![](../assets/journeyuc2_19.png)
 
