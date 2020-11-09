@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 39%
+source-wordcount: '457'
+ht-degree: 33%
 
 ---
 
 
 # À propos des activités d’événement {#concept_rws_1rt_52b}
 
-Les événements configurés par l’utilisateur technique (voir la section [](../event/about-events.md)) sont tous affichés dans la première catégorie de la palette, dans la partie gauche de l’écran.
+The events configured by the technical user (see [this page](../event/about-events.md)) are all displayed in the first category of the palette, on the left side of the screen.
 
 ![](../assets/journey43.png)
 
