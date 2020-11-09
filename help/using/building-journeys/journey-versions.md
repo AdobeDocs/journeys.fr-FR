@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 86%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 # Versions de parcours{#concept_ldc_k55_zgb}
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [](../building-journeys/using-the-journey-designer.md). Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l’application. Vous pouvez ensuite définir l’ordre de tri souhaité ; l’application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail.
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [cette page](../building-journeys/using-the-journey-designer.md). Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l’application. Vous pouvez ensuite définir l’ordre de tri souhaité ; l’application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail.
 
 ![](../assets/journeyversions1.png)
 
