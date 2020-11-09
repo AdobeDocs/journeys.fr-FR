@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ L’**utilisateur chargé de la conception de parcours** peut maintenant créer 
 >
 >Les activités **[!UICONTROL Push]** et **[!UICONTROL Email]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
 
-Pour plus d’informations sur la création d’un parcours, consultez la section [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 ## Premières étapes{#section_ntb_ws1_ffb}
 
@@ -81,7 +81,7 @@ Pour plus d’informations sur la création d’un parcours, consultez la sectio
    >
    >Dans la deuxième partie de l’expression,« Profile » est facultatif.
 
-1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les espaces de noms, consultez la section [](../event/selecting-the-namespace.md).
+1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d&#39;informations sur les espaces de nommage, consultez [cette page](../event/selecting-the-namespace.md).
 
 Dans notre cas d’utilisation, nous ne voulons réagir qu’à ces deux conditions. Nous n’allons donc pas cocher la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
 
@@ -106,7 +106,7 @@ Après la condition, deux chemins sont créés :
 
    ![](../assets/journeyuc2_18.png)
 
-1. Si vous sélectionnez un champ d’une source de données externe, la partie droite de l’écran affiche la liste des paramètres définis lors de la configuration de la source de données externe (voir [](../usecase/configuring-the-data-sources.md)). Cliquez sur le nom du paramètre et définissez la valeur de la clé du système de réservation, l’Experience Cloud ID, dans notre exemple :
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). Cliquez sur le nom du paramètre et définissez la valeur de la clé du système de réservation, l’Experience Cloud ID, dans notre exemple :
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -172,7 +172,7 @@ Après la condition, deux chemins sont créés :
 
 1. Ajoutez une activité **[!UICONTROL Fin]**.
 
-Cliquez sur le bouton **[!UICONTROL Test]** et testez votre parcours. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Reportez-vous à la section [](../building-journeys/testing-the-journey.md) pour plus d’informations sur le mode test.
+Cliquez sur le bouton **[!UICONTROL Test]** et testez votre parcours. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
