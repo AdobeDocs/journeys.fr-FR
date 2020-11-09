@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 89%
 
 ---
 
@@ -35,10 +35,10 @@ Cette configuration n’est pas requise si vos parcours utilisent uniquement les
 
 Il existe deux types de sources de données :
 
-* La source de données Adobe Experience Platform préconfigurée qui définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [](../datasource/adobe-experience-platform-data-source.md).
-* Les sources de données externes qui vous permettent de définir une connexion à des systèmes externes. Il s’agit des sources de données que vous pouvez créer. Voir [](../datasource/external-data-sources.md).
+* La source de données Adobe Experience Platform préconfigurée qui définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [cette page](../datasource/adobe-experience-platform-data-source.md).
+* Les sources de données externes qui vous permettent de définir une connexion à des systèmes externes. Il s’agit des sources de données que vous pouvez créer. Voir [cette page](../datasource/external-data-sources.md).
 
-Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [](../datasource/field-groups.md).
+Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [cette page](../datasource/field-groups.md).
 
 Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
@@ -50,11 +50,11 @@ Les principales étapes de configuration d’une source de données sont les sui
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]**.
 
-   La liste des sources de données s’affiche. Pour plus d’informations sur l’interface, voir [](../about/user-interface.md).
+   La liste des sources de données s’affiche. See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. Ensuite, vous pouvez soit ajouter des groupes de champs à la source de données intégrée (voir [](../datasource/adobe-experience-platform-data-source.md)), soit créer une source de données externe (voir [](../datasource/external-data-sources.md)) et les groupes de champs associés (voir [](../datasource/field-groups.md)).
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
