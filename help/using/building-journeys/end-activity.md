@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '60'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,6 @@ ht-degree: 100%
 
 # Activité de fin {#section_vqp_4ft_dgb}
 
-L’activité **[!UICONTROL Fin]** vous permet de marquer la fin de chaque chemin du parcours. Elle n’est pas obligatoire, mais recommandée pour assurer une meilleure clarté visuelle. En effet, si le parcours comporte plusieurs activités de fin, il est conseillé d’ajouter un libellé à chaque fin pour faciliter la lecture des rapports. Voir [](../reporting/about-journey-reports.md).
+L’activité **[!UICONTROL Fin]** vous permet de marquer la fin de chaque chemin du parcours. Elle n’est pas obligatoire, mais recommandée pour assurer une meilleure clarté visuelle. En effet, si le parcours comporte plusieurs activités de fin, il est conseillé d’ajouter un libellé à chaque fin pour faciliter la lecture des rapports. Voir [cette page](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
