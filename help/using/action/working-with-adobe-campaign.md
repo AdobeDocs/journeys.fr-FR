@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent 
 
 >[!NOTE]
 >
->Pour éviter de surcharger les messages transactionnels d’Adobe Campaign Standard, il est recommandé de configurer une **règle de limitation** pour l’intégration de Campaign Standard.
+>Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Pour réduire le risque de surcharge, nous vous recommandons de configurer une règle **de** plafonnement pour l’intégration du Campaign Standard.
 >
 >Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la [description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html).
 
