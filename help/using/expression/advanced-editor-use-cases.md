@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 99%
 
 ---
 
 
-# Utilisation de l’éditeur d’expression avancé
+# Exemples d’expressions avancées
 
 L’éditeur d’expression avancé sert à créer des conditions pour filtrer les utilisateurs dans vos parcours. Ces conditions permettent de cibler les utilisateurs en fonction de l’heure, de la date, de l’emplacement, de la durée ou des actions, notamment l’achat ou l’abandon de panier pour pouvoir les recibler dans le parcours.
 
@@ -54,24 +54,23 @@ Ensuite, il faut sélectionner tous les événements addtocart qui n’ont pas �
 
 L’horodatage spécifié tient lieu de valeur de date et d’heure, et la deuxième valeur correspond au nombre de jours.
 
-    ```
-    In( “addToCart”, #{ExperiencePlatformDataSource
-    .ExperienceEventFieldGroup
-    .experienceevent
-    .all(
-    inLastDays(currentDataPackField.timestamp, 7 ))
-    .productData
-    .productInteraction})
-    And
-    Not(In( “completePurchase”, #{ExperiencePlatformDataSource
-    .ExperienceEventFieldGroup
-    .experienceevent
-    .all(
-    inLastDays(currentDataPackField.timestamp, 7 ))
-    .productData
-    .productInteraction})
-    
-    ```
+```
+        In( “addToCart”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+        And
+        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+```
 
 Cette expression renvoie une valeur booléenne.
 
@@ -107,44 +106,42 @@ De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où
 
 Cette condition récupère uniquement les événements de géorepérage déclenchés dans &quot;Arlington&quot; :
 
-    ```
-    @{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name} == &quot;Arlington&quot;
-    ```
+```
+        @{GeofenceEntry
+                    .placeContext
+                    .POIinteraction
+                    .POIDetail
+                    .name} == "Arlington"
+```
 
 Explication : il s’agit d’une comparaison de chaînes stricte (sensible à la casse), équivalente à une requête en mode simple qui utilise l’opérateur `equal to` avec `Is sensitive` coché.
 
 La même requête avec `Is sensitive` non coché génère l’expression suivante en mode avancé :
 
-    ```
-    equalIgnoreCase(@{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name}, &quot;Arlington&quot;)
-    
-    ```
+```
+        equalIgnoreCase(@{GeofenceEntry
+                        .placeContext
+                        .POIinteraction
+                        .POIDetail
+                        .name}, "Arlington")
+```
 
 **Dans des actions**
 
 L’expression suivante permet de définir l’identifiant CRM dans un champ de personnalisation d’action :
 
-    ```
+```
     substr(@{MobileAppLaunch
-    ._myorganization
-    .identification
-    .crmid}, 1,
-    lastIndexOf(@{MobileAppLaunch
-    ._myorganization
-    .identification
-    .crmid}
-    }
-    ))
-    
-    ```
+            ._myorganization
+            .identification
+            .crmid}, 1, 
+            lastIndexOf(@{MobileAppLaunch
+                        ._myorganization
+                        .identification
+                        .crmid}
+                         }
+                         ))
+```
 
 Explication : cet exemple utilise les fonctions `substr` et `lastIndexOf` pour supprimer les accolades qui encadrent l’identifiant CRM transmis avec un événement de lancement d’application mobile.
 
