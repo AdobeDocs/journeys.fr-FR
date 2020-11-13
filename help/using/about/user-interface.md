@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1113'
+ht-degree: 94%
 
 ---
 
@@ -139,3 +139,11 @@ _Dans la zone de travail d’un parcours :_
 * Utilisez la combinaison de touches **Ctrl/Commande + A** pour sélectionner toutes les activités.
 * Lorsqu’une ou plusieurs activités sont sélectionnées, appuyez sur **Supprimer** ou **Retour arrière** pour les supprimer. Vous pouvez ensuite appuyer sur **Entrée** pour confirmer la suppression dans la fenêtre contextuelle de confirmation.
 * Double-cliquez sur une activité dans la palette de gauche pour l’ajouter dans la première position disponible (du haut vers le bas).
+
+_En voyage :_
+
+* Appuyez sur **T** pour activer/désactiver le mode de test.
+* Dans un parcours par événement en mode test, appuyez sur **E** pour déclencher un événement.
+* Dans un parcours par segment, lorsque l’option profil **unique à la fois** est sélectionnée en mode test, appuyez sur **P** pour déclencher un événement.
+* En mode test, appuyez sur **L** pour afficher les journaux.
+
