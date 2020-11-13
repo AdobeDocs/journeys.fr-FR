@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
@@ -46,11 +46,11 @@ Voici la liste des opérateurs pris en charge :
 <tr><th>Opérateur</th><th>Expression littérale</th><th>Exemple </th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p>&lt;expression1&gt; et &lt;expression2&gt; doivent être booléens. Le résultat est booléen.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
+<tr><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p>&lt;expression1&gt; et &lt;expression2&gt; doivent être booléens. Le résultat est booléen.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
 <tr><td>or</td><td><p><pre>&lt;expression1&gt; or &lt;expression2&gt;</pre></p><p>&lt;expression1&gt; et &lt;expression2&gt; doivent être booléens.</p><p> Le résultat est booléen.</p></td><td><p><pre>3.14 &gt; 2 or 3.15 &lt; 1</pre></p></td></tr>
 <tr><td>not</td><td><p><pre>not &lt;expression&gt;</pre></p><p>&lt;expression&gt; doit être booléen.</p><p> Le résultat est booléen.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## Comparaison
 
@@ -88,11 +88,13 @@ Voici la liste des opérateurs pris en charge :
 
 <table>
 <thead>
-<tr><th>Opérateur</th><th>Expression littérale </th><th>Exemple</th></tr>
+<tr><th>Opérateur</th><th>Expression littérale</th><th>Exemple</th></tr>
 </thead>
 <tbody><tr><td>is numeric</td><td><p><pre>&lt;expression&gt; is numeric</pre></p><p>Expression est de type entier ou décimal.</p></td><td><pre>@ is numeric</pre></td></tr>
 <tr><td>is integer</td><td><p><pre>&lt;expression&gt; is integer</pre></p><p>Expression est de type entier.</p></td><td><pre>@ is integer</pre></td></tr>
 <tr><td>is decimal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>Expression est de type décimal.</p></td><td><pre>@ is decimal</pre></td></tr>
+</tbody>
+</table>
 
 ## Chaîne
 
