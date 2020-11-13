@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 33%
@@ -47,6 +47,6 @@ Voici les limites liées à l&#39;utilisation du Journey Orchestration.
 * Les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans le Journey Orchestration pour obtenir un identifiant d’orchestration unique. Cet ID d’orchestration doit être ajouté à la charge utile de diffusion en flux continu entrant dans Adobe Experience Platform.
  
 
-## Limites des sources de données :
+## Limitations des sources de données
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
