@@ -5,9 +5,9 @@ user-guide-title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [Mises à jour de la documentation](using/release-notes/documentation-updates.md)
 + Prise en main de [!DNL Journey Orchestration] {#starting-with-journeys}
    + [À propos de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Limitations](using/about/limitations.md)
    + [Prise en main](using/about/get-started.md)
    + [Interface utilisateur](using/about/user-interface.md)
    + [Gestion des accès](using/about/access-management.md)
@@ -44,7 +45,6 @@ ht-degree: 100%
    + [Utilisation d’Adobe Campaign](using/action/working-with-adobe-campaign.md)
    + Utilisation d’un système tiers {#action-third-party}
       + [À propos de la configuration des actions personnalisées](using/action/about-custom-action-configuration.md)
-      + [Restrictions relatives aux actions personnalisées](using/action/custom-action-limitations.md)
       + [Configuration d’URL](using/action/url-configuration.md)
       + [Définition des paramètres de message](using/action/defining-the-message-parameters.md)
 + Utilisation des segments Plaform {#configuring-segment}
