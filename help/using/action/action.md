@@ -40,7 +40,7 @@ Pour afficher la liste des actions ou configurer une nouvelle action, cliquez su
 
 ![](../assets/custom1.png)
 
-Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action d’usine pour pouvoir envoyer des emails, des notifications Push et des SMS à l’aide des fonctionnalités de message transactionnel de cette plate-forme. Consultez à ce sujet [cette page](../action/working-with-adobe-campaign.md).
+Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action d’usine pour pouvoir envoyer des emails, des notifications Push et des SMS à l’aide des fonctionnalités de message transactionnel de cette plateforme. Consultez à ce sujet [cette page](../action/working-with-adobe-campaign.md).
 
 Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Consultez à ce sujet [cette page](../action/about-custom-action-configuration.md).
 
