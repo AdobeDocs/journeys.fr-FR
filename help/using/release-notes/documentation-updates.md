@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe51a1600050a42c2070ad78f14490ea1813bd14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Octobre 2020 {#october-2020}
 
-* Des informations ont été ajoutées sur la configuration d’un délai d’attente pour un événement. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+* Ajout d’informations sur la façon de configurer un délai d’expiration pour un événement. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 ## Septembre 2020 {#september-2020}
 
