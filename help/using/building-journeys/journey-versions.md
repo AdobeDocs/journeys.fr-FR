@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -43,4 +43,4 @@ Les versions de parcours peuvent être arrêtées individuellement. Toutes les v
 
 >[!NOTE]
 >
->Lorsque vous publiez une nouvelle version d’un voyage, la version précédente se termine automatiquement et passe à l’état **Fermé** . Aucune entrée dans le parcours ne sera effectuée. Même si vous arrêtez la dernière version, la version précédente reste fermée.
+>Lorsque vous publiez une nouvelle version d’un parcours, la version précédente se termine automatiquement et passe au statut **Fermé**. Aucune entrée dans le parcours ne sera effectuée. Même si vous arrêtez la dernière version, la version précédente restera fermée.
