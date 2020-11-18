@@ -54,7 +54,7 @@ Le tableau ci-dessous contient la liste des dimensions de diffusion utilisées d
 | **Appareil** | Appareil sur lequel l’email/le SMS/la notification push ont été ouverts/vus ou ont fait l’objet d’un clic. |
 | **Type de message** | Canal utilisé pour la diffusion, par exemple email, SMS, notification push ou In-App. |
 | **Nom de l’application mobile** | Nom de l’application mobile. |
-| **Plate-forme** | Plate-forme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic. |
+| **Plateforme** | Plateforme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic. |
 | **[!UICONTROL Plateforme push]** | Plateforme de l’appareil sur lequel la notification push a été ouverte (iOS ou Android, par exemple). |
 | **Domaine du destinataire** | Domaine utilisé pour ouvrir l’email. |
 | **URL de tracking** | URL sur laquelle a cliqué l’utilisateur dans le message. |
