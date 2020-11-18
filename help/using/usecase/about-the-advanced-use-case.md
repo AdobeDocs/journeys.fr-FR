@@ -50,7 +50,7 @@ We will need to configure a connection to two data sources (see [this page](../u
 * La source de données Adobe Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’adhésion au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
 * Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
 
-## Conditions requises      {#prerequisites}
+## Conditions requises       {#prerequisites}
 
 Pour notre cas d’utilisation, nous avons conçu trois modèles de messages transactionnels Adobe Campaign Standard. Nous utilisons des modèles de messages transactionnels basés sur un événement. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
