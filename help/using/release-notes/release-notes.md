@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 76a03422d7c096c2af4a1e9c95a9bc8bf5f8b214
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 96%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## October 2020 Release {#october-release}
+## Version d&#39;octobre 2020{#october-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Délai d’expiration du événement</strong><br/></th>
+<th><strong>Délai d’expiration d’un événement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais configurer un délai d’expiration pour un événement afin que le parcours n’écoute un événement que pendant une certaine période. Pour ce faire, vous n’avez plus besoin d’ajouter une activité d’attente en parallèle au chemin du événement.
+<p>Vous pouvez maintenant configurer un délai d’expiration d’un événement pour que le parcours ne l’écoute que pendant une certaine période. Pour ce faire, vous n’avez plus besoin d’ajouter une activité Attente parallèlement au chemin de l’événement.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
 </td>
@@ -43,7 +43,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 
 ### Autres améliorations{#october-other}
 
-* Lorsque vous publiez une nouvelle version d’un voyage, la version précédente se termine automatiquement et passe à l’état Fermé. [En savoir plus](../building-journeys/journey-versions.md)
+* Lorsque vous publiez une nouvelle version d’un parcours, la version précédente se termine automatiquement et passe au statut Fermé. [En savoir plus](../building-journeys/journey-versions.md)
 
 ## Version de septembre 2020 {#september-release}
 
@@ -230,7 +230,7 @@ Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.m
 <li><p>Une nouvelle activité permet d’écouter les entrées/sorties des segments d’Adobe Experience Platform pour faire entrer ou avancer les personnes dans un parcours. <a href="../building-journeys/segment-qualification-events.md">En savoir plus</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Il est désormais possible de créer et modifier les segments Adobe Experience Platform sans quitter l’interface de Journey Orchestration, grâce au nouvel onglet <strong>Segments. </strong> <a href="../segment/about-segments.md">En savoir plus</a></p>
+<li><p>Il est désormais possible de créer et modifier les segments Adobe Experience Platform sans quitter l’interface de Journey Orchestration, grâce au nouvel onglet <strong>Segments</strong>. <a href="../segment/about-segments.md">En savoir plus</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>Dans l’éditeur d’expression simple, les segments Adobe Experience Platform sont maintenant directement répertoriés dans l’arborescence de navigation pour faciliter la configuration de conditions telles que « cette personne appartient-elle au segment A ? ». <a href="../segment/using-a-segment.md">En savoir plus</a></p>
