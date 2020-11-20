@@ -1,14 +1,12 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Description de l’API d’import-export
 description: En savoir plus sur l’API d’import-export.
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
-translation-type: ht
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 
