@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Opérateurs
 description: En savoir plus sur les opérateurs dans les expressions avancées
 translation-type: tm+mt
-source-git-commit: 20498e89eb9c95dd19a11e42150a0bbf67024f67
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 83%
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 
@@ -38,119 +38,157 @@ Voici la liste des opérateurs pris en charge :
 
 ### et
 
-**Expression littérale**
-
-```<expression1> and <expression2>```
+```
+<expression1> and <expression2>
+```
 
 &lt;expression1> et &lt;expression2> doivent être booléens. Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```3.14 > 2 and 3.15 < 1```
+```
+3.14 > 2 and 3.15 < 1
+```
 
 ### ou
 
-**Expression littérale**
 
-```<expression1> or <expression2>```
+
+```
+<expression1> or <expression2>
+```
 
 &lt;expression1> et &lt;expression2> doivent être booléens. Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```3.14 > 2 or 3.15 < 1```
+```
+3.14 > 2 or 3.15 < 1
+```
 
 ### not
 
-**Expression littérale**
 
-```not <expression>```
+
+```
+not <expression>
+```
 
 &lt;expression> doit être booléen. Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```not 3.15 < 1```
+```
+not 3.15 < 1
+```
 
 ## Comparaison {#comparison}
 
 ### is null
 
-**Expression littérale**
 
-```<expression> is null```
+
+```
+<expression> is null
+```
 
 Le résultat est booléen.
 
 Notez que null signifie que l’expression n’a pas de valeur évaluée.
 
-**Exemple**
+Exemple :
 
-```@{BarBeacon.location} is null```
+```
+@{BarBeacon.location} is null
+```
 
 ### is not null
 
-**Expression littérale**
 
-```<expression> is not null```
+
+```
+<expression> is not null
+```
 
 Le résultat est booléen.
 
 Notez que null signifie que l’expression n’a pas de valeur évaluée.
 
-**Exemple**
+Exemple :
 
-```@ is not null```
+```
+@ is not null
+```
 
 ### has null
 
-**Expression littérale**
 
-```<expression> has null```
+
+```
+<expression> has null
+```
 
 &lt;expression> doit être une liste. Le résultat est booléen.
 
 Utile pour identifier qu’une liste contient au moins une valeur « null ».
 
-**Exemple**
+Exemple :
 
-```["foo", "bar", null] has null``` renvoie true.
+```
+["foo", "bar", null] has null --  returns true.
+```
 
-```["foo", "bar", ""] has null```Renvoie false car &quot;&quot; n’est pas considéré comme « null ».
+```
+["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+```
 
 ### ==
 
-**Expression littérale**
 
-```<expression1> == <expression2>```
+
+```
+<expression1> == <expression2>
+```
 
 &lt;expression1> et &lt;expression2> doivent avoir le même type de données. Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```3.14 == 42```
+```
+3.14 == 42
+```
 
-```"foo" == "bar"```
+```
+"foo" == "bar"
+```
 
 ### !=
 
-**Expression littérale**
 
-```<expression1> != <expression2>```
+
+```
+<expression1> != <expression2>
+```
 
 &lt;expression1> et &lt;expression2> doivent avoir le même type de données. Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```3.14 != 42```
+```
+3.14 != 42
+```
 
-```"foo" != "bar"```
+```
+"foo" != "bar"
+```
 
 ### >
 
-**Expression littérale**
 
-```<expression1> > <expression2>```
+
+```
+<expression1> > <expression2>
+```
 
 Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
@@ -162,15 +200,19 @@ Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```3.14 > 42```
+```
+3.14 > 42
+```
 
 ### >=
 
-**Expression littérale**
 
-```<expression1> >= <expression2>```
+
+```
+<expression1> >= <expression2>
+```
 
 Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
@@ -182,15 +224,19 @@ Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```42 >= 3.14```
+```
+42 >= 3.14
+```
 
 ### &lt;
 
-**Expression littérale**
 
-```<expression1> < <expression2>```
+
+```
+<expression1> < <expression2>
+```
 
 Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
@@ -202,15 +248,19 @@ Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```42 < 3.14```
+```
+42 < 3.14
+```
 
 ### &lt;=
 
-**Expression littérale**
 
-```<expression1> <= <expression2>```
+
+```
+<expression1> <= <expression2>
+```
 
 Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
@@ -222,45 +272,57 @@ Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-**Exemple**
+Exemple :
 
-```42 <= 3.14```
+```
+42 <= 3.14
+```
 
 ## Arithmétique {#arithmetic}
 
 ### +
 
-**Expression littérale**
 
-```<expression1> + <expression2>```
+
+```
+<expression1> + <expression2>
+```
 
 Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-**Exemple**
+Exemple :
 
-```1 + 2``` renvoie 3
+```
+1 + 2 -- returns 3
+```
 
 ### -
 
-**Expression littérale**
 
-```<expression1> - <expression2>```
+
+```
+<expression1> - <expression2>
+```
 
 Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-**Exemple**
+Exemple :
 
-```2 - 1``` renvoie 1
+```
+2 - 1 -- returns 1
+```
 
 ### /
 
-**Expression littérale**
 
-```<expression1> / <expression2>```
+
+```
+<expression1> / <expression2>
+```
 
 Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
@@ -268,114 +330,156 @@ Le résultat est également numérique.
 
 &lt;expression2> ne doit pas être égale à 0 (renvoie 0).
 
-**Exemple**
+Exemple :
 
-```4 / 2``` renvoie 2
+```
+4 / 2 -- returns 2
+```
 
 ### *
 
-**Expression littérale**
 
-```<expression1> * <expression2>```
+
+```
+<expression1> * <expression2>
+```
 
 Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-**Exemple**
+Exemple :
 
-```3 * 4``` renvoie 12
+```
+3 * 4 -- returns 12
+```
 
 ### %
 
-**Expression littérale**
 
-```<expression1> % <expression2>```
+
+```
+<expression1> % <expression2>
+```
 
 Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-**Exemple**
+Exemple :
 
-```3 % 2``` renvoie 1.
+```
+3 % 2 -- returns 1.
+```
 
 ## Mathématiques {#math}
 
 ### is numeric
 
-**Expression littérale**
 
-```<expression> is numeric```
+
+```
+<expression> is numeric
+```
 
 Expression est de type entier ou décimal.
 
-**Exemple**
+Exemple :
 
-```@ is numeric```
+```
+@ is numeric
+```
 
 ### is integer
 
-**Expression littérale**
 
-```<expression> is integer```
+
+```
+<expression> is integer
+```
 
 Expression est de type entier.
 
-**Exemple**
+Exemple :
 
-```@ is integer```
+```
+@ is integer
+```
 
 ### is decimal
 
-**Expression littérale**
 
-```<expression> is decimal```
+
+```
+<expression> is decimal
+```
 
 Expression est de type décimal.
 
-**Exemple**
+Exemple :
 
-```@ is decimal```
+```
+@ is decimal
+```
 
 ## Chaîne {#string}
 
 ### +
 
-**Expression littérale**
 
-```<string> + <expression>```
 
-```<expression> + <string>```
+```
+<string> + <expression>
+```
+
+```
+<expression> + <string>
+```
 
 Cet opérateur concatène deux expressions.
 
 L’une des expressions doit être une chaîne de caractères.
 
-**Exemple**
+Exemple :
 
-```"the current time is " + (now())``` renvoie &quot;l’heure actuelle est 2019-09-23T09:30:06.693Z&quot;
+```
+"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+```
 
-```(now()) + " is the current time"``` renvoie &quot;2019-09-23T09:30:06.693Z est l&#39;heure actuelle&quot;
+```
+(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
+```
 
-```"a" + "b" + "c" + 1234``` renvoie &quot;abc1234&quot;.
+```
+"a" + "b" + "c" + 1234 -- returns "abc1234".
+```
 
 ## Date {#date}
 
 ### +
 
-**Expression littérale**
 
-```<expression + <duration>```
+
+```
+<expression + <duration>
+```
 
 Permet d’ajouter une durée à une valeur dateTimeOnly ou à une durée.
 
-**Exemple**
+Exemple :
 
-```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` renvoie 2011-12-03T15:30:30Z
+```
+toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+```
 
-```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` renvoie 2011-12-03T15:30:30
+```
+toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
+```
 
-```now() + toDuration("PT1H")``` renvoie une dateTime (avec fuseau horaire UTC) une heure après l&#39;heure actuelle
+```
+now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+```
 
-```toDuration("PT1H") + toDuration("PT1H")``` renvoie PT2H
+```
+toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+```
