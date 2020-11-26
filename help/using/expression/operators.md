@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Opérateurs
 description: En savoir plus sur les opérateurs dans les expressions avancées
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 20498e89eb9c95dd19a11e42150a0bbf67024f67
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '531'
+ht-degree: 83%
 
 ---
 
@@ -34,80 +34,348 @@ Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs una
 
 Voici la liste des opérateurs pris en charge :
 
-## Logique
+## Logique  {#logical}
 
-<table>
-<thead>
-<tr><th>Opérateur</th><th>Expression littérale</th><th>Exemple </th></tr>
-</thead>
-<tbody>
-<tr><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p>&lt;expression1&gt; et &lt;expression2&gt; doivent être booléens. Le résultat est booléen.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
-<tr><td>or</td><td><p><pre>&lt;expression1&gt; or &lt;expression2&gt;</pre></p><p>&lt;expression1&gt; et &lt;expression2&gt; doivent être booléens.</p><p> Le résultat est booléen.</p></td><td><p><pre>3.14 &gt; 2 or 3.15 &lt; 1</pre></p></td></tr>
-<tr><td>not</td><td><p><pre>not &lt;expression&gt;</pre></p><p>&lt;expression&gt; doit être booléen.</p><p> Le résultat est booléen.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
-</tbody>
-</table>
+### et
 
-## Comparaison
+**Expression littérale**
 
-<table>
-<thead>
-<tr><th>Opérateur</th><th>Expression littérale </th><th>Exemple</th></tr>
-</thead>
-<tbody><tr><td>is null</td><td><p><pre>&lt;expression&gt; is null</pre></p><p>Le résultat est booléen.</p><p>Notez que null signifie que l’expression n’a pas de valeur évaluée.</p></td><td><pre>@{BarBeacon.location} is null</pre></td></tr>
-<tr><td>is not null</td><td><p><pre>&lt;expression&gt; is not null</pre></p><p>Le résultat est booléen.</p><p>Notez que null signifie que l’expression n’a pas de valeur évaluée.</p></td><td><pre>@ is not null</pre></td></tr>
-<tr><td>has null</td><td><p><pre>&lt;expression&gt; has null</pre>&lt;expression&gt; doit être une liste.</p><p>Le résultat est booléen.</p><p>Utile pour identifier qu’une liste contient au moins une valeur « null ».</p></td><td><p><pre>["foo", "bar", null] has null</pre></p>Renvoie true<p><pre>["foo", "bar", ""] has null</pre></p> Renvoie false car "" n’est pas considéré comme « null ».</td></tr>
-<tr><td>==</td><td><p><pre>&lt;expression1&gt; == &lt;expression2&gt;</pre></p><p>&lt;expression1&gt; et &lt;expression2&gt; doivent avoir le même type de données.</p><p> Le résultat est booléen.</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
-<tr><td>!=</td><td><p><pre>&lt;expression1&gt; != &lt;expression2&gt;</pre></p><p> &lt;expression1&gt; et &lt;expression2&gt; doivent avoir le même type de données.</p><p> Le résultat est booléen.</p></td><td><pre>3.14 != 42</pre><br /><pre>"foo" != "bar"</pre></td></tr>
-<tr><td>&gt;</td><td><p><pre>&lt;expression1&gt; &gt; &lt;expression2&gt;</pre></p><p>Il est possible de comparer une valeur Datetime à une autre valeur Datetime.</p><p>Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.</p><p>Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.</p><p>Toute autre combinaison est interdite.</p><p>Le résultat est booléen.</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
-<tr><td>&gt;=</td><td><p><pre>&lt;expression1&gt; &gt;= &lt;expression2&gt;</pre></p><p>Il est possible de comparer une valeur Datetime à une autre valeur Datetime.</p><p>Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.</p><p>Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.</p><p>Toute autre combinaison est interdite.</p><p>Le résultat est booléen.</p></td><td><pre>42 &gt;= 3.14</pre></td></tr>
-<tr><td>&lt;</td><td><p><pre>&lt;expression1&gt; &lt; &lt;expression2&gt;</pre></p><p>Il est possible de comparer une valeur Datetime à une autre valeur Datetime.</p><p>Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.</p><p>Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.</p><p>Toute autre combinaison est interdite.</p><p>Le résultat est booléen.</p></td><td><pre>42 &lt; 3.14</pre></td></tr>
-<tr><td>&lt;=</td><td><p><pre>&lt;expression1&gt; &lt;= &lt;expression2&gt;</pre></p><p>Il est possible de comparer une valeur Datetime à une autre valeur Datetime.</p><p>Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.</p><p>Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.</p><p>Toute autre combinaison est interdite.</p><p>Le résultat est booléen.</p></td><td><pre>42 &lt;= 3.14</pre></td></tr>
-</tbody>
-</table>
+```<expression1> and <expression2>```
 
-## Arithmétique
+&lt;expression1> et &lt;expression2> doivent être booléens. Le résultat est booléen.
 
-<table>
-<thead>
-<tr><th>Opérateur</th><th>Expression littérale </th><th>Exemple</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;expression1&gt; + &lt;expression2&gt;</pre></p><p>Les deux expressions doivent être numériques (nombres entiers ou décimaux). </p><p>Le résultat est également numérique.</p></td><td><p><p><pre>1 + 2</pre></p></p><br /><p>Renvoie 3</p></td></tr>
-<tr><td>-</td><td><p><pre>&lt;expression1&gt; - &lt;expression2&gt;</pre></p><p> Les deux expressions doivent être numériques (nombres entiers ou décimaux).</p><p> Le résultat est également numérique.</p></td><td><p><pre>2 - 1</pre></p>Renvoie 1</td></tr>
-<tr><td>/</td><td><p><pre>&lt;expression1&gt; / &lt;expression2&gt;</pre></p><p>Les deux expressions doivent être numériques (nombres entiers ou décimaux). </p><p>Le résultat est également numérique.</p><p>&lt;expression2&gt; ne doit pas être égale à 0 (renvoie 0).</p></td><td><p><pre>4 / 2</pre></p>Renvoie 2</td></tr>
-<tr><td>*</td><td><p><pre>&lt;expression1&gt; * &lt;expression2&gt;</pre></p><p> Les deux expressions doivent être numériques (nombres entiers ou décimaux). </p><p>Le résultat est également numérique.</p></td><td><p><pre>3 * 4</pre></p>Renvoie 12</td></tr>
-<tr><td>%</td><td><p><pre>&lt;expression1&gt; % &lt;expression2&gt;</pre></p><p>Les deux expressions doivent être numériques (nombres entiers ou décimaux).</p><p> Le résultat est également numérique.</p></td><td><p><pre>3 % 2</pre></p>Renvoie 1.</td></tr>
-</tbody>
-</table>
+**Exemple**
 
-## Mathématique
+```3.14 > 2 and 3.15 < 1```
 
-<table>
-<thead>
-<tr><th>Opérateur</th><th>Expression littérale</th><th>Exemple</th></tr>
-</thead>
-<tbody><tr><td>is numeric</td><td><p><pre>&lt;expression&gt; is numeric</pre></p><p>Expression est de type entier ou décimal.</p></td><td><pre>@ is numeric</pre></td></tr>
-<tr><td>is integer</td><td><p><pre>&lt;expression&gt; is integer</pre></p><p>Expression est de type entier.</p></td><td><pre>@ is integer</pre></td></tr>
-<tr><td>is decimal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>Expression est de type décimal.</p></td><td><pre>@ is decimal</pre></td></tr>
-</tbody>
-</table>
+### ou
 
-## Chaîne
+**Expression littérale**
 
-<table>
-<thead>
-<tr><th>Opérateur</th><th>Expression littérale </th><th>Exemple</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;chaîne&gt; + &lt;expression&gt;</pre></p><p><pre>&lt;expression&gt; + &lt;chaîne&gt;</pre></p><p>Cet opérateur concatène deux expressions. </p><p>L’une des expressions doit être une chaîne de caractères.</p></td><td><p><pre>"il est actuellement " + (now())</pre></p> Renvoie « Il est actuellement 2019-09-23T09:30:06.693Z »<p><pre>(now()) + " est l’heure actuelle"</pre></p>Renvoie « 2019-09-23T09:30:06.693Z est l’heure actuelle »<p><pre>"a" + "b" + "c" + 1234</pre></p> Renvoie « abc1234 ».</td></tr>
-</tbody>
-</table>
+```<expression1> or <expression2>```
 
-## Date
+&lt;expression1> et &lt;expression2> doivent être booléens. Le résultat est booléen.
 
-<table>
-<thead>
-<tr><th>Opérateur</th><th>Expression littérale </th><th>Exemple</th></tr>
-</thead>
-<tbody>
-<tr><td>+</td><td><p><pre>&lt;expression&gt; + &lt;durée&gt;</pre></p><p>Permet d’ajouter une durée à une valeur dateTimeOnly ou à une durée.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>Renvoie 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>Renvoie 2011-12-03T15:30:30<p><pre>now() + toDuration("PT1H")</pre></p><p>Renvoie une valeur dateTime (avec fuseau horaire UTC) une heure plus tard que l’heure actuelle</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>Renvoie PT2H</p></td></tr>
-</tbody>
-</table>
+**Exemple**
+
+```3.14 > 2 or 3.15 < 1```
+
+### not
+
+**Expression littérale**
+
+```not <expression>```
+
+&lt;expression> doit être booléen. Le résultat est booléen.
+
+**Exemple**
+
+```not 3.15 < 1```
+
+## Comparaison {#comparison}
+
+### is null
+
+**Expression littérale**
+
+```<expression> is null```
+
+Le résultat est booléen.
+
+Notez que null signifie que l’expression n’a pas de valeur évaluée.
+
+**Exemple**
+
+```@{BarBeacon.location} is null```
+
+### is not null
+
+**Expression littérale**
+
+```<expression> is not null```
+
+Le résultat est booléen.
+
+Notez que null signifie que l’expression n’a pas de valeur évaluée.
+
+**Exemple**
+
+```@ is not null```
+
+### has null
+
+**Expression littérale**
+
+```<expression> has null```
+
+&lt;expression> doit être une liste. Le résultat est booléen.
+
+Utile pour identifier qu’une liste contient au moins une valeur « null ».
+
+**Exemple**
+
+```["foo", "bar", null] has null``` renvoie true.
+
+```["foo", "bar", ""] has null```Renvoie false car &quot;&quot; n’est pas considéré comme « null ».
+
+### ==
+
+**Expression littérale**
+
+```<expression1> == <expression2>```
+
+&lt;expression1> et &lt;expression2> doivent avoir le même type de données. Le résultat est booléen.
+
+**Exemple**
+
+```3.14 == 42```
+
+```"foo" == "bar"```
+
+### !=
+
+**Expression littérale**
+
+```<expression1> != <expression2>```
+
+&lt;expression1> et &lt;expression2> doivent avoir le même type de données. Le résultat est booléen.
+
+**Exemple**
+
+```3.14 != 42```
+
+```"foo" != "bar"```
+
+### >
+
+**Expression littérale**
+
+```<expression1> > <expression2>```
+
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
+
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
+
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
+
+Toute autre combinaison est interdite.
+
+Le résultat est booléen.
+
+**Exemple**
+
+```3.14 > 42```
+
+### >=
+
+**Expression littérale**
+
+```<expression1> >= <expression2>```
+
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
+
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
+
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
+
+Toute autre combinaison est interdite.
+
+Le résultat est booléen.
+
+**Exemple**
+
+```42 >= 3.14```
+
+### &lt;
+
+**Expression littérale**
+
+```<expression1> < <expression2>```
+
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
+
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
+
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
+
+Toute autre combinaison est interdite.
+
+Le résultat est booléen.
+
+**Exemple**
+
+```42 < 3.14```
+
+### &lt;=
+
+**Expression littérale**
+
+```<expression1> <= <expression2>```
+
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
+
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
+
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
+
+Toute autre combinaison est interdite.
+
+Le résultat est booléen.
+
+**Exemple**
+
+```42 <= 3.14```
+
+## Arithmétique {#arithmetic}
+
+### +
+
+**Expression littérale**
+
+```<expression1> + <expression2>```
+
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
+
+Le résultat est également numérique.
+
+**Exemple**
+
+```1 + 2``` renvoie 3
+
+### -
+
+**Expression littérale**
+
+```<expression1> - <expression2>```
+
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
+
+Le résultat est également numérique.
+
+**Exemple**
+
+```2 - 1``` renvoie 1
+
+### /
+
+**Expression littérale**
+
+```<expression1> / <expression2>```
+
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
+
+Le résultat est également numérique.
+
+&lt;expression2> ne doit pas être égale à 0 (renvoie 0).
+
+**Exemple**
+
+```4 / 2``` renvoie 2
+
+### *
+
+**Expression littérale**
+
+```<expression1> * <expression2>```
+
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
+
+Le résultat est également numérique.
+
+**Exemple**
+
+```3 * 4``` renvoie 12
+
+### %
+
+**Expression littérale**
+
+```<expression1> % <expression2>```
+
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
+
+Le résultat est également numérique.
+
+**Exemple**
+
+```3 % 2``` renvoie 1.
+
+## Mathématiques {#math}
+
+### is numeric
+
+**Expression littérale**
+
+```<expression> is numeric```
+
+Expression est de type entier ou décimal.
+
+**Exemple**
+
+```@ is numeric```
+
+### is integer
+
+**Expression littérale**
+
+```<expression> is integer```
+
+Expression est de type entier.
+
+**Exemple**
+
+```@ is integer```
+
+### is decimal
+
+**Expression littérale**
+
+```<expression> is decimal```
+
+Expression est de type décimal.
+
+**Exemple**
+
+```@ is decimal```
+
+## Chaîne {#string}
+
+### +
+
+**Expression littérale**
+
+```<string> + <expression>```
+
+```<expression> + <string>```
+
+Cet opérateur concatène deux expressions.
+
+L’une des expressions doit être une chaîne de caractères.
+
+**Exemple**
+
+```"the current time is " + (now())``` renvoie &quot;l’heure actuelle est 2019-09-23T09:30:06.693Z&quot;
+
+```(now()) + " is the current time"``` renvoie &quot;2019-09-23T09:30:06.693Z est l&#39;heure actuelle&quot;
+
+```"a" + "b" + "c" + 1234``` renvoie &quot;abc1234&quot;.
+
+## Date {#date}
+
+### +
+
+**Expression littérale**
+
+```<expression + <duration>```
+
+Permet d’ajouter une durée à une valeur dateTimeOnly ou à une durée.
+
+**Exemple**
+
+```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` renvoie 2011-12-03T15:30:30Z
+
+```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` renvoie 2011-12-03T15:30:30
+
+```now() + toDuration("PT1H")``` renvoie une dateTime (avec fuseau horaire UTC) une heure après l&#39;heure actuelle
+
+```toDuration("PT1H") + toDuration("PT1H")``` renvoie PT2H
