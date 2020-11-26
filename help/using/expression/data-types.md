@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Types de données
 description: En savoir plus sur les types de données dans les expressions avancées
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 82%
+source-wordcount: '558'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ D’un point de vue technique, une constante contient toujours un type de donné
 
 Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur leur représentation.
 
-## Chaîne {#string}
+## string {#string}
 
 **Description**
 
@@ -30,15 +30,23 @@ Format de sérialisation : UTF-8
 
 **Représentation littérale**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **Exemple**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## entier {#integer}
 
@@ -50,11 +58,15 @@ Format JSON : nombre
 
 **Représentation littérale**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **Exemple**
 
-```42```
+```
+42
+```
 
 ## décimal {#decimal}
 
@@ -72,11 +84,15 @@ Format de sérialisation : utilisation de « . » comme séparateur décimal.
 
 **Représentation littérale**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **Exemple**
 
-```3.14```
+```
+3.14
+```
 
 ## boolean {#boolean}
 
@@ -88,13 +104,19 @@ Format JSON : booléen
 
 **Représentation littérale**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **Exemple**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ Il utilise DateTimeFormatière ISO_LOCAL_DATE_TIME pour désérialiser et séria
 
 **Représentation littérale**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ Le fuseau horaire peut être spécifié par un décalage ou un code de fuseau ho
 
 **Représentation littérale**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **Exemple**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## durée {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse : les formats acceptés sont basés sur le format de durée ISO-
 
 **Représentation littérale**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **Exemple**
 
-```toDuration("PT5S")``` analyse en 5 secondes
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` analyse en 500 ms
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` parses as &quot;20.345 seconds&quot;
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` analyse comme &quot;15 minutes&quot; (où une minute est de 60 secondes)
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` analyse comme &quot;10 heures&quot; (où une heure est de 3 600 secondes)
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` analyse comme &quot;2 jours&quot; (où 24 heures ou 86 400 secondes par jour)
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```analyse comme &quot;2 jours, 3 heures et 4 minutes&quot;
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` analyse en &quot;-6 heures et +3 minutes&quot;
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` analyse en &quot;-6 heures et -3 minutes&quot;
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` analyse comme &quot;+6 heures et -3 minutes&quot;
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## liste {#list}
 
@@ -208,12 +272,20 @@ Le polymorphisme n’est pas pris en charge. Par conséquent, toutes les express
 
 **Représentation littérale**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **Exemple**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
