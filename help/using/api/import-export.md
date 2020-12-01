@@ -5,15 +5,15 @@ title: Description de l’API d’import-export
 description: En savoir plus sur l’API d’import-export.
 products: journeys
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 8da1d4a6c01279bf502c3ec39bdaba8fcc8e64f8
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 100%
+source-wordcount: '1131'
+ht-degree: 76%
 
 ---
 
 
-# Utilisation de l’API d’import-export
+# Utilisation de l’API Export-Import
 
 Exportez une version de parcours et tous ses objets associés (parcours, événements, sources de données, groupes de champs, actions personnalisées) avec un seul appel API. La payload obtenue de l’export peut être utilisée pour importer facilement le parcours dans un autre environnement (instance ou sandbox).
 Cette fonctionnalité permet de gérer vos parcours sur plusieurs instances ou pour plusieurs workflows d’environnements de test.
@@ -21,7 +21,7 @@ Cette fonctionnalité permet de gérer vos parcours sur plusieurs instances ou p
 
 ## Ressources
 
-L’API d’import-export de Journey Orchestration est décrite dans un fichier Swagger disponible [ici](https://adobedocs.github.io/JourneyAPI/docs/).
+The Journey Orchestration Export-Import API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
 Pour utiliser cette API avec votre instance Journey Orchestration, vous devez utiliser la console Adobe I/O. Vous pouvez y accéder selon les indications de la section [Prise en main d’Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md), puis les différentes sections de cette page.
 
@@ -40,8 +40,8 @@ Il est recommandé de suivre les étapes suivantes pour exporter et importer vos
    * Si le parcours exporté contient des **informations d’identification spécifiques**, vous devez les remplacer par celles correspondant au nouvel environnement.
    * Si le parcours exporté contient des **événements** qui pointent vers un **schéma XDM**, vous devez mettre à jour manuellement la référence à l’ID de schéma avec l’ID de schéma du nouvel environnement dans le nœud xdmEntity si les valeurs d’ID sont différentes. Cette mise à jour doit être effectuée pour chaque événement. [Plus d’informations ici](https://docs.adobe.com/content/help/fr-FR/journeys/using/events-journeys/experience-event-schema.html)
    * Si le parcours contient des actions push, email et SMS, vous devrez peut-être mettre à jour le nom du modèle ou de l’application mobile si le nom figurant dans l’environnement cible est différent de celui de votre environnement de départ.
-1. Appelez l’API **d’import** avec votre environnement cible. Notez que vous pouvez appeler l’API d’import autant de fois que vous le souhaitez. L’UUID et le nom de chaque nœud contenu dans le parcours sont générés à chaque appel de l’API d’import.
-1. Une fois le parcours importé, vous pouvez le publier dans le nouveau sandbox ou environnement.
+1. Call the **Import** API with your target environment parameters (orgID and sandboxName). Notez que vous pouvez appeler l’API d’import autant de fois que vous le souhaitez. L’UUID et le nom de chaque objet contenu dans le voyage sont générés chaque fois que vous appelez l’API d’importation.
+1. Une fois le voyage importé, vous pouvez le publier dans l’application Journey Orchestration. More info [here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Authentification
@@ -79,9 +79,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 
 
-## Description de l’API d’import-export
+## Description de l’API Export-Import
 
-Cette API vous permet d’exporter une version de parcours et tous les objets associés (parcours, événements, sources de données, groupes de champs, actions personnalisées) par son UID.
+Cette API vous permet d’exporter une version de voyage identifiée par son identifiant d’utilisateur et tous les objets associés (voyage, événements, sources de données, groupes de champs, actions personnalisées) par son identifiant d’utilisateur.
 La payload obtenue peut être utilisée pour importer la version du parcours dans un autre environnement (sandbox ou instance).
 
 | Méthodologie | Chemin | Description |
@@ -94,21 +94,20 @@ La payload obtenue peut être utilisée pour importer la version du parcours dan
 
 ### Caractéristiques de l’export et barrières de sécurité
 
-* Les informations d’identification ne sont pas exportées et un espace réservé (INSERT_SECRET_HERE) est inséré.
-Après l’exportation de la payload, vous devez insérer manuellement les nouvelles informations d’identification (correspondant à l’environnement cible) avant d’importer la payload dans l’environnement cible.
-
-* Lorsque la source de données contient le paramètre **builtIn:true**, vous n’avez pas besoin de remplacer « INSERT_SECRET_HERE ». Il s&#39;agit d&#39;une source de données système automatiquement gérée par l&#39;environnement de parcours.
-
-* Les objets suivants sont exportés, mais ils ne seront jamais importés dans l’environnement cible :
-   * **DataProviders** : acsDataProvider et acppsDataProvider
-   * **Groupes de champs** : acppsFieldGroup
-   * **Actions personnalisées** : acsAction
-
 * Le parcours doit être valide avant l’export.
+
+* Les informations d’identification ne sont pas exportées et un espace réservé (INSERT_SECRET_HERE) est inséré dans la charge utile de réponse.
+Après l’appel d’exportation, vous devez insérer manuellement les nouvelles informations d’identification (correspondant à l’environnement de cible) avant d’importer la charge utile dans l’environnement de cible.
+
+* Les objets suivants sont exportés, mais ils ne seront jamais importés dans l’environnement de cible. Il s&#39;agit de ressources système gérées automatiquement par le Journey Orchestration. Vous n&#39;avez pas besoin de remplacer &quot;INSERT_SECRET_HERE&quot;.
+   * **DataProviders**:  &quot;Fournisseur de données Adobe Campaign Standard&quot; (acsDataProvider) et &quot;Experience Platform&quot; (acppsDataProvider)
+   * **Groupes** de champs (dataEntities) : &quot;ProfileFieldGroup&quot; (acppsDataPack)
+
+
 
 ### Caractéristiques de l’import
 
-* Pendant l’import, les objets de parcours sont créés avec un nouvel UUID et un nouveau nom pour garantir l’unicité dans l’environnement cible (instance ou sandbox).
+* Au cours de l’importation, les objets de voyage sont créés avec un nouvel identifiant utilisateur et un nouveau nom pour garantir l’unicité dans l’environnement de cible (instance ou sandbox).
 
 * Si la payload d’import contient des espaces réservés secrets, une erreur est générée. Vous devez remplacer les informations d’identification avant l’appel POST pour importer le parcours.
 
@@ -120,5 +119,4 @@ Les erreurs potentielles sont les suivantes :
 
 * Au **moment de l’import**, si la payload n’est pas valide après modification ou si les informations d’identification ne sont pas correctement définies dans la payload : erreur 400
 
-* Après l’étape d’import, si vous tentez de publier le parcours dans l’environnement cible sans modifier l’ID de schéma XDM pour vos événements, une erreur s’affiche.
-
+* Après l’étape d’importation, si l’ID de Schéma XDM pour vos événements n’est pas valide dans l’environnement de cible, une erreur s’affiche dans l’application Journey Orchestration. Dans ce cas, il ne sera pas possible de publier le voyage.
