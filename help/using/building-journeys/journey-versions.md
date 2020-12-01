@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Versions de parcours
 description: En savoir plus sur les versions de parcours
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,10 @@ Dans la liste des parcours, toutes les versions de parcours sont accompagnées d
 ![](../assets/journeyversions1.png)
 
 Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
+
+>[!NOTE]
+>
+>Pour en savoir plus sur les limitations des versions de voyage, consultez [cette page](../about/limitations.md#journey-versions-limitations)
 
 1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
