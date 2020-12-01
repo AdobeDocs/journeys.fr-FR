@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 91%
@@ -50,7 +50,7 @@ Dans le voyage B, le premier événement est déclenché en interne, via le saut
 * Le saut n&#39;est disponible que dans les voyages utilisant un espace de nommage.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
 * Vous ne pouvez pas accéder à un parcours commençant par un événement de **qualification de segment**.
-* Vous ne pouvez pas avoir un événement de qualification **de saut et de** segment dans le même parcours.
+* Vous ne pouvez pas avoir de saut et de **événement de qualification de segment** dans le même parcours.
 * Vous pouvez inclure autant de sauts que nécessaire dans un parcours. Après un saut, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
 * Le parcours cible peut également comporter autant de sauts que nécessaire.
