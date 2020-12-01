@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Événements de qualification de segment
 description: En savoir plus sur les événements de qualification de segment
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '740'
+ht-degree: 97%
 
 ---
 
@@ -82,6 +82,8 @@ De plus, si le segment par lot est créé et utilisé immédiatement dans un par
 ### Segments en flux continu{#streamed-speed-segment-qualification}
 
 Lors de l’utilisation de la qualification du segment pour les segments en flux continu, il y a moins de risque d’obtenir d’importants pics d’entrées/sorties en raison de l’évaluation continue du segment. Néanmoins, si la définition du segment conduit à qualifier un grand volume de clients en même temps, un pic peut également se produire.
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Éviter les surcharges{#overloads-speed-segment-qualification}
 
