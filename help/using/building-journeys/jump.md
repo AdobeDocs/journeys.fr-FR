@@ -4,19 +4,15 @@ solution: Journey Orchestration
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '784'
+ht-degree: 91%
 
 ---
 
 
 # Passage d’un parcours à un autre {#jump}
-
->[!NOTE]
->
->Disponibilité effective : 15 novembre 2020
 
 L’activité d’action **Saut** permet d’inviter des individus à passer d’un parcours à un autre. Cette fonctionnalité permet d’effectuer les opérations suivantes :
 
@@ -38,21 +34,31 @@ Le **parcours A** est déclenché par un événement externe :
 1. L’individu atteint l’étape du saut.
 1. L’individu est amené au parcours B et passe aux étapes suivantes du parcours A, suite au saut.
 
-Dans le **parcours B**, le premier événement peut être déclenché à l’extérieur (comme un événement ordinaire) ou à l’intérieur, par un saut depuis le parcours A :
+Dans le voyage B, le premier événement est déclenché en interne, via le saut du voyage A :
 
 1. Le parcours B a reçu un événement interne du parcours A.
-1. Le premier événement du parcours B est déclenché par les informations issues du parcours A.
 1. L’individu commence à effectuer le parcours B.
 
-## Remarques importantes
+>[!NOTE]
+>
+>Le trajet B peut également être déclenché par un événement externe.
 
+## Remarques importantes               
+
+### Création
+
+* Le saut n&#39;est disponible que dans les voyages utilisant un espace de nommage.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
 * Vous ne pouvez pas accéder à un parcours commençant par un événement de **qualification de segment**.
-* Lorsque le saut est exécuté, la dernière version du parcours cible est déclenchée.
+* Vous ne pouvez pas avoir un événement de qualification **de saut et de** segment dans le même parcours.
 * Vous pouvez inclure autant de sauts que nécessaire dans un parcours. Après un saut, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
 * Le parcours cible peut également comporter autant de sauts que nécessaire.
 * Les schémas de boucle ne sont pas pris en charge. Il n’y a aucun moyen de relier deux parcours, ou plus, qui créeraient une boucle infinie. L’écran de configuration de l’activité **Saut** vous empêche de le faire.
+
+### Exécution
+
+* Lorsque le saut est exécuté, la dernière version du parcours cible est déclenchée.
 * Comme à l’accoutumée, un individu donné ne peut être présent qu’une seule fois dans un même parcours. Ainsi, si un individu provenant d’un parcours d’origine est déjà engagé dans le parcours cible, il ne rejoindra pas le parcours cible. Aucune erreur ne sera signalée lors du saut, car il s’agit d’un comportement normal.
 
 ## Configuration du saut
@@ -84,9 +90,16 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
 
    ![](../assets/jump5.png)
 
+
+   >[!NOTE]
+   >
+   >L&#39;identité de l&#39;individu est automatiquement cartographiée. Ces informations ne sont pas visibles dans l’interface.
+
 Votre saut est configuré. Dès que votre parcours est actif ou en mode test, les individus qui atteignent le saut sont amenés au parcours cible.
 
 Lorsqu’un saut est configuré dans un parcours, une icône d’entrée de saut est automatiquement ajoutée au début du parcours cible. Vous pouvez ainsi identifier que le parcours peut être déclenché depuis l’extérieur mais aussi en interne par le biais d’un saut.
+
+![](../assets/jump7.png)
 
 ## Résolution des problèmes
 
@@ -94,3 +107,5 @@ Lorsque le parcours est publié ou en mode test, des erreurs se produisent dans 
 * le parcours cible n’existe plus ;
 * le parcours cible est en version brouillon, fermé ou arrêté ;
 * le premier événement du parcours cible a changé et le mappage est interrompu.
+
+![](../assets/jump6.png)
