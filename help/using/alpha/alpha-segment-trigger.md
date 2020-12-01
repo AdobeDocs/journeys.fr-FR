@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Activité Lecture de segment
 description: En savoir plus sur l’activité Lecture de segment.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 L’activité Lecture de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
 Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. Avec l’activité Lecture de segment, vous pouvez faire en sorte que toutes les personnes appartenant au segment client Gold entrent dans un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas avoir un saut et une activité de segment **** Lu dans le même parcours. You cannot jump to a journey that starts with a **Read segment** event.
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}
 
