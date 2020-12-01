@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Propriétés du parcours
 description: En savoir plus sur les propriétés du parcours
 translation-type: tm+mt
-source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
+source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Voici quelques exemples d’utilisation :
 
 * **Enregistrer les profils** ignorés : vous pouvez envoyer tous les profils exclus d’un message par une règle de plafonnement à un système tiers à des fins de journalisation. Pour ce faire, vous configurez un chemin en cas de dépassement de délai et d’erreur et ajoutez une condition pour filtrer selon un type d’erreur spécifique, par exemple : &quot;Ignorer les gens en plafonnant la règle&quot;. Vous pouvez ensuite pousser les profils ignorés vers un système tiers par le biais d’une action personnalisée.
 
-* **Envoi d’alertes Push en cas d’erreur** : vous pouvez envoyer une notification à un système tiers chaque fois qu’une erreur survient sur un message. Pour ce faire, vous configurez un chemin en cas d’erreur, ajoutez une condition et une action personnalisée. Vous pouvez envoyer une notification sur un canal Slack, par exemple, avec la description de l’erreur rencontrée.
+* **Envoyer des alertes en cas d&#39;erreurs** : vous pouvez envoyer une notification à un système tiers chaque fois qu’une erreur survient sur un message. Pour ce faire, vous configurez un chemin en cas d’erreur, ajoutez une condition et une action personnalisée. Vous pouvez envoyer une notification sur un canal Slack, par exemple, avec la description de l’erreur rencontrée.
 
 * **Affiner les erreurs dans le rapports**  : au lieu d&#39;avoir un seul chemin pour les messages en erreur, vous pouvez définir une condition par type d&#39;erreur. Cela vous permettra d&#39;affiner le rapports et la vue de toutes les données de types d&#39;erreur.
 
