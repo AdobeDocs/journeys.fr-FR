@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
+source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 87%
@@ -70,7 +70,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <p>Nous avons ajouté une nouvelle méthode pour configurer vos événements plus facilement. Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est désormais disponible en version bêta pour tous les clients. Cette nouvelle méthode ne nécessite pas l’utilisation d’un eventID. Il évalue si le événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, désormais appelée "générée par le système".
 </p>
 <p>Notez que cette fonctionnalité sera disponible dans les prochains jours.</p>
-<p>Pour plus d’informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../event/about-events.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
