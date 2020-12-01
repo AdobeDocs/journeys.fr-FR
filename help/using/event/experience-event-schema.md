@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 'À propos des schémas ExperienceEvent pour les événements Journey Orchestration '
 description: 'En savoir plus sur les schémas ExperienceEvent pour les événements Journey Orchestration '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Un schéma XDM destiné aux événements [!DNL Journey Orchestration] doit répo
 
    ![](../assets/schema2.png)
 
-* Le schéma doit contenir le mixin Orchestration eventID. [!DNL Journey Orchestration] emploie ce champ pour identifier les événements utilisés dans les parcours.
+* Pour les événements générés par le système, le schéma doit inclure le mixin Orchestration eventID. [!DNL Journey Orchestration] emploie ce champ pour identifier les événements utilisés dans les parcours.
 
    ![](../assets/schema3.png)
 
