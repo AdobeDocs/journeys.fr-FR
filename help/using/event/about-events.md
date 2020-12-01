@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: À propos des événements
 description: En savoir plus sur les événements
 translation-type: tm+mt
-source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
+source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 70%
+source-wordcount: '374'
+ht-degree: 66%
 
 ---
 
@@ -29,13 +29,13 @@ Si vous modifiez un événement utilisé dans un parcours actif ou dans un état
 
 Vous pouvez définir deux types de événements :
 
-* **Événements basés sur** des règles : ce type de événement ne génère pas d’eventID. En utilisant l&#39;éditeur d&#39;expressions simple, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos voyages. Cette règle peut être basée sur n’importe quel champ disponible dans le payload, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
+* **Événements** fondés sur des règles : ce type de événement ne génère pas d’eventID. En utilisant l&#39;éditeur d&#39;expressions simple, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos voyages. Cette règle peut être basée sur n’importe quel champ disponible dans le payload, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
 
    >[!CAUTION]
    >
-   >Une règle de limitation est définie pour les événements basés sur des règles. Elle limite à 400 000 par minute le nombre d’événements qualifiés qu’un parcours peut traiter. Pour plus d’informations, contactez votre point de contact du programme Alpha. Outre cette règle de plafonnement, une limite de 5 000 événements pour les secondes est définie au niveau du parcours.
+   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre de événements qualifiés qu&#39;un voyage peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Événements générés** par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création du événement. Le système qui pousse le événement ne doit pas générer d’identifiant, il doit transmettre celui disponible dans la prévisualisation de charge utile.
+* **Équipements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création du événement. Le système qui pousse le événement ne doit pas générer d’identifiant, il doit transmettre celui disponible dans la prévisualisation de charge utile.
 
-Pour savoir comment créer un événement, reportez-vous à cette [page](../event/about-creating.md).
+Pour savoir comment créer un événement, consultez cette [page](../event/about-creating.md).
 
