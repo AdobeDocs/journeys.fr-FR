@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Test du parcours
 description: 'En savoir plus sur le test d’un parcours '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 100%
+source-wordcount: '1460'
+ht-degree: 98%
 
 ---
 
@@ -133,6 +133,16 @@ Si vous sélectionnez un autre profil de test dans l’écran de configuration d
 Lorsque vous ouvrez un parcours en cours de test, le chemin affiché correspond au dernier test exécuté.
 
 Le flux visuel fonctionne que l’événement soit déclenché par l&#39;interface ou de manière externe (à l&#39;aide de Postman, par exemple).
+
+## Test mode for rule-based journeys {#test-rule-based}
+
+Le mode test est également disponible pour les parcours qui utilisent un événement basé sur des règles. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+Lors du déclenchement d&#39;un événement, l&#39;écran de **configuration de l’événement** permet de définir les paramètres d’événement à transmettre au test. Vous pouvez afficher la condition d’identifiant d’événement en cliquant sur l’icône d’info-bulle située dans le coin supérieur droit. Une info-bulle est également disponible en regard de chaque champ qui fait partie de l’évaluation des règles.
+
+![](../assets/alpha-event8.png)
+
+For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
 ## Affichage des journaux {#viewing_logs}
 
