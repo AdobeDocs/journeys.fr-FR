@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 87%
@@ -17,7 +17,7 @@ ht-degree: 87%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## November 2020 Release {#november-release}
+## Version de novembre 2020 {#november-release}
 
 <table>
 <thead>
@@ -80,7 +80,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 
 Des limitations ont été ajoutées lors de la création de nouvelles versions d’un voyage. Ces limitations évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
 
-L&#39;activité **de qualification** de segment ne peut plus être utilisée dans un voyage qui inclut des activités de message Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l&#39;utilisation de la qualification de segment peut conduire à des pics quotidiens d&#39;envoi de messages qui surchargeraient les messages transactionnels des Campaign Standards. [En savoir plus](../about/limitations.md#segment-qualification)
+L&#39;activité **Qualification de segment** ne peut plus être utilisée dans un voyage qui inclut des activités de messages Campaign Standards. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l&#39;utilisation de la qualification de segment peut conduire à des pics quotidiens d&#39;envoi de messages qui surchargeraient les messages transactionnels des Campaign Standards. [En savoir plus](../about/limitations.md#segment-qualification)
 
 ## Version d&#39;octobre 2020{#october-release}
 
