@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 100%
+source-wordcount: '2055'
+ht-degree: 87%
 
 ---
 
@@ -16,6 +16,71 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## November 2020 Release {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Passage d’un parcours à un autre</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nous avons ajouté une nouvelle activité d'action qui vous permet de pousser des individus d'un voyage à l'autre. L'activité Jump vous permet de :
+</p>
+<ul>
+<li>simplifier la conception de parcours très complexes en les divisant en plusieurs autres ; </li>
+<li>créer des parcours basés sur des schémas de parcours communs et réutilisables.</li>
+</ul>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/jump.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Utilisation des propriétés de voyage dans l’éditeur d’expressions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dans l'éditeur d'expressions avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s'agit des informations récupérées par le système à partir de voyages en direct, telles que l'ID de voyage ou les erreurs spécifiques rencontrées. Cela vous donnera plus de possibilités lors de la construction de vos voyages. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs survenues dans une condition ou une action.
+</p>
+<p>Notez que cette fonctionnalité sera disponible dans les prochains jours.</p>
+<p>Pour plus d’informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Événements basés sur des règles (bêta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nous avons ajouté une nouvelle méthode pour configurer vos événements plus facilement. Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est désormais disponible en version bêta pour tous les clients. Cette nouvelle méthode ne nécessite pas l’utilisation d’un eventID. Il évalue si le événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, désormais appelée "générée par le système".
+</p>
+<p>Notez que cette fonctionnalité sera disponible dans les prochains jours.</p>
+<p>Pour plus d’informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Autres améliorations{#october-november}
+
+Des limitations ont été ajoutées lors de la création de nouvelles versions d’un voyage. Ces limitations évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
+
+L&#39;activité **de qualification** de segment ne peut plus être utilisée dans un voyage qui inclut des activités de message Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l&#39;utilisation de la qualification de segment peut conduire à des pics quotidiens d&#39;envoi de messages qui surchargeraient les messages transactionnels des Campaign Standards. [En savoir plus](../about/limitations.md#segment-qualification)
 
 ## Version d&#39;octobre 2020{#october-release}
 
@@ -135,11 +200,11 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 <p>Les améliorations suivantes ont été apportées aux événements basés sur des règles :
 </p>
 <ul>
-<li><p>Vous pouvez maintenant utiliser toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients. <a href="../alpha/alpha-events.md#analytics-data">En savoir plus</a></p>
+<li><p>Vous pouvez maintenant utiliser toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients. <a href="../event/about-analytics.md">En savoir plus</a></p>
 </li>
-<li><p>Lors du déclenchement d’un événement basé sur des règles en mode test, vous pouvez désormais afficher directement la condition d’identifiant d’événement. En outre, une info-bulle a été ajoutée en regard de chaque champ qui fait partie de l’évaluation des règles. <a href="../alpha/alpha-events.md#configuring-rule-based">En savoir plus</a></p>
+<li><p>Lors du déclenchement d’un événement basé sur des règles en mode test, vous pouvez désormais afficher directement la condition d’identifiant d’événement. En outre, une info-bulle a été ajoutée en regard de chaque champ qui fait partie de l’évaluation des règles. <a href="../building-journeys/testing-the-journey.md#test-rule-based">En savoir plus</a></p>
 </li>
-<li><p>L’écran de définition des événements basés sur des règles a été réorganisé pour améliorer l’expérience. <a href="../alpha/alpha-events.md#test-rule-based">En savoir plus</a></p>
+<li><p>L’écran de définition des événements basés sur des règles a été réorganisé pour améliorer l’expérience. <a href="../event/about-creating.md">En savoir plus</a></p>
 </li>
 </ul>
 </td>
@@ -201,7 +266,7 @@ Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.m
 <tbody>
 <tr>
 <td>
-<p>Nous avons simplifié la configuration des événements d’expérience. Nous proposons une nouvelle méthode qui ne nécessite pas l’utilisation d’un identifiant d’événement. Lorsque vous configurez votre événement dans Journey Orchestration, vous pouvez désormais définir un événement basé sur des règles. <a href="../alpha/alpha-events.md">En savoir plus</a>
+<p>Nous avons simplifié la configuration des événements d’expérience. Nous proposons une nouvelle méthode qui ne nécessite pas l’utilisation d’un identifiant d’événement. Lorsque vous configurez votre événement dans Journey Orchestration, vous pouvez désormais définir un événement basé sur des règles. <a href="../event/about-events.md">En savoir plus</a>
 </p>
 </td>
 </tr>
@@ -277,8 +342,6 @@ Journey Orchestration est maintenant disponible dans la zone APAC (centre de don
 L’interface de Journey Orchestration est disponible en japonais.
 
 ## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
-
-**Nouveautés**
 
 <table>
 <thead>
