@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Aperçu de la payload
 description: Découvrez comment prévisualiser la payload
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ Cet aperçu vous permet de valider la définition de la payload.
 
 >[!NOTE]
 >
->Lorsque vous créez un événement, enregistrez-le et rouvrez-le avant d’afficher l’aperçu de la payload. Cette étape est nécessaire pour générer un identifiant d’événement dans la payload.
+>Pour les événements générés par le système, lorsque vous créez un événement, avant d’afficher la prévisualisation de charge utile, enregistrez votre événement et rouvrez-le. Cette étape est nécessaire pour générer un identifiant d’événement dans la payload.
 
 1. Cliquez sur l’icône **[!UICONTROL Afficher la payload]** pour prévisualiser la payload attendue par le système.
 
