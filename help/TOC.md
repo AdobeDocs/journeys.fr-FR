@@ -6,10 +6,10 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 98%
 
 ---
 
@@ -28,14 +28,18 @@ ht-degree: 100%
    + [Gestion des accès](using/about/access-management.md)
    + [Résolution des problèmes](using/about/troubleshooting.md)
 + Configuration d’un événement {#events-journeys}
-   + [À propos des événements](using/event/about-events.md)
-   + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
+   + À propos des événements {#about-events}
+      + [Principe général](using/event/about-events.md)
+      + [Cycle de données](using/event/about-data-cycle.md)
+      + [Créer un événement     ](using/event/about-creating.md)
+      + [Exploitation de l&#39;Adobe Analytics](using/event/about-analytics.md)
+      + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
+      + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
    + [Sélection de l’espace de noms](using/event/selecting-the-namespace.md)
    + [Définition de la clé d’événement](using/event/defining-the-event-key.md)
    + [Ajout d’une condition](using/event/adding-a-condition.md)
    + [Aperçu de la payload](using/event/previewing-the-payload.md)
-   + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + Configuration d’une source de données {#data-source-journeys}
    + [À propos des sources de données](using/datasource/about-data-sources.md)
    + [Groupes de champs](using/datasource/field-groups.md)
@@ -75,6 +79,7 @@ ht-degree: 100%
          + [À propos des activités d’action](using/building-journeys/about-action-activities.md)
          + [Utilisation d’actions Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Utilisation d’actions personnalisées](using/building-journeys/using-custom-actions.md)
+         + [Passage d’un parcours à un autre](using/building-journeys/jump.md)
    + [Test du parcours](using/building-journeys/testing-the-journey.md)
    + [Publication du parcours](using/building-journeys/publishing-the-journey.md)
    + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
@@ -93,6 +98,7 @@ ht-degree: 100%
       + [Références de champ](using/expression/field-references.md)
       + [Fonctions de gestion des collections](using/expression/collection-management-functions.md)
       + [Opérateurs](using/expression/operators.md)
+      + [Propriétés du parcours](using/expression/journey-properties.md)
       + [Exemples](using/expression/advanced-editor-use-cases.md)
    + Fonctions {#main-functions-journey}
       + [Fonctions principales](using/expression/functions.md)
@@ -187,5 +193,4 @@ ht-degree: 100%
    + [Présentation des fonctionnalités Alpha](using/alpha/alpha-overview.md)
    + [Interface utilisateur](using/alpha/alpha-interface.md)
    + [Lire l’activité de segment](using/alpha/alpha-segment-trigger.md)
-   + [Événements basés sur des règles](using/alpha/alpha-events.md)
 
