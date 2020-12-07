@@ -38,7 +38,7 @@ Pour configurer un délai d’expiration d’événement, procédez comme suit 
 
 1. Définissez la durée pendant laquelle le parcours attendra l’événement.
 
-1. Si vous souhaitez amener les individus dans un chemin d’accès au délai d’expiration lorsqu’aucun événement n’est reçu au cours du délai d’expiration spécifié, activez l’option **[!UICONTROL Définir un chemin d’accès au délai d’expiration]**. Si cette option n’est pas activée, le parcours se termine pour l’individu une fois le délai d’expiration atteint.
+1. Si vous souhaitez orienter les individus vers un chemin d’accès avec délai d’expiration, alors qu’aucun événement n’est reçu au cours du délai d’expiration spécifié, activez l’option **[!UICONTROL Définir un chemin d’accès au délai d’expiration]**. Si cette option n’est pas activée, le parcours se termine pour l’individu une fois le délai d’expiration atteint.
 
    ![](../assets/event-timeout.png)
 
