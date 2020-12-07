@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 87%
+source-wordcount: '2026'
+ht-degree: 88%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 # Notes de mise à jour {#release-notes}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
-Vous pouvez également consulter les [mises à jour de la documentation](../release-notes/documentation-updates.md).
+Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
 ## Version de novembre 2020 {#november-release}
 
@@ -28,7 +28,7 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <tbody>
 <tr>
 <td>
-<p>Nous avons ajouté une nouvelle activité d'action qui vous permet de pousser des individus d'un voyage à l'autre. L'activité Jump vous permet de :
+<p>Une nouvelle activité d'action vous permet de pousser des individus d'un voyage à l'autre. L'activité <strong>Sauter</strong> vous permet de :
 </p>
 <ul>
 <li>simplifier la conception de parcours très complexes en les divisant en plusieurs autres ; </li>
@@ -51,7 +51,6 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <td>
 <p>Dans l'éditeur d'expressions avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s'agit des informations récupérées par le système à partir de voyages en direct, telles que l'ID de voyage ou les erreurs spécifiques rencontrées. Cela vous donnera plus de possibilités lors de la construction de vos voyages. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs survenues dans une condition ou une action.
 </p>
-<p>Notez que cette fonctionnalité sera disponible dans les prochains jours.</p>
 <p>Pour plus d’informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -67,9 +66,8 @@ Vous pouvez également consulter les [mises à jour de la documentation](../rele
 <tbody>
 <tr>
 <td>
-<p>Nous avons ajouté une nouvelle méthode pour configurer vos événements plus facilement. Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est désormais disponible en version bêta pour tous les clients. Cette nouvelle méthode ne nécessite pas l’utilisation d’un eventID. Il évalue si le événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, désormais appelée "générée par le système".
+<p>Une nouvelle méthode est désormais disponible pour configurer vos événements plus facilement, sans utiliser d’ID d’événement : les événements basés sur des règles évaluent si le événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, désormais appelée "générée par le système". Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est désormais disponible en version bêta pour tous les clients.
 </p>
-<p>Notez que cette fonctionnalité sera disponible dans les prochains jours.</p>
 <p>Pour plus d’informations, consultez la <a href="../event/about-events.md">documentation détaillée</a>.</p>
 </td>
 </tr>
