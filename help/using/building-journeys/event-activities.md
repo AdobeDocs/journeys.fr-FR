@@ -14,7 +14,7 @@ ht-degree: 94%
 
 # À propos des activités d’événement {#concept_rws_1rt_52b}
 
-The events configured by the technical user (see [this page](../event/about-events.md)) are all displayed in the first category of the palette, on the left side of the screen.
+Les événements configurés par l’utilisateur technique (voir [cette page](../event/about-events.md)) s’affichent tous dans la première catégorie de la palette, sur le côté gauche de l’écran.
 
 ![](../assets/journey43.png)
 
@@ -28,7 +28,7 @@ Lorsque vous cliquez sur l’activité d’événement dans la zone de travail, 
 
 ## Écoute d&#39;événements au cours d’une période spécifique
 
-Une activité d’événement située dans le parcours « écoute » les événements pendant une durée indéterminée. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer un délai d’expiration pour l’événement.
+Une activité d’événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer un délai d’expiration pour l’événement.
 
 Ce faisant, le parcours écoutera l’événement au cours de la période définie dans le délai d’expiration. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l’événement. Si ce n’est pas le cas, le client va, au choix, s’engager dans un chemin d’accès au délai d’expiration ou terminer son parcours.
 
