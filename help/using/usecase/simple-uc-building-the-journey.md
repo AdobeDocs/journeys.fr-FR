@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Création du parcours
 description: Découvrez comment créer un cas d’utilisation simple de parcours
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Un **utilisateur chargé de la conception de parcours** peut maintenant créer l
 >
 >Les activités **[!UICONTROL Push]** et **[!UICONTROL Email]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+Pour plus d’informations sur la création d’un parcours, consultez [cette page](../building-journeys/journey.md).
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Accueil]** et **[!UICONTROL Créer]** pour créer un parcours.
 
@@ -67,7 +67,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_17.png)
 
-1. Cliquez sur le bouton bascule **[!UICONTROL Test]** et vérifiez votre parcours à l’aide des profils de test. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+1. Cliquez sur le bouton bascule **[!UICONTROL Test]** et vérifiez votre parcours à l’aide des profils de test. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Consultez [cette page](../building-journeys/testing-the-journey.md) pour plus d’informations sur le mode test.
 
    ![](../assets/journeyuc1_18bis.png)
 
