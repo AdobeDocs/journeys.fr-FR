@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Définition de la clé d’événement
 description: Découvrez comment définir la clé d’événement
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Si vous devez utiliser une autre clé, telle qu’un ID CRM ou une adresse emai
 
    ![](../assets/journey20.png)
 
-Lorsque l’événement est reçu, la valeur de la clé permet au système d’identifier la personne qui y est associée. Associated to a namespace (see [this page](../event/selecting-the-namespace.md)), the key can be used to perform queries on the Adobe Experience Platform. Voir [cette page](../building-journeys/about-orchestration-activities.md).
+Lorsque l’événement est reçu, la valeur de la clé permet au système d’identifier la personne qui y est associée. Associée à un espace de noms (voir [cette page](../event/selecting-the-namespace.md)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-orchestration-activities.md).
 La clé sert également à vérifier qu’une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n’autorise pas qu’une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
 Vous avez également accès aux fonctions d’expression avancées (**[!UICONTROL Mode avancé]**) si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d’un champ (les 10 premiers caractères, par exemple), etc. Voir [cette page](../expression/expressionadvanced.md).
