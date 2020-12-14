@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Cycle de données événement
-description: En savoir plus sur le cycle de données de événement
-translation-type: tm+mt
+title: Cycle des données d’événement
+description: En savoir plus sur le cycle des données d’événement
+translation-type: ht
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Cycle de données {#section_r1f_xqt_pgb}
+# Cycle des données {#section_r1f_xqt_pgb}
 
 Les événements sont des appels d’API POST. Ils sont envoyés à Adobe Experience Platform par le biais des API d’ingestion en flux continu. L’URL de destination des événements envoyés via les API de messagerie transactionnelle est appelée « inlet ». La payload des événements respecte la mise en forme XDM.
 
@@ -20,4 +20,4 @@ La payload contient les informations nécessaires au fonctionnement des API d’
 
 Après avoir transité par les API d’ingestion en flux continu, les événements se propagent dans un service interne appelé Pipeline, puis dans Adobe Experience Platform. Si l’indicateur du service de profil client en temps réel est activé pour le schéma d’événement et que ce dernier comprend également un identifiant de jeu de données avec l’indicateur de profil client en temps réel, le schéma est propagé dans ce service.
 
-For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. Pour les événements basés sur des règles, le système identifie le événement à l’aide de la condition eventID. Ces événements sont écoutés par [!DNL Journey Orchestration] et le parcours correspondant est déclenché.
+Pour les événements générés par le système, le service Pipeline filtre les événements disposant d’une payload contenant des [!DNL Journey Orchestration] eventID (reportez-vous au processus de création d’événements ci-dessous) fournis par [!DNL Journey Orchestration] et contenus dans une payload d’événement. Pour les événements basés sur des règles, le système identifie l’événement à l’aide de la condition eventID. Ces événements sont écoutés par [!DNL Journey Orchestration] et le parcours correspondant est déclenché.
