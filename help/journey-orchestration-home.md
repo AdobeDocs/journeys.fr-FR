@@ -4,11 +4,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Documentation de Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Découvrez les fonctionnalités actuellement disponibles via le programme Alpha.
 
 ## Ressources supplémentaires
 
-* [Page de produit Journey Orchestration](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
+* [Page produit Journey Orchestration](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
 * [Documentation Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
 * [Documentation sur le profil client en temps réel](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
 * [Définition de champs XDM Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/home.html)
@@ -81,9 +81,9 @@ Découvrez les fonctionnalités actuellement disponibles via le programme Alpha.
 * [API d’ingestion en flux continu](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/overview.html)
 * [Documentation sur la messagerie transactionnelle de Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
 
-## Didacticiels techniques
+## Tutoriels techniques
 
-* [Configuration du Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html#6.-voyage-orchestration)
-* [API météorologique externe, action SMS, etc.](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html#module12)
-* [Créer un contact dans Dynamics 365 à l&#39;aide du Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
-* [Utiliser le Journey Orchestration pour déclencher un suivi de courrier électronique](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
+* [Configuration de Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=fr#module6-journey-orchestration)
+* [API météorologique externe, action SMS, etc.](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=fr#module12)
+* [Créer un contact dans Dynamics 365 à l’aide de Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=fr#module17)
+* [Utiliser Journey Orchestration pour déclencher une relance d’email](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=fr#module20)
