@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: A propos des données Adobe Analytics
+title: À propos des données Adobe Analytics
 description: Découvrez comment exploiter les données Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Cette section s’applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics.
+>Cette section s’applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics.
 
 Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
 
