@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation d’Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent 
 
 >[!NOTE]
 >
->Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Pour réduire le risque de surcharge, nous vous recommandons de configurer une règle **de** plafonnement pour l’intégration du Campaign Standard.
+>Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Pour réduire le risque de surcharge, nous vous recommandons de configurer une **règle de limitation** pour l’intégration de Campaign Standard.
 >
 >Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la [description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html).
 
