@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Présentation du partage des étapes du parcours
 description: Présentation du partage des étapes du parcours
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
 ht-degree: 100%
 
