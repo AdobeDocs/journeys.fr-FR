@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Événements de qualification de segment
 description: En savoir plus sur les événements de qualification de segment
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '740'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ De plus, si le segment par lot est créé et utilisé immédiatement dans un par
 
 Lors de l’utilisation de la qualification du segment pour les segments en flux continu, il y a moins de risque d’obtenir d’importants pics d’entrées/sorties en raison de l’évaluation continue du segment. Néanmoins, si la définition du segment conduit à qualifier un grand volume de clients en même temps, un pic peut également se produire.
 
-For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Pour plus d’informations sur la segmentation en diffusion continue, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr#api)
 
 ### Éviter les surcharges{#overloads-speed-segment-qualification}
 
