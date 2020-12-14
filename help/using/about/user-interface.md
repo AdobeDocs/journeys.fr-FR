@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Interface utilisateur
 description: En savoir plus sur l’interface utilisateur
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1113'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -135,10 +135,10 @@ _Dans la zone de travail d’un parcours :_
 * Lorsqu’une ou plusieurs activités sont sélectionnées, appuyez sur **Supprimer** ou **Retour arrière** pour les supprimer. Vous pouvez ensuite appuyer sur **Entrée** pour confirmer la suppression dans la fenêtre contextuelle de confirmation.
 * Double-cliquez sur une activité dans la palette de gauche pour l’ajouter dans la première position disponible (du haut vers le bas).
 
-_En voyage :_
+_Dans un parcours :_
 
-* Appuyez sur **T** pour activer/désactiver le mode de test.
-* Dans un parcours par événement en mode test, appuyez sur **E** pour déclencher un événement.
-* Dans un parcours par segment, lorsque l’option profil **unique à la fois** est sélectionnée en mode test, appuyez sur **P** pour déclencher un événement.
+* Appuyez sur **T** pour activer/désactiver le mode test.
+* Dans un parcours basé sur des événements en mode test, appuyez sur **E** pour déclencher un événement.
+* Dans un parcours basé sur des segments, lorsque l’option **Un profil unique à la fois** est sélectionnée en mode test, appuyez sur **P** pour déclencher un événement.
 * En mode test, appuyez sur **L** pour afficher les journaux.
 
