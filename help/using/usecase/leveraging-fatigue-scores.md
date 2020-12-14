@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour sélectionner les champs de score de fatigue dans la source de données int
 
 ## Création du parcours {#section_uzm_pyy_wfb}
 
-To create, validate and publish the journey, follow the steps described in [this page](../building-journeys/journey.md).
+Pour créer, valider et publier le parcours, suivez les étapes décrites dans [cette page](../building-journeys/journey.md).
 
 Dans notre cas d’utilisation, nous employons le champ **[!UICONTROL fatigueLevel]**. Vous pouvez également avoir recours au champ **[!UICONTROL fatigueScore]**.
 
