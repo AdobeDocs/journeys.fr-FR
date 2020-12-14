@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation du concepteur de parcours
 description: En savoir plus sur l’utilisation du concepteur de parcours
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1389'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Lors de l’utilisation du champ **[!UICONTROL Recherche]**, le nombre de résul
 
 ## Zone de travail {#canvas}
 
-La **zone de travail** est la zone centrale du concepteur de parcours. C’est là que vous pouvez déposer vos activités et les configurer. Cliquez sur une activité de la zone de travail pour la configurer. Le volet de configuration de l’activité s’ouvre alors sur le côté droit. Vous pouvez effectuer un zoom avant ou arrière à l’aide des boutons « + » et « - » situés en haut à droite. In the canvas, all activities allow you to add a next step after them, except **[!UICONTROL End]** activities (see [this page](../building-journeys/end-activity.md)).
+La **zone de travail** est la zone centrale du concepteur de parcours. C’est là que vous pouvez déposer vos activités et les configurer. Cliquez sur une activité de la zone de travail pour la configurer. Le volet de configuration de l’activité s’ouvre alors sur le côté droit. Vous pouvez effectuer un zoom avant ou arrière à l’aide des boutons « + » et « - » situés en haut à droite. Dans la zone de travail, toutes les activités vous permettent d’ajouter une étape suivante, à l’exception des activités **[!UICONTROL Fin]** (voir [cette page](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
@@ -64,13 +64,13 @@ Dans la zone de travail, vos activités d’action et d’événement sont repr�
 
 ## Actions de la barre supérieure {#top_actions}
 
-Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent en fonction du contexte. The test mode log button appears when test mode is activated (see [this page](../building-journeys/testing-the-journey.md)). Le bouton de reporting s’affiche dans le cas d’un parcours actif, arrêté ou fermé.
+Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent en fonction du contexte. Ainsi, le bouton de journal du mode test s’affiche lorsque le mode test est activé (voir [cette page](../building-journeys/testing-the-journey.md)). Le bouton de reporting s’affiche dans le cas d’un parcours actif, arrêté ou fermé.
 
 ![](../assets/journey41.png)
 
 ## Utilisation des chemins dans la zone de travail {#paths}
 
-Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d’erreur ou d’expiration. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un chemin alternatif en cas de dépassement de délai ou d’erreur]**. Un autre chemin est alors ajouté après l’activité. The timeout duration is defined in the journey&#39;s properties (see [this page](../building-journeys/changing-properties.md) by an admin user. Par exemple, si l’envoi d’un email prend trop de temps ou génère une erreur, vous pouvez décider d’envoyer un SMS.
+Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d’erreur ou d’expiration. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un chemin alternatif en cas de dépassement de délai ou d’erreur]**. Un autre chemin est alors ajouté après l’activité. Le délai d’expiration est défini dans les propriétés du parcours (voir [cette page](../building-journeys/changing-properties.md) par un utilisateur administrateur. Par exemple, si l’envoi d’un email prend trop de temps ou génère une erreur, vous pouvez décider d’envoyer un SMS.
 
 ![](../assets/journey42.png)
 
@@ -78,7 +78,7 @@ Différentes activités (événement, action, attente) peuvent être suivies de 
 
 Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre indéfiniment qu’il se produise. Notez qu’il s’agit d’une bonne pratique et que cela n’est, en aucun cas, obligatoire. Si vous souhaitez limiter l’écoute d’un ou de plusieurs événements à une période bien définie, vous devez placer en parallèle un ou plusieurs événements et une activité d’attente. Reportez-vous à [cette section](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
-Pour supprimer le chemin, placez votre curseur sur celui-ci et cliquez sur l’icône **[!UICONTROL Supprimer la flèche]** .
+Pour supprimer le chemin d’accès, placez votre curseur sur celui-ci et cliquez sur l’icône **[!UICONTROL Supprimer la flèche]**.
 
 ![](../assets/journey42ter.png)
 
