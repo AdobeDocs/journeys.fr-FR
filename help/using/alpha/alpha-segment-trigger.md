@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Activité Lecture de segment
 description: En savoir plus sur l’activité Lecture de segment.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Supposons que vous ayez un segment client Gold sur Adobe Experience Platform. 
 
 >[!NOTE]
 >
->Vous ne pouvez pas avoir un saut et une activité de segment **** Lu dans le même parcours. You cannot jump to a journey that starts with a **Read segment** event.
+>Un même parcours ne peut pas contenir un saut et une activité **Lecture de segment**. Vous ne pouvez pas effectuer un saut dans un parcours commençant par un événement **Lecture de segment**.
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}
 
