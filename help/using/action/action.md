@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des actions
 description: Découvrez comment configurer une action
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Les actions sont des connexions par le biais desquelles vous proposez des expér
 
 Les actions personnalisées vous permettent de configurer la connexion d’un système tiers pour envoyer des messages ou des appels d’API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON.
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. Voir [cette page](../building-journeys/about-action-activities.md).
+Les actions sont disponibles dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]** Voir [cette page](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >La configuration des actions personnalisées est toujours effectuée par un **utilisateur technique**.
 
-Dans la liste des **Actions**, vous pouvez appuyer sur la touche c pour créer un parcours, une action, une source de données ou un événement. For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+Dans la liste des **Actions**, vous pouvez appuyer sur la touche c pour créer un parcours, une action, une source de données ou un événement. Pour plus d’informations sur les raccourcis dans [!DNL Journey Orchestration], voir [cette section](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Pour afficher la liste des actions ou configurer une nouvelle action, cliquez sur **[!UICONTROL Actions]** dans les menus supérieurs. La liste des actions s’affiche. See [this page](../about/user-interface.md) for more information on the interface.
+Pour afficher la liste des actions ou configurer une nouvelle action, cliquez sur **[!UICONTROL Actions]** dans les menus supérieurs. La liste des actions s’affiche. Pour plus d’informations sur l’interface, voir [cette page](../about/user-interface.md)
 
 ![](../assets/custom1.png)
 
