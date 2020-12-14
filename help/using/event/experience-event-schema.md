@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'À propos des schémas ExperienceEvent pour les événements Journey Orchestration '
 description: 'En savoir plus sur les schémas ExperienceEvent pour les événements Journey Orchestration '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Un schéma XDM destiné aux événements [!DNL Journey Orchestration] doit répo
 
    ![](../assets/schema2.png)
 
-* Pour les événements générés par le système, le schéma doit inclure le mixin Orchestration eventID. [!DNL Journey Orchestration] emploie ce champ pour identifier les événements utilisés dans les parcours.
+* Pour les événements générés par le système, le schéma doit inclure le mixin eventID Orchestration. [!DNL Journey Orchestration] emploie ce champ pour identifier les événements utilisés dans les parcours.
 
    ![](../assets/schema3.png)
 
