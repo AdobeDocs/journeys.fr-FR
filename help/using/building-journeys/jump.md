@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 54%
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ Dans le voyage B, le premier événement est déclenché en interne, par l&#39;a
 
 >[!NOTE]
 >
->Le trajet B peut également être déclenché par un événement externe.
+>Le parcours B peut également être déclenché par un événement externe.
 
 ## Meilleures pratiques et limites
 
@@ -93,7 +93,7 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
 
    >[!NOTE]
    >
-   >L&#39;identité de l&#39;individu est automatiquement cartographiée. Ces informations ne sont pas visibles dans l’interface.
+   >L’identité de l&#39;individu est automatiquement mappée. Ces informations ne sont pas visibles dans l’interface.
 
 Votre activité **[!UICONTROL Sauter]** est configurée. Dès que votre voyage est en direct ou en mode test, les personnes qui atteignent l&#39;étape **[!UICONTROL Sauter]** seront poussées du voyage jusqu&#39;au voyage de cible.
 
