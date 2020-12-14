@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Modification des propriétés
 description: Découvrez comment modifier des propriétés
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ Les fuseaux horaires sont définis au niveau du parcours.
 
 Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours.
 
-For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
+Pour plus d’informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
