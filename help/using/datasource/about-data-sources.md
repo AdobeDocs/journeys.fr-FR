@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des sources de données
 description: 'Découvrez comment configurer une source de données '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Les principales étapes de configuration d’une source de données sont les sui
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]**.
 
-   La liste des sources de données s’affiche. See [this page](../about/user-interface.md) for more information on the interface.
+   La liste des sources de données s’affiche. Voir [cette page](../about/user-interface.md) pour plus d’informations sur l’interface.
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. Ensuite, vous pouvez soit ajouter des groupes de champs à la source de données intégrée (voir [cette page](../datasource/adobe-experience-platform-data-source.md)), soit créer une source de données externe (voir [cette page](../datasource/external-data-sources.md)) et les groupes de champs associés (voir [cette page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
