@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ La configuration d’événement vous permet de définir les informations que [!
 
 Si vous modifiez un événement utilisé dans un parcours actif ou dans un état de brouillon, vous pouvez uniquement en modifier le nom ou la description, ou ajouter des champs de payload. La modification des parcours actifs ou dans un état de brouillon est strictement limitée pour éviter de les interrompre.
 
-Vous pouvez définir deux types de événements :
+Vous pouvez définir deux types d’événements :
 
-* **Événements** fondés sur des règles : ce type de événement ne génère pas d’eventID. En utilisant l&#39;éditeur d&#39;expressions simple, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos voyages. Cette règle peut être basée sur n’importe quel champ disponible dans le payload, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
+* **Événements** basés sur des règles : ce type d’événement ne génère pas d’eventID. En utilisant l’éditeur d’expression simple, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos parcours. Cette règle peut être basée sur n’importe quel champ disponible dans la payload, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
 
    >[!CAUTION]
    >
-   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre de événements qualifiés qu&#39;un voyage peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=fr#building-journeys).
 
-* **Équipements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création du événement. Le système qui pousse le événement ne doit pas générer d’identifiant, il doit transmettre celui disponible dans la prévisualisation de charge utile.
+* **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans la prévisualisation de la payload.
 
 Pour savoir comment créer un événement, consultez cette [page](../event/about-creating.md).
 
