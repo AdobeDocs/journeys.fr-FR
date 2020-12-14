@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Versions de parcours
 description: En savoir plus sur les versions de parcours
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
 
 >[!NOTE]
 >
->Pour en savoir plus sur les limitations des versions de voyage, consultez [cette page](../about/limitations.md#journey-versions-limitations)
+>Pour en savoir plus sur les limites des versions de parcours, voir [cette page](../about/limitations.md#journey-versions-limitations)
 
 1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
