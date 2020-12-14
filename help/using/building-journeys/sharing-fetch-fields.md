@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Champs de récupération des données des événements journeyStep
 description: Champs de récupération des données des événements journeyStep
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 
