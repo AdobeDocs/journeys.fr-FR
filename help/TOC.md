@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-user-guide-title: Orchestration du parcours
+user-guide-title: Journey Orchestration
 title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 98%
    + À propos des événements {#about-events}
       + [Principe général](using/event/about-events.md)
       + [Cycle de données](using/event/about-data-cycle.md)
-      + [Créer un événement     ](using/event/about-creating.md)
-      + [Exploitation de l&#39;Adobe Analytics](using/event/about-analytics.md)
+      + [Créer un événement](using/event/about-creating.md)
+      + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
       + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
       + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
