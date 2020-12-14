@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Opérateurs
 description: En savoir plus sur les opérateurs dans les expressions avancées
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Exemple :
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### pas
 
 
 
@@ -84,7 +84,7 @@ not 3.15 < 1
 
 ## Comparaison {#comparison}
 
-### is null
+### est nul
 
 
 
@@ -102,7 +102,7 @@ Exemple :
 @{BarBeacon.location} is null
 ```
 
-### is not null
+### n’est pas nul
 
 
 
@@ -120,7 +120,7 @@ Exemple :
 @ is not null
 ```
 
-### has null
+### est nul
 
 
 
@@ -374,7 +374,7 @@ Exemple :
 
 ## Mathématiques {#math}
 
-### is numeric
+### est numérique
 
 
 
@@ -382,7 +382,7 @@ Exemple :
 <expression> is numeric
 ```
 
-Expression est de type entier ou décimal.
+Le type d’expression est entier ou décimal.
 
 Exemple :
 
@@ -390,7 +390,7 @@ Exemple :
 @ is numeric
 ```
 
-### is integer
+### est un entier
 
 
 
@@ -398,7 +398,7 @@ Exemple :
 <expression> is integer
 ```
 
-Expression est de type entier.
+Le type d’expression est entier.
 
 Exemple :
 
@@ -406,7 +406,7 @@ Exemple :
 @ is integer
 ```
 
-### is decimal
+### est décimal
 
 
 
@@ -414,7 +414,7 @@ Exemple :
 <expression> is decimal
 ```
 
-Expression est de type décimal.
+Le type d’expression est décimal.
 
 Exemple :
 
@@ -440,7 +440,7 @@ Cet opérateur concatène deux expressions.
 
 L’une des expressions doit être une chaîne de caractères.
 
-Exemple :
+Exemple :
 
 ```
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
