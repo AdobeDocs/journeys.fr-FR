@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # À propos des activités d’événement {#concept_rws_1rt_52b}
 
-Les événements configurés par l’utilisateur technique (voir [cette page](../event/about-events.md)) s’affichent tous dans la première catégorie de la palette, sur le côté gauche de l’écran.
+Les événements configurés par l’utilisateur technique (voir [cette page](../event/about-events.md)) sont tous affichés dans la première catégorie de la palette, dans la partie gauche de l’écran.
 
 ![](../assets/journey43.png)
 
