@@ -3,18 +3,18 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Prise en main
 description: Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Prise en main{#concept_y4b_4qt_52b}
 
-Dans [!DNL Journey Orchestration], il existe deux types d’utilisateurs, chacun d’eux effectuant des tâches spécifiques : l’**utilisateur technique** et l’**utilisateur chargé de la conception de parcours**. Les profils de produit et les droits servent à gérer les accès des utilisateurs. Refer to [this page](../about/access-management.md) to learn how to configure user access.
+Dans [!DNL Journey Orchestration], il existe deux types d’utilisateurs, chacun d’eux effectuant des tâches spécifiques : l’**utilisateur technique** et l’**utilisateur chargé de la conception de parcours**. Les profils de produit et les droits servent à gérer les accès des utilisateurs. Consultez [cette page](../about/access-management.md) pour découvrir comment configurer les accès des utilisateurs.
 
 Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration] sont les suivantes :
 
@@ -22,7 +22,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    Vous devez définir les informations attendues et comment les traiter. Cette configuration est obligatoire. Cette étape est effectuée par un **utilisateur technique**.
 
-   Voir à ce propos [cette page](../event/about-events.md).
+   Consultez [cette page](../event/about-events.md) pour plus d’informations.
 
    ![](../assets/journey7.png)
 
@@ -30,7 +30,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l’approvisionnement. Cette étape n’est pas obligatoire si vous n’exploitez que les données des événements de votre parcours. Elle est effectuée par un **utilisateur technique**.
 
-   Voir à ce propos [cette page](../datasource/about-data-sources.md).
+   Consultez [cette page](../datasource/about-data-sources.md) pour plus d’informations à ce sujet.
 
    ![](../assets/journey22.png)
 
