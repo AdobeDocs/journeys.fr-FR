@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Références de champ
 description: En savoir plus sur les références de champ dans les expressions avancées
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Il est possible d’associer une valeur par défaut à un nom de champ. La synta
 >
 >Le type du champ et la valeur par défaut doivent être identiques. Par exemple, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ne sera pas valide, car la valeur par défaut est un entier alors que la valeur attendue doit être une chaîne.
 
-Exemples:
+Exemples :
 
 ```
 // for an event 'OrderEvent' having the following payload:
@@ -100,13 +100,13 @@ Exemple :
 
 **Référence d’un champ défini dans un mapping**
 
-Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’entrée avec une clé donnée. Elle est par exemple utilisée lors de la définition de la clé d’un événement, selon l’espace de noms sélectionné. Voir Sélection de l’espace de noms. Pour plus d’informations, consultez cette [page](../event/selecting-the-namespace.md).
+Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’entrée avec une clé donnée. Elle est par exemple utilisée lors de la définition de la clé d’un événement, selon l’espace de noms sélectionné. Voir Sélection de l’espace de noms. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Dans cette expression, nous obtenons l’entrée correspondant à la clé « Email » du champ « IdentityMap » d’un événement. L’entrée « Email » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez cette [page](../expression/collection-management-functions.md).
+Dans cette expression, nous obtenons l’entrée correspondant à la clé « Email » du champ « IdentityMap » d’un événement. L’entrée « Email » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
 **Valeurs de paramètre d’une source de données (valeurs dynamiques de la source de données)**
 
