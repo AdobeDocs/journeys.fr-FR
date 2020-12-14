@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Types de données
 description: En savoir plus sur les types de données dans les expressions avancées
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ D’un point de vue technique, une constante contient toujours un type de donné
 
 Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur leur représentation.
 
-## string {#string}
+## chaîne {#string}
 
 **Description**
 
@@ -130,7 +130,7 @@ Il ne peut pas représenter un instant sur la ligne de temps sans informations s
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
-Il utilise DateTimeFormatière ISO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **Représentation littérale**
 
@@ -152,7 +152,7 @@ Elle doit être encapsulée dans une fonction toDateTime.
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
-Il utilise DateTimeFormatière ISO_OFFSET_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Il utilise DateTimeFormatter ISO_OFFSET_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 Vous pouvez également transmettre un entier qui transmet une valeur d’époque. [En savoir plus](https://www.epochconverter.com)
 
