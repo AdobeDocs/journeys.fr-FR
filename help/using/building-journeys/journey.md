@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos de la création de parcours
 description: En tant qu’utilisateur professionnel, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Accueil]**.
 
-   La liste des parcours s’affiche. Refer to [this page](../building-journeys/using-the-journey-designer.md) for more information on the interface.
+   La liste des parcours s’affiche. Consultez [cette page](../building-journeys/using-the-journey-designer.md) pour plus d’informations sur l’interface.
 
    ![](../assets/journey30.png)
 
@@ -42,11 +42,11 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey33.png)
 
-1. Faites glisser vos autres activités et configurez-les. Reportez-vous aux pages activités [](../building-journeys/event-activities.md)Événement, [A propos des activités](../building-journeys/about-orchestration-activities.md) d’orchestration et [A propos des activités](../building-journeys/about-action-activities.md)d’action.
+1. Faites glisser vos autres activités et configurez-les. Reportez-vous aux pages [Activités d’événements](../building-journeys/event-activities.md), [À propos des activités d’orchestration](../building-journeys/about-orchestration-activities.md) et [À propos des activités d’action](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Votre parcours est automatiquement enregistré. Testez-le et publiez-le. Reportez-vous aux sections [Test du parcours](../building-journeys/testing-the-journey.md) et [Publication du parcours](../building-journeys/publishing-the-journey.md).
+1. Votre parcours est automatiquement enregistré. Testez-le et publiez-le. Voir [Test du parcours](../building-journeys/testing-the-journey.md) et [Publication du parcours](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
