@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Fonctions
 description: En savoir plus sur les fonctions
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Voici la liste des fonctions prises en charge :
 | Date | [inNextHours](../functions/functioninnexthours.md) |
 | Date | [inNextMonths](../functions/functioninnextmonths.md) |
 | Date | [inNextYears](../functions/functioninnextyears.md) |
-| Date | [now](../functions/functionnow.md) |
+| Date | [maintenant](../functions/functionnow.md) |
 | Date | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | Date | [setHours](../functions/functionsethours.md) |
 | Date | [setDays](../functions/functionsetdays.md) |
@@ -75,14 +75,14 @@ Voici la liste des fonctions prises en charge :
 | Chaîne | [isNotEmpty](../functions/functionisnotempty.md) |
 | Chaîne | [lastIndexOf](../functions/functionlastindexof.md) |
 | Chaîne | [length](../functions/functionlength.md) |
-| Chaîne | [lower](../functions/functionlower.md) |
+| Chaîne | [inférieur](../functions/functionlower.md) |
 | Chaîne | [matchRegExp](../functions/functionmatchregexp.md) |
 | Chaîne | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
-| Chaîne | [replace](../functions/functionreplace.md) |
+| Chaîne | [remplacer](../functions/functionreplace.md) |
 | Chaîne | [replaceAll](../functions/functionreplaceall.md) |
 | Chaîne | [startWith](../functions/functionstartwith.md) |
 | Chaîne | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | Chaîne | [substr](../functions/functionsubstr.md) |
 | Chaîne | [trim](../functions/functiontrim.md) |
-| Chaîne | [upper](../functions/functionupper.md) |
+| Chaîne | [supérieur](../functions/functionupper.md) |
 | Chaîne | [uuid](../functions/functionuuid.md) |
