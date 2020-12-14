@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation d’actions Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine 
 >
 >Pour cela, vous devez configurer l’action intégrée. Consultez à ce sujet [cette page](../action/working-with-adobe-campaign.md).
 
-Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transactionnel Adobe Campaign Standard. En effet, [!DNL Journey Orchestration] n’est pas une solution d’envoi de messages. Pour les canaux Email, SMS et Push intégrés, l’envoi de messages est confié à la messagerie transactionnelle. Cela signifie que si vous souhaitez utiliser un modèle de message spécifique dans vos parcours, vous devez le publier dans Adobe Campaign Standard. Refer to [this page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
+Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transactionnel Adobe Campaign Standard. En effet, [!DNL Journey Orchestration] n’est pas une solution d’envoi de messages. Pour les canaux Email, SMS et Push intégrés, l’envoi de messages est confié à la messagerie transactionnelle. Cela signifie que si vous souhaitez utiliser un modèle de message spécifique dans vos parcours, vous devez le publier dans Adobe Campaign Standard. Consultez [cette page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) pour en savoir plus sur l’utilisation de cette fonctionnalité.
 
 >[!NOTE]
 >
