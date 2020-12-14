@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos du cas d’utilisation avancé
 description: En savoir plus sur le cas d’utilisation avancé de parcours
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,12 +35,12 @@ Nous vérifions ensuite deux conditions :
 
 ![](../assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [this page](../usecase/configuring-the-events.md)):
+Dans ce cas pratique, nous devrons créer deux événements (voir [cette page](../usecase/configuring-the-events.md)) :
 
 * L’événement de balise de hall d’entrée qui sera envoyé au système lorsqu’un client entre dans l’hôtel.
 * L’événement de balise de restaurant qui sera envoyé au système lorsqu’un client entre dans le restaurant.
 
-We will need to configure a connection to two data sources (see [this page](../usecase/configuring-the-data-sources.md)):
+Nous devrons configurer une connexion à deux sources de données (voir [cette page](../usecase/configuring-the-data-sources.md)) :
 
 * La source de données Adobe Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’adhésion au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
 * Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
