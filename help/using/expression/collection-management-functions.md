@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Fonctions de gestion des collections
 description: En savoir plus sur les types de données dans les fonctions de gestion des collections
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
 ht-degree: 100%
 
