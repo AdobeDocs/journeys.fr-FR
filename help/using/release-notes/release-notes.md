@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '2026'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de novembre 2020 {#november-release}
+## Version de novembre 2020 {#november-release}
 
 <table>
 <thead>
@@ -34,7 +34,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <li>simplifier la conception de parcours très complexes en les divisant en plusieurs autres ; </li>
 <li>créer des parcours basés sur des schémas de parcours communs et réutilisables.</li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/jump.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/jump.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -43,13 +43,13 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <table>
 <thead>
 <tr>
-<th><strong>Utilisation des propriétés de voyage dans l’éditeur d’expressions</strong><br/></th>
+<th><strong>Utilisation des propriétés de parcours dans l’éditeur d’expression</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dans l'éditeur d'expressions avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s'agit des informations récupérées par le système à partir de voyages en direct, telles que l'ID de voyage ou les erreurs spécifiques rencontrées. Cela vous donnera plus de possibilités lors de la construction de vos voyages. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs survenues dans une condition ou une action.
+<p>Dans l’éditeur d’expression avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Vous aurez ainsi plus de possibilités lors de la création de vos parcours. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs rencontrées dans une condition ou une action.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
 </td>
@@ -66,7 +66,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle méthode est désormais disponible pour configurer vos événements plus facilement, sans utiliser d’ID d’événement : les événements basés sur des règles évaluent si le événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, désormais appelée "générée par le système". Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est désormais disponible en version bêta pour tous les clients.
+<p>Une nouvelle méthode est désormais disponible pour configurer vos événements plus facilement, sans utiliser d’ID d’événement : les événements basés sur des règles évaluent si le événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est maintenant disponible en version bêta pour tous les clients.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../event/about-events.md">documentation détaillée</a>.</p>
 </td>
@@ -76,11 +76,11 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Autres améliorations{#october-november}
 
-Des limitations ont été ajoutées lors de la création de nouvelles versions d’un voyage. Ces limitations évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
+Des limites ont été ajoutées lors de la création de nouvelles versions d’un parcours. Ces limites évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
 
-L&#39;activité **Qualification de segment** ne peut plus être utilisée dans un voyage qui inclut des activités de messages Campaign Standards. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l&#39;utilisation de la qualification de segment peut conduire à des pics quotidiens d&#39;envoi de messages qui surchargeraient les messages transactionnels des Campaign Standards. [En savoir plus](../about/limitations.md#segment-qualification)
+L’activité **Qualification de segment** ne peut plus être utilisée dans un parcours qui inclut des activités de messages Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l’utilisation de la qualification de segment peut conduire à des pics quotidiens d’envoi de messages qui surchargent les messages transactionnels de Campaign Standard. [En savoir plus](../about/limitations.md#segment-qualification)
 
-## Version d&#39;octobre 2020{#october-release}
+## Version d’octobre 2020{#october-release}
 
 <table>
 <thead>
@@ -339,7 +339,7 @@ Journey Orchestration est maintenant disponible dans la zone APAC (centre de don
 
 L’interface de Journey Orchestration est disponible en japonais.
 
-## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
+## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
 
 <table>
 <thead>
