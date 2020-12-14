@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Activité d’attente
 description: En savoir plus sur l’activité d’attente
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez définir une condition afin de limiter l’attente à une certaine p
 >
 >La durée d’attente maximale est de 30 jours.
 >
->En mode test, le paramètre **[!UICONTROL Temps d’attente en test]** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir la section [cette page](../building-journeys/testing-the-journey.md)
+>En mode test, le paramètre **[!UICONTROL Temps d’attente en test]** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
 
 ## Durée de l’attente{#duration}
 
@@ -50,7 +50,7 @@ Sélectionnez la date d’exécution de l’activité suivante.
 
 ## Attente personnalisée{#custom}
 
-Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L’expression figurant dans l’éditeur d’expression doit fournir un format dateTimeOnly. Voir [cette page](../expression/expressionadvanced.md). For more information on dateTimeOnly format, see [this page](../expression/data-types.md).
+Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L’expression figurant dans l’éditeur d’expression doit fournir un format dateTimeOnly. Voir [cette page](../expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, voir [cette page](../expression/data-types.md).
 
 >[!NOTE]
 >
