@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configuration de l’événement
 description: Découvrez comment configurer l’événement pour le cas d’utilisation simple du parcours
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Dans notre scénario, nous devons recevoir un événement chaque fois qu’une personne se rapproche d’une balise située à proximité du spa. Un **utilisateur technique** doit configurer l’événement que le système doit écouter dans notre parcours.
 
-For additional information on event configuration, refer to [this page](../event/about-events.md).
+Pour plus d’informations sur la configuration des événements, consultez [cette page](../event/about-events.md).
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Événements]** et sur **[!UICONTROL Ajouter]** pour créer un événement.
 
@@ -34,7 +34,7 @@ For additional information on event configuration, refer to [this page](../event
    >
    >La liste des champs varie d’un schéma à l’autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
 
-1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d&#39;informations sur les espaces de nommage, consultez [cette page](../event/selecting-the-namespace.md).
+1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les espaces de noms, voir [cette page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
