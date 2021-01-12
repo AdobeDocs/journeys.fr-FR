@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Limites de Journey Orchestration
 description: En savoir plus sur les limites de Journey Orchestration
-translation-type: ht
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 70%
 
 ---
 
@@ -46,7 +46,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Limites des actions Adobe Campaign
 
-* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html). 
+* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
   
 
 ## Limites des événements
@@ -57,3 +57,15 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 ## Limites des sources de données
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+
+## Parcours commençant en même temps qu’une création de profil {#journeys-limitation-profile-creation}
+
+Un délai est associé à la création/mise à jour de profils basés sur l&#39;API dans Adobe Experience Platform. La Cible de niveau de service (TSL) en termes de latence est de &lt; 1 min entre l&#39;ingestion et le Profil unifié pour le 95e percentile de demandes, à un volume de 20K Demandes par seconde (SRP).
+
+Si un Parcours est déclenché simultanément à la création d&#39;un profil et qu&#39;il vérifie/récupère immédiatement les informations de Profil Service, il peut ne pas fonctionner correctement.
+
+Vous pouvez choisir l’une des deux solutions suivantes :
+
+* Ajoutez une activité d&#39;attente après le premier événement pour donner à Adobe Experience Platform le temps nécessaire pour exécuter l&#39;assimilation à Profil Service.
+
+* Configurez un parcours qui n’exploite pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, le événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
