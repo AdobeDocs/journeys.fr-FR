@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Propriétés du parcours
 description: En savoir plus sur les propriétés d’un parcours
-translation-type: ht
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,8 @@ Voici quelques exemples d’utilisation :
 |  | journeyVersion | Version de parcours |  |
 | Instance de parcours | instanceUID | Identifiant d’instance de parcours | Identifiant de l’instance |
 |  | externalKey | Clé externe | Identifiant individuel déclenchant le parcours |
+|  | organizationId | Identifiant de l’organisation | Organisation de la marque |
+|  | sandboxName | Nom de l’environnement de test | Nom du sandbox |
 | Identité | profileId | Identifiant d’identité du profil | Identifiant du profil dans le parcours |
 |  | espace de noms | Espace de noms d’identité de profil | Espace de noms du profil dans le parcours (exemple : ECID) |
 | Nœud actuel | currentNodeId | Identifiant de nœud actuel | Identifiant de l’activité actuelle (nœud) |
