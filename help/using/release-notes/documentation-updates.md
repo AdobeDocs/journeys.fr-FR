@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises à jour de la documentation
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 100%
 
 Cette page répertorie toutes les mises à jour de la documentation de [!DNL Journey Orchestration].
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
+
+## Janvier 2021 {#january-2021}
+
+* Meilleures pratiques Ajoutées lors du déclenchement d’un parcours en même temps qu’une création de profil. [En savoir plus](../about/limitations.md#journeys-limitation-profile-creation)
 
 ## Octobre 2020 {#october-2020}
 
