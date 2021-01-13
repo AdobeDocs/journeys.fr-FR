@@ -23,7 +23,7 @@ Ils peuvent être gérés par des administrateurs qui ont accès à Admin Consol
 Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 
 * faire partie d’un [!DNL Journey Orchestration] **[!UICONTROL profil de produit]** associé aux autorisations de [!DNL Journey Orchestration] ;
-* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Il n’y a pas d’autorisation obligatoire à posséder. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d&#39;informations à ce sujet, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/access-control/home.html#adobe-admin-console).
+* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Il n’y a pas d’autorisation obligatoire à posséder. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations à ce sujet, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/access-control/home.html#adobe-admin-console).
 
 Admin console permet d’attribuer aux utilisateurs l’un des profils de produit d’usine suivants :
 
