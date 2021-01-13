@@ -102,7 +102,7 @@ Type : chaîne
 
 ## journeyVersionID
 
-ID de la version du parcours. Cet identifiant représente la référence d’identité du parcours, dans le cas du journeyStepEvent.
+Identifiant de la version du parcours. Cet identifiant représente la référence d’identité du parcours, dans le cas du journeyStepEvent.
 
 Type : chaîne
 
