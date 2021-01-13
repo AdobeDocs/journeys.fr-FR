@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -19,22 +19,22 @@ L’activité d’action **[!UICONTROL Saut]** permet d’inviter des individus 
 * simplifier la conception de parcours très complexes en les divisant en plusieurs autres ;
 * créer des parcours basés sur des schémas de parcours communs et réutilisables.
 
-Dans le parcours d&#39;origine, il vous suffit d&#39;ajouter une activité **[!UICONTROL Sauter]** et de sélectionner un parcours de cible. Lorsque l&#39;individu entre dans l&#39;étape **[!UICONTROL Sauter]**, un événement interne est envoyé au premier événement du parcours de la cible. Si l&#39;action **[!UICONTROL Sauter]** réussit, l&#39;individu continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
+Dans le parcours d’origine, il suffit d’ajouter une activité **[!UICONTROL Saut]** et de sélectionner un parcours cible. Lorsque l’individu parvient à l’étape de **[!UICONTROL saut]**, un événement interne est envoyé au premier événement du parcours cible. Si l’action **[!UICONTROL Saut]** réussit, l’individu continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
 
-Dans le parcours de cible, le premier événement déclenché en interne par l&#39;activité **[!UICONTROL Sauter]** fera couler l&#39;individu dans le parcours.
+Dans le parcours cible, le premier événement déclenché en interne par l’activité **[!UICONTROL Saut]** permettra à chaque individu de s’insérer dans le parcours.
 
 ## Cycle de vie
 
-Supposons que vous ayez ajouté une activité **[!UICONTROL Sauter]** dans un voyage A à un voyage B. Le voyage A est le **voyage d&#39;origine** et le voyage B, le **voyage de cible**.
+Supposons que vous ayez ajouté une activité **[!UICONTROL Saut]** d’un parcours A à un parcours B. Le parcours A est le **parcours d’origine** et le parcours B, le **parcours cible**.
 Voici les différentes étapes du processus d’exécution :
 
 Le **parcours A** est déclenché par un événement externe :
 
 1. Le parcours A reçoit un événement externe lié à un individu.
-1. L&#39;individu atteint l&#39;étape **[!UICONTROL Sauter]**.
-1. L&#39;individu est poussé au voyage B et passe aux étapes suivantes du voyage A, après l&#39;étape **[!UICONTROL Sauter]**.
+1. L’individu atteint l’étape du **[!UICONTROL saut]**.
+1. L’individu est amené au parcours B et passe aux étapes suivantes du parcours A, suite à l’étape du **[!UICONTROL saut]**.
 
-Dans le voyage B, le premier événement est déclenché en interne, par l&#39;activité **[!UICONTROL Sauter]** du voyage A :
+Dans le parcours B, le premier événement est déclenché en interne, via l’activité **[!UICONTROL Saut]** depuis le parcours A :
 
 1. Le parcours B a reçu un événement interne du parcours A.
 1. L’individu commence à effectuer le parcours B.
@@ -43,31 +43,31 @@ Dans le voyage B, le premier événement est déclenché en interne, par l&#39;a
 >
 >Le parcours B peut également être déclenché par un événement externe.
 
-## Meilleures pratiques et limites
+## Bonnes pratiques et limites
 
 ### Création
 
-* L&#39;activité **[!UICONTROL Sauter]** n&#39;est disponible que dans les voyages utilisant un espace de nommage.
+* L’activité **[!UICONTROL Saut]** n’est disponible que dans les parcours utilisant un espace de noms.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
 * Vous ne pouvez pas accéder à un parcours commençant par un événement de **qualification de segment**.
-* Vous ne pouvez pas avoir une activité **[!UICONTROL Sauter]** et un événement **Segment** dans le même parcours.
-* Vous pouvez inclure autant d&#39;activités **[!UICONTROL Sauter]** que nécessaire dans un voyage. Après un **[!UICONTROL saut]**, vous pouvez ajouter toute activité nécessaire.
+* Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement de **qualification du segment**.
+* Vous pouvez inclure autant d’activités **[!UICONTROL Saut]** que nécessaire dans un parcours. Après un **[!UICONTROL saut]**, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
-* Le parcours de la cible peut également inclure autant d&#39;activités **[!UICONTROL Sauter]** que nécessaire.
+* Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
 * Les schémas de boucle ne sont pas pris en charge. Il n’y a aucun moyen de relier deux parcours, ou plus, qui créeraient une boucle infinie. L’écran de configuration de l’activité **[!UICONTROL Saut]** vous empêche de le faire.
 
 ### Exécution
 
-* Lorsque l&#39;activité **[!UICONTROL Sauter]** est exécutée, la dernière version du parcours de cible est déclenchée.
-* Comme à l’accoutumée, un individu donné ne peut être présent qu’une seule fois dans un même parcours. Ainsi, si un individu provenant d’un parcours d’origine est déjà engagé dans le parcours cible, il ne rejoindra pas le parcours cible. Aucune erreur ne sera signalée sur l&#39;activité **[!UICONTROL Sauter]** car il s&#39;agit d&#39;un comportement normal.
+* Lorsque l’activité **[!UICONTROL Saut]** est exécutée, la dernière version du parcours cible est déclenchée.
+* Comme à l’accoutumée, un individu donné ne peut être présent qu’une seule fois dans un même parcours. Ainsi, si un individu provenant d’un parcours d’origine est déjà engagé dans le parcours cible, il ne rejoindra pas le parcours cible. Aucune erreur ne sera signalée lors de l’activité **[!UICONTROL Saut]**, car il s’agit d’un comportement normal.
 
-## Configuration de l’activité de vidage
+## Configuration de l’activité Saut
 
-1. Concevez votre **voyage d&#39;origine**.
+1. Concevez votre **parcours d’origine**.
 
    ![](../assets/jump1.png)
 
-1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Sauter]**, à partir de la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
+1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Saut]**, depuis la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
 
    ![](../assets/jump2.png)
 
@@ -81,7 +81,7 @@ La liste contient toutes les versions de parcours en version brouillon, version 
    >Vous pouvez cliquer sur l’icône **Ouvrir le parcours cible**, sur le côté droit, pour ouvrir le parcours cible dans un nouvel onglet.
 
 1. Sélectionnez le parcours cible auquel vous souhaitez accéder.
-Le champ **Premier événement** est prérenseigné avec le nom du premier événement du parcours cible. Si votre parcours de cible comprend plusieurs événements, le saut **[!UICONTROL sauter]** n&#39;est autorisé que le premier événement.
+Le champ **Premier événement** est prérenseigné avec le nom du premier événement du parcours cible. Si votre parcours cible comporte plusieurs événements, le **[!UICONTROL saut]** n’est autorisé que pour le premier.
 
    ![](../assets/jump4.png)
 
@@ -93,11 +93,11 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
 
    >[!NOTE]
    >
-   >L’identité de l&#39;individu est automatiquement mappée. Ces informations ne sont pas visibles dans l’interface.
+   >L’identité de l’individu est automatiquement mappée. Ces informations ne sont pas visibles dans l’interface.
 
-Votre activité **[!UICONTROL Sauter]** est configurée. Dès que votre voyage est en direct ou en mode test, les personnes qui atteignent l&#39;étape **[!UICONTROL Sauter]** seront poussées du voyage jusqu&#39;au voyage de cible.
+Votre activité **[!UICONTROL Saut]** est configurée. Dès que votre parcours est actif ou en mode test, les individus qui atteignent l’étape de **[!UICONTROL saut]** sont amenés au parcours cible.
 
-Lorsqu&#39;une activité **[!UICONTROL Sauter]** est configurée dans un parcours, une icône **[!UICONTROL Sauter]** est automatiquement ajoutée au début du parcours de cible. Cela vous permet d’identifier que le voyage peut être déclenché en externe mais aussi en interne à partir d’une activité **[!UICONTROL Sauter]**.
+Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, une icône d’entrée **[!UICONTROL Saut]** est automatiquement ajoutée au début du parcours cible. Vous pouvez ainsi identifier que le parcours peut être déclenché depuis l’extérieur mais aussi en interne par le biais d’une activité **[!UICONTROL Saut]**.
 
 ![](../assets/jump7.png)
 
