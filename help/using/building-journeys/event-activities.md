@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des activités d’événement
 description: En savoir plus sur les activités d’événement
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Lorsque vous cliquez sur l’activité d’événement dans la zone de travail, 
 
 ![](../assets/journey33.png)
 
-## Écoute d&#39;événements au cours d’une période spécifique
+## Écoute d’événements au cours d’une période spécifique
 
 Une activité d’événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer un délai d’expiration pour l’événement.
 
@@ -49,6 +49,6 @@ Dans cet exemple, le parcours envoie un premier message de bienvenue à un clien
 
 Notez que si vous souhaitez configurer un délai d’expiration pour plusieurs événements placés après une activité d’**[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
 
-Le délai d’expiration s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu après le délai d’expiration spécifié, les individus s’engagent dans un seul chemin d&#39;accès au délai d’expiration ou terminent leur parcours.
+Le délai d’expiration s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu après le délai d’expiration spécifié, les individus s’engagent dans un seul chemin d’accès au délai d’expiration ou terminent leur parcours.
 
 ![](../assets/event-timeout-group.png)
