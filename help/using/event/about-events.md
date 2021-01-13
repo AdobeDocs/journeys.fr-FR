@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des événements
 description: En savoir plus sur les événements
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -33,9 +33,9 @@ Vous pouvez définir deux types d’événements :
 
    >[!CAUTION]
    >
-   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=fr#building-journeys).
+   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans la prévisualisation de la payload.
+* **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload.
 
 Pour savoir comment créer un événement, consultez cette [page](../event/about-creating.md).
 
