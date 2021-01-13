@@ -52,7 +52,7 @@ Les jeux de données suivants sont transmis :
 
 Les listes des champs XDM transmis à Adobe Experience Platform sont détaillées ici :
 
-* [Champs communs aux événements journeySteps](../building-journeys/sharing-common-fields.md)
+* [Champs communs des événements journeySteps](../building-journeys/sharing-common-fields.md)
 * [Champs d’exécution d’action des événements journeyStep](../building-journeys/sharing-execution-fields.md)
 * [Champs de récupération des données des événements journeyStep](../building-journeys/sharing-fetch-fields.md)
 * [Champs d’identité des événements journeyStep](../building-journeys/sharing-identity-fields.md)
