@@ -34,7 +34,7 @@ Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs una
 
 Voici la liste des opérateurs pris en charge :
 
-## Logique  {#logical}
+## Logique    {#logical}
 
 ### et
 
