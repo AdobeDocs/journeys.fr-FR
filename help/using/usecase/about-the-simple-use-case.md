@@ -24,7 +24,7 @@ Nous ne voulons envoyer un message que si cette personne est une femme. Le messa
 
 ![](../assets/journeyuc1_16.png)
 
-## Conditions requises      {#prerequisites}
+## Conditions requises       {#prerequisites}
 
 Pour notre cas d’utilisation, nous avons conçu un modèle de message transactionnel email dans Adobe Campaign Standard. Nous utilisons un modèle de message transactionnel basé sur un événement. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
