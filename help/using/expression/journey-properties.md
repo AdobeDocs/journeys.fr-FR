@@ -20,7 +20,7 @@ Dans l’éditeur d’expression avancé, vous trouverez la catégorie **Propri�
 
 Vous trouverez, par exemple, des informations sur :
 
-* version du parcours : uid du parcours, uid de la version du parcours, uid de l&#39;instance, etc.
+* version du parcours : uid du parcours, uid de la version du parcours, uid de l’instance, etc.
 * erreurs : extraction de données, exécution d’actions, etc.
 * étape en cours, dernière étape en cours, etc.
 * profils ignorés
@@ -33,7 +33,7 @@ Voici quelques exemples d’utilisation :
 
 * **Envoyer des alertes en cas d’erreurs** : vous pouvez envoyer une notification à un système tiers chaque fois qu’une erreur se produit sur un message. Pour ce faire, vous configurez un chemin en cas d’erreur, ajoutez une condition et une action personnalisée. Vous pouvez envoyer une notification sur un canal Slack, par exemple, avec la description de l’erreur rencontrée.
 
-* **Affiner les erreurs du reporting** : au lieu d&#39;avoir un seul chemin pour les messages d’erreur, vous pouvez définir une condition par type d’erreur. Vous pourrez ainsi affiner le reporting et consulter toutes les données de types d’erreur.
+* **Affiner les erreurs du reporting** : au lieu d’avoir un seul chemin pour les messages d’erreur, vous pouvez définir une condition par type d’erreur. Vous pourrez ainsi affiner le reporting et consulter toutes les données de types d’erreur.
 
 ## Liste de champs {#journey-properties-fields}
 
@@ -60,5 +60,5 @@ Voici quelques exemples d’utilisation :
 |  | lastErrorCode | Dernier code d’erreur | Code d’erreur de la dernière activité (nœud) en erreur. Erreurs possibles : <ul><li>Codes d’erreur HTTP</li><li>limité</li><li>timedOut</li><li>erreur (exemple : par défaut en cas d’erreur inattendue. Ne devrait pas/extrêmement rarement se produire)</li></ul> |
 |  | lastExecutedActionErrorCode | Code d’erreur de la dernière action exécutée | Code d’erreur de la dernière action en erreur |
 |  | lastDataFetchErrorCode | Code d’erreur de la dernière récupération de données | Code d’erreur de la dernière récupération de données à partir des sources de données |
-| Heure | lastActionExecutionElapsedTime | Temps écoulé avant l&#39;exécution de la dernière action | Temps passé à exécuter la dernière action |
+| Heure | lastActionExecutionElapsedTime | Temps écoulé avant l’exécution de la dernière action | Temps passé à exécuter la dernière action |
 |  | lastDataFetchElapsedTime | Temps écoulé avant la dernière récupération des données | Temps passé à exécuter la dernière récupération de données à partir de sources de données |
