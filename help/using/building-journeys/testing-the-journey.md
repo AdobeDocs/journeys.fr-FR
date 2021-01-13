@@ -132,13 +132,13 @@ Si vous sélectionnez un autre profil de test dans l’écran de configuration d
 
 Lorsque vous ouvrez un parcours en cours de test, le chemin affiché correspond au dernier test exécuté.
 
-Le flux visuel fonctionne que l’événement soit déclenché par l&#39;interface ou de manière externe (à l&#39;aide de Postman, par exemple).
+Le flux visuel fonctionne que l’événement soit déclenché par l’interface ou de manière externe (à l’aide de Postman, par exemple).
 
 ## Mode test pour les parcours basés sur des règles {#test-rule-based}
 
 Le mode test est également disponible pour les parcours qui utilisent un événement basé sur des règles. Pour plus d’informations sur les événements basés sur des règles, consultez [cette page](../event/about-events.md).
 
-Lors du déclenchement d&#39;un événement, l&#39;écran de **configuration de l’événement** permet de définir les paramètres d’événement à transmettre au test. Vous pouvez afficher la condition d’identifiant d’événement en cliquant sur l’icône d’info-bulle située dans le coin supérieur droit. Une info-bulle est également disponible en regard de chaque champ qui fait partie de l’évaluation des règles.
+Lors du déclenchement d’un événement, l’écran de **configuration de l’événement** permet de définir les paramètres d’événement à transmettre au test. Vous pouvez afficher la condition d’identifiant d’événement en cliquant sur l’icône d’info-bulle située dans le coin supérieur droit. Une info-bulle est également disponible en regard de chaque champ qui fait partie de l’évaluation des règles.
 
 ![](../assets/alpha-event8.png)
 
@@ -183,7 +183,7 @@ Dans le cas de plusieurs événements déclenchés par plusieurs parcours
 
 Il existe un scénario où plusieurs événements sont envoyés à partir de plusieurs parcours qui auront des schémas différents. Est-il possible de mapper n schéma sur 1 jeu de données ? Si ce n’est pas possible, plusieurs jeux de données seront nécessaires.
 
-La création automatique et l’attribution d’un nom à ces jeux de données sont effectués si un jeu de données de destination n’est pas inclus dans l’événement d’expérience. C&#39;est pourquoi nous voyons aujourd&#39;hui le « jeu de données créé automatiquement pour Voyager ».
+La création automatique et l’attribution d’un nom à ces jeux de données sont effectués si un jeu de données de destination n’est pas inclus dans l’événement d’expérience. C’est pourquoi nous voyons aujourd’hui le « jeu de données créé automatiquement pour Voyager ».
 
 L’attribution d’un nom à notre source entraîne la création automatique. Si nous avons plusieurs événements, nous devrions concaténer et nommer le tout « Événement de test Journey Orchestration - NOM DU SCHÉMA ». Cela se transforme automatiquement en « Jeu de données généré automatiquement pour l’Événement de test Journey Orchestration - NOM DU SCHÉMA ».
 
