@@ -28,7 +28,7 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
    >
    >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
-1. Dans le champ **[!UICONTROL Type d’identifiant d’événement]**, sélectionnez le type d&#39;événement à utiliser.
+1. Dans le champ **[!UICONTROL Type d’identifiant d’événement]**, sélectionnez le type d’événement à utiliser.
 
    ![](../assets/journey6bis.png)
 
