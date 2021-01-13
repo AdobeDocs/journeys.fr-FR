@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2026'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle activité d'action vous permet de pousser des individus d'un voyage à l'autre. L'activité <strong>Sauter</strong> vous permet de :
+<p>Une nouvelle activité d’action vous permet d’inviter des individus à passer d’un parcours à un autre. L’activité <strong>Saut</strong> vous permet d’effectuer les opérations suivantes :
 </p>
 <ul>
 <li>simplifier la conception de parcours très complexes en les divisant en plusieurs autres ; </li>
@@ -60,13 +60,13 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles (bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles  (bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle méthode est désormais disponible pour configurer vos événements plus facilement, sans utiliser d’ID d’événement : les événements basés sur des règles évaluent si le événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est maintenant disponible en version bêta pour tous les clients.
+<p>Une nouvelle méthode est maintenant disponible pour configurer vos événements plus facilement, sans utiliser d’identifiant d’événement eventID : des événements basés sur des règles évaluent si l’événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est maintenant disponible en version bêta pour tous les clients.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../event/about-events.md">documentation détaillée</a>.</p>
 </td>
@@ -145,13 +145,13 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 <li><p>La granularité des journaux du mode test a été améliorée pour afficher l’état d’avancement de l’export des segments.</p>
 </li>
 </ul>
-<p>Pour plus d'informations sur l'activité <strong>Lecture de segment</strong>, consultez la <a href="../alpha/alpha-segment-trigger.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations sur l’activité <strong>Lecture de segment</strong>, consultez la <a href="../alpha/alpha-segment-trigger.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Version d&#39;août 2020 {#august-release}
+## Version d’août 2020 {#august-release}
 
 ### Mises à jour de la version GA{#august-ga-update}
 
@@ -175,7 +175,7 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 <ul>
 <li><p>Le nom de l’activité a été remplacé par « Lecture de segment ». </p>
 </li>
-<li><p>La configuration du planificateur de parcours a été supprimée des propriétés de l’activité. Elle est maintenant accessible directement à partir des propriétés du parcours, dans une section dédiée qui s'affichera si une activité de Lecture de segment a été déposée dans la zone de travail. </p>
+<li><p>La configuration du planificateur de parcours a été supprimée des propriétés de l’activité. Elle est maintenant accessible directement à partir des propriétés du parcours, dans une section dédiée qui s’affichera si une activité de Lecture de segment a été déposée dans la zone de travail. </p>
 </li>
 <li><p>Vous pouvez maintenant tester le parcours sur un profil unitaire et suivre sa progression dans le parcours à l’aide du flux visuel.</p>
 </li>
@@ -294,7 +294,7 @@ Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.m
 <li><p>Dans l’éditeur d’expression simple, les segments Adobe Experience Platform sont maintenant directement répertoriés dans l’arborescence de navigation pour faciliter la configuration de conditions telles que « cette personne appartient-elle au segment A ? ». <a href="../segment/using-a-segment.md">En savoir plus</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d'étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
+<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d’étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
