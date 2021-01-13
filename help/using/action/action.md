@@ -39,4 +39,4 @@ Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action
 
 Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Consultez à ce sujet [cette page](../action/about-custom-action-configuration.md).
 
-Pour plus d’informations sur la configuration d’une action pour [!DNL Journey Orchestration] et sur la façon de l’utiliser dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+Pour plus d’informations sur la configuration d’une action pour [!DNL Journey Orchestration] et sur la façon de l’utiliser dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/platform-learn/tutorials/journey-orchestration/configure-actions.html).
