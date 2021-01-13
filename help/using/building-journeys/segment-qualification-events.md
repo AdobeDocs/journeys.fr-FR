@@ -69,7 +69,7 @@ Voir [Activité de condition](../building-journeys/condition-activity.md#about_c
 
 ## Bonnes pratiques {#best-practices-segments}
 
-L’activité **[!UICONTROL Qualification du segment]** permet une entrée immédiate dans les parcours des particuliers qualifiés ou disqualifiés d&#39;un segment Adobe Experience Platform.
+L’activité **[!UICONTROL Qualification du segment]** permet une entrée immédiate dans les parcours des particuliers qualifiés ou disqualifiés d’un segment Adobe Experience Platform.
 
 La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, vous devez veiller à comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours.
 
