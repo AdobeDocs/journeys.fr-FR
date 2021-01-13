@@ -174,7 +174,7 @@ Une fois le téléchargement puis le chargement effectués dans Postman, vous de
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &#39;/authoring&#39;
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [présentation des sandbox](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/home.html).
 
-Dans la section suivante, vous trouverez la liste classée des appels API REST pour effectuer le cas d&#39;utilisation.
+Dans la section suivante, vous trouverez la liste classée des appels API REST pour effectuer le cas d’utilisation.
 
 Cas d’utilisation n°1 : **création et déploiement d’une nouvelle configuration de limitation**
 
