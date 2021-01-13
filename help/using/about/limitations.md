@@ -21,7 +21,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 * Il n’y a pas de limite d’envoi. 
 * En cas d’erreur, deux reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé. 
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié. 
-* Il n&#39;y a pas d’intégration de produit avec Adobe Campaign Classic.
+* Il n’y a pas d’intégration de produit avec Adobe Campaign Classic.
 
 ## Limites des versions de parcours {#journey-versions-limitations}
 
