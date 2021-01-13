@@ -30,7 +30,7 @@ ht-degree: 100%
 + Configuration d’un événement {#events-journeys}
    + À propos des événements {#about-events}
       + [Principe général](using/event/about-events.md)
-      + [Cycle de données](using/event/about-data-cycle.md)
+      + [Cycle des données](using/event/about-data-cycle.md)
       + [Créer un événement](using/event/about-creating.md)
       + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
       + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
@@ -84,7 +84,7 @@ ht-degree: 100%
    + [Publication du parcours](using/building-journeys/publishing-the-journey.md)
    + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
       + [Présentation du partage des étapes du parcours](using/building-journeys/sharing-overview.md)
-      + [Champs communs aux événements journeySteps](using/building-journeys/sharing-common-fields.md)
+      + [Champs communs des événements journeySteps](using/building-journeys/sharing-common-fields.md)
       + [Champs d’exécution d’action des événements journeyStep](using/building-journeys/sharing-execution-fields.md)
       + [Champs de récupération des données des événements journeyStep](using/building-journeys/sharing-fetch-fields.md)
       + [Champs d’identité des événements journeyStep](using/building-journeys/sharing-identity-fields.md)
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [Propriétés du parcours](using/expression/journey-properties.md)
       + [Exemples](using/expression/advanced-editor-use-cases.md)
    + Fonctions {#main-functions-journey}
-      + [Fonctions principales](using/expression/functions.md)
+      + [Principales fonctions](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
       + Agrégation {#aggregation}
@@ -192,5 +192,5 @@ ht-degree: 100%
 + Fonctionnalités Alpha {#alpha}
    + [Présentation des fonctionnalités Alpha](using/alpha/alpha-overview.md)
    + [Interface utilisateur](using/alpha/alpha-interface.md)
-   + [Lire l’activité de segment](using/alpha/alpha-segment-trigger.md)
+   + [Activité Lecture de segment](using/alpha/alpha-segment-trigger.md)
 
