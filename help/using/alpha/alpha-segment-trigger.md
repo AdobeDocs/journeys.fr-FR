@@ -86,9 +86,9 @@ Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les j
 
 * **[!UICONTROL Profil unique à la fois]** : les journaux de test affichent les mêmes informations que lors de l’utilisation du mode test unitaire. Voir à ce propos [cette section](../building-journeys/testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** : les journaux de test vous permettent de suivre l’avancement de l&#39;export des segments à partir d’Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes ayant rejoint le parcours.
+* **[!UICONTROL Jusqu’à 100 profils à la fois]** : les journaux de test vous permettent de suivre l’avancement de l’export des segments à partir d’Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes ayant rejoint le parcours.
 
-   Notez que tester le parcours en utilisant jusqu&#39;à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
+   Notez que tester le parcours en utilisant jusqu’à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
 
    ![](../assets/read-segment-log.png)
 
