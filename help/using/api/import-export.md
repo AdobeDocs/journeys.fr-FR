@@ -13,7 +13,7 @@ ht-degree: 100%
 ---
 
 
-# Utilisation de l’API d&#39;import-export
+# Utilisation de l’API d’import-export
 
 Exportez une version de parcours et tous ses objets associés (parcours, événements, sources de données, groupes de champs, actions personnalisées) avec un seul appel API. La payload obtenue de l’export peut être utilisée pour importer facilement le parcours dans un autre environnement (instance ou sandbox).
 Cette fonctionnalité permet de gérer vos parcours sur plusieurs instances ou pour plusieurs workflows d’environnements de test.
@@ -99,7 +99,7 @@ La payload obtenue peut être utilisée pour importer la version du parcours dan
 * Les informations d’identification ne sont pas exportées et un espace réservé (par exemple INSERT_SECRET_HERE) est inséré dans la payload de la réponse.
 Après l’appel d’export , vous devez insérer manuellement les nouvelles informations d’identification (correspondant à l’environnement cible) avant d’importer la payload dans l’environnement cible.
 
-* Les objets suivants sont exportés, mais ils ne seront jamais importés dans l’environnement cible. Il s’agit de ressources système gérées automatiquement par le Journey Orchestration. Vous n&#39;avez pas besoin de remplacer « INSERT_SECRET_HERE ».
+* Les objets suivants sont exportés, mais ils ne seront jamais importés dans l’environnement cible. Il s’agit de ressources système gérées automatiquement par le Journey Orchestration. Vous n’avez pas besoin de remplacer « INSERT_SECRET_HERE ».
    * **DataProviders** : « Fournisseur de données Adobe Campaign Standard » (acsDataProvider) et « Experience Platform » (acppsDataProvider)
    * **Groupes de champs** (dataEntities) : « ProfileFieldGroup » (acppsDataPack)
 
