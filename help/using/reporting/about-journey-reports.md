@@ -22,11 +22,11 @@ Cette section explique comment accéder aux rapports et les utiliser pour mesure
 
 ## Interface du reporting {#reporting-interface}
 
-La barre d&#39;outils supérieure vous permet de modifier, d&#39;enregistrer ou d&#39;imprimer votre rapport, par exemple.
+La barre d’outils supérieure vous permet de modifier, d’enregistrer ou d’imprimer votre rapport, par exemple.
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Utilisez l&#39;onglet **[!UICONTROL Projet]** pour :
+Utilisez l’onglet **[!UICONTROL Projet]** pour :
 
 * **[!UICONTROL Ouvrir]** : ouvre un rapport ou un modèle créé précédemment.
 * **[!UICONTROL Enregistrer sous]** : duplique les modèles pour les rendre modifiables.
