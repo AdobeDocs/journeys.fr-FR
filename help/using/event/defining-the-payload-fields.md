@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Définition des champs de payload
 description: Découvrez comment définir les champs de payload
-translation-type: ht
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    ![](../assets/journey8.png)
 
-   Tous les champs définis dans le schéma sont affichés. La liste des champs varie d’un schéma à l’autre. Vous pouvez rechercher un champ spécifique, ou utiliser les filtres pour afficher l’ensemble des nœuds et des champs ou uniquement les champs sélectionnés. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés. Vous ne pouvez pas les désélectionner.
+   Tous les champs définis dans le schéma sont affichés. La liste des champs varie d’un schéma à l’autre. Vous pouvez rechercher un champ spécifique, ou utiliser les filtres pour afficher l’ensemble des nœuds et des champs ou uniquement les champs sélectionnés. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés. Vous ne pouvez pas les désélectionner. Tous les champs obligatoires pour que le Journey Orchestration reçoive correctement le événement sont sélectionnés par défaut.
 
    >[!NOTE]
    >
