@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 Lors de la sélection d’un schéma dans la configuration du événement, seuls les champs obligatoires pour que le événement soit correctement reçu par le Journey Orchestration sont sélectionnés. [En savoir plus](../event/defining-the-payload-fields.md)
 
-Les attributs de propriétés de parcours sont désormais disponibles dans l’éditeur d’expressions simple.
+Les attributs de propriétés de parcours sont désormais disponibles dans l’éditeur d’expressions simple. [En savoir plus](../expression/journey-properties.md)
 
 Deux nouveaux attributs de propriétés de parcours ont été ajoutés (sandboxName et organizationId). [En savoir plus](../expression/journey-properties.md)
 
