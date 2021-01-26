@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Utilisation d’Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 97%
+source-wordcount: '310'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent 
 
 >[!NOTE]
 >
->Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Pour réduire le risque de surcharge, nous vous recommandons de configurer une **règle de limitation** pour l’intégration de Campaign Standard.
+>Une règle de plafonnement de 13 appels par seconde est automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. Cela correspond à l&#39;échelle officielle des messages transactionnels d&#39;Adobe Campaign Standard.
 >
 >Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la [description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html).
 
@@ -40,7 +40,7 @@ La procédure de configuration est la suivante :
    >
    >Ce test vérifie que les conditions suivantes sont remplies :
    >
-   >L’hôte est &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; ou &quot;campaign-demo.adobe.com&quot;
+   >L’hôte est &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; ou &quot;.campaign-demo.adobe.com&quot;
    >
    >L’URL commence par https.
    >
