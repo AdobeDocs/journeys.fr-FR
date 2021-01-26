@@ -4,17 +4,21 @@ solution: Journey Orchestration
 title: Propriétés du parcours
 description: En savoir plus sur les propriétés d’un parcours
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 98%
+source-wordcount: '586'
+ht-degree: 95%
 
 ---
 
 
-# Propriétés du parcours {#journey-properties}
+# Attributs de propriétés de parcours {#journey-properties}
 
 Dans l’éditeur d’expression avancé, vous trouverez la catégorie **Propriétés du parcours**, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir des parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées.
+
+>[!NOTE]
+>
+>Les attributs de propriétés de parcours sont également disponibles dans l’éditeur d’expressions simple. Consultez cette [section](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
