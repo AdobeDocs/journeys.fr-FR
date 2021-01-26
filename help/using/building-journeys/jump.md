@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
-translation-type: ht
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9d8c3a2cf79f2b861aad61089a263a6a33a747b4
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ L’activité d’action **[!UICONTROL Saut]** permet d’inviter des individus 
 Dans le parcours d’origine, il suffit d’ajouter une activité **[!UICONTROL Saut]** et de sélectionner un parcours cible. Lorsque l’individu parvient à l’étape de **[!UICONTROL saut]**, un événement interne est envoyé au premier événement du parcours cible. Si l’action **[!UICONTROL Saut]** réussit, l’individu continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
 
 Dans le parcours cible, le premier événement déclenché en interne par l’activité **[!UICONTROL Saut]** permettra à chaque individu de s’insérer dans le parcours.
+
+>[!NOTE]
+>
+>Reportez-vous également à la vidéo du didacticiel [ici](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
 
 ## Cycle de vie
 
