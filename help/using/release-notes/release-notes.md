@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
-translation-type: ht
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: ht
-source-wordcount: '2026'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+workflow-type: tm+mt
+source-wordcount: '2169'
+ht-degree: 93%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## Version de janvier 2021 {#january-release}
+
+Lors de la sélection d’un schéma dans la configuration du événement, seuls les champs obligatoires pour que le événement soit correctement reçu par le Journey Orchestration sont sélectionnés. [En savoir plus](../event/defining-the-payload-fields.md)
+
+Les attributs de propriétés de parcours sont désormais disponibles dans l’éditeur d’expressions simple.
+
+Deux nouveaux attributs de propriétés de parcours ont été ajoutés (sandboxName et organizationId). [En savoir plus](../expression/journey-properties.md)
+
+Pour s’aligner sur les SLA Adobe Campaign Standard, une règle de plafonnement de 13 appels par seconde est désormais automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. [En savoir plus](../action/working-with-adobe-campaign.md)
+
+La durée du délai d’expiration du événement est désormais spécifiée plus clairement sur le chemin d’expiration. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../functions/functionsplit.md) ont été ajoutées à la liste des fonctions disponibles dans l&#39;éditeur d&#39;expression avancé. Cela offre davantage de possibilités dans vos cas d&#39;utilisation du calcul de chaîne.
 
 ## Version de novembre 2020 {#november-release}
 
@@ -34,7 +48,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <li>simplifier la conception de parcours très complexes en les divisant en plusieurs autres ; </li>
 <li>créer des parcours basés sur des schémas de parcours communs et réutilisables.</li>
 </ul>
-<p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/jump.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/jump.md">documentation détaillée</a> et regardez le <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">tutoriel vidéo</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -68,13 +82,13 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <td>
 <p>Une nouvelle méthode est maintenant disponible pour configurer vos événements plus facilement, sans utiliser d’identifiant d’événement eventID : des événements basés sur des règles évaluent si l’événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est maintenant disponible en version bêta pour tous les clients.
 </p>
-<p>Pour plus d’informations, consultez la <a href="../event/about-events.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, reportez-vous à la <a href="../event/about-events.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Autres améliorations{#october-november}
+### Autres améliorations 
 
 Des limites ont été ajoutées lors de la création de nouvelles versions d’un parcours. Ces limites évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
 
@@ -99,7 +113,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 </tbody>
 </table>
 
-### Autres améliorations{#october-other}
+### Autres améliorations 
 
 * Lorsque vous publiez une nouvelle version d’un parcours, la version précédente se termine automatiquement et passe au statut Fermé. [En savoir plus](../building-journeys/journey-versions.md)
 
