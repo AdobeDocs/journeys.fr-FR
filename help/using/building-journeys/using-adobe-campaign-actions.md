@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation d’actions Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Les paramètres sont identiques pour **[!UICONTROL Email]** et **[!UICONTROL SMS
 
 >[!NOTE]
 >
->Dans le cas des emails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’email de la personne dans le paramètre d’URL et qui pointe vers une landing page de désabonnement. Vous devez créer cette landing page et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
+>Dans le cas des emails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’email de la personne dans le paramètre d’URL et qui pointe vers une landing page de désabonnement. Vous devez créer cette landing page et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
 
 Vous devez, tout d’abord, choisir un modèle de message transactionnel. Consultez à ce sujet [cette page](../building-journeys/about-action-activities.md).
 
