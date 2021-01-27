@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Description de l’API de limitation
 description: En savoir plus sur l’API de limitation.
 products: journeys
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 100%
 
@@ -185,30 +185,30 @@ Cas d’utilisation n°1 : **création et déploiement d’une nouvelle configu
 
 Cas d’utilisation n°2 : **mise à jour et déploiement d’une configuration de limitation non encore déployée**
 
-1. list
+1. liste
 1. get
 1. update
 1. candeploy
-1. deploy
+1. déployer
 
 Cas d’utilisation n°3 : **annulation du déploiement et suppression d’une configuration de limitation déployée**
 
-1. list
+1. liste
 1. undeploy
 1. delete
 
 Cas d’utilisation n°4 : **suppression d’une configuration de limitation déployée**
 
 En un seul appel d’API, vous pouvez annuler le déploiement et supprimer la configuration à l’aide du paramètre forceDelete.
-1. list
+1. liste
 1. delete, avec le paramètre forceDelete
 
 Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation déjà déployée**
 
-1. list
+1. liste
 1. get
 1. update
-1. undeploy
+1. annuler
 1. candeploy
-1. deploy
+1. déployer
 
