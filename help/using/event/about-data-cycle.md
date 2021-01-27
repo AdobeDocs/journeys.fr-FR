@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Cycle des données d’événement
 description: En savoir plus sur le cycle des données d’événement
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
