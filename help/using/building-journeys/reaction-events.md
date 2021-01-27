@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Événements de réaction
 description: En savoir plus sur les événements de réaction
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
