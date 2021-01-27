@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: concat
 description: En savoir plus sur la fonction concat
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 100%
 
