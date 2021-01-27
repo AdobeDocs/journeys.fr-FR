@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Types de données
 description: En savoir plus sur les types de données dans les expressions avancées
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 
