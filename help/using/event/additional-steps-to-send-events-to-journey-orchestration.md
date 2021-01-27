@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
 description: En savoir plus sur les étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 100%
 
