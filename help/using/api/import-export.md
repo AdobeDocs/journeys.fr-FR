@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Description de l’API d’import-export
 description: En savoir plus sur l’API d’import-export.
 products: journeys
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8da1d4a6c01279bf502c3ec39bdaba8fcc8e64f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 100%
 
