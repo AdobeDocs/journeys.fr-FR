@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
