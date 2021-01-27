@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Créer un événement
 description: Découvrez comment créer un événement
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
 
