@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Aperçu de la payload
 description: Découvrez comment prévisualiser la payload
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
