@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configuration de l’événement
 description: Découvrez comment configurer l’événement pour le cas d’utilisation simple du parcours
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
