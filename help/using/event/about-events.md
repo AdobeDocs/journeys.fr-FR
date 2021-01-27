@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des événements
 description: En savoir plus sur les événements
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
