@@ -19,7 +19,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Janvier 2021 {#january-2021}
 
-* Meilleures pratiques Ajoutées lors du déclenchement d’un parcours en même temps qu’une création de profil. [En savoir plus](../about/limitations.md#journeys-limitation-profile-creation)
+* Meilleures pratiques Ajoutées lors du déclenchement d’un parcours en même temps qu’une création de profil. [En savoir plus](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Octobre 2020 {#october-2020}
 
