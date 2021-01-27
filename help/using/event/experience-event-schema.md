@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'À propos des schémas ExperienceEvent pour les événements Journey Orchestration '
 description: 'En savoir plus sur les schémas ExperienceEvent pour les événements Journey Orchestration '
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 
