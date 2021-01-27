@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Références de champ
 description: En savoir plus sur les références de champ dans les expressions avancées
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
