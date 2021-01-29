@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Un événement est associé à une personne. Il décrit son comportement (par exemple, cette personne a acheté un produit, a visité un magasin, a quitté un site web, etc.) ou un événement qui s’est produit en rapport avec cette personne (par exemple, elle a accumulé 10 000 points de fidélité). C’est ce type d’élément que [!DNL Journey Orchestration] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite.
 
-Cette configuration est **obligatoire**[!DNL Journey Orchestration], dans la mesure où est conçu pour « écouter » les événements. Elle est toujours effectuée par un **utilisateur technique**.
+Cette configuration est **obligatoire** dans la mesure où [!DNL Journey Orchestration] a été conçu pour « écouter » des événements. Elle est toujours effectuée par un **utilisateur technique**.
 
 La configuration d’événement vous permet de définir les informations que [!DNL Journey Orchestration] recevra en tant qu’événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement.
 
