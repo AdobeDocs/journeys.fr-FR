@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent 
 
 >[!NOTE]
 >
->Une règle de plafonnement de 13 appels par seconde est automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. Cela correspond à l&#39;échelle officielle des messages transactionnels d&#39;Adobe Campaign Standard.
+>Une règle de limitation de 13 appels par seconde est automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. Cela correspond à l’échelle officielle des messages transactionnels d’Adobe Campaign Standard.
 >
 >Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la [description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html).
 
@@ -40,7 +40,7 @@ La procédure de configuration est la suivante :
    >
    >Ce test vérifie que les conditions suivantes sont remplies :
    >
-   >L’hôte est &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; ou &quot;.campaign-demo.adobe.com&quot;
+   >L’hôte est « .campaign.adobe.com », « .campaign-sandbox.adobe.com » ou « .campaign-demo.adobe.com »
    >
    >L’URL commence par https.
    >
