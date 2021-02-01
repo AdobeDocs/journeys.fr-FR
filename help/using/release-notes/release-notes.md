@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
 source-wordcount: '2171'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 93%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de janvier 2021 {#january-release}
+## Version de janvier 2021 {#january-release}
 
-Lors de la sélection d’un schéma dans la configuration du événement, seuls les champs obligatoires pour que le événement soit correctement reçu par le Journey Orchestration sont sélectionnés. [En savoir plus](../event/defining-the-payload-fields.md)
+Lors de la sélection d’un schéma dans la configuration de l’événement, seuls les champs obligatoires pour que l’événement soit correctement reçu par Journey Orchestration sont sélectionnés. [En savoir plus](../event/defining-the-payload-fields.md)
 
-Les attributs de propriétés de parcours sont désormais disponibles dans l’éditeur d’expressions simple. [En savoir plus](../expression/journey-properties.md)
+Les attributs de propriétés du parcours sont désormais disponibles dans l’éditeur d’expression simple. [En savoir plus](../expression/journey-properties.md)
 
-Deux nouveaux attributs de propriétés de parcours ont été ajoutés (sandboxName et organizationId). [En savoir plus](../expression/journey-properties.md)
+Deux nouveaux attributs de propriétés du parcours ont été ajoutés (sandboxName et organizationId). [En savoir plus](../expression/journey-properties.md)
 
-Pour s’aligner sur les SLA Adobe Campaign Standard, une règle de plafonnement de 13 appels par seconde est désormais automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. [En savoir plus](../action/working-with-adobe-campaign.md)
+Pour s’aligner sur les contrats de niveau de service Adobe Campaign Standard, une règle de limitation de 13 appels par seconde est désormais automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. [En savoir plus](../action/working-with-adobe-campaign.md)
 
-La durée du délai d’expiration du événement est désormais spécifiée plus clairement sur le chemin d’expiration. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+La durée du délai d’expiration d’un événement est désormais spécifiée plus clairement sur le chemin du délai d’expiration. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../functions/functionsplit.md) ont été ajoutées à la liste des fonctions disponibles dans l&#39;éditeur d&#39;expression avancé. Cela offre davantage de possibilités dans vos cas d&#39;utilisation du calcul de chaîne.
+Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../functions/functionsplit.md) ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cet ajout apporte davantage de possibilités de cas d’utilisation pour les calculs sur les chaînes.
 
 ## Version de novembre 2020 {#november-release}
 
@@ -48,7 +48,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <li>simplifier la conception de parcours très complexes en les divisant en plusieurs autres ; </li>
 <li>créer des parcours basés sur des schémas de parcours communs et réutilisables.</li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/jump.md">documentation détaillée</a> et regardez le <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">tutoriel vidéo</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/jump.md">documentation détaillée</a> et regardez le <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=fr">tutoriel vidéo</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles  (bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles   (bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -107,7 +107,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 <td>
 <p>Vous pouvez maintenant configurer un délai d’expiration d’un événement pour que le parcours ne l’écoute que pendant une certaine période. Pour ce faire, vous n’avez plus besoin d’ajouter une activité Attente parallèlement au chemin de l’événement.
 </p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
