@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 9d8c3a2cf79f2b861aad61089a263a6a33a747b4
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Dans le parcours cible, le premier événement déclenché en interne par l’ac
 
 >[!NOTE]
 >
->Reportez-vous également à la vidéo du didacticiel [ici](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>Reportez-vous également au tutoriel vidéo [ici](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=fr)
 
 ## Cycle de vie
 
