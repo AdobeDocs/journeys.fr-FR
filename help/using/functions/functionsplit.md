@@ -1,20 +1,20 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: scinder
-description: En savoir plus sur la division de fonction
+title: split
+description: En savoir plus sur la fonction split
 translation-type: tm+mt
 source-git-commit: 135485c097f99483c2ddb3d03e0552f9ac134b44
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
-# fractionner {#split}
+# split {#split}
 
-Scinde la première chaîne d’arguments avec une chaîne de séparateur (deuxième chaîne d’arguments, qui peut être une expression régulière) pour produire une liste de chaînes (jetons).
+Partage la première chaîne d’arguments avec une chaîne de séparateur (deuxième chaîne d’arguments, qui peut être une expression régulière) pour produire une liste de chaînes (jetons).
 
 ## Catégorie
 
@@ -29,13 +29,13 @@ Chaîne
 | Paramètre | Type |
 |-----------|------------------|
 | chaîne d’entrée | string |
-| chaîne de séparateur | chaîne |
+| chaîne de séparateur | string |
 
 ## Signatures et type renvoyé
 
 `split(<input string>, <separator string>)`
 
-Renvoie une listString.
+Renvoie une fonction listString.
 
 ## Exemple
 
@@ -43,7 +43,7 @@ Renvoie une listString.
 
 Renvoie `["A","B","C"]`
 
-Exemple avec un champ de événement &quot;événement.appVersion&quot; avec la valeur : &quot;20.45.2.3434&quot;
+Exemple avec un champ d’événement &#39;event.appVersion&#39; avec la valeur : « 20.45.2.3434 »
 
 `split(@{event.appVersion}, "\\.")`
 
