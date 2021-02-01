@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 5539ea0e8f124896f5599dba63babaa3e5b0229b
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -71,12 +71,12 @@ Renvoie une liste de durées.
 
 `getListItem([10, 2, 3], 1)`
 
-Renvoie &quot;2&quot;
+Renvoie « 2 »
 
 `getListItem(["A", "B", "C"], 3)`
-Renvoie &quot;C&quot;
+Renvoie « C »
 
-Exemples avec un champ de événement &quot;événement.appVersion&quot; avec la valeur : &quot;20.45.2.3434&quot;
+Exemples avec un champ d’événement &#39;event.appVersion&#39; avec la valeur : « 20.45.2.3434 »
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -84,4 +84,4 @@ Renvoie `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-Renvoie &quot;20&quot;
+Renvoie « 20 »
