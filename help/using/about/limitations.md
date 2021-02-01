@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -60,12 +60,12 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Parcours commençant en même temps qu’une création de profil {#journeys-limitation-profile-creation}
 
-Un délai est associé à la création/mise à jour de profils basés sur l&#39;API dans Adobe Experience Platform. La Cible de niveau de service (TSL) en termes de latence est de &lt; 1 min entre l&#39;ingestion et le Profil unifié pour le 95e percentile de demandes, à un volume de 20K Demandes par seconde (SRP).
+Un délai est associé à la création/la mise à jour de profils basés sur l’API dans Adobe Experience Platform. La cible de niveau de service (TSL) en termes de latence est d’atteindre moins de 1 minute entre l&#39;ingestion et le profil unifié pour 95 % des demandes, avec un volume de 20K demandes par seconde (DPS).
 
-Si un Parcours est déclenché simultanément à la création d&#39;un profil et qu&#39;il vérifie/récupère immédiatement les informations de Profil Service, il peut ne pas fonctionner correctement.
+Si un parcours est déclenché simultanément à la création d’un profil et qu’il vérifie/récupère immédiatement des informations auprès du service de profil, il est possible qu&#39;il ne fonctionne pas correctement.
 
-Vous pouvez choisir l’une des deux solutions suivantes :
+Vous pouvez choisir l’une des deux solutions suivantes :
 
-* Ajoutez une activité d&#39;attente après le premier événement pour donner à Adobe Experience Platform le temps nécessaire pour exécuter l&#39;assimilation à Profil Service.
+* Ajouter une activité d’attente après le premier événement pour donner à Adobe Experience Platform le temps nécessaire pour exécuter l’ingestion sur le service de profil.
 
-* Configurez un parcours qui n’exploite pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, le événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
+* Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
