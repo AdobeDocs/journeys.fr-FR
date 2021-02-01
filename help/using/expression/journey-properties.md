@@ -7,18 +7,18 @@ translation-type: tm+mt
 source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Attributs de propriétés de parcours {#journey-properties}
+# Attributs de propriétés du parcours {#journey-properties}
 
 Dans l’éditeur d’expression avancé, vous trouverez la catégorie **Propriétés du parcours**, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir des parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées.
 
 >[!NOTE]
 >
->Les attributs de propriétés de parcours sont également disponibles dans l’éditeur d’expressions simple. Consultez cette [section](../building-journeys/condition-activity.md#about_condition)
+>Les attributs de propriétés du parcours sont également disponibles dans l’éditeur d’expression simple. Consultez cette [section](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
@@ -51,7 +51,7 @@ Voici quelques exemples d’utilisation :
 | Instance de parcours | instanceUID | Identifiant d’instance de parcours | Identifiant de l’instance |
 |  | externalKey | Clé externe | Identifiant individuel déclenchant le parcours |
 |  | organizationId | Identifiant de l’organisation | Organisation de la marque |
-|  | sandboxName | Nom de l’environnement de test | Nom du sandbox |
+|  | sandboxName | Nom de l’environnement de test | Nom de l’environnement de test |
 | Identité | profileId | Identifiant d’identité du profil | Identifiant du profil dans le parcours |
 |  | espace de noms | Espace de noms d’identité de profil | Espace de noms du profil dans le parcours (exemple : ECID) |
 | Nœud actuel | currentNodeId | Identifiant de nœud actuel | Identifiant de l’activité actuelle (nœud) |
