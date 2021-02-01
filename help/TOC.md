@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 99%
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
-         + [scinder](using/functions/functionsplit.md)
+         + [split](using/functions/functionsplit.md)
          + [startWith](using/functions/functionstartwith.md)
          + [startWithIgnoreCase](using/functions/functionstartwithignorecase.md)
          + [substr](using/functions/functionsubstr.md)
