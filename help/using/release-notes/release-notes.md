@@ -27,7 +27,7 @@ Deux nouveaux attributs de propriétés du parcours ont été ajoutés (sandboxN
 
 Pour s’aligner sur les contrats de niveau de service Adobe Campaign Standard, une règle de limitation de 13 appels par seconde est désormais automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. [En savoir plus](../action/working-with-adobe-campaign.md)
 
-La durée du délai d’expiration d’un événement est désormais spécifiée plus clairement sur le chemin du délai d’expiration. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+La durée de la temporisation d’un événement est désormais spécifiée plus clairement sur le chemin de la temporisation. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../functions/functionsplit.md) ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cet ajout apporte davantage de possibilités de cas d’utilisation pour les calculs sur les chaînes.
 
@@ -74,7 +74,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles   (bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles    (bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -99,13 +99,13 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 <table>
 <thead>
 <tr>
-<th><strong>Délai d’expiration d’un événement</strong><br/></th>
+<th><strong>Temporisation d’un événement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez maintenant configurer un délai d’expiration d’un événement pour que le parcours ne l’écoute que pendant une certaine période. Pour ce faire, vous n’avez plus besoin d’ajouter une activité Attente parallèlement au chemin de l’événement.
+<p>Vous pouvez maintenant configurer une temporisation d’un événement pour que le parcours ne l’écoute que pendant une certaine période. Pour ce faire, vous n’avez plus besoin d’ajouter une activité Attente parallèlement au chemin de l’événement.
 </p>
 <p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
 </td>
