@@ -33,7 +33,7 @@ Vous pouvez utiliser ces champs pour créer des expressions. Pendant l’exécut
 
 Voici quelques exemples d’utilisation :
 
-* **Enregistrer les profils ignorés** : vous pouvez envoyer tous les profils exclus d’un message par une règle de limitation à un système tiers à des fins de journalisation. Pour ce faire, vous configurez un chemin en cas de dépassement de délai et d’erreur et ajoutez une condition pour filtrer selon un type d’erreur spécifique, par exemple : « Ignorer les gens par règle de limitation ». Vous pouvez ensuite envoyer les profils ignorés à un système tiers par le biais d’une action personnalisée.
+* **Enregistrer les profils ignorés** : vous pouvez envoyer tous les profils exclus d’un message par une règle de limitation à un système tiers à des fins de journalisation. Pour ce faire, vous configurez un chemin en cas de temporisation et d’erreur et ajoutez une condition pour filtrer selon un type d’erreur spécifique, par exemple : « Ignorer les gens par règle de limitation ». Vous pouvez ensuite envoyer les profils ignorés à un système tiers par le biais d’une action personnalisée.
 
 * **Envoyer des alertes en cas d’erreurs** : vous pouvez envoyer une notification à un système tiers chaque fois qu’une erreur se produit sur un message. Pour ce faire, vous configurez un chemin en cas d’erreur, ajoutez une condition et une action personnalisée. Vous pouvez envoyer une notification sur un canal Slack, par exemple, avec la description de l’erreur rencontrée.
 
