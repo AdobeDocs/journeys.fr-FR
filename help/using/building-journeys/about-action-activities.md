@@ -28,4 +28,4 @@ Lorsque vous déposez une activité d’action dans la zone de travail, vous pou
 
 ![](../assets/journey59bis.png)
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d’erreur]**. Reportez-vous à [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Reportez-vous à [cette section](../building-journeys/using-the-journey-designer.md#paths).
