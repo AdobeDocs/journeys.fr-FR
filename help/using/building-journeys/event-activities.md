@@ -28,27 +28,27 @@ Lorsque vous cliquez sur l’activité d’événement dans la zone de travail, 
 
 ## Écoute d’événements au cours d’une période spécifique
 
-Une activité d’événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer un délai d’expiration pour l’événement.
+Une activité d’événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer une temporisation pour l’événement.
 
-Ce faisant, le parcours écoutera l’événement au cours de la période définie dans le délai d’expiration. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l’événement. Si ce n’est pas le cas, le client va, au choix, s’engager dans un chemin d’accès au délai d’expiration ou terminer son parcours.
+Ce faisant, le parcours écoutera l’événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l’événement. Si ce n’est pas le cas, le client va, au choix, s’engager dans un chemin de temporisation ou terminer son parcours.
 
-Pour configurer un délai d’expiration d’événement, procédez comme suit :
+Pour configurer une temporisation d’événement, procédez comme suit :
 
-1. Activez l’option **[!UICONTROL Définir le délai d’expiration de l’événement]** dans les propriétés de l’événement.
+1. Activez l’option **[!UICONTROL Définir la temporisation de l’événement]** dans les propriétés de l’événement.
 
 1. Définissez la durée pendant laquelle le parcours attendra l’événement.
 
-1. Si vous souhaitez orienter les individus vers un chemin d’accès avec délai d’expiration, alors qu’aucun événement n’est reçu au cours du délai d’expiration spécifié, activez l’option **[!UICONTROL Définir un chemin d’accès au délai d’expiration]**. Si cette option n’est pas activée, le parcours se termine pour l’individu une fois le délai d’expiration atteint.
+1. Si vous souhaitez orienter les individus vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un itinéraire de temporisation]**. Si cette option n’est pas activée, le parcours se termine pour l’individu une fois le délai de temporisation atteint.
 
    ![](../assets/event-timeout.png)
 
-Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il n’envoie ensuite un message d’offre de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l’événement « restaurant » avec un délai d’expiration d’un jour :
+Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il n’envoie ensuite un message d’offre de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l’événement « restaurant » avec une temporisation d’un jour :
 
 * Si l’événement « restaurant » est reçu moins d’une journée après la notification push de bienvenue, l’activité push de réduction sur un repas est envoyée.
-* Si aucun événement « restaurant » n’est reçu dans la journée qui suit, le client s’engage dans le chemin d’accès au délai d’expiration.
+* Si aucun événement « restaurant » n’est reçu dans la journée qui suit, le client s’engage dans l’itinéraire de temporisation.
 
-Notez que si vous souhaitez configurer un délai d’expiration pour plusieurs événements placés après une activité d’**[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
+Notez que si vous souhaitez configurer une temporisation pour plusieurs événements placés après une activité d’**[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
 
-Le délai d’expiration s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu après le délai d’expiration spécifié, les individus s’engagent dans un seul chemin d’accès au délai d’expiration ou terminent leur parcours.
+La temporisation s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu après la temporisation spécifiée, les individus s’engagent dans un itinéraire de temporisation unique ou terminent leur parcours.
 
 ![](../assets/event-timeout-group.png)
