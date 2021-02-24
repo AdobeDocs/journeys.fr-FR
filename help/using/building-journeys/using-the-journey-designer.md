@@ -70,7 +70,7 @@ Selon le statut du parcours, vous pouvez effectuer différentes actions à l’a
 
 ## Utilisation des chemins dans la zone de travail {#paths}
 
-Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d’erreur ou d’expiration. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un chemin alternatif en cas de dépassement de délai ou d’erreur]**. Un autre chemin est alors ajouté après l’activité. Le délai d’expiration est défini dans les propriétés du parcours (voir [cette page](../building-journeys/changing-properties.md) par un utilisateur administrateur. Par exemple, si l’envoi d’un email prend trop de temps ou génère une erreur, vous pouvez décider d’envoyer un SMS.
+Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d’erreur ou de temporisation. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Un autre chemin est alors ajouté après l’activité. La temporisation est définie dans les propriétés du parcours (voir [cette page](../building-journeys/changing-properties.md) par un utilisateur administrateur. Par exemple, si l’envoi d’un email prend trop de temps ou génère une erreur, vous pouvez décider d’envoyer un SMS.
 
 ![](../assets/journey42.png)
 
