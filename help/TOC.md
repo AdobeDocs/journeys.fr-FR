@@ -6,7 +6,7 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 98%
@@ -52,6 +52,7 @@ ht-degree: 98%
       + [À propos de la configuration des actions personnalisées](using/action/about-custom-action-configuration.md)
       + [Configuration d’URL](using/action/url-configuration.md)
       + [Définition des paramètres de message](using/action/defining-the-message-parameters.md)
+   + [Intégration à Adobe Campaign Classic](using/beta/acc-action.md)
 + Utilisation des segments Plaform {#configuring-segment}
    + [À propos des segments Platform](using/segment/about-segments.md)
    + [Création d’un segment](using/segment/creating-a-segment.md)
@@ -195,5 +196,4 @@ ht-degree: 98%
    + [Présentation des fonctionnalités Alpha](using/alpha/alpha-overview.md)
    + [Interface utilisateur](using/alpha/alpha-interface.md)
    + [Activité Lecture de segment](using/alpha/alpha-segment-trigger.md)
-   + [Intégration à Adobe Campaign Classic](using/beta/acc-action.md)
 
