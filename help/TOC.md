@@ -6,10 +6,10 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 translation-type: tm+mt
-source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
+source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 98%
 
 ---
 
@@ -195,4 +195,5 @@ ht-degree: 100%
    + [Présentation des fonctionnalités Alpha](using/alpha/alpha-overview.md)
    + [Interface utilisateur](using/alpha/alpha-interface.md)
    + [Activité Lecture de segment](using/alpha/alpha-segment-trigger.md)
+   + [Intégration à Adobe Campaign Classic](using/beta/acc-action.md)
 
