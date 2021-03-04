@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Limites de Journey Orchestration
 description: En savoir plus sur les limites de Journey Orchestration
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -51,7 +51,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Limites des événements
 
-* Les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Orchestration pour obtenir un identifiant d’orchestration unique. Cet Identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform.
+* Pour les événements générés par le système, les données en flux continu utilisées pour lancer un parcours client doivent d’abord être configurées dans la gestion des Parcours client pour obtenir un identifiant d’orchestration unique. Cet Identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur des règles.
  
 
 ## Limites des sources de données
