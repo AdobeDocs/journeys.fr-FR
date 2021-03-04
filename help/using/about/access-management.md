@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Gestion des accès
 description: En savoir plus sur la gestion des accès
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '927'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ Admin console permet d’attribuer aux utilisateurs l’un des profils de produ
    * Gérer les parcours
    * Publier les parcours
    * Gérer les rapports
+   * Lire les Événements, les sources de données et les actions
 
 Vous pouvez également créer vos propres profils de produit si les profils d’usine ne suffisent pas pour gérer vos utilisateurs.
 Les utilisateurs doivent toujours être liés à un profil de produit, ce qui vous permet de leur attribuer des autorisations intégrées spécifiques, telles que :
