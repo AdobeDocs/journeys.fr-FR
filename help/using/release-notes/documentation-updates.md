@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises à jour de la documentation
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 ## Septembre 2020 {#september-2020}
 
 * Mise à jour de la section de description de l’interface pour prendre en compte le nouveau menu **Tout sélecteur**. [En savoir plus](../about/user-interface.md)
-* Ajout d’une note sur les nouvelles versions des parcours basés sur les segments qui ne sont pas récurrents. [En savoir plus](../alpha/alpha-segment-trigger.md)
+* Ajout d’une note sur les nouvelles versions des parcours basés sur les segments qui ne sont pas récurrents.
 
 ## Août 2020 {#august-2020}
 
@@ -42,7 +42,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 * La section sur les activités des événements a été réorganisée en sous-sections dédiées à chaque type d’événement. [En savoir plus](../building-journeys/event-activities.md)
 * Ajout de bonnes pratiques pour éviter la surcharge avec la qualification de segment. [En savoir plus](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Ajout d’une note expliquant comment faire pour qu’un parcours continue après une erreur dans une action ou une condition. [En savoir plus](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Ajout d’une nouvelle section sur les fonctionnalités Alpha qui sont testées auprès d’un nombre limité de clients. [En savoir plus](../alpha/alpha-overview.md)
+* Ajout d’une nouvelle section sur les fonctionnalités Alpha qui sont testées auprès d’un nombre limité de clients.
 * Ajout d’une nouvelle section sur l’intégration avec les Services intelligents. [En savoir plus](../ai-services/ai-services-overview.md)
 * Ajout d’une nouvelle section sur la création de profils de test. [En savoir plus](../building-journeys/testing-the-journey.md#create-test-profile)
 * Ajout d’informations sur l’utilisation du nœud **[!UICONTROL Qualification de segment]** dans une condition ou une action de parcours. [En savoir plus](../building-journeys/segment-qualification-events.md)
