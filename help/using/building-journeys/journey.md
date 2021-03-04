@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: À propos de la création de parcours
 description: En tant qu’utilisateur professionnel, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ Cette étape est effectuée par l’**utilisateur chargé de la conception de pa
 L’interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
 
 Un seul espace de noms est autorisé par parcours. Lorsque vous déposez le premier événement, ceux dont les espaces de noms sont différents sont grisés. Si le premier événement est dépourvu d’espace de noms, tous ceux qui en sont pourvus sont grisés. Voir [cette page](../event/selecting-the-namespace.md). En outre, les groupes de champs Adobe Experience Platform apparaissent en grisé si le parcours contient des événements sans espace de noms. Ajoutons encore que si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même espace de noms.
+
+Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la trame comme première étape sont masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
 
 ## Démarrage rapide {#creating_journey}
 
