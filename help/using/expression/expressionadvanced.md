@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: À propos de l’éditeur d’expression avancé
 description: Découvrez comment créer des expressions avancées
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,11 @@ Cet écran vous permet d’entrer manuellement votre expression.
 
 La partie gauche de l’écran contient les champs et les fonctions disponibles :
 
-* **[!UICONTROL Événements]** : sélectionnez l’un des champs reçus de l’événement entrant. La liste des champs d’événement affichée est contextuelle et varie selon les événements ajoutés.
-* **[!UICONTROL Sources de données]** : effectuez votre choix parmi la liste des champs disponibles des groupes de champs de vos sources de données.
-* **[!UICONTROL Fonctions]** : effectuez votre choix dans la liste des fonctions intégrées permettant d’effectuer un filtrage complexe. Les fonctions sont classées par catégories.
+* **[!UICONTROL Événements]** : sélectionnez l’un des champs reçus de l’événement entrant. La liste des champs d’événement affichée est contextuelle et varie selon les événements ajoutés. [En savoir plus](../event/about-events.md)
+* **[!UICONTROL Segments]** : si vous avez supprimé un événement de  **[!UICONTROL qualification de]** segment, choisissez le segment à utiliser dans votre expression. [En savoir plus](../segment/using-a-segment.md)
+* **[!UICONTROL Sources de données]** : effectuez votre choix parmi la liste des champs disponibles des groupes de champs de vos sources de données. [En savoir plus](../datasource/about-data-sources.md)
+* **[!UICONTROL Propriétés]** du parcours : cette section regroupe les domaines techniques liés au parcours pour un profil donné. [En savoir plus](../expression/journey-properties.md)
+* **[!UICONTROL Fonctions]** : effectuez votre choix dans la liste des fonctions intégrées permettant d’effectuer un filtrage complexe. Les fonctions sont classées par catégories. [En savoir plus](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
