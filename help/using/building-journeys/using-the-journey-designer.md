@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Utilisation du concepteur de parcours
 description: En savoir plus sur l’utilisation du concepteur de parcours
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 100%
+source-wordcount: '1422'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,15 @@ La **palette** se situe sur la partie gauche de l’écran. Toutes les activité
 
 ![](../assets/journey38.png)
 
-L’icône **[!UICONTROL Afficher les éléments désactivés]** dans le coin supérieur gauche vous permet de masquer ou d’afficher les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, ils apparaîtront grisés.
+L&#39;icône **[!UICONTROL Filtrer les éléments]** dans le coin supérieur gauche vous permet d&#39;afficher les filtres suivants :
 
-Lors de l’utilisation du champ **[!UICONTROL Recherche]**, le nombre de résultats s’affiche pour chaque catégorie d’activité de la zone de travail.
+* **Afficher uniquement les éléments** disponibles : masquez ou affichez les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de nommage différent de celui utilisé dans votre parcours. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, ils apparaîtront grisés.
+
+* **Afficher uniquement les éléments** récents : ce filtre vous permet d&#39;afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux prêts à l&#39;emploi. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments sont affichés.
 
 ![](../assets/palette-filter.png)
+
+Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]**.
 
 ## Zone de travail {#canvas}
 
