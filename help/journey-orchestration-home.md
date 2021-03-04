@@ -5,9 +5,9 @@ solution: Journey Orchestration
 title: Documentation de Journey Orchestration
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '255'
 ht-degree: 98%
 
 ---
@@ -30,9 +30,6 @@ Découvrez comment configurer les événements qui seront écoutés dans vos par
 
 * **[Découvrez les nouveautés](using/release-notes/release-notes.md)**<br/>
 Découvrez les détails des dernières versions.
-
-* **[Fonctionnalités Alpha](using/alpha/alpha-overview.md)**<br/>
-Découvrez les fonctionnalités actuellement disponibles via le programme Alpha.
 
 ## Pages principales
 
