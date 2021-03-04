@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 'Sources de données externes '
 description: 'Découvrez comment configurer des sources de données externes '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1314'
+ht-degree: 96%
 
 ---
 
@@ -74,9 +74,9 @@ Pour le jeu de paramètres « long/lat », nous créons un groupe de champs av
 * **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres, séparés par une virgule (« long,lat » dans notre exemple). Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [cette page](../expression/expressionadvanced.md).
 * **[!UICONTROL Payload envoyée]** : ce champ ne figure pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez la payload qui sera envoyée au système tiers.
 
-Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous devez indiquer ce(s) dernier(s) dans le champ **[!UICONTROL Paramètres]** et ils sont alors automatiquement ajoutés à la fin de l’appel. Dans le cas d’un appel POST, vous devez :
+Dans le cas d&#39;un appel de GET nécessitant un ou plusieurs paramètres, vous entrez le ou les paramètres dans le champ **[!UICONTROL Valeurs dynamiques]** et ils sont automatiquement ajoutés à la fin de l&#39;appel. Dans le cas d’un appel POST, vous devez :
 
-* répertorier les paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Paramètre]** (&quot;identifier&quot; dans l’exemple ci-dessous) ;
+* liste des paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Valeurs dynamiques]** (dans l’exemple ci-dessous : &quot;identifier&quot;).
 * spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour ce faire, vous devez ajouter : &quot;param&quot;: &quot;nom de votre paramètre&quot; (&quot;identifier&quot; dans l’exemple ci-dessous). Respectez la syntaxe ci-dessous :
 
    ```
