@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 100%
+source-wordcount: '2264'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,32 @@ ht-degree: 100%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de janvier 2021 {#january-release}
+## Version de février 2021 {#february-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Mettre à jour l'activité du profil</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette nouvelle activité d’action vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant du événement, d’une source de données ou d’une valeur spécifique.</p>
+<p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/update-profiles.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Autres améliorations 
+
+* Désormais, lors de la configuration d’un événement, seuls les champs obligatoires pour la validation XDM sont présélectionnés par défaut. Ces champs ne peuvent pas être désélectionnés.
+* Un nouveau filtre a été ajouté à la palette parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux prêts à l’emploi. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments sont affichés. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
+* Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la trame comme première étape sont désormais masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
+* Dans la partie gauche de l’éditeur d’expressions avancé, les fonctions sont désormais regroupées sous une section **Fonctions** à la fin de la liste.
+
+## Version de janvier 2021 {#january-2021-release}
 
 Lors de la sélection d’un schéma dans la configuration de l’événement, seuls les champs obligatoires pour que l’événement soit correctement reçu par Journey Orchestration sont sélectionnés. [En savoir plus](../event/defining-the-payload-fields.md)
 
@@ -82,7 +107,6 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <td>
 <p>Une nouvelle méthode est maintenant disponible pour configurer vos événements plus facilement, sans utiliser d’identifiant d’événement eventID : des événements basés sur des règles évaluent si l’événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est maintenant disponible en version bêta pour tous les clients.
 </p>
-<p>Pour plus d’informations, reportez-vous à la <a href="../event/about-events.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -140,8 +164,6 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 
 ### Mises à jour de la version Alpha{#september-alpha-update}
 
-Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [section](../alpha/alpha-overview.md).
-
 <table>
 <thead>
 <tr>
@@ -159,7 +181,6 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 <li><p>La granularité des journaux du mode test a été améliorée pour afficher l’état d’avancement de l’export des segments.</p>
 </li>
 </ul>
-<p>Pour plus d’informations sur l’activité <strong>Lecture de segment</strong>, consultez la <a href="../alpha/alpha-segment-trigger.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 Le payload des événements de qualification de segment contient maintenant les informations contextuelles suivantes, que vous pouvez utiliser dans les conditions et actions : le comportement (entrée, sortie), l’horodatage de la qualification et l’identifiant du segment. [En savoir plus](../building-journeys/segment-qualification-events.md)
 
 ### Mises à jour de la version Alpha{#august-alpha-update}
-
-Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [section](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 <li><p>Vous pouvez maintenant tester le parcours sur un profil unitaire et suivre sa progression dans le parcours à l’aide du flux visuel.</p>
 </li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../alpha/alpha-segment-trigger.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ Pour découvrir l’étendue de la version Alpha, reportez-vous à cette [sectio
 
 Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
 
-Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.md) dédiée.
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.m
 <li><p>Regroupement des fonctionnalités d’administration en un seul tableau de bord</p>
 </li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../alpha/alpha-interface.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Ces fonctionnalités sont décrites dans une [section](../alpha/alpha-overview.m
 <tbody>
 <tr>
 <td>
-<p>L’activité Déclencheur de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement. <a href="../alpha/alpha-segment-trigger.md">En savoir plus</a>
+<p>L’activité Déclencheur de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement. 
 </p>
 </td>
 </tr>
