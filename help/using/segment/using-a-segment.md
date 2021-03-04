@@ -4,17 +4,17 @@ solution: Journey Orchestration
 title: Utilisation d’un segment
 description: Découvrez comment utiliser un segment
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 
 # Utilisation de segments dans des conditions {#using-a-segment}
 
-Cette section explique comment utiliser un segment dans une condition de parcours. Pour savoir comment utiliser un événement de **[!UICONTROL qualification de segment]** dans votre parcours, reportez-vous à la section [Activités d’événement](../building-journeys/segment-qualification-events.md).
+Cette section explique comment utiliser un segment dans une condition de parcours. Pour savoir comment utiliser un événement de **[!UICONTROL qualification de segment]** dans votre parcours, consultez cette [section](../building-journeys/segment-qualification-events.md).
 
 Pour utiliser un segment dans une condition de parcours, procédez comme suit :
 
