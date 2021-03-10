@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation d’un segment
 description: Découvrez comment utiliser un segment
+feature: Parcours
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 87%
+source-wordcount: '131'
+ht-degree: 86%
 
 ---
 
