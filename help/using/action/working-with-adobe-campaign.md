@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation d’Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
+feature: Parcours
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 97%
+source-wordcount: '316'
+ht-degree: 96%
 
 ---
 
