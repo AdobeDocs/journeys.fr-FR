@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Versions de parcours
 description: En savoir plus sur les versions de parcours
+feature: Parcours
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 99%
 
 ---
 
