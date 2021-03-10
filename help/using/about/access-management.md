@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Gestion des accès
 description: En savoir plus sur la gestion des accès
+feature: Parcours
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '931'
 ht-degree: 99%
 
 ---
