@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Limites de Journey Orchestration
 description: En savoir plus sur les limites de Journey Orchestration
+feature: Parcours
+role: Professionnel
+level: Début
 translation-type: tm+mt
-source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '530'
 ht-degree: 93%
 
 ---
