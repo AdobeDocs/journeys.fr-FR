@@ -5,11 +5,14 @@ title: A propos de l’intégration des Campaign Classic
 description: En savoir plus sur l’intégration des Campaign Classic
 hide: true
 hidefromtoc: true
+feature: Parcours
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 10%
+source-wordcount: '444'
+ht-degree: 11%
 
 ---
 
