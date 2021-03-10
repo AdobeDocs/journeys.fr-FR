@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Utilisation d’Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ La procédure de configuration est la suivante :
    >
    >Ce test vérifie que les conditions suivantes sont remplies :
    >
-   >L’hôte est « .campaign.adobe.com », « .campaign-sandbox.adobe.com » ou « .campaign-demo.adobe.com »
+   >L’hôte est &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; ou &quot;.adls.adobe.com&quot;.
    >
    >L’URL commence par https.
    >
