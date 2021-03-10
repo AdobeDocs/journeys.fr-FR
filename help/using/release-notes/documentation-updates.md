@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises à jour de la documentation
+feature: Parcours
+role: Professionnel
+level: Début
 translation-type: tm+mt
-source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '800'
+ht-degree: 99%
 
 ---
 
