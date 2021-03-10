@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toInteger
 description: En savoir plus sur la fonction toInteger
+feature: Parcours
+role: Ingénieur de données
+level: Expérience
 translation-type: tm+mt
-source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '74'
+ht-degree: 95%
 
 ---
 
