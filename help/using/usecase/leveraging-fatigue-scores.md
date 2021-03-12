@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Utilisation de l’IA dédiée aux parcours {#concept_dsh_1ry_wfb}
+# Utilisation de l’IA dédiée au parcours {#concept_dsh_1ry_wfb}
 
 Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour éviter de trop solliciter les clients dans les parcours.
 
