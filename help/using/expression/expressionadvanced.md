@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -59,11 +59,11 @@ Cet écran vous permet d’entrer manuellement votre expression.
 
 La partie gauche de l’écran contient les champs et les fonctions disponibles :
 
-* **[!UICONTROL Événements]** : sélectionnez l’un des champs reçus de l’événement entrant. La liste des champs d’événement affichée est contextuelle et varie selon les événements ajoutés. [En savoir plus](../event/about-events.md)
-* **[!UICONTROL Segments]** : si vous avez supprimé un événement de  **[!UICONTROL qualification de]** segment, choisissez le segment à utiliser dans votre expression. [En savoir plus](../segment/using-a-segment.md)
-* **[!UICONTROL Sources de données]** : effectuez votre choix parmi la liste des champs disponibles des groupes de champs de vos sources de données. [En savoir plus](../datasource/about-data-sources.md)
-* **[!UICONTROL Propriétés]** du parcours : cette section regroupe les domaines techniques liés au parcours pour un profil donné. [En savoir plus](../expression/journey-properties.md)
-* **[!UICONTROL Fonctions]** : effectuez votre choix dans la liste des fonctions intégrées permettant d’effectuer un filtrage complexe. Les fonctions sont classées par catégories. [En savoir plus](../expression/functions.md)
+* **[!UICONTROL Événements]** : sélectionnez l’un des champs reçus de l’événement entrant. La liste des champs d’événement affichée est contextuelle et varie selon le(s) événement(s) ajouté(s) au parcours. [En savoir plus](../event/about-events.md)
+* **[!UICONTROL Segments]** : si vous avez déposé un événement de **[!UICONTROL qualification de segment]**, choisissez le segment à utiliser dans votre expression. [En savoir plus](../segment/using-a-segment.md)
+* **[!UICONTROL Sources de données]** : effectuez votre choix parmi la liste de champs disponibles à partir des groupes de champs de vos sources de données. [En savoir plus](../datasource/about-data-sources.md)
+* **[!UICONTROL Propriétés du parcours]** : cette section regroupe les champs techniques liés au parcours pour un profil donné. [En savoir plus](../expression/journey-properties.md)
+* **[!UICONTROL Fonctions]** : effectuez votre choix parmi la liste de fonctions intégrées permettant d’effectuer un filtrage complexe. Les fonctions sont classées par catégories. [En savoir plus](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
