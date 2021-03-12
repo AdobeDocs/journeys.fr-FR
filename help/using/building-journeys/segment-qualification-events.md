@@ -7,10 +7,10 @@ feature: Parcours
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 99%
+source-wordcount: '786'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,11 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
    ![](../assets/segment-copy.png)
 
-1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segments, les sorties ou les deux.
+1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segment, les sorties ou les deux.
+
+   >[!NOTE]
+   >
+   >Notez que **[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux états de participation des segments **Réalisés** et **Sortie** de Adobe Experience Platform. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours.
 
