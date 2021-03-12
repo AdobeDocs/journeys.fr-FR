@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -77,9 +77,9 @@ Pour le jeu de paramètres « long/lat », nous créons un groupe de champs av
 * **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres, séparés par une virgule (« long,lat » dans notre exemple). Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [cette page](../expression/expressionadvanced.md).
 * **[!UICONTROL Payload envoyée]** : ce champ ne figure pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez la payload qui sera envoyée au système tiers.
 
-Dans le cas d&#39;un appel de GET nécessitant un ou plusieurs paramètres, vous entrez le ou les paramètres dans le champ **[!UICONTROL Valeurs dynamiques]** et ils sont automatiquement ajoutés à la fin de l&#39;appel. Dans le cas d’un appel POST, vous devez :
+Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous devez indiquer ce(s) dernier(s) dans le champ **[!UICONTROL Valeurs dynamiques]**. Ils sont alors automatiquement ajoutés à la fin de l’appel. Dans le cas d’un appel POST, vous devez :
 
-* liste des paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Valeurs dynamiques]** (dans l’exemple ci-dessous : &quot;identifier&quot;).
+* répertorier les paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Valeurs dynamiques]** (« identifiant » dans l’exemple ci-dessous) ;
 * spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour ce faire, vous devez ajouter : &quot;param&quot;: &quot;nom de votre paramètre&quot; (&quot;identifier&quot; dans l’exemple ci-dessous). Respectez la syntaxe ci-dessous :
 
    ```
