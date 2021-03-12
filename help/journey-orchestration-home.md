@@ -1,8 +1,8 @@
 ---
-keywords: Parcours ; accueil ; rubriques populaires
+keywords: Parcours;accueil;rubriques populaires
 product: adobe campaign
 solution: Journey Orchestration
-title: Documentation de Journey Orchestration
+title: Documentation du produit Journey Orchestration
 topic: Premium
 feature: Parcours
 role: Professionnel
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
