@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
       + [À propos de la configuration des actions personnalisées](using/action/about-custom-action-configuration.md)
       + [Configuration d’URL](using/action/url-configuration.md)
       + [Définition des paramètres de message](using/action/defining-the-message-parameters.md)
-   + [Intégration à Adobe Campaign Classic](using/beta/acc-action.md)
+   + [Intégration avec Adobe Campaign Classic](using/beta/acc-action.md)
 + Utilisation des segments Plaform {#configuring-segment}
    + [À propos des segments Platform](using/segment/about-segments.md)
    + [Création d’un segment](using/segment/creating-a-segment.md)
