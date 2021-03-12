@@ -21,6 +21,6 @@ L’intégration avec les Services intelligents vous permet d’exploiter la pui
 
 Pour plus d’informations sur les Services intelligents, consultez la [documentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/intelligent-services/home.html).
 
-Cette intégration vous permet de tirer parti des prévisions des clients, voir [Exploitation de l’intelligence artificielle des clients](../ai-services/leveraging-customer-ai.md)
+Cette intégration vous permet de tirer parti des prévisions des clients, voir [Exploitation de l’IA dédiée aux clients](../ai-services/leveraging-customer-ai.md)
 
 <!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->
