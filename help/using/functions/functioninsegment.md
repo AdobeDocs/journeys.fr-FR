@@ -7,10 +7,10 @@ feature: Parcours
 role: Ingénieur de données
 level: Expérience
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 97%
+source-wordcount: '155'
+ht-degree: 70%
 
 ---
 
@@ -19,13 +19,17 @@ ht-degree: 97%
 
 Vérifie si un individu appartient à un segment donné.
 
+>[!NOTE]
+>
+>Vous pouvez récupérer jusqu’à 100 segments.
+
 Le nom du segment doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression.
 
 Les segments sont définis dans [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’éditeur d’expression fournit une liste des segments avec saisie semi-automatique .
 
 >[!NOTE]
 >
->Vous pouvez récupérer jusqu’à 100 segments.
+>Seuls les individus présentant les états de participation **Réalisés** et **Existants** seront considérés comme membres du segment. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 ## Catégorie
 
