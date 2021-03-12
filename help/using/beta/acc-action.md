@@ -1,8 +1,8 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: A propos de l’intégration des Campaign Classic
-description: En savoir plus sur l’intégration des Campaign Classic
+title: À propos de l’intégration de Campaign Classic
+description: En savoir plus sur l’intégration de Campaign Classic
 hide: true
 hidefromtoc: true
 feature: Parcours
@@ -12,38 +12,38 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 11%
+ht-degree: 99%
 
 ---
 
 
-# Intégration à Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
+# Intégration avec Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
-Cette intégration vous permet d&#39;envoyer des courriers électroniques, des notifications Push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle Adobe Campaign Classic.
+Cette intégration vous permet d’envoyer des emails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Classic.
 
-La connexion entre les instances de Journey Orchestration et de Campaign Classic est configurée par Adobe au moment de la mise en service.
+La connexion entre les instances Journey Orchestration et Campaign Classic est configurée par Adobe au moment de l’approvisionnement.
 
 >[!CAUTION]
 >
-> Cette intégration est publiée en tant que version bêta privée. Il n’est pas disponible pour tous les clients Journey Orchestration.
+> Cette intégration est publiée sous forme de version Beta privée. Elle n’est pas disponible pour tous les clients Journey Orchestration.
 
-## Remarques importantes        
+## Remarques importantes
 
-* Il n&#39;y a pas de limitation des messages. Nous plafonnons le nombre de messages pouvant être envoyés à 50 000/heure en fonction de notre contrat de niveau de service Campaign Classic actuel. C&#39;est pourquoi l&#39;orchestration du Parcours ne devrait être utilisée que dans les cas d&#39;utilisation unitaire (événements individuels, et non segments).
+* Il n’y a pas de limitation des messages. Nous limitons le nombre de messages pouvant être envoyés à 50 000/heure en nous basant sur le contrat de niveau de service Campaign Classic actuel. C’est la raison pour laquelle Journey Orchestration ne devrait être utilisé que dans des cas d’utilisation unitaire (des événements individuels, et non des segments).
 
-* Vous devez configurer une action sur la trame par modèle à utiliser.
+* Vous devez configurer une action sur la zone de travail pour chaque modèle à utiliser.
 
-* Nous vous recommandons d’utiliser une instance de Centre de messages dédiée qui est hébergée pour cette intégration afin d’éviter d’avoir d’incidence sur toute autre opération de Campaign Classic en cours. Le serveur marketing peut être hébergé ou sur site. La version requise est la version 21.1 Candidate.
+* Nous vous recommandons d’utiliser une instance Message Center dédiée et hébergée pour cette intégration afin d’éviter d’impacter les autres opérations de Campaign Classic en cours. Le serveur marketing peut être hébergé ou On-Premise. Le build requis est la version 21.1 Candidate.
 
-* Il n’existe aucune validation indiquant que la charge utile ou le message du Campaign Classic est correct.
+* Il n’existe aucune validation indiquant le caractère correct du message Campaign Classic ou de la payload.
 
-* Vous ne pouvez pas utiliser une action de Campaign Classic avec une qualification de segment.
+* Vous ne pouvez pas utiliser une action Campaign Classic avec une qualification de segment.
 
 ## Conditions préalables requises
 
-Dans le Campaign Classic, vous devez créer et publier un message transactionnel et son événement associé. Consultez la [documentation de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+Dans Campaign Classic, vous devez créer et publier un message transactionnel et son événement associé. Reportez-vous à la [documentation d’Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging).
 
-Contactez l’Adobe pour obtenir la charge utile JSON correspondant à chaque message. Vous allez ensuite coller cette charge utile lors de la configuration de l’action dans le Journey Orchestration (voir ci-dessous).
+Contactez Adobe pour obtenir la payload JSON correspondant à chaque message. Il vous faudra ensuite coller cette payload lors de la configuration de l’action dans Journey Orchestration (voir ci-dessous).
 
 Voici un exemple :
 
@@ -60,24 +60,24 @@ Voici un exemple :
 
 ## Configuration de l’action
 
-Dans le Journey Orchestration, vous devez configurer une action par message transactionnel. Procédez comme suit :
+Dans Journey Orchestration, vous devez configurer une action par message transactionnel. Procédez comme suit :
 
-1. Créez une action. Consultez cette [section](../action/action.md).
+1. Créez une nouvelle action. Reportez-vous à cette [section](../action/action.md).
 1. Entrez un nom et une description.
 1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
-1. Cliquez dans le champ **Charge utile** et collez un exemple de charge utile JSON correspondant au message du Campaign Classic. Contactez l’Adobe pour obtenir cette charge utile.
+1. Cliquez dans le champ **Payload** et collez un exemple de payload JSON correspondant au message Campaign Classic. Contactez Adobe pour obtenir cette payload.
 1. Ajustez les différents champs. Certains champs, tels que les paramètres de canal et les champs de personnalisation (ctx), doivent être définis comme des variables.
 1. Cliquez sur **Enregistrer**.
 
 ![](../assets/accintegration1.png)
 
-Pour chaque action configurée, une activité d’action est disponible dans la palette Concepteur de parcours.
+Pour chaque action configurée, une activité d’action est disponible dans la palette du concepteur de parcours.
 
-## Ajouter un message dans un parcours
+## Ajout d’un message dans un parcours
 
-1. Concevez votre parcours, en commençant par un événement. Consultez cette [section](../building-journeys/journey.md).
-1. Dans la section **Action** de la palette, sélectionnez une action de Campaign Classic et ajoutez-la à votre parcours.
-1. Dans les **paramètres d&#39;action**, tous les champs attendus dans la charge utile du message s&#39;affichent. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Cette opération est similaire aux actions personnalisées. Consultez cette [section](../building-journeys/using-custom-actions.md).
+1. Concevez votre parcours en commençant par un événement. Consultez cette [section](../building-journeys/journey.md).
+1. Dans la section **Action** de la palette, sélectionnez une action Campaign Classic et ajoutez-la à votre parcours.
+1. Dans les **paramètres d’action**, tous les champs attendus dans la payload du message s’affichent. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Cette opération est similaire aux actions personnalisées. Reportez-vous à cette [section](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
 
