@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '2268'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 93%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de février 2021 {#february-2021-release}
+## Version de février 2021 {#february-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Mettre à jour l'activité du profil</strong><br/></th>
+<th><strong>Mettre à jour l’activité du profil</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Cette nouvelle activité d’action vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant du événement, d’une source de données ou d’une valeur spécifique.</p>
+<p>Cette nouvelle activité d’action vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique.</p>
 <p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/update-profiles.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -41,8 +41,8 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 ### Autres améliorations 
 
 * Désormais, lors de la configuration d’un événement, seuls les champs obligatoires pour la validation XDM sont présélectionnés par défaut. Ces champs ne peuvent pas être désélectionnés.
-* Un nouveau filtre a été ajouté à la palette parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux prêts à l’emploi. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments sont affichés. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
-* Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la trame comme première étape sont désormais masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
+* Un nouveau filtre a été ajouté à la palette du parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d’usine. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments s’affichent. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
+* Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont désormais masqués. Cela concerne toutes les actions, l’activité de la condition, l’attente et la réaction.
 * Dans la partie gauche de l’éditeur d’expressions avancé, les fonctions sont désormais regroupées sous une section **Fonctions** à la fin de la liste.
 
 ## Version de janvier 2021 {#january-2021-release}
