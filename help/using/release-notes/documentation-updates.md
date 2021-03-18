@@ -5,12 +5,12 @@ title: Mises à jour de la documentation
 description: En savoir plus sur les mises à jour de la documentation
 feature: Parcours
 role: Professionnel
-level: Début
+level: Débutant
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
