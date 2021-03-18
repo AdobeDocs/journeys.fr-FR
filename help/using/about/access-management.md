@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Admin console permet d’attribuer aux utilisateurs l’un des profils de produ
    * Gérer les parcours
    * Publier les parcours
    * Gérer les rapports
-   * Lire les Événements, les sources de données et les actions
+   * Lire les événements, les sources de données et les actions
 
 Vous pouvez également créer vos propres profils de produit si les profils d’usine ne suffisent pas pour gérer vos utilisateurs.
 Les utilisateurs doivent toujours être liés à un profil de produit, ce qui vous permet de leur attribuer des autorisations intégrées spécifiques, telles que :
