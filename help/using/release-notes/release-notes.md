@@ -5,12 +5,12 @@ title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
 feature: Parcours
 role: Professionnel
-level: Début
+level: Débutant
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '2268'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 * Désormais, lors de la configuration d’un événement, seuls les champs obligatoires pour la validation XDM sont présélectionnés par défaut. Ces champs ne peuvent pas être désélectionnés.
 * Un nouveau filtre a été ajouté à la palette du parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d’usine. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments s’affichent. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
 * Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont désormais masqués. Cela concerne toutes les actions, l’activité de la condition, l’attente et la réaction.
-* Dans la partie gauche de l’éditeur d’expressions avancé, les fonctions sont désormais regroupées sous une section **Fonctions** à la fin de la liste.
+* Dans la partie gauche de l’éditeur d’expression avancé, les fonctions sont désormais regroupées sous une section **Fonctions** en fin de liste.
 
 ## Version de janvier 2021 {#january-2021-release}
 
