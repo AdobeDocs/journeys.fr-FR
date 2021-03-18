@@ -5,12 +5,12 @@ title: Limites de Journey Orchestration
 description: En savoir plus sur les limites de Journey Orchestration
 feature: Parcours
 role: Professionnel
-level: Début
+level: Débutant
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Limites des événements
 
-* Pour les événements générés par le système, les données en flux continu utilisées pour lancer un parcours client doivent d’abord être configurées dans le Journey Orchestration pour obtenir un identifiant d’orchestration unique.Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
+* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Orchestration pour obtenir un identifiant d’orchestration unique.Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
  
 
 ## Limites des sources de données
