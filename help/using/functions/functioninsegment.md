@@ -5,12 +5,12 @@ title: inSegment
 description: En savoir plus sur la fonction inSegment
 feature: Parcours
 role: Ingénieur de données
-level: Expérience
+level: Expérimenté
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
