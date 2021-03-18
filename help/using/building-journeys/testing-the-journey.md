@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs 
 
 Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication.
 
-Seuls les profils de test peuvent entrer dans un parcours en mode test. Vous pouvez [créer un nouveau profil de test](../building-journeys/testing-the-journey.md#create-test-profile) ou [transformer un profil existant en profil de test](../building-journeys/testing-the-journey.md#turning-profile-into-test).
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit [créer un profil de test](../building-journeys/testing-the-journey.md#create-test-profile), soit [transformer un profil existant en profil de test](../building-journeys/testing-the-journey.md#turning-profile-into-test).
 
 Pour utiliser le mode test, procédez comme suit :
 
@@ -57,17 +57,17 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Transformation d’un profil en profil de test{#turning-profile-into-test}
 
-Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs de profil par le biais d’appels d’API, mais il n’est pas possible de les exécuter via l’interface.
+Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs des profils par le biais d’appels d’API, mais il n’est pas possible de le faire par le biais de l’interface.
 
-Pour ce faire, la méthode la plus simple consiste à utiliser une activité d&#39;action **Mettre à jour le profil** et à passer le champ booléen du profil de test de false à true. Reportez-vous à [cette section](../building-journeys/update-profiles.md#using-the-test-mode).
+Pour ce faire, la méthode la plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à modifier le champ booléen du profil de test en le passant de false à true. Reportez-vous à [cette section](../building-journeys/update-profiles.md#using-the-test-mode).
 
-## Créer un profil de test{#create-test-profile}
+## Création d’un profil de test{#create-test-profile}
 
-Si vous souhaitez créer un profil de test, la procédure est la même que lorsque vous créez un profil dans le Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
+Si vous souhaitez créer un profil de test, la procédure à suivre est identique à celle utilisée pour créer un profil dans Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
 
 Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L’indicateur testProfile fait partie de ce mixin.
 
-Lors de la création d’un profil, veillez à transmettre la valeur : testProfile = true.
+Lors de la création d’un profil, veillez à transmettre la valeur : testProfile = true.
 
 Veuillez noter que vous pouvez également mettre à jour un profil existant pour remplacer son indicateur testProfile par « true ».
 
