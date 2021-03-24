@@ -7,9 +7,9 @@ feature: Parcours
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1064'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Vous pouvez également accéder à [!DNL Journey Orchestration] à partir de la 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="À propos de la liste des parcours"
->abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ni redémarrer un parcours fermé. Vous pouvez le dupliquer ou en créer une nouvelle version. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours."
+>abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Regarder une vidéo de démonstration"
 
 Les menus supérieurs vous permettent de naviguer parmi les différentes fonctionnalités de [!DNL Journey Orchestration] : **[!UICONTROL Accueil]** (les parcours), **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**.
