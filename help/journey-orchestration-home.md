@@ -8,10 +8,10 @@ feature: Parcours
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 784e4203b77673317c11ee767278c48dd10a5332
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Découvrez les détails des dernières versions.
 
 ## Pages principales
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td valign="top">
         <a href="using/about/troubleshooting.md">
