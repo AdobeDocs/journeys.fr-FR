@@ -7,10 +7,10 @@ feature: Parcours
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 100%
+source-wordcount: '1635'
+ht-degree: 93%
 
 ---
 
@@ -31,13 +31,21 @@ Pour utiliser le mode test, procédez comme suit :
 
    ![](../assets/journeytest1.png)
 
-1. Utilisez le paramètre **[!UICONTROL Temps d’attente en test]**, dans le coin inférieur gauche, pour définir la durée d’attente de chaque activité d’attente en mode test. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
+1. Utilisez le paramètre **[!UICONTROL Délai d’attente]**, dans le coin inférieur gauche, pour définir la durée pendant laquelle chaque activité d’attente et chaque délai d’événement dureront en mode test. La durée par défaut est de 10 secondes pour les dépassements de délai d’attente et de événement. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
 
    ![](../assets/journeytest_wait.png)
 
-1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
+   >[!NOTE]
+   >
+   >Lorsqu’un événement de réaction est utilisé dans un parcours, le temps d’attente par défaut et la valeur minimale sont de 40 secondes. Reportez-vous à [cette section](../building-journeys/reaction-events.md)
+
+1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
    ![](../assets/journeyuctest1.png)
+
+1. Configurez les différents champs prévus. Dans le champ **Identificateur de Profil**, entrez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse électronique. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des journaux](#viewing_logs).
 
@@ -123,7 +131,7 @@ Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer 
 >
 >Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
 
-Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir, par exemple, d’un ECID.
+Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse électronique, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identificateur de Profil**.
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
