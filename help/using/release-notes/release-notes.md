@@ -7,10 +7,10 @@ feature: Parcours
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 100%
+source-wordcount: '2440'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## Version de mars 2021 {#march-2021-release}
+
+### Améliorations 
+
+* Un nouvel état a été ajouté aux parcours. Lorsqu’un parcours se termine ou est fermé manuellement, son état passe de **Fermé** à **Terminé** 30 jours après sa fermeture. Cela vous permettra d&#39;identifier plus facilement les parcours inactifs tout en vous assurant que tous les individus encore présents ont le temps de terminer le parcours. [En savoir plus](../building-journeys/journey.md#ending_a_journey)
+* Dans les volets d’activité à droite des parcours préliminaires, les champs en lecture seule sont désormais masqués par défaut. Cette simplification de l&#39;interface vous aidera à configurer vos activités plus facilement. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs en lecture seule**, disponible dans le coin supérieur gauche du volet de configuration de l&#39;activité. [En savoir plus](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* En mode test, dans l’écran **configuration de Événement**, le champ **Clé** utilisé pour définir l’identifiant du profil de test a été renommé **identifiant de Profil** pour une meilleure expérience utilisateur. [En savoir plus](../building-journeys/testing-the-journey.md).
+* Pour les événements de réaction, le délai d’expiration ne peut désormais être défini qu’entre 40 secondes et 30 jours. Lors du test d&#39;un parcours qui utilise un événement de réaction, le mode de test **[!UICONTROL Durée d&#39;attente]** par défaut et la valeur minimale sont maintenant de 40 secondes. [En savoir plus](../building-journeys/reaction-events.md).
 
 ## Version de février 2021 {#february-2021-release}
 
