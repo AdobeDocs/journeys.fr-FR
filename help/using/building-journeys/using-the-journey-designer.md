@@ -7,10 +7,10 @@ feature: Parcours
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 100%
+source-wordcount: '1450'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,8 @@ La **zone de travail** est la zone centrale du concepteur de parcours. C’est l
 Le **volet de configuration des activités** s’affiche lorsque vous cliquez sur une activité dans la palette. Renseignez les champs obligatoires. Cliquez sur l’icône **[!UICONTROL Supprimer]** pour supprimer l’activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou sur **[!UICONTROL OK]** pour les confirmer. Vous pouvez également supprimer des activités en les sélectionnant, puis en appuyant sur la touche Retour arrière. Appuyez sur la touche d’échappement pour fermer le volet de configuration des activités.
 
 Dans la zone de travail, vos activités d’action et d’événement sont représentées par une icône sous laquelle est affiché le nom de l’événement ou de l’action. Dans le volet de configuration des activités, vous pouvez utiliser le champ **[!UICONTROL Libellé]** pour ajouter un suffixe au nom de l’activité. Ces libellés vous aident à replacer l’utilisation des événements et des actions dans son contexte, en particulier lorsque vous utilisez plusieurs fois le même événement ou la même action dans votre parcours. Les libellés que vous avez ajoutés sont également affichés dans le cadre du reporting de [!DNL Journey Orchestration] Vous pouvez également définir des libellés pour vos activités de condition.
+
+Par défaut, les champs en lecture seule sont masqués. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l&#39;activité.
 
 ![](../assets/journey59bis.png)
 
