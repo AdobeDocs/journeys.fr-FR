@@ -7,10 +7,10 @@ feature: Parcours
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ La procédure de configuration des événements de réaction comprend les étape
 1. Ajoutez un **[!UICONTROL libellé]** à la réaction. Cette étape est facultative.
 1. Dans la liste déroulante, sélectionnez l’activité d’action à laquelle vous souhaitez réagir. Vous pouvez sélectionner toute activité d’action figurant dans les étapes précédentes du chemin.
 1. Choisissez l’événement auquel vous souhaitez réagir en fonction de l’action sélectionnée (un email, un SMS ou une notification push).
-1. Vous pouvez définir une condition en tant qu’étape facultative. Par exemple, après une action de type email, vous pouvez choisir de créer deux chemins : l’un avec un événement de réaction pour effectuer uniquement le suivi des clics pour les clients VIP et un autre avec un événement de réaction pour effectuer le suivi des clics effectués par des femmes.
+1. Vous pouvez définir un délai d’expiration par événement (entre 40 et 30 jours) et un délai d’expiration. Cela créera une deuxième voie pour les personnes qui n&#39;ont pas réagi dans les délais définis. Lors du test d&#39;un parcours qui utilise un événement de réaction, le mode de test **[!UICONTROL Durée d&#39;attente]** par défaut et la valeur minimale sont de 40 secondes. Reportez-vous à [cette section](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
