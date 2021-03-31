@@ -7,7 +7,7 @@ feature: Parcours
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 93%
@@ -37,7 +37,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’un événement de réaction est utilisé dans un parcours, le temps d’attente par défaut et la valeur minimale sont de 40 secondes. Reportez-vous à [cette section](../building-journeys/reaction-events.md)
+   >Lorsqu’un événement de réaction est utilisé dans un parcours, le temps d’attente par défaut et la valeur minimale sont de 40 secondes. Reportez-vous à [cette section](../building-journeys/reaction-events.md).
 
 1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
