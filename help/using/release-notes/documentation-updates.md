@@ -7,10 +7,10 @@ feature: Parcours
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 
 Cette page répertorie toutes les mises à jour de la documentation de [!DNL Journey Orchestration].
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
+
+## Mars 2021 {#march-2021}
+
+* Nous avons détaillé la procédure complète pour créer des profils de test à Adobe Experience Platform. [En savoir plus](../building-journeys/creating-test-profiles.md).
 
 ## Janvier 2021 {#january-2021}
 
@@ -47,7 +51,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 * Ajout d’une note expliquant comment faire pour qu’un parcours continue après une erreur dans une action ou une condition. [En savoir plus](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Ajout d’une nouvelle section sur les fonctionnalités Alpha qui sont testées auprès d’un nombre limité de clients.
 * Ajout d’une nouvelle section sur l’intégration avec les Services intelligents. [En savoir plus](../ai-services/ai-services-overview.md)
-* Ajout d’une nouvelle section sur la création de profils de test. [En savoir plus](../building-journeys/testing-the-journey.md#create-test-profile)
+* Ajout d’une nouvelle section sur la création de profils de test. [En savoir plus](../building-journeys/testing-the-journey.md)
 * Ajout d’informations sur l’utilisation du nœud **[!UICONTROL Qualification de segment]** dans une condition ou une action de parcours. [En savoir plus](../building-journeys/segment-qualification-events.md)
 * Ajout d’une note à la publication des messages transactionnels et des événements de Campaign. Voir [Utilisation d’Adobe Campaign](../action/working-with-adobe-campaign.md) et [Utilisation d’actions Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
 * Des informations ont été ajoutées sur les vérifications effectuées lors du test de l’URL de l’instance Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
