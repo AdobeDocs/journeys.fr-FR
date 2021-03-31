@@ -7,9 +7,9 @@ feature: Parcours
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1640'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs 
 
 Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication.
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit [créer un profil de test](../building-journeys/testing-the-journey.md#create-test-profile), soit [transformer un profil existant en profil de test](../building-journeys/testing-the-journey.md#turning-profile-into-test).
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
 
 Pour utiliser le mode test, procédez comme suit :
 
@@ -56,7 +56,7 @@ Pour utiliser le mode test, procédez comme suit :
 ## Remarques importantes {#important_notes}
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
-* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Reportez-vous à [cette section](../building-journeys/testing-the-journey.md#create-test-profile).
+* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant participer à un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi les rapports.
