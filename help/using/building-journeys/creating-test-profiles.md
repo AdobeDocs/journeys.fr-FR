@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Création d’un profil de test
 description: 'En savoir plus sur la création de profils de test '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 
 
 # Créer des profils de test {#create-test-profiles}
-
-![](../assets/do-not-localize/badge.png)
 
 Les profils de test sont requis lors de l’utilisation du mode de test dans un parcours. Pour savoir comment utiliser le mode test, consultez [cette section](../building-journeys/testing-the-journey.md).
 
