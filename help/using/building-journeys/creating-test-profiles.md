@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Création d’un profil de test
 description: 'En savoir plus sur la création de profils de test '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 10%
@@ -28,25 +28,25 @@ Pour pouvoir créer des profils, vous devez d&#39;abord créer un schéma et un 
 
 Tout d&#39;abord, vous devez **créer un schéma**. Procédez comme suit :
 
-1. Dans Adobe Experience Platform, cliquez sur **Schémas**, dans le menu de gauche.
+1. Dans Adobe Experience Platform, cliquez sur **[!UICONTROL Schémas]**, dans le menu de gauche.
    ![](../assets/test-profiles-0.png)
-1. Cliquez sur **Créer un schéma** dans le coin supérieur droit, puis sélectionnez un type de schéma, par exemple **Profil individuel XDM**.
+1. Cliquez sur **[!UICONTROL Créer un schéma]** dans le coin supérieur droit, puis sélectionnez un type de schéma, par exemple **[!UICONTROL Profil individuel XDM]**.
    ![](../assets/test-profiles-1.png)
 1. Choisissez un nom pour votre schéma.
-1. Dans la section **Mixins**, cliquez sur **Ajouter**.
+1. Dans la section **[!UICONTROL Mixins]**, cliquez sur **[!UICONTROL Ajouter]**.
    ![](../assets/test-profiles-1-bis.png)
-1. Sélectionnez les mixins appropriés. Veillez à ajouter le mixin **détails du test de Profil**. Cliquez sur **Ajouter le mixin**.
+1. Sélectionnez les mixins appropriés. Veillez à ajouter le mixin **[!UICONTROL détails du test de Profil]**. Cliquez sur **[!UICONTROL Ajouter le mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 La liste des mixins s’affiche dans l’écran d’aperçu du schéma.
 
    ![](../assets/test-profiles-2.png)
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme Principale identité.
    ![](../assets/test-profiles-3.png)
-1. Dans le panneau de droite **Propriétés de champ**, vérifiez les options **Identité** et **Identité Principal** et sélectionnez un espace de nommage. Si vous souhaitez que l&#39;identité Principale soit une adresse électronique, choisissez l&#39;espace de nommage **Courriel**. Cliquez sur **Appliquer**.
+1. Dans le panneau de droite **[!UICONTROL Propriétés de champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité Principal]** et sélectionnez un espace de nommage. Si vous souhaitez que l&#39;identité Principale soit une adresse électronique, choisissez l&#39;espace de nommage **[!UICONTROL Courriel]**. Cliquez sur **[!UICONTROL Appliquer]**.
    ![](../assets/test-profiles-4.png)
-1. Sélectionnez le schéma et activez l&#39;option **Profil** dans les propriétés **Schéma**.
+1. Sélectionnez le schéma et activez l&#39;option **[!UICONTROL Profil]** dans les propriétés **[!UICONTROL Schéma]**.
    ![](../assets/test-profiles-5.png)
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ La liste des mixins s’affiche dans l’écran d’aperçu du schéma.
 
 Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez comme suit :
 
-1. Dans Adobe Experience Platform, cliquez sur **Datasets**, dans le menu de gauche, puis cliquez sur **Créer un jeu de données**.
+1. Dans Adobe Experience Platform, cliquez sur **[!UICONTROL Datasets]**, dans le menu de gauche, puis cliquez sur **[!UICONTROL Créer un jeu de données]**.
    ![](../assets/test-profiles-6.png)
-1. Sélectionnez **Créer un jeu de données à partir du schéma**.
+1. Sélectionnez **[!UICONTROL Créer un jeu de données à partir du schéma]**.
    ![](../assets/test-profiles-7.png)
-1. Sélectionnez le schéma créé précédemment, puis cliquez sur **Suivant**.
+1. Sélectionnez le schéma créé précédemment, puis cliquez sur **[!UICONTROL Suivant]**.
    ![](../assets/test-profiles-8.png)
-1. Choisissez un nom, puis cliquez sur **Terminer**.
+1. Choisissez un nom, puis cliquez sur **[!UICONTROL Terminer]**.
    ![](../assets/test-profiles-9.png)
-1. Activez l&#39;option **Profil**.
+1. Activez l&#39;option **[!UICONTROL Profil]**.
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ Dans Adobe Experience Platform, vous pouvez créer des profils en téléchargean
 1. Ajoutez une ligne par profil et remplissez les valeurs de chaque champ.
    ![](../assets/test-profiles-12.png)
 1. Enregistrez la feuille de calcul au format CSV. Assurez-vous que les virgules sont utilisées comme séparateurs.
-1. Dans Adobe Experience Platform, cliquez sur **Workflows**, dans le menu de gauche.
+1. Dans Adobe Experience Platform, cliquez sur **[!UICONTROL Workflows]**, dans le menu de gauche.
    ![](../assets/test-profiles-14.png)
-1. Sélectionnez **Mapper le fichier CSV au schéma XDM**, puis cliquez sur **Lancer**.
+1. Sélectionnez **[!UICONTROL Mapper le fichier CSV au schéma XDM]**, puis cliquez sur **[!UICONTROL Lancer]**.
    ![](../assets/test-profiles-16.png)
-1. Sélectionnez le jeu de données dans lequel vous souhaitez importer les profils. Cliquez sur **Suivant**.
+1. Sélectionnez le jeu de données dans lequel vous souhaitez importer les profils. Cliquez sur **[!UICONTROL Suivant]**.
    ![](../assets/test-profiles-17.png)
-1. Cliquez sur **Choisir les fichiers** et sélectionnez votre fichier csv. Une fois le fichier téléchargé, cliquez sur **Suivant**.
+1. Cliquez sur **[!UICONTROL Choisir les fichiers]** et sélectionnez votre fichier csv. Une fois le fichier téléchargé, cliquez sur **[!UICONTROL Suivant]**.
    ![](../assets/test-profiles-18.png)
-1. Faites correspondre les champs csv source aux champs de schéma, puis cliquez sur **Terminer**.
+1. Faites correspondre les champs csv source aux champs de schéma, puis cliquez sur **[!UICONTROL Terminer]**.
    ![](../assets/test-profiles-19.png)
-1. L&#39;importation des données commence. L’état passe de **Traitement** à **Succès**. Cliquez sur **jeu de données de Prévisualisation**, dans le coin supérieur droit.
+1. L&#39;importation des données commence. L’état passe de **[!UICONTROL Traitement]** à **[!UICONTROL Succès]**. Cliquez sur **[!UICONTROL jeu de données de Prévisualisation]**, dans le coin supérieur droit.
    ![](../assets/test-profiles-20.png)
 1. Vérifiez que les profils de test ont été correctement ajoutés.
    ![](../assets/test-profiles-21.png)
