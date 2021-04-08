@@ -6,11 +6,11 @@ description: En savoir plus sur la fonction inSegment
 feature: Parcours
 role: Ingénieur de données
 level: Expérimenté
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les segments sont définis dans [Adobe Experience Platform](https://platform.a
 
 >[!NOTE]
 >
->Seuls les individus présentant les états de participation **Réalisés** et **Existants** seront considérés comme membres du segment. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+>Seuls les individus présentant les statuts de participation **Réalisé** et **Existant** sont considérés comme membres du segment. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
 ## Catégorie
 
