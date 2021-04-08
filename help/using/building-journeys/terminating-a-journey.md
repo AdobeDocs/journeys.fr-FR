@@ -6,11 +6,11 @@ description: Découvrez comment terminer un parcours
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entr
 >
 >Notez que vous ne pouvez pas reprendre un parcours fermé ou arrêté.
 >
->Le concept de fin de parcours est décrit dans cette [section](../building-journeys/journey.md#ending_a_journey).
+>Le concept relatif à la terminaison d’un parcours est décrit dans cette [section](../building-journeys/journey.md#ending_a_journey).
 
 ## Fermeture d’un parcours
 
-Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qui y sont déjà entrés puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas y accéder.
+Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre.
 
-Une fois fermé, un parcours a le statut **[!UICONTROL Fermé (pas d&#39;entrée)]**. Après le délai d’expiration global par défaut de 30 jours, le parcours passe à l’état **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
+Lorsqu’un parcours est fermé, le statut **[!UICONTROL Fermé (aucune entrée)]** lui est attribué. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
 
 La version d’un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
 
@@ -53,7 +53,7 @@ Vous pouvez arrêter un parcours lorsqu’une urgence s’est produite et qu’i
 
 La version d’un parcours arrêté ne peut pas être redémarrée.
 
-Lorsqu’elle est arrêtée, un parcours a l’état **[!UICONTROL Arrêté]**.
+Lorsqu’un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
 
 Vous pouvez arrêter un parcours (par exemple, un marketeur se rend compte que l’audience ciblée n’est pas la bonne ou qu’une action personnalisée censée diffuser des messages ne fonctionne pas correctement) en cliquant sur **[!UICONTROL Arrêter]** après l’avoir sélectionné dans la liste des parcours.
 
