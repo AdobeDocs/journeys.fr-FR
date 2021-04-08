@@ -6,11 +6,11 @@ description: 'Découvrez comment configurer une source de données '
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="À propos des sources de données"
->abstract="La configuration de la source de données vous permet de définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées dans vos parcours."
+>abstract="La configuration de la source de données vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours."
 
 Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple :
 
