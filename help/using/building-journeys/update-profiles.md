@@ -6,9 +6,9 @@ description: Passage d’un parcours à un autre
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
 ht-degree: 100%
 
