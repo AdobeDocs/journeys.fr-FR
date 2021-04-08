@@ -6,11 +6,11 @@ description: En tant qu’utilisateur professionnel, apprenez à combiner des ac
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '570'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -55,22 +55,22 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey36.png)
 
-## Fin d’un parcours {#ending_a_journey}
+## Terminaison d’un parcours {#ending_a_journey}
 
-Un parcours peut se terminer pour une personne pour deux raisons :
+Deux raisons peuvent entraîner la terminaison d’un parcours pour un individu :
 
 * Le client arrive à la dernière activité d’un chemin. Il ne doit pas nécessairement s’agir d’une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
 * Le client arrive à une activité de condition (ou à une activité d’attente avec une condition) et ne répond à aucune des conditions.
 
-Il peut alors réintégrer le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/changing-properties.md).
+Il peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/changing-properties.md).
 
-Un parcours peut se fermer pour les raisons suivantes :
+Les raisons suivantes peuvent entraîner la fermeture d’un parcours :
 
-* Le parcours est fermé manuellement via le bouton **[!UICONTROL Proche des nouvelles entrées]**.
+* Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
 * La date de fin du parcours est atteinte.
 
-Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), il aura le statut **[!UICONTROL Fermé (sans entrée)]**. Il n’est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours. Après le délai d’expiration global par défaut de 30 jours, le parcours passe à l’état **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
+Lorsqu’un parcours est fermé (pour l’une des raisons ci-dessus), le statut **[!UICONTROL Fermé (aucune entrée)]** lui est attribué. Le parcours n’est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
 
-Au cas où vous auriez besoin d&#39;arrêter la progression de tous les individus dans le parcours, vous pouvez l&#39;arrêter. L&#39;arrêt du parcours aura pour effet de temporiser toutes les personnes du parcours.
+Si nécessaire, il est possible d’arrêter la progression de tous les individus dans le parcours. L’arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
 
 Pour savoir comment fermer ou arrêter manuellement un parcours, consultez cette [section](../building-journeys/terminating-a-journey.md).
