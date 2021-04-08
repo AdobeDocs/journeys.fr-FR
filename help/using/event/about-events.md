@@ -6,11 +6,11 @@ description: En savoir plus sur les événements
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="À propos des événements"
->abstract="Un événement est associé à une personne. Il s&#39;agit du comportement d&#39;une personne ou de quelque chose qui se passe en rapport avec une personne. C’est ce type d’élément que [!DNL Journey Orchestration] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite."
+>abstract="Un événement est lié à une personne. Il est associé au comportement d’une personne ou à quelque chose qui se passe en rapport avec une personne. C’est ce type d’élément que [!DNL Journey Orchestration] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite."
 
 Un événement est associé à une personne. Il décrit son comportement (par exemple, cette personne a acheté un produit, a visité un magasin, a quitté un site web, etc.) ou un événement qui s’est produit en rapport avec cette personne (par exemple, elle a accumulé 10 000 points de fidélité). C’est ce type d’élément que [!DNL Journey Orchestration] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite.
 
@@ -32,7 +32,7 @@ Si vous modifiez un événement utilisé dans un parcours actif ou dans un état
 
 Vous pouvez définir deux types d’événements :
 
-* **Événements** basés sur des règles : ce type d’événement ne génère pas d’eventID. En utilisant l’éditeur d’expression simple, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos parcours. Cette règle peut être basée sur n’importe quel champ disponible dans la payload, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
+* **Événements** basés sur des règles : ce type d’événement ne génère pas d’eventID. En utilisant l’éditeur d’expression simple, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos parcours. Cette règle peut être basée sur n’importe quel champ disponible dans la payload de l’événement, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
 
    >[!CAUTION]
    >
