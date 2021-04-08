@@ -6,11 +6,11 @@ description: 'En savoir plus sur le test d’un parcours '
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1640'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,19 +31,19 @@ Pour utiliser le mode test, procédez comme suit :
 
    ![](../assets/journeytest1.png)
 
-1. Utilisez le paramètre **[!UICONTROL Délai d’attente]**, dans le coin inférieur gauche, pour définir la durée pendant laquelle chaque activité d’attente et chaque délai d’événement dureront en mode test. La durée par défaut est de 10 secondes pour les dépassements de délai d’attente et de événement. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
+1. Utilisez le paramètre **[!UICONTROL Durée d’attente]**, dans le coin inférieur gauche, pour définir la durée de chaque activité d’attente et temporisation d’événement en mode test. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
 
    ![](../assets/journeytest_wait.png)
 
    >[!NOTE]
    >
-   >Lorsqu’un événement de réaction est utilisé dans un parcours, le temps d’attente par défaut et la valeur minimale sont de 40 secondes. Reportez-vous à [cette section](../building-journeys/reaction-events.md).
+   >Lorsqu’un événement de réaction est utilisé dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Reportez-vous à [cette section](../building-journeys/reaction-events.md).
 
 1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
    ![](../assets/journeyuctest1.png)
 
-1. Configurez les différents champs prévus. Dans le champ **Identificateur de Profil**, entrez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse électronique. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
+1. Configurez les différents champs prévus. Dans le champ **Identifiant de profil**, saisissez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse email. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
 
    ![](../assets/journeyuctest1-bis.png)
 
@@ -56,9 +56,9 @@ Pour utiliser le mode test, procédez comme suit :
 ## Remarques importantes {#important_notes}
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
-* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à participer au parcours testé. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
+* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
-* Le nombre maximum de profils de test pouvant participer à un parcours au cours d’une session de test est de 100.
+* Le nombre maximum de profils de test pouvant rejoindre un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi les rapports.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
@@ -131,7 +131,7 @@ Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer 
 >
 >Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
 
-Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse électronique, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identificateur de Profil**.
+Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse email, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant de profil**.
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
