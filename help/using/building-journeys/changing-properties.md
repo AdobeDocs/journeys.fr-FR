@@ -6,11 +6,11 @@ description: Découvrez comment modifier des propriétés
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une 
 
 ## Entrée{#entrance}
 
-Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c’est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse effectuer une rentrée dans le parcours et bénéficier à nouveau de l’offre.
+Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c’est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse rejoindre de nouveau le parcours et rebénéficier de l’offre.
 
 Lorsqu’un parcours « prend fin », l’état **[!UICONTROL Fermé (aucune entrée)]** lui est attribué. Il n’est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
 
-Après le délai d’expiration global par défaut de 30 jours, le parcours passe à l’état **Terminé**. Consultez cette [section](#global_timeout).
+Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](#global_timeout).
 
 ## Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
@@ -50,7 +50,7 @@ Outre la [temporisation](#timeout_and_error) utilisée dans les activités de pa
 >
 >Sur le plan de la confidentialité, [!DNL Journey Orchestration] ne réagit pas directement aux demandes d’opt-out, de suppression ou d’accès. Cependant, la temporisation globale limite à 30 jours la durée d’activité d’un individu au sein d’un parcours.
 
-Compte tenu de la temporisation de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont intégré le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu’une personne y a déjà accédé il y a plus de 30 jours.
+Compte tenu de la temporisation de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 30 jours.
 
 ## Fuseau horaire et fuseau horaire du profil {#timezone}
 
