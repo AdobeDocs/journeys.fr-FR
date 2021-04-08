@@ -6,11 +6,11 @@ description: En savoir plus sur les mises à jour de la documentation
 feature: Parcours
 role: Professionnel
 level: Débutant
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Mars 2021 {#march-2021}
 
-* Nous avons détaillé la procédure complète pour créer des profils de test à Adobe Experience Platform. [En savoir plus](../building-journeys/creating-test-profiles.md).
+* Nous avons détaillé la procédure complète de création de profils de test dans Adobe Experience Platform. [En savoir plus](../building-journeys/creating-test-profiles.md).
 
 ## Janvier 2021 {#january-2021}
 
