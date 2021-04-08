@@ -6,11 +6,11 @@ description: Découvrez comment utiliser un segment
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -34,6 +34,6 @@ Pour utiliser un segment dans une condition de parcours, procédez comme suit :
 
    >[!NOTE]
    >
-   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** seront considérés comme membres du segment. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Seuls les individus présentant les statuts de participation **Réalisé** et **Existant** sont considérés comme membres du segment. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
 Pour plus d’informations sur les conditions de parcours et sur l’utilisation de l’éditeur d’expression simple, consultez la section [Activité de condition](../building-journeys/condition-activity.md#about_condition).
