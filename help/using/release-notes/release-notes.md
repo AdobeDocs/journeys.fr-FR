@@ -6,11 +6,11 @@ description: En savoir plus sur les notes de mise à jour
 feature: Parcours
 role: Professionnel
 level: Débutant
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2440'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 93%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de mars 2021 {#march-2021-release}
+## Version de mars 2021 {#march-2021-release}
 
-### Améliorations 
+### Améliorations
 
-* Un nouvel état a été ajouté aux parcours. Lorsqu’un parcours se termine ou est fermé manuellement, son état passe de **Fermé** à **Terminé** 30 jours après sa fermeture. Cela vous permettra d&#39;identifier plus facilement les parcours inactifs tout en vous assurant que tous les individus encore présents ont le temps de terminer le parcours. [En savoir plus](../building-journeys/journey.md#ending_a_journey)
-* Dans les volets d’activité à droite des parcours préliminaires, les champs en lecture seule sont désormais masqués par défaut. Cette simplification de l&#39;interface vous aidera à configurer vos activités plus facilement. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs en lecture seule**, disponible dans le coin supérieur gauche du volet de configuration de l&#39;activité. [En savoir plus](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* En mode test, dans l’écran **configuration de Événement**, le champ **Clé** utilisé pour définir l’identifiant du profil de test a été renommé **identifiant de Profil** pour une meilleure expérience utilisateur. [En savoir plus](../building-journeys/testing-the-journey.md).
-* Pour les événements de réaction, le délai d’expiration ne peut désormais être défini qu’entre 40 secondes et 30 jours. Lors du test d&#39;un parcours qui utilise un événement de réaction, le mode de test **[!UICONTROL Durée d&#39;attente]** par défaut et la valeur minimale sont maintenant de 40 secondes. [En savoir plus](../building-journeys/reaction-events.md).
+* Un nouveau statut a été ajouté aux parcours. Lorsqu’un parcours se termine ou est fermé manuellement, son statut passe de **Fermé** à **Terminé** 30 jours après sa fermeture. Ainsi, vous pouvez identifier plus facilement les parcours inactifs tout en vous assurant que chaque individu encore présent a le temps de terminer le parcours. [En savoir plus](../building-journeys/journey.md#ending_a_journey)
+* Dans les volets d’activité à droite des parcours en version brouillon, les champs en lecture seule sont désormais masqués par défaut. Cette simplification de l’interface vous permettra de configurer vos activités plus facilement. Pour les afficher, cliquez sur l’icône **Afficher les champs en lecture seule**, disponible dans le coin supérieur gauche du volet de configuration de l’activité. [En savoir plus](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* En mode test, dans l’écran de **Configuration de l’événement**, le champ **Clé** utilisé pour définir l’identifiant du profil de test a été renommé **Identifiant du profil** afin d’offrir une meilleure expérience client. [En savoir plus](../building-journeys/testing-the-journey.md).
+* Désormais, pour les événements de réaction, la durée de la temporisation ne peut être définie qu’entre 40 secondes et 30 jours. Lors du test d’un parcours qui a recours à un événement de réaction, la **[!UICONTROL Durée d’attente]** du mode test par défaut ainsi que sa valeur minimale sont désormais de 40 secondes. [En savoir plus](../building-journeys/reaction-events.md).
 
 ## Version de février 2021 {#february-2021-release}
 
@@ -111,7 +111,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles    (bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles     (bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -289,7 +289,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <tbody>
 <tr>
 <td>
-<p>L’activité Déclencheur de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement. 
+<p>L’activité Déclencheur de segment vous permet de faire en sorte que tous les individus appartenant à un segment Adobe Experience Platform rejoignent un parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement. 
 </p>
 </td>
 </tr>
@@ -326,7 +326,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <td>
 <p>Les améliorations suivantes ont été apportées à l’intégration d’Adobe Experience Platform :</p>
 <ul>
-<li><p>Une nouvelle activité permet d’écouter les entrées/sorties des segments d’Adobe Experience Platform pour faire entrer ou avancer les personnes dans un parcours. <a href="../building-journeys/segment-qualification-events.md">En savoir plus</a></p>
+<li><p>Une nouvelle activité permet d’écouter les entrées/sorties des segments d’Adobe Experience Platform pour que des personnes rejoignent un parcours ou y progressent. <a href="../building-journeys/segment-qualification-events.md">En savoir plus</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
 <li><p>Il est désormais possible de créer et modifier les segments Adobe Experience Platform sans quitter l’interface de Journey Orchestration, grâce au nouvel onglet <strong>Segments</strong>. <a href="../segment/about-segments.md">En savoir plus</a></p>
@@ -360,7 +360,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <li><p>Vous pouvez maintenant copier/coller les activités d’un parcours vers un autre, en sélectionnant 1 ou N activités de parcours. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">En savoir plus</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>Après avoir déclenché un événement pour qu’un profil de test entre dans un parcours, vous pouvez maintenant voir sa progression tout au long du parcours grâce à un flux visuel coloré. En cas d’erreur dans le parcours, les détails des erreurs s’affichent également. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p>
+<li><p>Après avoir déclenché un événement pour qu’un profil de test rejoigne un parcours, vous pouvez maintenant voir sa progression tout au long du parcours grâce à un flux visuel coloré. En cas d’erreur dans le parcours, les détails des erreurs s’affichent également. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li>L’état de parcours <strong>Terminé</strong> a été renommé <strong>Fermé (aucune entrée)</strong> pour mieux refléter le sens de cet état.</li>
