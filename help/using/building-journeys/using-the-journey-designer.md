@@ -6,11 +6,11 @@ description: En savoir plus sur l’utilisation du concepteur de parcours
 feature: Parcours
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1450'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Le **volet de configuration des activités** s’affiche lorsque vous cliquez su
 
 Dans la zone de travail, vos activités d’action et d’événement sont représentées par une icône sous laquelle est affiché le nom de l’événement ou de l’action. Dans le volet de configuration des activités, vous pouvez utiliser le champ **[!UICONTROL Libellé]** pour ajouter un suffixe au nom de l’activité. Ces libellés vous aident à replacer l’utilisation des événements et des actions dans son contexte, en particulier lorsque vous utilisez plusieurs fois le même événement ou la même action dans votre parcours. Les libellés que vous avez ajoutés sont également affichés dans le cadre du reporting de [!DNL Journey Orchestration] Vous pouvez également définir des libellés pour vos activités de condition.
 
-Par défaut, les champs en lecture seule sont masqués. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l&#39;activité.
+Par défaut, les champs en lecture seule sont masqués. Pour les afficher, cliquez sur l’icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l’activité.
 
 ![](../assets/journey59bis.png)
 
