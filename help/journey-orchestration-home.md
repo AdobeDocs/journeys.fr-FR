@@ -3,18 +3,18 @@ keywords: Parcours;accueil;rubriques populaires
 product: adobe campaign
 solution: Journey Orchestration
 title: Documentation du produit Journey Orchestration
-topic: Premium
+description: Documentation du produit Journey Orchestration
 feature: Parcours
-role: Professionnel
-level: Débutant
-translation-type: ht
-source-git-commit: 784e4203b77673317c11ee767278c48dd10a5332
-workflow-type: ht
+role: Business Practitioner
+level: Beginner
+exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
+translation-type: tm+mt
+source-git-commit: cb32a21a7449b2a610f45c2098b564ba819061e2
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
 ---
-
 
 # Centre d’aide {#journeys-documentation}
 
