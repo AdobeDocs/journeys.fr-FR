@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des événements
 description: En savoir plus sur les événements
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: ht
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: ht

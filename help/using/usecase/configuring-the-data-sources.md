@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configuration des sources de données
 description: Découvrez comment configurer la source de données pour un cas d’utilisation avancé de parcours
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

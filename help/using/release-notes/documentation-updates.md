@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises à jour de la documentation
-feature: Parcours
-role: Professionnel
-level: Débutant
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

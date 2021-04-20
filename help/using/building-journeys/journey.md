@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos de la création de parcours
 description: En tant qu’utilisateur professionnel, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: ht
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: ht

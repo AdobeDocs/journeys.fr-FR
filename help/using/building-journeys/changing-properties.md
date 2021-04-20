@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Modification des propriétés
 description: Découvrez comment modifier des propriétés
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: ht
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: ht

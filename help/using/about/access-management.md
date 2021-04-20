@@ -3,7 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Gestion des accès
 description: En savoir plus sur la gestion des accès
-feature: Parcours
+feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59

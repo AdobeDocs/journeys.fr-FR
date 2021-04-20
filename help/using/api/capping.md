@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Description de l’API de limitation
 description: En savoir plus sur l’API de limitation.
 products: journeys
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

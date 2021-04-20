@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Test du parcours
 description: 'En savoir plus sur le test d’un parcours '
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

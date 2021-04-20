@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Terminaison d’un parcours
 description: Découvrez comment terminer un parcours
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: ht
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: ht

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Événements de réaction
 description: En savoir plus sur les événements de réaction
-feature: Parcours
-role: Professionnel
-level: Intermédiaire
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: ht
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: ht

@@ -5,7 +5,7 @@ user-guide-title: Journey Orchestration
 title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
-feature: Parcours
+feature: Journeys
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht
