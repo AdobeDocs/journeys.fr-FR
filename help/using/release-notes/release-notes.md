@@ -3,22 +3,28 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
-workflow-type: ht
-source-wordcount: '2440'
-ht-degree: 100%
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
+translation-type: tm+mt
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+workflow-type: tm+mt
+source-wordcount: '2481'
+ht-degree: 98%
 
 ---
-
 
 # Notes de mise à jour {#release-notes}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## Version d’avril 2021 {#april-2021-release}
+
+### Améliorations
+
+* Dans l’écran **Configuration du Événement** du mode test, une liste déroulante s’affiche désormais pour les champs qui prévoient une énumération. Il vous suffit de sélectionner l’une des valeurs disponibles. Ceci évite les erreurs lors du déclenchement du événement si une valeur incorrecte est définie.
 
 ## Version de mars 2021 {#march-2021-release}
 
