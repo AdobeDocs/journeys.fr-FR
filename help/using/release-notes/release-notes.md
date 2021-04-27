@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
+source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
 workflow-type: tm+mt
 source-wordcount: '2483'
 ht-degree: 98%
@@ -24,7 +24,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* Dans l’écran **Configuration du Événement** du mode test, une liste déroulante s’affiche désormais pour les champs qui prévoient une énumération. Il vous suffit de sélectionner l’une des valeurs disponibles. Ceci évite les erreurs lors du déclenchement du événement si une valeur incorrecte est définie.[En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
+* Dans l’écran **Configuration du Événement** du mode test, une liste déroulante s’affiche désormais pour les champs qui prévoient une énumération. Il vous suffit de sélectionner l’une des valeurs disponibles. Ceci évite les erreurs lors du déclenchement du événement si une valeur incorrecte est définie. [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Version de mars 2021 {#march-2021-release}
 
