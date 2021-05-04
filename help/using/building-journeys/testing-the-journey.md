@@ -7,11 +7,11 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1654'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Vous devez, au préalable, savoir quels profils sont identifiés comme profils d
 
 >[!NOTE]
 >
->Une liste déroulante s’affiche pour les champs qui s’attendent à une énumération. Il vous suffit de sélectionner l’une des valeurs disponibles.
+>Une liste déroulante s’affiche pour les champs qui prévoient une énumération. Il vous suffit de sélectionner l’une des valeurs disponibles.
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
