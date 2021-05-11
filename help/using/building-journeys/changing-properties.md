@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Modification des propriétés
 description: Découvrez comment modifier des propriétés
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
-workflow-type: ht
-source-wordcount: '507'
+exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
+translation-type: tm+mt
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+workflow-type: tm+mt
+source-wordcount: '504'
 ht-degree: 100%
 
 ---
-
-
 
 # Modification des propriétés {#concept_prq_wqt_52b}
 
