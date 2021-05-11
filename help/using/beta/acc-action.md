@@ -5,21 +5,21 @@ title: À propos de l’intégration de Campaign Classic
 description: En savoir plus sur l’intégration de Campaign Classic
 hide: true
 hidefromtoc: true
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
 
-
 # Intégration avec Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
-Cette intégration vous permet d’envoyer des emails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Classic.
+Cette intégration vous permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Classic.
 
 La connexion entre les instances Journey Orchestration et Campaign Classic est configurée par Adobe au moment de l’approvisionnement.
 
@@ -80,4 +80,3 @@ Pour chaque action configurée, une activité d’action est disponible dans la 
 1. Dans les **paramètres d’action**, tous les champs attendus dans la payload du message s’affichent. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Cette opération est similaire aux actions personnalisées. Reportez-vous à cette [section](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
-
