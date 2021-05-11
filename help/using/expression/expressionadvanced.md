@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos de l’éditeur d’expression avancé
 description: Découvrez comment créer des expressions avancées
-feature: Journeys
+feature: Parcours
 role: Data Engineer
 level: Experienced
+exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
-
 
 # À propos de l’éditeur d’expression avancé {#concept_uyj_trt_52b}
 
