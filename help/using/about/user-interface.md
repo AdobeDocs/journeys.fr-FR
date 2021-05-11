@@ -3,29 +3,29 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Interface utilisateur
 description: En savoir plus sur l’interface utilisateur
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: ht
-source-wordcount: '1064'
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+translation-type: tm+mt
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+workflow-type: tm+mt
+source-wordcount: '1061'
 ht-degree: 100%
 
 ---
-
 
 # Interface utilisateur{#concept_rcq_lqt_52b}
 
 >[!NOTE]
 >
->Pour tirer le meilleur parti de [!DNL Journey Orchestration], il est recommandé d’utiliser Chrome en tant que navigateur Internet. L’interface s’affiche dans la langue définie dans IMS. Si votre langue IMS n’est pas prise en charge par [!DNL Journey Orchestration], l’interface s’affiche en anglais.
+>Pour tirer le meilleur parti de [!DNL Journey Orchestration], il est recommandé d’utiliser le navigateur Internet Chrome. L’interface s’affiche dans la langue définie dans IMS. Si votre langue IMS n’est pas prise en charge par [!DNL Journey Orchestration], l’interface s’affiche en anglais.
 >
 >Cette documentation est fréquemment mise à jour pour prendre en compte les modifications récentes du produit. Cependant, certaines captures d’écran peuvent être légèrement différentes de l’interface du produit.
 
-## Accéder aux [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Accéder à [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Pour accéder à l’interface de [!DNL Journey Orchestration], cliquez sur l’icône du **[!UICONTROL sélecteur d’applications]**, en haut à droite, puis cliquez sur **[!UICONTROL Journey Orchestration]**.
+Pour accéder à l’interface de [!DNL Journey Orchestration], cliquez sur l’icône du **[!UICONTROL sélecteur d’applications]**, en haut à droite, puis cliquez sur **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ Pour accéder aux **[!UICONTROL filtres]**, cliquez sur l’icône en forme de f
 
 Pour filtrer des éléments en fonction de la date de création et de l’utilisateur, utilisez les **[!UICONTROL filtres de création]** contenus dans les listes **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**. Vous pouvez, par exemple, choisir de n’afficher que les événements créés au cours des 30 derniers jours.
 
-Dans la liste des parcours (page **[!UICONTROL Accueil]**), outre les **[!UICONTROL filtres de création]**, vous pouvez également filtrer les parcours affichés en fonction de leur statut et de leur version (**[!UICONTROL filtres de statut et de version]**). Vous pouvez également choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique (**[!UICONTROL Filtres d’activité]** et **[!UICONTROL Filtres de données]**). Les **[!UICONTROL Filtres de publication]** vous permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Voir [cette page](../building-journeys/using-the-journey-designer.md).
+Dans la liste des parcours (page **[!UICONTROL Accueil]**), outre les **[!UICONTROL filtres de création]**, vous pouvez également filtrer les parcours affichés en fonction de leur statut et de leur version (**[!UICONTROL filtres de statut et de version]**). Vous pouvez aussi choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique (**[!UICONTROL Filtres d’activité]** et **[!UICONTROL Filtres de données]**). Les **[!UICONTROL Filtres de publication]** vous permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Voir [cette page](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 
 ## Navigation dans les champs Adobe Experience Platform {#friendly-names-display}
 
-Lors de la définition du [payload d’événement](../event/defining-the-payload-fields.md), du [payload du groupe de champs](../datasource/field-groups.md), et de la sélection de champs dans l’[éditeur d’expression](../expression/expressionadvanced.md), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience.
+Lors de la définition de la [payload d’événement](../event/defining-the-payload-fields.md), de la [payload du groupe de champs](../datasource/field-groups.md) et de la sélection de champs dans l’[éditeur d’expression](../expression/expressionadvanced.md), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience.
 
 Si des descripteurs tels que « xdm:alternateDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d’affichage. Ceci est particulièrement utile lors de l’utilisation des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux par le biais d’un appel API. Pour plus d’informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
 
@@ -114,7 +114,7 @@ _Dans le volet de configuration d’un événement, d’une source de données o
 
 * Appuyez sur **Échap** pour fermer le volet de configuration sans effectuer d’enregistrement.
 * Appuyez sur **Entrée** pour enregistrer les modifications et fermer le volet de configuration.
-* Appuyez sur la touche **tabulation** pour passer d’un champ à un autre et les configurer.
+* Appuyez sur la touche de **tabulation** pour passer d’un champ à un autre et les configurer.
 
 _Dans l’éditeur d’expression simple :_
 
@@ -144,4 +144,3 @@ _Dans un parcours :_
 * Dans un parcours basé sur des événements en mode test, appuyez sur **E** pour déclencher un événement.
 * Dans un parcours basé sur des segments, lorsque l’option **Un profil unique à la fois** est sélectionnée en mode test, appuyez sur **P** pour déclencher un événement.
 * En mode test, appuyez sur **L** pour afficher les journaux.
-
