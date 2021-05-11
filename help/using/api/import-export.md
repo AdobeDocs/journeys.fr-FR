@@ -39,7 +39,7 @@ Il est recommandé de suivre les étapes suivantes pour exporter et importer vos
 1. Ouvrez la payload de retour, puis vérifiez les éléments suivants :
    * Si le parcours exporté contient des **informations d’identification spécifiques**, vous devez les remplacer par celles correspondant au nouvel environnement.
    * Si le parcours exporté contient des **événements** qui pointent vers un **schéma XDM**, vous devez mettre à jour manuellement la référence à l’ID de schéma avec l’ID de schéma du nouvel environnement dans le nœud xdmEntity si les valeurs d’ID sont différentes. Cette mise à jour doit être effectuée pour chaque événement. [Plus d’informations ici](https://docs.adobe.com/content/help/fr-FR/journeys/using/events-journeys/experience-event-schema.html)
-   * Si le parcours contient des actions push, email et SMS, vous devrez peut-être mettre à jour le nom du modèle ou de l’application mobile si le nom figurant dans l’environnement cible est différent de celui de votre environnement de départ.
+   * Si le parcours contient des actions push, e-mail et SMS, vous devrez peut-être mettre à jour le nom du modèle ou de l’application mobile si le nom figurant dans l’environnement cible est différent de celui de votre environnement de départ.
 1. Appelez l’API d’**import** avec vos paramètres d’environnement cible (orgID et sandboxName). Notez que vous pouvez appeler l’API d’import autant de fois que vous le souhaitez. L’UUID et le nom de chaque nœud contenu dans le parcours sont générés à chaque appel de l’API d’import.
 1. Une fois le parcours importé, vous pouvez le publier dans l’application Journey Orchestration. Plus d’informations [ici](https://docs.adobe.com/content/help/fr-FR/journeys/using/building-journeys/testing-the-journey.html)
 
