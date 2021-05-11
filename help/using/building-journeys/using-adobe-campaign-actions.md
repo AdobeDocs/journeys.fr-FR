@@ -3,27 +3,27 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation d’actions Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '938'
 ht-degree: 100%
 
 ---
 
-
 # Utilisation d’actions Adobe Campaign {#using_campaign_action}
 
-Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine suivantes sont disponibles : **[!UICONTROL Email]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**.
+Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine suivantes sont disponibles : **[!UICONTROL E-mail]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
->Pour cela, vous devez configurer l’action intégrée. Consultez à ce sujet [cette page](../action/working-with-adobe-campaign.md).
+>Pour cela, vous devez configurer l’action intégrée. Voir [cette page](../action/working-with-adobe-campaign.md).
 
-Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transactionnel Adobe Campaign Standard. En effet, [!DNL Journey Orchestration] n’est pas une solution d’envoi de messages. Pour les canaux Email, SMS et Push intégrés, l’envoi de messages est confié à la messagerie transactionnelle. Cela signifie que si vous souhaitez utiliser un modèle de message spécifique dans vos parcours, vous devez le publier dans Adobe Campaign Standard. Consultez [cette page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) pour en savoir plus sur l’utilisation de cette fonctionnalité.
+Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transactionnel Adobe Campaign Standard. En effet, [!DNL Journey Orchestration] n’est pas une solution d’envoi de messages. Pour les canaux E-mail, SMS et Push intégrés, l’envoi de messages est confié à la messagerie transactionnelle. Cela signifie que si vous souhaitez utiliser un modèle de message spécifique dans vos parcours, vous devez le publier dans Adobe Campaign Standard. Consultez [cette page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) pour en savoir plus sur l’utilisation de cette fonctionnalité.
 
 >[!NOTE]
 >
@@ -41,15 +41,15 @@ Lorsque vous sélectionnez un modèle, tous les champs attendus dans la payload 
 
 ![](../assets/journey60.png)
 
-## Email et SMS {#section_asc_51g_nhb}
+## E-mail et SMS {#section_asc_51g_nhb}
 
-Les paramètres sont identiques pour **[!UICONTROL Email]** et **[!UICONTROL SMS]**.
+Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
->Dans le cas des emails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’email de la personne dans le paramètre d’URL et qui pointe vers une landing page de désabonnement. Vous devez créer cette landing page et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
+>Dans le cas des e-mails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’email de la personne dans le paramètre d’URL et qui pointe vers une landing page de désabonnement. Vous devez créer cette landing page et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
 
-Vous devez, tout d’abord, choisir un modèle de message transactionnel. Consultez à ce sujet [cette page](../building-journeys/about-action-activities.md).
+Vous devez, tout d’abord, choisir un modèle de message transactionnel. Voir [cette page](../building-journeys/about-action-activities.md).
 
 Deux catégories sont disponibles : **[!UICONTROL Adresse]** et **[!UICONTROL Données de personnalisation]**.
 
@@ -61,7 +61,7 @@ Vous pouvez utiliser l’interface pour définir facilement l’emplacement de r
 >
 >Cette catégorie n’est visible que si vous sélectionnez un message transactionnel basé sur un « événement ». Pour les messages basés sur un « profil », le système récupère automatiquement le champ **[!UICONTROL Adresse]** dans Adobe Campaign Standard.
 
-Il s’agit des champs dont le système a besoin pour connaître la destination du message. Pour un modèle d’email, il s’agit de l’adresse email. Pour un SMS, il s’agit du numéro de téléphone mobile.
+Il s’agit des champs dont le système a besoin pour connaître la destination du message. Pour un modèle d’email, il s’agit de l’adresse e-mail. Pour un SMS, il s’agit du numéro de téléphone mobile.
 
 ![](../assets/journey61.png)
 
