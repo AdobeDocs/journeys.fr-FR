@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inLastMonths
 description: En savoir plus sur la fonction inLastMonths
-feature: Journeys
+feature: Parcours
 role: Data Engineer
 level: Experienced
+exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 100%
 
 ---
-
 
 # inLastMonths {#inLastMonths}
 
