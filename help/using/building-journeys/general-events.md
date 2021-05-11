@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Événements généraux
 description: En savoir plus sur les événements généraux
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 2951928b-baaa-47cd-8142-625bd4a33ecc
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '41'
 ht-degree: 100%
 
 ---
-
 
 # Événements généraux {#section_ofg_jss_dgb}
 
