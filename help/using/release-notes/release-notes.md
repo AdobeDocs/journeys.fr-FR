@@ -7,9 +7,9 @@ feature: Parcours
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2483'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Notes de mise à jour {#release-notes}
 
-Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
+Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
 ## Version d’avril 2021{#april-2021-release}
@@ -47,7 +47,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tr>
 <td>
 <p>Cette nouvelle activité d’action vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique.</p>
-<p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/update-profiles.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/update-profiles.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +117,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles      (bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles      (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 
 Des limites ont été ajoutées lors de la création de nouvelles versions d’un parcours. Ces limites évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
 
-L’activité **Qualification de segment** ne peut plus être utilisée dans un parcours qui inclut des activités de messages Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l’utilisation de la qualification de segment peut conduire à des pics quotidiens d’envoi de messages qui surchargent les messages transactionnels de Campaign Standard. [En savoir plus](../about/limitations.md#segment-qualification)
+L’activité **Qualification de segment** ne peut plus être utilisée dans un parcours qui inclut des activités de messages Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l’utilisation de la qualification de segment peut conduire à des pics quotidiens d’envoi de messages qui surchargent les messages transactionnels de Campaign Standard. [En savoir plus](../about/limitations.md#segment-qualification)
 
 ## Version d’octobre 2020{#october-release}
 
@@ -149,7 +149,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 <td>
 <p>Vous pouvez maintenant configurer une temporisation d’un événement pour que le parcours ne l’écoute que pendant une certaine période. Pour ce faire, vous n’avez plus besoin d’ajouter une activité Attente parallèlement au chemin de l’événement.
 </p>
-<p>Pour plus d’informations, reportez-vous à la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -208,7 +208,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 
 ### Mises à jour de la version GA{#august-ga-update}
 
-Le payload des événements de qualification de segment contient maintenant les informations contextuelles suivantes, que vous pouvez utiliser dans les conditions et actions : le comportement (entrée, sortie), l’horodatage de la qualification et l’identifiant du segment. [En savoir plus](../building-journeys/segment-qualification-events.md)
+La payload des événements de qualification de segment contient maintenant les informations contextuelles suivantes, que vous pouvez utiliser dans les conditions et actions : le comportement (entrée, sortie), l’horodatage de la qualification et l’identifiant du segment. [En savoir plus](../building-journeys/segment-qualification-events.md)
 
 ### Mises à jour de la version Alpha{#august-alpha-update}
 
@@ -221,7 +221,7 @@ Le payload des événements de qualification de segment contient maintenant les 
 <tbody>
 <tr>
 <td>
-<p>Les améliorations suivantes ont été apportées à l’activité Déclencheur de segment :
+<p>Les améliorations suivantes ont été apportées à l’activité Déclencheur de segment :
 </p>
 <ul>
 <li><p>Le nom de l’activité a été remplacé par « Lecture de segment ». </p>
@@ -260,7 +260,7 @@ Le payload des événements de qualification de segment contient maintenant les 
 </tbody>
 </table>
 
-## Version Alpha - Juillet 2020 {#alpha-release---july-2020}
+## Version Alpha - Juillet 2020 {#alpha-release---july-2020}
 
 Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
 
@@ -319,7 +319,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 </table>
 
 
-## Version du 2e trimestre - Juin 2020 {#q2-release---june-2020}
+## Version du 2e trimestre - Juin 2020 {#q2-release---june-2020}
 
 <table>
 <thead>
@@ -386,7 +386,7 @@ Journey Orchestration est maintenant disponible dans la zone APAC (centre de don
 
 L’interface de Journey Orchestration est disponible en japonais.
 
-## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
+## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -425,7 +425,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 <li>La liste déroulante <strong>Fuseau horaire</strong> vous permet de sélectionner un fuseau horaire spécifique. Par défaut, le fuseau horaire du navigateur est utilisé. </li>
 <li>La case à cocher <strong>Fuseau horaire du profil</strong> vous permet d’utiliser le fuseau horaire du profil Adobe Experience Platform de la personne qui rejoint le parcours, le cas échéant. Si ce fuseau horaire n’est pas disponible, le fuseau horaire défini dans la liste déroulante est utilisé. Cette fonctionnalité n’est pas compatible avec les parcours utilisant des événements qui n’ont pas d’espace de noms.</li>
 </ul>
-<p>Pour plus d’informations, reportez-vous aux sections <a href="../building-journeys/changing-properties.md#timezone">Modification des propriétés</a> et <a href="../building-journeys/timezone-management.md">Gestion des fuseaux horaires</a>.</p>
+<p>Pour plus d’informations, consultez les sections <a href="../building-journeys/changing-properties.md#timezone">Modification des propriétés</a> et <a href="../building-journeys/timezone-management.md">Gestion des fuseaux horaires</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -484,7 +484,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 
 * Lorsque vous parcourez les **champs Adobe Experience Platform** (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées de la définition du schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, l’autre nom d’affichage s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
 
-## Version GA - Décembre 2019 {#ga-release---december-2019}
+## Version GA - Décembre 2019 {#ga-release---december-2019}
 
 Journey Orchestration est maintenant disponible en version GA (disponibilité générale).
 
