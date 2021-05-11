@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des activités d’événement
 description: En savoir plus sur les activités d’événement
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
-
 
 # À propos des activités d’événement {#concept_rws_1rt_52b}
 
