@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Création de rapports de parcours
 description: Découvrez comment créer des rapports de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '900'
 ht-degree: 100%
 
 ---
-
 
 # Création de rapports de parcours {#concept_rfj_wpt_52b}
 
@@ -75,7 +75,7 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-### Ajouter un tableau Structure libre         {#adding-a-freeform-table}
+### Ajouter un tableau Structure libre          {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **[!UICONTROL Composant]**.
 
