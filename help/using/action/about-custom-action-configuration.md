@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos de la configuration des actions personnalisées
 description: Découvrez comment configurer une action personnalisée
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
-
 
 # À propos de la configuration des actions personnalisées {#concept_sxy_bzs_dgb}
 
@@ -35,7 +35,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 1. Ajoutez une description à l’action. Cette étape est facultative.
 1. Le nombre de parcours qui font appel à cette action apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cette action.
 1. Définissez les différents paramètres de **[!UICONTROL Configuration d’URL]**. Voir [cette page](../action/url-configuration.md).
-1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Reportez-vous à [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Définissez les **[!UICONTROL Paramètres de message]**. Voir [cette page](../action/defining-the-message-parameters.md).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
