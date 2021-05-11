@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Groupes de champs
 description: En savoir plus sur les groupes de champs
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '599'
 ht-degree: 100%
 
 ---
-
-
 
 # Groupes de champs {#concept_ntl_ypt_52b}
 
@@ -24,7 +23,7 @@ Les groupes de champs sont des ensembles de champs que vous pouvez récupérer d
 
 Pour chaque source de données, vous pouvez définir plusieurs groupes de champs ayant chacun une durée de mise en cache spécifique.
 
-Vous pouvez, par exemple, créer un groupe de champs avec le numéro de téléphone, l’adresse email, le prénom et l’adresse du profil. Vous pourrez alors utiliser ces données dans votre parcours afin de créer des conditions. Par exemple, vous pouvez choisir de n’envoyer un SMS que si le numéro de téléphone du profil est renseigné. Si le champ est vide, vous pouvez envoyer un email.
+Vous pouvez, par exemple, créer un groupe de champs avec le numéro de téléphone, l’adresse e-mail, le prénom et l’adresse du profil. Vous pourrez alors utiliser ces données dans votre parcours afin de créer des conditions. Par exemple, vous pouvez choisir de n’envoyer un SMS que si le numéro de téléphone du profil est renseigné. Si le champ est vide, vous pouvez envoyer un e-mail.
 
 Bien qu’un nom par défaut soit automatiquement ajouté à votre groupe de champs, nous vous recommandons d’attribuer un nom personnalisé. En effet, ce nom sera visible par d’autres utilisateurs de [!DNL Journey Orchestration]. Il est conseillé d’attribuer au groupe un nom pertinent.
 
