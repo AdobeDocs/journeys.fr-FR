@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Créer un événement
 description: Découvrez comment créer un événement
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '563'
 ht-degree: 100%
 
 ---
-
 
 # Création d’un événement {#section_tbk_5qt_pgb}
 
@@ -37,7 +37,7 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
 
    * **Événements** basés sur des règles : ce type d’événement ne génère pas d’eventID. Dans le champ **Condition d’identifiant d’événement**, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos parcours. Cette règle peut être basée sur n’importe quel champ disponible dans la payload, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
 
-   * **Événements** générés par le système : ce type nécessite un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement et ajouté à la prévisualisation de la payload. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload. Reportez-vous à [cette section](../event/previewing-the-payload.md).
+   * **Événements** générés par le système : ce type nécessite un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement et ajouté à la prévisualisation de la payload. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload. Consultez [cette section](../event/previewing-the-payload.md).
    >[!NOTE]
    >
    >Pour en savoir plus sur les types d’événements, reportez-vous à [cette section](../event/about-events.md).
