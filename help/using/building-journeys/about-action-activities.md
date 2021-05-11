@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des activités d’action
 description: En savoir plus sur les activités d’action
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
-
 
 # À propos des activités d’action {#concept_hbj_hrt_52b}
 
@@ -23,7 +23,7 @@ La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la
 
 Ces activités représentent les différents canaux de communication disponibles. Vous pouvez les combiner pour créer un scénario cross-canal.
 
-Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine suivantes sont disponibles : **[!UICONTROL Email]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**. Consultez à ce sujet [cette page](../building-journeys/using-adobe-campaign-actions.md).
+Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine suivantes sont disponibles : **[!UICONTROL E-mail]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**. Voir [cette page](../building-journeys/using-adobe-campaign-actions.md).
 
 Si vous avez configuré des actions personnalisées, elles s’affichent également à cet emplacement (voir [cette page](../building-journeys/using-custom-actions.md)).
 
@@ -31,4 +31,4 @@ Lorsque vous déposez une activité d’action dans la zone de travail, vous pou
 
 ![](../assets/journey59bis.png)
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Reportez-vous à [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
