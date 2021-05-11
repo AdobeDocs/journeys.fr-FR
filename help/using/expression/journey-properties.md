@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Propriétés du parcours
 description: En savoir plus sur les propriétés d’un parcours
-feature: Journeys
+feature: Parcours
 role: Data Engineer
 level: Experienced
+exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
-
 
 # Attributs de propriétés du parcours {#journey-properties}
 
