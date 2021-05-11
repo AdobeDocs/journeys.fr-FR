@@ -3,23 +3,23 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configuration des sources de données
 description: Découvrez comment configurer la source de données pour un cas d’utilisation avancé de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
-
 
 # Configuration des sources de données {#concept_vml_hdy_w2b}
 
 Dans notre cas d’utilisation, nous voulons utiliser des données de personnalisation pour nos messages. Nous devons aussi vérifier si la personne est un membre du programme de fidélité et si elle n’a pas été contactée au cours des dernières 24 heures. Ces informations sont stockées dans la base de données des profils clients en temps réel. Un **utilisateur technique** doit configurer la source de données Adobe Experience Platform pour récupérer ces champs.
 
-Pour plus d’informations sur la configuration des sources de données, reportez-vous à [cette page](../datasource/about-data-sources.md).
+Pour plus d’informations sur la configuration des sources de données, consultez [cette page](../datasource/about-data-sources.md).
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]** et sélectionnez la sources de données Adobe Experience Platform intégrée.
 
