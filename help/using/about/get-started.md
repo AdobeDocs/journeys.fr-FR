@@ -2,18 +2,18 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Prise en main
-description: Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
-feature: Journeys
+description: Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
+feature: Parcours
 role: Business Practitioner
 level: Beginner
+exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main{#concept_y4b_4qt_52b}
 
@@ -51,7 +51,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    Combinez les différentes activités d’événement, d’orchestration et d’action afin de créer des scénarios cross-canal à plusieurs étapes. Cette étape est effectuée par un **utilisateur chargé de la conception de parcours**.
 
-   Voir à ce propos [cette page](../building-journeys/journey.md).
+   Consultez [cette page](../building-journeys/journey.md) pour plus d’informations.
 
    ![](../assets/journeyuc2_24.png)
 
@@ -67,7 +67,6 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    Utilisez les outils de reporting dédiés pour mesurer l’efficacité du parcours. Cette étape est effectuée par un **utilisateur chargé de la conception de parcours**.
 
-   Voir à ce propos [cette page](../reporting/about-journey-reports.md).
+   Consultez [cette page](../reporting/about-journey-reports.md) pour plus d’informations.
 
    ![](../assets/dynamic_report_journey_12.png)
-
