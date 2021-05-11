@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos du cas d’utilisation simple
 description: En savoir plus sur le cas d’utilisation simple de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
-
 
 # À propos du cas d’utilisation simple{#concept_grh_vby_w2b}
 
@@ -29,8 +29,8 @@ Nous ne voulons envoyer un message que si cette personne est une femme. Le messa
 
 ## Conditions requises        {#prerequisites}
 
-Pour notre cas d’utilisation, nous avons conçu un modèle de message transactionnel email dans Adobe Campaign Standard. Nous utilisons un modèle de message transactionnel basé sur un événement. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Pour notre cas pratique, nous avons conçu un modèle de message transactionnel e-mail dans Adobe Campaign Standard. Nous utilisons un modèle de message transactionnel basé sur un événement. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-Adobe Campaign Standard est configuré pour envoyer des emails.
+Adobe Campaign Standard est configuré pour envoyer des e-mails.
 
 Lorsque des clients sont détectés à proximité d’une balise, les événements sont envoyés à partir de leur téléphone mobile. Vous devez concevoir une application mobile pour envoyer des événements du téléphone mobile du client vers le kit de développement Mobile SDK.
