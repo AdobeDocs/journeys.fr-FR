@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Mesures et dimensions
 description: En savoir plus sur les dimensions et les mesures disponibles pour Journey Orchestration
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
-
 
 # Mesures et dimensions {#concept_rfj_wpt_52b}
 
@@ -33,7 +33,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
 
 | Dimensions | Définition |
 |--- |--- |
-| **Action** | Liste de chaque action (**nom de l’action - libellé de l’action**) utilisée dans les parcours, par exemple Push – Confirmation de passage en caisse, Email - Fidélité récompensée. |
+| **Action** | Liste de chaque action (**nom de l’action - libellé de l’action**) utilisée dans les parcours, par exemple Push – Confirmation de passage en caisse, E-mail - Fidélité récompensée. |
 | **Source de données** | Liste des sources de données (**nom de la source de données**) utilisées pour enrichir les données des parcours, par exemple Adobe Experience Platform, système de réservation. |
 | **[!UICONTROL Événement]** | Liste de chaque événement (**nom de l’événement - libellé de l’événement**) utilisé dans les parcours, par exemple Événement Geometrixx - Passage en caisse Geometrixx. |
 | **Groupe de champs** | Liste des groupes de champs (**nom du groupe de champs**) utilisés pour enrichir les données des parcours, par exemple groupe de champs Profil, système de réservation Geometrixx. |
@@ -50,7 +50,7 @@ Le tableau ci-dessous contient la liste des dimensions de diffusion utilisées d
 | **Navigateur** | Navigateur dans lequel le message a été ouvert ou a fait l’objet d’un clic. |
 | **Nom de la diffusion** | Libellé et identifiant de la diffusion. |
 | **Appareil** | Appareil sur lequel l’email/le SMS/la notification push ont été ouverts/vus ou ont fait l’objet d’un clic. |
-| **Type de message** | Canal utilisé pour la diffusion, par exemple email, SMS, notification push ou In-App. |
+| **Type de message** | Canal utilisé pour la diffusion, par exemple e-mail, SMS, notification push ou In-App. |
 | **Nom de l’application mobile** | Nom de l’application mobile. |
 | **Plateforme** | Plateforme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic. |
 | **[!UICONTROL Plateforme push]** | Plateforme de l’appareil sur lequel la notification push a été ouverte (iOS ou Android, par exemple). |
@@ -90,7 +90,7 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 
 | Mesure | Définition |
 |--- |--- |
-| **Sur la liste bloquée** | Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable. |
+| **Sur la liste bloquée** | Nombre de destinataires ayant déclaré un e-mail comme étant un spam ou un courrier indésirable. |
 | **Taux de placement sur la liste bloquée** | Nombre total de messages sur la liste bloquée par rapport aux messages envoyés. |
 | **Bounces + erreurs** | Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés. |
 | **Taux Bounce + Erreurs** | Nombre total de messages qui ont fait l’objet d’un bounce par rapport aux messages envoyés. |
@@ -99,7 +99,7 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 | **Délivrés** | Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. |
 | **Taux de délivrabilité** | Nombre total de messages diffusés avec succès par rapport aux messages envoyés. |
 | **Erreurs** | Nombre total d’erreurs s’étant produites au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
-| **Hard bounce** | Nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. |
+| **Hard bounce** | Nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. |
 | **Taux de hard bounce** | Nombre total de diffusions ayant échoué en raison d’erreurs permanentes par rapport aux messages envoyés. |
 | **Page miroir** | Nombre de destinataires ayant cliqué sur le lien de la page miroir. |
 | **Taux de page miroir** | Nombre total de clics sur le lien de la page miroir par rapport au nombre total de messages diffusés. |
