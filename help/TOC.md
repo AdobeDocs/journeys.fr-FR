@@ -5,10 +5,10 @@ user-guide-title: Journey Orchestration
 title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
-feature: Journeys
-translation-type: ht
+feature: Parcours
+translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -183,7 +183,7 @@ ht-degree: 100%
    + [À propos de l’intégration de l’IA](using/ai-services/ai-services-overview.md)
    + [Utilisation de l’IA dédiée aux clients](using/ai-services/leveraging-customer-ai.md)
 + Cas pratiques{#use-cases-journeys}
-   + Envoyer un email personnalisé{#use-case-simple}
+   + Envoyer un e-mail personnalisé{#use-case-simple}
       + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
       + [Configuration de l’événement](using/usecase/configuring-the-event.md)
       + [Configuration de la source de données](using/usecase/configuring-the-data-source.md)
