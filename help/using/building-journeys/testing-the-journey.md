@@ -7,9 +7,9 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Test du parcours{#testing_the_journey}
 
-Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Reportez-vous à [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication.
 
@@ -25,7 +25,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 Pour utiliser le mode test, procédez comme suit :
 
-1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Reportez-vous à [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
+1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
 
 1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
 
@@ -37,13 +37,13 @@ Pour utiliser le mode test, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’un événement de réaction est utilisé dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Reportez-vous à [cette section](../building-journeys/reaction-events.md).
+   >Lorsqu’un événement de réaction est utilisé dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
 
 1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
    ![](../assets/journeyuctest1.png)
 
-1. Configurez les différents champs prévus. Dans le champ **Identifiant de profil**, saisissez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse email. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
+1. Configurez les différents champs prévus. Dans le champ **Identifiant de profil**, saisissez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse e-mail. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
 
    ![](../assets/journeyuctest1-bis.png)
 
@@ -67,7 +67,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs des profils par le biais d’appels d’API, mais il n’est pas possible de le faire par le biais de l’interface.
 
-Pour ce faire, la méthode la plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à modifier le champ booléen du profil de test en le passant de false à true. Reportez-vous à [cette section](../building-journeys/update-profiles.md#using-the-test-mode).
+Pour ce faire, la méthode la plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à modifier le champ booléen du profil de test en le passant de false à true. Consultez [cette section](../building-journeys/update-profiles.md#using-the-test-mode).
 
 ## Création d’un profil de test{#create-test-profile}
 
@@ -131,7 +131,7 @@ Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer 
 >
 >Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
 
-Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse email, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant de profil**.
+Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse e-mail, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant de profil**.
 
 >[!NOTE]
 >
