@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Gestion des fuseaux horaires
 description: En savoir plus sur la gestion des fuseaux horaires
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 100%
 
 ---
-
-
 
 # Gestion des fuseaux horaires {#timezone_management}
 
