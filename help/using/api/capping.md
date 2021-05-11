@@ -4,17 +4,17 @@ solution: Journey Orchestration
 title: Description de l’API de limitation
 description: En savoir plus sur l’API de limitation.
 products: journeys
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation de l’API de limitation
 
@@ -214,4 +214,3 @@ Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation d
 1. annuler
 1. candeploy
 1. déployer
-
