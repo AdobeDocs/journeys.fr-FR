@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
 description: En savoir plus sur les étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
-
-
 
 # Étapes supplémentaires pour l’envoi d’événements à [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
@@ -31,7 +30,7 @@ Vous devez ensuite configurer le système de données qui envoie les événement
 
 1. Configurez un appel d’API POST à l’URL des API d’ingestion en flux continu (désignée sous le nom « inlet »).
 1. Utilisez la payload que vous avez copiée depuis [!DNL Journey Orchestration], dans le corps (« section de données ») de l’appel d’API, vers les API d’ingestion en flux continu. Reportez-vous à l’exemple ci-dessous.
-1. Déterminez où obtenir toutes les variables présentes dans la payload. Exemple : si l’événement est censé transmettre l’adresse, la payload collée indique &quot;address&quot;: &quot;string&quot;. &quot;string&quot; doit être remplacé par la variable qui renseigne automatiquement la valeur appropriée, c’est-à-dire l’adresse email du destinataire du message. Notez que dans la section **[!UICONTROL Header]** de l’aperçu de la payload, de nombreuses valeurs sont renseignées automatiquement afin de vous faciliter la tâche.
+1. Déterminez où obtenir toutes les variables présentes dans la payload. Exemple : si l’événement est censé transmettre l’adresse, la payload collée indique &quot;address&quot;: &quot;string&quot;. &quot;string&quot; doit être remplacé par la variable qui renseigne automatiquement la valeur appropriée, c’est-à-dire l’adresse e-mail du destinataire du message. Notez que dans la section **[!UICONTROL Header]** de l’aperçu de la payload, de nombreuses valeurs sont renseignées automatiquement afin de vous faciliter la tâche.
 1. Sélectionnez &quot;application/json&quot; comme type de corps.
 1. Transmettez votre identifiant d’organisation IMS dans l’en-tête à l’aide de la clé « x-gw-ims-org-id ». Pour cette valeur, utilisez votre identifiant d’organisation IMS (« XXX@AdobeOrg »).
 
