@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Références de champ
 description: En savoir plus sur les références de champ dans les expressions avancées
-feature: Journeys
+feature: Parcours
 role: Data Engineer
 level: Experienced
+exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
-
 
 # Références de champ {#concept_fkj_ll5_dgb}
 
@@ -109,7 +108,7 @@ Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Dans cette expression, nous obtenons l’entrée correspondant à la clé « Email » du champ « IdentityMap » d’un événement. L’entrée « Email » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
+Dans cette expression, nous obtenons l’entrée correspondant à la clé « E-mail » du champ « IdentityMap » d’un événement. L’entrée « E-mail » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
 **Valeurs de paramètre d’une source de données (valeurs dynamiques de la source de données)**
 
