@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Sources de données externes '
 description: 'Découvrez comment configurer des sources de données externes '
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1315'
 ht-degree: 100%
 
 ---
-
-
 
 # Sources de données externes {#concept_t2s_kqt_52b}
 
@@ -90,7 +89,7 @@ Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous deve
 
 Cliquez sur **[!UICONTROL Enregistrer]**.
 
-La source de données est maintenant configurée et prête à être utilisée dans vos parcours ; par exemple, dans vos conditions ou pour personnaliser un email. Si la température est supérieure à 30° C, vous pouvez choisir d’envoyer une communication spécifique.
+La source de données est maintenant configurée et prête à être utilisée dans vos parcours ; par exemple, dans vos conditions ou pour personnaliser un e-mail. Si la température est supérieure à 30° C, vous pouvez choisir d’envoyer une communication spécifique.
 
 ## Mode d’authentification personnalisé {#section_wjp_nl5_nhb}
 
