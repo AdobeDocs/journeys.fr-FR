@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos des actions
 description: Découvrez comment configurer une action
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
-
 
 # À propos des actions {#about_actions}
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="À propos des actions"
 >abstract="C’est à ce niveau qu’est définie la connexion au système qui enverra les messages. Les actions définies ici seront ensuite disponibles dans la palette de gauche de votre parcours, dans la catégorie Action. "
 
-Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications Push, des emails, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise.
+Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications Push, des e-mails, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise.
 
 Les actions personnalisées vous permettent de configurer la connexion d’un système tiers pour envoyer des messages ou des appels d’API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON.
 
@@ -38,8 +38,8 @@ Pour afficher la liste des actions ou configurer une nouvelle action, cliquez su
 
 ![](../assets/custom1.png)
 
-Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action d’usine pour pouvoir envoyer des emails, des notifications Push et des SMS à l’aide des fonctionnalités de message transactionnel de cette plateforme. Consultez à ce sujet [cette page](../action/working-with-adobe-campaign.md).
+Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action d’usine pour pouvoir envoyer des e-mails, des notifications Push et des SMS à l’aide des fonctionnalités de message transactionnel de cette plateforme. Voir [cette page](../action/working-with-adobe-campaign.md).
 
-Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Consultez à ce sujet [cette page](../action/about-custom-action-configuration.md).
+Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
 Pour plus d’informations sur la configuration d’une action pour [!DNL Journey Orchestration] et sur la façon de l’utiliser dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/platform-learn/tutorials/journey-orchestration/configure-actions.html).
