@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
-
 
 # Passage d’un parcours à un autre {#jump}
 
