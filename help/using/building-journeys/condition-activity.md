@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Activité de condition
 description: En savoir plus sur les activités de condition
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '769'
 ht-degree: 100%
 
 ---
-
 
 # Activité de condition{#section_e2n_pft_dgb}
 
@@ -56,7 +56,7 @@ Si vous utilisez le [service de segmentation Adobe Experience Platform](https:
 >
 >Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [cette page](../expression/expressionadvanced.md).
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Reportez-vous à [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condition de source de données {#data_source_condition}
 
@@ -66,11 +66,11 @@ Vous pouvez définir une condition en fonction de champs issus des sources de do
 
 ## Condition de temps{#time_condition}
 
-Cette condition vous permet d’effectuer des actions différentes en fonction de l’heure et/ou du jour. Par exemple, les jours de semaine, vous pouvez choisir d’envoyer des SMS pendant la journée et des emails la nuit.
+Cette condition vous permet d’effectuer des actions différentes en fonction de l’heure et/ou du jour. Par exemple, les jours de semaine, vous pouvez choisir d’envoyer des SMS pendant la journée et des e-mails la nuit.
 
 >[!NOTE]
 >
->Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Consultez à ce sujet [cette page](../building-journeys/timezone-management.md).
+>Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [cette page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
