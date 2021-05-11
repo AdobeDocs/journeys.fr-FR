@@ -7,9 +7,9 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -21,14 +21,14 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration] permet d’affecter un ensemble d’autorisations aux utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
-Ils peuvent être gérés par des administrateurs qui ont accès à Admin Console. Pour plus d’informations sur Admin Console, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
+Ils peuvent être gérés par des administrateurs qui ont accès à Admin Console. Pour plus d’informations sur Admin Console, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 
 Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 
-* faire partie d’un [!DNL Journey Orchestration] **[!UICONTROL profil de produit]** associé aux autorisations de [!DNL Journey Orchestration] ;
-* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Il n’y a pas d’autorisation obligatoire à posséder. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations à ce sujet, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/access-control/home.html#adobe-admin-console).
+* faire partie d’un **[!UICONTROL profil de produit]** [!DNL Journey Orchestration] associé aux autorisations de [!DNL Journey Orchestration] ;
+* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/access-control/home.html#adobe-admin-console).
 
-Admin console permet d’attribuer aux utilisateurs l’un des profils de produit d’usine suivants :
+Admin Console permet d’attribuer aux utilisateurs l’un des profils de produit par défaut suivants :
 
 * **[!UICONTROL Utilisateur à accès limité]** : utilisateur disposant d’un accès en lecture seule aux parcours et aux rapports. Ce profil de produit comprend les autorisations suivantes :
    * Lire les parcours
@@ -42,7 +42,8 @@ Admin console permet d’attribuer aux utilisateurs l’un des profils de produ
 
    >[!NOTE]
    >
-   >Les **[!UICONTROL administrateurs]** sont le seul profil de produit qui permet la création, l’édition et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard. Ce profil de produit est nécessaire si vous utilisez Adobe Campaign Standard pour envoyer des messages dans vos parcours. Il ne doit pas être renommé dans Admin Console.
+   >Le profil  de produit **[!UICONTROL Administrateurs]** est le seul qui permet la création, la modification et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard.
+Ce profil de produit est nécessaire si vous utilisez Adobe Campaign Standard pour envoyer des messages dans vos parcours. Il ne doit pas être renommé dans Admin Console.
 
 * **[!UICONTROL Utilisateur standard]** : utilisateur disposant d’un accès de base, tel que la gestion des parcours. Ce profil de produit comprend les autorisations suivantes :
    * Gérer les parcours
@@ -50,7 +51,7 @@ Admin console permet d’attribuer aux utilisateurs l’un des profils de produ
    * Gérer les rapports
    * Lire les événements, les sources de données et les actions
 
-Vous pouvez également créer vos propres profils de produit si les profils d’usine ne suffisent pas pour gérer vos utilisateurs.
+Vous pouvez également créer vos propres profils de produit si les profils par défaut ne suffisent pas pour gérer vos utilisateurs.
 Les utilisateurs doivent toujours être liés à un profil de produit, ce qui vous permet de leur attribuer des autorisations intégrées spécifiques, telles que :
 
 * **[!UICONTROL Lire les parcours]**
@@ -69,7 +70,8 @@ Vous trouverez ci-dessous des informations relatives à la compatibilité entre 
 
 [!DNL Journey Orchestration] vous permet de créer vos propres profils de produit et d’attribuer un ensemble de droits et d’environnements Sandbox à vos utilisateurs. Avec les profils de produit, vous pouvez autoriser ou refuser l’accès à certaines fonctionnalités ou à certains objets de l’interface.
 
-Pour plus d’informations sur la création et la gestion des environnements Sandbox, voir la [documentation d’Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html).
+Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html).
+
 
 Pour créer un profil de produit et attribuer un ensemble d’autorisations et d’environnements Sandbox :
 
@@ -77,17 +79,18 @@ Pour créer un profil de produit et attribuer un ensemble d’autorisations et d
 
    ![](../assets/do-not-localize/user_management_5.png)
 
-1. Ajoutez un **[!UICONTROL nom de profil]** et une **[!UICONTROL description]** à votre nouveau profil de produit. Si vous souhaitez que le **[!UICONTROL Nom d’affichage]** du profil soit différent, désélectionnez **[!UICONTROL Identique au nom de profil]** et saisissez le **[!UICONTROL Nom d’affichage]**.
+1. Ajoutez un **[!UICONTROL nom de profil]** et une **[!UICONTROL description]** à votre nouveau profil de produit. Si vous souhaitez que le **[!UICONTROL nom d’affichage]** du profil soit différent, désélectionnez **[!UICONTROL Identique au nom de profil]** et saisissez le **[!UICONTROL nom voulu]**.
 
-1. Dans la catégorie **[!UICONTROL Notifications utilisateur]**, indiquez si les utilisateurs seront avertis par email lorsqu’ils seront ajoutés ou supprimés de ce profil de produit.
+1. Dans la catégorie **[!UICONTROL Notifications utilisateur]**, indiquez si les utilisateurs seront avertis par e-mail lorsqu’ils seront ajoutés ou supprimés de ce profil de produit.
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Terminé]**. Votre nouveau profil de produit est maintenant créé.
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. Sélectionnez votre nouveau profil de produit pour commencer à gérer les autorisations. Dans l’onglet **[!UICONTROL Utilisateurs]**, ajoutez des utilisateurs à votre profil de produit. Pour plus d’informations à ce propos, consultez cette [page](../about/access-management.md#assigning-product-profile).
+1. Sélectionnez votre nouveau profil de produit pour commencer à gérer les autorisations. Dans l’onglet **[!UICONTROL Utilisateurs]**, ajoutez des utilisateurs à votre profil de produit. Pour plus d’informations, consultez cette [page](../about/access-management.md#assigning-product-profile).
 
-1. Procédez comme décrit ci-dessus pour ajouter l’**[!UICONTROL Administrateur]** à votre profil de produit.
+1. Procédez comme décrit ci-dessus pour ajouter la catégorie **[!UICONTROL Administrateur]** à votre profil de produit.
+
 
 1. Dans l’onglet **[!UICONTROL Autorisations]**, sélectionnez l’une des deux catégories **[!UICONTROL Sandbox]** ou **[!UICONTROL Création]** pour ouvrir la page **[!UICONTROL Modifier les autorisations]** et ajouter ou supprimer des autorisations pour votre profil de produit.
 
@@ -113,7 +116,7 @@ Votre profil de produit est maintenant créé et configuré. Les utilisateurs li
 ## Attribution d’un profil de produit {#assigning-product-profile}
 
 Les profils de produit sont attribués à un ensemble d’utilisateurs qui partagent les mêmes autorisations au sein de votre entreprise.
-La liste de tous les profils de produit d’usine avec des autorisations attribuées se trouve dans cette section.
+Vous trouverez dans cette section la liste de tous les profils de produit par défaut auxquels des autorisations sont associées.
 
 Pour attribuer un profil de produit à un utilisateur et lui permettre d’accéder à [!DNL Journey Orchestration]:
 
@@ -127,15 +130,15 @@ Pour attribuer un profil de produit à un utilisateur et lui permettre d’accé
 
 1. Cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
 
-   Vous pouvez également ajouter votre nouvel utilisateur à un groupe d’utilisateurs pour parfaire l’ensemble d’autorisations partagé. Pour plus d’informations à ce propos, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/user-groups.html).
+   Vous pouvez également ajouter votre nouvel utilisateur à un groupe d’utilisateurs pour parfaire l’ensemble d’autorisations partagé. Pour plus d’informations, consultez cette [cette page](https://helpx.adobe.com/fr/enterprise/using/user-groups.html).
 
    ![](../assets/do-not-localize/user_management_3.png)
 
-1. Saisissez l’adresse email du nouvel utilisateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Saisissez l’adresse e-mail du nouvel utilisateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/do-not-localize/user_management_4.png)
 
-L’utilisateur doit alors recevoir un email le redirigeant vers votre instance de [!DNL Journey Orchestration]
+L’utilisateur doit alors recevoir un e-mail le redirigeant vers votre instance de [!DNL Journey Orchestration]
 
 ## Utilisation des environnements Sandbox {#sandboxes}
 
@@ -143,6 +146,7 @@ L’utilisateur doit alors recevoir un email le redirigeant vers votre instance 
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflète les environnements Sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
-Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html) pour connaître les étapes détaillées.
+Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) pour connaître la procédure à suivre.
+
 
 La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d’un environnement Sandbox à un autre, cliquez sur l’environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
