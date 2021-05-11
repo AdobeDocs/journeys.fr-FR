@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Champs d’exécution d’action des événements journeyStep
 description: Champs d’exécution d’action des événements journeyStep
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # Champs d’exécution d’action des événements journeyStep {#sharing-execution-fields}
 
@@ -76,7 +76,7 @@ Une temporisation peut se produire dans deux cas :
 * Lors de la première tentative d’exécution d’une action. Dans ce cas, l’exécution n’est pas terminée, il n’y a donc pas d’erreur associée.
 * Lors d’une nouvelle tentative : dans ce cas, le code actionExecOrigError/actionExecOrigErrorCode décrit l’erreur rencontrée lors de la tentative, et avant la nouvelle tentative.
 
-Par exemple, un email est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède la temporisation. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
+Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède la temporisation. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
 
 ```
     ...
@@ -104,7 +104,7 @@ Indique le type d’action.
 Valeurs :
 
 * builtin
-* ACS Email
+* ACS E-mail
 * ACS SMS
 * ACS Push
 * customer
