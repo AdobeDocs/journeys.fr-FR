@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: À propos du cas d’utilisation avancé
 description: En savoir plus sur le cas d’utilisation avancé de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # À propos du cas d’utilisation avancé{#concept_vzy_ncy_w2b}
 
@@ -31,10 +31,10 @@ Tout d’abord, nous voulons envoyer un message dès qu’une personne entre dan
 
 Nous vérifions ensuite deux conditions :
 
-* Si cette personne n’est pas un membre du programme de fidélité, nous lui envoyons un email pour lui proposer l’offre d’adhésion au programme de fidélité.
+* Si cette personne n’est pas membre du programme de fidélité, nous lui envoyons un e-mail pour lui proposer d’y adhérer.
 * Si cette personne est déjà un membre du programme de fidélité, nous vérifions si elle a réservé une chambre :
    * Si ce n’est pas le cas, nous lui envoyons une notification push avec les tarifs des chambres.
-   * Si elle a réservé une chambre, nous lui envoyons une notification push de bienvenue. En outre, si cette personne accède au restaurant dans les prochaines 6 heures, nous lui envoyons une notification push avec une remise sur un repas.
+   * Si elle a réservé une chambre, nous lui envoyons une notification push de bienvenue. En outre, si cette personne accède au restaurant dans les 6 heures qui suivent, nous lui envoyons une notification push avec une remise sur un repas.
 
 ![](../assets/journeyuc2_29.png)
 
@@ -50,12 +50,12 @@ Nous devrons configurer une connexion à deux sources de données (voir [cette p
 
 ## Conditions requises         {#prerequisites}
 
-Pour notre cas d’utilisation, nous avons conçu trois modèles de messages transactionnels Adobe Campaign Standard. Nous utilisons des modèles de messages transactionnels basés sur un événement. À ce propos, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Pour notre cas d’utilisation, nous avons conçu trois modèles de messages transactionnels Adobe Campaign Standard. Nous utilisons des modèles de messages transactionnels basés sur un événement. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-Adobe Campaign Standard est configuré pour envoyer des emails et des notifications push.
+Adobe Campaign Standard est configuré pour envoyer des e-mails et des notifications push.
 
 L’Experience Cloud ID est utilisé comme clé pour identifier le client dans le système de réservation de l’hôtel.
 
 Lorsque des clients sont détectés à proximité d’une balise, les événements sont envoyés à partir de leur téléphone mobile. Vous devez concevoir une application mobile pour envoyer les événements du téléphone mobile du client vers le kit de développement Mobile SDK.
 
-Le champ personnalisé Loyalty member a été ajouté dans XDM pour notre ID d’organisation spécifique.
+Le champ personnalisé Loyalty member (Membre du programme de fidélité) a été ajouté dans XDM pour notre ID d’organisation spécifique.
