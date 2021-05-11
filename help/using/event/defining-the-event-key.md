@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Définition de la clé d’événement
 description: Découvrez comment définir la clé d’événement
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
 
-
 # Définition de la clé d’événement {#concept_ond_hqt_52b}
 
-La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l’événement et permettant au système d’identifier la personne associée à l’événement. Il peut s’agir de l’Experience Cloud ID, d’un ID CRM ou encore d’une adresse email.
+La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l’événement et permettant au système d’identifier la personne associée à l’événement. Il peut s’agir de l’Experience Cloud ID, d’un ID CRM ou encore d’une adresse e-mail.
 
 Si vous prévoyez d’exploiter les données stockées dans la base de données de profils clients en temps réel, vous devez sélectionner, comme clé d’événement, les informations que vous avez définies en tant qu’identité d’un profil dans le [service de profil client en temps réel](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html).
 
@@ -27,7 +27,7 @@ Lors de la sélection de champs, les champs d’identité principale sont marqu�
 
 ![](../assets/primary-identity.png)
 
-Si vous devez utiliser une autre clé, telle qu’un ID CRM ou une adresse email, vous devez l’ajouter manuellement :
+Si vous devez utiliser une autre clé, telle qu’un ID CRM ou une adresse e-mail, vous devez l’ajouter manuellement :
 
 1. Cliquez dans le champ **[!UICONTROL Clé]** ou sur l’icône représentant un crayon.
 
