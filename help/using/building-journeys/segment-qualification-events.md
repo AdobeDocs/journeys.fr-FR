@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Événements de qualification de segment
 description: En savoir plus sur les événements de qualification de segment
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
-workflow-type: ht
-source-wordcount: '786'
+exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
+translation-type: tm+mt
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+workflow-type: tm+mt
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
-
 
 # Événements de qualification de segment {#segment-qualification}
 
