@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation du concepteur de parcours
 description: En savoir plus sur l’utilisation du concepteur de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
-workflow-type: ht
-source-wordcount: '1450'
+exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
+translation-type: tm+mt
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+workflow-type: tm+mt
+source-wordcount: '1447'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation du concepteur de parcours {#concept_m1g_5qt_52b}
 
@@ -23,7 +23,7 @@ Le menu Accueil du parcours vous permet de consulter la **liste des parcours**. 
 
 La liste des **parcours** vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base. Vous pouvez dupliquer, arrêter ou supprimer vos parcours. En fonction du parcours, il se peut que certaines actions ne soient pas disponibles. Par exemple, vous ne pouvez pas supprimer ni redémarrer un parcours fermé. Vous pouvez en créer une nouvelle version, le dupliquer ou l’arrêter. Vous pouvez également utiliser la barre de recherche pour rechercher un parcours.
 
-Pour accéder aux **[!UICONTROL filtres]**, cliquez sur l’icône en forme de filtre en haut à gauche de la liste. Le menu Filtres vous permet de filtrer les parcours affichés selon différents critères (statut, parcours que vous avez créés, parcours modifiés au cours des 30 derniers jours, versions les plus récentes uniquement, etc.). Vous pouvez également choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique. Les colonnes affichées dans la liste peuvent être configurées. Tous les filtres et colonnes sont enregistrés par utilisateur.
+Pour accéder aux **[!UICONTROL filtres]**, cliquez sur l’icône en forme de filtre en haut à gauche de la liste. Le menu Filtres vous permet de filtrer les parcours affichés selon différents critères (statut, parcours que vous avez créés, parcours modifiés au cours des 30 derniers jours, versions les plus récentes uniquement, etc.). Vous pouvez aussi choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique. Les colonnes affichées dans la liste peuvent être configurées. Tous les filtres et colonnes sont enregistrés par utilisateur.
 
 ![](../assets/journey74.png)
 
@@ -79,13 +79,13 @@ Selon le statut du parcours, vous pouvez effectuer différentes actions à l’a
 
 ## Utilisation des chemins dans la zone de travail {#paths}
 
-Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d’erreur ou de temporisation. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Un autre chemin est alors ajouté après l’activité. La temporisation est définie dans les propriétés du parcours (voir [cette page](../building-journeys/changing-properties.md) par un utilisateur administrateur. Par exemple, si l’envoi d’un email prend trop de temps ou génère une erreur, vous pouvez décider d’envoyer un SMS.
+Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d’erreur ou de temporisation. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Un autre chemin est alors ajouté après l’activité. La temporisation est définie dans les propriétés du parcours (voir [cette page](../building-journeys/changing-properties.md) par un utilisateur administrateur. Par exemple, si l’envoi d’un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d’envoyer un SMS.
 
 ![](../assets/journey42.png)
 
 Différentes activités (événement, action, attente) peuvent être suivies de plusieurs chemins. Pour ce faire, placez votre curseur sur l’activité en question et cliquez ensuite sur le symbole « + ». Seules les activités d’événement et d’attente peuvent être définies en parallèle. Si plusieurs événements sont définis en parallèle, le chemin choisi est celui du premier événement qui se produit.
 
-Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre indéfiniment qu’il se produise. Notez qu’il s’agit d’une bonne pratique et que cela n’est, en aucun cas, obligatoire. Si vous souhaitez limiter l’écoute d’un ou de plusieurs événements à une période bien définie, vous devez placer en parallèle un ou plusieurs événements et une activité d’attente. Reportez-vous à [cette section](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre indéfiniment qu’il se produise. Notez qu’il s’agit d’une bonne pratique et que cela n’est, en aucun cas, obligatoire. Si vous souhaitez limiter l’écoute d’un ou de plusieurs événements à une période bien définie, vous devez placer en parallèle un ou plusieurs événements et une activité d’attente. Consultez [cette section](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
 Pour supprimer le chemin d’accès, placez votre curseur sur celui-ci et cliquez sur l’icône **[!UICONTROL Supprimer la flèche]**.
 
@@ -118,4 +118,3 @@ Si vous ne souhaitez copier qu’une seule activité, vous pouvez cliquer dessus
    ![](../assets/copy-paste2.png)
 1. Dans un parcours quelconque, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
    ![](../assets/copy-paste3.png)
-
