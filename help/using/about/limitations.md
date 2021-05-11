@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Limites de Journey Orchestration
 description: En savoir plus sur les limites de Journey Orchestration
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Beginner
+exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
 
+# Limites {#limitations}
 
-# Limitations {#limitations}
-
-Voici les limites liées à l’utilisation de Journey Orchestration.
+Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Limites des actions générales
 
@@ -28,9 +28,10 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Limites des versions de parcours {#journey-versions-limitations}
 
-* un parcours commençant par une activité d’événement dans v1 ne peut pas débuter avec un autre élément qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
-* un parcours commençant par une activité **Qualification de segment** dans v1 doit toujours débuter avec une **Qualification de segment** dans d’autres versions.
-* Le segment et l’espace de noms sélectionné dans **Qualification de segment** (premier nœud) ne peut pas être modifié dans les nouvelles versions.
+* Un parcours commençant par une activité d’événement dans la version_v1 ne peut pas débuter avec un autre élément qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
+* Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d’autres versions.
+
+* Le segment et l’espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
 
 ## Qualification du segment {#segment-qualification}
