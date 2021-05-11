@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Ajout d’une condition
 description: Découvrez comment ajouter une condition
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '206'
 ht-degree: 100%
 
 ---
-
-
 
 # Ajout d’une condition {#concept_rbg_gqt_52b}
 
