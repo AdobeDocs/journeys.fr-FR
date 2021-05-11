@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Création du parcours
 description: 'Découvrez comment créer un cas d’utilisation avancé de parcours '
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '914'
 ht-degree: 100%
 
 ---
-
 
 # Création du parcours {#concept_owm_kdy_w2b}
 
@@ -21,13 +21,13 @@ L’**utilisateur chargé de la conception de parcours** peut maintenant créer 
 
 * deux activités **[!UICONTROL Événement]** : « LobbyBeacon » et « RestaurantBeacon » ;
 * deux activités **[!UICONTROL Condition]** ;
-* trois activités **[!UICONTROL Push]** et une activité **[!UICONTROL Email]** (avec Adobe Campaign Standard) ;
+* trois activités **[!UICONTROL Push]** et une activité **[!UICONTROL E-mail]** (avec Adobe Campaign Standard) ;
 * une activité **[!UICONTROL Attente]** ;
 * quatre activités **[!UICONTROL Fin]**.
 
 >[!NOTE]
 >
->Les activités **[!UICONTROL Push]** et **[!UICONTROL Email]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
+>Les activités **[!UICONTROL Push]** et **[!UICONTROL E-mail]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
 
 Consultez [cette page](../building-journeys/journey.md) pour plus d’informations sur la création d’un parcours.
 
@@ -79,7 +79,7 @@ Consultez [cette page](../building-journeys/journey.md) pour plus d’informatio
    >
    >Dans la deuxième partie de l’expression,« Profile » est facultatif.
 
-1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les espaces de noms, voir [cette page](../event/selecting-the-namespace.md).
+1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
 
 Dans notre cas d’utilisation, nous ne voulons réagir qu’à ces deux conditions. Nous n’allons donc pas cocher la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**.
 
@@ -129,7 +129,7 @@ Après la condition, deux chemins sont créés :
 
 1. Définissez les champs **[!UICONTROL Cible]** nécessaires au système pour envoyer la notification push.
 
-   * **[!UICONTROL Plateforme push]** : sélectionnez la plateforme : **[!UICONTROL Apple Push Notification Server]** (Apple) ou **[!UICONTROL Firebase Cloud Messaging]** (Android).
+   * **[!UICONTROL Plateforme push]** : sélectionnez la plateforme **[!UICONTROL Apple Push Notification Server]** (Apple) ou **[!UICONTROL Firebase Cloud Messaging]** (Android).
    * **[!UICONTROL Jeton d’enregistrement]** : ajoutez l’expression suivante (en fonction de l’événement configuré) à l’aide du mode avancé :
 
       ```
@@ -156,11 +156,11 @@ Après la condition, deux chemins sont créés :
 
 ## Deuxième chemin : le client n’est pas un membre du programme de fidélité{#section_ptb_ws1_ffb}
 
-1. Dans le deuxième chemin qui suit la première condition (le client n’est pas un membre du programme de fidélité), ajoutez une activité **[!UICONTROL Email]** et sélectionnez le modèle « Loyalty membership ».
+1. Dans le deuxième chemin qui suit la première condition (le client n’est pas un membre du programme de fidélité), ajoutez une activité **[!UICONTROL E-mail]** et sélectionnez le modèle « Loyalty membership ».
 
    ![](../assets/journeyuc2_26.png)
 
-1. Dans le champ **[!UICONTROL Adresse]**, sélectionnez l’adresse email dans la source de données.
+1. Dans le champ **[!UICONTROL Adresse]**, sélectionnez l’adresse e-mail dans la source de données.
 
    ![](../assets/journeyuc2_27.png)
 
