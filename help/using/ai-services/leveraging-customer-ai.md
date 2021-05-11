@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation des scores de l’IA dédiée aux clients
 description: Utilisation des scores de l’IA dédiée aux clients
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation de l’IA dédiée aux clients {#customer-ai}
 
@@ -26,5 +26,3 @@ Par conséquent, ils peuvent être utilisés comme tout autre attribut de profil
 ![](../assets/customer-ai.png)
 
 Veuillez noter que l’IA dédiée aux clients est une fonction payante d’Adobe Experience Platform.
-
-
