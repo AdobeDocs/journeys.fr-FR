@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configuration des événements
 description: Découvrez comment configurer les événements pour un cas d’utilisation avancé de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
-
 
 # Configuration des événements {#concept_sbp_5cy_w2b}
 
@@ -41,7 +41,7 @@ Pour plus d’informations sur la configuration des événements, consultez [cet
    >
    >La liste des champs varie d’un schéma à l’autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
 
-1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les espaces de noms, voir [cette page](../event/selecting-the-namespace.md).
+1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
