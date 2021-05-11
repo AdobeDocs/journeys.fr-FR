@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Champs de récupération des données des événements journeyStep
 description: Champs de récupération des données des événements journeyStep
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
-
 
 # Champs de récupération des données des événements journeyStep {#sharing-fetch-fields}
 
