@@ -2,15 +2,15 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Création d’un profil de test
-description: 'En savoir plus sur la création d’un profil de test '
-translation-type: ht
-source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
-workflow-type: ht
+description: En savoir plus sur la création d’un profil de test
+exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
+translation-type: tm+mt
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 100%
 
 ---
-
 
 # Création de profils de test {#create-test-profiles}
 
@@ -42,7 +42,7 @@ La liste des mixins s’affiche dans l’écran de vue d’ensemble du schéma.
    ![](../assets/test-profiles-2.png)
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l’identité principale.
    ![](../assets/test-profiles-3.png)
-1. Dans le panneau de droite **[!UICONTROL Propriétés du champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité principale]**, puis sélectionnez un espace de noms. Si vous souhaitez que l’identité principale soit une adresse email, choisissez l’espace de noms **[!UICONTROL Email]**. Cliquez sur **[!UICONTROL Appliquer]**.
+1. Dans le panneau de droite **[!UICONTROL Propriétés du champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité principale]**, puis sélectionnez un espace de noms. Si vous souhaitez que l’identité principale soit une adresse e-mail, choisissez l’espace de noms **[!UICONTROL E-mail]**. Cliquez sur **[!UICONTROL Appliquer]**.
    ![](../assets/test-profiles-4.png)
 1. Sélectionnez le schéma et activez l’option **[!UICONTROL Profil]** dans les **[!UICONTROL Propriétés du schéma]**.
    ![](../assets/test-profiles-5.png)
@@ -152,4 +152,3 @@ curl -X POST \
 }
 }'
 ```
-
