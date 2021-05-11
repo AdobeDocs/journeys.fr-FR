@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Création du parcours
 description: Découvrez comment créer un cas d’utilisation simple de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
-
 
 # Création du parcours{#concept_eyw_mcy_w2b}
 
@@ -21,12 +21,12 @@ Un **utilisateur chargé de la conception de parcours** peut maintenant créer l
 
 * L’**[!UICONTROL événement]** « SpaBeacon » : lorsqu’une personne se rapproche de la balise spa, le système reçoit un événement et le parcours de cette personne est lancé.
 * Une activité **[!UICONTROL Condition]** pour vérifier que la personne est une femme.
-* Une activité **[!UICONTROL Email]** (à l’aide d’Adobe Campaign Standard).
+* Une activité **[!UICONTROL E-mail]** (à l’aide d’Adobe Campaign Standard).
 * Une activité **[!UICONTROL Fin]**.
 
 >[!NOTE]
 >
->Les activités **[!UICONTROL Push]** et **[!UICONTROL Email]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
+>Les activités **[!UICONTROL Push]** et **[!UICONTROL E-mail]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
 
 Pour plus d’informations sur la création d’un parcours, consultez [cette page](../building-journeys/journey.md).
 
@@ -54,11 +54,11 @@ Pour plus d’informations sur la création d’un parcours, consultez [cette pa
 
    ![](../assets/journeyuc1_12.png)
 
-1. Déposez une activité **[!UICONTROL Email]** et sélectionnez votre modèle de messagerie transactionnelle « Spa discount ». Ce modèle a été conçu à l’aide d’Adobe Campaign. Consultez à ce sujet cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Déposez une activité **[!UICONTROL E-mail]** et sélectionnez votre modèle de messagerie transactionnelle « Spa discount ». Ce modèle a été conçu à l’aide d’Adobe Campaign. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Cliquez dans le champ **[!UICONTROL Email]** et sélectionnez l’adresse email dans la source de données.
+1. Cliquez dans le champ **[!UICONTROL E-mail]** et sélectionnez l’adresse e-mail dans la source de données.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -78,4 +78,4 @@ Pour plus d’informations sur la création d’un parcours, consultez [cette pa
 
    ![](../assets/journeyuc1_18.png)
 
-La prochaine fois qu’une femme se rapprochera de la balise spa, elle recevra immédiatement un email personnalisé « Spa discount ».
+La prochaine fois qu’une femme se rapprochera de la balise spa, elle recevra immédiatement un e-mail personnalisé « Spa discount ».
