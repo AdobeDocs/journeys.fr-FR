@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Versions de parcours
 description: En savoir plus sur les versions de parcours
-feature: Journeys
+feature: Parcours
 role: Business Practitioner
 level: Intermediate
+exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
-
 
 # Versions de parcours{#concept_ldc_k55_zgb}
 
