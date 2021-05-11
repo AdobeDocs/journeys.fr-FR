@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: trim
 description: En savoir plus sur la fonction trim
-feature: Journeys
+feature: Parcours
 role: Data Engineer
 level: Experienced
+exl-id: e9adf8be-9c56-4b08-9857-578d0bb0ebb9
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '32'
 ht-degree: 100%
 
 ---
-
 
 # trim {#trim}
 
