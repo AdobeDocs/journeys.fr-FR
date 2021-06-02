@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: avg
 description: En savoir plus sur la fonction avg
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 100%
