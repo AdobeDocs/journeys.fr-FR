@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Création du parcours
 description: 'Découvrez comment créer un cas d’utilisation avancé de parcours '
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 100%
@@ -29,7 +27,7 @@ L’**utilisateur chargé de la conception de parcours** peut maintenant créer 
 >
 >Les activités **[!UICONTROL Push]** et **[!UICONTROL E-mail]** ne sont disponibles dans la palette que si vous disposez d’Adobe Campaign Standard.
 
-Consultez [cette page](../building-journeys/journey.md) pour plus d’informations sur la création d’un parcours.
+Pour plus d’informations sur la création d’un parcours, consultez [cette page](../building-journeys/journey.md).
 
 ## Premières étapes{#section_ntb_ws1_ffb}
 
