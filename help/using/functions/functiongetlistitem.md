@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: getListItem
 description: En savoir plus sur la fonction gstListItem
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
@@ -32,12 +30,12 @@ Liste
 | Paramètre | Type |
 |-----------|------------------|
 | list | listString |
-| liste | listBoolean |
-| liste | listInteger |
-| liste | listDecimal |
-| liste | listDuration |
-| liste | listDateTime |
-| liste | listDateTimeOnly |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
 | index | entier |
 
 ## Signatures et type renvoyé
