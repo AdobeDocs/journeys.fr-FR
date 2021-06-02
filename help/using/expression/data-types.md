@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Types de données
 description: En savoir plus sur les types de données dans les expressions avancées
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
@@ -21,7 +19,7 @@ D’un point de vue technique, une constante contient toujours un type de donné
 
 Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur leur représentation.
 
-## chaîne {#string}
+## string {#string}
 
 **Description**
 
@@ -265,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## liste {#list}
+## list {#list}
 
 **Description**
 
