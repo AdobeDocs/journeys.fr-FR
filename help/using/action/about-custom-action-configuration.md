@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: À propos de la configuration des actions personnalisées
 description: Découvrez comment configurer une action personnalisée
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
