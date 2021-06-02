@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: nowWithDelta
 description: En savoir plus sur la fonction nowWithDelta
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: f23f729b-7edb-4efc-a7ea-904314a7b2e1
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
