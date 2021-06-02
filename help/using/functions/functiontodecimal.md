@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDecimal
 description: En savoir plus sur la fonction toDecimal
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: 11d7013c-2190-4654-8466-920861c836f5
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 100%
