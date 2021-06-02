@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Publication du parcours
 description: En savoir plus sur la publication de parcours
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: d61dc9f8-e4bb-48c7-9532-a7ff8aab5ad8
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
