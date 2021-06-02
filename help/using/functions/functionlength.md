@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: length
 description: En savoir plus sur la fonction length
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: 5dda3f35-bce4-42c6-b958-de28abebcbf3
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 100%
