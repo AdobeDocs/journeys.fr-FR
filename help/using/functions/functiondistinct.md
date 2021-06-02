@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinct
 description: En savoir plus sur la fonction distinct
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
