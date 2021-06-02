@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastHours
 description: En savoir plus sur la fonction inLastHours
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 100%
