@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toBool
 description: En savoir plus sur la fonction toBool
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 100%
