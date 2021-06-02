@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Champs d’exécution d’action des événements journeyStep
 description: Champs d’exécution d’action des événements journeyStep
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
