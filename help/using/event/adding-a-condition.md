@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Ajout d’une condition
 description: Découvrez comment ajouter une condition
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
