@@ -1,13 +1,11 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Parcours
-translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
@@ -23,7 +21,7 @@ ht-degree: 100%
    + [Mises à jour de la documentation](using/release-notes/documentation-updates.md)
 + Prise en main de [!DNL Journey Orchestration] {#starting-with-journeys}
    + [À propos de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
-   + [Limitations](using/about/limitations.md)
+   + [Limites](using/about/limitations.md)
    + [Prise en main](using/about/get-started.md)
    + [Interface utilisateur](using/about/user-interface.md)
    + [Gestion des accès](using/about/access-management.md)
@@ -32,7 +30,7 @@ ht-degree: 100%
    + À propos des événements {#about-events}
       + [Principe général](using/event/about-events.md)
       + [Cycle des données](using/event/about-data-cycle.md)
-      + [Créer un événement](using/event/about-creating.md)
+      + [Créer un événement       ](using/event/about-creating.md)
       + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
       + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
       + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
@@ -48,7 +46,7 @@ ht-degree: 100%
    + [Sources de données externes](using/datasource/external-data-sources.md)
 + Configuration d’une action {#action-journeys}
    + [À propos des actions](using/action/action.md)
-   + [Utilisation d’Adobe Campaign](using/action/working-with-adobe-campaign.md)
+   + [Utilisation d’Adobe Campaign](using/action/working-with-adobe-campaign.md)
    + Utilisation d’un système tiers {#action-third-party}
       + [À propos de la configuration des actions personnalisées](using/action/about-custom-action-configuration.md)
       + [Configuration d’URL](using/action/url-configuration.md)
@@ -78,7 +76,7 @@ ht-degree: 100%
          + [Activité de condition](using/building-journeys/condition-activity.md)
          + [Activité de fin](using/building-journeys/end-activity.md)
          + [Activité d’attente](using/building-journeys/wait-activity.md)
-      + Activités d’action {#action-activities}
+      + Activités d&#39;action {#action-activities}
          + [À propos des activités d’action](using/building-journeys/about-action-activities.md)
          + [Utilisation d’actions Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Utilisation d’actions personnalisées](using/building-journeys/using-custom-actions.md)
@@ -98,12 +96,12 @@ ht-degree: 100%
    + Syntaxe {#syntax}
       + [Généralités](using/expression/generalities.md)
       + [Instruction conditionnelle](using/expression/conditional-instruction.md)
-      + [Types des données](using/expression/data-types.md)
+      + [Types de données](using/expression/data-types.md)
       + [Références de champ](using/expression/field-references.md)
       + [Fonctions de gestion des collections](using/expression/collection-management-functions.md)
       + [Opérateurs](using/expression/operators.md)
       + [Propriétés du parcours](using/expression/journey-properties.md)
-      + [Exemples](using/expression/advanced-editor-use-cases.md)
+      + [Exemples ](using/expression/advanced-editor-use-cases.md)
    + Fonctions {#main-functions-journey}
       + [Principales fonctions](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
