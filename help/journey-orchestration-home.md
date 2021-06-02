@@ -1,15 +1,13 @@
 ---
 keywords: Parcours;accueil;rubriques populaires
 product: adobe campaign
-solution: Journey Orchestration
 title: Documentation du produit Journey Orchestration
 description: Documentation du produit Journey Orchestration
 feature: Parcours
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-translation-type: tm+mt
-source-git-commit: cb32a21a7449b2a610f45c2098b564ba819061e2
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
