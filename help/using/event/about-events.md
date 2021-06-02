@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: À propos des événements
 description: En savoir plus sur les événements
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%
