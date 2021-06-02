@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Présentation du service IA
 description: Présentation du service IA
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
