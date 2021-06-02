@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: setDays
 description: En savoir plus sur la fonction setDays
 feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 100%
