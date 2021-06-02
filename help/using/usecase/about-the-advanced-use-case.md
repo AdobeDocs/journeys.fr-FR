@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: À propos du cas d’utilisation avancé
 description: En savoir plus sur le cas d’utilisation avancé de parcours
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 # À propos du cas d’utilisation avancé{#concept_vzy_ncy_w2b}
 
-## Objectif {#purpose}
+## Intérêt {#purpose}
 
 Prenons l’exemple d’une marque hôtelière appelée Marlton. Dans ces hôtels, des dispositifs de balises ont été positionnés à proximité de tous les espaces stratégiques : hall, étages, restaurant, salle de fitness, piscine, etc.
 
