@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Description de l’API de limitation
 description: En savoir plus sur l’API de limitation.
 products: journeys
@@ -8,8 +7,7 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 100%
@@ -188,29 +186,29 @@ Cas d’utilisation n°1 : **création et déploiement d’une nouvelle configu
 
 Cas d’utilisation n°2 : **mise à jour et déploiement d’une configuration de limitation non encore déployée**
 
-1. liste
+1. list
 1. get
 1. update
 1. candeploy
-1. déployer
+1. deploy
 
 Cas d’utilisation n°3 : **annulation du déploiement et suppression d’une configuration de limitation déployée**
 
-1. liste
+1. list
 1. undeploy
 1. delete
 
 Cas d’utilisation n°4 : **suppression d’une configuration de limitation déployée**
 
 En un seul appel d’API, vous pouvez annuler le déploiement et supprimer la configuration à l’aide du paramètre forceDelete.
-1. liste
+1. list
 1. delete, avec le paramètre forceDelete
 
 Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation déjà déployée**
 
-1. liste
+1. list
 1. get
 1. update
-1. annuler
+1. undeploy
 1. candeploy
-1. déployer
+1. deploy
