@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 'Sources de données externes '
 description: 'Découvrez comment configurer des sources de données externes '
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 100%
