@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Test du parcours
 description: 'En savoir plus sur le test d’un parcours '
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-translation-type: tm+mt
-source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 100%
