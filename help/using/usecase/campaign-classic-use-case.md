@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
-source-git-commit: bc17cd3c0aee2652e55e3cf0623f87c4187a165e
+source-git-commit: 83a2410151a8a388d1db845502f434e97d89bdcc
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Ce cas pratique présente toutes les étapes nécessaires pour envoyer un email à l’aide de l’intégration Adobe Campaign Classic.
 
-Nous allons d’abord créer un modèle d’email transactionnel en Campaign Classic. Ensuite, en Journey Orchestration, nous allons créer l&#39;action et concevoir le parcours.
+Nous allons d’abord créer un modèle d’email transactionnel en Campaign Classic. Ensuite, en Journey Orchestration, nous allons créer l’événement, l’action et concevoir le parcours.
 
 Pour en savoir plus sur l&#39;intégration de Campaign Classic, consultez les pages suivantes :
 
@@ -28,7 +28,7 @@ Votre instance de Campaign Classic doit être configurée pour cette intégratio
 
 1. Connectez-vous à votre instance de pilotage de Campaign Classic.
 
-1. Sous **Administration** > **Plateforme** > **Enumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d’événement (&quot;parcours-event&quot;, dans notre exemple). Vous devrez utiliser le nom interne du type d’événement lors de l’écriture du fichier JSON.
+1. Sous **Administration** > **Plateforme** > **Enumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d’événement (&quot;parcours-event&quot;, dans notre exemple). Vous devrez utiliser le nom interne du type d’événement lors de l’écriture ultérieure du fichier JSON.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -59,14 +59,14 @@ Votre instance de Campaign Classic doit être configurée pour cette intégratio
 }
 ```
 
-    * Pour le canal, vous devez saisir &quot;email&quot;.
-    * Pour eventType, utilisez le nom interne du type d’événement créé précédemment.
-    * L’adresse électronique est une variable. Vous pouvez donc saisir n’importe quel libellé.
-    * Sous ctx, les champs de personnalisation sont également des variables.
+* Pour le canal, vous devez saisir &quot;email&quot;.
+* Pour eventType, utilisez le nom interne du type d’événement créé précédemment.
+* L’adresse électronique est une variable. Vous pouvez donc saisir n’importe quel libellé.
+* Sous ctx, les champs de personnalisation sont également des variables.
 
 **Journey Orchestration**
 
-1. Tout d’abord, vous devez créer un événement. Veillez à inclure le &quot;purchaseOrderNumber&quot;.
+1. Tout d’abord, vous devez créer un événement. Veillez à inclure le champ &quot;purchaseOrderNumber&quot;.
 
    ![](../assets/accintegration-uc-5.png)
 
@@ -78,11 +78,11 @@ Votre instance de Campaign Classic doit être configurée pour cette intégratio
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Pour l&#39;adresse email et deux champs de personnalisation, remplacez **Constante** par **Variable**.
+1. Pour l&#39;adresse email et les deux champs de personnalisation, remplacez **Constante** par **Variable**.
 
    ![](../assets/accintegration-uc-8.png)
 
-1. Créez maintenant un parcours et commencez par l’événement créé précédemment.
+1. Créez maintenant un parcours et commencez par l’événement précédemment créé.
 
    ![](../assets/accintegration-uc-9.png)
 
@@ -92,6 +92,6 @@ Votre instance de Campaign Classic doit être configurée pour cette intégratio
 
 1. Ajoutez une activité **Fin** et testez votre parcours.
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. Vous pouvez maintenant publier votre parcours.
