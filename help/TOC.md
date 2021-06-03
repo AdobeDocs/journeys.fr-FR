@@ -5,10 +5,10 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Parcours
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 94%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 94%
    + [Interface utilisateur](using/about/user-interface.md)
    + [Gestion des accès](using/about/access-management.md)
    + [Résolution des problèmes](using/about/troubleshooting.md)
+   + [Intégration à des systèmes externes](using/about/external-systems.md)
 + Configuration d’un événement {#events-journeys}
    + À propos des événements {#about-events}
       + [Principe général](using/event/about-events.md)
