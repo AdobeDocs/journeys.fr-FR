@@ -5,10 +5,10 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Parcours
-source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
+source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 97%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,8 @@ ht-degree: 97%
    + [Sources de données externes](using/datasource/external-data-sources.md)
 + Configuration d’une action {#action-journeys}
    + [À propos des actions](using/action/action.md)
-   + [Utilisation d’Adobe Campaign](using/action/working-with-adobe-campaig.md)
+   + [Utilisation d’Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [Utilisation de Adobe Campaign Classic](using/action/acc-action.md)
    + Utilisation d’un système tiers {#action-third-party}
       + [À propos de la configuration des actions personnalisées](using/action/about-custom-action-configuration.md)
       + [Configuration d’URL](using/action/url-configuration.md)
@@ -78,7 +79,8 @@ ht-degree: 97%
          + [Activité d’attente](using/building-journeys/wait-activity.md)
       + Activités d&#39;action {#action-activities}
          + [À propos des activités d’action](using/building-journeys/about-action-activities.md)
-         + [Utilisation d’actions Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Utilisation d’Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Utilisation de Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
          + [Utilisation d’actions personnalisées](using/building-journeys/using-custom-actions.md)
          + [Passage d’un parcours à un autre](using/building-journeys/jump.md)
          + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
@@ -191,6 +193,6 @@ ht-degree: 97%
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
       + [Création du parcours](using/usecase/building-the-journey.md)
-   + [Envoi d’un message à l’aide de Campaign Classic](using/usecase/campaign-v7-v8-use-case.md)
+   + [Envoi d’un message à l’aide de Campaign Classic](using/usecase/campaign-classic-use-case.md)
 + Utilisation des API{#working-with-apis}
    + [API de limitation](using/api/capping.md)
