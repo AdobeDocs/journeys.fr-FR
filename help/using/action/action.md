@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
+source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 95%
+source-wordcount: '314'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +36,9 @@ Pour afficher la liste des actions ou configurer une nouvelle action, cliquez su
 
 ![](../assets/custom1.png)
 
-Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action d’usine pour pouvoir envoyer des e-mails, des notifications Push et des SMS à l’aide des fonctionnalités de message transactionnel de cette plateforme. Voir [cette page](../action/working-with-adobe-campaign.md#using_adobe_campaign_standard).
+Si vous disposez d’Adobe Campaign Standard, vous devez configurer l’action d’usine pour pouvoir envoyer des e-mails, des notifications Push et des SMS à l’aide des fonctionnalités de message transactionnel de cette plateforme. Voir [cette page](../action/working-with-adobe-campaign.md).
 
-Si vous disposez d’Adobe Campaign v7 ou v8, une intégration est disponible sur demande. Voir [cette page](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
+Si vous disposez de Adobe Campaign Classic, une intégration est disponible sur demande. Voir [cette page](../action/acc-action.md).
 
 Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
