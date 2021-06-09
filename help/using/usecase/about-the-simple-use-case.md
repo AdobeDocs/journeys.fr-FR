@@ -6,9 +6,9 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Nous ne voulons envoyer un message que si cette personne est une femme. Le messa
 
 ## Conditions requises        {#prerequisites}
 
-Pour notre cas pratique, nous avons conçu un modèle de message transactionnel e-mail dans Adobe Campaign Standard. Nous utilisons un modèle de message transactionnel basé sur un événement. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Pour notre cas pratique, nous avons conçu un modèle de message transactionnel e-mail dans Adobe Campaign Standard. Nous utilisons un modèle de message transactionnel basé sur un événement. Voir cette [page]().
 
 Adobe Campaign Standard est configuré pour envoyer des e-mails.
 
