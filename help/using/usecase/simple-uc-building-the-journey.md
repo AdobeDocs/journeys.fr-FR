@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur la création d’un parcours, consultez [cette pa
 
    ![](../assets/journeyuc1_12.png)
 
-1. Déposez une activité **[!UICONTROL E-mail]** et sélectionnez votre modèle de messagerie transactionnelle « Spa discount ». Ce modèle a été conçu à l’aide d’Adobe Campaign. Voir cette [page]().
+1. Déposez une activité **[!UICONTROL E-mail]** et sélectionnez votre modèle de messagerie transactionnelle « Spa discount ». Ce modèle a été conçu à l’aide d’Adobe Campaign. Voir cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
    ![](../assets/journeyuc1_13.png)
 
