@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,11 @@ L’activité d’action **[!UICONTROL Mettre à jour le profil]** vous permet d
 
    ![](../assets/profileupdate2.png)
 
-1. Sélectionnez un jeu de données dans la liste. La sélection du jeu de données détermine l’endroit où sera stockée la nouvelle valeur du champ de profil.
+1. Sélectionnez un jeu de données dans la liste.
+
+   >[!NOTE]
+   >
+   >L’action **Mettre à jour le profil** met à jour les données de profil en temps réel, mais elle ne met pas à jour les jeux de données. La sélection du jeu de données est nécessaire, car le profil est un enregistrement associé à un jeu de données.
 
 1. Cliquez sur le champ **Valeur** pour définir la valeur à utiliser :
 
