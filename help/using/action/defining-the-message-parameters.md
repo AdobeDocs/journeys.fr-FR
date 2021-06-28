@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans la section **[!UICONTROL Paramètres de message]**, collez un exemple de pa
 
 >[!NOTE]
 >
->Les noms de champ de la payload ne peuvent pas contenir de &quot;.&quot; caractère.
+>Les noms de champ de la payload ne peuvent pas contenir de caractère « . ».
 
 Vous aurez la possibilité de définir le type de paramètre (par exemple : string, integer, etc.).
 
