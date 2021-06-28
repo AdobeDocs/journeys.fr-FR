@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Les types de conditions disponibles sont au nombre de quatre :
 
 ![](../assets/journey49.png)
 
-## À propos de l’activité Condition {#about_condition}
+## À propos de l’activité de condition {#about_condition}
 
 Lorsque vous utilisez plusieurs conditions dans un parcours, vous pouvez définir des libellés pour chacune d’elles afin de les identifier plus facilement.
 
