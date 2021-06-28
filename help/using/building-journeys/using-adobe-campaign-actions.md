@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
