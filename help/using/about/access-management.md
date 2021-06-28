@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -41,7 +41,6 @@ Admin Console permet d’attribuer aux utilisateurs l’un des profils de produ
    >[!NOTE]
    >
    >Le profil  de produit **[!UICONTROL Administrateurs]** est le seul qui permet la création, la modification et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard.
-   
 Ce profil de produit est nécessaire si vous utilisez Adobe Campaign Standard pour envoyer des messages dans vos parcours. Il ne doit pas être renommé dans Admin Console.
 
 * **[!UICONTROL Utilisateur standard]** : utilisateur disposant d’un accès de base, tel que la gestion des parcours. Ce profil de produit comprend les autorisations suivantes :
@@ -145,7 +144,7 @@ L’utilisateur doit alors recevoir un e-mail le redirigeant vers votre instance
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflète les environnements Sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
-Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) pour connaître la procédure à suivre.
+Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html) pour connaître la procédure à suivre.
 
 
 La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d’un environnement Sandbox à un autre, cliquez sur l’environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
