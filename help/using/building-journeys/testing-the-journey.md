@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1654'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ curl -X POST \
 
 ## Déclenchement d’événements {#firing_events}
 
-Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera entrer une personne dans le parcours.
+Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera en sorte qu&#39;une personne rejoigne le parcours.
 
 >[!NOTE]
 >
