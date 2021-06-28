@@ -6,9 +6,9 @@ user-guide-description: Fournit des instructions pratiques pour la mise en œuvr
 index: true
 feature: Parcours
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 92%
 # [!DNL Journey Orchestration] Guide {#using}
 
 + [Documentation du produit](journey-orchestration-home.md)
-+ Nouveautés{#release-notes}
-   + [Notes de mise à jour](using/release-notes/release-notes.md)
++ Nouveautés {#release-notes}
+   + [Notes de mise à jour ](using/release-notes/release-notes.md)
    + [Mises à jour de la documentation](using/release-notes/documentation-updates.md)
 + Prise en main de [!DNL Journey Orchestration] {#starting-with-journeys}
    + [À propos de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
@@ -26,7 +26,7 @@ ht-degree: 92%
    + [Interface utilisateur](using/about/user-interface.md)
    + [Gestion des accès](using/about/access-management.md)
    + [Résolution des problèmes](using/about/troubleshooting.md)
-   + [Intégration à des systèmes externes](using/about/external-systems.md)
+   + [Intégration avec des systèmes externes](using/about/external-systems.md)
 + Configuration d’un événement {#events-journeys}
    + À propos des événements {#about-events}
       + [Principe général](using/event/about-events.md)
@@ -103,7 +103,7 @@ ht-degree: 92%
       + [Fonctions de gestion des collections](using/expression/collection-management-functions.md)
       + [Opérateurs](using/expression/operators.md)
       + [Propriétés du parcours](using/expression/journey-properties.md)
-      + [Exemples ](using/expression/advanced-editor-use-cases.md)
+      + [Exemples](using/expression/advanced-editor-use-cases.md)
    + Fonctions {#main-functions-journey}
       + [Principales fonctions](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
