@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d’effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d’effectuer la publication. Voir [cette page](../building-journeys/testing-the-journey.md).
 
-## Vérification des erreurs avant le test{#section_h3q_kqk_fhb}
+## Recherche d’erreurs avant le test{#section_h3q_kqk_fhb}
 
 Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
 
