@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il n’envoie ensuite un message d’offre de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l’événement « restaurant » avec une temporisation d’un jour :
 
-* Si l’événement &quot;restaurant&quot; est reçu moins d’un jour après la notification push de bienvenue, l’activité push de remise sur un repas est envoyée.
+* Si l’événement « restaurant » est reçu moins de 1 jour après la notification push de bienvenue, l’activité push de remise sur un repas est envoyée.
 * Si aucun événement « restaurant » n’est reçu dans la journée qui suit, le client s’engage dans l’itinéraire de temporisation.
 
-Notez que si vous souhaitez configurer un délai d’expiration sur plusieurs événements placés après une activité **[!UICONTROL Attente]** , vous devez configurer le délai d’expiration sur l’un de ces événements uniquement.
+Notez que si vous souhaitez configurer une temporisation pour plusieurs événements placés après une activité d’**[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
 
-Le délai d’expiration s’applique à tous les événements placés après l’activité **[!UICONTROL Attente]** . Si aucun événement n’est reçu avant le délai d’expiration spécifié, les individus s’engagent dans un seul chemin d’accès au délai d’expiration ou mettent fin à leur parcours.
+La temporisation s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu avant la temporisation spécifiée, les individus s’engagent dans un itinéraire de temporisation unique ou terminent leur parcours.
 
 ![](../assets/event-timeout-group.png)
