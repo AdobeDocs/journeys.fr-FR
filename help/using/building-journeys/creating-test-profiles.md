@@ -3,9 +3,9 @@ product: adobe campaign
 title: Création d’un profil de test
 description: En savoir plus sur la création d’un profil de test
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '728'
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Ces méthodes d’import vous permettent également de mettre à jour les attrib
 
 La création d’un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 
-## Prérequis{#test-profile-prerequisites}
+## Conditions préalables requises{#test-profile-prerequisites}
 
 Pour pouvoir créer des profils, il vous faut d’abord créer un schéma ainsi qu’un jeu de données dans Adobe Experience Platform.
 
@@ -99,7 +99,7 @@ Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du 
 
 ## Création de profils de test à l’aide d’appels d’API {#create-test-profiles-api}
 
-Vous pouvez également créer des profils de test au moyen d’appels d’API. Consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html).
+Vous pouvez également créer des profils de test au moyen d’appels d’API. Consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L’indicateur testProfile fait partie de ce mixin.
 
