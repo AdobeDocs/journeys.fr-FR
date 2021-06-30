@@ -6,9 +6,9 @@ feature: Parcours
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2631'
 ht-degree: 96%
 
 ---
@@ -40,7 +40,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 ### Améliorations
 
 * Pour les sources de données externes, une règle de limitation de 15 appels par seconde est désormais définie automatiquement. [En savoir plus](../about/external-systems.md#capping)
-* Dans l’éditeur d’expression simple et avancé, nous prenons désormais en charge le format de date XDM.
+* Les éditeurs d’expression simples et avancés prennent désormais en charge le format de date XDM.
 * Un nouveau filtre a été ajouté dans l’écran Liste des parcours. Vous pouvez désormais filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification de segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
 * Pour les parcours en direct, l’écran des propriétés du parcours affiche désormais la date de publication et le nom de l’utilisateur qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
