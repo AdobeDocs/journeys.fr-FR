@@ -6,19 +6,19 @@ feature: Parcours
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
-workflow-type: ht
-source-wordcount: '2542'
-ht-degree: 100%
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+workflow-type: tm+mt
+source-wordcount: '2633'
+ht-degree: 96%
 
 ---
 
-# Notes de mise à jour {#release-notes}
+# Notes de mise à jour  {#release-notes}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de juin 2021 {#may-2021-release}
+## Version de juin 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -37,13 +37,20 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 </tbody>
 </table>
 
-## Version d’avril 2021{#april-2021-release}
+### Améliorations
+
+* Pour les sources de données externes, une règle de limitation de 15 appels par seconde est désormais définie automatiquement. [En savoir plus](../about/external-systems.md#capping)
+* Dans l’éditeur d’expression simple et avancé, nous prenons désormais en charge le format de date XDM.
+* Un nouveau filtre a été ajouté dans l’écran Liste des parcours. Vous pouvez désormais filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification de segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
+* Pour les parcours en direct, l’écran des propriétés du parcours affiche désormais la date de publication et le nom de l’utilisateur qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+
+## Version d’avril 2021 {#april-2021-release}
 
 ### Améliorations
 
 * Dans l’écran **Configuration de l&#39;événement** du mode test, une liste déroulante s’affiche désormais pour les champs qui prévoient une énumération. Il suffit de sélectionner l’une des valeurs disponibles. Ceci évite les erreurs lors du déclenchement de l&#39;événement si une valeur incorrecte est définie. [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
 
-## Version de mars 2021 {#march-2021-release}
+## Version de mars 2021 {#march-2021-release}
 
 ### Améliorations
 
@@ -153,7 +160,7 @@ Des limites ont été ajoutées lors de la création de nouvelles versions d’u
 
 L’activité **Qualification de segment** ne peut plus être utilisée dans un parcours qui inclut des activités de messages Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l’utilisation de la qualification de segment peut conduire à des pics quotidiens d’envoi de messages qui surchargent les messages transactionnels de Campaign Standard. [En savoir plus](../about/limitations.md#segment-qualification)
 
-## Version d’octobre 2020{#october-release}
+## Version d’octobre 2020 {#october-release}
 
 <table>
 <thead>
@@ -403,7 +410,7 @@ Journey Orchestration est maintenant disponible dans la zone APAC (centre de don
 
 L’interface de Journey Orchestration est disponible en japonais.
 
-## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
+## Version du 1er trimestre - Mars  020 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -513,5 +520,5 @@ Journey Orchestration permet une orchestration en temps réel et s’appuie sur 
 
 Ressources supplémentaires :
 
-* [Tutoriels](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [Tutoriels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity_fr)
