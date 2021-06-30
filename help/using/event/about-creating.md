@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 97%
 
 ---
 
@@ -49,6 +49,10 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
    ![](../assets/alpha-event6.png)
 
    Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet à Journey Orchestration.
+
+   >[!NOTE]
+   >
+   >L’éditeur d’expression avancé n’est pas disponible lors de la définition de la **[!UICONTROL condition d’identifiant d’événement]**.
 
 1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l’ajout d’un espace de noms permet d’exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l’événement. Voir [cette page](../event/selecting-the-namespace.md).
 1. Définissez la clé : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, [!DNL Journey Orchestration] sélectionne la clé qui doit correspondre à l’espace de noms ; par exemple, si vous sélectionnez un espace de noms d’email, la clé d’email est sélectionnée. Voir [cette page](../event/defining-the-event-key.md).
