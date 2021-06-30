@@ -3,10 +3,10 @@ product: adobe campaign
 title: Description de l’API d’import-export
 description: En savoir plus sur l’API d’import-export.
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 97%
 
 ---
 
@@ -30,16 +30,16 @@ Pour tester et préparer votre intégration, une collection Postman est disponib
 
 Il est recommandé de suivre les étapes suivantes pour exporter et importer vos parcours entre les environnements :
 
-1. Créez et paramétrez un parcours dans votre environnement de départ. [Plus d’informations ici](https://docs.adobe.com/content/help/fr-FR/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Vérifiez si la version du parcours ne comporte aucune erreur. [Plus d’informations ici](https://docs.adobe.com/content/help/fr-FR/journeys/using/building-journeys/testing-the-journey.html)
+1. Créez et paramétrez un parcours dans votre environnement de départ. [Plus d’informations ici](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Vérifiez si la version du parcours ne comporte aucune erreur. [Plus d’informations ici](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. Appelez l’API **/list/journeys** pour récupérer l’UID du parcours et l’UID de votre dernière version de parcours. Si nécessaire, vous pouvez appeler **/journeys/`{uid}`/latest** pour trouver l’UID de votre dernière version de parcours.
 1. Appelez l’API **d’export** avec vos paramètres d’environnement de départ (orgID et sandboxName).
 1. Ouvrez la payload de retour, puis vérifiez les éléments suivants :
    * Si le parcours exporté contient des **informations d’identification spécifiques**, vous devez les remplacer par celles correspondant au nouvel environnement.
-   * Si le parcours exporté contient des **événements** qui pointent vers un **schéma XDM**, vous devez mettre à jour manuellement la référence à l’ID de schéma avec l’ID de schéma du nouvel environnement dans le nœud xdmEntity si les valeurs d’ID sont différentes. Cette mise à jour doit être effectuée pour chaque événement. [Plus d’informations ici](https://docs.adobe.com/content/help/fr-FR/journeys/using/events-journeys/experience-event-schema.html)
+   * Si le parcours exporté contient des **événements** qui pointent vers un **schéma XDM**, vous devez mettre à jour manuellement la référence à l’ID de schéma avec l’ID de schéma du nouvel environnement dans le nœud xdmEntity si les valeurs d’ID sont différentes. Cette mise à jour doit être effectuée pour chaque événement. [Plus d’informations ici](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Si le parcours contient des actions push, e-mail et SMS, vous devrez peut-être mettre à jour le nom du modèle ou de l’application mobile si le nom figurant dans l’environnement cible est différent de celui de votre environnement de départ.
 1. Appelez l’API d’**import** avec vos paramètres d’environnement cible (orgID et sandboxName). Notez que vous pouvez appeler l’API d’import autant de fois que vous le souhaitez. L’UUID et le nom de chaque nœud contenu dans le parcours sont générés à chaque appel de l’API d’import.
-1. Une fois le parcours importé, vous pouvez le publier dans l’application Journey Orchestration. Plus d’informations [ici](https://docs.adobe.com/content/help/fr-FR/journeys/using/building-journeys/testing-the-journey.html)
+1. Une fois le parcours importé, vous pouvez le publier dans l’application Journey Orchestration. Plus d’informations [ici](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Authentification
