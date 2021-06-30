@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 95%
 
 ---
 
@@ -71,6 +71,8 @@ Lorsque vous utilisez l’éditeur d’expression dans une condition ou une acti
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Un nouveau parcours contenant un événement de qualification de segment est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l’intervalle d’actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d’utiliser ce parcours.
 
 ## Bonnes pratiques {#best-practices-segments}
 
