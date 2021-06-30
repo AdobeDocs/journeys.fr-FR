@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Ils peuvent être gérés par des administrateurs qui ont accès à Admin Conso
 Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 
 * faire partie d’un **[!UICONTROL profil de produit]** [!DNL Journey Orchestration] associé aux autorisations de [!DNL Journey Orchestration] ;
-* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/access-control/home.html#adobe-admin-console).
+* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 Admin Console permet d’attribuer aux utilisateurs l’un des profils de produit par défaut suivants :
 
@@ -41,7 +41,6 @@ Admin Console permet d’attribuer aux utilisateurs l’un des profils de produ
    >[!NOTE]
    >
    >Le profil  de produit **[!UICONTROL Administrateurs]** est le seul qui permet la création, la modification et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard.
-
 Ce profil de produit est nécessaire si vous utilisez Adobe Campaign Standard pour envoyer des messages dans vos parcours. Il ne doit pas être renommé dans Admin Console.
 
 * **[!UICONTROL Utilisateur standard]** : utilisateur disposant d’un accès de base, tel que la gestion des parcours. Ce profil de produit comprend les autorisations suivantes :
@@ -69,7 +68,7 @@ Vous trouverez ci-dessous des informations relatives à la compatibilité entre 
 
 [!DNL Journey Orchestration] vous permet de créer vos propres profils de produit et d’attribuer un ensemble de droits et d’environnements Sandbox à vos utilisateurs. Avec les profils de produit, vous pouvez autoriser ou refuser l’accès à certaines fonctionnalités ou à certains objets de l’interface.
 
-Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html).
+Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
 
 
 Pour créer un profil de produit et attribuer un ensemble d’autorisations et d’environnements Sandbox :
@@ -145,7 +144,7 @@ L’utilisateur doit alors recevoir un e-mail le redirigeant vers votre instance
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflète les environnements Sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
-Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/ui/user-guide.html) pour connaître la procédure à suivre.
+Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) pour connaître la procédure à suivre.
 
 
 La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d’un environnement Sandbox à un autre, cliquez sur l’environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
