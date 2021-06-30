@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 87%
 
 ---
 
@@ -37,5 +37,7 @@ Vous pouvez définir deux types d’événements :
    >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
 * **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload.
+
+Journey Orchestration nécessite que les événements soient diffusés en continu ou distribués par lots dans Adobe Experience Platform. Ces données n’ont pas nécessairement besoin d’accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation ou la recherche dans un parcours distinct, nous vous recommandons d’activer le jeu de données pour profile.
 
 Pour savoir comment créer un événement, consultez cette [page](../event/about-creating.md).
