@@ -7,10 +7,10 @@ feature: Parcours
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 94%
 
 ---
 
@@ -73,10 +73,10 @@ Découvrez les détails des dernières versions.
 
 * [Page produit Journey Orchestration](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
 * [Documentation Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
-* [Documentation sur le profil client en temps réel](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
-* [Définition de champs XDM Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/home.html)
-* [Documentation sur le service Espace de noms d’identité](https://docs.adobe.com/content/help/fr-FR/experience-platform/identity/home.html)
-* [API d’ingestion en flux continu](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/overview.html)
+* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
+* [Définition de champs XDM Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr)
+* [Documentation sur le service Espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
+* [API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
 * [Documentation sur la messagerie transactionnelle de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
 
 ## Tutoriels techniques
