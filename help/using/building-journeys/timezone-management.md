@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un �
 * [Attente à date fixe](../building-journeys/wait-activity.md#fixed_date)
 
 Vous pouvez sélectionner un fuseau horaire ou choisir d’utiliser celui défini dans le profil utilisateur.
+
+>[!NOTE]
+>
+>Le fuseau horaire du profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences** .
 
 ## Définition d’un fuseau horaire fixe {#fixed-timezone}
 
