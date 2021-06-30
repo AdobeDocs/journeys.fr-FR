@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '527'
-ht-degree: 100%
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 90%
 
 ---
 
@@ -20,15 +20,13 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 ## Limites des actions générales
 
 * Il n’y a pas de limite d’envoi. 
-* En cas d’erreur, deux reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé. 
+* Trois reprises sont systématiquement effectuées en cas d&#39;erreur. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé. 
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié. 
-* Il n’y a pas d’intégration de produit avec Adobe Campaign Classic.
 
 ## Limites des versions de parcours {#journey-versions-limitations}
 
-* Un parcours commençant par une activité d’événement dans la version_v1 ne peut pas débuter avec un autre élément qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
-* Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d’autres versions.
-
+* Un parcours commençant par une activité d’événement dans v1 ne peut pas commencer par autre chose qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
+* Un parcours commençant par une activité **Qualification de segment** dans v1 doit toujours commencer par une **Qualification de segment** dans d’autres versions.
 * Le segment et l’espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
 
@@ -48,7 +46,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Limites des actions Adobe Campaign
 
-* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html). 
+* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
   
 
 ## Limites des événements
