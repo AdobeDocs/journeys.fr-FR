@@ -2,10 +2,10 @@
 product: adobe campaign
 title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour év
 
 >[!NOTE]
 >
->La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent le connecteur [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent le connecteur [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## Configuration de l’événement {#section_ptb_ws1_ffb}
 
