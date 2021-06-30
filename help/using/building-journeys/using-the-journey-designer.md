@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+workflow-type: tm+mt
+source-wordcount: '1457'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Le **volet de configuration des activités** s’affiche lorsque vous cliquez su
 
 Dans la zone de travail, vos activités d’action et d’événement sont représentées par une icône sous laquelle est affiché le nom de l’événement ou de l’action. Dans le volet de configuration des activités, vous pouvez utiliser le champ **[!UICONTROL Libellé]** pour ajouter un suffixe au nom de l’activité. Ces libellés vous aident à replacer l’utilisation des événements et des actions dans son contexte, en particulier lorsque vous utilisez plusieurs fois le même événement ou la même action dans votre parcours. Les libellés que vous avez ajoutés sont également affichés dans le cadre du reporting de [!DNL Journey Orchestration] Vous pouvez également définir des libellés pour vos activités de condition.
 
-Par défaut, les champs en lecture seule sont masqués. Pour les afficher, cliquez sur l’icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l’activité.
+Par défaut, les champs en lecture seule sont masqués. Pour afficher les champs en lecture seule, cliquez sur l’icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration des activités. Ce paramètre s’applique à toutes les activités de tous les parcours.
 
 ![](../assets/journey59bis.png)
 
