@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '316'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 97%
 
 ---
 
@@ -42,4 +42,4 @@ Si vous disposez d’Adobe Campaign v7 ou v8, une intégration est disponible su
 
 Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
-Pour plus d’informations sur la configuration d’une action pour [!DNL Journey Orchestration] et sur la façon de l’utiliser dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+Pour plus d’informations sur la configuration d’une action pour [!DNL Journey Orchestration] et sur la façon de l’utiliser dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html).
