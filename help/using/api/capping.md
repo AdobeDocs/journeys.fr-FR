@@ -7,10 +7,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1109'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '1103'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Les API de [!DNL Journey Orchestration] prennent en charge 5 000 événements/
 
 Lors de la configuration d’une source de données, vous allez définir une connexion à un système pour récupérer des informations supplémentaires, qui seront ensuite utilisées dans vos parcours. Pour une définition d’action, vous allez configurer la connexion d’un système tiers pour envoyer des messages ou des appels d’API. Pour chaque appel d’API effectué par Journey, l’API de limitation est interrogée à l’aide d’un appel transmis par le moteur d’API. Si une limite est définie, l’appel est rejeté, ce qui permet d’éviter une surcharge du système externe.
 
-Pour en savoir plus sur la configuration d’une action ou d’une source de données, voir les sections [À propos des actions](https://docs.adobe.com/content/help/fr-FR/journeys/using/action-journeys/action.html) et [À propos des sources de données](https://docs.adobe.com/content/help/fr-FR/journeys/using/data-source-journeys/about-data-sources.html)
+Pour en savoir plus sur la configuration d’une action ou d’une source de données, voir les sections [À propos des actions](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) et [À propos des sources de données](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Ressources
@@ -173,7 +173,7 @@ Elle a été créée pour partager la collection de variables Postman générée
 Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{Base_Path}` et `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Orchestration]
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [présentation des sandbox](https://docs.adobe.com/content/help/fr-FR/experience-platform/sandbox/home.html).
+* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
 Dans la section suivante, vous trouverez la liste classée des appels API REST pour effectuer le cas d’utilisation.
 
