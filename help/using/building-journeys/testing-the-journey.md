@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1654'
-ht-degree: 100%
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+workflow-type: tm+mt
+source-wordcount: '1681'
+ht-degree: 98%
 
 ---
 
@@ -60,6 +60,7 @@ Pour utiliser le mode test, procédez comme suit :
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi les rapports.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
+* Lors de l’atteinte d’une division, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches fractionnées si vous souhaitez que le test choisisse un autre chemin.
 
 ## Transformation d’un profil en profil de test{#turning-profile-into-test}
 
@@ -69,7 +70,7 @@ Pour ce faire, la méthode la plus simple consiste à utiliser une activité d�
 
 ## Création d’un profil de test{#create-test-profile}
 
-Si vous souhaitez créer un profil de test, la procédure à suivre est identique à celle utilisée pour créer un profil dans Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
+Si vous souhaitez créer un profil de test, la procédure à suivre est identique à celle utilisée pour créer un profil dans Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
 
 Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L’indicateur testProfile fait partie de ce mixin.
 
