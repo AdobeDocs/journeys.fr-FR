@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '86'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 L’intégration avec les Services intelligents vous permet d’exploiter la puissance de l’intelligence artificielle et du machine learning dans les cas d’utilisation de l’expérience client. Cela permet aux analystes marketing de configurer des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’une expertise en sciences des données.
 
-Pour plus d’informations sur les Services intelligents, consultez la [documentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/intelligent-services/home.html).
+Pour plus d’informations sur les Services intelligents, consultez la [documentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 
 Cette intégration vous permet de tirer parti des prévisions des clients, voir [Exploitation de l’IA dédiée aux clients](../ai-services/leveraging-customer-ai.md)
 
