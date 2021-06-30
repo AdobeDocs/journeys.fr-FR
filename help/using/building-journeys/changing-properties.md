@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 90%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 Cliquez sur l’icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
 
 Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et définir une durée **[!UICONTROL Temporisation et erreur]** si vous êtes administrateur.
+
+Pour les parcours en direct, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
+
+La section **Copier les détails techniques** vous permet de copier des informations techniques sur le parcours que l’équipe d’assistance peut utiliser pour résoudre les problèmes. Les informations suivantes sont copiées : UID JourneyVersion, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
