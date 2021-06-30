@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ La procédure de configuration des événements de réaction comprend les étape
 >
 >Les événements de réaction ne peuvent pas effectuer le suivi des actions de type e-mail, SMS ou Push qui se produisent dans un autre parcours.
 >
->Ils effectuent le suivi des clics sur les liens de type « tracké » (pour plus d’informations, consultez cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Les liens de désabonnement et de page miroir ne sont pas pris en compte.
+>Ils effectuent le suivi des clics sur les liens de type « tracké » (pour plus d’informations, consultez cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Les liens de désabonnement et de page miroir ne sont pas pris en compte.
 
 >[!IMPORTANT]
 >
