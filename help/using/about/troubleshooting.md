@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1059'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '1057'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Le point de départ d’un parcours est toujours un événement. Il est possible
 
 Vous pouvez ainsi vérifier si l’appel d’API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l’en-tête (et en particulier l’identifiant d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur l’URL appropriée pour l’accès.
 
-Les événements ne sont pas directement transmis de la source à [!DNL Journey Orchestration]. En effet, [!DNL Journey Orchestration] s’appuie sur les API d’ingestion en flux continu d’Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter [cette page](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source à [!DNL Journey Orchestration]. En effet, [!DNL Journey Orchestration] s’appuie sur les API d’ingestion en flux continu d’Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter [cette page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 ## Vérification de l’entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
