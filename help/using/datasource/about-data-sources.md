@@ -6,10 +6,10 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Il existe deux types de sources de données :
 
 Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [cette page](../datasource/field-groups.md).
 
-Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Les principales étapes de configuration d’une source de données sont les suivantes :
 
