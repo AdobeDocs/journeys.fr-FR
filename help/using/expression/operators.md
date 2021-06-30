@@ -6,8 +6,8 @@ feature: Parcours
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -461,7 +461,7 @@ Exemple :
 
 
 ```
-<expression + <duration>
+<expression> + <duration>
 ```
 
 Permet d’ajouter une durée à une valeur dateTimeOnly ou à une durée.
