@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: Événements de qualification de segment
-description: En savoir plus sur les événements de qualification de segment
+description: En savoir plus sur les événements de qualification du segment
 feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
 # Événements de qualification de segment {#segment-qualification}
 
-## À propos des événements de qualification de segment{#about-segment-qualification}
+## À propos des événements de qualification du segment{#about-segment-qualification}
 
 Cette activité permet à votre parcours d’écouter les entrées et les sorties des profils dans les segments Adobe Experience Platform pour que les particuliers puissent rejoindre le parcours ou y progresser. Pour plus d’informations sur la création de segments, consultez cette [section](../segment/about-segments.md).
 
@@ -50,13 +50,13 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
    ![](../assets/segment-copy.png)
 
-1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segments, les sorties ou les deux.
+1. Dans le champ **[!UICONTROL Comportement]** , choisissez si vous souhaitez écouter les entrées de segments, les sorties ou les deux.
 
    >[!NOTE]
    >
-   >Notez qu’**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts **Réalisé** et **Sorti** au niveau de la participation des segments d’Adobe Experience Platform. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
+   >Notez qu’**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts **Réalisé** et **Sorti** au niveau de la participation des segments d’Adobe Experience Platform. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
-1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours.
+1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est positionné comme première étape du parcours.
 
    ![](../assets/segment7.png)
 
@@ -72,7 +72,7 @@ Voir [Activité de condition](../building-journeys/condition-activity.md#about_c
 
 ![](../assets/segment8.png)
 
-Un nouveau parcours contenant un événement de qualification de segment est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l’intervalle d’actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d’utiliser ce parcours.
+Un nouveau parcours contenant un événement de qualification du segment est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
 
 ## Bonnes pratiques {#best-practices-segments}
 
