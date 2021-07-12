@@ -6,7 +6,7 @@ feature: Parcours
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 Pour utiliser le mode test, procédez comme suit :
 
-1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
+1. Avant de tester votre parcours, vérifiez qu&#39;il est valide et qu&#39;il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
 
 1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
 
@@ -60,11 +60,11 @@ Pour utiliser le mode test, procédez comme suit :
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi les rapports.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
-* Lors de l’atteinte d’une division, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches fractionnées si vous souhaitez que le test choisisse un autre chemin.
+* Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
 
 ## Transformation d’un profil en profil de test{#turning-profile-into-test}
 
-Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs des profils par le biais d’appels d’API, mais il n’est pas possible de le faire par le biais de l’interface.
+Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs de profil par le biais d’appels API, mais cela ne peut pas être effectué via l’interface.
 
 Pour ce faire, la méthode la plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à modifier le champ booléen du profil de test en le passant de false à true. Consultez [cette section](../building-journeys/update-profiles.md#using-the-test-mode).
 
@@ -72,13 +72,13 @@ Pour ce faire, la méthode la plus simple consiste à utiliser une activité d�
 
 Si vous souhaitez créer un profil de test, la procédure à suivre est identique à celle utilisée pour créer un profil dans Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
 
-Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L’indicateur testProfile fait partie de ce mixin.
+Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce mixin.
 
-Lors de la création d’un profil, veillez à transmettre la valeur : testProfile = true.
+Lors de la création d&#39;un profil, veillez à transmettre la valeur : testProfile = true.
 
 Veuillez noter que vous pouvez également mettre à jour un profil existant pour remplacer son indicateur testProfile par « true ».
 
-Voici un exemple d’appel API pour créer un profil de test :
+Voici un exemple d&#39;appel API pour créer un profil de test :
 
 ```
 curl -X POST \
@@ -124,7 +124,7 @@ curl -X POST \
 
 ## Déclenchement d’événements {#firing_events}
 
-Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera en sorte qu&#39;une personne rejoigne le parcours.
+Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera qu’un individu rejoint le parcours.
 
 >[!NOTE]
 >
@@ -180,7 +180,7 @@ Le nombre d’individus (appelés instances d’un point de vue technique) prés
 
 * _Id_ : identifiant interne de l’individu dans le parcours. Il peut être utilisé à des fins de débogage.
 * _Currentstep_ : étape du parcours à laquelle se trouve l’individu. Nous vous recommandons d’ajouter des libellés à vos activités afin de les identifier plus facilement.
-* _currentstep_ > phase : statut du parcours de l’individu (en cours, terminé, erreur ou délai dépassé). Pour plus d’informations, voir ci-dessous.
+* _currentstep_ > phase : statut du parcours de l’individu (en cours, terminé, erreur ou délai dépassé). Plus d’informations ci-dessous.
 * _currentstep_ > _extraInfo_ : description de l’erreur et autres informations contextuelles.
 * _Currentstep_ > _fetchErrors_ : informations sur les erreurs de récupération de données qui se sont produites au cours de cette étape.
 * _externalKeys_ : valeur de la formule de clé définie dans l’événement.
