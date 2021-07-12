@@ -6,16 +6,16 @@ feature: Parcours
 role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Mises à jour de la documentation
 
-Cette page répertorie toutes les mises à jour de la documentation de [!DNL Journey Orchestration].
+Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Orchestration].
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
 
 ## Mars 2021 {#march-2021}
@@ -26,9 +26,9 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 * Bonnes pratiques ajoutées lors du déclenchement d’un parcours en même temps qu’une création de profil. [En savoir plus](../about/limitations.md#journeys-limitation-profile-creation).
 
-## Octobre 2020 {#october-2020}
+## Octobre 2020 {#october-2020}
 
-* Ajout d’informations sur la façon de configurer un délai d’expiration pour un événement. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+* Ajout d’informations sur la façon de configurer un délai d’expiration pour un événement. [En savoir plus](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## Septembre 2020 {#september-2020}
 
@@ -39,9 +39,9 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 * Ajout d’informations sur le tri et la sélection des colonnes à afficher dans la liste des segments. [En savoir plus](../building-journeys/segment-qualification-events.md)
 * Ajout d’informations sur la copie du nom et de l’identifiant d’un segment après sa sélection. [En savoir plus](../building-journeys/segment-qualification-events.md)
-* Harmonisation des occurrences d’Experience Platform dans les différentes pages.
+* Harmonisation des occurrences d’Experience Platform entre les différentes pages.
 
-## Juillet 2020 {#july-2020}
+## Juillet 2020 {#july-2020}
 
 * Ajout à Adobe Experience Platform d’un lien vers un nouveau tutoriel vidéo sur les rapports des événements d’étape. [En savoir plus](../building-journeys/sharing-overview.md)
 * La section sur les activités des événements a été réorganisée en sous-sections dédiées à chaque type d’événement. [En savoir plus](../building-journeys/event-activities.md)
@@ -67,7 +67,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 ## Avril 2020 {#april-2020}
 
 * Ajout d’une nouvelle section concernant la définition du schéma des événements d’expérience pour aider les utilisateurs à configurer leur premier événement. [En savoir plus](../event/experience-event-schema.md)
-* Mise à jour de la page d’accueil de la documentation [!DNL Journey Orchestration] avec des liens utiles supplémentaires. [En savoir plus](../../journey-orchestration-home.md)
+* La page d’accueil de la documentation [!DNL Journey Orchestration] a été mise à jour avec des liens utiles supplémentaires. [En savoir plus](../../journey-orchestration-home.md)
 
 ## Mars 2020 {#march-2020}
 
@@ -86,7 +86,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Février 2020 {#february-2020}
 
-* La section concernant les raccourcis a été mise à jour. Le raccourci clavier **C** vous permet de créer un élément dans tous les écrans de liste. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
+* La section de raccourci a été mise à jour. Le raccourci clavier **C** vous permet de créer un élément dans tous les écrans de liste. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
 * Amélioration des pages de vue d’ensemble des sections [source de données](../datasource/about-data-sources.md) et [action](../action/action.md).
 
 ## Janvier 2020 {#january-2020}
