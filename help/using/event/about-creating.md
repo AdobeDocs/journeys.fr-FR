@@ -3,13 +3,13 @@ product: adobe campaign
 title: Créer un événement
 description: Découvrez comment créer un événement
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 97%
 
 Les principales étapes nécessaires pour configurer un nouvel événement sont les suivantes :
 
-1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Événements]**. La liste des événements s’affiche. Pour plus d’informations sur l’interface, consultez [cette page](../about/user-interface.md).
+1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Événements]**. La liste des événements s&#39;affiche. Pour plus d’informations sur l’interface, consultez [cette page](../about/user-interface.md).
 
    ![](../assets/journey5.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter]** pour créer un événement. Le volet de configuration d’événement s’ouvre dans la partie droite de l’écran. Saisissez le nom de votre événement. Vous pouvez également ajouter une description.
+1. Cliquez sur **[!UICONTROL Ajouter]** pour créer un événement. Le volet de configuration d&#39;événement s&#39;ouvre dans la partie droite de l&#39;écran. Saisissez le nom de votre événement. Vous pouvez également ajouter une description.
 
    ![](../assets/journey6.png)
 
    >[!NOTE]
    >
-   >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
+   >N&#39;utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
 1. Dans le champ **[!UICONTROL Type d’identifiant d’événement]**, sélectionnez le type d’événement à utiliser.
 
@@ -39,26 +39,26 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
    >[!NOTE]
    >
    >Pour en savoir plus sur les types d’événements, reportez-vous à [cette section](../event/about-events.md).
-1. Le nombre de parcours qui font appel à cet événement apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cet événement.
+1. Le nombre de parcours qui font appel à cet événement apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur l&#39;icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cet événement.
 1. Définissez les champs de payload et de schéma : c’est dans ces champs que vous sélectionnez les informations d’événement (désignées généralement sous le nom de payload) que [!DNL Journey Orchestration] s’attend à recevoir. Vous pourrez alors utiliser ces informations dans votre parcours. Voir [cette page](../event/defining-the-payload-fields.md).
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]**, seuls les schémas dont le mixin est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d’expérience sont disponibles.
+   >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]**, seuls les schémas dont le mixin est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d&#39;expérience sont disponibles.
 
-1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d’identifiant d’événement]**. À l’aide de l’éditeur d’expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
+1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l&#39;aide de l&#39;éditeur d&#39;expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
    ![](../assets/alpha-event6.png)
 
    Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet à Journey Orchestration.
 
    >[!NOTE]
    >
-   >L’éditeur d’expression avancé n’est pas disponible lors de la définition de la **[!UICONTROL condition d’identifiant d’événement]**.
+   >L&#39;éditeur d&#39;expression avancé n&#39;est pas disponible lors de la définition de la **[!UICONTROL condition d&#39;identifiant d&#39;événement]**.
 
-1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l’ajout d’un espace de noms permet d’exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l’événement. Voir [cette page](../event/selecting-the-namespace.md).
-1. Définissez la clé : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, [!DNL Journey Orchestration] sélectionne la clé qui doit correspondre à l’espace de noms ; par exemple, si vous sélectionnez un espace de noms d’email, la clé d’email est sélectionnée. Voir [cette page](../event/defining-the-event-key.md).
-1. Pour les événements générés par le système, vous pouvez ajouter une condition. Cette étape est facultative. Elle permet au système de traiter uniquement les événements qui répondent à la condition. Cette condition ne peut être basée que sur les informations contenues dans l’événement. Voir [cette page](../event/adding-a-condition.md).
+1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l&#39;ajout d&#39;un espace de noms permet d&#39;exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l&#39;événement. Voir [cette page](../event/selecting-the-namespace.md).
+1. Définissez la clé : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l&#39;événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, [!DNL Journey Orchestration] sélectionne la clé qui doit correspondre à l’espace de noms ; par exemple, si vous sélectionnez un espace de noms d’email, la clé d’email est sélectionnée. Voir [cette page](../event/defining-the-event-key.md).
+1. Pour les événements générés par le système, vous pouvez ajouter une condition. Cette étape est facultative. Elle permet au système de traiter uniquement les événements qui répondent à la condition. Cette condition ne peut être basée que sur les informations contenues dans l&#39;événement. Voir [cette page](../event/adding-a-condition.md).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/journey7.png)
 
-   L’événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d’événements. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   L&#39;événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d&#39;événements. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
