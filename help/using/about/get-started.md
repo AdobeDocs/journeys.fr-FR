@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 title: Prise en main
-description: Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
+description: Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
 1. **Configurer la source de données**
 
-   Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l’approvisionnement. Cette étape n’est pas obligatoire si vous n’exploitez que les données des événements de votre parcours. Elle est effectuée par un **utilisateur technique**.
+   Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l&#39;approvisionnement. Cette étape n&#39;est pas obligatoire si vous n&#39;exploitez que les données des événements de votre parcours. Cette étape est effectuée par un **utilisateur technique**.
 
    Consultez [cette page](../datasource/about-data-sources.md) pour plus d’informations à ce sujet.
 
@@ -47,7 +47,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
 1. **Concevoir le parcours**
 
-   Combinez les différentes activités d’événement, d’orchestration et d’action afin de créer des scénarios cross-canal à plusieurs étapes. Cette étape est effectuée par un **utilisateur chargé de la conception de parcours**.
+   Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes. Cette étape est effectuée par un **utilisateur chargé de la conception de parcours**.
 
    Consultez [cette page](../building-journeys/journey.md) pour plus d’informations.
 
