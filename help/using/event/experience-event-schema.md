@@ -3,11 +3,11 @@ product: adobe campaign
 title: 'À propos des schémas ExperienceEvent pour les événements Journey Orchestration '
 description: 'En savoir plus sur les schémas ExperienceEvent pour les événements Journey Orchestration '
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Un schéma XDM destiné aux événements [!DNL Journey Orchestration] doit répo
 
    ![](../assets/schema3.png)
 
-* Vous devez déclarer un champ d’identité pour identifier le sujet de l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cette solution n’est pas recommandée.
+* Vous devez déclarer un champ d’identité pour identifier le sujet de l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cela n’est pas recommandé.
 
    ![](../assets/schema4.png)
 
