@@ -3,11 +3,11 @@ product: adobe campaign
 title: 'Sources de données externes '
 description: 'Découvrez comment configurer des sources de données externes '
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 100%
 
@@ -42,14 +42,14 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
    >[!NOTE]
    >
-   >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
+   >N&#39;utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
 1. Ajoutez une description à la source de données. Cette étape est facultative.
-1. Ajoutez l’URL du service externe. Dans notre exemple : _https://api.adobeweather.org/weather_.
+1. Ajoutez l&#39;URL du service externe. Dans notre exemple : _https://api.adobeweather.org/weather_.
 
    >[!CAUTION]
    >
-   >Nous vous recommandons vivement d’utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n’est pas autorisée.
+   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n’est pas autorisée.
 
    ![](../assets/journey27.png)
 
