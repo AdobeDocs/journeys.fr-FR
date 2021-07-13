@@ -3,11 +3,11 @@ product: adobe campaign
 title: Création du parcours
 description: Découvrez comment créer un cas d’utilisation simple de parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur la création d’un parcours, consultez [cette pa
 
    ![](../assets/journey31.png)
 
-1. Modifiez les propriétés du parcours dans le volet de configuration affiché dans la partie droite de l’écran. Nous l’appelons « Spa journey » et définissons sa durée sur un mois, du 1er au 31 décembre.
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Nous l’appelons « Spa journey » et définissons sa durée sur un mois, du 1er au 31 décembre.
 
    ![](../assets/journeyuc1_8.png)
 
