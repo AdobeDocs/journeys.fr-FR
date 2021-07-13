@@ -3,13 +3,13 @@ product: adobe campaign
 title: Activité de condition
 description: En savoir plus sur les activités de condition
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Les types de conditions disponibles sont au nombre de quatre :
 
 * [Condition de source de données](#data_source_condition)
 * [Condition de temps](#time_condition)
-* [Division en pourcentage](#percentage_split)
+* [Partage en pourcentage](#percentage_split)
 * [Condition de date](#date_condition)
 
 ![](../assets/journey49.png)
@@ -54,7 +54,7 @@ Si vous utilisez le [service de segmentation Adobe Experience Platform](https:
 >
 >Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [cette page](../expression/expressionadvanced.md).
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condition de source de données {#data_source_condition}
 
@@ -72,11 +72,11 @@ Cette condition vous permet d’effectuer des actions différentes en fonction d
 
 ![](../assets/journey51.png)
 
-## Division en pourcentage {#percentage_split}
+## Partage en pourcentage {#percentage_split}
 
 Cette option vous permet de fractionner l’audience de manière aléatoire afin de définir une action différente pour chaque groupe. Définissez le nombre de divisions, ainsi que la répartition pour chaque chemin. La division est un calcul statistique, dans la mesure où le système ne peut pas prévoir le nombre de personnes qui suivront cette activité du parcours. Par conséquent, la marge d’erreur de la division est très faible. Cette fonction est basée sur un mécanisme Java aléatoire (pour en savoir plus, consultez cette [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
-En mode test, lorsque vous atteignez un partage, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches fractionnées si vous souhaitez que le test choisisse un autre chemin. Consultez à ce sujet [cette page](../building-journeys/testing-the-journey.md)
+En mode test, lorsqu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin. Voir [cette page](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
