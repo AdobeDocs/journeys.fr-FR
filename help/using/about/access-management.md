@@ -3,13 +3,13 @@ product: adobe campaign
 title: Gestion des accès
 description: En savoir plus sur la gestion des accès
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 [!DNL Journey Orchestration] permet d’affecter un ensemble d’autorisations aux utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
-Ils peuvent être gérés par des administrateurs qui ont accès à Admin Console. Pour plus d’informations sur Admin Console, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
+Les autorisations peuvent être gérées par des administrateurs qui ont accès à Admin Console. Pour plus d’informations sur Admin Console, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 
 Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 
@@ -64,11 +64,11 @@ Vous trouverez ci-dessous des informations relatives à la compatibilité entre 
 
 ![](../assets/do-not-localize/journey_permission.png)
 
-## Création d’un profil de produit {#create-product-profile}
+## Création d&#39;un profil de produit {#create-product-profile}
 
 [!DNL Journey Orchestration] vous permet de créer vos propres profils de produit et d’attribuer un ensemble de droits et d’environnements Sandbox à vos utilisateurs. Avec les profils de produit, vous pouvez autoriser ou refuser l’accès à certaines fonctionnalités ou à certains objets de l’interface.
 
-Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr).
 
 
 Pour créer un profil de produit et attribuer un ensemble d’autorisations et d’environnements Sandbox :
@@ -94,11 +94,11 @@ Pour créer un profil de produit et attribuer un ensemble d’autorisations et d
 
    ![](../assets/do-not-localize/user_management_7.png)
 
-1. Dans la catégorie d’autorisation **[!UICONTROL Sandbox]**, sélectionnez un ou plusieurs environnements Sandbox à affecter à votre profil de produit. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des environnements Sandbox à votre profil. Pour plus d’informations sur les environnements Sandbox, consultez cette [section](../about/access-management.md#sandboxes).
+1. Dans la catégorie d’autorisation **[!UICONTROL Sandbox]**, sélectionnez un ou plusieurs environnements Sandbox à affecter à votre profil de produit. Dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône plus (+) pour affecter des environnements Sandbox à votre profil. Pour plus d’informations sur les environnements Sandbox, consultez cette [section](../about/access-management.md#sandboxes).
 
    ![](../assets/do-not-localize/user_management_8.png)
 
-1. Si nécessaire, dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône X la plus proche pour supprimer les autorisations de votre profil de produit.
+1. Si nécessaire, dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône X la plus proche pour supprimer les autorisations de votre profil de produit.
 
    ![](../assets/do-not-localize/user_management_9.png)
 
@@ -111,7 +111,7 @@ Pour créer un profil de produit et attribuer un ensemble d’autorisations et d
 
 Votre profil de produit est maintenant créé et configuré. Les utilisateurs liés à ce profil peuvent désormais se connecter à [!DNL Journey Orchestration].
 
-## Attribution d’un profil de produit {#assigning-product-profile}
+## Attribution d&#39;un profil de produit {#assigning-product-profile}
 
 Les profils de produit sont attribués à un ensemble d’utilisateurs qui partagent les mêmes autorisations au sein de votre entreprise.
 Vous trouverez dans cette section la liste de tous les profils de produit par défaut auxquels des autorisations sont associées.
@@ -132,7 +132,7 @@ Pour attribuer un profil de produit à un utilisateur et lui permettre d’accé
 
    ![](../assets/do-not-localize/user_management_3.png)
 
-1. Saisissez l’adresse e-mail du nouvel utilisateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Saisissez l’adresse email du nouvel utilisateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/do-not-localize/user_management_4.png)
 
@@ -147,4 +147,4 @@ Les environnements Sandbox sont affectés par le biais des profils de produit da
 Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) pour connaître la procédure à suivre.
 
 
-La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d’un environnement Sandbox à un autre, cliquez sur l’environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
+La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d&#39;un environnement Sandbox à un autre, cliquez sur l&#39;environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
