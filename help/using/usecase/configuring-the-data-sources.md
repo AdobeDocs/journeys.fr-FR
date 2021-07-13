@@ -3,11 +3,11 @@ product: adobe campaign
 title: Configuration des sources de données
 description: Découvrez comment configurer la source de données pour un cas d’utilisation avancé de parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Nous devons aussi vérifier si la personne a une réservation dans le système d
 
    >[!CAUTION]
    >
-   >Nous vous recommandons vivement d’utiliser le protocole HTTPS pour des raisons de sécurité.
+   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité.
 
 1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisé]** ou **[!UICONTROL Clé API]**. Dans notre exemple, nous choisissons le type « Simple » et spécifions le nom d’utilisateur et le mot de passe pour l’appel d’API.
 
