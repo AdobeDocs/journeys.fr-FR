@@ -3,11 +3,11 @@ product: adobe campaign
 title: Utilisation d’Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent 
 
 La procédure de configuration est la suivante :
 
-1. Dans la liste **[!UICONTROL Actions]**, cliquez sur l’action **[!UICONTROL AdobeCampaignStandard]** intégrée. Le volet de configuration des actions s’ouvre dans la partie droite de l’écran.
+1. Dans la liste **[!UICONTROL Actions]**, cliquez sur l’action **[!UICONTROL AdobeCampaignStandard]** intégrée. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
 
    ![](../assets/actioncampaign.png)
 
