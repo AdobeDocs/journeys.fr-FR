@@ -3,11 +3,11 @@ product: adobe campaign
 title: Champs de récupération des données des événements journeyStep
 description: Champs de récupération des données des événements journeyStep
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 
