@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Champs d’exécution d’action des événements journeyStep
-description: Champs d’exécution d’action des événements journeyStep
+title: Champs d'exécution d'action des événements journeyStep
+description: Champs d'exécution d'action des événements journeyStep
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
-# Champs d’exécution d’action des événements journeyStep {#sharing-execution-fields}
+# Champs d&#39;exécution d&#39;action des événements journeyStep {#sharing-execution-fields}
 
 Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
