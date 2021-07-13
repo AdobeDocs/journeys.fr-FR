@@ -4,17 +4,17 @@ product: adobe campaign
 title: Documentation du produit Journey Orchestration
 description: Documentation du produit Journey Orchestration
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Centre d’aide {#journeys-documentation}
+# Centre dʼaide {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
@@ -41,7 +41,7 @@ Découvrez les détails des dernières versions.
        <img alt="Développeurs" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
-    <a href="using/about/troubleshooting.md"><strong>Résolution des problèmes</strong></a>
+    <a href="using/about/troubleshooting.md"><strong>Dépannage</strong></a>
     </div>
     <em>Découvrez les différents outils mis à votre disposition pour résoudre les problèmes relatifs à vos parcours.</em>
     <br>
@@ -75,8 +75,8 @@ Découvrez les détails des dernières versions.
 * [Documentation Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
 * [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
 * [Définition de champs XDM Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr)
-* [Documentation sur le service Espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
-* [API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
+* [Documentation sur le service Espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr)
+* [API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr)
 * [Documentation sur la messagerie transactionnelle de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
 
 ## Tutoriels techniques
