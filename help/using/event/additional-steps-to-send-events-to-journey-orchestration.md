@@ -3,13 +3,13 @@ product: adobe campaign
 title: Étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
 description: En savoir plus sur les étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Lors de la création d’un événement, [!DNL Journey Orchestration] génère automatiquement un identifiant qui lui correspond. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Voir [cette page](../event/previewing-the-payload.md).
+>Lors de la création d’un événement, [!DNL Journey Orchestration] génère automatiquement un identifiant qui lui correspond. Le système à l&#39;origine de l&#39;envoi de l&#39;événement ne doit pas générer d&#39;identifiant, mais plutôt utiliser celui indiqué dans l&#39;aperçu de la payload. Voir [cette page](../event/previewing-the-payload.md).
 
 Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans [!DNL Journey Orchestration], procédez comme suit :
 
-1. Récupérez l’URL d’inlet à partir des API d’Adobe Experience Platform (voir [API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
+1. Récupérez l’URL d’inlet à partir des API d’Adobe Experience Platform (voir [API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr)).
 1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. Voir [cette page](../event/defining-the-payload-fields.md).
 
 Vous devez ensuite configurer le système de données qui envoie les événements vers les API d’ingestion en flux continu à l’aide de la payload que vous avez copiée :
@@ -91,4 +91,4 @@ Voici un exemple d’événement d’API d’ingestion en flux continu :
 
 Pour identifier plus facilement l’endroit où coller la partie « données », vous pouvez utiliser un outil de visualisation JSON tel que [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com).
 
-Pour résoudre les problèmes liés aux API d’ingestion en flux continu, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+Pour résoudre les problèmes liés aux API d’ingestion en flux continu, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr).
