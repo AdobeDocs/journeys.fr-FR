@@ -3,25 +3,25 @@ product: adobe campaign
 title: À propos de la création de parcours
 description: En tant qu’utilisateur professionnel, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Création d’un parcours {#concept_gq5_sqt_52b}
 
-Cette étape est effectuée par l’**utilisateur chargé de la conception de parcours**. C’est là que vous créez vos parcours. Combinez les différentes activités d’événement, d’orchestration et d’action afin de créer des scénarios cross-canal à plusieurs étapes.
+Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de parcours**. C&#39;est là que vous créez vos parcours. Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 
-L’interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
+L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu&#39;une activité est terminée, le flux se poursuit et traite l&#39;activité suivante, et ainsi de suite.
 
 Un seul espace de noms est autorisé par parcours. Lorsque vous déposez le premier événement, ceux dont les espaces de noms sont différents sont grisés. Si le premier événement est dépourvu d’espace de noms, tous ceux qui en sont pourvus sont grisés. Voir [cette page](../event/selecting-the-namespace.md). En outre, les groupes de champs Adobe Experience Platform apparaissent en grisé si le parcours contient des événements sans espace de noms. Enfin, si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même espace de noms.
 
-Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont masqués. Cela concerne toutes les actions, l’activité de la condition, l’attente et la réaction.
+Lors du démarrage d&#39;un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
 
 ## Démarrage rapide {#creating_journey}
 
@@ -29,7 +29,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Accueil]**.
 
-   La liste des parcours s’affiche. Consultez [cette page](../building-journeys/using-the-journey-designer.md) pour plus d’informations sur l’interface.
+   La liste des parcours s&#39;affiche. Consultez [cette page](../building-journeys/using-the-journey-designer.md) pour plus d’informations sur l’interface.
 
    ![](../assets/journey30.png)
 
@@ -37,7 +37,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey31.png)
 
-1. Modifiez les propriétés du parcours dans le volet de configuration qui s’affiche dans la partie droite. Voir [cette page](../building-journeys/changing-properties.md).
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Voir [cette page](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
@@ -53,22 +53,22 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey36.png)
 
-## Terminaison d’un parcours {#ending_a_journey}
+## Terminaison d&#39;un parcours {#ending_a_journey}
 
-Deux raisons peuvent entraîner la terminaison d’un parcours pour un individu :
+Deux raisons peuvent entraîner la terminaison d&#39;un parcours pour un individu :
 
-* Le client arrive à la dernière activité d’un chemin. Il ne doit pas nécessairement s’agir d’une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
-* Le client arrive à une activité de condition (ou à une activité d’attente avec une condition) et ne répond à aucune des conditions.
+* Le client arrive à la dernière activité d&#39;un chemin. Il ne doit pas nécessairement s&#39;agir d&#39;une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
+* Le client arrive à une activité de condition (ou à une activité d&#39;attente avec une condition) et ne répond à aucune des conditions.
 
 Il peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/changing-properties.md).
 
-Les raisons suivantes peuvent entraîner la fermeture d’un parcours :
+Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
 * Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
 * La date de fin du parcours est atteinte.
 
-Lorsqu’un parcours est fermé (pour l’une des raisons ci-dessus), il a le statut **[!UICONTROL Fermé]**. Le parcours n’est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
+Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
 
-Si nécessaire, il est possible d’arrêter la progression de tous les individus dans le parcours. L’arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
+Si nécessaire, il est possible d&#39;arrêter la progression de tous les individus dans le parcours. L&#39;arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
 
 Pour savoir comment fermer ou arrêter manuellement un parcours, consultez cette [section](../building-journeys/terminating-a-journey.md).
