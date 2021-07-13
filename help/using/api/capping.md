@@ -4,10 +4,10 @@ title: Description de l’API de limitation
 description: En savoir plus sur l’API de limitation.
 products: journeys
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 92%
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 L’API de limitation vous permet de créer, configurer et suivre vos configurations de limitation.
 
-| Méthodologie | Chemin | Description |
+| Méthode | Path | Description |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Obtention d’une liste des configurations de limitation des points d’entrée |
 | [!DNL POST] | /endpointConfigs | Création d’une configuration de limitation des points d’entrée |
@@ -174,7 +174,7 @@ Elle a été créée pour partager la collection de variables Postman générée
 Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{Base_Path}` et `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Orchestration]
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [présentation des environnements de test](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
 
 Dans la section suivante, vous trouverez la liste classée des appels API REST pour effectuer le cas d’utilisation.
 
@@ -189,7 +189,7 @@ Cas d’utilisation n°2 : **mise à jour et déploiement d’une configuration
 
 1. list
 1. get
-1. update
+1. mettre à jour
 1. candeploy
 1. deploy
 
@@ -197,7 +197,7 @@ Cas d’utilisation n°3 : **annulation du déploiement et suppression d’une 
 
 1. list
 1. undeploy
-1. delete
+1. Supprimez
 
 Cas d’utilisation n°4 : **suppression d’une configuration de limitation déployée**
 
@@ -209,7 +209,7 @@ Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation d
 
 1. list
 1. get
-1. update
+1. mettre à jour
 1. undeploy
 1. candeploy
 1. deploy
