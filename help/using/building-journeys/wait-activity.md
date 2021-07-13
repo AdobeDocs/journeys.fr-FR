@@ -1,63 +1,63 @@
 ---
 product: adobe campaign
-title: Activité d’attente
-description: En savoir plus sur l’activité d’attente
+title: Activité d'attente
+description: En savoir plus sur l'activité d'attente
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
 ---
 
-# Activité d’attente{#section_rlm_nft_dgb}
+# Activité d&#39;attente{#section_rlm_nft_dgb}
 
-Si vous souhaitez observer un temps d’attente avant d’exécuter l’activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d’exécution de l’activité suivante. Trois options sont disponibles :
+Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :
 
 * [Durée](#duration)
 * [Date fixe](#fixed_date)
-* [Personnalisé](#custom)
+* [Valeur](#custom) personnalisée
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## À propos de l’activité d’attente{#about_wait}
+## À propos de l&#39;activité d&#39;attente{#about_wait}
 
-Voici comment les attentes sont classées par priorité lorsque vous en utilisez plusieurs en parallèle. Si les attentes présentent la même configuration temporelle et une condition différente, mais superposée, celle qui est placée au-dessus est prioritaire. Supposons, par exemple, que la condition de la première attente soit « être une femme » et que la condition de la deuxième attente en parallèle est « être une VIP ». La première activité d’attente sera donc prioritaire.
+Voici comment les attentes sont classées par priorité lorsque vous en utilisez plusieurs en parallèle. Si les attentes présentent la même configuration temporelle et une condition différente, mais superposée, celle qui est placée au-dessus est prioritaire. Supposons, par exemple, que la condition de la première attente soit « être une femme » et que la condition de la deuxième attente en parallèle est « être une VIP ». La première activité d&#39;attente sera donc prioritaire.
 
-Notez également que si deux attentes différentes s’exécutent en parallèle, celle qui se produit en premier est prioritaire, quelle que soit sa position verticale. Par exemple, si une attente d’une heure est placée au-dessus et une attente de 30 minutes en dessous, cette dernière est traitée après 30 minutes.
+Notez également que si deux attentes différentes s&#39;exécutent en parallèle, celle qui se produit en premier est prioritaire, quelle que soit sa position verticale. Par exemple, si une attente d&#39;une heure est placée au-dessus et une attente de 30 minutes en dessous, cette dernière est traitée après 30 minutes.
 
-Vous pouvez définir une condition afin de limiter l’attente à une certaine population.
+Vous pouvez définir une condition afin de limiter l&#39;attente à une certaine population.
 
 >[!NOTE]
 >
->La durée d’attente maximale est de 30 jours.
+>La durée d&#39;attente maximale est de 30 jours.
 >
->En mode test, le paramètre **[!UICONTROL Temps d’attente en test]** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
+>En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
 
-## Durée de l’attente{#duration}
+## Durée de l&#39;attente{#duration}
 
-Sélectionnez la durée d’attente avant l’exécution de l’activité suivante.
+Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante.
 
 ![](../assets/journey55.png)
 
 ## Attente à date fixe{#fixed_date}
 
-Sélectionnez la date d’exécution de l’activité suivante.
+Sélectionnez la date d&#39;exécution de l&#39;activité suivante.
 
 ![](../assets/journey56.png)
 
 ## Attente personnalisée{#custom}
 
-Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L’expression figurant dans l’éditeur d’expression doit fournir un format dateTimeOnly. Voir [cette page](../expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, voir [cette page](../expression/data-types.md).
+Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l&#39;aide d&#39;une expression avancée basée sur un champ provenant d&#39;un événement ou d&#39;une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir [cette page](../expression/expressionadvanced.md). Pour plus d&#39;informations sur le format dateTimeOnly, voir [cette page](../expression/data-types.md).
 
 >[!NOTE]
 >
->Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Event.offerOpened.activity.endTime}), le champ de l’événement se présentant sous la forme 2016-08-12T09:46:06Z.
+>Vous pouvez tirer parti d&#39;une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Event.offerOpened.activity.endTime}), le champ de l&#39;événement se présentant sous la forme 2016-08-12T09:46:06Z.
 >
->La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
+>La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n&#39;est pas possible actuellement de pointer directement, à partir de l&#39;interface, vers un horodatage ISO-8601 complet associant l&#39;heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
