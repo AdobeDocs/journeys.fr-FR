@@ -3,11 +3,11 @@ product: adobe campaign
 title: Mesures et dimensions
 description: En savoir plus sur les dimensions et les mesures disponibles pour Journey Orchestration
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Le tableau ci-dessous contient la liste des dimensions de diffusion utilisées d
 
 | Dimension | Définition |
 |--- |--- |
-| **Navigateur** | Navigateur dans lequel le message a été ouvert ou a fait l’objet d’un clic. |
+| **Browser** (Navigateur) | Navigateur dans lequel le message a été ouvert ou a fait l’objet d’un clic. |
 | **Nom de la diffusion** | Libellé et identifiant de la diffusion. |
 | **Appareil** | Appareil sur lequel l’email/le SMS/la notification push ont été ouverts/vus ou ont fait l’objet d’un clic. |
 | **Type de message** | Canal utilisé pour la diffusion, par exemple e-mail, SMS, notification push ou In-App. |
@@ -64,12 +64,12 @@ Le tableau ci-dessous contient la liste des mesures utilisées dans les différe
 
 | Mesure | Définition |
 |--- |---|
-| **Achevés** | Nombre total d’individus qui ont normalement terminé le parcours. |
+| **Terminé** | Nombre total d’individus qui ont normalement terminé le parcours. |
 | **Taux d’achèvement** | Nombre total d’individus qui ont normalement terminé le parcours par rapport au nombre total qui sont entrés dans le parcours. |
 | **Actuel** | Nombre total d’individus actuellement engagés dans le parcours, à savoir le nombre de personnes entrées moins celles qui sont sorties, les erreurs et les expirations de délai. |
 | **Taux d’encours** | Nombre total d’individus actuellement engagés dans le parcours par rapport au nombre total qui sont entrés dans le parcours. |
 | **Entrés** | Nombre total d’événements qui se sont produits pour démarrer une entrée individuelle dans le parcours. |
-| **Erreurs** | Nombre total d’erreurs survenues au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
+| **Erreur** | Nombre total d’erreurs survenues au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
 | **Erreurs dans les actions** | Nombre total d’erreurs s’étant produites pour les actions. |
 | **Erreurs dans un enrichissement** | Nombre total d’erreurs s’étant produites pour un enrichissement de données lors de l’appel d’une source de données/d’un groupe de champs. |
 | **Erreurs dans les événements** | Nombre total d’erreurs s’étant produites pour les événements. |
@@ -78,7 +78,7 @@ Le tableau ci-dessous contient la liste des mesures utilisées dans les différe
 | **Enrichissements exécutés** | Nombre total d’enrichissements exécutés en appelant une source de données pour obtenir des groupes de champs spécifiques. |
 | **Événements exécutés** | Nombre total d’actions exécutées pour un parcours. |
 | **Orchestrations exécutées** | Nombre total d’objets d’orchestration (fin, attente, condition) exécutés pour un parcours. |
-| **En échec** | Nombre total de parcours qui n’ont pas été exécutés avec succès. |
+| **Échec** | Nombre total de parcours qui n’ont pas été exécutés avec succès. |
 | **Taux d’échec** | Nombre total de parcours qui n’ont pas été exécutés avec succès par rapport au nombre de parcours exécutés. |
 
 ## Mesures de diffusion {#delivery-metrics}
@@ -92,16 +92,16 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 | **Taux de placement sur la liste bloquée** | Nombre total de messages sur la liste bloquée par rapport aux messages envoyés. |
 | **Bounces + erreurs** | Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés. |
 | **Taux Bounce + Erreurs** | Nombre total de messages qui ont fait l’objet d’un bounce par rapport aux messages envoyés. |
-| **Clics** | Nombre de clics sur un contenu dans une diffusion. |
+| **Cliquez sur** | Nombre de clics sur un contenu dans une diffusion. |
 | **Taux de clics** | Nombre total de clics dans une diffusion par rapport au nombre de messages diffusés. |
 | **Délivrés** | Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. |
 | **Taux de délivrabilité** | Nombre total de messages diffusés avec succès par rapport aux messages envoyés. |
-| **Erreurs** | Nombre total d’erreurs s’étant produites au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
+| **Erreur** | Nombre total d’erreurs s’étant produites au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
 | **Hard bounce** | Nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. |
 | **Taux de hard bounce** | Nombre total de diffusions ayant échoué en raison d’erreurs permanentes par rapport aux messages envoyés. |
 | **Page miroir** | Nombre de destinataires ayant cliqué sur le lien de la page miroir. |
 | **Taux de page miroir** | Nombre total de clics sur le lien de la page miroir par rapport au nombre total de messages diffusés. |
-| **Ouvertures** | Nombre d’ouvertures d’un message dans une diffusion. |
+| **Ouvrir** | Nombre d’ouvertures d’un message dans une diffusion. |
 | **Taux d’ouverture** | Nombre total de messages ouverts par rapport au nombre de messages diffusés. |
 | **Quarantaine** | Nombre de messages qui ont fait l’objet d’un bounce et qui ont entraîné la mise en quarantaine de l’adresse. |
 | **Taux de mise en quarantaine** | Nombre total de mises en quarantaine par rapport aux messages envoyés. |
@@ -112,5 +112,5 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 | **Taux de soft bounces** | Nombre total de diffusions ayant échoué en raison d’erreurs temporaires par rapport aux messages envoyés. |
 | **Clics uniques** | Nombre de destinataires ayant cliqué sur un contenu dans une diffusion. |
 | **Ouvertures uniques** | Nombre de destinataires ayant ouvert la diffusion. |
-| **Désabonnement** | Nombre de clics sur le lien de désabonnement. |
+| **Désabonné** | Nombre de clics sur le lien de désabonnement. |
 | **Taux de désabonnement** | Nombre total de désabonnements par destinataire par rapport au nombre de messages délivrés. |
