@@ -3,11 +3,11 @@ product: adobe campaign
 title: Création du parcours
 description: 'Découvrez comment créer un cas d’utilisation avancé de parcours '
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur la création d’un parcours, consultez [cette pa
 
    ![](../assets/journey31.png)
 
-1. Modifiez les propriétés du parcours dans le volet de configuration qui s’affiche dans la partie droite. Ajoutez un nom et définissez-le pour qu’il dure un mois, du 1er au 31 décembre.
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Ajoutez un nom et définissez-le pour qu’il dure un mois, du 1er au 31 décembre.
 
    ![](../assets/journeyuc2_12.png)
 
