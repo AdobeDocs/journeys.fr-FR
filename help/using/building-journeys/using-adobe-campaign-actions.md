@@ -3,11 +3,11 @@ product: adobe campaign
 title: Utilisation d’actions Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Vous devez, tout d’abord, choisir une application mobile dans la liste déroul
 
 Deux catégories sont disponibles : **[!UICONTROL Cible]** et **[!UICONTROL Données de personnalisation]**.
 
-**[!UICONTROL Cible]**
+**[!UICONTROL Target]**
 
 >[!NOTE]
 >
