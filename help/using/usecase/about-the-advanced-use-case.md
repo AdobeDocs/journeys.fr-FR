@@ -3,11 +3,11 @@ product: adobe campaign
 title: À propos du cas d’utilisation avancé
 description: En savoir plus sur le cas d’utilisation avancé de parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # À propos du cas d’utilisation avancé{#concept_vzy_ncy_w2b}
 
-## Intérêt {#purpose}
+## Rôle {#purpose}
 
 Prenons l’exemple d’une marque hôtelière appelée Marlton. Dans ces hôtels, des dispositifs de balises ont été positionnés à proximité de tous les espaces stratégiques : hall, étages, restaurant, salle de fitness, piscine, etc.
 
@@ -46,7 +46,7 @@ Nous devrons configurer une connexion à deux sources de données (voir [cette p
 * La source de données Adobe Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’adhésion au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
 * Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
 
-## Conditions requises         {#prerequisites}
+## Prérequis {#prerequisites}
 
 Pour notre cas d’utilisation, nous avons conçu trois modèles de messages transactionnels Adobe Campaign Standard. Nous utilisons des modèles de messages transactionnels basés sur un événement. Voir cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
