@@ -3,11 +3,11 @@ product: adobe campaign
 title: À propos des activités d’action
 description: En savoir plus sur les activités d’action
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # À propos des activités d’action {#concept_hbj_hrt_52b}
 
-La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration]**.
+La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration.]**
 
 ![](../assets/journey58.png)
 
@@ -29,4 +29,4 @@ Lorsque vous déposez une activité d’action dans la zone de travail, vous pou
 
 ![](../assets/journey59bis.png)
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
