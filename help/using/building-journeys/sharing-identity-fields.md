@@ -3,11 +3,11 @@ product: adobe campaign
 title: Champs d’identité des événements journeyStep
 description: Champs d’identité des événements journeyStep
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9c0ff38f-51dd-40bd-8c19-d142b9c23308
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 100%
 
@@ -23,10 +23,10 @@ Pour un événement journeyStepEvent, nous devons également ajouter des champs 
 
 Identifiant de profil
 
-Type : chaîne
+Type : Chaîne
 
 ## profileNamespace
 
 Espace de noms de l’identifiant de profil
 
-Type : chaîne
+Type : Chaîne
