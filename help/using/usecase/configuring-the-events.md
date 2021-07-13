@@ -3,11 +3,11 @@ product: adobe campaign
 title: Configuration des événements
 description: Découvrez comment configurer les événements pour un cas d’utilisation avancé de parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Pour plus d’informations sur la configuration des événements, consultez [cet
 
    Nous avons également besoin du jeton d’enregistrement pour envoyer des messages push : &quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
 
-   Un identifiant est automatiquement généré pour cet événement et stocké dans le champ **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Dans notre cas d’utilisation, cet identifiant est utilisé pour déterminer l’emplacement de la balise. Chaque fois qu’une personne se rapproche de la balise du hall d’entrée de l’hôtel, un événement contenant cet identifiant d’événement spécifique est envoyé. Le même principe s’applique aux événements relatifs à la balise du restaurant. Le système sait ainsi quelle balise a déclenché l’envoi de l’événement.
+   Un identifiant est automatiquement généré pour cet événement et stocké dans le champ **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). Le système à l&#39;origine de l&#39;envoi de l&#39;événement ne doit pas générer d&#39;identifiant, mais plutôt utiliser celui indiqué dans l&#39;aperçu de la payload. Dans notre cas d’utilisation, cet identifiant est utilisé pour déterminer l’emplacement de la balise. Chaque fois qu’une personne se rapproche de la balise du hall d’entrée de l’hôtel, un événement contenant cet identifiant d’événement spécifique est envoyé. Le même principe s’applique aux événements relatifs à la balise du restaurant. Le système sait ainsi quelle balise a déclenché l’envoi de l’événement.
 
    ![](../assets/journeyuc2_2.png)
 
    >[!NOTE]
    >
-   >La liste des champs varie d’un schéma à l’autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
+   >La liste des champs varie d&#39;un schéma à l&#39;autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
 
 1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
 
