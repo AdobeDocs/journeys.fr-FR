@@ -3,11 +3,11 @@ product: adobe campaign
 title: À propos du cas d’utilisation simple
 description: En savoir plus sur le cas d’utilisation simple de parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # À propos du cas d’utilisation simple{#concept_grh_vby_w2b}
 
-## Intérêt {#purpose}
+## Rôle {#purpose}
 
 Prenons l’exemple d’une marque hôtelière appelée Marlton. Dans ces hôtels, des dispositifs de balises ont été positionnés à proximité de tous les espaces stratégiques : hall, étages, restaurant, salle de fitness, piscine, etc.
 
@@ -25,7 +25,7 @@ Nous ne voulons envoyer un message que si cette personne est une femme. Le messa
 
 ![](../assets/journeyuc1_16.png)
 
-## Conditions requises        {#prerequisites}
+## Prérequis {#prerequisites}
 
 Pour notre cas pratique, nous avons conçu un modèle de message transactionnel e-mail dans Adobe Campaign Standard. Nous utilisons un modèle de message transactionnel basé sur un événement. Voir cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
