@@ -3,10 +3,10 @@ product: adobe campaign
 title: Événements de réaction
 description: En savoir plus sur les événements de réaction
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 98%
