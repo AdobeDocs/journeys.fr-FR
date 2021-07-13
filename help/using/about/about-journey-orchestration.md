@@ -3,17 +3,17 @@ product: adobe campaign
 title: À propos de Journey Orchestration
 description: En savoir plus sur Journey Orchestration
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
 ---
 
-# À propos de [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# À propos d’[!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
