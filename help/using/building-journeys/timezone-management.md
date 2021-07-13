@@ -3,13 +3,13 @@ product: adobe campaign
 title: Gestion des fuseaux horaires
 description: En savoir plus sur la gestion des fuseaux horaires
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 Vous pouvez définir un fuseau horaire dans les [propriétés](../building-journeys/changing-properties.md) de votre parcours.
 
-Pour accéder aux propriétés, cliquez sur l’icône en forme de crayon dans le coin supérieur droit de l’écran.
+Pour accéder aux propriétés, cliquez sur l&#39;icône en forme de crayon dans le coin supérieur droit de l&#39;écran.
 
 Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un élément temporel tel que :
 
@@ -26,13 +26,13 @@ Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un �
 * [Attente personnalisée](../building-journeys/wait-activity.md#custom)
 * [Attente à date fixe](../building-journeys/wait-activity.md#fixed_date)
 
-Vous pouvez sélectionner un fuseau horaire ou choisir d’utiliser celui défini dans le profil utilisateur.
+Vous pouvez sélectionner un fuseau horaire ou choisir d&#39;utiliser celui défini dans le profil utilisateur.
 
 >[!NOTE]
 >
->Le fuseau horaire du profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences** .
+>Le fuseau horaire de profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences**.
 
-## Définition d’un fuseau horaire fixe {#fixed-timezone}
+## Définition d&#39;un fuseau horaire fixe {#fixed-timezone}
 
 Le fuseau horaire peut également être fixe. Effacez le fuseau horaire prédéfini et sélectionnez-en un dans la liste déroulante. Si vous utilisez un fuseau horaire fixe, il sera identique pour tous les individus qui participent au parcours.
 
@@ -46,7 +46,7 @@ Si un espace de noms est associé à l’événement d’entrée du parcours, ce
 
 Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
 
-Si le profil de l’individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
+Si le profil de l&#39;individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
 
 Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Utiliser le fuseau horaire du profil dans les retardateurs et conditions]**.
 
@@ -54,4 +54,4 @@ Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Util
 
 ## Utilisation des fuseaux horaires dans les expressions {#timezone-in-expressions}
 
-Les dates de début et de fin d’un parcours ne peuvent pas être liées à un fuseau horaire spécifique. Elles sont automatiquement associées à celui de l’instance.
+Les dates de début et de fin d&#39;un parcours ne peuvent pas être liées à un fuseau horaire spécifique. Elles sont automatiquement associées à celui de l&#39;instance.
