@@ -3,10 +3,10 @@ product: adobe campaign
 title: Utilisation d’un segment
 description: Découvrez comment utiliser un segment
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Vous pouvez, au choix, créer un segment à l’aide du [service de segmentation
 
    ![](../assets/segment1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer un segment. L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. La configuration est identique à celle du service de segmentation. Reportez-vous au [Guide de l’utilisateur du Créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+1. Cliquez sur **[!UICONTROL Ajouter]** pour définir un nouveau segment. L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. La configuration est identique à celle du service de segmentation. Reportez-vous au [Guide de l’utilisateur du Créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
    ![](../assets/segment2.png)
 
