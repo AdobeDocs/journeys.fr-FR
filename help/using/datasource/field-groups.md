@@ -3,11 +3,11 @@ product: adobe campaign
 title: Groupes de champs
 description: En savoir plus sur les groupes de champs
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 100%
 
