@@ -3,13 +3,13 @@ product: adobe campaign
 title: À propos des rapports de parcours
 description: Découvrez comment créer des rapports de parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section explique comment accéder aux rapports et les utiliser pour mesurer l’efficacité des parcours.
 
-## Interface du reporting {#reporting-interface}
+## Interface de reporting {#reporting-interface}
 
 La barre d’outils supérieure vous permet de modifier, d’enregistrer ou d’imprimer votre rapport, par exemple.
 
@@ -48,11 +48,11 @@ Le tableau **[!UICONTROL Insérer]** vous permet de personnaliser vos rapports e
 * **[!UICONTROL Nouvelle ligne]** : ajoute un nouveau graphique linéaire à votre tableau de bord.
 * **[!UICONTROL Nouvelle barre]** : ajoute un nouveau graphique à barre à votre tableau de bord.
 
-Les onglets de gauche vous permettent de créer votre rapport et de filtrer les données selon les besoins.
+Les onglets de gauche vous permettent de créer votre rapport et de filtrer vos données selon vos besoins.
 
 ![](../assets/dynamic_report_interface.png)
 
-Ces onglets vous donnent accès aux éléments suivants :
+Ces onglets vous donnent accès aux éléments suivants :
 
 * **[!UICONTROL Panneaux]** : ajoutez un panneau vide ou une forme libre à votre rapport pour commencer à filtrer les données. Voir à ce propos la section [Ajouter des panneaux](../reporting/creating-your-journey-reports.md#adding-panels).
 * **[!UICONTROL Visualisations]** : déposez une sélection d’éléments de visualisation pour donner à votre rapport une dimension graphique. Voir à ce propos la section [Ajouter des visualisations](../reporting/creating-your-journey-reports.md#adding-visualizations).
@@ -65,7 +65,7 @@ Le modèle d’usine, **[!UICONTROL Synthèse du parcours]**, donne une vue pré
 
 ![](../assets/dynamic_report_journey_8.png)
 
-Chaque tableau est représenté par des nombres et des graphiques de synthèse. Les paramètres de visualisation des détails vous permettent de modifier leur affichage.
+Chaque tableau est représenté par des nombres et des graphiques de synthèse. Vous pouvez modifier le mode d’affichage des détails dans leurs paramètres de visualisation respectifs.
 
 Les IPC suivants sont disponibles en haut du rapport :
 
