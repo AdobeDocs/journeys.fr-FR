@@ -3,11 +3,11 @@ product: adobe campaign
 title: À propos de l’intégration de Campaign v7/v8
 description: En savoir plus sur l’intégration de Campaign v7/v8
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 # Utilisation d’Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-Cette intégration est disponible pour Adobe Campaign Classic v7 à partir de la version 21.1 et Adobe Campaign v8. Elle vous permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign.
+Cette intégration est disponible pour Adobe Campaign Classic v7 à partir de la version 21.1 et Adobe Campaign v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign.
 
 La connexion entre les instances Journey Orchestration et Campaign est configurée par Adobe au moment de l’approvisionnement.
 
-Un cas pratique de bout en bout est présenté dans cette [section](../usecase/campaign-classic-use-case.md).
+Un cas d’utilisation complet est présenté dans cette [section](../usecase/campaign-classic-use-case.md).
 
 Pour chaque action configurée, une activité d’action est disponible dans la palette du concepteur de parcours. Reportez-vous à cette [section](../building-journeys/using-adobe-campaign-classic.md).
 
@@ -35,7 +35,7 @@ Pour chaque action configurée, une activité d’action est disponible dans la 
 
 * Vous ne pouvez pas utiliser une action Campaign avec un événement de qualification de segment.
 
-## Conditions préalables requises
+## Conditions préalables
 
 Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Reportez-vous à la [documentation d’Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging).
 
@@ -54,19 +54,19 @@ Voici un exemple :
 }
 ```
 
-* **channel** : canal défini pour votre modèle transactionnel Campaign
-* **eventType** : nom interne de votre événement Campaign
+* **channel** : le canal défini pour votre modèle transactionnel Campaign
+* **eventType** : le nom interne de votre événement Campaign
 * **ctx** : variable basée sur la personnalisation de votre message.
 
 ## Configuration de l’action
 
-Dans Journey Orchestration, vous devez configurer une action par message transactionnel. Procédez comme suit :
+Dans Journey Orchestration, vous devez configurer une action par message transactionnel. Procédez de la façon suivante :
 
 1. Créez une nouvelle action. Reportez-vous à cette [section](../action/action.md).
 1. Entrez un nom et une description.
 1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
 1. Cliquez dans le champ **Payload** et collez un exemple de payload JSON correspondant au message Campaign Contactez Adobe pour obtenir cette payload.
-1. Ajustez les différents champs de sorte qu’ils soient statiques ou variables selon que vous souhaitez les mapper ou non sur la zone de travail du parcours. Certains champs, tels que les paramètres de canal pour l’adresse e-mail et les champs de personnalisation (ctx), doivent probablement être définis comme des variables pour le mappage dans le contexte du parcours.
+1. Ajustez les différents champs de sorte qu’ils soient statiques ou variables selon que vous souhaitez les mapper ou non sur la zone de travail des parcours. Certains champs, tels que les paramètres de canal pour l’adresse e-mail et les champs de personnalisation (ctx), doivent probablement être définis comme des variables pour le mappage dans le contexte du parcours.
 1. Cliquez sur **Enregistrer**.
 
 ![](../assets/accintegration1.png)
