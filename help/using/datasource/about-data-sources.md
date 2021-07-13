@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
 title: À propos des sources de données
-description: 'Découvrez comment configurer une source de données '
+description: 'Découvrez comment configurer une source de données. '
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 97%
@@ -46,7 +46,7 @@ Les principales étapes de configuration d’une source de données sont les sui
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]**.
 
-   La liste des sources de données s’affiche. Voir [cette page](../about/user-interface.md) pour plus d’informations sur l’interface.
+   La liste des sources de données s’affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../about/user-interface.md)
 
    ![](../assets/journey18.png)
 
