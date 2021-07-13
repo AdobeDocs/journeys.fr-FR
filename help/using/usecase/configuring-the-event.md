@@ -3,11 +3,11 @@ product: adobe campaign
 title: Configuration de l’événement
 description: Découvrez comment configurer l’événement pour le cas d’utilisation simple du parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -27,13 +27,13 @@ Pour plus d’informations sur la configuration des événements, consultez [cet
 
    ![](../assets/journeyuc1_2.png)
 
-1. Nous sélectionnons ensuite le schéma et définissons la payload attendue pour cet événement. Nous sélectionnons les champs nécessaires dans le modèle normalisé XDM. Nous avons besoin de l’Experience Cloud ID pour identifier la personne dans la base de données des profils clients en temps réel : _endUserIDs > experience > mcid > id_. Un identifiant est automatiquement généré pour cet événement et stocké dans le champ **[!UICONTROL eventID]** (_experience > campaign > orchestration > eventID_). Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt utiliser celui indiqué dans l’aperçu de la payload. Dans notre cas d’utilisation, cet identifiant est utilisé pour déterminer l’emplacement de la balise. Chaque fois qu’une personne se rapproche de la balise du spa, un événement contenant cet identifiant d’événement spécifique est envoyé. Le système sait ainsi quelle balise a déclenché l’envoi de l’événement.
+1. Nous sélectionnons ensuite le schéma et définissons la payload attendue pour cet événement. Nous sélectionnons les champs nécessaires dans le modèle normalisé XDM. Nous avons besoin de l’Experience Cloud ID pour identifier la personne dans la base de données des profils clients en temps réel : _endUserIDs > experience > mcid > id_. Un identifiant est automatiquement généré pour cet événement et stocké dans le champ **[!UICONTROL eventID]** (_experience > campaign > orchestration > eventID_). Le système à l&#39;origine de l&#39;envoi de l&#39;événement ne doit pas générer d&#39;identifiant, mais plutôt utiliser celui indiqué dans l&#39;aperçu de la payload. Dans notre cas d’utilisation, cet identifiant est utilisé pour déterminer l’emplacement de la balise. Chaque fois qu’une personne se rapproche de la balise du spa, un événement contenant cet identifiant d’événement spécifique est envoyé. Le système sait ainsi quelle balise a déclenché l’envoi de l’événement.
 
    ![](../assets/journeyuc1_3.png)
 
    >[!NOTE]
    >
-   >La liste des champs varie d’un schéma à l’autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
+   >La liste des champs varie d&#39;un schéma à l&#39;autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
 
 1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
 
