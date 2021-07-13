@@ -3,13 +3,13 @@ product: adobe campaign
 title: À propos des événements
 description: En savoir plus sur les événements
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -34,10 +34,10 @@ Vous pouvez définir deux types d’événements :
 
    >[!CAUTION]
    >
-   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/journey-orchestration.html).
 
 * **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload.
 
-Journey Orchestration nécessite que les événements soient diffusés en continu ou distribués par lots dans Adobe Experience Platform. Ces données n’ont pas nécessairement besoin d’accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation ou la recherche dans un parcours distinct, nous vous recommandons d’activer le jeu de données pour profile.
+Journey Orchestration nécessite que les événements soient diffusés en continu ou distribués par lots dans Adobe Experience Platform. Ces données n&#39;ont pas nécessairement besoin d&#39;accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation ou la recherche dans un parcours distinct, nous vous recommandons d&#39;activer le jeu de données pour profile.
 
 Pour savoir comment créer un événement, consultez cette [page](../event/about-creating.md).
