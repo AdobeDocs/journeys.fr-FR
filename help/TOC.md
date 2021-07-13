@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
-user-guide-title: Journey Orchestration
+user-guide-title: Journey Orchestration
 title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Parcours
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 100%
 
 + [Documentation du produit](journey-orchestration-home.md)
 + Nouveautés {#release-notes}
-   + [Notes de mise à jour ](using/release-notes/release-notes.md)
+   + [Notes de mise à jour](using/release-notes/release-notes.md)
    + [Mises à jour de la documentation](using/release-notes/documentation-updates.md)
 + Prise en main de [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [À propos de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [À propos d’ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limites](using/about/limitations.md)
    + [Prise en main](using/about/get-started.md)
    + [Interface utilisateur](using/about/user-interface.md)
    + [Gestion des accès](using/about/access-management.md)
-   + [Résolution des problèmes](using/about/troubleshooting.md)
-   + [Intégration avec des systèmes externes](using/about/external-systems.md)
+   + [Dépannage](using/about/troubleshooting.md)
+   + [Intégration de systèmes externes](using/about/external-systems.md)
 + Configuration d’un événement {#events-journeys}
    + À propos des événements {#about-events}
       + [Principe général](using/event/about-events.md)
@@ -34,7 +34,7 @@ ht-degree: 100%
       + [Créer un événement       ](using/event/about-creating.md)
       + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
       + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
-      + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [Étapes supplémentaires pour l&#39;envoi d&#39;événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
    + [Sélection de l’espace de noms](using/event/selecting-the-namespace.md)
    + [Définition de la clé d’événement](using/event/defining-the-event-key.md)
@@ -51,10 +51,10 @@ ht-degree: 100%
    + [Utilisation d’Adobe Campaign v7/v8](using/action/acc-action.md)
    + Utilisation d’un système tiers {#action-third-party}
       + [À propos de la configuration des actions personnalisées](using/action/about-custom-action-configuration.md)
-      + [Configuration d’URL](using/action/url-configuration.md)
+      + [Configuration d&#39;URL](using/action/url-configuration.md)
       + [Définition des paramètres de message](using/action/defining-the-message-parameters.md)
-+ Utilisation des segments Plaform {#configuring-segment}
-   + [À propos des segments Platform](using/segment/about-segments.md)
++ Utilisation des segments {#configuring-segment}
+   + [À propos des segments](using/segment/about-segments.md)
    + [Création d’un segment](using/segment/creating-a-segment.md)
    + [Utilisation de segments dans des conditions](using/segment/using-a-segment.md)
 + Création d’un parcours {#building-journeys}
@@ -76,7 +76,7 @@ ht-degree: 100%
          + [À propos des activités d’orchestration](using/building-journeys/about-orchestration-activities.md)
          + [Activité de condition](using/building-journeys/condition-activity.md)
          + [Activité de fin](using/building-journeys/end-activity.md)
-         + [Activité d’attente](using/building-journeys/wait-activity.md)
+         + [Activité d&#39;attente](using/building-journeys/wait-activity.md)
       + Activités d&#39;action {#action-activities}
          + [À propos des activités d’action](using/building-journeys/about-action-activities.md)
          + [Utilisation d’Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
@@ -140,7 +140,7 @@ ht-degree: 100%
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
-      + Liste {#list}
+      + Liste {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
@@ -148,7 +148,7 @@ ht-degree: 100%
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + Mathématiques {#math}
+      + Math {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + Chaîne {#string}
@@ -182,7 +182,7 @@ ht-degree: 100%
 + Intégration des Services intelligents{#use-case-advanced}
    + [À propos de l’intégration de l’IA](using/ai-services/ai-services-overview.md)
    + [Utilisation de l’IA dédiée aux clients](using/ai-services/leveraging-customer-ai.md)
-+ Cas pratiques{#use-cases-journeys}
++ Cas d&#39;utilisation{#use-cases-journeys}
    + Envoyer un e-mail personnalisé{#use-case-simple}
       + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
       + [Configuration de l’événement](using/usecase/configuring-the-event.md)
