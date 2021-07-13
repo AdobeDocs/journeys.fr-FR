@@ -3,10 +3,10 @@ product: adobe campaign
 title: 'Source de données Adobe Experience Platform '
 description: 'Découvrez comment configurer la source de données Adobe Experience Platform '
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 100%
