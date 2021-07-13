@@ -3,11 +3,11 @@ product: adobe campaign
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 >
 >Le parcours B peut également être déclenché par un événement externe.
 
-## Bonnes pratiques et limites
+## Bonnes pratiques et restrictions
 
 ### Création
 
@@ -106,7 +106,7 @@ Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, u
 
 ![](../assets/jump7.png)
 
-## Résolution des problèmes
+## Dépannage
 
 Lorsque le parcours est publié ou en mode test, des erreurs se produisent dans les cas suivants :
 * le parcours cible n’existe plus ;
