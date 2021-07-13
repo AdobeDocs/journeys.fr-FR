@@ -3,13 +3,13 @@ product: adobe campaign
 title: Création de rapports de parcours
 description: Découvrez comment créer des rapports de parcours
 feature: Parcours
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
@@ -59,25 +59,25 @@ Pour accéder aux rapports de vos parcours et effectuer le suivi du succès de v
 
 ### Ajouter un panneau vide {#adding-a-blank-panel}
 
-Pour commencer votre rapport, vous pouvez ajouter un ensemble de panneaux à un rapport d’usine ou personnalisé. Chaque panneau contient différents jeux de données et est composé de visualisations et de tableaux Structure libre.
+Pour commencer votre rapport, vous pouvez ajouter un ensemble de panneaux à un rapport d’usine ou personnalisé. Chaque panneau contient différents jeux de données et est composé de tableaux à structure libre et de visualisations.
 
-Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajouter autant de panneaux que vous voulez dans vos rapports afin de filtrer vos données avec différentes périodes.
+Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajouter autant de panneaux que vous le souhaitez dans vos rapports afin de filtrer vos données selon différentes périodes.
 
 1. Cliquez sur l’icône **[!UICONTROL Panneaux.]** Vous pouvez également ajouter un panneau en cliquant sur l’onglet **[!UICONTROL Insertion]** et en sélectionnant **[!UICONTROL Nouveau panneau vierge]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
-1. Placez le **[!UICONTROL Panneau vierge]** sur votre tableau de bord.
+1. Placez le **[!UICONTROL panneau vierge]** dans votre tableau de bord.
 
    ![](../assets/dynamic_report_panel.png)
 
-Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
+Vous pouvez maintenant ajouter un tableau à structure libre à votre panneau pour commencer le ciblage des données.
 
 ### Ajouter un tableau Structure libre           {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **[!UICONTROL Composant]**.
 
-Les tableaux et les visualisations sont redimensionnables et peuvent être déplacés pour améliorer la personnalisation de votre rapport.
+Chaque tableau et visualisation peut être redimensionné et déplacé afin de mieux personnaliser votre rapport.
 
 1. Cliquez sur l’icône **[!UICONTROL Panneaux]**.
 
@@ -105,11 +105,11 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
    * **[!UICONTROL Arrière-plan]** : permet d’afficher ou de masquer la barre de progression horizontale dans les cellules.
    * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Bounces + erreurs]**.
 
-1. Sélectionnez une ou plusieurs rangées et cliquez sur l’icône **[!UICONTROL Visualiser.]** Une visualisation représentant les rangées sélectionnées est ajoutée.
+1. Sélectionnez une ou plusieurs rangées et cliquez sur l’icône **[!UICONTROL Visualiser.]** Une visualisation est ajoutée pour refléter les lignes sélectionnées.
 
    ![](../assets/dynamic_report_freeform_5.png)
 
-Vous pouvez ajouter à présent autant de composants que nécessaire ainsi que des visualisations pour offrir une représentation graphique à vos données.
+Vous pouvez désormais ajouter autant de composants que nécessaire et également des visualisations pour donner des représentations graphiques de vos données.
 
 ## Ajouter des composants{#adding-components}
 
@@ -125,34 +125,34 @@ Les composants vous permettent de personnaliser vos rapports grâce à différen
 
    * **[!UICONTROL Dimensions]** : obtenez des détails issus du log de diffusion, tels que le navigateur du destinataire, son domaine, ou la réussite d’une diffusion.
    * **[!UICONTROL Mesures]** : obtenez des détails sur le statut d’un message. Par exemple, s’il a été délivré et si l’utilisateur l’a ouvert.
-   * **[!UICONTROL Temps]** : configurez une période de temps pour votre tableau.
+   * **[!UICONTROL Heure]** : Définissez une période pour votre tableau.
 
-1. Déposez des composants dans un panneau pour commencer à filtrer vos données.
+1. Faites glisser des composants dans un panneau pour commencer à filtrer vos données.
 
-Vous pouvez déposer autant de composants que nécessaire et les comparer les uns aux autres.
+Vous pouvez faire glisser autant de composants que nécessaire et les comparer.
 
 ## Ajouter des visualisations{#adding-visualizations}
 
-L’onglet **[!UICONTROL Visualisations]** vous permet de positionner des éléments de visualisation, tels que des zones, des diagrammes circulaires ou des graphiques. Les visualisations vous offrent une représentation graphique de vos données.
+L’onglet **[!UICONTROL Visualisations]** vous permet de positionner des éléments de visualisation, tels que des zones, des diagrammes circulaires ou des graphiques. Les visualisations vous donnent une représentation graphique de vos données.
 
 1. Dans l’onglet **[!UICONTROL Visualisations]**, déposez un élément de visualisation dans un panneau.
 
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. Après l’ajout d’une visualisation à votre panneau, vos rapports détectent automatiquement les données de votre tableau à structure libre. Sélectionnez les paramètres de votre visualisation.
-1. S’il existe plusieurs tableaux Structure libre, sélectionnez la source de données à ajouter à votre graphique dans la fenêtre **[!UICONTROL Paramètres de source de données.]** Cette fenêtre peut également être ouverte en cliquant sur le point de couleur à côté de votre titre de visualisation.
+1. S’il existe plusieurs tableaux Structure libre, sélectionnez la source de données à ajouter à votre graphique dans la fenêtre **[!UICONTROL Paramètres de source de données.]** Cette fenêtre est également disponible en cliquant sur le point coloré en regard du titre de votre visualisation.
 
    ![](../assets/dynamic_report_visualization_2.png)
 
 1. Cliquez sur le bouton des paramètres de **[!UICONTROL Visualisation]** pour modifier directement le type de graphique ou les données qui y sont affichées :
 
-   * **[!UICONTROL Pourcentages]** : affiche les valeurs sous forme de pourcentage.
+   * **[!UICONTROL Pourcentages]** : Affiche les valeurs en pourcentage.
    * **[!UICONTROL Ancrer l’axe Y à zéro]** : force l’axe Y à zéro, même si des valeurs sont supérieures à zéro.
-   * **[!UICONTROL Légende visible]** : permet de masquer la légende.
-   * **[!UICONTROL Normalisation]** : force la correspondance des valeurs.
+   * **[!UICONTROL Légende visible]** : Permet de masquer la légende.
+   * **[!UICONTROL Normalisation]** : Force les valeurs à correspondre.
    * **[!UICONTROL Afficher l’axe double]** : ajoute un axe à votre graphique.
-   * **[!UICONTROL Limiter les éléments maximum]** : limite le nombre de graphiques affichés.
-   * **[!UICONTROL Seuil]** : permet de configurer un seuil pour votre graphique. Il apparaît sous forme de ligne pointillée noire.
+   * **[!UICONTROL Limiter les éléments]** max. : Limite le nombre de graphiques affichés.
+   * **[!UICONTROL Seuil]** : permet de configurer un seuil pour votre graphique. Il apparaît sous la forme d’une ligne pointillée noire.
 
    ![](../assets/dynamic_report_visualization_3.png)
 
