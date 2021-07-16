@@ -77,7 +77,7 @@ Découvrez les détails des dernières versions.
 * [Définition de champs XDM Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr)
 * [Documentation sur le service Espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr)
 * [API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr)
-* [Documentation sur la messagerie transactionnelle de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
+* [Documentation sur la messagerie transactionnelle de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr)
 
 ## Tutoriels techniques
 
