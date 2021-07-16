@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -34,9 +34,9 @@ Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs una
 
 Voici la liste des opérateurs pris en charge :
 
-## Logique      {#logical}
+## Logique  {#logical}
 
-### et
+### and
 
 ```
 <expression1> and <expression2>
@@ -50,7 +50,7 @@ Exemple :
 3.14 > 2 and 3.15 < 1
 ```
 
-### ou
+### or
 
 
 
@@ -66,7 +66,7 @@ Exemple :
 3.14 > 2 or 3.15 < 1
 ```
 
-### pas
+### not
 
 
 
@@ -372,7 +372,7 @@ Exemple :
 3 % 2 -- returns 1.
 ```
 
-## Mathématiques {#math}
+## Math {#math}
 
 ### est numérique
 
@@ -440,7 +440,7 @@ Cet opérateur concatène deux expressions.
 
 L’une des expressions doit être une chaîne de caractères.
 
-Exemple :
+Exemple :
 
 ```
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
