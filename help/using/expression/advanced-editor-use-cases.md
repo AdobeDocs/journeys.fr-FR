@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -141,4 +141,4 @@ L’expression suivante permet de définir l’identifiant CRM dans un champ de 
 
 Explication : cet exemple utilise les fonctions `substr` et `lastIndexOf` pour supprimer les accolades qui encadrent l’identifiant CRM transmis avec un événement de lancement d’application mobile.
 
-Pour en savoir plus sur l’utilisation de l’éditeur d’expression avancé, regardez [cette vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Pour en savoir plus sur l’utilisation de l’éditeur d’expression avancé, regardez [cette vidéo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=fr).
