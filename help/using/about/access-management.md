@@ -9,7 +9,7 @@ exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les autorisations peuvent être gérées par des administrateurs qui ont accès 
 Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 
 * faire partie d’un **[!UICONTROL profil de produit]** [!DNL Journey Orchestration] associé aux autorisations de [!DNL Journey Orchestration] ;
-* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
+* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#adobe-admin-console).
 
 Admin Console permet d’attribuer aux utilisateurs l’un des profils de produit par défaut suivants :
 
@@ -40,7 +40,7 @@ Admin Console permet d’attribuer aux utilisateurs l’un des profils de produ
 
    >[!NOTE]
    >
-   >Le profil  de produit **[!UICONTROL Administrateurs]** est le seul qui permet la création, la modification et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard.
+   >Le profil de produit **[!UICONTROL Administrateurs]** est le seul qui permet la création, la modification et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard.
 Ce profil de produit est nécessaire si vous utilisez Adobe Campaign Standard pour envoyer des messages dans vos parcours. Il ne doit pas être renommé dans Admin Console.
 
 * **[!UICONTROL Utilisateur standard]** : utilisateur disposant d’un accès de base, tel que la gestion des parcours. Ce profil de produit comprend les autorisations suivantes :
