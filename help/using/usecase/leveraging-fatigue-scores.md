@@ -3,9 +3,9 @@ product: adobe campaign
 title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour év
 
 >[!NOTE]
 >
->La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent le connecteur [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
+>La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent le connecteur [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=fr).
 
 ## Configuration de l’événement {#section_ptb_ws1_ffb}
 
@@ -53,7 +53,7 @@ Pour utiliser le niveau de fatigue dans votre parcours, procédez comme suit :
 
    ![](../assets/journeyuc3_2.png)
 
-1. À l’aide de l’éditeur d’expression simple, recherchez le champ **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), déposez-le sur la droite et créez la condition suivante : « fatigueLevel est égal à Low ». Cliquez sur **[!UICONTROL Ok]**.
+1. À l’aide de l’éditeur d’expression simple, recherchez le champ **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), déposez-le sur la droite et créez la condition suivante : « fatigueLevel est égal à Low ». Cliquez sur **[!UICONTROL OK]**.
 
    ![](../assets/journeyuc3_3.png)
 
