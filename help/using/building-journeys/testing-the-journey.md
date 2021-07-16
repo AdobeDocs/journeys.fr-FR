@@ -9,7 +9,7 @@ exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Transformation d’un profil en profil de test{#turning-profile-into-test}
 
-Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs de profil par le biais d’appels API, mais cela ne peut pas être effectué via l’interface.
+Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs des profils par le biais d’appels d’API, mais il n’est pas possible de le faire par le biais de l’interface.
 
 Pour ce faire, la méthode la plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à modifier le champ booléen du profil de test en le passant de false à true. Consultez [cette section](../building-journeys/update-profiles.md#using-the-test-mode).
 
