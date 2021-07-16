@@ -51,7 +51,7 @@ Les événements ne sont pas directement transmis de la source à [!DNL Journey 
 
 ## Vérification de l&#39;entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
-[!DNL Journey Orchestration]Les rapports produits par donnent des mesures en temps réel des entrées des visiteurs dans un parcours.
+Les rapports produits par [!DNL Journey Orchestration] donnent des mesures en temps réel des entrées des visiteurs dans un parcours.
 
 Si l&#39;événement a été envoyé avec succès, mais que vous ne voyez pas d&#39;entrée dans le parcours, cela signifie qu&#39;une erreur s&#39;est produite entre l&#39;envoi de l&#39;événement et la réception de l&#39;événement dans le parcours.
 
@@ -71,7 +71,7 @@ En tant qu&#39;administrateur, vous devez vérifier les points suivants :
 
 ## Vérification de la manière dont les visiteurs naviguent dans le parcours{#section_l5y_yzs_dgb}
 
-[!DNL Journey Orchestration]Les rapports produits par mesurent la progression des individus dans un parcours. Il est très facile d&#39;identifier où et pourquoi une personne s&#39;est arrêtée.
+Les rapports produits par [!DNL Journey Orchestration] mesurent la progression des individus dans un parcours. Il est très facile d&#39;identifier où et pourquoi une personne s&#39;est arrêtée.
 
 Les éléments à vérifier sont les suivants :
 
