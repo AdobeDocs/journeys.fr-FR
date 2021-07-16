@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 * Ajout d’informations sur le tri et la sélection des colonnes à afficher dans la liste des segments. [En savoir plus](../building-journeys/segment-qualification-events.md)
 * Ajout d’informations sur la copie du nom et de l’identifiant d’un segment après sa sélection. [En savoir plus](../building-journeys/segment-qualification-events.md)
-* Harmonisation des occurrences d’Experience Platform entre les différentes pages.
+* Harmonisation des occurrences d’Experience Platform dans les différentes pages.
 
 ## Juillet 2020 {#july-2020}
 
@@ -50,7 +50,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 * Ajout d’une nouvelle section sur les fonctionnalités Alpha qui sont testées auprès d’un nombre limité de clients.
 * Ajout d’une nouvelle section sur l’intégration avec les Services intelligents. [En savoir plus](../ai-services/ai-services-overview.md)
 * Ajout d’une nouvelle section sur la création de profils de test. [En savoir plus](../building-journeys/testing-the-journey.md)
-* Ajout d’informations sur l’utilisation du nœud **[!UICONTROL Qualification de segment]** dans une condition ou une action de parcours. [En savoir plus](../building-journeys/segment-qualification-events.md)
+* Ajout d’informations sur l’utilisation du nœud **[!UICONTROL SegmentQualification]** dans une condition ou une action de parcours. [En savoir plus](../building-journeys/segment-qualification-events.md)
 * Ajout d’une note à la publication des messages transactionnels et des événements de Campaign. Voir [Utilisation d’Adobe Campaign](../action/working-with-adobe-campaign.md) et [Utilisation d’actions Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
 * Des informations ont été ajoutées sur les vérifications effectuées lors du test de l’URL de l’instance Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
 * Des informations ont été ajoutées sur la compatibilité des événements de réaction avec les instances Campaign Standard hébergées sur des serveurs AWS ou Azure. [En savoir plus](../building-journeys/reaction-events.md)
@@ -67,7 +67,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 ## Avril 2020 {#april-2020}
 
 * Ajout d’une nouvelle section concernant la définition du schéma des événements d’expérience pour aider les utilisateurs à configurer leur premier événement. [En savoir plus](../event/experience-event-schema.md)
-* La page d’accueil de la documentation [!DNL Journey Orchestration] a été mise à jour avec des liens utiles supplémentaires. [En savoir plus](../../journey-orchestration-home.md)
+* Mise à jour de la page d’accueil de la documentation [!DNL Journey Orchestration] avec des liens utiles supplémentaires. [En savoir plus](../../journey-orchestration-home.md)
 
 ## Mars 2020 {#march-2020}
 
@@ -86,7 +86,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Février 2020 {#february-2020}
 
-* La section de raccourci a été mise à jour. Le raccourci clavier **C** vous permet de créer un élément dans tous les écrans de liste. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
+* La section concernant les raccourcis a été mise à jour. Le raccourci clavier **C** vous permet de créer un élément dans tous les écrans de liste. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
 * Amélioration des pages de vue d’ensemble des sections [source de données](../datasource/about-data-sources.md) et [action](../action/action.md).
 
 ## Janvier 2020 {#january-2020}
