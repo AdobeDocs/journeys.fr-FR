@@ -9,7 +9,7 @@ exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,13 +50,13 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
    ![](../assets/segment-copy.png)
 
-1. Dans le champ **[!UICONTROL Comportement]** , choisissez si vous souhaitez écouter les entrées de segments, les sorties ou les deux.
+1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segments, les sorties ou les deux.
 
    >[!NOTE]
    >
    >Notez qu’**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts **Réalisé** et **Sorti** au niveau de la participation des segments d’Adobe Experience Platform. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
-1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est positionné comme première étape du parcours.
+1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours.
 
    ![](../assets/segment7.png)
 
@@ -66,7 +66,7 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 * l’horodatage de la qualification
 * l’identifiant de segment
 
-Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification du segment]**, vous avez accès au nœud **[!UICONTROL Qualification de segment]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
+Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification du segment]**, vous avez accès au nœud **[!UICONTROL SegmentQualification]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
 
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
