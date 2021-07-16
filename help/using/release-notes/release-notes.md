@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '2631'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,10 +39,10 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* Pour les sources de données externes, une règle de limitation de 15 appels par seconde est désormais définie automatiquement. [En savoir plus](../about/external-systems.md#capping)
-* Les éditeurs d’expression simples et avancés prennent désormais en charge le format de date XDM.
-* Un nouveau filtre a été ajouté dans l’écran Liste des parcours. Vous pouvez désormais filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification de segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
-* Pour les parcours en direct, l’écran des propriétés du parcours affiche désormais la date de publication et le nom de l’utilisateur qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* Pour les sources de données externes, une règle de limitation de 15 appels par seconde est maintenant définie automatiquement. [En savoir plus](../about/external-systems.md#capping)
+* Les éditeurs d’expression simple et avancé prennent maintenant en charge le format de date XDM.
+* Un nouveau filtre a été ajouté à l’écran de liste de parcours. Vous pouvez maintenant filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification du segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
+* Pour les parcours actifs, l’écran des propriétés du parcours affiche maintenant la date de publication et le nom de l’utilisateur qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Version d&#39;avril 2021 {#april-2021-release}
 
@@ -132,7 +132,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <td>
 <p>Dans l’éditeur d’expression avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Vous aurez ainsi plus de possibilités lors de la création de vos parcours. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs rencontrées dans une condition ou une action.
 </p>
-<p>Pour plus d’informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -141,7 +141,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles       (version bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles        (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -160,7 +160,7 @@ Des limites ont été ajoutées lors de la création de nouvelles versions d’u
 
 L’activité **Qualification de segment** ne peut plus être utilisée dans un parcours qui inclut des activités de messages Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l’utilisation de la qualification de segment peut conduire à des pics quotidiens d’envoi de messages qui surchargent les messages transactionnels de Campaign Standard. [En savoir plus](../about/limitations.md#segment-qualification)
 
-## Version d’octobre 2020 {#october-release}
+## Version d’octobre 2020 {#october-release}
 
 <table>
 <thead>
@@ -263,7 +263,7 @@ La payload des événements de qualification de segment contient maintenant les 
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles</strong><br/></th>
+<th><strong>Événements basés sur des règles       </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -329,7 +329,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles</strong><br/></th>
+<th><strong>Événements basés sur des règles       </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -410,7 +410,7 @@ Journey Orchestration est maintenant disponible dans la zone APAC (centre de don
 
 L’interface de Journey Orchestration est disponible en japonais.
 
-## Version du 1er trimestre - Mars  020 {#q1-release---march-2020}
+## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -510,7 +510,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
-L’orchestration du parcours est désormais GA.
+Journey Orchestration est désormais en version GA.
 
 Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
@@ -520,5 +520,5 @@ Journey Orchestration permet une orchestration en temps réel et s’appuie sur 
 
 Ressources supplémentaires :
 
-* [Tutoriels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutoriels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=fr)
 * [Communauté](https://www.adobe.com/go/journeyorchestrationcommunity_fr)
