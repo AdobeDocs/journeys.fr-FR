@@ -10,7 +10,7 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Les API de [!DNL Journey Orchestration] prennent en charge 5 000 événements/
 
 Lors de la configuration d’une source de données, vous allez définir une connexion à un système pour récupérer des informations supplémentaires, qui seront ensuite utilisées dans vos parcours. Pour une définition d’action, vous allez configurer la connexion d’un système tiers pour envoyer des messages ou des appels d’API. Pour chaque appel d’API effectué par Journey, l’API de limitation est interrogée à l’aide d’un appel transmis par le moteur d’API. Si une limite est définie, l’appel est rejeté, ce qui permet d’éviter une surcharge du système externe.
 
-Pour les sources de données externes, le nombre maximal d’appels par seconde est défini sur 15. Si le nombre d’appels dépasse 15 par seconde, les appels restants sont ignorés. Vous pouvez augmenter cette limite pour les sources de données externes privées. Contactez l’Adobe pour placer sur la liste autorisée le point de terminaison . Cela n’est pas possible pour les sources de données externes publiques. Pour en savoir plus sur les bonnes pratiques et les barrières de sécurité lors de l’intégration de systèmes externes, consultez cette [page](../about/external-systems.md).
+Pour les sources de données externes, le nombre maximal d’appels par seconde est défini sur 15. Si le nombre d’appels dépasse 15 par seconde, les appels restants sont ignorés. Vous pouvez augmenter cette limite pour les sources de données externes privées. Contactez Adobe pour placer sur la liste autorisée le point d’entrée. Cela n’est pas possible pour les sources de données externes publiques. Pour en savoir plus sur les bonnes pratiques et les barrières de sécurité lors de l’intégration de systèmes externes, consultez cette [page](../about/external-systems.md).
 
-Pour en savoir plus sur la configuration d’une action ou d’une source de données, voir les sections [À propos des actions](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) et [À propos des sources de données](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+Pour en savoir plus sur la configuration d’une action ou d’une source de données, voir les sections [À propos des actions](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html?lang=fr) et [À propos des sources de données](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html?lang=fr)
 
 ## Ressources
 
@@ -189,7 +189,7 @@ Cas d’utilisation n°2 : **mise à jour et déploiement d’une configuration
 
 1. list
 1. get
-1. mettre à jour
+1. update
 1. candeploy
 1. deploy
 
@@ -197,7 +197,7 @@ Cas d’utilisation n°3 : **annulation du déploiement et suppression d’une 
 
 1. list
 1. undeploy
-1. Supprimez
+1. delete
 
 Cas d’utilisation n°4 : **suppression d’une configuration de limitation déployée**
 
@@ -209,7 +209,7 @@ Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation d
 
 1. list
 1. get
-1. mettre à jour
+1. update
 1. undeploy
 1. candeploy
 1. deploy
