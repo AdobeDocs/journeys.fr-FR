@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Trie une liste de valeurs dans l’ordre naturel. Le premier argument est la lis
 
 ## Catégorie
 
-Liste
+Liste 
 
 ## Syntaxe de la fonction
 
@@ -29,13 +29,13 @@ Liste
 
 | Paramètre | Type |
 |-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
+| Liste  | listString |
+| Liste  | listBoolean |
+| Liste  | listInteger |
+| Liste  | listDecimal |
+| Liste  | listDuration |
+| Liste  | listDateTime |
+| Liste  | listDateTimeOnly |
 | Booléen | Booléen |
 
 ## Signature et type renvoyé
@@ -68,8 +68,8 @@ Renvoie une liste de valeurs booléennes.
 
 `sort(["A", "C", "B"], true)`
 
-Renvoie `["A","B","C"]`.
+Retours `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Renvoie `[3, 2, 1]`.
+Retours `[3, 2, 1]`.
