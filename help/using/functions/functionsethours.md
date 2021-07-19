@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Date
 |--- |--- |
 | date et heure | dateTime |
 | date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
-| heures | entier |
+|  heures | entier |
 
 ## Signatures et type renvoyé
 
