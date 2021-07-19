@@ -4,7 +4,7 @@ title: Création d’un profil de test
 description: En savoir plus sur la création d’un profil de test
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de jeux de données, consultez la [documentation du service de catalogue](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started).
+> Pour plus d&#39;informations sur la création de jeux de données, consultez la [documentation du service de catalogue](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started).
 
 ## Création d’un profil de test à l’aide d’un fichier CSV{#create-test-profiles-csv}
 
@@ -99,7 +99,7 @@ Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du 
 
 ## Création de profils de test à l’aide d’appels d’API {#create-test-profiles-api}
 
-Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
+Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce mixin.
 
