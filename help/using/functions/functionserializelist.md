@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Convertit en chaîne la liste (tous types possibles) indiquée dans le premier p
 
 ## Catégorie
 
-Liste
+Liste 
 
 ## Syntaxe de la fonction
 
@@ -32,13 +32,13 @@ Liste
 | Chaîne | Chaîne |
 | Booléen | Booléen |
 | DateTimeOnly | DateTimeOnly |
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listPoint |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
+| Liste  | listString |
+| Liste  | listBoolean |
+| Liste  | listPoint |
+| Liste  | listDecimal |
+| Liste  | listDuration |
+| Liste  | listDateTime |
+| Liste  | listDateTimeOnly |
 
 ## Signature et type renvoyé
 
