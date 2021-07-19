@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Par exemple, parmi tous les utilisateurs de l’application, vous pouvez extrair
 
 Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../building-journeys/condition-activity.md#data_source_condition).
 
-**Exemple 1 :**
+**Exemple 1:**
 
 Nous voulons vérifier si un utilisateur a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
 
@@ -81,7 +81,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 Le résultat est true.
 
-**Exemple 2 :**
+**Exemple 2:**
 
 Ici, nous utilisons la fonction **[!UICONTROL count]** pour vérifier s’il existe des jetons de notification push dans la collection.
 
@@ -125,7 +125,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 Le résultat de l’expression est **3**.
 
-**Exemple 3 :**
+**Exemple 3:**
 
 Dans cet exemple, nous allons vérifier si un individu n’a reçu aucune communication au cours des dernières 24 heures. Nous allons filtrer la collection d’événements d’expérience récupérés à partir de la source de données Experience Platform, en utilisant deux expressions basées sur deux éléments de la collection. En particulier, l’horodatage de l’événement est comparé à la valeur dateTime renvoyée par la fonction **[!UICONTROL nowWithDelta]**.
 
@@ -137,7 +137,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 Le résultat sera true si aucun événement d’expérience ne correspond aux deux conditions.
 
-**Exemple 4 :**
+**Exemple 4:**
 
 Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel.
 
@@ -180,7 +180,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**Exemple 1 :**
+**Exemple 1:**
 
 Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
@@ -190,7 +190,7 @@ Cette expression renvoie le premier jeton de notification push associé aux appl
 
 Le résultat est &quot;token_1&quot;.
 
-**Exemple 2 :**
+**Exemple 2:**
 
 Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
@@ -207,7 +207,7 @@ Le résultat est &quot;token_2&quot;.
 >* La fonction **[!UICONTROL last]** renvoie l’événement le plus ancien.
 
 
-**Exemple 3 :**
+**Exemple 3:**
 
 Nous vérifions si la valeur du premier événement Adobe Analytics (le plus récent), dont l’ID DMA a une valeur non nulle, est égale à 602.
 
