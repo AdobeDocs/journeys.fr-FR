@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: b8380d30-160e-45c2-b187-34eb42845923
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ Agrégation
 
 | Paramètre | Type |
 |-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
+| Liste  | listString |
+| Liste  | listBoolean |
+| Liste  | listInteger |
+| Liste  | listDecimal |
+| Liste  | listDuration |
+| Liste  | listDateTime |
+| Liste  | listDateTimeOnly |
 
 ## Signature et type renvoyé
 
