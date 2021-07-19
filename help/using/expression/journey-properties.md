@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Voici quelques exemples d’utilisation :
 
 ## Liste de champs {#journey-properties-fields}
 
-| Catégorie | Nom du champ | Libellé | Description |
+| Catégorie | Nom du champ | Étiquette | Description |
 |---|---|---|------------|
 | Version de parcours | journeyUID | Identifiant de parcours |  |
 |  | journeyVersionUID | Identifiant de version du parcours |  |
