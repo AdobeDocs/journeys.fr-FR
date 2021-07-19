@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Voici la liste des fonctions prises en charge :
 
 | Catégorie | Fonction |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | Agrégation | [avg](../functions/functionavg.md) |
 | Agrégation | [count](../functions/functioncount.md) |
 | Agrégation | [countOnlyNull](../functions/functioncountonlynull.md) |
@@ -53,18 +53,18 @@ Voici la liste des fonctions prises en charge :
 | Date | [inNextHours](../functions/functioninnexthours.md) |
 | Date | [inNextMonths](../functions/functioninnextmonths.md) |
 | Date | [inNextYears](../functions/functioninnextyears.md) |
-| Date | [maintenant](../functions/functionnow.md) |
+| Date | [now](../functions/functionnow.md) |
 | Date | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | Date | [setHours](../functions/functionsethours.md) |
 | Date | [setDays](../functions/functionsetdays.md) |
-| Liste | [distinct](../functions/functiondistinct.md) |
-| Liste | [distinctCount](../functions/functiondistinctcount.md) |
-| Liste | [in](../functions/functionin.md) |
-| Liste | [listSize](../functions/functionlistsize.md) |
-| Liste | [serializeList](../functions/functionserializelist.md) |
-| Liste | [sort](../functions/functionsort.md) |
-| Mathématique | [random](../functions/functionrandom.md) |
-| Mathématique | [round](../functions/functionround.md) |
+| Liste  | [distinct](../functions/functiondistinct.md) |
+| Liste  | [distinctCount](../functions/functiondistinctcount.md) |
+| Liste  | [in](../functions/functionin.md) |
+| Liste  | [listSize](../functions/functionlistsize.md) |
+| Liste  | [serializeList](../functions/functionserializelist.md) |
+| Liste  | [sort](../functions/functionsort.md) |
+| Math | [random](../functions/functionrandom.md) |
+| Mathématiques | [round](../functions/functionround.md) |
 | Chaîne | [concat](../functions/functionconcat.md) |
 | Chaîne | [contain](../functions/functioncontain.md) |
 | Chaîne | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
@@ -76,14 +76,14 @@ Voici la liste des fonctions prises en charge :
 | Chaîne | [isNotEmpty](../functions/functionisnotempty.md) |
 | Chaîne | [lastIndexOf](../functions/functionlastindexof.md) |
 | Chaîne | [length](../functions/functionlength.md) |
-| Chaîne | [inférieur](../functions/functionlower.md) |
+| Chaîne | [lower](../functions/functionlower.md) |
 | Chaîne | [matchRegExp](../functions/functionmatchregexp.md) |
 | Chaîne | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
-| Chaîne | [remplacer](../functions/functionreplace.md) |
+| Chaîne | [replace](../functions/functionreplace.md) |
 | Chaîne | [replaceAll](../functions/functionreplaceall.md) |
 | Chaîne | [startWith](../functions/functionstartwith.md) |
 | Chaîne | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | Chaîne | [substr](../functions/functionsubstr.md) |
 | Chaîne | [trim](../functions/functiontrim.md) |
-| Chaîne | [supérieur](../functions/functionupper.md) |
+| Chaîne | [upper](../functions/functionupper.md) |
 | Chaîne | [uuid](../functions/functionuuid.md) |
