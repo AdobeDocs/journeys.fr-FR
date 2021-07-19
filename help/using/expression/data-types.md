@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Format JSON : nombre
 42
 ```
 
-## décimal {#decimal}
+## decimal {#decimal}
 
 **Description**
 
@@ -263,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## liste {#list}
+## list {#list}
 
 **Description**
 
