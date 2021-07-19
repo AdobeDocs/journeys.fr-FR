@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Renvoie les valeurs distinctes de la liste. Si la liste comporte au moins une va
 
 ## Catégorie
 
-Liste
+Liste 
 
 ## Syntaxe de la fonction
 
@@ -29,13 +29,13 @@ Liste
 
 | Paramètre | Type |
 |-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
+| Liste  | listString |
+| Liste  | listBoolean |
+| Liste  | listInteger |
+| Liste  | listDecimal |
+| Liste  | listDuration |
+| Liste  | listDateTime |
+| Liste  | listDateTimeOnly |
 
 ## Signatures et types renvoyés
 
