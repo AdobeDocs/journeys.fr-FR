@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Conversion
 |--- |--- |
 | chaîne | convertit la valeur de la chaîne en nombre entier |
 | dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
-| décimal | convertit la valeur d’argument en nombre entier en supprimant la partie décimale (exemple : 1,5 devient 1) |
+| decimal | convertit la valeur d’argument en nombre entier en supprimant la partie décimale (exemple : 1,5 devient 1) |
 | booléen | convertit la valeur booléenne en 1 si true, 0 si false |
 
 ## Signatures et type renvoyé
