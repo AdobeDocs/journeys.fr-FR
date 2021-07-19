@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Compte le nombre d’éléments dans la liste.
 
 ## Catégorie
 
-Liste
+Liste 
 
 ## Syntaxe de la fonction
 
@@ -29,13 +29,13 @@ Liste
 
 | Paramètre | Type |
 |-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
+| Liste  | listString |
+| Liste  | listBoolean |
+| Liste  | listInteger |
+| Liste  | listDecimal |
+| Liste  | listDuration |
+| Liste  | listDateTime |
+| Liste  | listDateTimeOnly |
 
 ## Signatures et type renvoyé
 
