@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Remplace la première occurrence correspondant à la chaîne cible par la chaîne de remplacement dans la chaîne de base.
 
-Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
+Le remplacement s&#39;effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 ## Catégorie
 
@@ -32,7 +32,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|--------------|
 | base | chaîne |
-| cible | chaîne |
+| target | chaîne |
 | remplacement | chaîne |
 
 ## Signature et type renvoyé
