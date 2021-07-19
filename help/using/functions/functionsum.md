@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Agrégation
 * listDecimal
 * durée
 * entier
-* décimal
+* decimal
 
 ## Signatures et types renvoyés
 
