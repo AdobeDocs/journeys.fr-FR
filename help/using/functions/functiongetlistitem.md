@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Renvoie l’élément de la liste à l’index donné.
 
 ## Catégorie
 
-Liste
+Liste 
 
 ## Syntaxe de la fonction
 
@@ -81,7 +81,7 @@ Exemples avec un champ d’événement &#39;event.appVersion&#39; avec la valeur
 
 `split(@{event.appVersion}, "\\.")`
 
-Renvoie `["20", "45", "2", "3434"]`
+Retours `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
