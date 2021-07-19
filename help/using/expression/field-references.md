@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Une couleur de syntaxe permet de distinguer visuellement les champs d’événem
 
 **Valeurs par défaut des références de champ**
 
-Il est possible d’associer une valeur par défaut à un nom de champ. La syntaxe est la suivante :
+Il est possible d’associer une valeur par défaut à un nom de champ. La syntaxe se présente comme suit :
 
 ```
 // event field
