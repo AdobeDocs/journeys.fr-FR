@@ -3,9 +3,9 @@ product: adobe campaign
 title: updateTimeZone
 description: En savoir plus sur la fonction updateTimeZone
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
