@@ -2,10 +2,10 @@
 product: adobe campaign
 title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,8 @@ Suivez les étapes décrites dans [cette page](../event/about-events.md).
 
 Pour sélectionner les champs de score de fatigue dans la source de données intégrée, procédez comme suit :
 
-1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]** et sélectionnez la source de données Adobe Experience Platform intégrée.
+1. Dans le volet de menus, sélectionnez **[!UICONTROL Admin]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**.
+1. Sélectionnez la source de données Adobe Experience Platform intégrée.
 
    ![](../assets/journey23.png)
 
