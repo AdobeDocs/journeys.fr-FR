@@ -6,10 +6,10 @@ feature: Parcours
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,8 @@ Dans notre cas d’utilisation, nous voulons utiliser des données de personnali
 
 Pour plus d’informations sur la configuration des sources de données, consultez [cette page](../datasource/about-data-sources.md).
 
-1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Sources de données]** et sélectionnez la sources de données Adobe Experience Platform intégrée.
+1. Dans le volet de menus, sélectionnez **[!UICONTROL Admin]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**.
+1. Sélectionnez la source de données Adobe Experience Platform intégrée.
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ Nous devons aussi vérifier si la personne a une réservation dans le système d
 1. Cliquez sur **[!UICONTROL Ajouter un nouveau groupe de champs]** pour définir les informations à récupérer et les paramètres de l’API. Dans notre exemple, il n’existe qu’un seul paramètre (l’identifiant). Nous devons donc créer un groupe de champs contenant les informations suivantes :
 
    * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre exemple, nous choisissons la méthode GET.
-   * **[!UICONTROL Durée de mise en cache]** : cette durée varie en fonction de la fréquence des appels d’API. Dans le cas présent, le système de réservation est mis à jour toutes les 10 minutes.
    * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de payload. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Dans notre exemple, la payload ne contient que le statut de réservation :
 
    ```
