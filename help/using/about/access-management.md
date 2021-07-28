@@ -41,7 +41,6 @@ Admin Console permet d’attribuer aux utilisateurs l’un des profils de produ
    >[!NOTE]
    >
    >Le profil de produit **[!UICONTROL Administrateurs]** est le seul qui permet la création, la modification et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard.
-
 Ce profil de produit est nécessaire si vous utilisez Adobe Campaign Standard pour envoyer des messages dans vos parcours. Il ne doit pas être renommé dans Admin Console.
 
 * **[!UICONTROL Utilisateur standard]** : utilisateur disposant d’un accès de base, tel que la gestion des parcours. Ce profil de produit comprend les autorisations suivantes :
@@ -88,8 +87,7 @@ Pour créer un profil de produit et attribuer un ensemble d’autorisations et d
 
 1. Sélectionnez votre nouveau profil de produit pour commencer à gérer les autorisations. Dans l’onglet **[!UICONTROL Utilisateurs]**, ajoutez des utilisateurs à votre profil de produit. Pour plus d’informations, consultez cette [page](../about/access-management.md#assigning-product-profile).
 
-1. Procédez comme décrit ci-dessus pour ajouter la catégorie **[!UICONTROL Administrateur]** à votre profil de produit.
-
+1. Procédez comme décrit ci-dessus pour ajouter l’**[!UICONTROL Administrateur]** à votre profil de produit.
 
 1. Dans l’onglet **[!UICONTROL Autorisations]**, sélectionnez l’une des deux catégories **[!UICONTROL Sandbox]** ou **[!UICONTROL Création]** pour ouvrir la page **[!UICONTROL Modifier les autorisations]** et ajouter ou supprimer des autorisations pour votre profil de produit.
 
