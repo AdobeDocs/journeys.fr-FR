@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -53,57 +53,57 @@ Un schéma XDM destiné aux événements [!DNL Journey Orchestration] doit répo
 
 ## Utilisation des relations de schéma{#leverage_schema_relationships}
 
-Adobe Experience Platform vous permet de définir des relations entre les schémas afin d’utiliser un jeu de données comme table de recherche pour un autre.
+Adobe Experience Platform vous permet de définir des relations entre les schémas afin d&#39;utiliser un jeu de données comme table de choix pour un autre.
 
-Supposons que votre modèle de données de marque comporte un schéma qui capture les achats. Vous disposez également d’un schéma pour le catalogue de produits. Vous pouvez capturer l’ID de produit dans le schéma d’achat et utiliser une relation pour rechercher des détails de produit plus complets dans le catalogue de produits. Cela vous permet de créer un segment pour tous les clients qui ont acheté un ordinateur portable, par exemple, sans avoir à répertorier explicitement tous les ID d’ordinateur portable ou à capturer tous les détails de produit dans les systèmes transactionnels.
+Supposons que votre modèle de données de marque dispose d’un schéma qui capture les achats. Vous possédez également un schéma pour le catalogue de produits. Vous pouvez capturer l&#39;ID de produit dans le schéma d&#39;achat et utiliser une relation pour rechercher des détails de produit plus complets dans le catalogue de produits. Vous pouvez ainsi créer un segment pour tous les clients ayant acheté un ordinateur portable, par exemple, sans avoir à répertorier explicitement tous les ID d&#39;ordinateur portable ou à capturer tous les détails de produit dans les systèmes transactionnels.
 
-Pour définir une relation, vous devez disposer d’un champ dédié dans le schéma source, dans ce cas le champ d’identifiant de produit dans le schéma d’achat. Ce champ doit référencer le champ ID du produit dans le schéma de destination. Les tables source et de destination doivent être activées pour les profils et le champ commun du schéma de destination doit être défini comme identité Principale.
+Pour définir une relation, vous devez disposer d&#39;un champ dédié dans le schéma source, dans ce cas le champ d&#39;ID de produit dans le schéma d&#39;achat. Ce champ doit référencer le champ d’ID de produit dans le schéma de destination. Les tables source et de destination doivent être activées pour les profils et le champ commun du schéma de destination doit être défini comme identité principale.
 
-Voici le schéma de catalogue de produits activé pour le profil avec l’ID de produit défini comme identité Principale.
+Voici le schéma de catalogue de produits activé pour le profil avec l’ID de produit défini comme identité principale.
 
 ![](../assets/schema9.png)
 
-Voici le schéma d’achat avec la relation définie dans le champ ID du produit.
+Voici le schéma d&#39;achat avec la relation définie dans le champ d’ID de produit.
 
 ![](../assets/schema10.png)
 
 >[!NOTE]
 >
->Pour en savoir plus sur les relations de schéma, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Pour en savoir plus sur les relations de schéma, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=fr).
 
-Dans Journey Orchestration, vous pouvez ensuite exploiter tous les champs des tables liées :
+Dans Journey Orchestration, vous pouvez ensuite exploiter tous les champs des tables liées :
 
-* lors de la configuration d’un événement unitaire, [En savoir plus](../event/experience-event-schema.md#unitary_event_configuration)
-* lors de l’utilisation de conditions dans un parcours, [En savoir plus](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* dans la personnalisation d’action personnalisée, [En savoir plus](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* lors de la configuration d&#39;un événement unitaire, [En savoir plus](../event/experience-event-schema.md#unitary_event_configuration)
+* lors de l&#39;utilisation de conditions dans un parcours, [En savoir plus](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* dans la personnalisation d&#39;action personnalisée, [En savoir plus](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configuration d’événement unitaire{#unitary_event_configuration}
+### Configuration d&#39;événement unitaire{#unitary_event_configuration}
 
-Les champs de schéma liés sont disponibles dans la configuration d&#39;événement unitaire :
+Les champs de schéma liés sont disponibles dans la configuration d&#39;événement unitaire :
 
-* lorsque vous parcourez les champs de schéma d’événement dans l’écran de configuration d’événement.
-* lors de la définition d’une condition pour les événements générés par le système.
+* lorsque vous parcourez les champs de schéma d&#39;événement dans l&#39;écran de configuration d&#39;événement ;
+* lors de la définition d&#39;une condition pour les événements générés par le système.
 
 ![](../assets/schema11.png)
 
-Les champs liés ne sont pas disponibles :
+Les champs liés ne sont pas disponibles :
 
-* dans la formule de clé d’événement
-* dans la condition d’identifiant d’événement (événements basés sur des règles)
+* dans la formule de clé d&#39;événement ;
+* dans la condition d&#39;identifiant d&#39;événement (événements basés sur des règles).
 
 Pour savoir comment configurer un événement unitaire, consultez cette [page](../event/about-creating.md).
 
-### Conditions de parcours à l’aide du contexte d’événement{#journey_conditions_using_event_context}
+### Conditions de parcours à l&#39;aide du contexte d&#39;événement{#journey_conditions_using_event_context}
 
-Vous pouvez utiliser les données d’une table de recherche liée à un événement utilisé dans un parcours pour la création de conditions (éditeur d’expression).
+Vous pouvez utiliser les données d&#39;une table de choix liée à un événement utilisé dans un parcours pour la création de conditions (éditeur d&#39;expression).
 
-Ajoutez une condition dans un parcours, éditez l&#39;expression et développez le noeud d&#39;événement dans l&#39;éditeur d&#39;expression.
+Ajoutez une condition dans un parcours, modifiez l&#39;expression et développez le nœud d&#39;événement dans l&#39;éditeur d&#39;expression.
 
 ![](../assets/schema12.png)
 
 Pour savoir comment définir des conditions de parcours, consultez cette [page](../building-journeys/condition-activity.md).
 
-### Personnalisation de l’action avec le contexte de l’événement de parcours{#custom_action_personalization_with_journey_event_context}
+### Personnalisation des actions avec le contexte d&#39;événement de parcours{#custom_action_personalization_with_journey_event_context}
 
 Les champs liés sont disponibles lors de la configuration des paramètres d&#39;action d&#39;une activité d&#39;action de parcours.
 
