@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2707'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de juillet 2021 {#july-2021-release}
+## Version de juillet 2021 {#july-2021-release}
 
 <table>
 <thead>
@@ -29,8 +29,8 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform vous permet de définir des relations entre les schémas afin d’utiliser un jeu de données comme table de recherche pour un autre. Journey Orchestration peut désormais exploiter les données provenant d’un schéma lié.</p>
-<p>Ces champs sont disponibles dans la configuration d’événement unitaire, les conditions de parcours et la personnalisation d’action personnalisée.
+<p>Adobe Experience Platform vous permet de définir des relations entre les schémas afin d'utiliser un jeu de données comme table de choix pour un autre. Journey Orchestration peut désormais exploiter les données provenant d'un schéma lié.</p>
+<p>Ces champs sont disponibles dans la configuration d'événement unitaire, les conditions de parcours et la personnalisation d'action personnalisée.
 <p>Pour plus d'informations, consultez la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -39,7 +39,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* Le champ **Durée du cache** a été supprimé du volet de configuration de la source de données. [En savoir plus](../datasource/about-data-sources.md)
+* Le champ **Durée de mise en cache** a été supprimé du volet de configuration de la source de données. [En savoir plus](../datasource/about-data-sources.md)
 
 ## Version de juin 2021 {#june-2021-release}
 
@@ -164,7 +164,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles        (version bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles         (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
