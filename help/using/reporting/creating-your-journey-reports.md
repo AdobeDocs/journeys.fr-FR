@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ Pour accéder aux rapports de vos parcours et effectuer le suivi du succès de v
 
 1. Pour avoir une vue plus précise de vos données, vous pouvez ajouter des visualisations à partir de l’onglet **[!UICONTROL Visualisations]**. Voir à ce sujet cette [section](#adding-visualizations).
 
-## Ajouter des panneaux{#adding-panels}
+## Ajout de panneaux{#adding-panels}
 
-### Ajouter un panneau vide {#adding-a-blank-panel}
+### Ajout d’un panneau vierge {#adding-a-blank-panel}
 
 Pour commencer votre rapport, vous pouvez ajouter un ensemble de panneaux à un rapport d’usine ou personnalisé. Chaque panneau contient différents jeux de données et est composé de tableaux à structure libre et de visualisations.
 
@@ -73,11 +73,11 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez maintenant ajouter un tableau à structure libre à votre panneau pour commencer le ciblage des données.
 
-### Ajouter un tableau Structure libre           {#adding-a-freeform-table}
+### Ajout d’un tableau à structure libre {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **[!UICONTROL Composant]**.
 
-Chaque tableau et visualisation peut être redimensionné et déplacé afin de mieux personnaliser votre rapport.
+Chaque tableau et chaque visualisation peuvent être redimensionnés et déplacés afin de mieux personnaliser votre rapport.
 
 1. Cliquez sur l’icône **[!UICONTROL Panneaux]**.
 
@@ -109,7 +109,7 @@ Chaque tableau et visualisation peut être redimensionné et déplacé afin de m
 
    ![](../assets/dynamic_report_freeform_5.png)
 
-Vous pouvez désormais ajouter autant de composants que nécessaire et également des visualisations pour donner des représentations graphiques de vos données.
+Vous pouvez maintenant ajouter autant de composants que nécessaire et également des visualisations pour donner des représentations graphiques de vos données.
 
 ## Ajouter des composants{#adding-components}
 
@@ -125,13 +125,13 @@ Les composants vous permettent de personnaliser vos rapports grâce à différen
 
    * **[!UICONTROL Dimensions]** : obtenez des détails issus du log de diffusion, tels que le navigateur du destinataire, son domaine, ou la réussite d’une diffusion.
    * **[!UICONTROL Mesures]** : obtenez des détails sur le statut d’un message. Par exemple, s’il a été délivré et si l’utilisateur l’a ouvert.
-   * **[!UICONTROL Heure]** : Définissez une période pour votre tableau.
+   * **[!UICONTROL Heure]** : définissez une période pour votre tableau.
 
 1. Faites glisser des composants dans un panneau pour commencer à filtrer vos données.
 
 Vous pouvez faire glisser autant de composants que nécessaire et les comparer.
 
-## Ajouter des visualisations{#adding-visualizations}
+## Ajout de visualisations{#adding-visualizations}
 
 L’onglet **[!UICONTROL Visualisations]** vous permet de positionner des éléments de visualisation, tels que des zones, des diagrammes circulaires ou des graphiques. Les visualisations vous donnent une représentation graphique de vos données.
 
@@ -146,13 +146,13 @@ L’onglet **[!UICONTROL Visualisations]** vous permet de positionner des élém
 
 1. Cliquez sur le bouton des paramètres de **[!UICONTROL Visualisation]** pour modifier directement le type de graphique ou les données qui y sont affichées :
 
-   * **[!UICONTROL Pourcentages]** : Affiche les valeurs en pourcentage.
+   * **[!UICONTROL Pourcentages]** : affiche les valeurs en pourcentage.
    * **[!UICONTROL Ancrer l’axe Y à zéro]** : force l’axe Y à zéro, même si des valeurs sont supérieures à zéro.
-   * **[!UICONTROL Légende visible]** : Permet de masquer la légende.
-   * **[!UICONTROL Normalisation]** : Force les valeurs à correspondre.
+   * **[!UICONTROL Légende visible]** : permet de masquer la légende.
+   * **[!UICONTROL Normalisation]** : force les valeurs à correspondre.
    * **[!UICONTROL Afficher l’axe double]** : ajoute un axe à votre graphique.
-   * **[!UICONTROL Limiter les éléments]** max. : Limite le nombre de graphiques affichés.
-   * **[!UICONTROL Seuil]** : permet de configurer un seuil pour votre graphique. Il apparaît sous la forme d’une ligne pointillée noire.
+   * **[!UICONTROL Limiter le nombre d&#39;éléments max.]** : limite le nombre de graphiques affichés.
+   * **[!UICONTROL Seuil]** : permet de configurer un seuil pour votre graphique. Il apparaît sous la forme d&#39;une ligne pointillée noire.
 
    ![](../assets/dynamic_report_visualization_3.png)
 
