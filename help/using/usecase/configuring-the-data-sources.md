@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Dans notre cas d’utilisation, nous voulons utiliser des données de personnali
 Pour plus d’informations sur la configuration des sources de données, consultez [cette page](../datasource/about-data-sources.md).
 
 1. Dans le volet de menus, sélectionnez **[!UICONTROL Admin]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**.
-1. Sélectionnez la source de données Adobe Experience Platform intégrée.
+1. Sélectionnez la source de données Adobe Experience Platform intégrée.
 
    ![](../assets/journey23.png)
 
