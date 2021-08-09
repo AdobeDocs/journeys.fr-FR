@@ -137,7 +137,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 Le résultat sera true si aucun événement d’expérience ne correspond aux deux conditions.
 
-**Exemple 4:**
+**Exemple 4 :**
 
 Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel.
 
