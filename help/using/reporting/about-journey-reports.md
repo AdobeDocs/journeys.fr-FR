@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -54,9 +54,9 @@ Les onglets de gauche vous permettent de créer votre rapport et de filtrer vos 
 
 Ces onglets vous donnent accès aux éléments suivants :
 
-* **[!UICONTROL Panneaux]** : ajoutez un panneau vide ou une forme libre à votre rapport pour commencer à filtrer les données. Voir à ce propos la section [Ajouter des panneaux](../reporting/creating-your-journey-reports.md#adding-panels).
-* **[!UICONTROL Visualisations]** : déposez une sélection d’éléments de visualisation pour donner à votre rapport une dimension graphique. Voir à ce propos la section [Ajouter des visualisations](../reporting/creating-your-journey-reports.md#adding-visualizations).
-* **[!UICONTROL Composants]** : permettent de personnaliser les rapports grâce à différentes dimensions, mesures, segments et périodes. Voir à ce propos la section [Ajouter des panneaux](../reporting/creating-your-journey-reports.md#adding-components).
+* **[!UICONTROL Panneaux]** : ajoutez un panneau vide ou une forme libre à votre rapport pour commencer à filtrer les données. Pour plus d&#39;informations, consultez la section [Ajouter des panneaux](../reporting/creating-your-journey-reports.md#adding-panels).
+* **[!UICONTROL Visualisations]** : déposez une sélection d’éléments de visualisation pour donner à votre rapport une dimension graphique. Pour plus d&#39;informations, consultez la section [Ajouter des visualisations](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Composants]** : permettent de personnaliser les rapports grâce à différentes dimensions, mesures, segments et périodes. Pour plus d&#39;informations, consultez la section [Ajouter des panneaux](../reporting/creating-your-journey-reports.md#adding-components).
 
 ## Modèle de synthèse du parcours {#ootb-template}
 
