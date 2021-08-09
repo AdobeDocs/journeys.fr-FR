@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
    ![](../assets/segment-copy.png)
 
-1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segments, les sorties ou les deux.
+1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segment, les sorties ou les deux.
 
    >[!NOTE]
    >
