@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Supposons que vous ayez un segment « client Silver ». Avec cette activité, 
 
 Les possibilités que vous apporte [!DNL Journey Orchestration] concernant les segments sont présentées ci-dessous :
 
-* Accéder à la liste des segments Adobe Experience Platform. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
-* Créer des segments directement dans [!DNL Journey Orchestration] comme vous le faites avec le service de segmentation. Voir la section [Création d’un segment](../segment/creating-a-segment.md).
-* Tirer parti des segments dans les conditions de votre parcours à l’aide de l’éditeur d’expression simple ou avancé. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
-* Ajouter un événement de **[!UICONTROL qualification de segment]** à votre parcours pour écouter les entrées et les sorties des profils dans les segments Adobe Experience Platform. Voir la section [Activités d’événement](../building-journeys/segment-qualification-events.md).
+* Accéder à la liste des segments Adobe Experience Platform. Pour plus d&#39;informations, consultez la section [Création d’un segment](../segment/creating-a-segment.md).
+* Créer des segments directement dans [!DNL Journey Orchestration] comme vous le faites avec le service de segmentation. Pour plus d&#39;informations, consultez la section [Création d’un segment](../segment/creating-a-segment.md).
+* Tirer parti des segments dans les conditions de votre parcours à l’aide de l’éditeur d’expression simple ou avancé. Pour plus d&#39;informations, consultez la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
+* Ajouter un événement de **[!UICONTROL qualification de segment]** à votre parcours pour écouter les entrées et les sorties des profils dans les segments Adobe Experience Platform. Pour plus d&#39;informations, consultez la section [Activités d’événement](../building-journeys/segment-qualification-events.md).
