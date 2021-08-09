@@ -6,7 +6,7 @@ user-guide-description: Fournit des instructions pratiques pour la mise en œuvr
 index: true
 feature: Parcours
 source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
