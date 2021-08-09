@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur la configuration des événements, consultez [cet
    >
    >La liste des champs varie d&#39;un schéma à l&#39;autre. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés.
 
-1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
+1. Nous devons sélectionner un espace de noms. Il est présélectionné en fonction des propriétés du schéma. Vous pouvez le conserver. Pour plus d’informations sur les espaces de noms, consultez [cette page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
