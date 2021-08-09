@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
@@ -25,4 +25,4 @@ Vous pouvez, au choix, créer un segment à l’aide du [service de segmentation
 
    ![](../assets/segment2.png)
 
-Vous pouvez maintenant utiliser votre segment pour créer des conditions ou ajouter un événement de **[!UICONTROL qualification de segment]**. Voir la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md) et des [Activités d’événement](../building-journeys/segment-qualification-events.md).
+Vous pouvez maintenant utiliser votre segment pour créer des conditions ou ajouter un événement de **[!UICONTROL qualification de segment]**. Pour plus d&#39;informations, consultez la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md) et des [Activités d’événement](../building-journeys/segment-qualification-events.md).
