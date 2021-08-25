@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Notes de mise à jour
 description: En savoir plus sur les notes de mise à jour
-feature: Parcours
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2707'
-ht-degree: 100%
+source-wordcount: '2762'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## Version d’août 2021 {#august-2021-release}
+
+### Améliorations
+
+**Parcours**
+
+* **En-têtes dynamiques**  : vous pouvez désormais transmettre des données dynamiques dans les paramètres d’en-tête HTTP. Ces paramètres peuvent être utilisés par les systèmes d’intégration qui reçoivent les appels HTTP de l’action de parcours, par exemple l’horodatage ou l’ID de suivi. [En savoir plus](../action/url-configuration.md)
+* **Chemins d’URL dynamiques**  : vous pouvez désormais configurer des chemins d’URL dynamiques pour les actions personnalisées. [En savoir plus](../action/url-configuration.md)
 
 ## Version de juillet 2021 {#july-2021-release}
 
