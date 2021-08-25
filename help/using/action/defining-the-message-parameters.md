@@ -1,29 +1,29 @@
 ---
 product: adobe campaign
-title: Définition des paramètres de message
-description: Découvrez comment définir les paramètres de message
-feature: Parcours
+title: Définition des paramètres d’action
+description: Découvrez comment définir les paramètres d’action
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 93%
 
 ---
 
-# Définition des paramètres de message {#concept_wy4_bf1_2gb}
+# Définition des paramètres d’action {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-Dans la section **[!UICONTROL Paramètres de message]**, collez un exemple de payload JSON à envoyer au service externe.
+Dans la section **[!UICONTROL Paramètres d&#39;action]**, collez un exemple de payload JSON à envoyer au service externe.
 
 ![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
->Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; . Ils ne peuvent pas commencer par le caractère « $ ».
+>Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; . Ils ne peuvent pas commencer par le caractère &quot;$&quot;.
 
 Vous aurez la possibilité de définir le type de paramètre (par exemple : string, integer, etc.).
 
