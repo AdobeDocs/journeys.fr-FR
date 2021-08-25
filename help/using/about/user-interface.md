@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Interface utilisateur
 description: En savoir plus sur l’interface utilisateur
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 100%
+source-wordcount: '1043'
+ht-degree: 68%
 
 ---
 
@@ -87,58 +87,135 @@ Si un nom convivial est disponible, le champ s&#39;affiche sous la forme `<frien
 >
 >Les noms conviviaux ne sont pas récupérés lorsque vous sélectionnez des champs dans une union de schémas.
 
-## Utilisation des différents raccourcis{#section_ksq_zr1_ffb}
+## Accessibilité{#accessibility}
 
-L’interface de [!DNL Journey Orchestration] propose différents raccourcis.
+Les fonctionnalités d’accessibilité de Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
 
-_Dans les listes de parcours, d’actions, de sources de données ou d’événements :_
+* Accessibilité à l’aide du clavier
+* Contraste de couleur
+* Validation des champs obligatoires
 
-* Appuyez sur **c** pour créer un parcours, une action, une source de données ou un événement.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
 
-_Lors de la configuration d’une activité dans un parcours :_
+Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
 
-La zone de travail est automatiquement enregistrée. Vous pouvez voir le statut d’enregistrement, en haut à gauche de la zone de travail.
+| Action | Raccourci |
+| --- | --- |
+| Déplacement entre les éléments, sections et groupes de menus de l’interface utilisateur | Tabulation |
+| Revenez en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur. | Maj+Tabulation |
+| Déplacement dans des sections pour définir la cible d’action sur des éléments individuels | Flèche |
+| Sélectionner ou effacer un élément ciblé | Entrée ou Barre d’espacement |
+| Annuler une sélection, réduire un panneau ou fermer une boîte de dialogue | Échap |
 
-* Appuyez sur **Échap** pour fermer le volet de configuration et ignorer les modifications apportées. Il s’agit de l’équivalent du bouton **[!UICONTROL Annuler]**.
-* Appuyez sur **Entrée** ou cliquez en dehors du volet pour fermer le volet de configuration. Les modifications sont enregistrées. Il s’agit de l’équivalent du bouton **[!UICONTROL OK]**.
-* Si vous appuyez sur **Supprimer** ou **Retour arrière**, vous pouvez ensuite appuyer sur **Entrée** pour confirmer la suppression.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
 
-_Dans les fenêtres contextuelles :_
+Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
 
-* Appuyez sur **Échap** pour fermer une fenêtre (équivalent du bouton **[!UICONTROL Annuler]**).
-* Appuyez sur **Entrée** pour enregistrer ou confirmer (équivalent du bouton **[!UICONTROL OK]** ou **[!UICONTROL Enregistrer]**).
+<table>
+  <thead>
+    <tr>
+      <th>Elément de l’interface</th>
+      <th>Action</th>
+      <th>Raccourci</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Liste des parcours, actions, sources de données ou événements</td>
+    <td>Créer un parcours, une action, une source de données ou un événement</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Canevas de parcours à l’état préliminaire</td>
+    <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
+    <td>Double-cliquez sur l’activité.</td>
+  </tr>
+  <tr>
+    <td>Sélectionner toutes les activités</td>
+    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Supprimer les activités sélectionnées</td>
+    <td>Supprimer ou Retour arrière, puis Entrée pour confirmer la suppression</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_Dans le volet de configuration d’un événement, d’une source de données ou d’une action :_
+Volet de configuration de ces éléments :
 
-* Appuyez sur **Échap** pour fermer le volet de configuration sans effectuer d’enregistrement.
-* Appuyez sur **Entrée** pour enregistrer les modifications et fermer le volet de configuration.
-* Appuyez sur la touche de **tabulation** pour passer d’un champ à un autre et les configurer.
+<ul>
+  <li>Activité dans un parcours</li>
+  <li>Événement</li>
+  <li>Source de données</li>
+  <li>Action</li>
+</ul>
 
-_Dans l’éditeur d’expression simple :_
+</td>
+    <td>Accéder au champ suivant à configurer</td>
+    <td>Tabulation</td>
+  </tr>
+  <tr>
+    <td>Enregistrez les modifications et fermez le volet de configuration.</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Ignorer les modifications et fermer le volet de configuration</td>
+    <td>Échap</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Parcours en mode test</td>
+    <td>Activation ou désactivation du mode test</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Déclenchement d’un événement dans un parcours basé sur un événement</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* Double-cliquez sur un champ, à gauche, pour ajouter une requête (ce qui équivaut à effectuer un glisser-déposer).
+Déclenchez un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Profil unique à la fois]** est activée.
 
-_Lors du parcours des champs XDM :_
-
-* Si vous cochez un « nœud », tous les champs qu’il contient sont sélectionnés.
-
-_Dans toutes les zones de texte :_
-
-* Utilisez la combinaison de touches **Ctrl/Commande + A** pour sélectionner le texte. Dans l’aperçu de la payload, cette combinaison de touches sélectionne cette payload.
-
-_Dans un écran contenant une barre de recherche :_
-
-* Utilisez la combinaison de touches **Ctrl/Commande + F** pour sélectionner la barre de recherche.
-
-_Dans la zone de travail d’un parcours :_
-
-* Utilisez la combinaison de touches **Ctrl/Commande + A** pour sélectionner toutes les activités.
-* Lorsqu’une ou plusieurs activités sont sélectionnées, appuyez sur **Supprimer** ou **Retour arrière** pour les supprimer. Vous pouvez ensuite appuyer sur **Entrée** pour confirmer la suppression dans la fenêtre contextuelle de confirmation.
-* Double-cliquez sur une activité dans la palette de gauche pour l’ajouter dans la première position disponible (du haut vers le bas).
-
-_Dans un parcours :_
-
-* Appuyez sur **T** pour activer/désactiver le mode test.
-* Dans un parcours basé sur des événements en mode test, appuyez sur **E** pour déclencher un événement.
-* Dans un parcours basé sur des segments, lorsque l’option **Un profil unique à la fois** est sélectionnée en mode test, appuyez sur **P** pour déclencher un événement.
-* En mode test, appuyez sur **L** pour afficher les journaux.
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Afficher les journaux de test</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Champ de texte</td>
+    <td>Sélectionner tout le texte du champ sélectionné</td>
+    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Fenêtre contextuelle</td>
+    <td>Enregistrer les modifications ou confirmer l’action</td>
+    <td>Entrée</td>
+  </tr>
+  <tr>
+    <td>Fermer la fenêtre</td>
+    <td>Échap</td>
+  </tr>
+  <tr>
+    <td>Éditeur d’expression simple</td>
+    <td>Sélection et ajout d’un champ</td>
+    <td>Double-cliquer sur un champ</td>
+  </tr>
+  <tr>
+    <td>Navigation dans les champs XDM</td>
+    <td>Sélectionner tous les champs d’un noeud</td>
+    <td>Sélectionner le noeud parent</td>
+  </tr>
+  <tr>
+    <td>Aperçu de la payload</td>
+    <td>Sélectionner la payload</td>
+    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
+  </tr>
+</table>
