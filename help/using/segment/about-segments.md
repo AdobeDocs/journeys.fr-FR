@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Si vous utilisez le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr) pour créer vos segments, vous pouvez les exploiter dans [!DNL Journey Orchestration]. Grâce à une activité d’événement dédiée, vous pouvez faire entrer des individus ou leur permettre de progresser dans un parcours en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez également créer des conditions complexes dans vos parcours grâce à l’éditeur d’expression simple ou avancé.
 
-Supposons que vous ayez un segment « client Silver ». Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés. Vous pouvez également créer facilement des conditions basées sur ce segment.
+Supposons que vous ayez un segment « client Silver ». Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés. Vous pouvez aussi créer facilement des conditions basées sur ce segment.
 
 Les possibilités que vous apporte [!DNL Journey Orchestration] concernant les segments sont présentées ci-dessous :
 
@@ -26,12 +26,12 @@ Les possibilités que vous apporte [!DNL Journey Orchestration] concernant les s
 * Tirer parti des segments dans les conditions de votre parcours à l’aide de l’éditeur d’expression simple ou avancé. Pour plus d&#39;informations, consultez la section [Utilisation de segments dans des conditions](../segment/using-a-segment.md).
 * Ajouter un événement de **[!UICONTROL qualification de segment]** à votre parcours pour écouter les entrées et les sorties des profils dans les segments Adobe Experience Platform. Pour plus d&#39;informations, consultez la section [Activités d’événement](../building-journeys/segment-qualification-events.md).
 
-## Méthode d’évaluation dans le Journey Orchestration {#evaluation-method-in-journey-orchestration}
+## Méthode d’évaluation dans Journey Orchestration {#evaluation-method-in-journey-orchestration}
 
-En Journey Orchestration, les audiences sont générées à partir des définitions de segment à l’aide de l’une des méthodes d’évaluation suivantes :
+Dans Journey Orchestration, les audiences sont générées à partir des définitions de segment à l’aide de l’une des méthodes d’évaluation suivantes :
 
-* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données s’enchaînent dans le système.
-* Segmentation par lots : la liste des audiences du segment est mise à jour toutes les heures, en fonction des données arrivées au cours de la dernière heure.
+* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données affluent dans le système.
+* Segmentation par lots : la liste des audiences du segment est mise à jour toutes les heures, en fonction des données arrivées au cours de la dernière heure.
 
 Le système détermine la segmentation par lots et la segmentation par flux pour chaque définition de segment, en fonction de la complexité et du coût de l’évaluation de la règle de segment.
 
