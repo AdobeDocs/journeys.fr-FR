@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -89,58 +89,58 @@ Si un nom convivial est disponible, le champ s&#39;affiche sous la forme `<frien
 
 ## Accessibilité{#accessibility}
 
-Les fonctionnalités d’accessibilité de Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
+Les fonctionnalités d’accessibilité dans Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
 
 * Accessibilité à l’aide du clavier
-* Contraste de couleur
+* Contraste des couleurs
 * Validation des champs obligatoires
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
 
-Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
+Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
 
 | Action | Raccourci |
 | --- | --- |
 | Déplacement entre les éléments, sections et groupes de menus de l’interface utilisateur | Tabulation |
-| Revenez en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur. | Maj+Tabulation |
+| Retour en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur | Maj+Tabulation |
 | Déplacement dans des sections pour définir la cible d’action sur des éléments individuels | Flèche |
-| Sélectionner ou effacer un élément ciblé | Entrée ou Barre d’espacement |
-| Annuler une sélection, réduire un panneau ou fermer une boîte de dialogue | Échap |
+| Sélection ou suppression d’un élément ciblé | Entrée ou Barre d’espace |
+| Annulation d’une sélection, réduction d’un panneau ou fermeture d’une boîte de dialogue | Échap |
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
 
-Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
+Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
 
 <table>
   <thead>
     <tr>
-      <th>Elément de l’interface</th>
+      <th>Élément d’interface</th>
       <th>Action</th>
       <th>Raccourci</th>
     </tr>
   </thead>
   <tr>
-    <td>Liste des parcours, actions, sources de données ou événements</td>
-    <td>Créer un parcours, une action, une source de données ou un événement</td>
+    <td>Liste de parcours, d’actions, de sources de données ou d’événements</td>
+    <td>Création d’un parcours, d’une action, d’une source de données ou d’un événement</td>
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Canevas de parcours à l’état préliminaire</td>
+    <td rowspan="3">Zone de travail de parcours en version préliminaire</td>
     <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
-    <td>Double-cliquez sur l’activité.</td>
+    <td>Effectuez un double clic sur l’activité.</td>
   </tr>
   <tr>
-    <td>Sélectionner toutes les activités</td>
+    <td>Sélection de toutes les activités</td>
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
   <tr>
-    <td>Supprimer les activités sélectionnées</td>
-    <td>Supprimer ou Retour arrière, puis Entrée pour confirmer la suppression</td>
+    <td>Suppression des activités sélectionnées</td>
+    <td>Suppr ou Retour arrière, puis Entrée pour confirmer la suppression</td>
   </tr>
   <tr>
   <td rowspan="3">
 
-Volet de configuration de ces éléments :
+Volet de configuration de ces éléments :
 
 <ul>
   <li>Activité dans un parcours</li>
@@ -150,15 +150,15 @@ Volet de configuration de ces éléments :
 </ul>
 
 </td>
-    <td>Accéder au champ suivant à configurer</td>
+    <td>Accès au champ suivant à configurer</td>
     <td>Tabulation</td>
   </tr>
   <tr>
-    <td>Enregistrez les modifications et fermez le volet de configuration.</td>
+    <td>Enregistrement des modifications et fermeture du volet de configuration</td>
     <td>Enter</td>
   </tr>
   <tr>
-    <td>Ignorer les modifications et fermer le volet de configuration</td>
+    <td>Rejet des modifications et fermeture du volet de configuration</td>
     <td>Échap</td>
   </tr>
   <tr>
@@ -173,13 +173,13 @@ Volet de configuration de ces éléments :
   <tr>
     <td>
 
-Déclenchez un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Profil unique à la fois]** est activée.
+Déclenchez un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée.
 
 </td>
     <td>P</td>
   </tr>
   <tr>
-    <td>Afficher les journaux de test</td>
+    <td>Affichage des journaux de test</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -191,31 +191,31 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
 -->
   <tr>
     <td>Champ de texte</td>
-    <td>Sélectionner tout le texte du champ sélectionné</td>
+    <td>Sélection de tout le texte dans le champ sélectionné</td>
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Fenêtre contextuelle</td>
-    <td>Enregistrer les modifications ou confirmer l’action</td>
-    <td>Entrée</td>
+    <td>Enregistrement des modifications ou confirmation de l’action</td>
+    <td>Enter</td>
   </tr>
   <tr>
-    <td>Fermer la fenêtre</td>
+    <td>Fermeture de la fenêtre</td>
     <td>Échap</td>
   </tr>
   <tr>
     <td>Éditeur d’expression simple</td>
     <td>Sélection et ajout d’un champ</td>
-    <td>Double-cliquer sur un champ</td>
+    <td>Double-clic sur un champ</td>
   </tr>
   <tr>
-    <td>Navigation dans les champs XDM</td>
-    <td>Sélectionner tous les champs d’un noeud</td>
-    <td>Sélectionner le noeud parent</td>
+    <td>Navigation à travers les champs XDM</td>
+    <td>Sélection de tous les champs d’un nœud</td>
+    <td>Sélection du nœud parent</td>
   </tr>
   <tr>
     <td>Aperçu de la payload</td>
-    <td>Sélectionner la payload</td>
+    <td>Sélection de la payload</td>
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
 </table>
