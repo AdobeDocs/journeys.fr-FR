@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
 source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Dans le champ **[!UICONTROL URL]** , spécifiez l&#39;URL du service externe :
+1. Dans le champ **[!UICONTROL URL]**, spécifiez l&#39;URL du service externe :
 
    * Si l’URL est statique, saisissez l’URL dans ce champ.
 
@@ -33,7 +33,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
    >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
-1. Dans la section **[!UICONTROL En-têtes]** , définissez les en-têtes HTTP du message de demande à envoyer au service externe :
+1. Dans la section **[!UICONTROL En-têtes]** , définissez les en-têtes HTTP du message de demande à envoyer au service externe :
    1. Pour ajouter un champ d’en-tête, cliquez sur **[!UICONTROL Ajouter un champ d’en-tête]**.
    1. Saisissez la clé du champ d’en-tête.
    1. Pour définir une valeur dynamique pour la paire clé-valeur, sélectionnez **[!UICONTROL Variable]**. Sinon, sélectionnez **[!UICONTROL Constante]**.
@@ -47,10 +47,10 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
       ![](../assets/journeyurlconfiguration2.png)
 
    1. Pour supprimer un champ d’en-tête, pointez sur le champ d’en-tête et cliquez sur l’icône **[!UICONTROL Supprimer]** .
-   Les champs d’en-tête **[!UICONTROL Content-Type]** et **[!UICONTROL Charset]** sont définis par défaut. Vous ne pouvez pas modifier ni supprimer ces champs.
+   Les champs d’en-tête **[!UICONTROL Type de contenu]** et **[!UICONTROL CharSet]** sont définis par défaut. Vous ne pouvez pas modifier ni supprimer ces champs.
 
    Après avoir ajouté l’action personnalisée à un parcours, vous pouvez toujours y ajouter des champs d’en-tête si le parcours est en état de brouillon. Si vous ne souhaitez pas que le parcours soit affecté par les modifications de configuration, dupliquez l’action personnalisée et ajoutez les champs d’en-tête à la nouvelle action personnalisée.
 
    >[!NOTE]
    >
-   >Les en-têtes sont validés conformément aux règles d’analyse des champs. [En savoir plus](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Les en-têtes sont validés conformément à des règles d&#39;analyse. [En savoir plus](https://tools.ietf.org/html/rfc7230#section-3.2.4).
