@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les API de [!DNL Journey Orchestration] prennent en charge 5 000 événements/
 
 Lors de la configuration d’une source de données, vous allez définir une connexion à un système pour récupérer des informations supplémentaires, qui seront ensuite utilisées dans vos parcours. Pour une définition d’action, vous allez configurer la connexion d’un système tiers pour envoyer des messages ou des appels d’API. Pour chaque appel d’API effectué par Journey, l’API de limitation est interrogée à l’aide d’un appel transmis par le moteur d’API. Si une limite est définie, l’appel est rejeté, ce qui permet d’éviter une surcharge du système externe.
 
-Pour les sources de données externes, le nombre maximal d’appels par seconde est défini sur 15. Si le nombre d’appels dépasse 15 par seconde, les appels restants sont ignorés. Vous pouvez augmenter cette limite pour les sources de données externes privées. Contactez l’Adobe pour inclure le point de terminaison dans la liste autorisée. Cela n’est pas possible pour les sources de données externes publiques. Pour en savoir plus sur les bonnes pratiques et les barrières de sécurité lors de l’intégration de systèmes externes, consultez cette [page](../about/external-systems.md).
+Pour les sources de données externes, le nombre maximal d’appels par seconde est défini sur 15. Si le nombre d’appels dépasse 15 par seconde, les appels restants sont ignorés. Vous pouvez augmenter cette limite pour les sources de données externes privées. Contactez Adobe pour inclure le point d’entrée dans la liste autorisée. Cela n’est pas possible pour les sources de données externes publiques. Pour en savoir plus sur les bonnes pratiques et les barrières de sécurité lors de l’intégration de systèmes externes, consultez cette [page](../about/external-systems.md).
 
 Pour en savoir plus sur la configuration d’une action ou d’une source de données, voir les sections [À propos des actions](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html?lang=fr) et [À propos des sources de données](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html?lang=fr)
 
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 L’API de limitation vous permet de créer, configurer et suivre vos configurations de limitation.
 
-| Méthode | Path | Description |
+| Méthode | Chemin | Description |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Obtention d’une liste des configurations de limitation des points d’entrée |
 | [!DNL POST] | /endpointConfigs | Création d’une configuration de limitation des points d’entrée |
