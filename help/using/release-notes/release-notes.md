@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 **Parcours**
 
-* **En-têtes dynamiques**  : vous pouvez désormais transmettre des données dynamiques dans les paramètres d’en-tête HTTP. Ces paramètres peuvent être utilisés par les systèmes d’intégration qui reçoivent les appels HTTP de l’action de parcours, par exemple l’horodatage ou l’ID de suivi. [En savoir plus](../action/url-configuration.md)
-* **Chemins d’URL dynamiques**  : vous pouvez désormais configurer des chemins d’URL dynamiques pour les actions personnalisées. [En savoir plus](../action/url-configuration.md)
+* **En-têtes dynamiques** : vous pouvez désormais transmettre des données dynamiques dans les paramètres d’en-tête HTTP. Ces paramètres peuvent être utilisés par les systèmes d’intégration qui reçoivent les appels HTTP de l’action de parcours, par exemple l’horodatage ou l’ID de suivi. [En savoir plus](../action/url-configuration.md)
+* **Chemins d’URL dynamiques** : vous pouvez désormais configurer des chemins d’URL dynamiques pour les actions personnalisées. [En savoir plus](../action/url-configuration.md)
 
 ## Version de juillet 2021 {#july-2021-release}
 
@@ -72,7 +72,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 ### Améliorations
 
 * Pour les sources de données externes, une règle de limitation de 15 appels par seconde est maintenant définie automatiquement. [En savoir plus](../about/external-systems.md#capping)
-* Les éditeurs d’expression simple et avancé prennent maintenant en charge le format de date XDM.
+* Les éditeurs d’expression simple et avancés prennent maintenant en charge le format de date XDM.
 * Un nouveau filtre a été ajouté à l’écran de liste de parcours. Vous pouvez maintenant filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification du segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
 * Pour les parcours actifs, l’écran des propriétés du parcours affiche maintenant la date de publication et le nom de l’utilisateur qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
@@ -173,7 +173,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles         (version bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles          (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
