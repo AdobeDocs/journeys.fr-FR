@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Orchestration].
 Vous pouvez également consulter les [notes de mise à jour](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
+
+## Septembre 2021
+
+* Les pages de fonctions suivantes ont été mises à jour : [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+
+* Les fonctions suivantes ont été ajoutées : [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+
+* Le type de date date dateOnly a été ajouté à la documentation de l’éditeur d’expression. [En savoir plus](../expression/data-types.md)
+
+* Ajout d’informations sur la durée du cache d’action personnalisée. [En savoir plus](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Ajout d’informations sur les ports par défaut des actions personnalisées. [En savoir plus](../action/url-configuration.md)
+
+* Ajout d’exemples fréquemment utilisés pour interroger les événements d’étape de Parcours dans le lac de données. [En savoir plus](../building-journeys/query-examples.md)
 
 ## Août 2021
 

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 'Sources de données externes '
 description: 'Découvrez comment configurer des sources de données externes '
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
+source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 100%
+source-wordcount: '1357'
+ht-degree: 95%
 
 ---
 
@@ -183,3 +183,7 @@ Vous pouvez modifier la durée de mise en cache du jeton pour une source de donn
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points de terminaison d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée du cache est de 1 heure. Dans la payload de l’action personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.

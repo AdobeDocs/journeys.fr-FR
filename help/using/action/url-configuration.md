@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 95%
 
 ---
 
@@ -25,12 +25,14 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
    * Si l’URL comprend un chemin dynamique, saisissez uniquement la partie statique de l’URL, c’est-à-dire le schéma, l’hôte, le port et, éventuellement, une partie statique du chemin.
 
-      Exemple : `https://xxx.yyy.com:8080/somethingstatic/`
+      Exemple : `https://xxx.yyy.com/somethingstatic/`
 
       Vous spécifiez le chemin dynamique de l’URL lors de l’ajout de l’action personnalisée à un parcours. [En savoir plus](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
+   >
+   >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
 1. Dans la section **[!UICONTROL En-têtes]** , définissez les en-têtes HTTP du message de demande à envoyer au service externe :

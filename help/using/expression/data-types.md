@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Types de données
 description: En savoir plus sur les types de données dans les expressions avancées
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Description**
+
+Représente une date uniquement sans fuseau horaire, affichée sous la forme d’un jour d’un mois d’année.
+
+Il s’agit d’une description de la date, telle qu’elle est utilisée pour les anniversaires.
+
+Format JSON : chaîne.
+
+Le format est le suivant : AAAA-MM-JJ (ISO-8601), par exemple : &quot;2021-03-11&quot;.
+
+Il peut être encapsulé dans une fonction toDateOnly.
+
+Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**Représentation littérale**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**Exemple**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Description**
 
 Représente une valeur de date et d’heure sans fuseau horaire, sous la forme année-mois-jour-heure-minute-seconde-milliseconde.
 
+Format JSON : chaîne.
+
 Ce type ne stocke ni ne représente un fuseau horaire. Il s’agit plutôt d’une description de la date, telle qu’elle est utilisée pour les anniversaires, associée à l’heure locale telle qu’elle est affichée sur une horloge murale.
 
 Il ne peut pas représenter un instant sur la ligne de temps sans informations supplémentaires telles qu’un décalage ou un fuseau horaire.
+
+Il peut être encapsulé dans une fonction toDateTimeOnly.
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
@@ -136,7 +168,14 @@ Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialis
 **Représentation littérale**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**Exemples**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ Elle peut être vue comme un point de la ligne du temps avec les informations su
 
 Format JSON : chaîne.
 
-Elle doit être encapsulée dans une fonction toDateTime.
+Il peut être encapsulé dans une fonction toDateTime .
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**Exemple**
+**Exemples**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

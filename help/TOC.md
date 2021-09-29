@@ -5,10 +5,10 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Journeys
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 100%
       + [Champs de récupération des données des événements journeyStep](using/building-journeys/sharing-fetch-fields.md)
       + [Champs d’identité des événements journeyStep](using/building-journeys/sharing-identity-fields.md)
       + [Champs du parcours](using/building-journeys/sharing-journey-fields.md)
+      + [Exemples de requêtes](using/building-journeys/query-examples.md)
 + Utilisation de l’éditeur d’expression avancé {#building-advanced-conditions-journeys}
    + [À propos de l’éditeur d’expression avancé](using/expression/expressionadvanced.md)
    + Syntaxe {#syntax}
@@ -120,6 +121,7 @@ ht-degree: 100%
          + [sum](using/functions/functionsum.md)
       + Conversion {#conversion}
          + [toBool](using/functions/functiontobool.md)
+         + [toDateOnly](using/functions/functiontodateonly.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
          + [toDecimal](using/functions/functiontodecimal.md)
@@ -143,8 +145,10 @@ ht-degree: 100%
       + Liste {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
+         + [intersection](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -194,5 +198,6 @@ ht-degree: 100%
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
       + [Création du parcours](using/usecase/building-the-journey.md)
    + [Envoi d&#39;un message à l&#39;aide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
+   + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/usecase/collections.md)
 + Utilisation des API{#working-with-apis}
    + [API de limitation](using/api/capping.md)

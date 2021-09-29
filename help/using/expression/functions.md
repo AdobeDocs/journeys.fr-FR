@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Fonctions
 description: En savoir plus sur les fonctions
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 98%
 
 ---
 
@@ -38,6 +38,7 @@ Voici la liste des fonctions prises en charge :
 | Agrégation | [min](../functions/functionmin.md) |
 | Agrégation | [sum](../functions/functionsum.md) |
 | Conversion | [toBool](../functions/functiontobool.md) |
+| Conversion | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversion | [toDateTime](../functions/functiontodatetime.md) |
 | Conversion | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Conversion | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ Voici la liste des fonctions prises en charge :
 | Date | [setHours](../functions/functionsethours.md) |
 | Date | [setDays](../functions/functionsetdays.md) |
 | Liste  | [distinct](../functions/functiondistinct.md) |
-| Liste  | [distinctCount](../functions/functiondistinctcount.md) |
+| Liste  | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| Liste  | [filter](../functions/functionfilter.md) |
+| Liste  | [getListItem](../functions/functiongetlistitem.md) |
 | Liste  | [in](../functions/functionin.md) |
+| Liste  | [intersection](../functions/functionintersect.md) |
 | Liste  | [listSize](../functions/functionlistsize.md) |
 | Liste  | [serializeList](../functions/functionserializelist.md) |
 | Liste  | [sort](../functions/functionsort.md) |

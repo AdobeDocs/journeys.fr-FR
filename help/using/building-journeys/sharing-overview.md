@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Présentation du partage des étapes du parcours
 description: Présentation du partage des étapes du parcours
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: ec5337e6b2df126370b55e1466fc5027659441fe
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Cette fonction est activée par défaut sur toutes les instances pour les événements d&#39;étapes de parcours. Pour les événements d&#39;étape de profil de parcours, l&#39;activation est effectuée sur demande. Les schémas et les jeux de données créés pendant l’approvisionnement de cette fonctionnalité ne doivent pas être modifiés.
+>Cette fonction est activée par défaut sur toutes les instances pour les événements d&#39;étapes de parcours. Pour les événements d&#39;étape de profil de parcours, l&#39;activation est effectuée sur demande. Vous ne pouvez pas modifier ni mettre à jour les schémas et les jeux de données créés lors de la mise en service des événements d’étape. Par défaut, ces schémas et jeux de données sont en lecture seule.
 
 Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Orchestration] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
