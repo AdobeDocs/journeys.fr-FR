@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Transmission dynamique des collections à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 8225167c686112f737d2b6ca22237324a6189b09
+source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 5%
@@ -148,7 +148,7 @@ Vous pouvez voir que &quot;products&quot; est un tableau de deux objets. Vous de
 
    ![](../assets/uc-collection-4.png)
 
-Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](../functions/functionfilter.md) et [intersect](../functions/functiontintersect.md) :
+Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](../functions/functionfilter.md) et [intersect](../functions/functionintersect.md) :
 
 ![](../assets/uc-collection-5.png)
 
