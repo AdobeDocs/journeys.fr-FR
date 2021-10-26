@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Le nom du segment doit être une constante sous forme de chaîne. Il ne peut pas
 
 Les segments sont définis dans [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’éditeur d’expression fournit une liste des segments avec saisie semi-automatique .
 
-Les segments peuvent avoir trois états :
+Les segments peuvent posséder trois statuts :
 
-* existing : continue d’être dans le segment.
-* réalisé : est en train de saisir le segment.
-* exited : l’entité quitte le segment.
+* existing : lʼentité reste dans le segment.
+* realized : lʼentité entre dans le segment.
+* exited : lʼentité quitte le segment.
 
 Seuls les individus présentant les statuts de participation **Réalisé** et **Existant** sont considérés comme membres du segment. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` signifie que vous disposez d’un segmentMembership avec le statut renseigné/existant.
+`IF inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 
-`ELSE inSegment('segmentName') == false` signifie que vous disposez d’un segmentMembership avec le statut de sortie.
+`ELSE inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
 
 ## Catégorie
 
@@ -61,6 +61,6 @@ Renvoie une valeur booléenne.
 
 `inSegment("men over 50")`
 
-Explication:
+Explication :
 
 La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours figure dans le segment Adobe Experience Platform « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
