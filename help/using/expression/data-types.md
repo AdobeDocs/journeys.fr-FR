@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ D’un point de vue technique, une constante contient toujours un type de donné
 
 Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur leur représentation.
 
-## chaîne {#string}
+## string {#string}
 
 **Description**
 
@@ -49,7 +49,7 @@ Format de sérialisation : UTF-8
 'hello world'
 ```
 
-## entier {#integer}
+## integer {#integer}
 
 **Description**
 
@@ -95,7 +95,7 @@ Format de sérialisation : utilisation de « . » comme séparateur décimal.
 3.14
 ```
 
-## booléen {#boolean}
+## boolean {#boolean}
 
 **Description**
 
@@ -123,15 +123,15 @@ true
 
 **Description**
 
-Représente une date uniquement sans fuseau horaire, affichée sous la forme d’un jour d’un mois d’année.
+Représente une valeur de date uniquement sans fuseau horaire, sous la forme année-mois-jour.
 
-Il s’agit d’une description de la date, telle qu’elle est utilisée pour les anniversaires.
+Il sʼagit dʼune description de la date, telle quʼelle est utilisée pour les anniversaires.
 
 Format JSON : chaîne.
 
-Le format est le suivant : AAAA-MM-JJ (ISO-8601), par exemple : &quot;2021-03-11&quot;.
+Format : AAAA-MM-JJ (ISO-8601), par exemple : « 2021-03-11 ».
 
-Il peut être encapsulé dans une fonction toDateOnly.
+Elle doit être encapsulée dans une fonction toDateOnly.
 
 Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
@@ -159,7 +159,7 @@ Ce type ne stocke ni ne représente un fuseau horaire. Il s’agit plutôt d’u
 
 Il ne peut pas représenter un instant sur la ligne de temps sans informations supplémentaires telles qu’un décalage ou un fuseau horaire.
 
-Il peut être encapsulé dans une fonction toDateTimeOnly.
+Elle doit être encapsulée dans une fonction toDateTimeOnly.
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
@@ -188,7 +188,7 @@ Elle peut être vue comme un point de la ligne du temps avec les informations su
 
 Format JSON : chaîne.
 
-Il peut être encapsulé dans une fonction toDateTime .
+Elle doit être encapsulée dans une fonction toDateTime.
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
