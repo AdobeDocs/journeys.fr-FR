@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2971'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
-<p>Pour plus d’informations sur les collections, consultez la <a href="../usecase/collections.md">documentation détaillée</a>. </p>
-<p>Les fonctions de filtre et d’intersection ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
-<p>Consultez la documentation sur les fonctions <a href="../functions/functionfilter.md">filter</a> et <a href="../functions/functionintersect.md">intersect</a> .</p>
+<p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
+<p>Pour plus d'informations sur les collections, consultez la <a href="../usecase/collections.md">documentation détaillée</a>. </p>
+<p>Les fonctions filter et intersect ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
+<p>Consultez la documentation sur les fonctions <a href="../functions/functionfilter.md">filter</a> et <a href="../functions/functionintersect.md">intersect</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -40,10 +40,10 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* Les schémas et les jeux de données générés par le système qui ont été créés pendant la mise en service des événements d’étape sont désormais en lecture seule, ce qui permet d’éviter toute modification involontaire des schémas critiques. [En savoir plus](../building-journeys/sharing-overview.md)
+* Les schémas et les jeux de données générés par le système qui ont été créés pendant l&#39;approvisionnement des événements d’étape sont désormais en lecture seule, ce qui permet d’éviter toute modification involontaire des schémas critiques. [En savoir plus](../building-journeys/sharing-overview.md)
 * Libellez de manière claire l’activité **Attente** avec un libellé qui s’affichera dans la zone de travail. Le libellé est également utilisé dans les journaux des modes de reporting et de test pour identifier clairement ce que vous faites. [En savoir plus](../building-journeys/using-the-journey-designer.md)
 * Trouvez plus rapidement vos événements et actions en filtrant les éléments dans les catégories **Événements** et **Action** à l’aide de la recherche. Les activités d’orchestration ne sont plus filtrées. [En savoir plus](../building-journeys/using-the-journey-designer.md)
-* Lors de la définition d’une condition d’identifiant d’événement dans une règle, l’opérateur &quot;contient&quot; est désormais disponible pour les types de chaînes de champs. [En savoir plus](../event/about-creating.md)
+* Lors de la définition dʼune condition dʼidentifiant dʼévénement dans un événement basé sur des règles, lʼopérateur « contains » est désormais disponible pour les types de chaînes de champs. [En savoir plus](../event/about-creating.md)
 
 ## Version d’août 2021 {#august-2021-release}
 
