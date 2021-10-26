@@ -1,25 +1,25 @@
 ---
 product: adobe campaign
-title: intersection
-description: En savoir plus sur la fonction intersecte
+title: intersect
+description: En savoir plus sur la fonction intersect
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: f2f5cc29f5079419662439f1cb1dee8fcb1b1ab9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
-# intersection{#intersect}
+# intersect{#intersect}
 
-Renvoie les valeurs communes des deux listes de saisie. Si l’une des deux listes est nulle, renvoie une liste vide.
+Renvoie les valeurs communes dans les deux listes dʼentrée. Si lʼune des deux listes est nulle, elle renvoie une liste vide.
 
 ## Catégorie
 
-Liste 
+Liste
 
 ## Syntaxe de la fonction
 
@@ -34,14 +34,14 @@ Liste 
 
 ## Signatures et types renvoyés
 
-`intersect(listString,listString)`: listString 
-`intersect(listDecimal,listDecimal)`: listDecimal 
-`intersect(listInteger,listInteger)`: listInteger 
-`intersect(listDateTime,listDateTime)`: listDateTime 
-`intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly 
-`intersect(listDateOnly,listDateOnly)`: listDateOnly 
-`intersect(listDuration,listDuration)`: listDuration 
-`intersect(listBoolean,listBoolean)`: listBoolean
+`intersect(listString,listString)` : listString
+`intersect(listDecimal,listDecimal)` : listDecimal
+`intersect(listInteger,listInteger)` : listInteger
+`intersect(listDateTime,listDateTime)` : listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)` : listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)` : listDateOnly
+`intersect(listDuration,listDuration)` : listDuration
+`intersect(listBoolean,listBoolean)` : listBoolean
 
 Renvoie une liste.
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-Renvoie [&quot;sports&quot;, &quot;news&quot;]
+Renvoie [« sports », « news »]
 
 ```
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-Renvoie les éléments communs entre les attributs de profil et une liste donnée de catégories.
+Renvoie les éléments communs entre les attributs du profil et la liste de catégories donnée.
 
 ```
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-Renvoie les éléments communs entre les attributs de profil et le champ d’événement donné.
+Renvoie les éléments communs entre les attributs du profil et le champ dʼévénement donné.
