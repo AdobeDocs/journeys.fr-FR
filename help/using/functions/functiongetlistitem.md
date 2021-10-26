@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 5e2af021f1c82063fcc0d4e4b5edf13c57cc6c72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Renvoie l’élément de la liste à l’index donné.
 
 ## Catégorie
 
-Liste 
+Liste
 
 ## Syntaxe de la fonction
 
@@ -37,7 +37,7 @@ Liste 
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | entier |
+| index | integer |
 
 ## Signatures et type renvoyé
 
@@ -82,7 +82,7 @@ Exemples avec un champ d’événement &#39;event.appVersion&#39; avec la valeur
 
 `split(@{event.appVersion}, "\\.")`
 
-Retours `["20", "45", "2", "3434"]`
+Renvoie `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
