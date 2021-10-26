@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Septembre 2021
 
-* Les pages de fonctions suivantes ont été mises à jour : [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+* Les pages de fonctions suivantes ont été mises à jour : [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
 
-* Les fonctions suivantes ont été ajoutées : [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+* Les fonctions suivantes ont été ajoutées : [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
 
-* Le type de date date dateOnly a été ajouté à la documentation de l’éditeur d’expression. [En savoir plus](../expression/data-types.md)
+* Le type de date dateOnly a été ajouté à la documentation de l’éditeur d’expression. [En savoir plus](../expression/data-types.md)
 
-* Ajout d’informations sur la durée du cache d’action personnalisée. [En savoir plus](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Ajout d’informations sur la durée de mise en cache des actions personnalisées. [En savoir plus](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
 * Ajout d’informations sur les ports par défaut des actions personnalisées. [En savoir plus](../action/url-configuration.md)
 
-* Ajout d’exemples fréquemment utilisés pour interroger les événements d’étape de Parcours dans le lac de données. [En savoir plus](../building-journeys/query-examples.md)
+* Ajout d’exemples fréquemment utilisés pour interroger les événements d’étape de parcours dans le lac de données. [En savoir plus](../building-journeys/query-examples.md)
 
 ## Août 2021
 
