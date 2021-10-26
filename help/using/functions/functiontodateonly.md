@@ -7,15 +7,15 @@ role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 5e2af021f1c82063fcc0d4e4b5edf13c57cc6c72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-Convertit une valeur d’argument en une valeur date uniquement.
+Convertit une valeur dʼargument en une valeur de date uniquement.
 
 ## Catégorie
 
@@ -29,7 +29,7 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| date au format ISO-8601 ou AAAA-MM-JJ (format de date XDM) | chaîne |
+| date au format ISO-8601 ou « AAAA-MM-JJ » (format de date XDM) | chaîne |
 | date | date |
 
 ## Signatures et types renvoyés
