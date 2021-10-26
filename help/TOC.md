@@ -6,9 +6,9 @@ user-guide-description: Fournit des instructions pratiques pour la mise en œuvr
 index: true
 feature: Journeys
 source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 97%
          + [À propos des activités d’action](using/building-journeys/about-action-activities.md)
          + [Utilisation d’Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
          + [Utilisation d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
-         + [Utilisation d’actions personnalisées](using/building-journeys/using-custom-actions.md)
+         + [Utilisation dʼactions personnalisées](using/building-journeys/using-custom-actions.md)
          + [Passage d’un parcours à un autre](using/building-journeys/jump.md)
          + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
    + [Test du parcours](using/building-journeys/testing-the-journey.md)
@@ -148,7 +148,7 @@ ht-degree: 97%
          + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
-         + [intersection](using/functions/functionintersect.md)
+         + [intersect](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -197,7 +197,7 @@ ht-degree: 97%
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
       + [Création du parcours](using/usecase/building-the-journey.md)
-   + [Envoi d&#39;un message à l&#39;aide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
-   + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/usecase/collections.md)
+   + [Envoi dʼun message à lʼaide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
+   + [Transmission dynamique des collections à l’aide dʼactions personnalisées](using/usecase/collections.md)
 + Utilisation des API{#working-with-apis}
    + [API de limitation](using/api/capping.md)
