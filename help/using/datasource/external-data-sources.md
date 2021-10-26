@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1357'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ La définition du point d’entrée à appeler pour générer le jeton d’accè
 * endpoint : URL à utiliser pour générer le point d’entrée
 * méthode de la requête HTTP sur le point d’entrée (GET ou POST)
 * headers : paires clé/valeur à injecter en tant qu’en-têtes dans cet appel, le cas échéant
-* body : décrit le corps de l’appel en cas d’utilisation de la méthode POST. Nous prenons en charge une structure de corps limitée, définie dans bodyParams (paires clé/valeur). bodyType décrit le format et le codage du corps dans l’appel :
+* body : décrit le corps de lʼappel en cas dʼutilisation de la méthode POST. Nous prenons en charge une structure de corps limitée, définie dans bodyParams (paires clé/valeur). bodyType décrit le format et le codage du corps dans lʼappel :
    * &#39;form&#39; : signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées comme suit : key1=value1&amp;key2=value2&amp;…
    * &#39;json&#39; : signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées sous la forme d’un objet json, tel quel : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
@@ -186,4 +186,4 @@ Vous pouvez modifier la durée de mise en cache du jeton pour une source de donn
 
 >[!NOTE]
 >
->La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points de terminaison d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée du cache est de 1 heure. Dans la payload de l’action personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
+>La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload de l’action personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
