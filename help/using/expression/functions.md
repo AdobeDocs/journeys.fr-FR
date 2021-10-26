@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,17 +58,17 @@ Voici la liste des fonctions prises en charge :
 | Date | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | Date | [setHours](../functions/functionsethours.md) |
 | Date | [setDays](../functions/functionsetdays.md) |
-| Liste  | [distinct](../functions/functiondistinct.md) |
-| Liste  | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Liste  | [filter](../functions/functionfilter.md) |
-| Liste  | [getListItem](../functions/functiongetlistitem.md) |
-| Liste  | [in](../functions/functionin.md) |
-| Liste  | [intersection](../functions/functionintersect.md) |
-| Liste  | [listSize](../functions/functionlistsize.md) |
-| Liste  | [serializeList](../functions/functionserializelist.md) |
-| Liste  | [sort](../functions/functionsort.md) |
+| Liste | [distinct](../functions/functiondistinct.md) |
+| Liste | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| Liste | [filter](../functions/functionfilter.md) |
+| Liste | [getListItem](../functions/functiongetlistitem.md) |
+| Liste | [in](../functions/functionin.md) |
+| Liste | [intersect](../functions/functionintersect.md) |
+| Liste | [listSize](../functions/functionlistsize.md) |
+| Liste | [serializeList](../functions/functionserializelist.md) |
+| Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Mathématiques | [round](../functions/functionround.md) |
+| Math | [round](../functions/functionround.md) |
 | Chaîne | [concat](../functions/functionconcat.md) |
 | Chaîne | [contain](../functions/functioncontain.md) |
 | Chaîne | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
