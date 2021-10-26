@@ -1,25 +1,25 @@
 ---
 product: adobe campaign
 title: filter
-description: En savoir plus sur la fonction fister
+description: En savoir plus sur la fonction filter
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 729ee71e063ae73c7c10f20bb3a410c43cb75faf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # filter{#filter}
 
-Renvoie un listObject avec des objets dont l’attribut key correspond à l’une des valeurs de clé données.
+Renvoie une valeur listObject avec les objets dont lʼattribut clé correspond à lʼune des valeurs clés données.
 
 ## Catégorie
 
-Liste 
+Liste
 
 ## Syntaxe de la fonction
 
@@ -29,8 +29,8 @@ Liste 
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToFilter | listObject | liste des objets à filtrer. Il doit s’agir d’une référence de champ. |
-| keyAttributeName | chaîne | nom d’attribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
+| listToFilter | listObject | liste dʼobjects à filtrer. Il doit être une référence de champ. |
+| keyAttributeName | chaîne | nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
 | keyValueList | list | tableau de valeurs clés pour le filtrage |
 
 ## Signatures et types renvoyés
@@ -51,11 +51,11 @@ Liste 
 
 `filter(listObject, string, listBoolean)`
 
-Renvoie un listObject.
+Renvoie une valeur listObject.
 
 ## Exemples
 
-Voici un exemple de payload transmise dans un événement entrant &quot;myevent&quot; :
+Voici un exemple dʼune payload transmise dans un événement entrant « myevent » :
 
 ```
 "productListItems": [{
@@ -73,7 +73,7 @@ Voici un exemple de payload transmise dans un événement entrant &quot;myevent&
 }]
 ```
 
-Vous pouvez utiliser l’expression suivante :
+Vous pouvez utiliser lʼexpression suivante :
 
 ```
 filter(
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-Renvoie un listObject contenant les deux objets dont l’identifiant est &quot;product2&quot; et &quot;product3&quot;.
+Renvoie une valeur listObject contenant les deux objets avec « product2 » et « product3 » comme id.
