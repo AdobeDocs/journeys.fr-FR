@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
-workflow-type: ht
-source-wordcount: '2971'
-ht-degree: 100%
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,30 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## Version d’octobre 2021 {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Améliorations
+
+* **Editeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec des cartes. [En savoir plus](../expression/field-references.md)
+* **Accessibilité** - Des améliorations ont été apportées à l’accessibilité. Journey Orchestration est désormais entièrement conforme en termes d’accessibilité.
+* **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../usecase/collections.md)
+* **Surveillance** - Les événements d’étape pour les parcours en direct et le mode test ont été améliorés. [Nouveaux champs](../building-journeys/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les traitements d&#39;export de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories dans le schéma d’événement d’étape de Parcours pour Journey Orchestration. Tous les champs d’événements d’étape précédente sont toujours disponibles dans la variable [stepEvents](../building-journeys/sharing-legacy-fields.md) catégorie.
 
 ## Version de septembre 2021 {#september-2021-release}
 

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: endWithIgnoreCase
 description: En savoir plus sur la fonction endWithIgnoreCase
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3d14fe82-e287-4474-8d78-10efbf55d338
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,6 @@ Renvoie une valeur booléenne.
 
 ## Exemple
 
-`endWithIgnoreCase("rowing is great', "AT")`
+`endWithIgnoreCase("rowing is great", "AT")`
 
 Renvoie true.

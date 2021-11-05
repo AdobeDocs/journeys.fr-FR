@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Utilisation de l’éditeur d’expression avancé
 description: Découvrez comment créer des expressions avancées
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 90%
 
 ---
 
@@ -46,26 +46,26 @@ Ensuite, il faut sélectionner tous les événements addtocart qui n’ont pas �
 
 >[!NOTE]
 >
->Pour insérer rapidement un champ dans l’expression, double-cliquez dessus dans le panneau de gauche de l’éditeur.
+>Pour insérer rapidement des champs dans l’expression, double-cliquez sur le champ dans le panneau de gauche de l’éditeur.
 
 L’horodatage spécifié tient lieu de valeur de date et d’heure, et la deuxième valeur correspond au nombre de jours.
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 Cette expression renvoie une valeur booléenne.
@@ -76,20 +76,20 @@ Cette expression renvoie une valeur booléenne.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* Les valeurs nécessaires sont spécifiées à droite. Ici, nous devons récupérer l’emplacement du magasin, qui est mappé à partir de l’emplacement de l’événement &quot;ArriveLumaStudio&quot; :
+* À droite, les valeurs nécessaires sont spécifiées. Ici, nous devons récupérer l’emplacement du magasin, qui est mappé à partir de l’emplacement de l’événement &quot;ArriveLumaStudio&quot; :
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
 * Spécifiez la référence du produit (SKU) à l’aide de la fonction `first` pour récupérer la dernière interaction &quot;addToCart&quot; :
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où
 
 Cette condition récupère uniquement les événements de géorepérage déclenchés dans &quot;Arlington&quot; :
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -114,7 +114,7 @@ Explication : il s’agit d’une comparaison de chaînes stricte (sensible à 
 
 La même requête avec `Is sensitive` non coché génère l’expression suivante en mode avancé :
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ La même requête avec `Is sensitive` non coché génère l’expression suivant
 
 L’expression suivante permet de définir l’identifiant CRM dans un champ de personnalisation d’action :
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,7 +135,6 @@ L’expression suivante permet de définir l’identifiant CRM dans un champ de 
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 

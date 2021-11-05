@@ -2,13 +2,13 @@
 product: adobe campaign
 title: startWithIgnoreCase
 description: En savoir plus sur la fonction startWithIgnoreCase
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '44'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,6 @@ Renvoie une valeur booléenne.
 
 ## Exemple
 
-`startWith("rowing is great', "RO")`
+`startWithIgnoreCase("rowing is great", "RO")`
 
 Renvoie true.

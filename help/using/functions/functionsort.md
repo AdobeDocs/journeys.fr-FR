@@ -2,14 +2,14 @@
 product: adobe campaign
 title: sort
 description: En savoir plus sur la fonction sort
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Trie une liste de valeurs dans l’ordre naturel. Le premier argument est la lis
 
 ## Catégorie
 
-Liste 
+Liste
 
 ## Syntaxe de la fonction
 
@@ -29,13 +29,14 @@ Liste 
 
 | Paramètre | Type |
 |-----------|------------------|
-| Liste  | listString |
-| Liste  | listBoolean |
-| Liste  | listInteger |
-| Liste  | listDecimal |
-| Liste  | listDuration |
-| Liste  | listDateTime |
-| Liste  | listDateTimeOnly |
+| Liste | listString |
+| Liste | listBoolean |
+| Liste | listInteger |
+| Liste | listDecimal |
+| Liste | listDuration |
+| Liste | listDateTime |
+| Liste | listDateTimeOnly |
+| Liste | listDateOnly |
 | Booléen | Booléen |
 
 ## Signature et type renvoyé
@@ -60,6 +61,10 @@ Renvoie une liste de dates et heures sans tenir compte du fuseau horaire.
 
 Renvoie une liste de dates et heures.
 
+`sort(<listDateOnly>,<boolean>)`
+
+Renvoie une liste de dates.
+
 `sort(<listBoolean>,<boolean>)`
 
 Renvoie une liste de valeurs booléennes.
@@ -68,8 +73,8 @@ Renvoie une liste de valeurs booléennes.
 
 `sort(["A", "C", "B"], true)`
 
-Retours `["A","B","C"]`.
+Renvoie `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Retours `[3, 2, 1]`.
+Renvoie `[3, 2, 1]`.

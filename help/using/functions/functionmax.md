@@ -2,14 +2,14 @@
 product: adobe campaign
 title: max
 description: En savoir plus sur la fonction max
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 116713e0-7bbd-4150-8495-f87034eafb5f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 100%
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
@@ -32,8 +32,9 @@ Agrégation
 * listDecimal
 * listDateTime
 * listDateTimeOnly
+* listDateOnly
 * durée
-* entier
+* integer
 * decimal
 * dateTime
 * dateTimeOnly
@@ -55,6 +56,10 @@ Renvoie une date et une heure sans prendre en compte le fuseau horaire.
 `max(<listDateTime>)`
 
 Renvoie une date et une heure.
+
+`max(<listDateOnly>)`
+
+Renvoie une date.
 
 `max(<listDecimal>)`
 

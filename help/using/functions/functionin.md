@@ -2,13 +2,13 @@
 product: adobe campaign
 title: in
 description: En savoir plus sur la fonction in
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Le type de l’`<expression>` doit correspondre aux éléments de la liste. Pour
 
 ## Catégorie
 
-Liste 
+Liste
 
 ## Syntaxe de la fonction
 
@@ -38,13 +38,14 @@ Liste 
 | Durée | Durée |
 | DateTime | DateTime |
 | DateTimeOnly | DateTimeOnly |
-| Liste  | listString |
-| Liste  | listBoolean |
-| Liste  | listInteger |
-| Liste  | listDecimal |
-| Liste  | listDuration |
-| Liste  | listDateTime |
-| Liste  | listDateTimeOnly |
+| Liste | listString |
+| Liste | listBoolean |
+| Liste | listInteger |
+| Liste | listDecimal |
+| Liste | listDuration |
+| Liste | listDateTime |
+| Liste | listDateTimeOnly |
+| Liste | listDateOnly |
 
 ## Signature et type renvoyé
 
@@ -59,6 +60,8 @@ Liste 
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
 
 `in(<dateTime>,<listDateTime>)`
+
+`in(<dateOnly>,<listDateOnly>)`
 
 `in(<duration>,<listDuration>)`
 

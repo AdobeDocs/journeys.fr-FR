@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 D’un point de vue technique, une constante contient toujours un type de données. Dans une expression littérale, nous ne spécifions que la valeur. Le type de données peut être déduit de la valeur (par exemple : chaîne, entier, décimal, etc.). Pour des cas spécifiques, tels que la date et l’heure, des fonctions dédiées sont utilisées pour la représentation.
 
-Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur leur représentation.
+Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur la manière dont elles sont représentées.
 
 ## string {#string}
 
@@ -31,21 +31,21 @@ Format de sérialisation : UTF-8
 
 **Représentation littérale**
 
-```
+```json
 "<value>"
 ```
 
-```
+```json
 '<value>'
 ```
 
 **Exemple**
 
-```
+```json
 "hello world"
 ```
 
-```
+```json
 'hello world'
 ```
 
@@ -59,13 +59,13 @@ Format JSON : nombre
 
 **Représentation littérale**
 
-```
+```json
 <integer value>
 ```
 
 **Exemple**
 
-```
+```json
 42
 ```
 
@@ -85,13 +85,13 @@ Format de sérialisation : utilisation de « . » comme séparateur décimal.
 
 **Représentation littérale**
 
-```
+```json
 <integer value>.<integer value>
 ```
 
 **Exemple**
 
-```
+```json
 3.14
 ```
 
@@ -105,17 +105,17 @@ Format JSON : booléen
 
 **Représentation littérale**
 
-```
+```json
 true
 ```
 
-```
+```json
 false
 ```
 
 **Exemple**
 
-```
+```json
 true
 ```
 
@@ -137,13 +137,13 @@ Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialis
 
 **Représentation littérale**
 
-```
+```json
 date("<dateOnly in ISO-8601 format>")  
 ```
 
 **Exemple**
 
-```
+```json
 date("2021-02-19")
 ```
 
@@ -167,13 +167,13 @@ Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialis
 
 **Représentation littérale**
 
-```
+```json
 date("<dateTimeOnly in ISO-8601 format>")  
 ```
 
 **Exemples**
 
-```
+```json
 date("2021-02-19T00.00.000")
 date("2021-02-19T00.00")
 ```
@@ -200,45 +200,45 @@ Le fuseau horaire peut être spécifié par un décalage ou un code de fuseau ho
 
 **Représentation littérale**
 
-```
+```json
 toDateTime("<dateTime in ISO-8601 format>")
 ```
 
-```
+```json
 date("<dateTime in ISO-8601 format>")
 ```
 
-```
+```json
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
 **Exemples**
 
-```
+```json
 date("2021-02-19T00.00.000Z")
 ```
 
-```
+```json
 toDateTime("1977-04-22T06:00:00Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123+02:00")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123-00:20")
 ```
 
-```
+```json
 toDateTime(1560762190189)
 ```
 
@@ -260,53 +260,53 @@ Duration.parse : les formats acceptés sont basés sur le format de durée ISO-
 
 **Représentation littérale**
 
-```
+```json
 toDuration("<duration in ISO-8601 format>")
 ```
 
-```
+```json
 toDuration(<duration in milliseconds>)
 ```
 
 **Exemple**
 
-```
+```json
 toDuration("PT5S") -- parses as 5 seconds
 ```
 
-```
+```json
 toDuration(500) -- parses as 500ms
 ```
 
-```
+```json
 toDuration("PT20.345S") -- parses as "20.345 seconds"
 ```
 
-```
+```json
 toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
 ```
 
-```
+```json
 toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
 ```
 
-```
+```json
 toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
 ```
 
-```
+```json
 toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
 ```
 
-```
+```json
 toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
 ```
 
-```
+```json
 toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 ```
 
-```
+```json
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
@@ -320,20 +320,20 @@ Le polymorphisme n’est pas pris en charge. Par conséquent, toutes les express
 
 **Représentation littérale**
 
-```
+```json
 [<expression>, <expression>, ... ]
 ```
 
 **Exemple**
 
-```
+```json
 ["value1","value2"]
 ```
 
-```
+```json
 [3,5]
 ```
 
-```
+```json
 [toDuration(500),toDuration(800)]
 ```

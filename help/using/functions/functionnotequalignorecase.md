@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: notEqualWithIgnoreCase
-description: En savoir plus sur la fonction notEqualWithIgnoreCase
-feature: Parcours
+title: notEqualIgnoreCase
+description: En savoir plus sur la fonction notEqualIgnoreCase
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d99601cf-2ba8-4150-afa7-df6b8af47bf6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 100%
+source-wordcount: '37'
+ht-degree: 81%
 
 ---
 
-# notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
+# notEqualIgnoreCase {#notEqualIgnoreCase}
 
 Vérifie si la chaîne du premier argument est différente de la chaîne du deuxième argument, en ignorant les considérations de casse.
 
@@ -23,7 +23,7 @@ Chaîne
 
 ## Syntaxe de la fonction
 
-`notEqualWithIgnoreCase(<parameters>)`
+`notEqualIgnoreCase(<parameters>)`
 
 ## Paramètres
 
@@ -31,10 +31,10 @@ Chaîne
 
 ## Signature et type renvoyé
 
-`notEqualWithIgnoreCase(<string>,<string>)`
+`notEqualIgnoreCase(<string>,<string>)`
 
 Renvoie une valeur booléenne.
 
 ## Exemple
 
-`notEqualWithIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad"))`
+`notEqualIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad")`

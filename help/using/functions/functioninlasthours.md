@@ -2,13 +2,13 @@
 product: adobe campaign
 title: inLastHours
 description: En savoir plus sur la fonction inLastHours
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '45'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Date
 | Paramètre | Type |
 |-----------|------------------|
 | date et heure | dateTime |
-| delta | entier |
+| delta | integer |
 
 ## Signatures et type renvoyé
 
@@ -40,7 +40,7 @@ Renvoie une valeur booléenne.
 
 ## Exemples
 
-`inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4))`
+`inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
 Renvoie true.
 

@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: equalWithIgnoreCase
-description: En savoir plus sur la fonction equalWithIgnoreCase
-feature: Parcours
+title: equalIgnoreCase
+description: En savoir plus sur la fonction equalIgnoreCase
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 100%
+source-wordcount: '36'
+ht-degree: 80%
 
 ---
 
-# equalWithIgnoreCase {#equalWithIgnoreCase}
+# equalIgnoreCase {#equalIgnoreCase}
 
 Compare la chaîne du premier argument à la chaîne du deuxième argument, en ignorant les considérations de casse.
 
@@ -23,7 +23,7 @@ Chaîne
 
 ## Syntaxe de la fonction
 
-`equalWithIgnoreCase(<parameters>)`
+`equalIgnoreCase(<parameters>)`
 
 ## Paramètres
 
@@ -31,12 +31,12 @@ Chaîne
 
 ## Signature et type renvoyé
 
-`equalWithIgnoreCase(<string>,<string>)`
+`equalIgnoreCase(<string>,<string>)`
 
 Renvoie une valeur booléenne.
 
 ## Exemple
 
-`equalWithIgnoreCase("rowing is great', "rowing is GREAT")`
+`equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
 Renvoie true.

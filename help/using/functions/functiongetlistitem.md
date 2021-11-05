@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
-source-git-commit: 5e2af021f1c82063fcc0d4e4b5edf13c57cc6c72
-workflow-type: ht
-source-wordcount: '85'
-ht-degree: 100%
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 94%
 
 ---
 
@@ -60,6 +60,10 @@ Renvoie une date et une heure sans prendre en compte le fuseau horaire.
 `getListItem(<listDateTime>,<index>)`
 
 Renvoie une date et une heure.
+
+`getListItem(<listDateOnly>,<index>)`
+
+Renvoie une liste de dates.
 
 `getListItem(<listBoolean>,<index>)`
 

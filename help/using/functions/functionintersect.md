@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: f2f5cc29f5079419662439f1cb1dee8fcb1b1ab9
-workflow-type: ht
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%
 
 ---
 
-# intersect{#intersect}
+# intersection{#intersect}
 
 Renvoie les valeurs communes dans les deux listes dʼentrée. Si lʼune des deux listes est nulle, elle renvoie une liste vide.
 
@@ -47,7 +47,7 @@ Renvoie une liste.
 
 ## Exemples
 
-```
+```json
 intersect(
     ["sports", "news", "documentary"],
     ["sports", "movies", "documentary"]
@@ -56,7 +56,7 @@ intersect(
 
 Renvoie [« sports », « news »]
 
-```
+```json
 intersect(
     #{ExperienceDataPlatform.profile.interests},
     ["sports", "news", "documentary"]
@@ -65,10 +65,10 @@ intersect(
 
 Renvoie les éléments communs entre les attributs du profil et la liste de catégories donnée.
 
-```
+```json
 intersect(
-        	#{ExperienceDataPlatform.profile.interests},
-            @{myEvent.sport_interests}
+    #{ExperienceDataPlatform.profile.interests},
+        @{myEvent.sport_interests}
 )
 ```
 

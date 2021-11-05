@@ -2,13 +2,13 @@
 product: adobe campaign
 title: avg
 description: En savoir plus sur la fonction avg
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '49'
 ht-degree: 100%
 
 ---
@@ -33,11 +33,9 @@ Types pris en charge :
 * listInteger
 * listDecimal
 * decimal
-* entier
+* integer
 
 ## Signatures et type renvoyé
-
-`avg(<listInteger>)`
 
 `avg(<listInteger>)`
 

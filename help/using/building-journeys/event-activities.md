@@ -2,14 +2,14 @@
 product: adobe campaign
 title: À propos des activités d’événement
 description: En savoir plus sur les activités d’événement
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 5b09ed456b6a9645dbb7897481317d3904e29d31
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Lorsque vous cliquez sur l’activité d’événement dans la zone de travail, 
 
 Une activité d&#39;événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer une temporisation pour l&#39;événement.
 
-Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n&#39;est pas le cas, le client va, au choix, s&#39;engager dans un chemin de temporisation ou terminer son parcours.
+Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client va soit s’engager dans un chemin d’accès au délai d’expiration, soit terminer son parcours.
 
 Pour configurer une temporisation d&#39;événement, procédez comme suit :
 

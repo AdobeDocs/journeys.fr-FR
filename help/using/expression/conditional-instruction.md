@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Instruction conditionnelle (if, then, else)
 description: En savoir plus sur l’instruction conditionnelle
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ L’instruction conditionnelle (if, then, else) est prise en charge dans l’éd
 >
 >Toutes les expressions doivent être mises entre parenthèses.
 
-```
+```json
 if  (<expression1>)
 then
    (<expression2>)
@@ -37,7 +37,7 @@ else
 
 `<expression2>` et `<expression3>` doit avoir le même type ou des types compatibles. Les signatures prises en charge et les types renvoyés sont les suivants :
 
-```
+```json
 boolean,boolean : boolean
 dateTime,dateTime : dateTime
 dateTimeOnly,dateTimeOnly : dateTimeOnly
@@ -49,6 +49,7 @@ string,string : string
 listBoolean,listBoolean : listBoolean
 listDateTime,listDateTime : listDateTime
 listDateTimeOnly,listDateTimeOnly : listDateTimeOnly
+listDateOnly,listDateOnly : listDateOnly
 listDecimal,listDecimal : listDecimal
 listInteger,listInteger : listInteger
 listString,listString : listString
@@ -60,7 +61,7 @@ L’instruction conditionnelle vous permet d’optimiser le workflow de parcours
 
 Exemple pour une activité d’action (pour un champ qui attend une chaîne comme résultat de l’instruction conditionnelle) :
 
-```
+```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
 then
    ('apns')

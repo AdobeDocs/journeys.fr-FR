@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Références de champ
 description: En savoir plus sur les références de champ dans les expressions avancées
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 67%
 
 ---
 
@@ -25,7 +25,7 @@ Si vous utilisez des caractères spéciaux dans un champ, vous devez avoir recou
 
 Par exemple, si votre champ est _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -39,11 +39,11 @@ Dans l’expression, les champs d’événement sont référencés par « @ »
 
 Une couleur de syntaxe permet de distinguer visuellement les champs d’événements (vert) des groupes de champs (bleu).
 
-**Valeurs par défaut des références de champ**
+## Valeurs par défaut des références de champ
 
-Il est possible d’associer une valeur par défaut à un nom de champ. La syntaxe se présente comme suit :
+Une valeur par défaut peut être associée à un nom de champ. La syntaxe se présente comme suit :
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
@@ -58,7 +58,7 @@ Il est possible d’associer une valeur par défaut à un nom de champ. La synta
 
 Exemples :
 
-```
+```json
 // for an event 'OrderEvent' having the following payload:
 {
     "orderId": "12345"
@@ -88,27 +88,51 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-**Référence d’un champ dans les collections**
+## Référence à un champ dans les collections
 
-Les éléments définis dans les collections sont référencés à l’aide des fonctions spécifiques « all », « first » et « last ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
+Les éléments définis dans les collections sont référencés à l’aide de fonctions spécifiques. `all`, `first` et `last`. Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
-Exemple :
+Exemple :
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Référence d’un champ défini dans un mapping**
+## Référence à un champ défini dans un mappage
+
+### fonction `entry`
 
 Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’entrée avec une clé donnée. Elle est par exemple utilisée lors de la définition de la clé d’un événement, selon l’espace de noms sélectionné. Voir Sélection de l’espace de noms. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
 
-```
+```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
 Dans cette expression, nous obtenons l’entrée correspondant à la clé « E-mail » du champ « IdentityMap » d’un événement. L’entrée « E-mail » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
-**Valeurs de paramètre d’une source de données (valeurs dynamiques de la source de données)**
+### fonction `firstEntryKey`
+
+Pour récupérer la première clé d’entrée d’une carte, utilisez la méthode `firstEntryKey` fonction .
+
+Cet exemple montre comment récupérer la première adresse email des abonnés d&#39;une liste spécifique :
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
+```
+
+Dans cet exemple, la liste des abonnements est nommée `daily-email`. Les adresses électroniques sont définies comme clés dans la variable `subscribers` map, qui est liée à la carte de la liste d’abonnements.
+
+### fonction `keys`
+
+Pour récupérer toutes les clés d’une carte, utilisez la variable `keys` fonction .
+
+Cet exemple montre comment récupérer, pour un profil spécifique, toutes les adresses email associées aux abonnés d&#39;une liste spécifique :
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
+```
+
+## Valeurs de paramètre d’une source de données (valeurs dynamiques de la source de données)
 
 Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre, un nouvel onglet s’affiche à droite pour vous permettre de spécifier ce paramètre. Voir [cette page](../expression/expressionadvanced.md).
 
@@ -120,7 +144,7 @@ Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les param
 
 Utilisez la syntaxe suivante :
 
-```
+```json
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
@@ -129,7 +153,7 @@ Utilisez la syntaxe suivante :
 
 Exemple :
 
-```
+```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
 ```

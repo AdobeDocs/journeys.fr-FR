@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
-workflow-type: ht
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -68,13 +68,13 @@ Voici la liste des fonctions prises en charge :
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| Mathématiques | [round](../functions/functionround.md) |
 | Chaîne | [concat](../functions/functionconcat.md) |
 | Chaîne | [contain](../functions/functioncontain.md) |
-| Chaîne | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| Chaîne | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | Chaîne | [endWith](../functions/functionendwith.md) |
 | Chaîne | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Chaîne | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| Chaîne | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | Chaîne | [indexOf](../functions/functionindexof.md) |
 | Chaîne | [isEmpty](../functions/functionisempty.md) |
 | Chaîne | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ Voici la liste des fonctions prises en charge :
 | Chaîne | [length](../functions/functionlength.md) |
 | Chaîne | [lower](../functions/functionlower.md) |
 | Chaîne | [matchRegExp](../functions/functionmatchregexp.md) |
-| Chaîne | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| Chaîne | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | Chaîne | [replace](../functions/functionreplace.md) |
 | Chaîne | [replaceAll](../functions/functionreplaceall.md) |
 | Chaîne | [startWith](../functions/functionstartwith.md) |
