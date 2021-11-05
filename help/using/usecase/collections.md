@@ -67,6 +67,7 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
     ]
    }
    ```
+
 * Pour tester les collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Le mode Affichage du code n’est pas pris en charge pour les événements métier pour l’instant. Vous ne pouvez envoyer qu’une collection avec un seul élément.
 
 ## Procédure générale {#general-procedure}
