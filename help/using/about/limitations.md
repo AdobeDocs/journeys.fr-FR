@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
-title: Limites de Journey Orchestration
-description: En savoir plus sur les limites de Journey Orchestration
-feature: Parcours
+title: Limites de Journey Orchestration
+description: En savoir plus sur les limites de Journey Orchestration
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Qualification du segment {#segment-qualification}
 
-* L’activité **Qualification de segment** ne peut pas être utilisée conjointement avec les messages transactionnels Adobe Campaign Standard en raison de contraintes de débit. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html). 
+* L’activité **Qualification de segment** ne peut pas être utilisée conjointement avec les messages transactionnels Adobe Campaign Standard en raison de contraintes de débit. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html). 
   
 
 ## Limites des actions personnalisées
@@ -44,17 +44,17 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
 
-## Limites des actions Adobe Campaign
+## Limites des actions Adobe Campaign
 
-* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
   
 
 ## Limites des événements
 
-* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Orchestration pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
+* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Orchestration pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
  
 
-## Limites des sources de données
+## Sources de données limitations
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 

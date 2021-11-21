@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Événements de qualification de segment
 description: En savoir plus sur les événements de qualification du segment
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '823'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 >[!IMPORTANT]
 >
->N’oubliez pas que les segments Adobe Experience Platform sont calculés une fois par jour (segments **par lot**) ou en temps réel (segments **diffusés**, à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
+>N’oubliez pas que les segments Adobe Experience Platform sont calculés une fois par jour (segments **par lot**) ou en temps réel (segments **diffusés**, à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
 >
 >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
 
@@ -54,7 +54,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
    >[!NOTE]
    >
-   >Notez qu’**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts **Réalisé** et **Sorti** au niveau de la participation des segments d’Adobe Experience Platform. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
+   >Notez qu’**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts **Réalisé** et **Sorti** au niveau de la participation des segments d’Adobe Experience Platform. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
 1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours.
 

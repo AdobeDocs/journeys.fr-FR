@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Transmission dynamique des collections à l’aide d’actions personnalisées
-description: Envoi d'un message à l'aide de Campaign v7/v8
+description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
 workflow-type: tm+mt
@@ -67,7 +67,6 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
     ]
    }
    ```
-
 * Pour tester les collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Le mode Affichage du code n’est pas pris en charge pour les événements métier pour l’instant. Vous ne pouvez envoyer qu’une collection avec un seul élément.
 
 ## Procédure générale {#general-procedure}

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: toDuration
 description: En savoir plus sur la fonction toDuration
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Conversion
 | Paramètre | Description |
 |--- |--- |
 | chaîne | Formats basés sur le format de durée ISO-8601 PnDTnHnMn.nS pour une durée du jour considérée comme durant exactement 24 heures |
-| entier | nombre de millisecondes |
+| integer | nombre de millisecondes |
 
 Si l’expression contient une chaîne : les formats acceptés sont basés sur le format de durée ISO-8601 PnDTnHnMn.nS pour une durée du jour considérée comme durant exactement 24 heures.
 

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Test du parcours
 description: 'En savoir plus sur le test d’un parcours '
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1680'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Transformation d’un profil en profil de test{#turning-profile-into-test}
 
-Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs des profils par le biais d’appels d’API, mais il n’est pas possible de le faire par le biais de l’interface.
+Vous pouvez transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs des profils par le biais d’appels d’API, mais il n’est pas possible de le faire par le biais de l’interface.
 
 Pour ce faire, la méthode la plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à modifier le champ booléen du profil de test en le passant de false à true. Consultez [cette section](../building-journeys/update-profiles.md#using-the-test-mode).
 
@@ -199,7 +199,7 @@ Lorsqu’un événement est déclenché en mode test, un jeu de données est aut
 
 Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
 
-Le mode test crée automatiquement un événement d’expérience et l’envoie à Adobe Experience Platform. Le nom de la source de cet événement d’expérience est « Événements de test Journey Orchestration ».
+Le mode test crée automatiquement un événement d’expérience et l’envoie à Adobe Experience Platform. Le nom de la source de cet événement d’expérience est « Événements de test Journey Orchestration ».
 
 Dans le cas de plusieurs événements déclenchés par plusieurs parcours
 
@@ -207,4 +207,4 @@ Il existe un scénario où plusieurs événements sont envoyés à partir de plu
 
 La création automatique et l’attribution d’un nom à ces jeux de données sont effectués si un jeu de données de destination n’est pas inclus dans l’événement d’expérience. C’est pourquoi nous voyons aujourd’hui le « jeu de données créé automatiquement pour Voyager ».
 
-L’attribution d’un nom à notre source entraîne la création automatique. Si nous avons plusieurs événements, nous devrions concaténer et nommer le tout « Événement de test Journey Orchestration - NOM DU SCHÉMA ». Cela se transforme automatiquement en « Jeu de données généré automatiquement pour l’Événement de test Journey Orchestration - NOM DU SCHÉMA ».
+L’attribution d’un nom à notre source entraîne la création automatique. Si nous avons plusieurs événements, nous devrions concaténer et nommer le tout « Événement de test Journey Orchestration - NOM DU SCHÉMA ». Cela se transforme automatiquement en « Jeu de données généré automatiquement pour l’Événement de test Journey Orchestration - NOM DU SCHÉMA ».

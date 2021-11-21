@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Événements de réaction
 description: En savoir plus sur les événements de réaction
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ La procédure de configuration des événements de réaction comprend les étape
 
 >[!NOTE]
 >
->Les événements Réactions fonctionnent avec Adobe Campaign Standard, qu’il soit déployé sur des serveurs AWS ou Azure.
+>Les événements Réactions fonctionnent avec Adobe Campaign Standard, qu’il soit déployé sur des serveurs AWS ou Azure.
 >
 >Les événements de réaction ne peuvent pas effectuer le suivi des actions de type e-mail, SMS ou Push qui se produisent dans un autre parcours.
 >

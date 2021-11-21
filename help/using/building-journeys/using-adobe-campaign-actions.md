@@ -2,18 +2,18 @@
 product: adobe campaign
 title: Utilisation d’actions Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 100%
 
 ---
 
-# Utilisation d’Adobe Campaign Standard {#using_campaign_action}
+# Utilisation d’Adobe Campaign Standard {#using_campaign_action}
 
 Si vous utilisez Adobe Campaign Standard, les activités d’action d’usine suivantes sont disponibles : **[!UICONTROL E-mail]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**.
 
@@ -25,7 +25,7 @@ Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transact
 
 >[!NOTE]
 >
->Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Orchestration. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Orchestration. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Orchestration, mais il ne sera pas utilisable.
+>Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Orchestration. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Orchestration. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Orchestration, mais il ne sera pas utilisable.
 
 ![](../assets/journey59.png)
 
@@ -45,7 +45,7 @@ Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SM
 
 >[!NOTE]
 >
->Dans le cas des e-mails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’email de la personne dans le paramètre d’URL et qui pointe vers une landing page de désabonnement. Vous devez créer cette landing page et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
+>Dans le cas des e-mails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’e-mail de la personne dans le paramètre d’URL et qui pointe vers une page de destination de désabonnement. Vous devez créer cette landing page et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
 
 Vous devez, tout d’abord, choisir un modèle de message transactionnel. Voir [cette page](../building-journeys/about-action-activities.md).
 
@@ -103,4 +103,4 @@ Vous devez également définir le **[!UICONTROL jeton d’enregistrement]**. L�
 >
 >Vous ne pouvez pas transmettre de collection dans les données de personnalisation. Si la notification push transactionnelle attend des collections, elle ne fonctionnera pas. Notez également qu’un format spécifique est attendu pour les données de personnalisation (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence.
 
-Il s’agit des champs attendus par le modèle transactionnel utilisé dans votre message Adobe Campaign Standard. Ils peuvent être utilisés pour personnaliser votre message, appliquer une mise en forme conditionnelle ou sélectionner une variante de message spécifique.
+Il s’agit des champs attendus par le modèle transactionnel utilisé dans votre message Adobe Campaign Standard. Ils peuvent être utilisés pour personnaliser votre message, appliquer une mise en forme conditionnelle ou sélectionner une variante de message spécifique.

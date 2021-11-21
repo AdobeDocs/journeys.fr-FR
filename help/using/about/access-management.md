@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Gestion des accès
 description: En savoir plus sur la gestion des accès
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 100%
 
 ---
@@ -67,12 +67,12 @@ Vous trouverez ci-dessous des informations relatives à la compatibilité entre 
 
 [!DNL Journey Orchestration] vous permet de créer vos propres profils de produit et d’attribuer un ensemble de droits et d’environnements Sandbox à vos utilisateurs. Avec les profils de produit, vous pouvez autoriser ou refuser l’accès à certaines fonctionnalités ou à certains objets de l’interface.
 
-Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr).
+Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr).
 
 
 Pour créer un profil de produit et attribuer un ensemble d’autorisations et d’environnements Sandbox :
 
-1. Sélectionnez **[!UICONTROL Journey Orchestration]** dans Admin console. Dans l’onglet **[!UICONTROL Profil produit]**, cliquez sur **[!UICONTROL Nouveau profil]**.
+1. Sélectionnez **[!UICONTROL Journey Orchestration]** dans Admin console. Dans l’onglet **[!UICONTROL Profil produit]**, cliquez sur **[!UICONTROL Nouveau profil]**.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -116,7 +116,7 @@ Vous trouverez dans cette section la liste de tous les profils de produit par d�
 
 Pour attribuer un profil de produit à un utilisateur et lui permettre d’accéder à [!DNL Journey Orchestration]:
 
-1. Sélectionnez **[!UICONTROL Journey Orchestration]** dans Admin console.
+1. Sélectionnez **[!UICONTROL Journey Orchestration]** dans Admin console.
 
    ![](../assets/do-not-localize/user_management.png)
 

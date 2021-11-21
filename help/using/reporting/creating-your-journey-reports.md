@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Création de rapports de parcours
 description: Découvrez comment créer des rapports de parcours
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '899'
 ht-degree: 100%
 
 ---
@@ -45,15 +45,15 @@ Pour accéder aux rapports de vos parcours et effectuer le suivi du succès de v
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Dans l’onglet **[!UICONTROL Panneaux]**, faites glisser autant de panneaux ou de tableaux à structure libre que nécessaire. Voir à ce sujet cette [section](#adding-panels).
+1. Dans l’onglet **[!UICONTROL Panneaux]**, faites glisser autant de panneaux ou de tableaux à structure libre que nécessaire. Pour plus d’informations, consultez cette [section](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. Vous pouvez ensuite commencer à filtrer vos données en faisant glisser des dimensions et des mesures depuis l’onglet **[!UICONTROL Composants]** vers votre tableau à structure libre. Voir à ce sujet cette [section](#adding-components).
+1. Vous pouvez ensuite commencer à filtrer vos données en faisant glisser des dimensions et des mesures depuis l’onglet **[!UICONTROL Composants]** vers votre tableau à structure libre. Pour plus d’informations, consultez cette [section](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. Pour avoir une vue plus précise de vos données, vous pouvez ajouter des visualisations à partir de l’onglet **[!UICONTROL Visualisations]**. Voir à ce sujet cette [section](#adding-visualizations).
+1. Pour avoir une vue plus précise de vos données, vous pouvez ajouter des visualisations à partir de l’onglet **[!UICONTROL Visualisations]**. Pour plus d’informations, consultez cette [section](#adding-visualizations).
 
 ## Ajout de panneaux{#adding-panels}
 

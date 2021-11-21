@@ -129,7 +129,7 @@ Il sʼagit dʼune description de la date, telle quʼelle est utilisée pour les 
 
 Format JSON : chaîne.
 
-Format : AAAA-MM-JJ (ISO-8601), par exemple : « 2021-03-11 ».
+Format : AAAA-MM-JJ (ISO-8601), par exemple : « 2021-03-11 ».
 
 Elle doit être encapsulée dans une fonction toDateOnly.
 

@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Utilisation d’un segment
 description: Découvrez comment utiliser un segment
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
 # Création d’un segment {#creating-a-segment}
 
-Vous pouvez, au choix, créer un segment à l’aide du [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr), ou y accéder et le créer directement dans [!DNL Journey Orchestration].
+Vous pouvez, au choix, créer un segment à l’aide du [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr), ou y accéder et le créer directement dans [!DNL Journey Orchestration].
 
 1. Dans le menu supérieur, cliquez sur l’onglet **[!UICONTROL Segments]**. La liste des segments Adobe Experience Platform s’affiche. Vous pouvez rechercher un segment spécifique dans la liste.
 

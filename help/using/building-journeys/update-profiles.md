@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
 
 # Mettre à jour le profil {#update-profile}
 
-L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique.
+L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique.
 
 ## Remarques importantes
 

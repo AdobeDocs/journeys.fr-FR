@@ -27,7 +27,7 @@ Voici la liste des fonctions prises en charge :
 
 | Catégorie | Fonction |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | Agrégation | [avg](../functions/functionavg.md) |
 | Agrégation | [count](../functions/functioncount.md) |
 | Agrégation | [countOnlyNull](../functions/functioncountonlynull.md) |

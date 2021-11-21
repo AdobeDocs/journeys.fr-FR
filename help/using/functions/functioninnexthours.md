@@ -2,13 +2,13 @@
 product: adobe campaign
 title: inNextHours
 description: En savoir plus sur la fonction inNextHours
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 4bcbfdbc-fc95-4089-8abc-f9314dde2c06
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '44'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Date
 | Paramètre | Type |
 |-----------|------------------|
 | date et heure | dateTime |
-| delta | entier |
+| delta | integer |
 
 ## Signatures et type renvoyé
 

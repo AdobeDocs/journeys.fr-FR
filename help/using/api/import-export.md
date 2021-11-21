@@ -19,9 +19,9 @@ Cette fonctionnalité permet de gérer vos parcours sur plusieurs instances ou p
 
 ## Ressources
 
-L’API d’import-export de Journey Orchestration est décrite dans un fichier Swagger disponible [ici](https://adobedocs.github.io/JourneyAPI/docs/).
+L’API d’import-export de Journey Orchestration est décrite dans un fichier Swagger disponible [ici](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Pour utiliser cette API avec votre instance Journey Orchestration, vous devez utiliser la console Adobe I/O. Vous pouvez y accéder selon les indications de la section [Prise en main d’Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md), puis les différentes sections de cette page.
+Pour utiliser cette API avec votre instance Journey Orchestration, vous devez utiliser la console Adobe I/O. Vous pouvez y accéder selon les indications de la section [Prise en main d’Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md), puis les différentes sections de cette page.
 
 Pour tester et préparer votre intégration, une collection Postman est disponible [ici](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 
@@ -39,21 +39,21 @@ Il est recommandé de suivre les étapes suivantes pour exporter et importer vos
    * Si le parcours exporté contient des **événements** qui pointent vers un **schéma XDM**, vous devez mettre à jour manuellement la référence à l’ID de schéma avec l’ID de schéma du nouvel environnement dans le nœud xdmEntity si les valeurs d’ID sont différentes. Cette mise à jour doit être effectuée pour chaque événement. [Plus d’informations ici](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=fr)
    * Si le parcours contient des actions push, e-mail et SMS, vous devrez peut-être mettre à jour le nom du modèle ou de l’application mobile si le nom figurant dans l’environnement cible est différent de celui de votre environnement de départ.
 1. Appelez l’API d’**import** avec vos paramètres d’environnement cible (orgID et sandboxName). Notez que vous pouvez appeler l’API d’import autant de fois que vous le souhaitez. L’UUID et le nom de chaque nœud contenu dans le parcours sont générés à chaque appel de l’API d’import.
-1. Une fois le parcours importé, vous pouvez le publier dans l’application Journey Orchestration. Plus d’informations [ici](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=fr)
+1. Une fois le parcours importé, vous pouvez le publier dans l’application Journey Orchestration. Plus d’informations [ici](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=fr)
 
 
 ## Authentification
 
 ### Configuration de l’accès aux API
 
-La configuration de l’accès aux API Journey Orchestration est effectuée comme suit. Chacune de ces étapes est détaillée dans la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+La configuration de l’accès aux API Journey Orchestration est effectuée comme suit. Chacune de ces étapes est détaillée dans la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
 >Pour gérer les certificats dans Adobe I/O, assurez-vous de disposer des droits d’<b>administrateur système</b> sur l’organisation ou d’un [compte de développeur](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans Admin Console.
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
-1. **Créez une nouvelle intégration avec [!DNL Journey Orchestration] Service** dans Adobe I/O et configurez-la. L’accès au profil de produit est nécessaire pour Journey Orchestration et Adobe Experience Platform. Vos informations d’identification seront alors générées (clé d’API, secret client...).
+1. **Créez une nouvelle intégration avec [!DNL Journey Orchestration] Service** dans Adobe I/O et configurez-la. L’accès au profil de produit est nécessaire pour Journey Orchestration et Adobe Experience Platform. Vos informations d’identification seront alors générées (clé d’API, secret client...).
 1. **Créez un jeton Web JSON (JWT)** à partir des informations d’identification précédemment générées, et signez-le avec votre clé privée. Le jeton JWT code toutes les informations d’identité et de sécurité dont Adobe a besoin pour vérifier votre identité et vous accorder l’accès à l’API. Cette étape est présentée dans cette [section](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Échangez votre jeton JWT pour un jeton d’accès** à l’aide d’une requête POST ou via l’interface de Developer Console. Ce jeton d’accès devra être utilisé dans chaque en-tête de vos requêtes d’API.
 
@@ -82,7 +82,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 Cette API vous permet d’exporter une version de parcours et tous les objets associés (parcours, événements, sources de données, groupes de champs, actions personnalisées) par son UID.
 La payload obtenue peut être utilisée pour importer la version du parcours dans un autre environnement (sandbox ou instance).
 
-| Méthode | Path | Description |
+| Méthode | Chemin | Description |
 |---|---|---|
 | `[POST]` | /journeyVersions/import | Permet d’importer un contenu de version de parcours obtenu d’un export de version de parcours |
 | `[GET]` | /journeyVersions/`{uid}`/export | Permet d’exporter une version de parcours |
@@ -97,8 +97,8 @@ La payload obtenue peut être utilisée pour importer la version du parcours dan
 * Les informations d’identification ne sont pas exportées et un espace réservé (par exemple INSERT_SECRET_HERE) est inséré dans la payload de la réponse.
 Après l’appel d’export , vous devez insérer manuellement les nouvelles informations d’identification (correspondant à l’environnement cible) avant d’importer la payload dans l’environnement cible.
 
-* Les objets suivants sont exportés, mais ils ne seront jamais importés dans l’environnement cible. Il s’agit de ressources système gérées automatiquement par le Journey Orchestration. Vous n’avez pas besoin de remplacer « INSERT_SECRET_HERE ».
-   * **DataProviders** : « Fournisseur de données Adobe Campaign Standard » (acsDataProvider) et « Experience Platform » (acppsDataProvider)
+* Les objets suivants sont exportés, mais ils ne seront jamais importés dans l’environnement cible. Il s’agit de ressources système gérées automatiquement par le Journey Orchestration. Vous n’avez pas besoin de remplacer « INSERT_SECRET_HERE ».
+   * **DataProviders** : « Fournisseur de données Adobe Campaign Standard » (acsDataProvider) et « Experience Platform » (acppsDataProvider)
    * **Groupes de champs** (dataEntities) : « ProfileFieldGroup » (acppsDataPack)
 
 
@@ -117,4 +117,4 @@ Les erreurs potentielles sont les suivantes :
 
 * Au **moment de l’import**, si la payload n’est pas valide après modification ou si les informations d’identification ne sont pas correctement définies dans la payload : erreur 400
 
-* Après l’étape d’import, si l’ID de schéma XDM pour vos événements n’est pas valide dans l’environnement cible, une erreur s’affiche dans l’application Journey Orchestration. Dans ce cas, il ne sera pas possible de publier le parcours.
+* Après l’étape d’import, si l’ID de schéma XDM pour vos événements n’est pas valide dans l’environnement cible, une erreur s’affiche dans l’application Journey Orchestration. Dans ce cas, il ne sera pas possible de publier le parcours.

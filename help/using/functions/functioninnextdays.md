@@ -2,13 +2,13 @@
 product: adobe campaign
 title: inNextDays
 description: En savoir plus sur la fonction inNextDays
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '44'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Date
 | Paramètre | Type |
 |-----------|------------------|
 | date et heure | dateTime |
-| delta | entier |
+| delta | integer |
 
 ## Signatures et type renvoyé
 

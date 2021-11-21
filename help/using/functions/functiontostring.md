@@ -2,13 +2,13 @@
 product: adobe campaign
 title: toString
 description: En savoir plus sur la fonction toString
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -33,9 +33,9 @@ Conversion
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
 | fuseau horaire | Convertit le paramètre en représentation sous forme de chaîne de l’identifiant de fuseau horaire (id JODA) |
-| entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
+| integer | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
 | decimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
-| booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
+| boolean | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
 ## Signatures et type renvoyé
 

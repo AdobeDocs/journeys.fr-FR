@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Configuration de l’événement
 description: Découvrez comment configurer l’événement pour le cas d’utilisation simple du parcours
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 100%
 
 ---

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Création du parcours
 description: 'Découvrez comment créer un cas d’utilisation avancé de parcours '
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 100%
 
 ---

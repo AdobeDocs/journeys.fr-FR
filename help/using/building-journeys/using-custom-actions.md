@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
-title: Utilisation d’actions personnalisées
+title: Utilisation dʼactions personnalisées
 description: En savoir plus sur les activités d’action
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
 source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 

@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: Mesures et dimensions
-description: En savoir plus sur les dimensions et les mesures disponibles pour Journey Orchestration
-feature: Parcours
+description: En savoir plus sur les dimensions et les mesures disponibles pour Journey Orchestration
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1038'
 ht-degree: 100%
 
 ---

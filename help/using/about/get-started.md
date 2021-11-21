@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: Prise en main
-description: Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
-feature: Parcours
+description: Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
+feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---

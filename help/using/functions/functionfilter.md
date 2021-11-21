@@ -55,7 +55,7 @@ Renvoie une valeur listObject.
 
 ## Exemples
 
-Voici un exemple dʼune payload transmise dans un événement entrant « myevent » :
+Voici un exemple dʼune payload transmise dans un événement entrant « myevent » :
 
 ```json
 "productListItems": [{

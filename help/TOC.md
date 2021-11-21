@@ -32,7 +32,7 @@ ht-degree: 96%
       + [Principe général](using/event/about-events.md)
       + [Cycle des données](using/event/about-data-cycle.md)
       + [Créer un événement       ](using/event/about-creating.md)
-      + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
+      + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
       + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
       + [Étapes supplémentaires pour l&#39;envoi d&#39;événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
@@ -47,8 +47,8 @@ ht-degree: 96%
    + [Sources de données externes](using/datasource/external-data-sources.md)
 + Configuration d’une action {#action-journeys}
    + [À propos des actions](using/action/action.md)
-   + [Utilisation d’Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [Utilisation d’Adobe Campaign v7/v8](using/action/acc-action.md)
+   + [Utilisation d’Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [Utilisation d’Adobe Campaign v7/v8](using/action/acc-action.md)
    + Utilisation d’un système tiers {#action-third-party}
       + [À propos de la configuration des actions personnalisées](using/action/about-custom-action-configuration.md)
       + [Configuration d&#39;URL](using/action/url-configuration.md)
@@ -79,8 +79,8 @@ ht-degree: 96%
          + [Activité d&#39;attente](using/building-journeys/wait-activity.md)
       + Activités d&#39;action {#action-activities}
          + [À propos des activités d’action](using/building-journeys/about-action-activities.md)
-         + [Utilisation d’Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
-         + [Utilisation d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
+         + [Utilisation d’Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Utilisation d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [Utilisation dʼactions personnalisées](using/building-journeys/using-custom-actions.md)
          + [Passage d’un parcours à un autre](using/building-journeys/jump.md)
          + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
@@ -110,7 +110,7 @@ ht-degree: 96%
       + [Exemples](using/expression/advanced-editor-use-cases.md)
    + Fonctions {#main-functions-journey}
       + [Principales fonctions](using/expression/functions.md)
-      + Adobe Experience Platform {#adobe-experience-platform}
+      + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
       + Agrégation {#aggregation}
          + [avg](using/functions/functionavg.md)
@@ -201,7 +201,7 @@ ht-degree: 96%
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
       + [Création du parcours](using/usecase/building-the-journey.md)
-   + [Envoi dʼun message à lʼaide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
+   + [Envoi dʼun message à lʼaide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Transmission dynamique des collections à l’aide dʼactions personnalisées](using/usecase/collections.md)
 + Utilisation des API{#working-with-apis}
    + [API de limitation](using/api/capping.md)

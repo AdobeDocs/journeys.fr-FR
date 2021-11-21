@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Dépannage
 description: En savoir plus sur la résolution des problèmes
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1056'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ En tant qu&#39;administrateur, vous devez vérifier les points suivants :
 * La payload d&#39;événement contient-elle un identifiant d&#39;événement ?
 * Avez-vous atteint la bonne URL ?
 * Avez-vous appliqué la structure de payload des API d&#39;ingestion en flux continu en utilisant l&#39;aperçu de la structure de payload dans le volet de configuration des événements ? Voir [cette page](../event/previewing-the-payload.md).
-* Avez-vous utilisé les paires clé/valeur appropriées dans l&#39;en-tête de l&#39;événement ?
+* Avez-vous utilisé les paires clé/valeur appropriées dans l’en-tête de l’événement ?
 
    ```
    X-gw-ims-org-id - your ORGID

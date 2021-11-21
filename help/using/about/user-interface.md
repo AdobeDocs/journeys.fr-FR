@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 100%
 
@@ -89,15 +89,15 @@ Si un nom convivial est disponible, le champ s&#39;affiche sous la forme `<frien
 
 ## Accessibilité{#accessibility}
 
-Les fonctionnalités d’accessibilité dans Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
+Les fonctionnalités d’accessibilité dans Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
 
 * Accessibilité à l’aide du clavier
 * Contraste des couleurs
 * Validation des champs obligatoires
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
 
-Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
+Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
 
 | Action | Raccourci |
 | --- | --- |
@@ -107,9 +107,9 @@ Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimize
 | Sélection ou suppression d’un élément ciblé | Entrée ou Barre d’espace |
 | Annulation d’une sélection, réduction d’un panneau ou fermeture d’une boîte de dialogue | Échap |
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
 
-Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
+Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
 
 <table>
   <thead>
@@ -197,7 +197,7 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
   <tr>
     <td rowspan="2">Fenêtre contextuelle</td>
     <td>Enregistrement des modifications ou confirmation de l’action</td>
-    <td>Enter</td>
+    <td>Entrée</td>
   </tr>
   <tr>
     <td>Fermeture de la fenêtre</td>

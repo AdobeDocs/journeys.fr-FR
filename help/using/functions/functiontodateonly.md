@@ -29,7 +29,7 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| date au format ISO-8601 ou « AAAA-MM-JJ » (format de date XDM) | chaîne |
+| date au format ISO-8601 ou « AAAA-MM-JJ » (format de date XDM) | chaîne |
 | date | date |
 
 ## Signatures et types renvoyés

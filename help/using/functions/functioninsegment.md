@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Seuls les individus présentant les statuts de participation **Réalisé** et **
 
 `IF inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 
-`ELSE inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
+`ELSE inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
 
 ## Catégorie
 
-Adobe Experience Platform
+Adobe Experience Platform
 
 ## Syntaxe de la fonction
 

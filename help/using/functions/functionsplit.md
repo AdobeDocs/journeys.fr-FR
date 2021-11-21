@@ -2,13 +2,13 @@
 product: adobe campaign
 title: split
 description: En savoir plus sur la fonction split
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '63'
 ht-degree: 100%
 
 ---
@@ -42,10 +42,10 @@ Renvoie une fonction listString.
 
 `split(["A_B_C"], "_")`
 
-Retours `["A","B","C"]`
+Renvoie `["A","B","C"]`
 
 Exemple avec un champ d’événement &#39;event.appVersion&#39; avec la valeur : « 20.45.2.3434 »
 
 `split(@{event.appVersion}, "\\.")`
 
-Retours `["20", "45", "2", "3434"]`
+Renvoie `["20", "45", "2", "3434"]`

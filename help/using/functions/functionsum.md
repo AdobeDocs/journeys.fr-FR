@@ -2,13 +2,13 @@
 product: adobe campaign
 title: sum
 description: En savoir plus sur la fonction sum
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '51'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Agrégation
 * listInteger
 * listDecimal
 * durée
-* entier
+* integer
 * decimal
 
 ## Signatures et types renvoyés

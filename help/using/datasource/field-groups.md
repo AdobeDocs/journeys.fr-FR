@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Groupes de champs
 description: En savoir plus sur les groupes de champs
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 100%
 
 ---

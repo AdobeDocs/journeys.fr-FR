@@ -1,8 +1,8 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Envoi d'un message à l'aide de Campaign v7/v8
-description: Envoi d'un message à l'aide de Campaign v7/v8
+title: Envoi d'un message à l'aide de Campaign v7/v8
+description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 3e78e429bbdfc95bfef74e0f2e2b92f8ff17cfdb
 workflow-type: tm+mt
@@ -11,11 +11,11 @@ ht-degree: 100%
 
 ---
 
-# Envoi d&#39;un message à l&#39;aide de Campaign v7/v8 {#campaign-classic-use-case}
+# Envoi d&#39;un message à l&#39;aide de Campaign v7/v8 {#campaign-classic-use-case}
 
 Ce cas pratique présente toutes les étapes nécessaires pour envoyer un e-mail à l&#39;aide de l&#39;intégration à Adobe Campaign Classic v7 et Adobe Campaign v8.
 
-Nous allons tout d&#39;abord créer un modèle d&#39;e-mail transactionnel dans Campaign. Ensuite, dans Journey Orchestration, nous allons créer l’événement, l’action et concevoir le parcours.
+Nous allons tout d&#39;abord créer un modèle d&#39;e-mail transactionnel dans Campaign. Ensuite, dans Journey Orchestration, nous allons créer l’événement, l’action et concevoir le parcours.
 
 Pour en savoir plus sur l&#39;intégration de Campaign, consultez les pages suivantes :
 
@@ -28,7 +28,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
 1. Connectez-vous à votre instance de pilotage Campaign.
 
-1. Sous **Administration** > **Plate-forme** > **Énumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d&#39;événement (« journey-event », dans notre exemple). Vous devrez utiliser le nom interne du type d&#39;événement lors de l&#39;écriture ultérieure du fichier JSON.
+1. Sous **Administration** > **Plateforme** > **Énumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d&#39;événement (« journey-event », dans notre exemple). Vous devrez utiliser le nom interne du type d&#39;événement lors de l&#39;écriture ultérieure du fichier JSON.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -38,7 +38,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Concevez votre modèle. Dans cet exemple, nous utilisons la personnalisation sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de notre événement Journey Orchestration. Veillez à utiliser les noms de champ corrects dans Campaign.
+1. Concevez votre modèle. Dans cet exemple, nous utilisons la personnalisation sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de notre événement Journey Orchestration. Veillez à utiliser les noms de champ corrects dans Campaign.
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](../assets/accintegration-uc-5.png)
 
-1. Vous devez ensuite créer, dans Journey Orchestration, une action correspondant à votre modèle Campaign. Dans le menu déroulant **Type d&#39;action**, sélectionnez **Adobe Campaign Classic**.
+1. Vous devez ensuite créer, dans Journey Orchestration, une action correspondant à votre modèle Campaign. Dans le menu déroulant **Type d&#39;action**, sélectionnez **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
@@ -86,7 +86,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](../assets/accintegration-uc-9.png)
 
-1. Ajoutez l’action et mappez chaque champ au champ correct dans Journey Orchestration.
+1. Ajoutez l’action et mappez chaque champ au champ correct dans Journey Orchestration.
 
    ![](../assets/accintegration-uc-10.png)
 

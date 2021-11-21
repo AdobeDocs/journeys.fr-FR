@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Cycle des données d’événement
 description: En savoir plus sur le cycle des données d’événement
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---

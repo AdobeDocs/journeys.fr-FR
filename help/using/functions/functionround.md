@@ -2,13 +2,13 @@
 product: adobe campaign
 title: round
 description: En savoir plus sur la fonction round
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '40'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Mathématique
 ## Paramètres
 
 * decimal
-* entier
+* integer
 
 ## Signatures et type renvoyé
 

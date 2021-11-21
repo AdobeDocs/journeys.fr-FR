@@ -16,7 +16,7 @@ Ce cas d’utilisation montre comment tirer parti des scores de fatigue pour év
 
 >[!NOTE]
 >
->La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent le connecteur [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=fr).
+>La fonctionnalité prédictive de score de fatigue n’est disponible que pour les clients qui utilisent le connecteur [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=fr).
 
 ## Configuration de l’événement {#section_ptb_ws1_ffb}
 

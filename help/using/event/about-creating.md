@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
 source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
 1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l&#39;aide de l&#39;éditeur d&#39;expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
    ![](../assets/alpha-event6.png)
 
-   Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet à Journey Orchestration.
+   Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet à Journey Orchestration.
 
    >[!NOTE]
    >

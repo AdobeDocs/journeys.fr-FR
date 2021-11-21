@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Configuration des sources de données
 description: Découvrez comment configurer la source de données pour un cas d’utilisation avancé de parcours
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '476'
 ht-degree: 100%
 
 ---

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Définition des champs de payload
 description: Découvrez comment définir les champs de payload
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 100%
 
 ---

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Définition de la clé d’événement
 description: Découvrez comment définir la clé d’événement
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---

@@ -106,14 +106,14 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <table>
 <thead>
 <tr>
-<th><strong> Intégration d’Adobe Campaign Classic</strong><br/></th>
+<th><strong> Intégration d’Adobe Campaign Classic</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’intégration avec Adobe Campaign Classic est maintenant en version GA. Elle vous permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign v7 ou v8.</p>
-<p>La connexion entre les instances Journey Orchestration et Campaign est configurée par Adobe au moment de l’approvisionnement.</p>
+<p>L’intégration avec Adobe Campaign Classic est maintenant en version GA. Elle vous permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign v7 ou v8.</p>
+<p>La connexion entre les instances Journey Orchestration et Campaign est configurée par Adobe au moment de l’approvisionnement.</p>
 <p>Pour plus d'informations, consultez la <a href="../action/acc-action.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -153,7 +153,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tbody>
 <tr>
 <td>
-<p>Cette nouvelle activité d’action vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique.</p>
+<p>Cette nouvelle activité d’action vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique.</p>
 <p>Pour plus d'informations, consultez la <a href="../building-journeys/update-profiles.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -369,7 +369,7 @@ La payload des événements de qualification de segment contient maintenant les 
 
 ## Version Alpha - Juillet 2020 {#alpha-release---july-2020}
 
-Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
+Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
 
 <table>
 <thead>
@@ -380,7 +380,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <tbody>
 <tr>
 <td>
-<p>La navigation dans les menus Journey Orchestration a été améliorée afin de fournir une interface en cohérence avec Adobe Experience Platform :
+<p>La navigation dans les menus Journey Orchestration a été améliorée afin de fournir une interface en cohérence avec Adobe Experience Platform :
 </p>
 <ul>
 <li><p>Menus déplacés du haut vers le côté gauche de l’interface </p>
@@ -418,7 +418,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <tbody>
 <tr>
 <td>
-<p>Nous avons simplifié la configuration des événements d’expérience. Nous proposons une nouvelle méthode qui ne nécessite pas l’utilisation d’un identifiant d’événement. Lorsque vous configurez votre événement dans Journey Orchestration, vous pouvez désormais définir un événement basé sur des règles. <a href="../event/about-events.md">En savoir plus</a>
+<p>Nous avons simplifié la configuration des événements d’expérience. Nous proposons une nouvelle méthode qui ne nécessite pas l’utilisation d’un identifiant d’événement. Lorsque vous configurez votre événement dans Journey Orchestration, vous pouvez désormais définir un événement basé sur des règles. <a href="../event/about-events.md">En savoir plus</a>
 </p>
 </td>
 </tr>
@@ -431,7 +431,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations de l’intégration d’Adobe Experience Platform</strong><br/></th>
+<th><strong>Améliorations de l’intégration d’Adobe Experience Platform</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -442,16 +442,16 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <li><p>Une nouvelle activité permet d’écouter les entrées/sorties des segments d’Adobe Experience Platform pour que des personnes rejoignent un parcours ou y progressent. <a href="../building-journeys/segment-qualification-events.md">En savoir plus</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Il est désormais possible de créer et modifier les segments Adobe Experience Platform sans quitter l’interface de Journey Orchestration, grâce au nouvel onglet <strong>Segments</strong>. <a href="../segment/about-segments.md">En savoir plus</a></p>
+<li><p>Il est désormais possible de créer et modifier les segments Adobe Experience Platform sans quitter l’interface de Journey Orchestration, grâce au nouvel onglet <strong>Segments</strong>. <a href="../segment/about-segments.md">En savoir plus</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>Dans l’éditeur d’expression simple, les segments Adobe Experience Platform sont maintenant directement répertoriés dans l’arborescence de navigation pour faciliter la configuration de conditions telles que « cette personne appartient-elle au segment A ? ». <a href="../segment/using-a-segment.md">En savoir plus</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d’étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
+<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d’étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
+<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
 </ul>
 </td>
@@ -489,9 +489,9 @@ Pour éviter d’envoyer un trop grand nombre d’appels d’API à des système
 
 Le contrôle d’accès permet maintenant une plus grande granularité dans la gestion des accès des utilisateurs. Disponibilité effective : 30 juin 2020. [En savoir plus](../about/access-management.md#create-product-profile)
 
-Journey Orchestration est maintenant disponible dans la zone APAC (centre de données australien). Disponibilité effective : 30 juin 2020
+Journey Orchestration est maintenant disponible dans la zone APAC (centre de données australien). Disponibilité effective : 30 juin 2020
 
-L’interface de Journey Orchestration est disponible en japonais.
+L’interface de Journey Orchestration est disponible en japonais.
 
 ## Version du 1er trimestre - Mars 2020 {#q1-release---march-2020}
 
@@ -593,13 +593,13 @@ L’interface de Journey Orchestration est disponible en japonais.
 
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
-Journey Orchestration est désormais en version GA.
+Journey Orchestration est désormais en version GA.
 
 Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
-Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au consommateur, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push au consommateur à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction de scores Sensei et de règles.
+Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au consommateur, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push au consommateur à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction de scores Sensei et de règles.
 
-[En savoir plus](../action/working-with-adobe-campaign.md) sur Journey Orchestration.
+[En savoir plus](../action/working-with-adobe-campaign.md) sur Journey Orchestration.
 
 Ressources supplémentaires :
 

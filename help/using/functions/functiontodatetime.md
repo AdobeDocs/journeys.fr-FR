@@ -2,13 +2,13 @@
 product: adobe campaign
 title: toDateTime
 description: En savoir plus sur la fonction toDateTime
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '93'
 ht-degree: 100%
 
 ---

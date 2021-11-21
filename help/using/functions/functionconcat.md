@@ -2,13 +2,13 @@
 product: adobe campaign
 title: concat
 description: En savoir plus sur la fonction concat
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '40'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| Liste  | listString |
+| Liste | listString |
 | chaîne | chaîne |
 
 ## Signature et type renvoyé

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 100%
 
@@ -16,19 +16,19 @@ ht-degree: 100%
 
 # Intégration de systèmes externes {#external-systems}
 
-Cette page présente les différentes barrières de sécurité fournies par Journey Orchestration lors de l’intégration d’un système externe, ainsi que les bonnes pratiques : comment optimiser la protection de votre système externe à l’aide de l’API de limitation, comment configurer le délai d’expiration du parcours et comment les reprises fonctionnent.
+Cette page présente les différentes barrières de sécurité fournies par Journey Orchestration lors de l’intégration d’un système externe, ainsi que les bonnes pratiques : comment optimiser la protection de votre système externe à l’aide de l’API de limitation, comment configurer le délai d’expiration du parcours et comment les reprises fonctionnent.
 
-Journey Orchestration vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d’actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d&#39;un système de réservation externe ou envoyer des messages à l&#39;aide d&#39;un système tiers tel qu&#39;Epsilon ou Facebook.
+Journey Orchestration vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d’actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d&#39;un système de réservation externe ou envoyer des messages à l&#39;aide d&#39;un système tiers tel qu&#39;Epsilon ou Facebook.
 
-Lors de l&#39;intégration d&#39;un système externe, vous pouvez rencontrer plusieurs problèmes : le système peut être lent, il peut arrêter de répondre ou ne pas être en mesure de gérer un volume important. Journey Orchestration propose plusieurs barrières de sécurité pour protéger votre système contre le surchargement.
+Lors de l&#39;intégration d&#39;un système externe, vous pouvez rencontrer plusieurs problèmes : le système peut être lent, il peut arrêter de répondre ou ne pas être en mesure de gérer un volume important. Journey Orchestration propose plusieurs barrières de sécurité pour protéger votre système contre le surchargement.
 
 Tous les systèmes externes sont différents en termes de performances. Vous devez adapter la configuration à vos cas d&#39;utilisation.
 
-Lorsque Journey Orchestration exécute un appel à une API externe, les barrières techniques sont exécutées comme suit :
+Lorsque Journey Orchestration exécute un appel à une API externe, les barrières techniques sont exécutées comme suit :
 
 1. Les règles de limitation sont appliquées : si le taux maximum est atteint, les appels restants sont ignorés.
 
-2. Temporisation et reprise : si la règle de limitation est remplie, Journey Orchestration tente d’effectuer l’appel jusqu’à ce que la fin de la durée de temporisation soit atteinte.
+2. Temporisation et reprise : si la règle de limitation est remplie, Journey Orchestration tente d’effectuer l’appel jusqu’à ce que la fin de la durée de temporisation soit atteinte.
 
 ## Limitation{#capping}
 
@@ -38,7 +38,7 @@ Pour les sources de données externes, le nombre maximal d’appels par seconde 
 
 Pour les actions personnalisées, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une règle de limitation afin que votre système ne sature pas.
 
-Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée). Au moment de l’exécution, Journey Orchestration vérifie si une règle de limitation est définie et applique le taux défini lors des appels à ce point d’entrée. Si le nombre d&#39;appels dépasse le taux défini, les appels restants sont ignorés et comptabilisés comme des erreurs dans les rapports.
+Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée). Au moment de l’exécution, Journey Orchestration vérifie si une règle de limitation est définie et applique le taux défini lors des appels à ce point d’entrée. Si le nombre d&#39;appels dépasse le taux défini, les appels restants sont ignorés et comptabilisés comme des erreurs dans les rapports.
 
 Une règle de limitation est spécifique à un point d&#39;entrée, mais commune à tous les parcours d&#39;un environnement Sandbox. Cela signifie que les emplacements de limitation sont partagés entre tous les parcours d&#39;un environnement Sandbox.
 
@@ -54,11 +54,11 @@ Dans chaque parcours, vous pouvez définir un délai de temporisation. Vous pouv
 
 Cette temporisation est commune à tous les appels externes (appels API externes dans les actions personnalisées et les sources de données personnalisées). Par défaut, elle est définie sur 5 secondes.
 
-Pendant la durée de temporisation définie, Journey Orchestration tente d’appeler le système externe. Après le premier appel, trois reprises au maximum peuvent être effectuées jusqu&#39;à la fin du délai de temporisation. Le nombre de reprises ne peut pas être modifié.
+Pendant la durée de temporisation définie, Journey Orchestration tente d’appeler le système externe. Après le premier appel, trois reprises au maximum peuvent être effectuées jusqu&#39;à la fin du délai de temporisation. Le nombre de reprises ne peut pas être modifié.
 
 Chaque nouvelle reprise utilise un emplacement. Si vous avez une limitation de 100 appels par seconde et que chacun de vos appels nécessite deux reprises, le taux chute à 30 appels par seconde (chaque appel utilise 3 emplacements : le premier appel et deux reprises).
 
-La valeur du délai de temporisation dépend du cas d&#39;utilisation. Si vous souhaitez envoyer votre message rapidement, par exemple lorsque le client entre dans le magasin, le délai de temporisation ne doit pas être long. En outre, plus le délai de temporisation est long, plus les éléments sont placés en file d&#39;attente. Cela peut avoir un impact considérable sur les performances. Si Journey Orchestration effectue 1 000 appels par seconde, le fait de conserver 5 ou 15 secondes de données peut rapidement submerger le système.
+La valeur du délai de temporisation dépend du cas d&#39;utilisation. Si vous souhaitez envoyer votre message rapidement, par exemple lorsque le client entre dans le magasin, le délai de temporisation ne doit pas être long. En outre, plus le délai de temporisation est long, plus les éléments sont placés en file d&#39;attente. Cela peut avoir un impact considérable sur les performances. Si Journey Orchestration effectue 1 000 appels par seconde, le fait de conserver 5 ou 15 secondes de données peut rapidement submerger le système.
 
 Prenons un exemple pour une temporisation de 5 secondes.
 

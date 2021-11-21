@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
-title: Étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
-description: En savoir plus sur les étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
-feature: Parcours
+title: Étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
+description: En savoir plus sur les étapes supplémentaires pour l’envoi d’événements à Journey Orchestration
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---

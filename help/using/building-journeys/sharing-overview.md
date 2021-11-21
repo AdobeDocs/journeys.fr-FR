@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Présentation du partage des étapes du parcours{#sharing-overview}
 
-[!DNL Journey Orchestration] envoie automatiquement les données de performances à Adobe Experience Platform pour les combiner avec d’autres données à des fins d’analyse.
+[!DNL Journey Orchestration] envoie automatiquement les données de performances à Adobe Experience Platform pour les combiner avec d’autres données à des fins d’analyse.
 
 >[!NOTE]
 >

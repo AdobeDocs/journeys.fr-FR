@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Généralités
 description: Généralités relatives aux expressions avancées
-feature: Parcours
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -42,6 +42,6 @@ Selon le contexte d’utilisation, l’éditeur d’expression peut renvoyer dif
 
 | Utilisation de l’éditeur d’expression avancé | Type d’expression renvoyé attendu |
 |--- |--- |
-| Condition (condition de source de données, condition de date) | booléen |
+| Condition (condition de source de données, condition de date) | boolean |
 | Retardateur personnalisé | dateTimeOnly |
 | Mappage des paramètres d’action | Tous |

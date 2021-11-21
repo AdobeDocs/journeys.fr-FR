@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: À propos de Journey Orchestration
-description: En savoir plus sur Journey Orchestration
-feature: Parcours
+description: En savoir plus sur Journey Orchestration
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---

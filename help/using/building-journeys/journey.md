@@ -2,13 +2,13 @@
 product: adobe campaign
 title: À propos de la création de parcours
 description: En tant qu’utilisateur professionnel, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---

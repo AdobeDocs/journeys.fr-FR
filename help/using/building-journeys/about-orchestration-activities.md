@@ -2,13 +2,13 @@
 product: adobe campaign
 title: À propos des activités d’orchestration
 description: En savoir plus sur les activités d’orchestration
-feature: Parcours
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3c2de723-d990-43f5-b39d-2348de62bbcc
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '32'
 ht-degree: 100%
 
 ---

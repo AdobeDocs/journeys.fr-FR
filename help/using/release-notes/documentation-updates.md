@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Mars 2021 {#march-2021}
 
-* Nous avons détaillé la procédure complète de création de profils de test dans Adobe Experience Platform. [En savoir plus](../building-journeys/creating-test-profiles.md).
+* Nous avons détaillé la procédure complète de création de profils de test dans Adobe Experience Platform. [En savoir plus](../building-journeys/creating-test-profiles.md).
 
 ## Janvier 2021 {#january-2021}
 
@@ -71,10 +71,10 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 * Ajout d’une nouvelle section sur l’intégration avec les Services intelligents. [En savoir plus](../ai-services/ai-services-overview.md)
 * Ajout d’une nouvelle section sur la création de profils de test. [En savoir plus](../building-journeys/testing-the-journey.md)
 * Ajout d’informations sur l’utilisation du nœud **[!UICONTROL SegmentQualification]** dans une condition ou une action de parcours. [En savoir plus](../building-journeys/segment-qualification-events.md)
-* Ajout d’une note à la publication des messages transactionnels et des événements de Campaign. Voir [Utilisation d’Adobe Campaign](../action/working-with-adobe-campaign.md) et [Utilisation d’actions Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
-* Des informations ont été ajoutées sur les vérifications effectuées lors du test de l’URL de l’instance Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
-* Des informations ont été ajoutées sur la compatibilité des événements de réaction avec les instances Campaign Standard hébergées sur des serveurs AWS ou Azure. [En savoir plus](../building-journeys/reaction-events.md)
-* Une note a été ajoutée sur la nécessité de configurer une règle de limitation lors de l’utilisation de la messagerie transactionnelle Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
+* Ajout d’une note à la publication des messages transactionnels et des événements de Campaign. Voir [Utilisation d’Adobe Campaign](../action/working-with-adobe-campaign.md) et [Utilisation d’actions Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
+* Des informations ont été ajoutées sur les vérifications effectuées lors du test de l’URL de l’instance Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
+* Des informations ont été ajoutées sur la compatibilité des événements de réaction avec les instances Campaign Standard hébergées sur des serveurs AWS ou Azure. [En savoir plus](../building-journeys/reaction-events.md)
+* Une note a été ajoutée sur la nécessité de configurer une règle de limitation lors de l’utilisation de la messagerie transactionnelle Campaign Standard. [En savoir plus](../action/working-with-adobe-campaign.md)
 * Une note a été ajoutée sur la génération d’événements réels lors du déclenchement des événements à l’aide du mode test. [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Juin 2020 {#june-2020}
