@@ -33,9 +33,9 @@ Conversion
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
 | fuseau horaire | Convertit le paramètre en représentation sous forme de chaîne de l’identifiant de fuseau horaire (id JODA) |
-| integer | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
-| decimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
-| boolean | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
+| nombre entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
+| décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
+| booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
 ## Signatures et type renvoyé
 

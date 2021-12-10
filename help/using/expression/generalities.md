@@ -28,7 +28,7 @@ Les expressions sont évaluées de gauche à droite. L’associativité des opé
 | `4 + 2 * 10` | <ul><li>« * » a la priorité sur « + » : 2 * 10 est évalué → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Les parenthèses modifient la priorité : (4 + 2) est évalué → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Respect de la casse{#section_lrb_xh5_dgb}
+## Sensible à la casse{#section_lrb_xh5_dgb}
 
 Les règles de respect de la casse sont les suivantes :
 
@@ -42,6 +42,6 @@ Selon le contexte d’utilisation, l’éditeur d’expression peut renvoyer dif
 
 | Utilisation de l’éditeur d’expression avancé | Type d’expression renvoyé attendu |
 |--- |--- |
-| Condition (condition de source de données, condition de date) | boolean |
+| Condition (condition de source de données, condition de date) | booléen |
 | Retardateur personnalisé | dateTimeOnly |
 | Mappage des paramètres d’action | Tous |

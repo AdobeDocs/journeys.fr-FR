@@ -30,8 +30,8 @@ Chaîne
 | Paramètre | type |
 |-------------|----------|
 | chaîne | chaîne |
-| beginIndex | integer |
-| endIndex | entier |
+| beginIndex | nombre entier |
+| endIndex | nombre entier |
 
 ## Signature et type renvoyé
 

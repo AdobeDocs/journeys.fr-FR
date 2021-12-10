@@ -31,8 +31,8 @@ Conversion
 |--- |--- |
 | chaîne | convertit la valeur de la chaîne en nombre entier |
 | dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
-| decimal | convertit la valeur d’argument en nombre entier en supprimant la partie décimale (exemple : 1,5 devient 1) |
-| boolean | convertit la valeur booléenne en 1 si true, 0 si false |
+| décimal | convertit la valeur d’argument en nombre entier en supprimant la partie décimale (exemple : 1,5 devient 1) |
+| booléen | convertit la valeur booléenne en 1 si true, 0 si false |
 
 ## Signatures et type renvoyé
 

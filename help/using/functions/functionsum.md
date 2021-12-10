@@ -30,8 +30,8 @@ Agrégation
 * listInteger
 * listDecimal
 * durée
-* integer
-* decimal
+* nombre entier
+* décimal
 
 ## Signatures et types renvoyés
 

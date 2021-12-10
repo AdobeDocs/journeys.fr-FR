@@ -31,8 +31,8 @@ Conversion
 |--- |--- |
 | chaîne | convertit la valeur de la chaîne en valeur décimale |
 | dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
-| boolean | convertit la valeur booléenne en 1 si true, 0 si false |
-| integer | convertit en valeur décimale (exemple :1 devient 1,0) |
+| booléen | convertit la valeur booléenne en 1 si true, 0 si false |
+| nombre entier | convertit en valeur décimale (exemple :1 devient 1,0) |
 
 ## Signatures et types renvoyés
 

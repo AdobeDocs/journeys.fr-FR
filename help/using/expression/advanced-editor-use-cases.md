@@ -9,7 +9,7 @@ exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les événements d’expérience sont extraits d’Adobe Experience Platform s
 * La fonction first renvoie l’événement le plus récent.
 * La fonction last renvoie l’événement le plus ancien.
 
-Supposons, par exemple, que vous souhaitiez cibler les clients ayant abandonné leur panier au cours des 7 derniers jours afin d’envoyer un message lorsque le client se trouve à proximité d’un magasin, avec une offre sur les articles qu’il souhaitait et qui se trouvent en magasin.
+Par exemple, supposons que vous vouliez cibler des clients ayant abandonné leur panier au cours des 7 derniers jours et envoyer un message lorsqu’un client se trouve à proximité d’un magasin, avec une offre sur les articles qu’il souhaitait et qui se trouvent en magasin. 
 
 **Vous devez créer les conditions suivantes :**
 
@@ -46,9 +46,9 @@ Ensuite, il faut sélectionner tous les événements addtocart qui n’ont pas �
 
 >[!NOTE]
 >
->Pour insérer rapidement des champs dans l’expression, double-cliquez sur le champ dans le panneau de gauche de l’éditeur.
+>Pour insérer rapidement un champ dans l’expression, double-cliquez dessus dans le panneau de gauche de l’éditeur. 
 
-L’horodatage spécifié tient lieu de valeur de date et d’heure, et la deuxième valeur correspond au nombre de jours.
+L’horodatage spécifié tient lieu de valeur de date et d’heure, la deuxième valeur correspond au nombre de jours.
 
 ```json
         in( "addToCart", #{ExperiencePlatformDataSource
@@ -76,7 +76,7 @@ Cette expression renvoie une valeur booléenne.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* À droite, les valeurs nécessaires sont spécifiées. Ici, nous devons récupérer l’emplacement du magasin, qui est mappé à partir de l’emplacement de l’événement &quot;ArriveLumaStudio&quot; :
+* Les valeurs nécessaires sont spécifiées à droite. Ici, nous devons récupérer l’emplacement du magasin, qui est mappé à partir de l’emplacement de l’événement « ArriveLumaStudio » :
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 

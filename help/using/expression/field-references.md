@@ -9,7 +9,7 @@ exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Une couleur de syntaxe permet de distinguer visuellement les champs d’événem
 
 ## Valeurs par défaut des références de champ
 
-Une valeur par défaut peut être associée à un nom de champ. La syntaxe se présente comme suit :
+Il est possible d’associer une valeur par défaut à un nom de champ. La syntaxe se présente comme suit :
 
 ```json
 // event field
@@ -90,17 +90,17 @@ expression examples:
 
 ## Référence à un champ dans les collections
 
-Les éléments définis dans les collections sont référencés à l’aide de fonctions spécifiques. `all`, `first` et `last`. Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
+Les éléments définis dans les collections sont référencés à l’aide des fonctions spécifiques `all`, `first` et `last`. Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
-Exemple :
+Exemple :
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-## Référence à un champ défini dans un mappage
+## Référence à un champ défini dans un mapping
 
-### fonction `entry`
+### Fonction `entry`
 
 Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’entrée avec une clé donnée. Elle est par exemple utilisée lors de la définition de la clé d’un événement, selon l’espace de noms sélectionné. Voir Sélection de l’espace de noms. Pour plus d’informations, consultez [cette page](../event/selecting-the-namespace.md).
 
@@ -110,23 +110,23 @@ Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’
 
 Dans cette expression, nous obtenons l’entrée correspondant à la clé « E-mail » du champ « IdentityMap » d’un événement. L’entrée « E-mail » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
-### fonction `firstEntryKey`
+### Fonction `firstEntryKey`
 
-Pour récupérer la première clé d’entrée d’une carte, utilisez la méthode `firstEntryKey` fonction .
+Pour récupérer la première clé d’entrée d’un mappage, utilisez la fonction `firstEntryKey`. 
 
-Cet exemple montre comment récupérer la première adresse email des abonnés d&#39;une liste spécifique :
+Cet exemple montre comment récupérer la première adresse e-mail des abonnés d’une liste spécifique :
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-Dans cet exemple, la liste des abonnements est nommée `daily-email`. Les adresses électroniques sont définies comme clés dans la variable `subscribers` map, qui est liée à la carte de la liste d’abonnements.
+Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements. 
 
-### fonction `keys`
+### Fonction `keys`
 
-Pour récupérer toutes les clés d’une carte, utilisez la variable `keys` fonction .
+Pour récupérer toutes les clés d’un mapping, utilisez la fonction `keys`. 
 
-Cet exemple montre comment récupérer, pour un profil spécifique, toutes les adresses email associées aux abonnés d&#39;une liste spécifique :
+Cet exemple montre comment récupérer, pour un profil spécifique, toutes les adresses e-mail associées aux abonnés d’une liste spécifique :
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
@@ -134,13 +134,13 @@ Cet exemple montre comment récupérer, pour un profil spécifique, toutes les a
 
 ## Valeurs de paramètre d’une source de données (valeurs dynamiques de la source de données)
 
-Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre, un nouvel onglet s’affiche à droite pour vous permettre de spécifier ce paramètre. Voir [cette page](../expression/expressionadvanced.md).
+Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre, un nouvel onglet s’affiche à droite pour vous permettre de spécifier ce paramètre. Consultez [cette page](../expression/expressionadvanced.md).
 
 Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les paramètres de la source de données dans l’expression principale, vous pouvez définir leurs valeurs à l’aide du mot-clé _params_. Un paramètre peut être constitué de n’importe quelle expression valide, même provenant d’une autre source de données contenant également un autre paramètre.
 
 >[!NOTE]
 >
->Lorsque vous définissez les valeurs de paramètre dans l’expression, l’onglet de droite disparaît.
+>Lorsque vous définissez les valeurs de paramètre dans l’expression, l’onglet de droite disparaît. 
 
 Utilisez la syntaxe suivante :
 

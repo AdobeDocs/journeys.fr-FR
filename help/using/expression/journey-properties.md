@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Attributs de propriétés du parcours {#journey-properties}
 
-Dans l’éditeur d’expression avancé, vous trouverez la catégorie **Propriétés du parcours**, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir des parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées.
+Dans l’éditeur d’expression avancé, vous trouverez la catégorie **Propriétés du parcours**, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours dynamiques, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Voici quelques exemples d’utilisation :
 
 ## Liste de champs {#journey-properties-fields}
 
-| Catégorie | Nom du champ | Étiquette | Description |
+| Catégorie | Nom du champ | Libellé | Description |
 |---|---|---|------------|
 | Version de parcours | journeyUID | Identifiant de parcours |  |
 |  | journeyVersionUID | Identifiant de version du parcours |  |

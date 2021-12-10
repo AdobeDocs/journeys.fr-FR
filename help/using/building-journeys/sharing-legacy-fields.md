@@ -1,6 +1,6 @@
 ---
-title: liste de champs d’événement d’étape
-description: Champs hérités
+title: liste des champs d’événement d’étape
+description: champs hérités
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,13 +9,13 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 source-git-commit: 4291dfc91c2fb29d294416ceed022ee00842c870
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# A propos des champs hérités {#sharing-legacy-fields}
+# À propos des champs hérités {#sharing-legacy-fields}
 
-Cette catégorie contient les champs d’événement d’étape d’origine. Ces champs font partie des groupes de champs suivants :
+Cette catégorie contient les champs d’événement d’étape d’origine. Ces champs font partie des groupes de champs suivants :
 
 * [Champs communs des événements journeySteps](../building-journeys/sharing-common-fields.md)
 * [Champs d’exécution d’action des événements journeyStep](../building-journeys/sharing-execution-fields.md)

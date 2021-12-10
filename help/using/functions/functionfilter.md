@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: filter
-description: En savoir plus sur le filtre de fonction
+description: En savoir plus sur la fonction filter
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

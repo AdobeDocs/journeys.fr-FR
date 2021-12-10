@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Remplace la première occurrence correspondant à la chaîne cible par la chaîne de remplacement dans la chaîne de base.
 
-Le remplacement s&#39;effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
+Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 ## Catégorie
 
@@ -32,7 +32,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|--------------|
 | base | chaîne |
-| target | chaîne |
+| cible | chaîne |
 | remplacement | chaîne |
 
 ## Signature et type renvoyé

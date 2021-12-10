@@ -30,7 +30,7 @@ Conversion
 | Paramètre | Description |
 |--- |--- |
 | chaîne | Formats basés sur le format de durée ISO-8601 PnDTnHnMn.nS pour une durée du jour considérée comme durant exactement 24 heures |
-| integer | nombre de millisecondes |
+| nombre entier | nombre de millisecondes |
 
 Si l’expression contient une chaîne : les formats acceptés sont basés sur le format de durée ISO-8601 PnDTnHnMn.nS pour une durée du jour considérée comme durant exactement 24 heures.
 

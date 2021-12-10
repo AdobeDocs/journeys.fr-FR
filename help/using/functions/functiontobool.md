@@ -30,10 +30,10 @@ Conversion
 
 ## Paramètres
 
-* decimal
-* boolean
+* décimal
+* booléen
 * chaîne
-* integer
+* nombre entier
 
 ## Signatures et types renvoyés
 

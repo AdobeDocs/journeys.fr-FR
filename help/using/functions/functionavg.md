@@ -32,7 +32,7 @@ Types pris en charge :
 
 * listInteger
 * listDecimal
-* decimal
+* décimal
 * integer
 
 ## Signatures et type renvoyé

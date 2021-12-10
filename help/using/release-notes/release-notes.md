@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
 source-wordcount: '3075'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -37,10 +37,10 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* **Editeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec des cartes. [En savoir plus](../expression/field-references.md)
+* **Éditeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec les mappings. [En savoir plus](../expression/field-references.md)
 * **Accessibilité** - Des améliorations ont été apportées à l’accessibilité. Journey Orchestration est désormais entièrement conforme en termes d’accessibilité.
-* **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../usecase/collections.md)
-* **Surveillance** - Les événements d’étape pour les parcours en direct et le mode test ont été améliorés. [Nouveaux champs](../building-journeys/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les traitements d&#39;export de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories dans le schéma d’événement d’étape de Parcours pour Journey Orchestration. Tous les champs d’événements d’étape précédente sont toujours disponibles dans la variable [stepEvents](../building-journeys/sharing-legacy-fields.md) catégorie.
+* **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../usecase/collections.md)
+* **Surveillance** - Les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](../building-journeys/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories dans le schéma d’événement d’étape de Parcours pour Journey Orchestration. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../building-journeys/sharing-legacy-fields.md).
 
 ## Version de septembre 2021 {#september-2021-release}
 
@@ -213,7 +213,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <tbody>
 <tr>
 <td>
-<p>Dans l’éditeur d’expression avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Vous aurez ainsi plus de possibilités lors de la création de vos parcours. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs rencontrées dans une condition ou une action.
+<p>Dans l’éditeur d’expression avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s’agit des informations récupérées par le système à partir de parcours dynamiques, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Vous aurez ainsi plus de possibilités lors de la création de vos parcours. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs rencontrées dans une condition ou une action.
 </p>
 <p>Pour plus d'informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
 </td>

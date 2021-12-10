@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,15 +89,15 @@ ht-degree: 96%
    + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
       + [Présentation du partage des étapes du parcours](using/building-journeys/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/building-journeys/sharing-field-list.md)
-      + Champs d’événement d’étape hérités {#legacy-step-event-fields}
-         + [A propos des champs hérités](using/building-journeys/sharing-legacy-fields.md)
+      + Champs d’événement d’étape anciens {#legacy-step-event-fields}
+         + [À propos des champs anciens](using/building-journeys/sharing-legacy-fields.md)
          + [Champs communs des événements journeySteps](using/building-journeys/sharing-common-fields.md)
          + [Champs d’exécution d’action des événements journeyStep](using/building-journeys/sharing-execution-fields.md)
          + [Champs de récupération des données des événements journeyStep](using/building-journeys/sharing-fetch-fields.md)
          + [Champs d’identité des événements journeyStep](using/building-journeys/sharing-identity-fields.md)
          + [Champs du parcours](using/building-journeys/sharing-journey-fields.md)
       + [Exemples de requêtes](using/building-journeys/query-examples.md)
-+ Créer des expressions {#building-advanced-conditions-journeys}
++ Création d’expressions {#building-advanced-conditions-journeys}
    + [Présentation](using/expression/expressionadvanced.md)
    + Syntaxe {#syntax}
       + [Généralités](using/expression/generalities.md)
@@ -109,7 +109,7 @@ ht-degree: 96%
       + [Propriétés du parcours](using/expression/journey-properties.md)
       + [Exemples](using/expression/advanced-editor-use-cases.md)
    + Fonctions {#main-functions-journey}
-      + [Principales fonctions](using/expression/functions.md)
+      + [Fonctions principales](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
       + Agrégation {#aggregation}

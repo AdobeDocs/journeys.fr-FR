@@ -33,7 +33,7 @@ Liste
 |-----------|------------------|
 | Chaîne | Chaîne |
 | Booléen | Booléen |
-| Entier | Entier |
+| Nombre entier | Nombre entier |
 | Décimal | Décimal |
 | Durée | Durée |
 | DateTime | DateTime |

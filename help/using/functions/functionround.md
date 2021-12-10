@@ -27,7 +27,7 @@ Mathématique
 
 ## Paramètres
 
-* decimal
+* décimal
 * integer
 
 ## Signatures et type renvoyé

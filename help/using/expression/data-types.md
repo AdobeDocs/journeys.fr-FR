@@ -9,7 +9,7 @@ exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 D’un point de vue technique, une constante contient toujours un type de données. Dans une expression littérale, nous ne spécifions que la valeur. Le type de données peut être déduit de la valeur (par exemple : chaîne, entier, décimal, etc.). Pour des cas spécifiques, tels que la date et l’heure, des fonctions dédiées sont utilisées pour la représentation.
 
-Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur la manière dont elles sont représentées.
+Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur leur représentation.
 
 ## string {#string}
 

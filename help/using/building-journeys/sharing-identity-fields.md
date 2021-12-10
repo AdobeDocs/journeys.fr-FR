@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Ce mixin est spécifique à journeyStepEvent : cet événement est en relation avec le parcours, et ne dispose pas de l’identityMap décrivant l’identité du profil, le cas échéant.
 
-Pour un événement journeyStepEvent, nous devons également ajouter des champs liés à l’identité :
+Pour journeyStepEvent, nous devons également ajouter des champs liés à l’identité :
 
 ## profileID
 
