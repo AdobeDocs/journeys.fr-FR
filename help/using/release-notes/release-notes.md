@@ -431,7 +431,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations de l’intégration d’Adobe Experience Platform</strong><br/></th>
+<th><strong>Améliorations de l’Intégration avec Adobe Experience Platform</strong><br/></th>
 </tr>
 </thead>
 <tbody>

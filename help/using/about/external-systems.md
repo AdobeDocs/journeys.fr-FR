@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Intégration de systèmes externes
+title: 'Intégration avec des systèmes externes '
 description: Découvrez les bonnes pratiques à appliquer lors de l'intégration de systèmes externes
 feature: Journeys
 role: User
