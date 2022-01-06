@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
 ---
 
-# intersection{#intersect}
+# intersect{#intersect}
 
 Renvoie les valeurs communes dans les deux listes dʼentrée. Si lʼune des deux listes est nulle, elle renvoie une liste vide.
 
