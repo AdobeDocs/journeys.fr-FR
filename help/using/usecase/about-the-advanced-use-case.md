@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ Tout d’abord, nous voulons envoyer un message dès qu’une personne entre dan
 
 Nous vérifions ensuite deux conditions :
 
-* Si cette personne n’est pas un membre du programme de fidélité, nous lui envoyons un e-mail pour rejoindre l’offre d’adhésion au programme de fidélité.
-* Si cette personne est déjà un membre du programme de fidélité, nous vérifions si elle a réservé une chambre :
-   * S&#39;il ne le fait pas, nous lui envoyons une notification push avec les tarifs des chambres.
-   * S’il le fait, nous lui envoyons une notification push de bienvenue. Et s&#39;il entre au restaurant dans les 6 heures qui suivent, nous lui envoyons une notification push avec une remise sur un repas.
+* Si cette personne n’est pas membre du programme de fidélité, nous lui envoyons un e-mail pour lui proposer d’y adhérer.
+* Si cette personne est déjà membre du programme de fidélité, nous vérifions si elle a réservé une chambre :
+   * Si ce n’est pas le cas, nous lui envoyons une notification push avec les tarifs des chambres.
+   * Si elle a réservé une chambre, nous lui envoyons une notification push de bienvenue. En outre, si cette personne accède au restaurant dans les 6 heures qui suivent, nous lui envoyons une notification push avec une remise sur un repas.
 
 ![](../assets/journeyuc2_29.png)
 
