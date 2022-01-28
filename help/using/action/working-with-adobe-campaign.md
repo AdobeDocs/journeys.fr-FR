@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent
 
 >[!NOTE]
 >
->Une règle de limitation de 13 appels par seconde est automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. Cela correspond à l’échelle officielle des messages transactionnels d’Adobe Campaign Standard.
+>Une règle de limitation de 4 000 appels par 5 minutes est automatiquement définie pour les actions Adobe Campaign Standard dès que l’intégration Adobe Campaign Standard est configurée. Cela correspond à l’échelle officielle des messages transactionnels d’Adobe Campaign Standard.
 >
 >Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la [description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html).
 

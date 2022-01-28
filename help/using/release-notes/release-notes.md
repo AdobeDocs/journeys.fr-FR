@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
-workflow-type: ht
-source-wordcount: '3075'
-ht-degree: 100%
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+workflow-type: tm+mt
+source-wordcount: '3136'
+ht-degree: 98%
 
 ---
 
@@ -18,22 +18,14 @@ ht-degree: 100%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version d’octobre 2021 {#october-2021-release}
+## Version de janvier 2022 {#january-2022-release}
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Améliorations
+
+* Les événements d’étape du Journey Orchestration peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le **profileID** dans le schéma d’événement d’étape de Parcours intégré, est désormais défini comme un champ d’identité. [En savoir plus](../building-journeys/sharing-overview.md#integration-cja)
+* La règle de limitation des actions Adobe Campaign Standard a été remplacée par 4 000 appels / 5 minutes. [En savoir plus](../action/working-with-adobe-campaign.md)
+
+## Version d’octobre 2021 {#october-2021-release}
 
 ### Améliorations
 
