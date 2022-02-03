@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -58,10 +58,10 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaill�
 
 Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr).
 
-## Intégration à Customer Parcours Analytics{#integration-cja}
+## Intégration à Customer Journey Analytics{#integration-cja}
 
-Journey Orchestration step events can be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Here is the general workflow:
+Les événements d’étape Journey Orchestration peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le workflow général est le suivant :
 
-* Customer Journey Analytics ingère le jeu de données &quot;Événement d’étape de Parcours&quot;.
-* Le **profileID** dans le &quot;schéma d’événement d’étape de Parcours pour Journey Orchestration&quot; associé est défini comme un champ d’identité. In Customer Journey Analytics, you can then link this dataset to any other dataset that has the same value as the person based identifier.
-* If you would like to use this dataset in Customer Journey Analytics, for cross-channel journey analysis, refer to this [documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+* Customer Journey Analytics ingère le jeu de données « Événement dʼétape du parcours ».
+* Le champ **profileID**, dans le « schéma d’événement d’étape du parcours pour Journey Orchestration » associé, est défini comme un champ d’identité. Dans Customer Journey Analytics, vous pouvez ensuite lier ce jeu de données à tout autre jeu de données ayant la même valeur que l’identifiant basé sur la personne.
+* Si vous souhaitez utiliser ce jeu de données dans Customer Journey Analytics pour une analyse de parcours cross-canal, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr).
