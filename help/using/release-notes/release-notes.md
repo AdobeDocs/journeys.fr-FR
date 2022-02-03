@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3136'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* Les événements d’étape du Journey Orchestration peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le **profileID** dans le schéma d’événement d’étape de Parcours intégré, est désormais défini comme un champ d’identité. [En savoir plus](../building-journeys/sharing-overview.md#integration-cja)
-* La règle de limitation des actions Adobe Campaign Standard a été remplacée par 4 000 appels / 5 minutes. [En savoir plus](../action/working-with-adobe-campaign.md)
+* Les événements d’étape Journey Orchestration peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le champ **profileID**, dans le schéma d’événement d’étape du parcours intégré, est désormais défini comme un champ d’identité. [En savoir plus](../building-journeys/sharing-overview.md#integration-cja)
+* La règle de limitation pour les actions Adobe Campaign Standard a été modifiée et passe à 4 000 appels/5 minutes. [En savoir plus](../action/working-with-adobe-campaign.md)
 
 ## Version d’octobre 2021 {#october-2021-release}
 
