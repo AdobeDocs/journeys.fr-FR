@@ -6,11 +6,10 @@ description: Découvrez les bonnes pratiques à appliquer lors de l'intégration
 feature: Journeys
 role: User
 level: Beginner
-exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

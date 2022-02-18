@@ -5,11 +5,10 @@ description: En savoir plus sur les limites de Journey Orchestration
 feature: Journeys
 role: User
 level: Beginner
-exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +38,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
-* Le nom du paramètre de requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
+* Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
@@ -56,7 +55,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Sources de données  limitations
 
-* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
 ## Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
 
