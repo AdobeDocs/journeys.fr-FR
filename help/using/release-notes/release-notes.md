@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
-workflow-type: ht
-source-wordcount: '3136'
-ht-degree: 100%
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
+workflow-type: tm+mt
+source-wordcount: '3170'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
+
+## Version de février 2022 {#february-2022-release}
+
+### Améliorations
+
+* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine passent désormais à l’état En création . [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
 
 ## Version de janvier 2022 {#january-2022-release}
 

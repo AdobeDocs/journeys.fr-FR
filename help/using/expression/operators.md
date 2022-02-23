@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,11 @@ Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs una
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-Voici la liste des opérateurs pris en charge :
+## Remarques importantes{#important-notes}
+
+* Lors de l’utilisation d’une multiplication (`*`), les deux champs d’opération doivent avoir le même type, entier ou décimal. Exemple :
+   * l’exemple suivant est correct : `3.0 * 4.0`
+   * `3 * 4.0` entraîne une erreur
 
 ## Logique  {#logical}
 

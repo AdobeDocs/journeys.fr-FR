@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: Passage d’un parcours à un autre
-description: Passage d’un parcours à un autre
+title: Mise à jour du profil
+description: Mise à jour du profil
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '345'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,7 @@ L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous perm
 * Comme toute autre action, vous pouvez définir un itinéraire alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
 * La requête de mise à jour envoyée à Platform sera rapide mais pas immédiate/ne démarrera pas dans la seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action Mettre à jour le profil positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour de « champ 1 » dans l&#39;action.
 * En mode test, la mise à jour du profil ne sera pas simulée. La mise à jour sera effectuée sur le profil de test.
+* Le **Mettre à jour le profil** L’activité ne prend pas en charge les champs XDM définis comme une énumération.
 
 ## Utilisation de la mise à jour du profil
 

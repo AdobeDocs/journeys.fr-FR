@@ -5,9 +5,9 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
    + [Sélection de l’espace de noms](using/event/selecting-the-namespace.md)
    + [Définition de la clé d’événement](using/event/defining-the-event-key.md)
-   + [Ajout d’une condition](using/event/adding-a-condition.md)
    + [Aperçu de la payload](using/event/previewing-the-payload.md)
 + Configuration d’une source de données {#data-source-journeys}
    + [À propos des sources de données](using/datasource/about-data-sources.md)

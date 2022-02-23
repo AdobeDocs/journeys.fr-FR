@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 100%
+source-wordcount: '105'
+ht-degree: 71%
 
 ---
 
@@ -32,7 +32,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|--------------|
 | base | chaîne |
-| cible | chaîne |
+| cible | chaîne (RegExp) |
 | remplacement | chaîne |
 
 ## Signature et type renvoyé
@@ -41,8 +41,10 @@ Chaîne
 
 Renvoie une chaîne.
 
-## Exemple
+## Exemple{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
 Renvoie « Hexxo Worxd ».
+
+Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Reportez-vous à l’exemple de la section [cette page](../functions/functionreplace.md#example_2).

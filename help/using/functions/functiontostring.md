@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ Conversion
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
-| fuseau horaire | Convertit le paramètre en représentation sous forme de chaîne de l’identifiant de fuseau horaire (id JODA) |
 | nombre entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
 | décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
 | booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
@@ -44,8 +43,6 @@ Conversion
 `toString(<dateTime>)`
 
 `toString(<duration>)`
-
-`toString(<timeZone>)`
 
 `toString(<boolean>)`
 

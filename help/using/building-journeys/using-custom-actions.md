@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '261'
 ht-degree: 100%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 100%
 # Utilisation d’actions personnalisées {#section_f2c_hbg_nhb}
 
 Le volet de configuration des activités affiche les paramètres de configuration de l’URL et les paramètres d’authentification configurés pour l’action personnalisée. [En savoir plus](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->Vous ne pouvez pas transmettre une simple collection dans les paramètres d’une action personnalisée. Les champs de collection plus complexes (tableaux d’objets) ne sont pas pris en charge.  Notez également qu’un format spécifique est attendu pour les paramètres (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence.
 
 ## Configuration d&#39;URL
 
