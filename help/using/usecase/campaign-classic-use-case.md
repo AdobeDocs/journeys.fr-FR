@@ -3,10 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Envoi d'un message à l'aide de Campaign v7/v8
 description: Envoi d'un message à l'aide de Campaign v7/v8
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 

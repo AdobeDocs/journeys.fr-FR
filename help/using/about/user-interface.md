@@ -125,7 +125,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Op
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Zone de travail de parcours en version préliminaire</td>
+    <td rowspan="3">Zone de travail de parcours à l'état de brouillon</td>
     <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
     <td>Effectuez un double clic sur l’activité.</td>
   </tr>

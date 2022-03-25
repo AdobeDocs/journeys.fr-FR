@@ -5,10 +5,11 @@ description: En savoir plus sur les limites de Journey Orchestration
 feature: Journeys
 role: User
 level: Beginner
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: fef039ae-c04d-4198-a082-4be27710255f
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -67,4 +68,4 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Ajouter une activité d’attente après le premier événement pour donner à Adobe Experience Platform le temps nécessaire pour exécuter l’ingestion sur le service de profil.
 
-* Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
+* Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse e-mail, etc).

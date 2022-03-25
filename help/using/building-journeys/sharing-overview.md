@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -62,6 +62,6 @@ Pour plus d’informations sur le reporting des événements d’étape à Adobe
 
 Les événements d’étape Journey Orchestration peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le workflow général est le suivant :
 
-* Customer Journey Analytics ingère le jeu de données « Événement dʼétape du parcours ».
-* Le champ **profileID**, dans le « schéma d’événement d’étape du parcours pour Journey Orchestration » associé, est défini comme un champ d’identité. Dans Customer Journey Analytics, vous pouvez ensuite lier ce jeu de données à tout autre jeu de données ayant la même valeur que l’identifiant basé sur la personne.
-* Si vous souhaitez utiliser ce jeu de données dans Customer Journey Analytics pour une analyse de parcours cross-canal, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr).
+* Customer Journey Analytics ingère le jeu de données « Événement d’étape du parcours ».
+* Le champ **profileID** dans le « schéma d’événement d’étape du parcours pour Journey Orchestration » associé est défini comme un champ d’identité. Dans Customer Journey Analytics, vous pouvez ensuite lier ce jeu de données à tout autre jeu de données ayant la même valeur que l’identifiant basé sur la personne.
+* Si vous souhaitez utiliser ce jeu de données dans Customer Journey Analytics pour l’analyse de parcours cross-canal, reportez-vous à cette [documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr).

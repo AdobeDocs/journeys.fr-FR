@@ -52,7 +52,7 @@ Voici quelques exemples d’utilisation :
 | Instance de parcours | instanceUID | Identifiant d’instance de parcours | Identifiant de l’instance |
 |  | externalKey | Clé externe | Identifiant individuel déclenchant le parcours |
 |  | organizationId | Identifiant de l’organisation | Organisation de la marque |
-|  | sandboxName | Nom de l’environnement de test | Nom de l’environnement de test |
+|  | sandboxName | Nom du sandbox | Nom de l’environnement de test |
 | Identité | profileId | Identifiant d’identité du profil | Identifiant du profil dans le parcours |
 |  | espace de noms | Espace de noms d’identité de profil | Espace de noms du profil dans le parcours (exemple : ECID) |
 | Nœud actuel | currentNodeId | Identifiant de nœud actuel | Identifiant de l’activité actuelle (nœud) |
