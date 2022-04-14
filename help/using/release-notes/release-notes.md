@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
 workflow-type: tm+mt
 source-wordcount: '3232'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 **Parcours**
 
-* Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Evénement d’étape de Parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../building-journeys/sharing-overview.md)
+* Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Événement d’étape du parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../building-journeys/sharing-overview.md)
 * Les nouveaux événements d’étape liés aux tâches d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../building-journeys/query-examples.md)
 
 ## Version de février 2022 {#february-2022-release}

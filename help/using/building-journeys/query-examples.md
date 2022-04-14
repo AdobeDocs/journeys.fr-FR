@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -192,9 +192,9 @@ ORDER BY DATE(timestamp) desc
 
 La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la rentrée est activée, le nombre de profils peut être dupliqué sur plusieurs jours s’il a rejoint le parcours un autre jour.
 
-## Requêtes relatives au segment de lecture {#read-segment-queries}
+## Requêtes relatives à la lecture de segment {#read-segment-queries}
 
-### Temps nécessaire pour terminer une tâche d’exportation de segments
+### Temps nécessaire pour terminer une tâche d&#39;exportation de segments
 
 _Requête du lac de données_
 
@@ -224,9 +224,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-La requête renvoie la différence de temps, en minutes, entre le moment où la tâche d’exportation de segments a été mise en file d’attente et celui où elle s’est terminée.
+La requête renvoie la différence de temps, en minutes, entre le moment où la tâche d&#39;exportation de segments a été mise en file d&#39;attente et celui où elle s&#39;est terminée.
 
-### Nombre de profils qui ont été ignorés par le parcours car il s’agissait de doublons
+### Nombre de profils qui ont été ignorés par le parcours, car il s’agissait de doublons
 
 _Requête du lac de données_
 
@@ -246,9 +246,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
-La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours car il s’agissait de doublons.
+La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car il s&#39;agissait de doublons.
 
-### Nombre de profils qui ont été ignorés par le parcours en raison d’un espace de noms non valide
+### Nombre de profils qui ont été ignorés par le parcours en raison d&#39;un espace de noms non valide
 
 _Requête du lac de données_
 
@@ -268,9 +268,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
-La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours car ils contenaient un espace de noms non valide ou aucune identité pour cet espace de noms.
+La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car ils contenaient un espace de noms non valide ou aucune identité pour cet espace de noms.
 
-### Nombre de profils qui ont été ignorés par le parcours en raison de l’absence de carte d’identité
+### Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de carte d&#39;identité
 
 _Requête du lac de données_
 
@@ -290,9 +290,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
-La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours car la carte d’identité était manquante.
+La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car la carte d&#39;identité était manquante.
 
-### Nombre de profils qui ont été ignorés par le parcours car le parcours se trouvait dans le noeud test et que le profil n’était pas un profil de test
+### Nombre de profils qui ont été ignorés par le parcours, car celui-ci se trouvait dans le nœud de test et que le profil n&#39;était pas un profil de test
 
 _Requête du lac de données_
 
@@ -312,9 +312,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours car la tâche d’exportation a été exécutée en mode test, mais le profil n’a pas défini l’attribut testProfile sur true.
+La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car la tâche d&#39;exportation a été exécutée en mode test, mais le profil n&#39;a pas défini l&#39;attribut testProfile sur vrai.
 
-### Nombre de profils qui ont été ignorés par le parcours en raison d’une erreur interne
+### Nombre de profils qui ont été ignorés par le parcours en raison d&#39;une erreur interne
 
 _Requête du lac de données_
 
@@ -334,7 +334,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
-La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours en raison d’une erreur interne.
+La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours en raison d&#39;une erreur interne.
 
 ### Présentation de la lecture de segment pour une version de parcours donnée
 
@@ -356,25 +356,25 @@ WHERE
     _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
 ```
 
-Elle renvoie tous les événements de service liés à la version de parcours donnée. Nous pouvons suivre la chaîne des opérations :
+Elle renvoie tous les événements de service liés à la version de parcours donnée. Nous pouvons suivre la chaîne des opérations :
 
 * création de rubrique
-* création de tâche d’exportation
-* terminer la tâche d’exportation (avec des mesures sur les profils exportés)
-* arrêt du traitement des workflows
+* création de tâche d&#39;exportation
+* arrêt de tâche d&#39;exportation (avec des mesures sur les profils exportés)
+* arrêt de traitement secondaire
 
-Nous pouvons également détecter des problèmes tels que :
+Nous pouvons également détecter des problèmes tels que :
 
-* erreurs lors de la création d’une tâche d’exportation ou de rubrique (y compris les dépassements de délai sur les appels d’API d’exportation de segments)
-* tâches d’exportation pouvant être bloquées (dans le cas d’une version de parcours donnée, aucun événement n’est associé à la fin de la tâche d’exportation)
-* problèmes de traitement, si nous avons reçu un événement de fin de tâche d’exportation, mais qu’aucun événement de fin de traitement de traitement de traitement de traitement n’a été envoyé
+* erreurs lors de la création d&#39;une tâche d&#39;exportation ou de rubrique (y compris les temporisations sur les appels API d&#39;exportation de segments)
+* tâches d&#39;exportation pouvant être bloquées (dans le cas d&#39;une version de parcours donnée, aucun événement n&#39;est associé à la fin de la tâche d&#39;exportation)
+* problèmes secondaires, si nous avons reçu un événement de fin de tâche d&#39;exportation, mais pas de fin de traitement secondaire
 
-IMPORTANT : si aucun événement n’est renvoyé par cette requête, cela peut être dû à l’une des raisons suivantes :
+IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela peut être dû à l&#39;une des raisons suivantes :
 
-* la version du parcours n’a pas atteint la planification
-* si la version de parcours est censée déclencher la tâche d’exportation en appelant l’orchestrateur, un problème est survenu dans le flux upstram : Problème sur le déploiement par parcours, l’événement professionnel ou le problème avec le planificateur.
+* la version du parcours n&#39;a pas atteint le planning
+* si la version de parcours est censée déclencher la tâche d&#39;exportation en appelant l&#39;orchestrateur, un problème est survenu dans le flux en amont : problème sur déploiement de parcours, événement métier ou problème avec le planificateur.
 
-### Obtenir les erreurs de lecture de segment pour une version de parcours donnée
+### Obtention des erreurs de lecture de segment pour une version de parcours donnée
 
 _Requête du lac de données_
 
@@ -400,7 +400,7 @@ WHERE
     )
 ```
 
-### Obtention de l’état du traitement des tâches d’exportation
+### Obtention de l&#39;état du traitement des tâches d&#39;exportation
 
 _Requête du lac de données_
 
@@ -424,12 +424,12 @@ WHERE
     )
 ```
 
-Si aucun enregistrement n’est renvoyé, cela signifie que :
+Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 
-* une erreur s’est produite lors de la création d’une tâche de rubrique ou d’exportation
-* la tâche d’exportation est toujours en cours d’exécution
+* une erreur s&#39;est produite lors de la création d&#39;une tâche d&#39;exportation ou rubrique
+* la tâche d&#39;exportation est toujours en cours d&#39;exécution
 
-### Obtention de mesures sur les profils exportés, y compris les enregistrements et les mesures de tâches d’exportation pour chaque tâche d’exportation
+### Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de tâches d&#39;exportation pour chaque tâche d&#39;exportation
 
 _Requête du lac de données_
 
@@ -489,7 +489,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### Obtention de mesures agrégées (tâches d’exportation de segments et abandons) sur toutes les tâches d’exportation
+### Obtention de mesures agrégées (tâches d&#39;exportation de segments et abandons) sur toutes les tâches d&#39;exportation
 
 _Requête du lac de données_
 
@@ -550,11 +550,11 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 Cette requête est différente de la précédente.
 
-Elle renvoie les mesures globales d’une version de parcours donnée, quelles que soient les tâches pouvant avoir été exécutées pour celle-ci (dans le cas de parcours récurrents, les événements d’entreprise ont déclenché les tâches exploitant la réutilisation de rubrique).
+Elle renvoie les mesures globales d&#39;une version de parcours donnée, quelles que soient les tâches pouvant avoir été exécutées pour celle-ci (dans le cas de parcours récurrents, les événements métier ont déclenché les tâches exploitant la réutilisation de rubrique).
 
 ## Requêtes relatives à la qualification du segment {#segment-qualification-queries}
 
-### Profil ignoré en raison d’une réalisation de segment différente de celle configurée
+### Profil ignoré en raison d&#39;une réalisation de segment différente de celle configurée
 
 _Requête du lac de données_
 
@@ -574,11 +574,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
 ```
 
-Cette requête renvoie tous les identifiants de profil qui ont été ignorés par la version de parcours en raison d’une réalisation de segment incorrecte.
+Cette requête renvoie tous les identifiants de profil qui ont été ignorés par la version de parcours en raison d&#39;une réalisation de segment incorrecte.
 
 ## Requêtes basées sur un événement {#event-based-queries}
 
-### Vérifier si un événement commercial a été reçu pour un parcours
+### Vérifier si un événement métier a été reçu pour un parcours
 
 _Requête du lac de données_
 
@@ -628,7 +628,7 @@ ORDER BY DATE(timestamp) desc
 
 La requête renvoie, pour la période définie, le nombre de parcours uniques qui se déclenchent chaque jour. Un seul parcours qui se déclenche plusieurs jours sera comptabilisé une fois par jour.
 
-## Requêtes sur les instances de parcours {#journey-instances-queries}
+## Requêtes sur les instances du parcours {#journey-instances-queries}
 
 ### Nombre de profils dans un état spécifique à une heure spécifique
 
@@ -816,7 +816,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Nombre de profils ayant quitté le parcours pendant la période spécifique avec le noeud/le statut
+### Nombre de profils ayant quitté le parcours pendant la période spécifique avec le nœud/l&#39;état
 
 _Requête du lac de données_
 

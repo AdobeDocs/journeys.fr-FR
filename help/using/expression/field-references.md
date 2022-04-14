@@ -9,7 +9,7 @@ exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-Vous pouvez ajouter n’importe quel type d’expression comme valeur par défaut. La seule contrainte est que l’expression doit renvoyer le type de données attendu. Lors de l’utilisation d’une fonction, l’encapsulation de la fonction avec () est requise.
+Vous pouvez ajouter n&#39;importe quel type d&#39;expression comme valeur par défaut. La seule contrainte est que l&#39;expression doit renvoyer le type de données attendu. Lors de l&#39;utilisation d&#39;une fonction, l’encapsulation de la fonction avec () est requise.
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
