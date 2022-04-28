@@ -1,17 +1,17 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Envoi d'un message à l'aide de Campaign v7/v8
-description: Envoi d'un message à l'aide de Campaign v7/v8
+title: Envoyer un message à l’aide de Campaign v7/v8
+description: Envoyer un message à l’aide de Campaign v7/v8
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
 ---
 
-# Envoi d&#39;un message à l&#39;aide de Campaign v7/v8 {#campaign-classic-use-case}
+# Envoyer un message à l’aide de Campaign v7/v8 {#campaign-classic-use-case}
 
 Ce cas pratique présente toutes les étapes nécessaires pour envoyer un e-mail à l&#39;aide de l&#39;intégration à Adobe Campaign Classic v7 et Adobe Campaign v8.
 
