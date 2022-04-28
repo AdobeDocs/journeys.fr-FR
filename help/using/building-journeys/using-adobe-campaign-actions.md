@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SM
 
 >[!NOTE]
 >
->Dans le cas des e-mails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’e-mail de la personne dans le paramètre d’URL et qui pointe vers une page de destination de désabonnement. Vous devez créer cette page de destination et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
+>Dans le cas des e-mails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré, en standard, par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’e-mail de la personne dans le paramètre d’URL et qui pointe vers une page de destination de désabonnement. Vous devez créer cette page de destination et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
 
 Vous devez, tout d’abord, choisir un modèle de message transactionnel. Voir [cette page](../building-journeys/about-action-activities.md).
 
