@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Limites des actions Adobe Campaign
 
-* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* Les messages transactionnels Adobe Campaign Standard ont une échelle de 50 000 messages par heure maximum sur tous les canaux pour une instance donnée. Voir [Description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html). 
   
 
 ## Limites des événements
@@ -56,7 +56,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 
 ## Sources de données  limitations
 
-* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel.Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
 ## Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
 
