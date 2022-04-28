@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1589'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Pour utiliser le mode test, procédez comme suit :
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 * Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
-* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut Version préliminaire.
+* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut Brouillon.
 
 ## Transformation d’un profil en profil de test{#turning-profile-into-test}
 
