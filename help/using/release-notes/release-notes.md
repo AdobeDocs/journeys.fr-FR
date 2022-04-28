@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3232'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine passent désormais à l’état En création . [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
+* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut Brouillon. [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
 
 ## Version de janvier 2022 {#january-2022-release}
 
