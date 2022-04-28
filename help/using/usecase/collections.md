@@ -5,7 +5,7 @@ title: Transmission dynamique des collections à l’aide d’actions personnali
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
