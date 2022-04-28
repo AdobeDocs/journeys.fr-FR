@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
-title: Utilisation de segments dans des conditions
+title: Utiliser des segments dans des conditions
 description: Découvrez comment utiliser un segment
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
