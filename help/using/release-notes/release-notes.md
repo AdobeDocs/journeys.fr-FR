@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: ht
-source-wordcount: '3232'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '3280'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration.
 Vous pouvez également consulter les dernières [mises à jour de la documentation](../release-notes/documentation-updates.md).
 
-## Version de mars 2022 {#feb-2022-release}
+## Version de mai 2022 {#may-2022-release}
 
 ### Améliorations
 
-**Parcours**
+* **Editeur d&#39;expression** - Le [limit](../functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. Le [sort](../functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée à la fonction [disctinct](../functions/functiondistinct.md) et [distinctWithNull](../functions/functiondistinctwithnull.md) fonctions.
+
+## Version de mars 2022 {#feb-2022-release}
+
+### Améliorations
 
 * Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Événement d’étape du parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../building-journeys/sharing-overview.md)
 * Les nouveaux événements d’étape liés aux tâches d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../building-journeys/query-examples.md)
@@ -514,7 +518,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 <p>Les améliorations suivantes ont été apportées au mode test :</p>
 <ul>
 <li>Lorsqu’un parcours utilise plusieurs événements, vous pouvez maintenant les déclencher séparément depuis une liste déroulante dans l’écran <strong>Configuration d’événement</strong> du mode test. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p></li>
-<li><p>Lorsqu’une ou plusieurs activités d’<strong>attente</strong> sont utilisées dans un parcours, vous pouvez maintenant définir la durée de chacune d’entre elles en mode test. La durée par défaut est de 10 secondes. Vous pouvez la modifier à l’aide du paramètre <strong>Temps d’attente en test</strong>, dans le coin inférieur gauche. <a href="../building-journeys/testing-the-journey.md">En savoir plus</a></p><img src="../assets/rn-test.png"/>
+<li><p>Lorsqu’une ou plusieurs activités d’<strong>attente</strong> sont utilisées dans un parcours, vous pouvez maintenant définir la durée de chacune d’entre elles en mode test. La valeur par défaut est de 10 secondes. Vous pouvez la modifier à l’aide du paramètre <strong>Temps d’attente en test</strong>, dans le coin inférieur gauche. <a href="../building-journeys/testing-the-journey.md">En savoir plus</a></p><img src="../assets/rn-test.png"/>
 </li>
 <li>En cas d’erreur lors de l’appel d’un système tiers (source de données ou action), le code d’erreur et la réponse d’erreur s’affichent maintenant dans les <strong>journaux de test</strong>. <a href="../building-journeys/testing-the-journey.md#viewing_logs">En savoir plus</a>
 </li>

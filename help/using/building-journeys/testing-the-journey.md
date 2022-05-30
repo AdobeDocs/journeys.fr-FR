@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
-workflow-type: ht
-source-wordcount: '1589'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '1592'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’un événement de réaction est utilisé dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
+   >Lorsqu’un événement de réaction avec un délai d’expiration est utilisé dans un parcours, la valeur par défaut du temps d’attente et la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
 
 1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
@@ -71,7 +71,7 @@ Pour ce faire, la méthode la plus simple consiste à utiliser une activité d�
 
 ## Création d’un profil de test{#create-test-profile}
 
-Si vous souhaitez créer un profil de test, la procédure à suivre est identique à celle utilisée pour créer un profil dans Adobe Experience Platform. Il est effectué par le biais d’appels API. Voir cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
+Si vous souhaitez créer un profil de test, la procédure à suivre est identique à celle utilisée pour créer un profil dans Adobe Experience Platform. Il est effectué par le biais d’appels API. Consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
 
 Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce mixin.
 
