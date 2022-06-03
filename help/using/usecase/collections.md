@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Transmission dynamique des collections à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: ht
+source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -66,6 +66,7 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
     ]
    }
    ```
+
 * Pour tester les collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Le mode Affichage du code n’est pas pris en charge pour les événements métier pour l’instant. Vous ne pouvez envoyer qu’une collection avec un seul élément.
 
 ## Procédure générale {#general-procedure}
