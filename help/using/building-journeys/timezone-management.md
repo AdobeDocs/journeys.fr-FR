@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,6 @@ Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un �
 * [Condition de temps](../building-journeys/condition-activity.md#time_condition)
 * [Condition de date](../building-journeys/condition-activity.md#date_condition)
 * [Attente personnalisée](../building-journeys/wait-activity.md#custom)
-* [Attente à date fixe](../building-journeys/wait-activity.md#fixed_date)
 
 Vous pouvez sélectionner un fuseau horaire ou choisir d&#39;utiliser celui défini dans le profil utilisateur.
 
@@ -42,13 +41,9 @@ Pour cela, dans **[!UICONTROL Propriétés]**, sélectionnez un fuseau horaire.
 
 ## Utilisation de profils pour définir le fuseau horaire du parcours {#timezone-from-profiles}
 
-Si un espace de noms est associé à l’événement d’entrée du parcours, ce qui signifie que ce dernier peut accéder au service de profil client en temps réel d’Adobe Experience Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de l’individu qui participe au parcours.
+Si l’événement d’entrée du parcours comporte un espace de noms, ce qui signifie que le parcours peut accéder au service de profil client en temps réel de Adobe Experience Platform, vous pouvez utiliser le fuseau horaire défini au niveau du profil. Pour ce faire, reportez-vous à la section **Propriétés**, vérifier **Utilisation du fuseau horaire du profil dans les conditions d’attente**. Cette option n’est pas cochée par défaut.
 
-Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
-
-Si le profil de l&#39;individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
-
-Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Utiliser le fuseau horaire du profil dans les retardateurs et conditions]**.
+Si un fuseau horaire a été défini pour un profil, il sera récupéré et utilisé par le parcours. Dans le cas contraire, le fuseau horaire utilisé sera celui défini dans le champ du fuseau horaire.
 
 ![](../assets/journey73.png)
 

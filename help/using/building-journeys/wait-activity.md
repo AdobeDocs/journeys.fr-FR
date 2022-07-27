@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
-workflow-type: ht
-source-wordcount: '375'
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+workflow-type: tm+mt
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 100%
 Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :
 
 * [Durée](#duration)
-* [Date fixe](#fixed_date)
 * [Valeur](#custom) personnalisée
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## À propos de l&#39;activité d&#39;attente{#about_wait}
@@ -33,19 +31,13 @@ Notez également que si deux attentes différentes s&#39;exécutent en parallèl
 >
 >La durée d&#39;attente maximale est de 30 jours.
 >
->En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
+>En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
 
 ## Durée de l&#39;attente{#duration}
 
 Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante.
 
 ![](../assets/journey55.png)
-
-## Attente à date fixe{#fixed_date}
-
-Sélectionnez la date d&#39;exécution de l&#39;activité suivante.
-
-![](../assets/journey56.png)
 
 ## Attente personnalisée{#custom}
 
