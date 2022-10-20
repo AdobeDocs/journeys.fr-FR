@@ -23,7 +23,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    Vous devez définir les informations attendues et comment les traiter. Cette configuration est obligatoire. Cette étape est effectuée par un **utilisateur technique**.
 
-   Consultez [cette page](../event/about-events.md) pour plus d’informations.
+   Pour plus d’informations, consultez [cette page](../event/about-events.md).
 
    ![](../assets/journey7.png)
 
@@ -31,7 +31,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l&#39;approvisionnement. Cette étape n&#39;est pas obligatoire si vous n&#39;exploitez que les données des événements de votre parcours. Cette étape est effectuée par un **utilisateur technique**.
 
-   Consultez [cette page](../datasource/about-data-sources.md) pour plus d’informations à ce sujet.
+   Pour plus d’informations, consultez [cette page](../datasource/about-data-sources.md).
 
    ![](../assets/journey22.png)
 
