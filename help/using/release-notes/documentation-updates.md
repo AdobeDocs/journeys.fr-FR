@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Juillet 2022 {#july-2022}
 
-* Dans les propriétés du parcours, la variable **Fuseau horaire du profil** est désormais désactivée par défaut. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
-* Dans le **Attente** l’activité **Date fixe** n’est plus disponible. [En savoir plus](../building-journeys/wait-activity.md)
+* Dans les propriétés du parcours, l’option **Fuseau horaire du profil** est désormais désactivée par défaut. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
+* Dans l’activité **Attente**, l’option **Date fixe** n’est plus disponible. [En savoir plus](../building-journeys/wait-activity.md)
 
 ## Juin 2022 {#june-2022}
 
-* De nouveaux exemples de requête ont été ajoutés à ce [page](../building-journeys/query-examples.md)
+* De nouveaux exemples de requête ont été ajoutés à cette [page](../building-journeys/query-examples.md).
 
 ## Mars 2022 {#march-2022}
 
