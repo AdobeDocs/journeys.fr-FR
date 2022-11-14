@@ -6,9 +6,9 @@ user-guide-description: Fournit des instructions pratiques pour la mise en œuvr
 index: true
 feature: Journeys
 source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 + Nouveautés {#release-notes}
    + [Notes de mise à jour](using/release-notes/release-notes.md)
    + [Mises à jour de la documentation](using/release-notes/documentation-updates.md)
-   + [Mise à niveau vers Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
+   + [Mettre à niveau vers Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + Prise en main de [!DNL Journey Orchestration] {#starting-with-journeys}
    + [À propos d’ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limites](using/about/limitations.md)
@@ -196,12 +196,12 @@ ht-degree: 99%
       + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
       + [Configuration de l’événement](using/usecase/configuring-the-event.md)
       + [Configuration de la source de données](using/usecase/configuring-the-data-source.md)
-      + [Création du parcours](using/usecase/simple-uc-building-the-journey.md)
+      + [Créer le parcours](using/usecase/simple-uc-building-the-journey.md)
    + Créer un parcours cross-canal{#use-case-advanced}
       + [À propos du cas d’utilisation avancé](using/usecase/about-the-advanced-use-case.md)
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)
-      + [Création du parcours](using/usecase/building-the-journey.md)
+      + [Créer le parcours](using/usecase/building-the-journey.md)
    + [Envoi dʼun message à lʼaide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Transmission dynamique des collections à l’aide dʼactions personnalisées](using/usecase/collections.md)
 + Utilisation des API{#working-with-apis}
