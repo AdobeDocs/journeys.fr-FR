@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,9 @@ Voici la liste des jeux de données de suivi et des cas d’utilisation associé
 
 **Jeu de données d’événement de suivi d’email** (cjm_email_tracking_experience_event_dataset)
 
-Jeu de données système pour l’ingestion d’événements d’expérience de suivi de courrier électronique à partir de Journey Optimizer.
+Jeu de données système pour l’ingestion d’événements d’expérience de tracking e-mail à partir de Journey Optimizer.
 
-Le schéma associé est le schéma d’événement d’expérience de suivi de courrier électronique CJM.
+Le schéma associé est celui d’événements d’expérience de tracking e-mail sur CJM.
 
 _Cas pratique de création de rapports_
 
@@ -59,9 +59,9 @@ limit 100;
 
 **Jeu de données d’événement de retour de message** (cjm_message_feedback_event_dataset)
 
-Jeu de données pour l’ingestion d’événements de retour d’application push et de courrier électronique à partir de Journey Optimizer.
+Jeu de données pour l’ingestion d’événements de retour d’application push et d’e-mail à partir de Journey Optimizer.
 
-Le schéma associé est le schéma d’événement de retour de message CJM.
+Le schéma associé est celui d’événements de retour de message CJM.
 
 _Cas pratique de création de rapports_
 
@@ -96,7 +96,7 @@ limit 100;
 
 Jeu de données pour l’ingestion d’événements d’expérience de suivi mobile pour les canaux push et inapp à partir de Journey Optimizer.
 
-Le schéma associé est le schéma d’événement d’expérience de suivi Push CJM.
+Le schéma associé est celui d’événements d’expérience de tracking de notifications Push sur CJM.
 
 _Cas pratique de création de rapports_
 
@@ -112,7 +112,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 Jeu de données pour l’ingestion d’événements d’étape pour l’utilisateur dans le parcours.
 
-Le schéma associé est le schéma Événement d’étape de Parcours pour Journey Orchestration.
+Le schéma associé est celui d’événements d’étapes de parcours pour Journey Orchestration.
 
 _Cas pratique de création de rapports_
 
@@ -322,7 +322,7 @@ La requête renvoie, pour la période définie, le nombre de profils ayant rejoi
 
 ## Requêtes relatives à la lecture de segment {#read-segment-queries}
 
-**Temps nécessaire pour terminer une tâche d&#39;exportation de segments**
+**Temps nécessaire pour terminer un traitement d&#39;exportation de segments**
 
 _Requête du lac de données_
 
@@ -398,7 +398,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car ils contenaient un espace de noms non valide ou aucune identité pour cet espace de noms.
 
-**Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de carte d&#39;identité**
+**Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de mappage d&#39;identité**
 
 _Requête du lac de données_
 
@@ -557,7 +557,7 @@ Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 * une erreur s&#39;est produite lors de la création d&#39;une tâche d&#39;exportation ou rubrique
 * la tâche d&#39;exportation est toujours en cours d&#39;exécution
 
-**Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de tâches d&#39;exportation pour chaque tâche d&#39;exportation**
+**Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de traitements d&#39;exportation pour chaque traitement d&#39;exportation**
 
 _Requête du lac de données_
 
@@ -617,7 +617,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Obtention de mesures agrégées (tâches d&#39;exportation de segments et abandons) sur toutes les tâches d&#39;exportation**
+**Obtention de mesures agrégées (traitement d&#39;exportation de segments et abandons) sur tous les traitements d&#39;exportation**
 
 _Requête du lac de données_
 
@@ -784,7 +784,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Vérifier si un événement externe d’un profil a été ignoré pour une autre raison**
+**Vérifier si un événement externe d’un profil a été ignoré pour toute autre raison**
 
 _Requête du lac de données_
 
@@ -828,7 +828,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Vérifier tous les événements ignorés car la rentrée n’était pas autorisée**
+**Vérifier tous les événements ignorés car une nouvelle entrée n’était pas autorisée**
 
 _Requête du lac de données_
 

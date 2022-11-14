@@ -42,7 +42,7 @@ Renvoie un entier.
 
 `indexOf("Hello", "l")`
 
-Renvoie 2.
+Renvoie 2.
 
 Explication :
 

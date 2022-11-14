@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Configuration d&#39;URL {#concept_gbg_1f1_2gb}
+# Configurer des URL {#concept_gbg_1f1_2gb}
 
 Lors de la configuration d&#39;une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration d&#39;URL]** suivants :
 

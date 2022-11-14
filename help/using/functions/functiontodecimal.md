@@ -50,4 +50,4 @@ Renvoie une valeur décimale.
 
 `toDecimal("4.0")`
 
-Renvoie 4,0.
+Renvoie 4.0.

@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="À propos des événements"
 >abstract="Un événement est lié à une personne. Il est associé au comportement d’une personne ou à quelque chose qui se passe en rapport avec une personne. C’est ce type d’élément que [!DNL Journey Orchestration] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite."
 
-Un événement est associé à une personne. Il décrit son comportement (par exemple, cette personne a acheté un produit, a visité un magasin, a quitté un site web, etc.) ou un événement qui s’est produit en rapport avec cette personne (par exemple, elle a accumulé 10 000 points de fidélité). C’est ce type d’élément que [!DNL Journey Orchestration] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite.
+Un événement est lié à une personne. Il décrit son comportement (par exemple, cette personne a acheté un produit, a visité un magasin, a quitté un site web, etc.) ou un événement qui s’est produit en rapport avec cette personne (par exemple, elle a accumulé 10 000 points de fidélité). C’est ce type d’élément que [!DNL Journey Orchestration] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite.
 
 Cette configuration est **obligatoire** dans la mesure où [!DNL Journey Orchestration] a été conçu pour « écouter » des événements. Elle est toujours effectuée par un **utilisateur technique**.
 
@@ -34,7 +34,7 @@ Vous pouvez définir deux types d’événements :
 
    >[!CAUTION]
    >
-   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Voir cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/journey-orchestration.html).
+   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Orchestration. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/journey-orchestration.html).
 
 * **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload.
 

@@ -3,13 +3,13 @@ title: Mettre à niveau vers Adobe Journey Optimizer
 description: Découvrez comment mettre à niveau vers Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8591ed266f5a360dbc7bea8dd8a6d7a089aa346f
-workflow-type: ht
+exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
+source-git-commit: 9b90c098db1e13e7dc3405feb2ca74ffac54ef49
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 
 ---
-
 
 # Mettre à niveau votre environnement Journey Orchestration vers Adobe Journey Optimizer{#ugrade-ajo}
 

@@ -38,7 +38,7 @@ Pour sélectionner les champs de score de fatigue dans la source de données int
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Création du parcours {#section_uzm_pyy_wfb}
+## Créer le parcours {#section_uzm_pyy_wfb}
 
 Pour créer, valider et publier le parcours, suivez les étapes décrites dans [cette page](../building-journeys/journey.md).
 

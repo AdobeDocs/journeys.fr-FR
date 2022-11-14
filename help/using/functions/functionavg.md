@@ -57,8 +57,8 @@ Renvoie une valeur décimale.
 
 `avg([10,3,8])`
 
-Renvoie 7,0.
+Renvoie 7.0.
 
 `avg(10.2, 3)`
 
-Renvoie 6,6.
+Renvoie 6.6.

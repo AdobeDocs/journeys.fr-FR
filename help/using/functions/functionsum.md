@@ -61,4 +61,4 @@ Renvoie 21.
 
 `sum([10.5,null,8.1])`
 
-Renvoie 18,6.
+Renvoie 18.6.

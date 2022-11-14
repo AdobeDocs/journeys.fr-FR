@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Source de données Adobe Experience Platform '
-description: 'Découvrez comment configurer la source de données Adobe Experience Platform '
+title: Source de données Adobe Experience Platform
+description: Découvrez comment configurer la source de données Adobe Experience Platform
 feature: Journeys
 role: User
 level: Intermediate

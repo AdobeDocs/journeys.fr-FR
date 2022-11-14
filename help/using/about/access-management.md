@@ -24,7 +24,7 @@ Les autorisations peuvent être gérées par des administrateurs qui ont accès 
 Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 
 * faire partie d’un **[!UICONTROL profil de produit]** [!DNL Journey Orchestration] associé aux autorisations de [!DNL Journey Orchestration] ;
-* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour plus d’informations, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#adobe-admin-console).
+* faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour en savoir plus à ce sujet, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#adobe-admin-console).
 
 Admin Console permet d’attribuer aux utilisateurs l’un des profils de produit par défaut suivants :
 
@@ -84,7 +84,7 @@ Pour créer un profil de produit et attribuer un ensemble d’autorisations et d
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. Sélectionnez votre nouveau profil de produit pour commencer à gérer les autorisations. Dans l’onglet **[!UICONTROL Utilisateurs]**, ajoutez des utilisateurs à votre profil de produit. Pour plus d’informations, consultez cette [page](../about/access-management.md#assigning-product-profile).
+1. Sélectionnez votre nouveau profil de produit pour commencer à gérer les autorisations. Dans l’onglet **[!UICONTROL Utilisateurs]**, ajoutez des utilisateurs à votre profil de produit. Pour en savoir plus à ce sujet, consultez cette [page](../about/access-management.md#assigning-product-profile).
 
 1. Procédez comme décrit ci-dessus pour ajouter l’**[!UICONTROL Administrateur]** à votre profil de produit.
 
@@ -126,7 +126,7 @@ Pour attribuer un profil de produit à un utilisateur et lui permettre d’accé
 
 1. Cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
 
-   Vous pouvez également ajouter votre nouvel utilisateur à un groupe d’utilisateurs pour parfaire l’ensemble d’autorisations partagé. Pour plus d’informations, consultez cette [cette page](https://helpx.adobe.com/fr/enterprise/using/user-groups.html).
+   Vous pouvez également ajouter votre nouvel utilisateur à un groupe d’utilisateurs pour parfaire l’ensemble d’autorisations partagé. Pour en savoir plus à ce sujet, consultez cette [page](https://helpx.adobe.com/fr/enterprise/using/user-groups.html).
 
    ![](../assets/do-not-localize/user_management_3.png)
 

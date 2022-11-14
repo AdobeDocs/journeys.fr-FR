@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: À propos des sources de données
-description: 'Découvrez comment configurer une source de données. '
+description: Découvrez comment configurer une source de données.
 feature: Journeys
 role: User
 level: Intermediate
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="À propos des sources de données"
->abstract="La configuration de la source de données vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours."
+>abstract="La configuration des sources de données vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours."
 
 Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple :
 

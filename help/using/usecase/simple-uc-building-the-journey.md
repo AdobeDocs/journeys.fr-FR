@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 
 ---
 
-# Création du parcours{#concept_eyw_mcy_w2b}
+# Créer le parcours{#concept_eyw_mcy_w2b}
 
 Un **utilisateur chargé de la conception de parcours** peut maintenant créer le parcours. Notre parcours n’inclura qu’un seul chemin avec les activités suivantes :
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur la création d’un parcours, consultez [cette pa
 
    ![](../assets/journeyuc1_12.png)
 
-1. Déposez une activité **[!UICONTROL E-mail]** et sélectionnez votre modèle de messagerie transactionnelle « Spa discount ». Ce modèle a été conçu à l’aide d’Adobe Campaign. Voir cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+1. Déposez une activité **[!UICONTROL E-mail]** et sélectionnez votre modèle de messagerie transactionnelle « Spa discount ». Ce modèle a été conçu à l’aide d’Adobe Campaign. Voir cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr).
 
    ![](../assets/journeyuc1_13.png)
 

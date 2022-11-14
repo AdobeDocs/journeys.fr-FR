@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 'Intégration avec des systèmes externes '
+title: Intégration avec des systèmes externes
 description: Découvrez les bonnes pratiques à appliquer lors de l'intégration de systèmes externes
 feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 100%
 

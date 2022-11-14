@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'À propos des schémas ExperienceEvent pour les événements Journey Orchestration '
-description: 'En savoir plus sur les schémas ExperienceEvent pour les événements Journey Orchestration '
+title: À propos des schémas ExperienceEvent pour les événements Journey Orchestration
+description: En savoir plus sur les schémas ExperienceEvent pour les événements Journey Orchestration
 feature: Journeys
 role: User
 level: Intermediate

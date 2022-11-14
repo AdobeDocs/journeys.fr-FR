@@ -105,7 +105,7 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 | **Taux d’ouverture** | Nombre total de messages ouverts par rapport au nombre de messages diffusés. |
 | **Quarantaine** | Nombre de messages qui ont fait l’objet d’un bounce et qui ont entraîné la mise en quarantaine de l’adresse. |
 | **Taux de mise en quarantaine** | Nombre total de mises en quarantaine par rapport aux messages envoyés. |
-| **Rejetés** | Nombre de messages classés comme spam par les serveurs SMTP. |
+| **Refusé** | Nombre de messages classés comme spam par les serveurs SMTP. |
 | **Taux de rejet** | Nombre total de messages marqués comme rejetés par rapport aux messages envoyés. |
 | **Traités/envoyés** | Nombre total d’envois pour la diffusion. |
 | **Soft bounce** | Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine. |

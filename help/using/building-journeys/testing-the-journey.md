@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Test du parcours
-description: 'En savoir plus sur le test d’un parcours '
+description: En savoir plus sur le test d’un parcours
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '1592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’un événement de réaction avec un délai d’expiration est utilisé dans un parcours, la valeur par défaut du temps d’attente et la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
+   >Lorsqu’un événement de réaction est utilisé avec une temporisation dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
 
 1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 

@@ -34,7 +34,7 @@ Avec le concepteur de parcours, un **utilisateur chargé de la conception de par
 
 Il est ensuite possible de créer des conditions basées sur :
 
-* le temps ;
+* l’heure.
 * des données provenant de la payload de l’événement ;
 * des informations provenant de sources de données : profil client en temps réel ou sources personnalisées.
 

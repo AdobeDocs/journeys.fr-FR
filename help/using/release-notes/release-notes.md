@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '3280'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,14 +22,14 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* **Editeur d&#39;expression** - Le [limit](../functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. Le [sort](../functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée à la fonction [disctinct](../functions/functiondistinct.md) et [distinctWithNull](../functions/functiondistinctwithnull.md) fonctions.
+* **Éditeur d&#39;expression** : la fonction [limit](../functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../functions/functiondistinct.md) et [distinctWithNull](../functions/functiondistinctwithnull.md).
 
 ## Version de mars 2022 {#feb-2022-release}
 
 ### Améliorations
 
 * Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Événement d’étape du parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../building-journeys/sharing-overview.md)
-* Les nouveaux événements d’étape liés aux tâches d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../building-journeys/query-examples.md)
+* Les nouveaux événements d’étape liés aux traitements d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../building-journeys/query-examples.md)
 
 ## Version de février 2022 {#february-2022-release}
 
