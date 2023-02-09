@@ -42,7 +42,7 @@ Les principales étapes de configuration d’une source de données sont les sui
 
 >[!NOTE]
 >
->La configuration d’une source de données est toujours effectuée par un **utilisateur technique**.
+>La configuration d’une source de données est toujours effectuée par un **utilisateur ou une utilisatrice technique**.
 
 1. Dans le volet de menus, sélectionnez **[!UICONTROL Admin]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**.
 

@@ -142,7 +142,7 @@ L’utilisateur doit alors recevoir un e-mail le redirigeant vers votre instance
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflète les environnements Sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
-Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) pour connaître la procédure à suivre.
+Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) pour connaître la procédure à suivre.
 
 
 La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d&#39;un environnement Sandbox à un autre, cliquez sur l&#39;environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.

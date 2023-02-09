@@ -90,7 +90,7 @@ La payload obtenue peut être utilisée pour importer la version du parcours dan
 | `[POST]` | /list/journeys | Permet de répertorier les métadonnées des parcours et leurs versions de parcours |
 
 
-### Caractéristiques de l’export et barrières de sécurité
+### Caractéristiques de l’export et mécanismes de sécurisation
 
 * Le parcours doit être valide avant l’export.
 

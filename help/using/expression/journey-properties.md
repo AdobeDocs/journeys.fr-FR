@@ -19,7 +19,7 @@ Dans l’éditeur d’expression avancé, vous trouverez la catégorie **Propri�
 
 >[!NOTE]
 >
->Les attributs de propriétés du parcours sont également disponibles dans l’éditeur d’expression simple. Consultez cette [section](../building-journeys/condition-activity.md#about_condition)
+>Les attributs de propriétés du parcours sont également disponibles dans l’éditeur d’expression simple. Consultez cette [section](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/journey-properties.png)
 

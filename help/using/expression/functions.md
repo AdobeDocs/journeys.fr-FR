@@ -23,7 +23,7 @@ Chaque fonction renvoie une valeur de type spécifique.
 
 Voici la liste des fonctions prises en charge :
 
-## Principales fonctions
+## Fonctions principales
 
 | Catégorie | Fonction |
 |-------------|-----------------------|
@@ -69,7 +69,7 @@ Voici la liste des fonctions prises en charge :
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Mathématiques | [round](../functions/functionround.md) |
+| Math | [round](../functions/functionround.md) |
 | Chaîne | [concat](../functions/functionconcat.md) |
 | Chaîne | [contain](../functions/functioncontain.md) |
 | Chaîne | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: À propos des données Adobe Analytics
-description: Découvrez comment exploiter les données Adobe Analytics
+description: Découvrez comment exploiter les données d’Adobe Analytics.
 feature: Journeys
 role: User
 level: Intermediate

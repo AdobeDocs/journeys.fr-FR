@@ -99,7 +99,7 @@ Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du 
 
 ## Création de profils de test à l’aide d’appels d’API {#create-test-profiles-api}
 
-Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 
 Vous devez utiliser un schéma de profil contenant le mixin « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce mixin.
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ Les fonctionnalités d’accessibilité dans Adobe Journey Optimizer sont four
 * Contraste des couleurs
 * Validation des champs obligatoires
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target="_blank"} dans la documentation Adobe Experience Platform.
 
 Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
 
@@ -107,7 +107,7 @@ Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimi
 | Sélection ou suppression d’un élément ciblé | Entrée ou Barre d’espace |
 | Annulation d’une sélection, réduction d’un panneau ou fermeture d’une boîte de dialogue | Échap |
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target="_blank"} dans la documentation Adobe Experience Platform.
 
 Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
 
@@ -197,7 +197,7 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
   <tr>
     <td rowspan="2">Fenêtre contextuelle</td>
     <td>Enregistrement des modifications ou confirmation de l’action</td>
-    <td>Entrée</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>Fermeture de la fenêtre</td>

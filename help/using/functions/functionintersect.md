@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# intersection{#intersect}
+# intersect{#intersect}
 
 Renvoie les valeurs communes dans les deux listes dʼentrée. Si lʼune des deux listes est nulle, elle renvoie une liste vide.
 
