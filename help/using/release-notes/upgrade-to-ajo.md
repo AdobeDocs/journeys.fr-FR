@@ -4,10 +4,10 @@ description: Découvrez comment mettre à niveau vers Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 9b90c098db1e13e7dc3405feb2ca74ffac54ef49
+source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ Profitez des autres **fonctionnalités Adobe Journey Optimizer** actuelles ainsi
 
 ## Comment mettre à niveau mon environnement Journey Orchestration ?
 
-1. Contactez votre équipe de compte pour mettre à jour gratuitement votre contrat avec Adobe.
+1. Contactez l’équipe de votre compte pour mettre à jour votre contrat avec Adobe.
 
 1. Attendez que notre équipe d’ingénierie termine le changement.
 
@@ -88,7 +88,7 @@ Non, vous conserverez tous vos objets Journey Orchestration et Adobe Experience 
 
 ![](../assets/migration-ajo-9.png)
 
-Oui, c’est normal. Vous conserverez l’accès à Journey Orchestration pendant un mois à compter de la mise à niveau. Vous aurez ainsi suffisamment de temps pour mettre à jour toutes les autorisations de vos utilisateurs et vous familiariser avec Adobe Journey Optimizer. Au bout d’un mois, l’accès sera supprimé.
+Oui, c’est normal. Il se peut que l’élément de Journey Orchestration s’affiche encore quelques jours après la mise à niveau. Veuillez utiliser le Journey Optimizer.
 
 ### Que se passe-t-il si j’utilise Journey Orchestration avec Adobe Campaign Standard aujourd’hui ?
 
