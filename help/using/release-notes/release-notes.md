@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3280'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* **Éditeur d&#39;expression** : la fonction [limit](../functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../functions/functiondistinct.md) et [distinctWithNull](../functions/functiondistinctwithnull.md).
+* **Éditeur d’expression** : la fonction [limit](../functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../functions/functiondistinct.md) et [distinctWithNull](../functions/functiondistinctwithnull.md).
 
 ## Version de mars 2022 {#feb-2022-release}
 
@@ -48,10 +48,10 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* **Éditeur dʼexpression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec les cartes. [En savoir plus](../expression/field-references.md)
-* **Accessibilité** - Des améliorations d’accessibilité ont été apportées. Journey Orchestration répond désormais entièrement aux exigences en matière d’accessibilité.
-* **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../usecase/collections.md)
-* **Surveillance** - Les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](../building-journeys/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories dans le schéma d’événement d’étape du parcours pour Journey Orchestration. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../building-journeys/sharing-legacy-fields.md).
+* **Éditeur dʼexpression** : compte tenu de vos compétences techniques, vous pouvez désormais utiliser des fonctions pour travailler avec les cartes. [En savoir plus](../expression/field-references.md)
+* **Accessibilité** : des améliorations d’accessibilité ont été apportées. Journey Orchestration répond désormais entièrement aux exigences en matière d’accessibilité.
+* **Collections** : les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../usecase/collections.md)
+* **Surveillance** : les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](../building-journeys/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories dans le schéma d’événement d’étape du parcours pour Journey Orchestration. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../building-journeys/sharing-legacy-fields.md).
 
 ## Version de septembre 2021 {#september-2021-release}
 
@@ -65,7 +65,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tr>
 <td>
 <p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
-<p>Pour plus d'informations sur les collections, consultez la <a href="../usecase/collections.md">documentation détaillée</a>. </p>
+<p>Pour plus d’informations sur les collections, consultez la <a href="../usecase/collections.md">documentation détaillée</a>. </p>
 <p>Les fonctions filter et intersect ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
 <p>Consultez la documentation sur les fonctions <a href="../functions/functionfilter.md">filter</a> et <a href="../functions/functionintersect.md">intersect</a>.</p>
 </td>
@@ -75,8 +75,8 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 
 ### Améliorations
 
-* Les schémas et les jeux de données générés par le système qui ont été créés pendant l&#39;approvisionnement des événements d’étape sont désormais en lecture seule, ce qui permet d’éviter toute modification involontaire des schémas critiques. [En savoir plus](../building-journeys/sharing-overview.md)
-* Libellez de manière claire l’activité **Attente** avec un libellé qui s’affichera dans la zone de travail. Le libellé est également utilisé dans les journaux des modes de reporting et de test pour identifier clairement ce que vous faites. [En savoir plus](../building-journeys/using-the-journey-designer.md)
+* Les schémas et les jeux de données générés par le système qui ont été créés pendant l’approvisionnement des événements d’étape sont désormais en lecture seule, ce qui permet d’éviter toute modification involontaire des schémas critiques. [En savoir plus](../building-journeys/sharing-overview.md)
+* Étiquetez de manière claire l’activité **Attente** avec un libellé qui s’affichera dans la zone de travail. Le libellé est également utilisé dans les journaux des modes de reporting et de test pour identifier clairement ce que vous faites. [En savoir plus](../building-journeys/using-the-journey-designer.md)
 * Trouvez plus rapidement vos événements et actions en filtrant les éléments dans les catégories **Événements** et **Action** à l’aide de la recherche. Les activités d’orchestration ne sont plus filtrées. [En savoir plus](../building-journeys/using-the-journey-designer.md)
 * Lors de la définition dʼune condition dʼidentifiant dʼévénement dans un événement basé sur des règles, lʼopérateur « contains » est désormais disponible pour les types de chaînes de champs. [En savoir plus](../event/about-creating.md)
 
@@ -100,9 +100,9 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform vous permet de définir des relations entre les schémas afin d'utiliser un jeu de données comme table de choix pour un autre. Journey Orchestration peut désormais exploiter les données provenant d'un schéma lié.</p>
-<p>Ces champs sont disponibles dans la configuration d'événement unitaire, les conditions de parcours et la personnalisation d'action personnalisée.
-<p>Pour plus d'informations, consultez la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentation détaillée</a>.</p>
+<p>Adobe Experience Platform vous permet de définir des relations entre les schémas afin d’utiliser un jeu de données comme table de choix pour un autre. Journey Orchestration peut désormais exploiter les données provenant d’un schéma lié.</p>
+<p>Ces champs sont disponibles dans la configuration d’événement unitaire, les conditions de parcours et la personnalisation d’action personnalisée.
+<p>Pour plus d’informations, consultez la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -125,7 +125,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <td>
 <p>L’intégration avec Adobe Campaign Classic est maintenant en version GA. Elle vous permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign v7 ou v8.</p>
 <p>La connexion entre les instances Journey Orchestration et Campaign est configurée par Adobe au moment de l’approvisionnement.</p>
-<p>Pour plus d'informations, consultez la <a href="../action/acc-action.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../action/acc-action.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -136,13 +136,13 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 * Pour les sources de données externes, une règle de limitation de 15 appels par seconde est maintenant définie automatiquement. [En savoir plus](../about/external-systems.md#capping)
 * Les éditeurs d’expression simple et avancés prennent maintenant en charge le format de date XDM.
 * Un nouveau filtre a été ajouté à l’écran de liste de parcours. Vous pouvez maintenant filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification du segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
-* Pour les parcours actifs, l’écran des propriétés du parcours affiche maintenant la date de publication et le nom de l’utilisateur qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* Pour les parcours actifs, l’écran des propriétés du parcours affiche maintenant la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## Version d&#39;avril 2021 {#april-2021-release}
+## Version d’avril 2021 {#april-2021-release}
 
 ### Améliorations
 
-* Dans l’écran **Configuration de l&#39;événement** du mode test, une liste déroulante s’affiche désormais pour les champs qui prévoient une énumération. Il suffit de sélectionner l’une des valeurs disponibles. Ceci évite les erreurs lors du déclenchement de l&#39;événement si une valeur incorrecte est définie. [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
+* Dans l’écran **Configuration de l’événement** du mode test, une liste déroulante s’affiche désormais pour les champs qui prévoient une énumération. Il suffit de sélectionner l’une des valeurs disponibles. Ceci évite les erreurs lors du déclenchement de l’événement si une valeur incorrecte est définie. [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Version de mars 2021 {#march-2021-release}
 
@@ -165,7 +165,7 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 <tr>
 <td>
 <p>Cette nouvelle activité d’action vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique.</p>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/update-profiles.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/update-profiles.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -174,8 +174,8 @@ Vous pouvez également consulter les dernières [mises à jour de la documentati
 ### Autres améliorations 
 
 * Désormais, lors de la configuration d’un événement, seuls les champs obligatoires pour la validation XDM sont présélectionnés par défaut. Ces champs ne peuvent pas être désélectionnés.
-* Un nouveau filtre a été ajouté à la palette du parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d’usine. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments s&#39;affichent. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
-* Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont désormais masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
+* Un nouveau filtre a été ajouté à la palette du parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d’usine. Il est spécifique à chaque utilisateur ou utilisatrice. Par défaut, tous les éléments s’affichent. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
+* Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont désormais masqués. Cela concerne toutes les actions, l’activité de la condition, l’attente et la réaction.
 * Dans la partie gauche de l’éditeur d’expression avancé, les fonctions sont désormais regroupées sous une section **Fonctions** en fin de liste.
 
 ## Version de janvier 2021 {#january-2021-release}
@@ -226,7 +226,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <td>
 <p>Dans l’éditeur d’expression avancé, nous avons ajouté une nouvelle catégorie à la liste des champs et des fonctions. Il s’agit des informations récupérées par le système à partir de parcours dynamiques, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Vous aurez ainsi plus de possibilités lors de la création de vos parcours. Par exemple, vous pourrez alerter les systèmes tiers en cas d’erreurs rencontrées dans une condition ou une action.
 </p>
-<p>Pour plus d'informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../expression/journey-properties.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -235,13 +235,13 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles          (version bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles           (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle méthode est maintenant disponible pour configurer vos événements plus facilement, sans utiliser d’identifiant d’événement eventID : des événements basés sur des règles évaluent si l’événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clients via le programme Alpha, est maintenant disponible en version bêta pour tous les clients.
+<p>Une nouvelle méthode est maintenant disponible pour configurer vos événements plus facilement, sans utiliser d’identifiant d’événement eventID : des événements basés sur des règles évaluent si l’événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clientes et clients via le programme Alpha, est maintenant disponible en version bêta pour tout le monde.
 </p>
 </td>
 </tr>
@@ -267,7 +267,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 <td>
 <p>Vous pouvez maintenant configurer une temporisation d’un événement pour que le parcours ne l’écoute que pendant une certaine période. Pour ce faire, vous n’avez plus besoin d’ajouter une activité Attente parallèlement au chemin de l’événement.
 </p>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -275,7 +275,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 
 ### Autres améliorations 
 
-* Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précédente se termine automatiquement et passe au statut Fermé. [En savoir plus](../building-journeys/journey-versions.md)
+* Lorsque vous publiez une nouvelle version d’un parcours, la version précédente se termine automatiquement et passe au statut Fermé. [En savoir plus](../building-journeys/journey-versions.md)
 
 ## Version de septembre 2020 {#september-release}
 
@@ -292,7 +292,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 <td>
 <p>Lorsque vous ajoutez des conditions à votre parcours, vous pouvez maintenant définir un libellé. Si vous utilisez plusieurs conditions dans un parcours, vous pouvez ainsi les identifier plus facilement.
 </p>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/condition-activity.md#about_condition">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/condition-activity.md#about_condition">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -366,7 +366,7 @@ La payload des événements de qualification de segment contient maintenant les 
 <p>Les améliorations suivantes ont été apportées aux événements basés sur des règles :
 </p>
 <ul>
-<li><p>Vous pouvez maintenant utiliser toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients. <a href="../event/about-analytics.md">En savoir plus</a></p>
+<li><p>Vous pouvez maintenant utiliser toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clientes et clients. <a href="../event/about-analytics.md">En savoir plus</a></p>
 </li>
 <li><p>Lors du déclenchement d’un événement basé sur des règles en mode test, vous pouvez désormais afficher directement la condition d’identifiant d’événement. En outre, une info-bulle a été ajoutée en regard de chaque champ qui fait partie de l’évaluation des règles. <a href="../building-journeys/testing-the-journey.md#test-rule-based">En savoir plus</a></p>
 </li>
@@ -380,7 +380,7 @@ La payload des événements de qualification de segment contient maintenant les 
 
 ## Version Alpha - Juillet 2020 {#alpha-release---july-2020}
 
-Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour tous les clients Journey Orchestration.
+Le programme Alpha offre des fonctionnalités qui sont actuellement testées auprès d’un nombre limité de clientes et clients. Cela nous permet d’améliorer notre produit en fonction des commentaires reçus. Ces fonctionnalités ne sont pas disponibles pour toutes les personnes qui utilisent Journey Orchestration.
 
 <table>
 <thead>
@@ -442,7 +442,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations de l’Intégration avec Adobe Experience Platform</strong><br/></th>
+<th><strong>Améliorations de l’intégration d’Adobe Experience Platform</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -567,7 +567,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 <p>Dans le concepteur de parcours, vous pouvez maintenant vérifier que vous accédez à la dernière version d’un parcours. Cette information s’affiche en regard du numéro de version.</p>
 <p>Dans la <strong>zone de travail</strong> des parcours, un message d’avertissement s’affiche maintenant lorsque deux activités sont déconnectées.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/using-the-journey-designer.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/using-the-journey-designer.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -600,7 +600,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 
 * Vous pouvez maintenant **supprimer** les parcours arrêtés. Les rapports associés à ces parcours supprimés ne seront pas disponibles.
 
-* Lorsque vous parcourez les **champs Adobe Experience Platform** (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d&#39;expérience. Lorsqu’il est disponible, l’autre nom d’affichage s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
+* Lorsque vous parcourez les **champs Adobe Experience Platform** (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, l’autre nom d’affichage s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
 
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
@@ -608,7 +608,7 @@ Journey Orchestration est désormais en version GA.
 
 Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
-Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au consommateur, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push au consommateur à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction de scores Sensei et de règles.
+Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au client ou à la cliente, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction de scores Sensei et de règles.
 
 [En savoir plus](../action/working-with-adobe-campaign.md) sur Journey Orchestration.
 
