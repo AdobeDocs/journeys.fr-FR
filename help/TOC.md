@@ -5,10 +5,10 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Journeys
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -205,4 +205,6 @@ ht-degree: 100%
    + [Envoi dʼun message à lʼaide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Transmission dynamique des collections à l’aide dʼactions personnalisées](using/usecase/collections.md)
 + Utilisation des API{#working-with-apis}
+   + [Prise en main des API parcours](using/api/journeys-apis.md)
    + [API de limitation](using/api/capping.md)
+   + [API de limitation](using/api/throttling.md)
