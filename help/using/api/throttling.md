@@ -6,10 +6,10 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 22%
+source-wordcount: '788'
+ht-degree: 21%
 
 ---
 
@@ -22,6 +22,8 @@ L’API de limitation vous aide à créer, configurer et surveiller vos configur
 >Actuellement, une seule configuration est autorisée par organisation. Une configuration doit être définie sur un environnement de test de production (fourni par x-sandbox-name dans les en-têtes).
 >
 >Une configuration est appliquée au niveau de l’organisation.
+>
+>Lorsque la limite définie dans l’API est atteinte, d’autres événements sont placés en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
 
 ## Description de l’API de limitation {#description}
 
