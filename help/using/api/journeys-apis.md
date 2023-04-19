@@ -1,56 +1,56 @@
 ---
 product: adobe campaign
-title: Prise en main des API parcours
-description: En savoir plus sur les API parcours
+title: Commencer avec les API de Journeys
+description: En savoir plus sur les API de Journeys
 products: journeys
 feature: Journeys
 role: User
 level: Intermediate
 source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
-# Prise en main des API parcours
+# Commencer avec les API de Journeys
 
-## À propos des API de limitation et de limitation
+## À propos des API de plafonnement et de limitation
 
-Lors de la configuration d’une source de données ou d’une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires à utiliser dans vos parcours ou d’envoyer des messages ou des appels d’API.
+Lors de la configuration d’une source de données ou d’une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires à utiliser dans vos parcours ou pour envoyer des messages ou des appels API.
 
-Les API Parcours prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes ou API externes peuvent ne pas avoir un débit équivalent. Pour éviter de surcharger ces systèmes, vous pouvez utiliser la variable **Limitation** et **Ralentissement** API pour limiter le nombre d’événements envoyés par seconde.
+Les API de Journeys prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes externes ou API peuvent ne pas avoir un débit équivalent. Pour éviter de surcharger ces systèmes, vous pouvez utiliser les API de **Plafonnement** et de **Limitation** pour limiter le nombre d’événements envoyés par seconde.
 
-Chaque fois qu’un appel API est effectué par parcours, il passe par le moteur d’API. Si la limite définie dans l’API est atteinte, l’appel est rejeté si vous utilisez l’API de limitation, ou mis en file d’attente jusqu’à 6 heures et traité le plus tôt possible dans l’ordre dans lequel ils ont été reçus si vous utilisez l’API de limitation.
+Chaque fois qu’un appel API est réalisé par Journeys, le moteur d’API est sollicité. Si la limite définie dans l’API est atteinte, deux scénarios peuvent se présenter selon l’API utilisée : avec l’API de plafonnement, l’appel est rejeté. Si vous utilisez l’API de limitation, l’appel est mis en file d’attente pendant 6 heures au maximum et traité dès que possible, dans l’ordre où il a été reçu.
 
-Supposons, par exemple, que vous ayez défini une règle de limitation ou de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et ignore ou met en file d’attente les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
+Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et rejette ou met en file d’attente les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
 
 >[!IMPORTANT]
 >
->**Règles de limitation** sont configurés au niveau de l’environnement de test, pour un point de terminaison spécifique (l’URL appelée), mais globaux pour tous les parcours de cet environnement de test.
+>Les **Règles de limitation** sont configurées au niveau de la sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de cette sandbox.
 >
->**Règles de limitation** sont configurés uniquement sur les environnements de test de production, pour un point de terminaison spécifique, mais globaux pour tous les parcours de tous les environnements de test. Vous ne pouvez avoir qu’une seule configuration de limitation par organisation.
+>Les **Règles de limitation** sont configurées dans les sandbox de production uniquement, pour un point d’entrée spécifique, mais elles s’appliquent à tous les parcours sur l’ensemble des sandbox. Une seule configuration de limitation est autorisée par organisation.
 
-Pour plus d’informations sur l’utilisation de ces API, reportez-vous aux sections suivantes :
+Pour plus d’informations sur l’utilisation des API, consultez les sections suivantes :
 
 * [API de limitation](capping.md)
 * [API de limitation](throttling.md)
 
-Les deux API sont également décrites dans un fichier Swagger disponible. [here](https://adobedocs.github.io/JourneyAPI/docs/).
+Les deux API sont également décrites dans le fichier Swagger disponible [ici](https://adobedocs.github.io/JourneyAPI/docs/).
 
 ## Sources de données et capacité des actions personnalisées {#capacity}
 
-Pour **sources de données externes**, le nombre maximal d’appels par seconde est limité à 15. Si cette limite est dépassée, tout appel supplémentaire est ignoré ou mis en file d’attente selon l’API utilisée. Il est possible d’augmenter cette limite pour les sources de données externes privées en contactant Adobe pour inclure le point de terminaison dans la liste autorisée de données, mais il ne s’agit pas d’une option pour les sources de données externes publiques. * [Découvrez comment configurer des sources de données](../datasource/about-data-sources.md).
+Pour les **sources de données externes**, le nombre maximal d’appels par seconde est limité à 15. Si cette limite est dépassée, les appels suivants sont rejetés ou mis en file d’attente, selon l’API utilisée. Contactez Adobe si vous souhaitez augmenter cette limite pour les sources de données externes privées. Le point d’entrée sera alors placé dans la liste autorisée. Cette opération n’est pas possible pour les sources de données externes publiques. * [Découvrez comment configurer des sources de données](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
 >Si une source de données utilise une authentification personnalisée avec un point d’entrée différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point d’entrée dans la liste autorisée.
 
-Pour **actions personnalisées**, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une configuration de limitation ou de ralentissement afin que votre système ne se satue pas. [Découvrez comment configurer des actions](../action/action.md)
+Pour les **actions personnalisées**, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une configuration de plafonnement ou de limitation afin que votre système ne sature pas. [Découvrez comment configurer des actions](../action/action.md).
 
 ## Configuration de l&#39;accès aux API {#api}
 
-Pour utiliser ces API avec votre [!DNL Journey Orchestration] vous devez utiliser la console Adobe I/O. La configuration de l’accès aux API [!DNL Journey Orchestration] est effectuée comme suit. Chacune de ces étapes est détaillée dans la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Pour utiliser ces API avec votre instance [!DNL Journey Orchestration], vous devez utiliser la console Adobe I/O. La configuration de l’accès aux API [!DNL Journey Orchestration] est effectuée comme suit. Chacune de ces étapes est détaillée dans la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;organization>**: Il s’agit de votre ORGANIZATION ID personnel, fourni par Adobe pour chacune de vos instances. Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la <a href="https://www.adobe.io/authentication.html">documentation Adobe I/O</a>).
+* **&lt;ORGANIZATION>** : il s’agit de votre ORGANIZATION ID personnel, fourni par Adobe pour chacune de vos instances. Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la <a href="https://www.adobe.io/authentication.html">documentation Adobe I/O</a>).
 
 * **&lt;ACCESS_TOKEN>** : votre jeton d’accès personnel, récupéré lors de l’échange de votre JWT par le biais d’une requête POST.
 
