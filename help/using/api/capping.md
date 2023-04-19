@@ -8,16 +8,16 @@ role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Utilisation de l’API de limitation {#work}
+# Utiliser l’API de limitation {#work}
 
-L’API de limitation vous permet de créer, configurer et suivre vos configurations de limitation.
+L’API de limitation vous permet de créer, de configurer et de suivre vos configurations de limitation.
 
 ## Description de l’API de limitation
 
