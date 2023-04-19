@@ -6,9 +6,9 @@ user-guide-description: Fournit des instructions pratiques pour la mise en œuvr
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,6 +205,6 @@ ht-degree: 97%
    + [Envoi dʼun message à lʼaide de Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Transmission dynamique des collections à l’aide dʼactions personnalisées](using/usecase/collections.md)
 + Utilisation des API{#working-with-apis}
-   + [Prise en main des API parcours](using/api/journeys-apis.md)
+   + [Commencer avec les API de Journeys](using/api/journeys-apis.md)
    + [API de limitation](using/api/capping.md)
    + [API de limitation](using/api/throttling.md)
