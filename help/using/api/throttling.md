@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,28 +20,28 @@ L’API de limitation vous permet de créer, configurer et surveiller vos config
 
 >[!IMPORTANT]
 >
->Actuellement, une seule configuration est autorisée par organisation. Une configuration doit être définie sur une sandbox de production (indiquée par x-sandbox-name dans les en-têtes).
+>Actuellement, une seule configuration est autorisée par organisation. La configuration doit être définie dans la sandbox de production (indiquée par x-sandbox-name dans les en-têtes).
 >
 >La configuration s’applique au niveau de l’organisation.
 >
->Lorsque la limite définie dans l’API est atteinte, d’autres événements sont placés en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
+>Lorsque la limite définie dans l’API est atteinte, les événements suivants sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
 
 ## Description de l’API de limitation {#description}
 
 | Méthode | Chemin | Description |
 |---|---|---|
-| [!DNL POST] | list/throttlingConfigs | Obtenez une liste des configurations de limitation |
-| [!DNL POST] | /throttlingConfigs | Créez une configuration de limitation |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Déployez une configuration de limitation |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Annulez le déploiement d’une configuration de limitation |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Vérifiez si une configuration de limitation peut être déployée ou non |
-| [!DNL PUT] | /throttlingConfigs/`{uid}` | Mettez à jour une configuration de limitation |
-| [!DNL GET] | /throttlingConfigs/`{uid}` | Récupérez une configuration de limitation |
-| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Supprimez une configuration de limitation |
+| [!DNL POST] | list/throttlingConfigs | Obtention d’une liste des configurations de limitation |
+| [!DNL POST] | /throttlingConfigs | Création d’une configuration de limitation |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Déploiement d’une configuration de limitation |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Annulation du déploiement d’une configuration de limitation |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Vérification de la possibilité de déployer une configuration de limitation ou non |
+| [!DNL PUT] | /throttlingConfigs/`{uid}` | Mise à jour d’une configuration de limitation |
+| [!DNL GET] | /throttlingConfigs/`{uid}` | Récupération d’une configuration de limitation |
+| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Suppression d’une configuration de limitation |
 
-## Configuration de la limitation{#configuration}
+## Configuration de limitation{#configuration}
 
-Consultez ci-dessous la structure d’une configuration de limitation. Les attributs **name** et **description** sont facultatifs.
+Vous trouverez ci-dessous la structure d’une configuration de limitation. Les attributs **name** et **description** sont facultatifs.
 
 ```
 {
@@ -77,32 +77,32 @@ Lors de la création ou de la mise à jour d’une configuration, le processus v
 >
 >Les attributs **maxThroughput**, **urlPattern** et **methods** sont obligatoires.
 >
->La valeur de l’attribut **maxThroughput** doit être comprise entre 200 et 5 000.
+>La valeur de **maxThroughput** doit être comprise entre 200 et 5 000.
 
-Lors de la création, suppression ou déploiement d’une configuration de limitation, les erreurs suivantes peuvent se produire :
+Lors de la création, de la suppression ou du déploiement d’une configuration de limitation, les erreurs suivantes peuvent se produire :
 
-* **ERR_THROTTLING_CONFIG_100** - Configuration de la limitation : `<mandatory attribute>` obligatoire.
-* **ERR_THROTTLING_CONFIG_101** - Configuration de la limitation : maxThroughput est obligatoire et doit être supérieur ou égal à 200 et inférieur ou égal à 5 000.
-* **ERR_THROTTLING_CONFIG_104** - Configuration de la limitation : modèle d’URL incorrect.
-* **ERR_THROTTLING_CONFIG_105** - Configuration de la limitation : la partie hôte du modèle d’URL contient des caractères génériques non autorisés.
-* **ERR_THROTTLING_CONFIG_106** - Configuration de la limitation : payload non valide.
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456** - « Impossible de supprimer une configuration de limitation déployée. Annulez le déploiement avant de le supprimer. »
-* **THROTTLING_CONFIG_DELETE_ERROR: 1457** - « Impossible de supprimer la configuration de limitation en raison d’une erreur inattendue. »
+* **ERR_THROTTLING_CONFIG_100** - Configuration de limitation : `<mandatory attribute>` est obligatoire.
+* **ERR_THROTTLING_CONFIG_101** - Configuration de limitation : maxThroughput est obligatoire et doit être supérieur ou égal à 200 et inférieur ou égal à 5 000.
+* **ERR_THROTTLING_CONFIG_104** - Configuration de limitation : modèle d’URL incorrect
+* **ERR_THROTTLING_CONFIG_105** - Configuration de limitation : la partie hôte du modèle d’URL contient des caractères génériques non autorisés.
+* **ERR_THROTTLING_CONFIG_106** - Configuration de limitation : payload non valide
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456** - « Impossible de supprimer une configuration de limitation déployée. Annulez le déploiement avant de la supprimer. »
+* **THROTTLING_CONFIG_DELETE_ERROR : 1457** - « Impossible de supprimer la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_DEPLOY_ERROR: 1458** - « Impossible de déployer la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459** - « Impossible d’annuler le déploiement de la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_GET_ERROR: 1460** - « Impossible d’obtenir la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461** - « Impossible de mettre à jour la configuration de limitation : la version d’exécution n’est pas active. »
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462** - « Impossible de mettre à jour la configuration de limitation en raison d’une erreur inattendue. »
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463** - « L’opération n’est pas autorisée sur la configuration de limitation : il ne s’agit pas d’une sandbox de production. »
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462** - « Impossible de mettre à jour la configuration de limitation en raison d’une erreur inattendue. »
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463** - « Opération non autorisée sur la configuration de limitation : il ne s’agit pas d’une sandbox de production. »
 * **THROTTLING_CONFIG_CREATE_ERROR: 1464** - « Impossible de créer la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465** - « Impossible de créer la configuration de limitation : une seule configuration est autorisée par organisation. »
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466** - « Impossible de déployer la configuration de limitation, car elle est déjà déployée. »
-* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467** - « La configuration de limitation est introuvable. »
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468** - « Impossible d’annuler le déploiement de la configuration de limitation, car elle n’a pas encore été déployée. »
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466** - « Impossible de déployer la configuration de limitation : elle est déjà déployée. »
+* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467** - « Configuration de limitation introuvable. »
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468** - « Impossible d’annuler le déploiement de la configuration de limitation : elle n’a pas encore été déployée. »
 
 **Exemples d’erreurs**
 
-Lors de la création d’une configuration sur une sandbox autre que la production :
+Lors de la création d’une configuration sur une sandbox hors production :
 
 ```
 {
@@ -112,7 +112,7 @@ Lors de la création d’une configuration sur une sandbox autre que la producti
 }
 ```
 
-Si la sandbox donnée n’existe pas :
+Au cas où la sandbox donnée n’existe pas :
 
 ```
 {
@@ -152,7 +152,7 @@ Cas d’utilisation n°1 : **création et déploiement d’une nouvelle configu
 1. candeploy
 1. deploy
 
-Cas d’utilisation n°2 : **mise à jour et déploiement d’une configuration de limitation pas encore déployée**
+Cas d’utilisation n°2 : **mise à jour et déploiement d’une configuration de limitation non encore déployée**
 
 1. list
 1. get
@@ -177,7 +177,7 @@ Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation d
 
 >[!NOTE]
 >
->Il n’est pas nécessaire d’annuler le déploiement de la configuration avant sa mise à jour.
+>Il n’est pas nécessaire d’annuler le déploiement de la configuration avant la mise à jour.
 
 1. list
 1. get
@@ -185,11 +185,11 @@ Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation d
 
 ## Cycle de vie de la configuration au niveau de l’exécution {#config}
 
-Lorsque le déploiement d’une configuration est annulé, la configuration est marquée comme inactive au niveau de l’exécution et le traitement des événements en attente se poursuit pendant 24 heures. La configuration est ensuite supprimée du service d’exécution.
+Lorsque le déploiement d’une configuration est annulé, celle-ci est marquée comme inactive au niveau de l’exécution et le traitement des événements en attente se poursuit pendant 24 heures. Elle est ensuite supprimée du service d’exécution.
 
-Une fois le déploiement de la configuration annulé, il est possible de mettre à jour et de redéployer la configuration. Une nouvelle configuration d’exécution est alors créée et sera prise en compte lors des actions à venir.
+Une fois la configuration non déployée, il est possible de la mettre à jour et de la redéployer. Vous créerez alors une nouvelle configuration d’exécution, qui sera prise en compte dans l’exécution des actions à venir.
 
-Lors de la mise à jour d’une configuration déjà déployée, les nouvelles valeurs sont prises en compte immédiatement. Les ressources du système sous-jacent sont automatiquement modifiées. Cette méthode vaut son pesant d’or par rapport à l’annulation du déploiement, puis au redéploiement de la configuration.
+Lors de la mise à jour d’une configuration déjà déployée, les nouvelles valeurs sont prises en compte immédiatement. Les ressources système sous-jacentes sont automatiquement adaptées. Cette opération est optimale par rapport à l’annulation du déploiement, puis au redéploiement de la configuration.
 
 ## Exemples de réponses {#responses}
 
