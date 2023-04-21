@@ -92,8 +92,8 @@ La source de données est maintenant configurée et prête à être utilisée da
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
->title="À propos de l’authentification personnalisée"
->abstract="Le mode d’authentification personnalisé, utilisé pour l’authentification complexe, permet d’appeler les protocoles d’encapsulage d’API tels qu’OAuth2. L’exécution de l’action est un processus en deux étapes. Tout d’abord, un appel au point d’entrée est effectué pour générer le jeton d’accès. Ensuite, le jeton d’accès est injecté dans la requête HTTP de l’action."
+>title="À propos de l&#39;authentification personnalisée"
+>abstract="Le mode d&#39;authentification personnalisé, utilisé pour l&#39;authentification complexe, permet d&#39;appeler les protocoles d&#39;encapsulage d&#39;API tels qu&#39;OAuth2. L&#39;exécution de l&#39;action est un processus en deux étapes. Tout d&#39;abord, un appel au point d&#39;entrée est effectué pour générer le jeton d&#39;accès. Ensuite, le jeton d&#39;accès est injecté dans la requête HTTP de l&#39;action."
 
 Ce mode d’authentification est utilisé pour une authentification complexe. Il est fréquemment utilisé pour appeler les protocoles d’encapsulage d’API, comme OAuth2, afin de récupérer un jeton d’accès à injecter dans la requête HTTP réelle pour l’action.
 

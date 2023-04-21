@@ -36,7 +36,7 @@ Vous pouvez également accéder à [!DNL Journey Orchestration] à partir de la 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="À propos de la liste des parcours"
->abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d’effectuer des actions de base."
+>abstract="La liste des parcours vous permet de visualiser tous vos parcours en même temps, de consulter leur statut et d&#39;effectuer des actions de base."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Regarder une vidéo de démonstration"
 
 Les menus supérieurs vous permettent de naviguer parmi les différentes fonctionnalités de [!DNL Journey Orchestration] : **[!UICONTROL Accueil]** (les parcours), **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**.
