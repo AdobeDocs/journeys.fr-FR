@@ -8,15 +8,15 @@ role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Utiliser l’API de limitation
 
-L’API de limitation vous permet de créer, configurer et surveiller vos configurations de limitation afin de limiter le nombre d’événements envoyés par seconde.
+L’API de limitation vous permet de créer, de configurer et de surveiller vos configurations de limitation, afin de limiter le nombre d’événements envoyés par seconde.
 
 >[!IMPORTANT]
 >
