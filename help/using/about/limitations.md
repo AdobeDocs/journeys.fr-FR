@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 90%
 
 Voici les limites liées à l’utilisation de Journey Orchestration.
 
-## Barrières de sécurité générales des parcours {#journeys-guardrails-journeys}
+## Mécanismes de sécurisation généraux des parcours {#journeys-guardrails-journeys}
 
-* Le nombre d’activités d’un parcours est limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche du canevas de parcours.
-* Le nombre de **parcours en direct** dans une organisation est limitée à 100 par environnement de test. Lorsque cette limite est atteinte, vous ne pouvez plus publier de nouveau parcours.
+* Le nombre d’activités d’un parcours est désormais limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours.
+* Le nombre de **parcours actifs** dans une organisation est désormais limité à 100 par sandbox. Lorsque cette limite est atteinte, vous ne pouvez plus publier de nouveau parcours.
 
 ## Limitations des actions générales
 
