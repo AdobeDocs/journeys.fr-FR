@@ -17,55 +17,55 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
 
 * collections simples : tableaux de types de données simples, par exemple avec une listString :
 
-   ```
-   {
-    "deviceTypes": [
-        "android",
-        "ios"
-    ]
-   }
-   ```
+  ```
+  {
+   "deviceTypes": [
+       "android",
+       "ios"
+   ]
+  }
+  ```
 
 * collections d’objets : tableau d’objets JSON, par exemple :
 
-   ```
-   {
-   "products":[
-      {
-         "id":"productA",
-         "name":"A",
-         "price":20.1
-      },
-      {
-         "id":"productB",
-         "name":"B",
-         "price":10.0
-      },
-      {
-         "id":"productC",
-         "name":"C",
-         "price":5.99
-      }
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+     {
+        "id":"productA",
+        "name":"A",
+        "price":20.1
+     },
+     {
+        "id":"productB",
+        "name":"B",
+        "price":10.0
+     },
+     {
+        "id":"productC",
+        "name":"C",
+        "price":5.99
+     }
+   ]
+  }
+  ```
 
 ## Limites {#limitations}
 
 * Les tableaux d’objets imbriqués dans un tableau d’objets ne sont pas pris en charge pour l’instant. Par exemple :
 
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "price":20,
-        "locations": [{"name": "Paris"}, {"name": "London"}]
-     },
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+    {
+       "id":"productA",
+       "name":"A",
+       "price":20,
+       "locations": [{"name": "Paris"}, {"name": "London"}]
+    },
+   ]
+  }
+  ```
 
 * Pour tester les collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Le mode Affichage du code n’est pas pris en charge pour les événements métier pour l’instant. Vous ne pouvez envoyer qu’une collection avec un seul élément.
 

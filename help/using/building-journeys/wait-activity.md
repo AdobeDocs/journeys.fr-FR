@@ -19,7 +19,7 @@ Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;ac
 
 * [Durée](#duration)
 * [Valeur](#custom) personnalisée
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## À propos de l&#39;activité d&#39;attente{#about_wait}
 

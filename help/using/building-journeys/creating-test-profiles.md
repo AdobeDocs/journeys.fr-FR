@@ -36,7 +36,6 @@ Tout d&#39;abord, vous devez **créer un schéma**. Procédez de la façon suiva
 1. Sélectionnez les mixins appropriés. Veillez à ajouter le mixin **[!UICONTROL Détails du profil de test]**. Cliquez sur **[!UICONTROL Ajouter un mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 La liste des mixins s’affiche dans l’écran de vue d’ensemble du schéma.
-
    ![](../assets/test-profiles-2.png)
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l&#39;identité principale.
    ![](../assets/test-profiles-3.png)

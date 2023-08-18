@@ -101,7 +101,7 @@ Vous pouvez copier une ou plusieurs activités d&#39;un parcours et les coller s
 
 * Vous pouvez effectuer une opération copier/coller dans différents onglets et navigateurs. Vous ne pouvez copier/coller des activités que dans la même instance.
 * Vous ne pouvez pas copier/coller un événement si le parcours de destination comporte un événement utilisant un autre espace de noms.
-* Les activités collées peuvent référencer des données qui n&#39;existent pas dans le parcours de destination, par exemple si vous copiez/collez des données dans différents environnements Sandbox. Recherchez toujours des erreurs et effectuez les ajustements nécessaires.
+* Les activités collées peuvent référencer des données qui n’existent pas dans le parcours de destination, par exemple si vous copiez/collez des données dans différents sandbox. Recherchez toujours des erreurs et effectuez les ajustements nécessaires.
 * Notez que vous ne pouvez pas annuler une action. Pour supprimer des activités collées, vous devez les sélectionner et les supprimer. Vous devez donc veiller, avant de les copier, à ne sélectionner que les activités dont vous avez besoin.
 * Vous pouvez copier des activités issues de n&#39;importe quel parcours, même celles qui sont en lecture seule.
 * Vous pouvez sélectionner n&#39;importe quelle activité, même celles qui ne sont pas liées. Les activités liées resteront liées après avoir été collées.

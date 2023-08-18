@@ -195,7 +195,7 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
   <tr>
-    <td rowspan="2">Fenêtre contextuelle</td>
+    <td rowspan="2">Fenêtre pop-up</td>
     <td>Enregistrement des modifications ou confirmation de l’action</td>
     <td>Enter</td>
   </tr>

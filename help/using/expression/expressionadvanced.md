@@ -45,7 +45,7 @@ Il est possible d’accéder de différentes manières à l’éditeur d’expre
 
 * Lorsque vous créez une condition de source de données, vous pouvez y accéder en cliquant sur **[!UICONTROL Mode avancé]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * Lorsque vous créez un retardateur personnalisé, l’éditeur avancé s’affiche directement.
 * Lorsque vous mappez le paramètre d’action, cliquez sur le **[!UICONTROL Mode avancé]**.

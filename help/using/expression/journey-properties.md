@@ -44,26 +44,26 @@ Voici quelques exemples d’utilisation :
 
 | Catégorie | Nom du champ | Libellé | Description |
 |---|---|---|------------|
-| Version de parcours | journeyUID | Identifiant de parcours |  |
-|  | journeyVersionUID | Identifiant de version du parcours |  |
-|  | journeyVersionName | Nom de la version du parcours |  |
-|  | journeyVersionDescription | Description de la version du parcours |  |
-|  | journeyVersion | Version de parcours |  |
+| Version de parcours | journeyUID | Identifiant de parcours | |
+| | journeyVersionUID | Identifiant de version du parcours | |
+| | journeyVersionName | Nom de la version du parcours | |
+| | journeyVersionDescription | Description de la version du parcours | |
+| | journeyVersion | Version de parcours | |
 | Instance de parcours | instanceUID | Identifiant d’instance de parcours | Identifiant de l’instance |
-|  | externalKey | Clé externe | Identifiant individuel déclenchant le parcours |
-|  | organizationId | Identifiant de l’organisation | Organisation de la marque |
-|  | sandboxName | Nom du sandbox | Nom de l’environnement de test |
+| | externalKey | Clé externe | Identifiant individuel déclenchant le parcours |
+| | organizationId | Identifiant de l’organisation | Organisation de la marque |
+| | sandboxName | Nom du sandbox | Nom du sandbox |
 | Identité | profileId | Identifiant d’identité du profil | Identifiant du profil dans le parcours |
-|  | espace de noms | Espace de noms d’identité de profil | Espace de noms du profil dans le parcours (exemple : ECID) |
+| | espace de noms | Espace de noms d’identité de profil | Espace de noms du profil dans le parcours (exemple : ECID) |
 | Nœud actuel | currentNodeId | Identifiant de nœud actuel | Identifiant de l’activité actuelle (nœud) |
-|  | currentNodeName | Nom du nœud actuel | Nom de l’activité actuelle (nœud) |
+| | currentNodeName | Nom du nœud actuel | Nom de l’activité actuelle (nœud) |
 | Nœud précédent | previousNodeId | Identifiant de nœud précédent | Identifiant de l’activité précédente (nœud) |
-|  | previousNodeName | Nom du nœud précédent | Nom de l’activité précédente (nœud) |
+| | previousNodeName | Nom du nœud précédent | Nom de l’activité précédente (nœud) |
 | Erreurs | lastNodeUIDInError | Dernier identifiant de nœud en erreur | Identifiant de la dernière activité (nœud) en erreur |
-|  | lastNodeNameInError | Nom du dernier nœud en erreur | Nom de la dernière activité (nœud) en erreur |
-|  | lastNodeTypeInError | Dernier type de nœud en erreur | Type d’erreur de la dernière activité (nœud) en erreur. Types possibles :<ul><li>Événements : Événements, Réactions, QS (exemple : qualification de segment)</li><li>Contrôle de flux : Fin, Condition, Attente</li><li>Actions : Actions ACS, Saut, Action personnalisée</li></ul> |
-|  | lastErrorCode | Dernier code d’erreur | Code d’erreur de la dernière activité (nœud) en erreur. Erreurs possibles : <ul><li>Codes d’erreur HTTP</li><li>limité</li><li>timedOut</li><li>erreur (exemple : par défaut en cas d’erreur inattendue. Ne devrait pas/extrêmement rarement se produire)</li></ul> |
-|  | lastExecutedActionErrorCode | Code d’erreur de la dernière action exécutée | Code d’erreur de la dernière action en erreur |
-|  | lastDataFetchErrorCode | Code d’erreur de la dernière récupération de données | Code d’erreur de la dernière récupération de données à partir des sources de données |
+| | lastNodeNameInError | Nom du dernier nœud en erreur | Nom de la dernière activité (nœud) en erreur |
+| | lastNodeTypeInError | Dernier type de nœud en erreur | Type d’erreur de la dernière activité (nœud) en erreur. Types possibles :<ul><li>Événements : Événements, Réactions, QS (exemple : qualification de segment)</li><li>Contrôle de flux : Fin, Condition, Attente</li><li>Actions : Actions ACS, Saut, Action personnalisée</li></ul> |
+| | lastErrorCode | Dernier code d’erreur | Code d’erreur de la dernière activité (nœud) en erreur. Erreurs possibles : <ul><li>Codes d’erreur HTTP</li><li>limité</li><li>timedOut</li><li>erreur (exemple : par défaut en cas d’erreur inattendue. Ne devrait pas/extrêmement rarement se produire)</li></ul> |
+| | lastExecutedActionErrorCode | Code d’erreur de la dernière action exécutée | Code d’erreur de la dernière action en erreur |
+| | lastDataFetchErrorCode | Code d’erreur de la dernière récupération de données | Code d’erreur de la dernière récupération de données à partir des sources de données |
 | Heure | lastActionExecutionElapsedTime | Temps écoulé avant l’exécution de la dernière action | Temps passé à exécuter la dernière action |
-|  | lastDataFetchElapsedTime | Temps écoulé avant la dernière récupération des données | Temps passé à exécuter la dernière récupération de données à partir de sources de données |
+| | lastDataFetchElapsedTime | Temps écoulé avant la dernière récupération des données | Temps passé à exécuter la dernière récupération de données à partir de sources de données |

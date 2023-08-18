@@ -64,10 +64,10 @@ En tant qu&#39;administrateur, vous devez vérifier les points suivants :
 * Avez-vous appliqué la structure de payload des API d&#39;ingestion en flux continu en utilisant l&#39;aperçu de la structure de payload dans le volet de configuration des événements ? Voir [cette page](../event/previewing-the-payload.md).
 * Avez-vous utilisé les paires clé/valeur appropriées dans l’en-tête de l’événement ?
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
 ## Vérification de la manière dont les visiteurs naviguent dans le parcours{#section_l5y_yzs_dgb}
 

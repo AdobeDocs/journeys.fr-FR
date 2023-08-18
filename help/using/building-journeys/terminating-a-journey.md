@@ -53,7 +53,7 @@ La version d&#39;un parcours arrêté ne peut pas être redémarrée.
 
 Lorsqu&#39;un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
 
-Vous pouvez arrêter un parcours (par exemple, un marketeur se rend compte que l&#39;audience ciblée n&#39;est pas la bonne ou qu&#39;une action personnalisée censée diffuser des messages ne fonctionne pas correctement) en cliquant sur **[!UICONTROL Arrêter]** après l&#39;avoir sélectionné dans la liste des parcours.
+Vous pouvez arrêter un parcours (par exemple, un spécialiste marketing se rend compte que l’audience ciblée n’est pas la bonne ou qu’une action personnalisée censée diffuser des messages ne fonctionne pas correctement) en cliquant sur **[!UICONTROL Arrêter]** après l’avoir sélectionné dans la liste des parcours.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 

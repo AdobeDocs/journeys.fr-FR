@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Utilisation d’Adobe Campaign
+title: Utiliser Adobe Campaign
 description: En savoir plus sur les actions Adobe Campaign 
 feature: Journeys
 role: User

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Rôle {#purpose}
 
-Prenons l’exemple d’une marque hôtelière appelée Marlton. Dans ces hôtels, des dispositifs de balises ont été positionnés à proximité de tous les espaces stratégiques : hall, étages, restaurant, salle de fitness, piscine, etc.
+Prenons l’exemple d’une marque hôtelière appelée Marlton. Dans ces hôtels, des appareils de balises ont été positionnés à proximité de tous les espaces stratégiques : hall, étages, restaurant, salle de fitness, piscine, etc.
 
 >[!NOTE]
 >

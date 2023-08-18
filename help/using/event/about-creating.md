@@ -36,6 +36,7 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
    * **Événements** basés sur des règles : ce type d’événement ne génère pas d’eventID. Dans le champ **Condition d’identifiant d’événement**, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos parcours. Cette règle peut être basée sur n’importe quel champ disponible dans la payload de l’événement, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
 
    * **Événements** générés par le système : ce type nécessite un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement et ajouté à la prévisualisation de la payload. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload. Consultez [cette section](../event/previewing-the-payload.md).
+
    >[!NOTE]
    >
    >Pour en savoir plus sur les types d’événements, reportez-vous à [cette section](../event/about-events.md).

@@ -130,14 +130,13 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 ## Janvier 2020 {#january-2020}
 
 * Des limites de récupération ont été ajoutées pour les [événements d’expérience](../datasource/adobe-experience-platform-data-source.md) et les [segments](../functions/functioninsegment.md).
-
-<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
+  <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## Décembre 2019 {#december-2019}
 
 * Toutes les captures d’écran ont été mises à jour afin de prendre en compte les modifications de l’interface.
 * La section du mode test a été mise à jour. [En savoir plus](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Il est maintenant possible de supprimer les parcours arrêtés. Les pages de documentation connexes ont été mises à jour.
 * Deux couleurs s’affichent maintenant lorsque des problèmes sont détectés dans un parcours. Rouge pour les erreurs et orange pour les avertissements. [En savoir plus](../about/troubleshooting.md)
 * La section de l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../expression/expressionadvanced.md).

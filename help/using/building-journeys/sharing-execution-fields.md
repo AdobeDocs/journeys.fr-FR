@@ -105,7 +105,7 @@ Valeurs :
 * ACS E-mail
 * ACS SMS
 * ACS Push
-* customer
+* client ou cliente
 * Epsilon
 * ...
 

@@ -78,9 +78,9 @@ Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous deve
 * répertorier les paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Valeurs dynamiques]** (« identifiant » dans l’exemple ci-dessous) ;
 * spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour ce faire, vous devez ajouter : &quot;param&quot;: &quot;nom de votre paramètre&quot; (&quot;identifier&quot; dans l’exemple ci-dessous). Respectez la syntaxe ci-dessous :
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](../assets/journey29.png)
 

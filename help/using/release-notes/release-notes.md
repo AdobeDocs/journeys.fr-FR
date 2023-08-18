@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4194'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration) de Journey Optimizer.
 * De nouveaux mécanismes de sécurisation ont été définis afin de gérer la croissance des expériences fournies par les parcours :
-   * Nous vous recommandons de limiter le nombre de nœuds à 50 ou moins afin de garantir la performance, la lisibilité, la qualité et le dépannage de vos parcours. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys) de Journey Optimizer.
+   * Nous vous recommandons de limiter le nombre de nœuds à 50 ou moins afin d’assurer les performances et de faciliter la lecture, le contrôle qualité et la résolution de problèmes de vos parcours. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys) de Journey Optimizer.
    * Développez et lancez vos premiers parcours. Dès que la barre des 100 parcours actifs à la fois se profile à l’horizon, nous ne manquerons pas de vous en informer. Si vous prévoyez d’emblée de lancer 100 parcours à la fois, créez un ticket de support après avoir reçu la notification et nous vous aiderons à concrétiser vos projets. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys) de Journey Optimizer.
 
 ## Version de mars 2023 {#mar-2023}

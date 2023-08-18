@@ -82,17 +82,17 @@ Cette expression renvoie une valeur booléenne.
 
 * Spécifiez la référence du produit (SKU) à l’aide de la fonction `first` pour récupérer la dernière interaction &quot;addToCart&quot; :
 
-   ```json
-       #{ExperiencePlatformDataSource
-                       .ExperienceEventFieldGroup
-                       .experienceevent
-                       .first(
-                       currentDataPackField
-                       .productData
-                       .productInteraction == "addToCart"
-                       )
-                       .SKU}
-   ```
+  ```json
+      #{ExperiencePlatformDataSource
+                      .ExperienceEventFieldGroup
+                      .experienceevent
+                      .first(
+                      currentDataPackField
+                      .productData
+                      .productInteraction == "addToCart"
+                      )
+                      .SKU}
+  ```
 
 De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où le produit ne se trouve pas en magasin et envoyer une notification avec une offre d’engagement. Configurez les messages en conséquence et utilisez les données de personnalisation pour améliorer le ciblage de ces messages.
 

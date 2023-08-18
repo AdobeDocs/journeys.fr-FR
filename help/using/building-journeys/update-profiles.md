@@ -51,11 +51,11 @@ L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous perm
 
    * L&#39;éditeur d&#39;expression simple vous permet de sélectionner un champ à partir d&#39;une source de données ou de l&#39;événement entrant.
 
-      ![](../assets/profileupdate4.png)
+     ![](../assets/profileupdate4.png)
 
    * Si vous souhaitez définir une valeur spécifique ou utiliser des fonctions avancées, cliquez sur **Mode avancé**.
 
-      ![](../assets/profileupdate3.png)
+     ![](../assets/profileupdate3.png)
 
 L&#39;action **Mettre à jour le profil** est désormais configurée.
 
