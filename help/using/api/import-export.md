@@ -3,10 +3,10 @@ product: adobe campaign
 title: Description de l’API d’import-export
 description: En savoir plus sur l’API d’import-export.
 products: journeys
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 100%
+source-wordcount: '1119'
+ht-degree: 94%
 
 ---
 
@@ -54,8 +54,16 @@ La configuration de l’accès aux API Journey Orchestration est effectuée com
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
 1. **Créez une nouvelle intégration avec [!DNL Journey Orchestration] Service** dans Adobe I/O et configurez-la. L’accès au profil de produit est nécessaire pour Journey Orchestration et Adobe Experience Platform. Vos informations d’identification seront alors générées (clé d’API, secret client...).
-1. **Créez un jeton Web JSON (JWT)** à partir des informations d’identification précédemment générées, et signez-le avec votre clé privée. Le jeton JWT code toutes les informations d’identité et de sécurité dont Adobe a besoin pour vérifier votre identité et vous accorder l’accès à l’API. Cette étape est présentée dans cette [section](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Échangez votre jeton JWT pour un jeton d’accès** à l’aide d’une requête POST ou via l’interface de Developer Console. Ce jeton d’accès devra être utilisé dans chaque en-tête de vos requêtes d’API.
+
+>[!CAUTION]
+>
+>La méthode JWT pour générer des jetons d’accès a été abandonnée. Toutes les nouvelles intégrations doivent être créées à l’aide du [Méthode d’authentification OAuth serveur à serveur](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe vous recommande également de migrer vos intégrations existantes vers la méthode OAuth.
+>
+>Lisez les documents importants suivants :
+>[Guide de migration de vos applications de JWT vers OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[Guide de mise en œuvre pour les nouvelles et les anciennes applications avec OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Avantages de l’utilisation de la méthode d’identification OAuth serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+
 
 Pour établir une session d’API Adobe I/O de service à service sécurisée, chaque requête adressée à un service Adobe doit inclure les informations ci-dessous dans l’en-tête d’autorisation.
 
@@ -72,7 +80,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
   Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la [documentation Adobe I/O](https://www.adobe.io/authentication.html)).
 
-* **&lt;ACCESS_TOKEN>** : votre jeton d’accès personnel, récupéré lors de l’échange de votre JWT par le biais d’une requête POST.
+* **&lt;access_token>**: votre jeton d’accès personnel
 
 * **&lt;API_KEY>** : votre clé d’API personnelle. Elle est fournie dans Adobe I/O après la création d’une nouvelle intégration avec [!DNL Journey Orchestration] Service.
 
