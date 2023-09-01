@@ -2,19 +2,19 @@
 keywords: Parcours;accueil;rubriques populaires
 product: adobe campaign
 title: Documentation du produit Journey Orchestration
-description: Consultez notre Guide du Journey Orchestration d’Adobe pour obtenir des instructions pratiques simples sur l’implémentation et la création de parcours.
+description: Consultez notre Guide d’Adobe Journey Orchestration pour obtenir des instructions pratiques et simples sur l’implémentation et la création de parcours.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: c4d9ebacf2083f4df76e59228a75c51c4d7b006e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Guide du Journey Orchestration {#journeys-documentation}
+# Guide de Journey Orchestration {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
