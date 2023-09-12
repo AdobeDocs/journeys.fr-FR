@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4194'
-ht-degree: 100%
+source-wordcount: '4238'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,15 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 >
 >Les fonctionnalités publiées en 2022 et 2023 sont détaillées dans la documentation d’Adobe Journey Optimizer.
 
+## Version d’août 2023 {#aug-rn-2023}
+
+### Améliorations {#aug-2023-improvements}
+
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html) de Journey Optimizer.
+
 ## Version d’avril 2023 {#apr-rn-2023}
 
 ### Améliorations {#april-2023-improvements}
-
-**Parcours**
 
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration) de Journey Optimizer.
