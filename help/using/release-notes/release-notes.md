@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
-workflow-type: tm+mt
-source-wordcount: '4238'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '4156'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 ### Améliorations {#aug-2023-improvements}
 
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html) de Journey Optimizer.
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=fr) de Journey Optimizer.
 
 ## Version d’avril 2023 {#apr-rn-2023}
 
@@ -314,7 +314,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles           (version bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
