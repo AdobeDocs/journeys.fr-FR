@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
-workflow-type: ht
-source-wordcount: '4156'
-ht-degree: 100%
+source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+workflow-type: tm+mt
+source-wordcount: '4358'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,23 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 >[!NOTE]
 >
 >Les fonctionnalités publiées en 2022 et 2023 sont détaillées dans la documentation d’Adobe Journey Optimizer.
+
+## Version de février 2024 {#feb-rn-2024}
+
+### Améliorations {#feb-2024-improvements}
+
+* **Filtrage des parcours** - Vous pouvez désormais utiliser **dates personnalisées pour filtrer les parcours** inventory, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours créés ou publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Actions personnalisées** - Vous pouvez maintenant mettre à jour la variable **content-type** en-tête . Cette nouvelle **content-type** doit référencer le contenu JSON. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration)
+* **Configuration** - L’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme &quot;primary = true&quot;. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **Interface utilisateur** - La barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône &quot;crayon&quot; permettant d’accéder aux propriétés du parcours s’affiche désormais sur la gauche de la barre supérieure, en regard du nom du parcours. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## Version de janvier 2024 {#jan-rn-2024}
+
+### Améliorations {#jan-2024-improvements}
+
+* **Durée des événements de réaction** – La durée maximale que vous pouvez définir dans les **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **Groupes de champs** - Cette version corrige un problème qui empêchait l’enregistrement des groupes de champs dans certains cas.
+* La prise en charge de `<listObject>` a été modifiée dans plusieurs fonctions.
 
 ## Version d’août 2023 {#aug-rn-2023}
 
