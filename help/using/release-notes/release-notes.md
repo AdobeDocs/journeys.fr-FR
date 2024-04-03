@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4424'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,29 +25,29 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 ### Améliorations {#mar-2024-improvements}
 
-De nouveaux états intermédiaires ont été ajoutés au cycle de vie de création de parcours :
+De nouveaux statuts intermédiaires ont été ajoutés au cycle de vie de création de parcours :
 
-* **Publication** entre les **Version préliminaire** et la variable **En direct** status
-* **Arrêt** entre les **En direct** et la variable **Stoppé** status
-* **Activation du mode test** ou **Désactivation du mode test** les états entre les **Version préliminaire** et la variable **Version préliminaire (test)** status
+* Statut **Publication** entre le statut **Brouillon** et le statut **Actif**
+* Statut **Arrêt en cours** entre le statut **Actif** et le statut **Arrêté**
+* Statuts **Activer le mode test** ou **Désactiver le mode test** entre le statut **Brouillon** et le statut **Brouillon (test)**
 
-Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule. [En savoir plus](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
 
 ## Version de février 2024 {#feb-rn-2024}
 
 ### Améliorations {#feb-2024-improvements}
 
-* **Filtrer vos parcours** : vous pouvez désormais utiliser les **dates personnalisées pour filtrer l’inventaire des parcours**, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours créés ou publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Filtrer vos parcours** : vous pouvez désormais utiliser les **dates personnalisées pour filtrer l’inventaire des parcours**, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours créés ou publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#filter)
 * **Actions personnalisées** : vous pouvez maintenant mettre à jour l’en-tête **content-type**. Ce nouveau **content-type** doit référencer le contenu JSON. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration)
-* **Configuration** : l’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme « primary = true ». [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **Interface utilisateur** : la barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône « crayon » permettant d’accéder aux propriétés du parcours s’affiche désormais à gauche de la barre supérieure, en regard du nom du parcours. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **Configuration** : l’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme « primary = true ». [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=fr)
+* **Interface utilisateur** : la barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône « crayon » permettant d’accéder aux propriétés du parcours s’affiche désormais à gauche de la barre supérieure, en regard du nom du parcours. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#change-properties)
 
 ## Version de janvier 2024 {#jan-rn-2024}
 
 ### Améliorations {#jan-2024-improvements}
 
-* **Durée des événements de réaction** – La durée maximale que vous pouvez définir dans les **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
-* **Groupes de champs** - Cette version corrige un problème qui empêchait l’enregistrement des groupes de champs dans certains cas.
+* **Durée des événements de réaction** - La durée maximale que vous pouvez définir dans les **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=fr)
+* **Groupes de champs** - Cette version corrige un problème qui empêchait l’enregistrement de groupes de champs dans certains cas.
 * La prise en charge de `<listObject>` a été modifiée dans plusieurs fonctions.
 
 ## Version d’août 2023 {#aug-rn-2023}
