@@ -31,7 +31,7 @@ Lorsque vous cliquez sur l’activité d’événement dans la zone de travail, 
 
 Une activité d&#39;événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer une temporisation pour l&#39;événement.
 
-Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client ou la cliente va soit s’insérer dans le chemin de temporisation s’il est défini, soit continuer ce parcours. Si aucun chemin de temporisation n’est défini, le paramètre de temporisation agit comme une activité d’attente. Ainsi, le profil attend pendant une certaine période qui peut être arrêtée si un événement se produit. Si vous souhaitez que des profils soient exclus de ce parcours après la temporisation, vous devez définir un chemin de temporisation.
+Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client ou la cliente va soit s’insérer dans le chemin de temporisation s’il est défini, soit continuer ce parcours. Si aucun chemin de temporisation n’est défini, le paramètre de temporisation agit comme une activité d’attente. Ainsi, le profil attend pendant une certaine période qui peut être arrêtée si un événement se produit. Si vous souhaitez que les profils soient exclus de ce parcours après temporisation, vous devez définir un chemin de temporisation.
 
 Pour configurer une temporisation d&#39;événement, procédez comme suit :
 
@@ -50,6 +50,6 @@ Dans cet exemple, le parcours envoie un premier message de bienvenue à un clien
 
 Notez que si vous souhaitez configurer une temporisation pour plusieurs événements placés après une activité **[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
 
-La temporisation s&#39;applique à tous les événements postérieurs à l&#39;activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu avant la temporisation spécifiée, les personnes s’insèrent dans un seul chemin de temporisation ou poursuivent ce parcours via la branche qui quitte l’activité là où ces paramètres de temporisation ont été définis.
+La temporisation s&#39;applique à tous les événements postérieurs à l&#39;activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu avant la temporisation spécifiée, les personnes s’engagent dans un seul chemin de temporisation ou poursuivent ce parcours via la branche en quittant l’activité où ces paramètres de temporisation ont été définis.
 
 ![](../assets/event-timeout-group.png)

@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '442'
+workflow-type: ht
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
@@ -62,9 +62,9 @@ Voici un exemple :
 
 Dans Journey Orchestration, vous devez configurer une action par message transactionnel. Procédez de la façon suivante :
 
-1. Créez une nouvelle action. Reportez-vous à cette [section](../action/action.md).
-1. Entrez un nom et une description.
-1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
+1. Créez une action. Reportez-vous à cette [section](../action/action.md).
+1. Saisissez un nom et une description.
+1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
 1. Cliquez dans le champ **Payload** et collez un exemple de payload JSON correspondant au message Campaign Contactez Adobe pour obtenir cette payload.
 1. Ajustez les différents champs de sorte qu’ils soient statiques ou variables selon que vous souhaitez les mapper ou non sur la zone de travail des parcours. Certains champs, tels que les paramètres de canal pour l’adresse e-mail et les champs de personnalisation (ctx), doivent probablement être définis comme des variables pour le mappage dans le contexte du parcours.
 1. Cliquez sur **Enregistrer**.

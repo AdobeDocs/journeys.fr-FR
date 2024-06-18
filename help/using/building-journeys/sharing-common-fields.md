@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '581'
+workflow-type: ht
+source-wordcount: '582'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Indique si l’utilisateur est entré dans le parcours. S’il n’est pas prés
 
 Type : booléen
 
-Valeurs : true/false
+Valeurs : Vrai/Faux
 
 ## reentrance
 
@@ -35,7 +35,7 @@ Indique si l’utilisateur est entré de nouveau dans le parcours avec la même 
 
 Type : booléen
 
-Valeurs : true/false
+Valeurs : Vrai/Faux
 
 ## instanceEnded
 

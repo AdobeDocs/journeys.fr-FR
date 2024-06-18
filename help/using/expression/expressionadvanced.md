@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 title: À propos de l’éditeur d’expression avancé
-description: Découvrez comment créer des expressions avancées
+description: Découvrir comment créer des expressions avancées
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
@@ -16,67 +16,67 @@ ht-degree: 100%
 # À propos de l’éditeur d’expression avancé {#concept_uyj_trt_52b}
 
 Utilisez l’éditeur d’expression avancé pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données.
-Il est également à votre disposition si vous avez besoin de définir des paramètres d’action qui nécessitent de manipuler des données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires récupérées de la source de données.
-Dans un parcours, la liste des champs d’événement affichée est contextuelle et varie selon les événements ajoutés.
+Il est également disponible chaque fois que vous devez définir des paramètres d’action qui nécessitent des manipulations de données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires récupérées de la source de données.
+Dans un parcours, la liste des champs d’événements affichée est contextuelle et varie selon le ou les événements ajoutés dans le parcours.
 
-L’éditeur d’expression avancé propose un ensemble de fonctions et d’opérateurs intégrés destinées à manipuler des valeurs et à définir une expression spécifiquement adaptée à vos besoins. L’éditeur permet également de définir les valeurs du paramètre de source de données externe, de gérer les champs de mapping et les collections, notamment les événements d’expérience.
+L’éditeur d’expression avancé propose un ensemble de fonctions et d’opérateurs intégrés qui vous permettent de manipuler des valeurs et de définir une expression qui répond spécifiquement à vos besoins. L’éditeur d’expression avancé vous permet également de définir les valeurs du paramètre de source de données externe et de manipuler les champs de mappage et les collections, telles que les événements d’expérience.
 
 ![](../assets/journey65.png)
 
 _Interface de l’éditeur d’expression avancé_
 
-Vous pouvez utiliser l’éditeur d’expression avancé pour les opérations suivantes :
+L’éditeur d’expression avancé peut être utilisé pour effectuer ce qui suit :
 
-* créer des [conditions avancées](../building-journeys/condition-activity.md#about_condition) sur les sources de données et les informations relatives aux événements ;
-* définir des activités [d’attente personnalisées](../building-journeys/wait-activity.md#custom) ;
-* définir le mappage des paramètres d’action.
+* Créer des [conditions avancées](../building-journeys/condition-activity.md#about_condition) pour des sources de données et des informations d’événements.
+* Définir des [activités Attente](../building-journeys/wait-activity.md#custom) personnalisées.
+* Définir le mappage de paramètres d’actions.
 
-Lorsque cela est possible, vous pouvez basculer entre les deux modes à l’aide du bouton **** Mode avancé / Mode simple ****. Le mode simple est présenté [ici](../building-journeys/condition-activity.md#about_condition).
+Lorsque cela est possible, vous pouvez basculer entre les deux modes à l’aide du bouton **[!UICONTROL Mode avancé]**/**[!UICONTROL Mode simple]**. Le mode simple est décrit [ici](../building-journeys/condition-activity.md#about_condition).
 
 >[!NOTE]
 >
->Vous pouvez définir des conditions dans l’éditeur d’expression simple ou avancé. Ces conditions renvoient toujours une valeur de type booléen.
+>Les conditions peuvent être définies dans l’éditeur d’expression simple ou l’éditeur d’expression avancé. Elles renvoient toujours un type booléen.
 >
->Vous pouvez définir des paramètres d’action en sélectionnant des champs ou à l’aide de l’éditeur d’expression avancé. Ces paramètres renvoient un type de données spécifique en fonction de leur expression.
+>Les paramètres d’actions peuvent être définis en sélectionnant des champs ou à l’aide de l’éditeur d’expression avancé. Ils renvoient un type de données spécifique en fonction de leur expression.
 
-## Accès à l’éditeur d’expression avancé {#section_fdz_4nj_cjb}
+## Accéder à l’éditeur d’expression avancé {#section_fdz_4nj_cjb}
 
-Il est possible d’accéder de différentes manières à l’éditeur d’expression avancé :
+Vous pouvez accéder à l’éditeur d’expression avancé de différentes manières :
 
-* Lorsque vous créez une condition de source de données, vous pouvez y accéder en cliquant sur **[!UICONTROL Mode avancé]**.
+* Lorsque vous créez une condition de source de données, vous pouvez accéder à l’éditeur avancé en cliquant sur **[!UICONTROL Mode avancé]**.
 
   ![](../assets/journeyuc2_33.png)
 
-* Lorsque vous créez un retardateur personnalisé, l’éditeur avancé s’affiche directement.
-* Lorsque vous mappez le paramètre d’action, cliquez sur le **[!UICONTROL Mode avancé]**.
+* Lorsque vous créez un retardateur personnalisé, l’éditeur avancé s’affiche automatiquement.
+* Lorsque vous mappez un paramètre d’action, cliquez sur **[!UICONTROL Mode avancé]**.
 
-## Découverte de l’interface{#section_otq_tnj_cjb}
+## Découvrir l’interface{#section_otq_tnj_cjb}
 
-Cet écran vous permet d’entrer manuellement votre expression.
+Cet écran vous permet d’écrire manuellement votre expression.
 
 ![](../assets/journey70.png)
 
-La partie gauche de l’écran contient les champs et les fonctions disponibles :
+Dans la partie gauche de l’écran, les champs et les fonctions disponibles sont affichés :
 
-* **[!UICONTROL Événements]** : sélectionnez l’un des champs reçus de l’événement entrant. La liste des champs d’événement affichée est contextuelle et varie selon le(s) événement(s) ajouté(s) au parcours. [En savoir plus](../event/about-events.md)
+* **[!UICONTROL Événements]** : choisissez l’un des champs reçus à partir de l’événement entrant. La liste des champs d’événements affichée est contextuelle et varie selon le ou les événements ajoutés dans le parcours. [En savoir plus](../event/about-events.md)
 * **[!UICONTROL Segments]** : si vous avez déposé un événement de **[!UICONTROL qualification de segment]**, choisissez le segment à utiliser dans votre expression. [En savoir plus](../segment/using-a-segment.md)
-* **[!UICONTROL Sources de données]** : effectuez votre choix parmi la liste de champs disponibles à partir des groupes de champs de vos sources de données. [En savoir plus](../datasource/about-data-sources.md)
+* **[!UICONTROL Sources de données]** : choisissez dans la liste des champs disponibles issue des groupes de champs de vos sources de données. [En savoir plus](../datasource/about-data-sources.md)
 * **[!UICONTROL Propriétés du parcours]** : cette section regroupe les champs techniques liés au parcours pour un profil donné. [En savoir plus](../expression/journey-properties.md)
-* **[!UICONTROL Fonctions]** : effectuez votre choix parmi la liste de fonctions intégrées permettant d’effectuer un filtrage complexe. Les fonctions sont classées par catégories. [En savoir plus](../expression/functions.md)
+* **[!UICONTROL Fonctions]** : choisissez dans la liste des fonctions intégrées qui permettent d’effectuer un filtrage complexe. Les fonctions sont organisées par catégories. [En savoir plus](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
-Un mécanisme de saisie semi-automatique affiche des suggestions contextuelles.
+Un mécanisme d’autocomplétion affiche des suggestions contextuelles.
 
 ![](../assets/journey68.png)
 
-Un mécanisme de validation de syntaxe vérifie l’intégrité du code. Les erreurs s’affichent dans la partie supérieure de l’éditeur.
+Un mécanisme de validation de la syntaxe vérifie l’intégrité de votre code. Les erreurs s’affichent en haut de l’éditeur.
 
 ![](../assets/journey69.png)
 
-**Nécessité de paramètres pour la création de conditions à l’aide de l’éditeur d’expression avancé**
+**Des paramètres sont requis lors de la création de conditions avec l’éditeur d’expression avancé.**
 
-Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre (voir [cette page](../datasource/external-data-sources.md). Le paramètre « ville », par exemple, est fréquemment utilisé dans une source de données météorologiques. Vous devez donc sélectionner l’emplacement où vous souhaitez obtenir ce paramètre. Il est également possible d’appliquer des fonctions aux paramètres pour effectuer des modifications de format ou des concaténations.
+Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre (voir [cette page](../datasource/external-data-sources.md). Par exemple, dans une source de données météorologique, un paramètre fréquemment utilisé est « ville ». Par conséquent, vous devez sélectionner l’emplacement où vous souhaitez avoir ce paramètre « ville ». Des fonctions peuvent également être appliquées aux paramètres pour effectuer des modifications de format ou des concaténations.
 
 ![](../assets/journeyuc2_19.png)
 

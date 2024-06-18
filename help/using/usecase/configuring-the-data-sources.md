@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
-workflow-type: tm+mt
-source-wordcount: '476'
+workflow-type: ht
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -58,8 +58,8 @@ Nous devons aussi vérifier si la personne a une réservation dans le système d
 
 1. Cliquez sur **[!UICONTROL Ajouter un nouveau groupe de champs]** pour définir les informations à récupérer et les paramètres de l’API. Dans notre exemple, il n’existe qu’un seul paramètre (l’identifiant). Nous devons donc créer un groupe de champs contenant les informations suivantes :
 
-   * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre exemple, nous choisissons la méthode GET.
-   * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de payload. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Dans notre exemple, la payload ne contient que le statut de réservation :
+   * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous sélectionnons la méthode GET.
+   * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de payload. Vérifiez que les types de champ sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Dans notre exemple, la payload ne contient que le statut de réservation :
 
    ```
    {

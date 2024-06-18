@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
 source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
@@ -30,8 +30,8 @@ Liste
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
-| numberOfItems | nombre entier | Nombre d’éléments à renvoyer à partir de la liste donnée. |
-| firstOrLastItems | booléen | Ce paramètre est facultatif (true par défaut). true renvoie les premiers éléments. false renvoie les derniers éléments. |
+| numberOfItems | Entier | Nombre d’éléments à renvoyer à partir de la liste donnée. |
+| firstOrLastItems | Booléen | Ce paramètre est facultatif (true par défaut). true renvoie les premiers éléments. false renvoie les derniers éléments. |
 
 ## Signature et type renvoyé
 

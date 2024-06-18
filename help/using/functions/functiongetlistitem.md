@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
-workflow-type: tm+mt
-source-wordcount: '90'
+workflow-type: ht
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Liste
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | integer |
+| index | Entier |
 
 ## Signatures et type renvoyé
 

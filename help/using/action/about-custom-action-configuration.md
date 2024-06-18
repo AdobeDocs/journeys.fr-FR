@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
-workflow-type: tm+mt
-source-wordcount: '318'
+workflow-type: ht
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
    >N&#39;utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
 1. Ajoutez une description à l&#39;action. Cette étape est facultative.
-1. Le nombre de parcours qui font appel à cette action apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cette action.
+1. Le nombre de parcours qui font appel à cette action s’affiche dans le champ **[!UICONTROL Utilisé dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour afficher la liste des parcours utilisant cette action.
 1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Voir [cette page](../action/url-configuration.md).
 1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Voir [cette page](../action/defining-the-message-parameters.md).
@@ -44,4 +44,4 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
    >[!NOTE]
    >
-   >Lorsqu&#39;une action personnalisée est utilisée dans un parcours, la plupart des paramètres sont en lecture seule. Vous ne pouvez modifier que les champs **[!UICONTROL Nom]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la section **[!UICONTROL Authentification.]**
+   >Lorsqu&#39;une action personnalisée est utilisée dans un parcours, la plupart des paramètres sont en lecture seule. Vous pouvez uniquement modifier les champs **[!UICONTROL Nom]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la section **[!UICONTROL Authentification]**.

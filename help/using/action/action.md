@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: À propos des actions
-description: Découvrez comment configurer une action
+description: Découvrir comment configurer une action
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '313'
+workflow-type: ht
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_actions"
 >title="À propos des actions"
->abstract="C&#39;est à ce niveau qu&#39;est définie la connexion au système qui enverra les messages. Les actions définies ici seront ensuite disponibles dans la palette de gauche de votre parcours, dans la catégorie Action. "
+>abstract="C&#39;est à ce niveau qu&#39;est définie la connexion au système qui enverra les messages. Les actions définies ici seront alors disponibles dans la palette gauche de votre parcours, dans la catégorie Action. "
 
 Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
 
 Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n&#39;importe quel service de n&#39;importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON.
 
-Les actions sont disponibles dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]** Voir [cette page](../building-journeys/about-action-activities.md).
+Les actions apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. Voir [cette page](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >

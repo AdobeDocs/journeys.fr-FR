@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ L’onglet **[!UICONTROL Modifier]** permet les opérations suivantes :
 Le tableau **[!UICONTROL Insérer]** vous permet de personnaliser vos rapports en ajoutant des graphiques et des tableaux à votre tableau de bord :
 
 * **[!UICONTROL Nouveau panneau vierge]** : ajoute un nouveau panneau vierge à votre tableau de bord.
-* **[!UICONTROL Nouvelle structure libre]** : ajoute une nouvelle structure libre à votre tableau de bord.
+* **[!UICONTROL Nouvelle structure libre]** : ajoute un nouveau tableau à structure libre à votre tableau de bord.
 * **[!UICONTROL Nouvelle ligne]** : ajoute un nouveau graphique linéaire à votre tableau de bord.
 * **[!UICONTROL Nouvelle barre]** : ajoute un nouveau graphique à barre à votre tableau de bord.
 
@@ -75,7 +75,7 @@ Les IPC suivants sont disponibles en haut du rapport :
 * **[!UICONTROL Parcours - Taux d’échec]** : nombre total de parcours qui n’ont pas été exécutés avec succès par rapport au nombre de parcours exécutés.
 * **[!UICONTROL Délivrabilité - Messages envoyés]** : nombre total de messages envoyés.
 * **[!UICONTROL Taux de délivrabilité]** : nombre total de messages délivrés avec succès par rapport aux messages envoyés.
-* **[!UICONTROL Délivrabilité - Taux de bounce]** : nombre total de messages qui ont fait l’objet d’un bounce par rapport aux messages envoyés.
+* **[!UICONTROL Délivrabilité - Taux de rebond]** : nombre total de messages qui ont fait l’objet d’un rebond par rapport aux messages envoyés.
 * **[!UICONTROL Délivrabilité - Taux de désabonnement]** : nombre total de désabonnements par destinataire par rapport au nombre de messages délivrés.
 * **[!UICONTROL Délivrabilité - Taux d’ouvertures]** : nombre total de messages ouverts par rapport au nombre de messages délivrés.
 * **[!UICONTROL Délivrabilité - Taux de clics]** : nombre total de clics dans une diffusion par rapport au nombre de messages délivrés.
@@ -101,8 +101,8 @@ Le tableau **[!UICONTROL Délivrabilité - Synthèse des envois]** contient les 
 * **[!UICONTROL Traités/envoyés]** : nombre total de messages envoyés.
 * **[!UICONTROL Taux de délivrabilité]** : nombre total de messages délivrés avec succès par rapport aux messages envoyés.
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès par rapport au nombre total de messages envoyés.
-* **[!UICONTROL Taux Bounces + Erreurs]** : nombre total de messages qui ont fait l’objet d’un bounce par rapport aux messages envoyés.
-* **[!UICONTROL Bounces + erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Taux de rebond + erreurs]** : nombre total de messages qui ont fait l’objet d’un rebond par rapport aux messages envoyés.
+* **[!UICONTROL Rebonds + erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
 Le tableau **[!UICONTROL Délivrabilité - Synthèse du suivi]** contient les données disponibles pour le suivi du succès des diffusions de votre parcours, telles que :
 

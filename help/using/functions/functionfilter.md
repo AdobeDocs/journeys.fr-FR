@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 3c1c188c-0ffd-44c5-b1b3-1758ed12235e
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Liste
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
 | listToFilter | listObject | liste dʼobjects à filtrer. Il doit être une référence de champ. |
-| keyAttributeName | chaîne | nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
+| keyAttributeName | Chaîne | nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
 | keyValueList | list | tableau de valeurs clés pour le filtrage |
 
 ## Signatures et types renvoyés
