@@ -25,7 +25,7 @@ Type : chaîne
 
 ## journeyVersionID
 
-Identifiant de la version du parcours. Cet identifiant représente l’identité d’un parcours..
+Identifiant de la version du parcours. Cet identifiant représente l’identité d’un parcours.
 
 Type : chaîne
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1013'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Vous pouvez également accéder à [!DNL Journey Orchestration] à partir de la 
 
 ![](../assets/journey1bis.png)
 
-## Découverte de l’interface{#section_jsq_zr1_ffb}
+## Découvrir l’interface{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"

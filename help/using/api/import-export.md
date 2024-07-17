@@ -4,8 +4,8 @@ title: Description de l’API d’import-export
 description: En savoir plus sur l’API d’import-export.
 products: journeys
 source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
-workflow-type: ht
-source-wordcount: '1119'
+workflow-type: tm+mt
+source-wordcount: '1027'
 ht-degree: 100%
 
 ---
@@ -65,7 +65,7 @@ La configuration de l’accès aux API Journey Orchestration est effectuée com
 >[Avantages de l’utilisation de la méthode d’identification OAuth de serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials).
 
 
-Pour établir une session d’API Adobe I/O de service à service sécurisée, chaque requête adressée à un service Adobe doit inclure les informations ci-dessous dans l’en-tête d’autorisation.
+Pour établir une session d’API Adobe I/O de service à service sécurisée, chaque requête adressée à un service Adobe doit inclure les informations ci-dessous dans l’en-tête d’autorisation.
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \

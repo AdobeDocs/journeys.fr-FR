@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Conversion
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
-| nombre entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
+| Entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
 | décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
 | booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 

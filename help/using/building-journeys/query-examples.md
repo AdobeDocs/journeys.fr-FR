@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1283'
 ht-degree: 93%
 
 ---
@@ -92,7 +92,7 @@ order by
 limit 100;
 ```
 
-**Jeu de données d’événement d’expérience de suivi push** (cjm_push_tracking_experience_event_dataset)
+**Jeu de données d’événement de suivi push** (cjm_push_tracking_experience_event_dataset)
 
 Jeu de données pour l’ingestion d’événements d’expérience de suivi mobile pour les canaux push et inapp à partir de Journey Optimizer.
 
@@ -108,11 +108,11 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**Événement d’étape de parcours** (parcours_step_events)
+**Événement d’étape de Parcours** (parcours_step_events)
 
 Jeu de données pour l’ingestion d’événements d’étape pour l’utilisateur dans le parcours.
 
-Le schéma associé est celui d’événements d’étapes de parcours pour Journey Orchestration.
+Le schéma associé est le schéma Événement d’étape de Parcours pour Journey Orchestration.
 
 _Cas pratique de création de rapports_
 

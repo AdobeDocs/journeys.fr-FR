@@ -90,26 +90,26 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 |--- |--- |
 | **Sur la liste bloquée** | Nombre de destinataires ayant déclaré un e-mail comme étant un spam ou un courrier indésirable. |
 | **Taux de placement sur la liste bloquée** | Nombre total de messages sur la liste bloquée par rapport aux messages envoyés. |
-| **Bounces + erreurs** | Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés. |
-| **Taux Bounce + Erreurs** | Nombre total de messages qui ont fait l’objet d’un bounce par rapport aux messages envoyés. |
+| **Rebonds + erreurs** | Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés. |
+| **Taux de rebond + erreurs** | Nombre total de messages qui ont fait l’objet d’un rebond par rapport aux messages envoyés. |
 | **Cliquez sur** | Nombre de clics sur un contenu dans une diffusion. |
 | **Taux de clics** | Nombre total de clics dans une diffusion par rapport au nombre de messages diffusés. |
 | **Délivrés** | Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. |
 | **Taux de délivrabilité** | Nombre total de messages diffusés avec succès par rapport aux messages envoyés. |
 | **Erreur** | Nombre total d’erreurs s’étant produites au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
-| **Hard bounce** | Nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. |
-| **Taux de hard bounce** | Nombre total de diffusions ayant échoué en raison d’erreurs permanentes par rapport aux messages envoyés. |
+| Rebond définitif **** | Nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. |
+| **Taux de rebond définitif** | Nombre total de diffusions ayant échoué en raison d’erreurs permanentes par rapport aux messages envoyés. |
 | **Page miroir** | Nombre de destinataires ayant cliqué sur le lien de la page miroir. |
 | **Taux de page miroir** | Nombre total de clics sur le lien de la page miroir par rapport au nombre total de messages diffusés. |
 | **Ouvrir** | Nombre d’ouvertures d’un message dans une diffusion. |
 | **Taux d’ouverture** | Nombre total de messages ouverts par rapport au nombre de messages diffusés. |
-| **Quarantaine** | Nombre de messages qui ont fait l’objet d’un bounce et qui ont entraîné la mise en quarantaine de l’adresse. |
+| **Quarantaine** | Nombre de messages qui ont fait l’objet d’un rebond et qui ont entraîné la mise en quarantaine de l’adresse. |
 | **Taux de mise en quarantaine** | Nombre total de mises en quarantaine par rapport aux messages envoyés. |
-| **Refusé** | Nombre de messages classés comme spam par les serveurs SMTP. |
+| **Rejetés** | Nombre de messages classés comme spam par les serveurs SMTP. |
 | **Taux de rejet** | Nombre total de messages marqués comme rejetés par rapport aux messages envoyés. |
 | **Traités/envoyés** | Nombre total d’envois pour la diffusion. |
-| **Soft bounce** | Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine. |
-| **Taux de soft bounces** | Nombre total de diffusions ayant échoué en raison d’erreurs temporaires par rapport aux messages envoyés. |
+| Rebond temporaire **** | Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine. |
+| **Taux de rebonds temporaires** | Nombre total de diffusions ayant échoué en raison d’erreurs temporaires par rapport aux messages envoyés. |
 | **Clics uniques** | Nombre de destinataires ayant cliqué sur un contenu dans une diffusion. |
 | **Ouvertures uniques** | Nombre de destinataires ayant ouvert la diffusion. |
 | **Désabonné** | Nombre de clics sur le lien de désabonnement. |

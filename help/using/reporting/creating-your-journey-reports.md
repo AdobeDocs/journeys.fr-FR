@@ -75,7 +75,7 @@ Vous pouvez maintenant ajouter un tableau à structure libre à votre panneau po
 
 ### Ajout d’un tableau à structure libre {#adding-a-freeform-table}
 
-Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **[!UICONTROL Composant]**.
+Les tableaux à structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes mesures et des dimensions disponibles dans le tableau **[!UICONTROL Composant]**.
 
 Chaque tableau et chaque visualisation peuvent être redimensionnés et déplacés afin de mieux personnaliser votre rapport.
 
@@ -85,7 +85,7 @@ Chaque tableau et chaque visualisation peuvent être redimensionnés et déplac�
 
 1. Placez l’élément **[!UICONTROL Structure libre]** sur votre tableau de bord.
 
-   Vous pouvez également ajouter un tableau en cliquant sur l’onglet **[!UICONTROL Insérer]** et en sélectionnant **[!UICONTROL Nouvelle Forme Libre]** ou en cliquant sur **[!UICONTROL Ajouter un panneau structure libre]** dans un panneau vide.
+   Vous pouvez également ajouter un tableau en cliquant sur l’onglet **[!UICONTROL Insérer]** et en sélectionnant **[!UICONTROL Nouvelle structure libre]** ou en cliquant sur **[!UICONTROL Ajouter un tableau à structure libre]** dans un panneau vide.
 
    ![](../assets/dynamic_report_panel_2.png)
 
@@ -103,7 +103,7 @@ Chaque tableau et chaque visualisation peuvent être redimensionnés et déplac�
    * **[!UICONTROL Pourcentage]** : permet d’afficher ou de masquer le pourcentage dans la colonne.
    * **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]** : permet d’afficher ou de masquer une valeur lorsqu’elle est égale à zéro.
    * **[!UICONTROL Arrière-plan]** : permet d’afficher ou de masquer la barre de progression horizontale dans les cellules.
-   * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Bounces + erreurs]**.
+   * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Rebonds + erreurs]**.
 
 1. Sélectionnez une ou plusieurs rangées et cliquez sur l’icône **[!UICONTROL Visualiser.]** Une visualisation est ajoutée pour refléter les lignes sélectionnées.
 
@@ -140,7 +140,7 @@ L’onglet **[!UICONTROL Visualisations]** vous permet de positionner des élém
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. Après l’ajout d’une visualisation à votre panneau, vos rapports détectent automatiquement les données de votre tableau à structure libre. Sélectionnez les paramètres de votre visualisation.
-1. S’il existe plusieurs tableaux Structure libre, sélectionnez la source de données à ajouter à votre graphique dans la fenêtre **[!UICONTROL Paramètres de source de données.]** Cette fenêtre est également disponible en cliquant sur le point coloré en regard du titre de votre visualisation.
+1. S’il existe plusieurs tableaux à structure libre, sélectionnez la source de données à ajouter à votre graphique dans la fenêtre **[!UICONTROL Paramètres de source de données.]** Cette fenêtre est également disponible en cliquant sur le point coloré en regard du titre de votre visualisation.
 
    ![](../assets/dynamic_report_visualization_2.png)
 

@@ -4,7 +4,7 @@ title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '262'
 ht-degree: 100%
 
 ---

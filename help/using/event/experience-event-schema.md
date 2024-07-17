@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '717'
 ht-degree: 100%
 
 ---
@@ -25,9 +25,9 @@ La première étape de la configuration d’un événement pour [!DNL Journey Or
 
 ![](../assets/schema1.png)
 
-Un schéma XDM destiné aux événements [!DNL Journey Orchestration] doit répondre aux exigences suivantes :
+Tout schéma XDM utilisé pour les événements [!DNL Journey Orchestration] doit répondre aux exigences suivantes :
 
-* Le schéma doit appartenir à la classe XDM ExperienceEvent.
+* Ce schéma doit être de la classe XDM ExperienceEvent.
 
   ![](../assets/schema2.png)
 
@@ -35,17 +35,17 @@ Un schéma XDM destiné aux événements [!DNL Journey Orchestration] doit répo
 
   ![](../assets/schema3.png)
 
-* Vous devez déclarer un champ d’identité pour identifier le thème de l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cela n’est pas recommandé.
+* Vous devez déclarer un champ d’identité pour identifier le thème de l’événement. Si aucune identité n’est spécifiée, un mappage d’identités peut être utilisé. Cela n’est pas recommandé.
 
   ![](../assets/schema4.png)
 
-* Si vous souhaitez que ces données soient disponibles pour une recherche ultérieure dans un parcours, marquez le schéma et le jeu de données pour le profil.
+* Pour que ces données soient disponibles pour une recherche ultérieure dans un parcours, marquez le schéma et le jeu de données du profil.
 
   ![](../assets/schema5.png)
 
   ![](../assets/schema6.png)
 
-* N’hésitez pas à inclure des champs de données pour recueillir toutes les autres données contextuelles que vous souhaitez incorporer à l’événement, telles que des informations relatives à l’utilisateur, l’appareil à partir duquel l’événement a été généré, l’emplacement ou toute autre circonstance significative liée à l’événement.
+* N’hésitez pas à inclure des champs de données pour capturer toutes les autres données contextuelles à inclure à l’événement, telles que des informations sur la personne, l’appareil à partir duquel l’événement a été généré, l’emplacement ou toute autre circonstance significative liée à l’événement.
 
   ![](../assets/schema7.png)
 

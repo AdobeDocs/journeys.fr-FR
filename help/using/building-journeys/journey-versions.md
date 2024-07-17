@@ -25,7 +25,7 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
 >
 >Pour en savoir plus sur les limites des versions de parcours, voir [cette page](../about/limitations.md#journey-versions-limitations)
 
-1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
+1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
    ![](../assets/journeyversions2.png)
 
@@ -33,13 +33,13 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
    >
    >Vous ne pouvez créer une version qu&#39;à partir de la dernière version d&#39;un parcours.
 
-1. Effectuez vos modifications, cliquez sur **[!UICONTROL Publier]**, puis confirmez.
+1. Apportez vos modifications, cliquez sur **[!UICONTROL Publier]** et confirmez.
 
    ![](../assets/journeyversions3.png)
 
-Aussitôt le parcours publié, les individus commencent à accéder à la dernière version. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. En cas de rentrée ultérieure dans le même parcours, les clients accéderont à la version la plus récente.
+Dès la publication du parcours, les personnes vont accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. Si celles-ci entrent à nouveau dans le même parcours par la suite, elles accéderont à la dernière version.
 
-Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions des parcours portent le même nom.
+Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions de parcours portent le même nom.
 
 >[!NOTE]
 >

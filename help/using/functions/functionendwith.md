@@ -30,7 +30,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|------------------|
 | chaîne | chaîne |
-| Suffixe | chaîne |
+| suffixe | chaîne |
 
 ## Signature et type renvoyé
 

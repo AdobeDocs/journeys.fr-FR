@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Avec le concepteur de parcours, un **utilisateur chargé de la conception de par
 
 Il est ensuite possible de créer des conditions basées sur :
 
-* l’heure.
+* le temps ;
 * des données provenant de la payload de l’événement ;
 * des informations provenant de sources de données : profil client en temps réel ou sources personnalisées.
 
