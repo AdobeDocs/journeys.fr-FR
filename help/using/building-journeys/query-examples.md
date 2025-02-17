@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ Cette section répertorie plusieurs exemples couramment utilisés pour interroge
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
-## Suivi des cas d’utilisation des jeux de données {#tracking-datasets}
+## Cas d’utilisation des jeux de données de tracking {#tracking-datasets}
 
-Voici la liste des jeux de données de suivi et des cas d’utilisation associés :
+Voici la liste des jeux de données de tracking et les cas d’utilisation associés :
 
-**Jeu de données d’événement de suivi d’email** (cjm_email_tracking_experience_event_dataset)
+**Jeu de données d’événement d’expérience de tracking e-mail** (cjm_email_tracking_experience_event_dataset)
 
 Jeu de données système pour l’ingestion d’événements d’expérience de tracking e-mail à partir de Journey Optimizer.
 
 Le schéma associé est celui d’événements d’expérience de tracking e-mail sur CJM.
 
-_Cas pratique de création de rapports_
+_Cas dʼutilisation de reporting_
 
 ```sql
 select
@@ -63,7 +63,7 @@ Jeu de données pour l’ingestion d’événements de retour d’application pu
 
 Le schéma associé est celui d’événements de retour de message CJM.
 
-_Cas pratique de création de rapports_
+_Cas dʼutilisation de reporting_
 
 ```sql
 select
@@ -92,13 +92,13 @@ order by
 limit 100;
 ```
 
-**Jeu de données d’événement de suivi push** (cjm_push_tracking_experience_event_dataset)
+**Jeu de données d’événement d’expérience de tracking de notifications push** (cjm_push_tracking_experience_event_dataset)
 
-Jeu de données pour l’ingestion d’événements d’expérience de suivi mobile pour les canaux push et inapp à partir de Journey Optimizer.
+Jeu de données pour l’ingestion d’événements d’expérience de tracking mobile pour les notifications push et les canaux in-app à partir de Journey Optimizer.
 
-Le schéma associé est celui d’événements d’expérience de tracking de notifications Push sur CJM.
+Le schéma associé est celui d’événement d’expérience de tracking de notifications push sur CJM.
 
-_Cas pratique de création de rapports_
+_Cas dʼutilisation de reporting_
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -108,13 +108,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**Événement d’étape de Parcours** (parcours_step_events)
+**Événement d’étape de parcours** (journey_step_events)
 
-Jeu de données pour l’ingestion d’événements d’étape pour l’utilisateur dans le parcours.
+Jeu de données pour l’ingestion d’événements d’étape d’utilisation dans le parcours.
 
-Le schéma associé est le schéma Événement d’étape de Parcours pour Journey Orchestration.
+Le schéma associé est celui d’événement d’étape de parcours pour Journey Orchestration.
 
-_Cas pratique de création de rapports_
+_Cas dʼutilisation de reporting_
 
 ```sql
 select

@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 title: À propos des données Adobe Analytics
-description: Découvrez comment exploiter les données d’Adobe Analytics.
+description: Découvrir comment exploiter les données d’Adobe Analytics
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 

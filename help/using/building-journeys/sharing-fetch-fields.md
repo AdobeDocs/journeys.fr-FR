@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Champs de récupération des données des événements journeyStep {#sharing-fetch-fields}
 
-Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
+Ce mixin sera partagé par les éléments journeyStepEvent et journeyStepProfileEvent.
 
 Lors du traitement d’une étape, il est possible de récupérer un nombre quelconque de données dans les groupes de champs.
 

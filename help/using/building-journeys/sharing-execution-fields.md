@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Champs d&#39;exécution d&#39;action des événements journeyStep {#sharing-execution-fields}
 
-Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
+Ce mixin sera partagé par les éléments journeyStepEvent et journeyStepProfileEvent.
 
 Si l’étape comporte une action à traiter, ces champs sont ajoutés à la payload de l’événement.
 

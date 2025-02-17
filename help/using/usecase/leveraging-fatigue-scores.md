@@ -3,7 +3,7 @@ product: adobe campaign
 title: Utilisation des scores de fatigue
 description: Découvrez comment utiliser les scores de fatigue dans les parcours
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Pour sélectionner les champs de score de fatigue dans la source de données int
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Créer le parcours {#section_uzm_pyy_wfb}
+## Création du parcours {#section_uzm_pyy_wfb}
 
 Pour créer, valider et publier le parcours, suivez les étapes décrites dans [cette page](../building-journeys/journey.md).
 

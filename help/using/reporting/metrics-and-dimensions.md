@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 | **Délivrés** | Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. |
 | **Taux de délivrabilité** | Nombre total de messages diffusés avec succès par rapport aux messages envoyés. |
 | **Erreur** | Nombre total d’erreurs s’étant produites au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
-| Rebond définitif **** | Nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. |
+| **Rebond définitif** | Nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. |
 | **Taux de rebond définitif** | Nombre total de diffusions ayant échoué en raison d’erreurs permanentes par rapport aux messages envoyés. |
 | **Page miroir** | Nombre de destinataires ayant cliqué sur le lien de la page miroir. |
 | **Taux de page miroir** | Nombre total de clics sur le lien de la page miroir par rapport au nombre total de messages diffusés. |
@@ -108,7 +108,7 @@ différents rapports de parcours, ainsi que leurs définitions et leurs formules
 | **Rejetés** | Nombre de messages classés comme spam par les serveurs SMTP. |
 | **Taux de rejet** | Nombre total de messages marqués comme rejetés par rapport aux messages envoyés. |
 | **Traités/envoyés** | Nombre total d’envois pour la diffusion. |
-| Rebond temporaire **** | Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine. |
+| **Rebond temporaire** | Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine. |
 | **Taux de rebonds temporaires** | Nombre total de diffusions ayant échoué en raison d’erreurs temporaires par rapport aux messages envoyés. |
 | **Clics uniques** | Nombre de destinataires ayant cliqué sur un contenu dans une diffusion. |
 | **Ouvertures uniques** | Nombre de destinataires ayant ouvert la diffusion. |
