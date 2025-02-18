@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 Deux raisons peuvent entraîner la terminaison d&#39;un parcours pour un individu :
 
 * Le client arrive à la dernière activité d&#39;un chemin. Il ne doit pas nécessairement s&#39;agir d&#39;une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
-* Le client arrive à une activité de condition (ou à une activité d&#39;attente avec une condition) et ne répond à aucune des conditions.
+* Le client ou la cliente arrive à une activité de condition (ou à une activité d&#39;attente avec une condition) et ne répond à aucune des conditions.
 
 La personne peut alors rejoindre de nouveau le parcours si la reprise est autorisée. Voir [cette page](../building-journeys/changing-properties.md).
 
