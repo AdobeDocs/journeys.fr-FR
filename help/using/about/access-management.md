@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Gestion des accès
-description: En savoir plus sur la gestion des accès
+description: En savoir plus sur la gestion des accès.
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+source-git-commit: cf9bc6db0627eb0dba57e30652bba5ac8783cb55
+workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration] permet d’affecter un ensemble d’autorisations aux utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
-Les autorisations peuvent être gérées par des administrateurs qui ont accès à Admin Console. Pour plus d’informations sur Admin Console, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
+Ils peuvent être gérés par des administrateurs qui ont accès à Admin Console. Pour plus d’informations sur Admin Console, consultez le [guide d’administration pour les entreprises et les équipes](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 
 Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 
 * faire partie d’un **[!UICONTROL profil de produit]** [!DNL Journey Orchestration] associé aux autorisations de [!DNL Journey Orchestration] ;
 * faire partie d’un [!DNL Adobe Experience Platform] **[!UICONTROL profil de produit]**. Aucune autorisation n’est demandée. L’utilisateur doit disposer de l’autorisation de **[!UICONTROL gestion des profils]** pour pouvoir créer et modifier des segments de plateforme à partir de l’interface de [!DNL Journey Orchestration]. Pour en savoir plus à ce sujet, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#adobe-admin-console).
 
-Admin Console permet d’attribuer aux utilisateurs l’un des profils de produit par défaut suivants :
+Dans Admin Console, vous pouvez attribuer à vos utilisateurs l’un des profils de produit d’usine suivants :
 
 * **[!UICONTROL Utilisateur à accès limité]** : utilisateur disposant d’un accès en lecture seule aux parcours et aux rapports. Ce profil de produit comprend les autorisations suivantes :
    * Lire les parcours
@@ -71,7 +71,7 @@ Pour plus d’informations sur la création et la gestion des sandbox, consultez
 
 Pour créer un profil de produit et attribuer un ensemble d’autorisations et d’environnements Sandbox :
 
-1. Sélectionnez **[!UICONTROL Journey Orchestration]** dans Admin console. Dans l’onglet **[!UICONTROL Profil produit]**, cliquez sur **[!UICONTROL Nouveau profil]**.
+1. Dans Admin Console, sélectionnez **[!UICONTROL Journey Orchestration]**. Dans l’onglet **[!UICONTROL Profil produit]**, cliquez sur **[!UICONTROL Nouveau profil]**.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -138,7 +138,7 @@ L’utilisateur doit alors recevoir un e-mail le redirigeant vers votre instance
 ## Utilisation des sandbox {#sandboxes}
 
 [!DNL Journey Orchestration] vous permet de partitionner votre instance en environnements virtuels séparés appelés sandbox.
-Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
+Les sandbox sont attribués par le biais de profils de produit dans Admin Console. Pour plus d’informations sur l’affectation d’environnements Sandbox, consultez cette [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflète les environnements Sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
 Vous pouvez créer ou réinitialiser des sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. Consultez le [Guide de l’utilisateur de Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr) pour connaître la procédure à suivre.
