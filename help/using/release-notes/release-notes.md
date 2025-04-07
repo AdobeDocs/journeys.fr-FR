@@ -6,14 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '4424'
-ht-degree: 100%
+source-wordcount: '4469'
+ht-degree: 98%
 
 ---
 
 # Notes de mise à jour {#release-notes}
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>Cette documentation se rapporte aux anciens contenus Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte.
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration. Consultez les [notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr) pour découvrir les nouvelles fonctionnalités d’Experience Platform.
 
@@ -452,7 +458,7 @@ La payload des événements de qualification de segment contient maintenant les 
 <ul>
 <li><p>Le nom de l’activité a été remplacé par « Lecture de segment ». </p>
 </li>
-<li><p>La configuration du planificateur de parcours a été supprimée des propriétés de l’activité. Elle est maintenant accessible directement à partir des propriétés du parcours, dans une section dédiée qui s’affichera si une activité de Lecture de segment a été déposée dans la zone de travail. </p>
+<li><p>La configuration du planificateur de parcours a été supprimée des propriétés de l'activité. Elle est maintenant accessible directement à partir des propriétés du parcours, dans une section dédiée qui s’affichera si une activité de Lecture de segment a été déposée dans la zone de travail. </p>
 </li>
 <li><p>Vous pouvez maintenant tester le parcours sur un profil unitaire et suivre sa progression dans le parcours à l’aide du flux visuel.</p>
 </li>
