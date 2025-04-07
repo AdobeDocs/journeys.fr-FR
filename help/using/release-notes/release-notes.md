@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
+source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
 workflow-type: tm+mt
-source-wordcount: '4469'
-ht-degree: 98%
+source-wordcount: '4468'
+ht-degree: 96%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 98%
 >
 >**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
 >
->Cette documentation se rapporte aux anciens contenus Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte.
+>
+>_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte._
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations de Journey Orchestration. Consultez les [notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr) pour découvrir les nouvelles fonctionnalités d’Experience Platform.
 
->[!NOTE]
->
->Les fonctionnalités publiées en 2022 et 2023 sont détaillées dans la documentation d’Adobe Journey Optimizer.
+Pour les fonctionnalités publiées après 2022, les liens mènent à la documentation de [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"}.
 
 ## Version de mars 2024 {#mar-rn-2024}
 
@@ -37,22 +36,22 @@ De nouveaux statuts intermédiaires ont été ajoutés au cycle de vie de créat
 * Statut **Arrêt en cours** entre le statut **Actif** et le statut **Arrêté**
 * Statuts **Activer le mode test** ou **Désactiver le mode test** entre le statut **Brouillon** et le statut **Brouillon (test)**
 
-Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule. [En savoir plus](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"}
 
 ## Version de février 2024 {#feb-rn-2024}
 
 ### Améliorations {#feb-2024-improvements}
 
-* **Filtrer vos parcours** : vous pouvez désormais utiliser les **dates personnalisées pour filtrer l’inventaire des parcours**, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours créés ou publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#filter)
-* **Actions personnalisées** : vous pouvez maintenant mettre à jour l’en-tête **content-type**. Ce nouveau **content-type** doit référencer le contenu JSON. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration)
-* **Configuration** : l’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme « primary = true ». [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=fr)
-* **Interface utilisateur** : la barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône « crayon » permettant d’accéder aux propriétés du parcours s’affiche désormais à gauche de la barre supérieure, en regard du nom du parcours. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#change-properties)
+* **Filtrer vos parcours** : vous pouvez désormais utiliser les **dates personnalisées pour filtrer l’inventaire des parcours**, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours créés ou publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#filter){target="_blank"}
+* **Actions personnalisées** : vous pouvez maintenant mettre à jour l’en-tête **content-type**. Ce nouveau **content-type** doit référencer le contenu JSON. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration){target="_blank"}
+* **Configuration** : l’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme « primary = true ». [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=fr){target="_blank"}
+* **Interface utilisateur** : la barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône « crayon » permettant d’accéder aux propriétés du parcours s’affiche désormais à gauche de la barre supérieure, en regard du nom du parcours. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#change-properties){target="_blank"}
 
 ## Version de janvier 2024 {#jan-rn-2024}
 
 ### Améliorations {#jan-2024-improvements}
 
-* **Durée des événements de réaction** - La durée maximale que vous pouvez définir dans les **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=fr)
+* **Durée des événements de réaction** - La durée maximale que vous pouvez définir dans les **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=fr){target="_blank"}
 * **Groupes de champs** - Cette version corrige un problème qui empêchait l’enregistrement de groupes de champs dans certains cas.
 * La prise en charge de `<listObject>` a été modifiée dans plusieurs fonctions.
 
@@ -60,17 +59,17 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations {#aug-2023-improvements}
 
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=fr) de Journey Optimizer.
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=fr){target="_blank"} de Journey Optimizer.
 
 ## Version d’avril 2023 {#apr-rn-2023}
 
 ### Améliorations {#april-2023-improvements}
 
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
-* Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration) de Journey Optimizer.
-* De nouveaux mécanismes de sécurisation ont été définis afin de gérer la croissance des expériences fournies par les parcours :
-   * Nous vous recommandons de limiter le nombre de nœuds à 50 ou moins afin d’assurer les performances et de faciliter la lecture, le contrôle qualité et la résolution de problèmes de vos parcours. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys) de Journey Optimizer.
-   * Développez et lancez vos premiers parcours. Dès que la barre des 100 parcours actifs à la fois se profile à l’horizon, nous ne manquerons pas de vous en informer. Si vous prévoyez d’emblée de lancer 100 parcours à la fois, créez un ticket de support après avoir reçu la notification et nous vous aiderons à concrétiser vos projets. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys) de Journey Optimizer.
+* Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration){target="_blank"} de Journey Optimizer.
+* Nouveaux mécanismes de sécurisation pour gérer la croissance des expériences fournies par les parcours :
+   * Nous vous recommandons de limiter le nombre de nœuds à 50 ou moins afin d’assurer les performances et de faciliter la lecture, le contrôle qualité et la résolution de problèmes de vos parcours. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Reportez-vous à la documentation de Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"}
+   * Au fur et à mesure que vous développez et lancez des parcours, nous vous informerons lorsque vous approcherez le jalon de 100 parcours actifs à la fois. Si vos plans nécessitent plus de 100 parcours à la fois, créez un ticket pour obtenir une assistance après avoir reçu la notification et nous vous aiderons. Reportez-vous à la documentation de Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"}
 
 ## Version de mars 2023 {#mar-2023}
 
@@ -79,21 +78,21 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 * La nouvelle **API de limitation** vous permet de limiter le nombre d’événements envoyés par seconde. Vous pouvez ainsi éviter les pics de trafic importants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour toutes vos sandbox. [En savoir plus](../api/throttling.md).
 * Amélioration de la zone de travail Parcours pour offrir une expérience utilisateur plus fluide et épurée. Suppression des espaces réservés vides à la fin de chaque chemin de la zone de travail. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
 * Dans la zone de travail Parcours, la balise **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
-* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=fr#timeout) de Journey Optimizer.
-* Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=fr) de Journey Optimizer.
+* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=fr#timeout){target="_blank"} de Journey Optimizer.
+* Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=fr){target="_blank"} de Journey Optimizer.
 
 ## Version de février 2023 {#feb-2023}
 
 ### Améliorations {#feb-2023-improvements}
 
-* Le champ **Période d’attente de reprise** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#entrance) de Journey Optimizer.
-* Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#dates) de Journey Optimizer.
+* Le champ **Période d’attente de reprise** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#entrance){target="_blank"} de Journey Optimizer.
+* Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#dates){target="_blank"} de Journey Optimizer.
 
 ## Version de janvier 2023 {#jan-2023-release}
 
 ### Améliorations {#jan-2023-improvements}
 
-* Lors de l’ajout d’une **qualification de segment** dans un parcours, l’espace de noms est maintenant prérempli par défaut avec le dernier espace de noms utilisé. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=fr#about-segment-qualification) de Journey Optimizer.
+* Lors de l’ajout d’une **qualification de segment** dans un parcours, l’espace de noms est maintenant prérempli par défaut avec le dernier espace de noms utilisé. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=fr#about-segment-qualification){target="_blank"} de Journey Optimizer.
 * Dans la zone de travail du parcours, un nouveau bouton est disponible dans la barre d’outils. Il permet de télécharger une copie d’écran de votre parcours.
 
 ## Version de septembre 2022{#sept-2022-release}
@@ -120,17 +119,17 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations{#sept-2022-improvements}
 
-* Une nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#events-g) de Journey Optimizer.
+* Une nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#events-g){target="_blank"} de Journey Optimizer.
 
 ### Autres modifications{#sept-2022-other}
 
-* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par une activité de qualification de segment. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#expression-editor) de Journey Optimizer.
+* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par une activité de qualification de segment. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#expression-editor){target="_blank"} de Journey Optimizer.
 
 ### Améliorations
 
-* **Terminaison d’un parcours** : dans la zone de travail du parcours, l’activité **Fin** a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de créer un rapport plus optimal sur le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=fr) de Journey Optimizer.
+* **Terminaison d’un parcours** : dans la zone de travail du parcours, l’activité **Fin** a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de créer un rapport plus optimal sur le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=fr){target="_blank"} de Journey Optimizer.
 
-* L’option **Fuseau horaire du profil** est désormais décochée par défaut dans les propriétés de parcours. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=fr#timezone-from-profiles).
+* L’option **Fuseau horaire du profil** est désormais décochée par défaut dans les propriétés de parcours. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=fr#timezone-from-profiles){target="_blank"}.
 
 ## Version de mai 2022 {#may-2022-release}
 
@@ -155,7 +154,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations
 
-* Les événements d’étape Journey Orchestration peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le champ **profileID**, dans le schéma d’événement d’étape du parcours intégré, est désormais défini comme un champ d’identité. [En savoir plus](../building-journeys/sharing-overview.md#integration-cja)
+* Les événements d’étape Journey Orchestration peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}. Le champ **profileID**, dans le schéma intégré d’événement d’étape du parcours, est désormais défini comme un champ d’identité. [En savoir plus](../building-journeys/sharing-overview.md#integration-cja)
 * La règle de limitation pour les actions Adobe Campaign Standard a été modifiée et passe à 4 000 appels/5 minutes. [En savoir plus](../action/working-with-adobe-campaign.md)
 
 ## Version d’octobre 2021 {#october-2021-release}
