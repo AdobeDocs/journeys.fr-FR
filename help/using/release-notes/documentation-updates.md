@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
-workflow-type: ht
-source-wordcount: '1021'
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
+workflow-type: tm+mt
+source-wordcount: '1003'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,6 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 ## Juillet 2020 {#july-2020}
 
-* Ajout à Adobe Experience Platform d’un lien vers un nouveau tutoriel vidéo sur les rapports des événements d’étape. [En savoir plus](../building-journeys/sharing-overview.md)
 * La section sur les activités des événements a été réorganisée en sous-sections dédiées à chaque type d’événement. [En savoir plus](../building-journeys/event-activities.md)
 * Ajout de bonnes pratiques pour éviter la surcharge avec la qualification de segment. [En savoir plus](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Ajout d’une note expliquant comment faire pour qu’un parcours continue après une erreur dans une action ou une condition. [En savoir plus](../about/troubleshooting.md#section_h3q_kqk_fhb)
