@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 95%
 
 ---
 
 # Activité de condition{#section_e2n_pft_dgb}
+
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>
+>_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte._
+
+
 
 Les types de conditions disponibles sont au nombre de quatre :
 

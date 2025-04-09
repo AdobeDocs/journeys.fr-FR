@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
-workflow-type: ht
-source-wordcount: '923'
-ht-degree: 100%
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 95%
 
 ---
 
 # Création du parcours {#concept_owm_kdy_w2b}
+
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>
+>_Cette documentation fait référence aux matériaux de Journey Orchestration hérités qui ont été remplacés par Journey Optimizer. Veuillez contacter votre équipe de compte si vous avez des questions concernant votre accès à Journey Orchestration ou à Journey Optimizer._
+
 
 L’**utilisateur chargé de la conception de parcours** peut maintenant créer le parcours. Notre parcours comprend les activités suivantes :
 

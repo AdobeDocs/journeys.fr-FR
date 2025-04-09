@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 92%
 
 ---
 
 # Création d’un événement {#section_tbk_5qt_pgb}
+
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>
+>_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte._
+
 
 Les principales étapes nécessaires pour configurer un nouvel événement sont les suivantes :
 

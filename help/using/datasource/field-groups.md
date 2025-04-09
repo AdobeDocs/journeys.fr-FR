@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 64%
 
 ---
 
 # Groupes de champs {#concept_ntl_ypt_52b}
+
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>
+>_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte._
+
 
 Les groupes de champs sont des ensembles de champs que vous pouvez récupérer d’une source de données et utiliser dans un parcours.
 
@@ -31,7 +40,7 @@ Le nombre de parcours qui font appel à un groupe de champs est affiché dans le
 
 >[!NOTE]
 >
->Notez que si un groupe ne contient aucun champ, il ne s’affiche pas dans l’éditeur d’expression.
+>Notez que si un groupe de champs ne comporte aucun champ, il ne s’affichera pas dans l’éditeur d’expression.
 
 ![](../assets/journey3bis.png)
 
@@ -41,12 +50,12 @@ Vous pouvez ajouter des champs à un groupe qui n’est utilisé dans aucun parc
 
 Vous pouvez ajouter un champ à un groupe utilisé dans un ou plusieurs parcours actifs ou dans un état de brouillon, mais pas en supprimer. Cela permet d’éviter l’interruption des parcours.
 
-Pour supprimer un champ d’un groupe utilisé dans un ou plusieurs parcours, procédez comme suit. Prenons l’exemple d’un groupe de champs appelé « Groupe de champs A ».
+Pour supprimer un champ d’un groupe utilisé dans un ou plusieurs parcours, procédez comme suit. Prenons un exemple de groupe de champs nommé « Groupe de champs A ».
 
-1. Dans la liste des groupes de champs, placez le curseur sur « Groupe de champs A » et cliquez ensuite sur l’icône **[!UICONTROL Dupliquer]** située à droite. Appelez le groupe de champs dupliqué « Groupe de champs B », par exemple.
-1. Dans « Groupe de champs B », supprimez les champs dont vous n’avez plus besoin.
-1. Dans « Groupe de champs A », vérifiez à quel emplacement ce groupe de champs est utilisé. Ces informations sont affichées dans le champ **[!UICONTROL Utilisé(e) dans]**.
-1. Ouvrez tous les parcours qui utilisent « Groupe de champs A ».
-1. Créez de nouvelles versions de chacun de ces parcours. Modifiez toutes les activités qui utilisent « Groupe de champs A » et sélectionnez « Groupe de champs B ».
-1. Arrêtez les anciennes versions des parcours qui utilisent « Groupe de champs A ». Normalement, il ne devrait plus y avoir de parcours qui utilisent « Groupe de champs A ».
-1. Supprimez « Groupe de champs A », car il n’est plus utilisé.
+1. Dans la liste des groupes de champs, placez le curseur sur « Groupe de champs A » et cliquez sur l’icône **[!UICONTROL Dupliquer]** située à droite. Nommez le groupe de champs dupliqué « Groupe de champs B », par exemple.
+1. Dans « Groupe de champs B », supprimez les champs que vous ne souhaitez plus.
+1. Dans « Groupe de champs A », vérifiez où ce groupe de champs est utilisé. Ces informations sont affichées dans le champ **[!UICONTROL Utilisé(e) dans]**.
+1. Ouvrez tous les parcours qui utilisent « Groupe de champs A ».
+1. Créez de nouvelles versions de chacun de ces parcours. Modifiez toutes les activités à l’aide de « Groupe de champs A » et sélectionnez « Groupe de champs B ».
+1. Arrêtez les anciennes versions des parcours qui utilisent « Groupe de champs A ». Vous ne devriez alors avoir aucun parcours utilisant « Groupe de champs A ».
+1. Supprimez « Groupe de champs A », car il n’est plus utilisé.

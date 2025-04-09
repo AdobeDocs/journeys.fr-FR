@@ -6,20 +6,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
 # Champs communs des événements journeysteps {#sharing-common-fields}
 
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>
+>_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte._
+
+
 Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
 Il s’agit des champs XDM communs que [!DNL Journey Orchestration] envoie à Adobe Experience Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
 
-Certains de ces champs ne sont disponibles que dans des modèles de traitement spécifiques (exécution d’une action, récupération de données, etc.) pour limiter la taille des événements.
+Certains de ces champs ne sont disponibles que dans des modèles de traitement spécifiques (exécution d’action, récupération de données, etc.) afin de limiter la taille des événements.
 
 ## entrance
 
@@ -47,31 +56,31 @@ Type : booléen
 
 ID de l’événement traité, pour le traitement de l’étape. Si l’événement est externe, la valeur est son eventId. Si l’événement est interne, la valeur est l’eventId interne (tel que scheduledNotificationReceived, executedAction, etc.).
 
-Type : Chaîne
+Type : chaîne
 
 ## nodeID
 
 ID de nœud client (à partir de la zone de travail).
 
-Type : Chaîne
+Type : chaîne
 
 ## stepID
 
 Identifiant unique de l’étape en cours de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## stepName
 
 Nom de l’étape en cours de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## stepType
 
 Type de l’étape.
 
-Type : Chaîne
+Type : chaîne
 
 Valeurs possibles :
 
@@ -84,7 +93,7 @@ Valeurs possibles :
 
 Statut de l’étape, représentant l’état de l’étape, une fois son traitement terminé (et l’événement de l’étape déclenché).
 
-Type : Chaîne
+Type : chaîne
 
 Le statut peut être :
 
@@ -99,7 +108,7 @@ Le statut peut être :
 
 ID du parcours.
 
-Type : Chaîne
+Type : chaîne
 
 ## journeyVersionID
 
@@ -117,43 +126,43 @@ Type : Chaîne
 
 Nom de la version du parcours.
 
-Type : Chaîne
+Type : chaîne
 
 ## instanceID
 
 ID interne de l’instance de parcours.
 
-Type : Chaîne
+Type : chaîne
 
 ## externalKey
 
 Clé externe extraite de l’événement pour le traiter.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentStepID
 
 ID d’étape du parent de l’étape en cours de traitement dans l’instance.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentStepName
 
 Nom de l’étape du parent de l’étape en cours.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentTransitionID
 
 Identifiant de la transition qui a conduit l’instance à l’étape de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentTransitionName
 
 Nom de la transition qui a conduit l’instance à l’étape de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## inTest
 
@@ -171,7 +180,7 @@ Type : long
 
 Indique le type d’instance, s’il s’agit d’un lot ou d’une unité.
 
-Type : Chaîne
+Type : chaîne
 
 Valeurs : batch/unitary
 
@@ -191,13 +200,13 @@ Type : booléen
 
 Clé externe pour un événement batch.
 
-Type : Chaîne
+Type : chaîne
 
 ## batchInstanceID
 
 Il s’agit de l’ID d’instance de lot.
 
-Type : Chaîne
+Type : chaîne
 
 ## batchUnitaryBranchID
 

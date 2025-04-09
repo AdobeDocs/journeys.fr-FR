@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: ht
-source-wordcount: '1590'
-ht-degree: 100%
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+workflow-type: tm+mt
+source-wordcount: '1635'
+ht-degree: 96%
 
 ---
 
 # Test du parcours{#testing_the_journey}
+
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>
+>_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, veuillez contacter votre équipe de compte._
+
 
 Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -23,7 +32,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 Pour utiliser le mode test, procédez comme suit :
 
-1. Avant de tester votre parcours, vérifiez qu&#39;il est valide et qu&#39;il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
+1. Avant de tester votre parcours, vérifiez qu&#39;il est valide et qu&#39;il ne comporte aucune erreur, Vous ne pourrez pas lancer de test d&#39;un parcours comportant des erreurs. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
 
 1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
 
@@ -169,7 +178,7 @@ Pour plus d’informations sur l’utilisation du mode test, consultez [cette pa
 
 ## Affichage des journaux {#viewing_logs}
 
-Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
+Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
 ![](../assets/journeytest3.png)
 
@@ -179,9 +188,9 @@ Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les rés
 
 Le nombre de personnes (ou instances) actuellement dans le parcours s’affiche. Voici des informations utiles qui s’affichent pour chaque personne :
 
-* _Id_ : identifiant interne de l’individu dans le parcours. Il peut être utilisé à des fins de débogage.
+* _ID_ : identifiant interne de la personne dans le parcours. Il peut être utilisé à des fins de débogage.
 * _currentstep_ : étape à laquelle se trouve la personne dans le parcours. Nous vous recommandons d’ajouter des libellés à vos activités afin de les identifier plus facilement.
-* _currentstep_ > phase : statut du parcours de l’individu (en cours, terminé, erreur ou délai dépassé). Plus d’informations ci-dessous.
+* _currentstep_ > phase : statut du parcours de la personne (en cours, terminé, erreur ou expiré). Plus d’informations ci-dessous.
 * _currentstep_ > _extraInfo_ : description de l’erreur et autres informations contextuelles.
 * _currentstep_ > _fetchErrors_ : informations sur les erreurs de récupération de données qui se sont produites au cours de cette étape.
 * _externalKeys_ : valeur de la formule de clé définie dans l’événement.

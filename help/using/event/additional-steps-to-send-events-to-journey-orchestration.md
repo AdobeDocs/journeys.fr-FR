@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: '355'
+ht-degree: 87%
 
 ---
 
 # Étapes supplémentaires pour l’envoi d’événements à [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
+
+
+
+>[!CAUTION]
+>
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>
+>
+>_Cette documentation fait référence aux matériaux de Journey Orchestration hérités qui ont été remplacés par Journey Optimizer. Veuillez contacter votre équipe de compte si vous avez des questions concernant votre accès à Journey Orchestration ou à Journey Optimizer._
+
 
 >[!NOTE]
 >
