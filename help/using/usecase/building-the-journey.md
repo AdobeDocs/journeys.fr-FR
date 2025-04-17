@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour accéder à la documentation de Journey Optimizer.
+>**Vous recherchez Adobe Journey Optimizer** ? Cliquez [ici](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} pour consulter la documentation de Journey Optimizer.
 >
 >
->_Cette documentation fait référence aux matériaux de Journey Orchestration hérités qui ont été remplacés par Journey Optimizer. Veuillez contacter votre équipe de compte si vous avez des questions concernant votre accès à Journey Orchestration ou à Journey Optimizer._
+>_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, contactez votre équipe en charge des comptes._
 
 
 L’**utilisateur chargé de la conception de parcours** peut maintenant créer le parcours. Notre parcours comprend les activités suivantes :
