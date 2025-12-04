@@ -3,11 +3,11 @@ product: adobe campaign
 title: toDuration
 description: En savoir plus sur la fonction toDuration
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 

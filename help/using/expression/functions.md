@@ -3,11 +3,11 @@ product: adobe campaign
 title: Fonctions
 description: En savoir plus sur les fonctions
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 

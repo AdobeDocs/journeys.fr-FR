@@ -3,13 +3,13 @@ product: adobe campaign
 title: random
 description: En savoir plus sur la fonction random
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: c47dc5f0-ea69-4814-863b-e0e483ba7770
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '26'
-ht-degree: 100%
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

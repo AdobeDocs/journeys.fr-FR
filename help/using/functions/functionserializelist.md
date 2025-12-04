@@ -3,13 +3,13 @@ product: adobe campaign
 title: serializeList
 description: En savoir plus sur la fonction serializeList
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
-workflow-type: ht
-source-wordcount: '87'
-ht-degree: 100%
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

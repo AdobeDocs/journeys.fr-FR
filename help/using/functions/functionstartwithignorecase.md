@@ -3,11 +3,11 @@ product: adobe campaign
 title: startWithIgnoreCase
 description: En savoir plus sur la fonction startWithIgnoreCase
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 100%
 

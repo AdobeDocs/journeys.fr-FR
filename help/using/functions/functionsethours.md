@@ -3,12 +3,12 @@ product: adobe campaign
 title: setHours
 description: En savoir plus sur la fonction setHours
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
-workflow-type: ht
-source-wordcount: '104'
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
@@ -51,4 +51,4 @@ Renvoie 2010-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Renvoie demain à 20 h XY, XY représentant le nombre de minutes au moment de lʼévaluation de lʼheure en cours. Si lʼévaluation se produit à 2 h 45, lʼheure renvoyée sera 20 h 45.
+Renvoie demain à 20:XY h, XY représentant le nombre de minutes au moment de lʼévaluation de lʼheure en cours. Si lʼévaluation se produit à 2:45 h, lʼheure renvoyée sera 20:45 h.

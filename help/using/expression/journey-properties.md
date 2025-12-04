@@ -3,11 +3,11 @@ product: adobe campaign
 title: Propriétés du parcours
 description: En savoir plus sur les propriétés d’un parcours
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 

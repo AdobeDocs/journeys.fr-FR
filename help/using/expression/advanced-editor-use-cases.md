@@ -3,11 +3,11 @@ product: adobe campaign
 title: Utilisation de l’éditeur d’expression avancé
 description: Découvrir comment créer des expressions avancées
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, contactez votre équipe en charge des comptes._
 
 
-L’éditeur d’expression avancé sert à créer des conditions pour filtrer les utilisateurs dans vos parcours. Ces conditions permettent de cibler les utilisateurs en fonction de l’heure, de la date, de l’emplacement, de la durée ou des actions, notamment l’achat ou l’abandon de panier pour pouvoir les recibler dans le parcours.
+L’éditeur d’expression avancé sert à créer des conditions pour filtrer les utilisateurs et utilisatrices dans vos parcours. Ces conditions permettent de cibler les utilisateurs en fonction de l’heure, de la date, de l’emplacement, de la durée ou des actions, notamment l’achat ou l’abandon de panier pour pouvoir les recibler dans le parcours.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Tout d’abord, il s’agit de cibler les clients qui ont accédé à la boutiqu
 
 `In ("addToCart", #{field reference from experience event})`-->
 
-**Cette expression recherche tous les événements relatifs à cet utilisateur spécifiés au cours des 7 derniers jours :**
+**Cette expression recherche tous les événements relatifs à cette personne spécifiés au cours des 7 derniers jours :**
 
 Ensuite, il faut sélectionner tous les événements addtocart qui n’ont pas été transformés en completePurchase.
 

@@ -3,11 +3,11 @@ product: adobe campaign
 title: round
 description: En savoir plus sur la fonction round
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 100%
 

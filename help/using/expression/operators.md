@@ -3,13 +3,13 @@ product: adobe campaign
 title: Opérateurs
 description: En savoir plus sur les opérateurs dans les expressions avancées
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

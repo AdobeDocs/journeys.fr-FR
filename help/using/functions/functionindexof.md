@@ -3,11 +3,11 @@ product: adobe campaign
 title: indexOf
 description: En savoir plus sur la fonction indexOf
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 100%
 

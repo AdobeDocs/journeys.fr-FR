@@ -3,11 +3,11 @@ product: adobe campaign
 title: Instruction conditionnelle (if, then, else/si, alors, sinon)
 description: En savoir plus sur l’instruction conditionnelle
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 

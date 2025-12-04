@@ -3,11 +3,11 @@ product: adobe campaign
 title: inSegment
 description: En savoir plus sur la fonction inSegment
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
