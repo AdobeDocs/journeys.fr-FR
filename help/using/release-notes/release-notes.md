@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
+source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+workflow-type: tm+mt
 source-wordcount: '4458'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=fr){target="_blank"} de Journey Optimizer.
 
-## Version d’avril 2023 {#apr-rn-2023}
+## Version d&#39;avril 2023 {#apr-rn-2023}
 
 ### Améliorations {#april-2023-improvements}
 
@@ -75,9 +75,9 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations {#mar-2023-improvements}
 
-* La nouvelle **API de limitation** vous permet de limiter le nombre d’événements envoyés par seconde. Vous pouvez ainsi éviter les pics de trafic importants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour toutes vos sandbox. [En savoir plus](../api/throttling.md).
+* La nouvelle **API de limitation** vous permet de limiter le nombre d’événements envoyés par seconde. Vous pouvez ainsi éviter les pics de trafic importants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour toutes vos sandbox. [En savoir plus](../api/throttling.md)
 * Amélioration de la zone de travail Parcours pour offrir une expérience utilisateur plus fluide et épurée. Suppression des espaces réservés vides à la fin de chaque chemin de la zone de travail. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
-* Dans la zone de travail Parcours, la balise **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
+* Dans la zone de travail Parcours, le libellé de la balise **Fin** n’est plus défini automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
 * Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=fr#timeout){target="_blank"} de Journey Optimizer.
 * Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=fr){target="_blank"} de Journey Optimizer.
 
@@ -85,7 +85,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations {#feb-2023-improvements}
 
-* Le champ **Période d’attente de reprise** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#entrance){target="_blank"} de Journey Optimizer.
+* Le champ **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#entrance){target="_blank"} de Journey Optimizer.
 * Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#dates){target="_blank"} de Journey Optimizer.
 
 ## Version de janvier 2023 {#jan-2023-release}
@@ -103,13 +103,13 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 <table>
 <thead>
 <tr>
-<th><strong>Gouvernance et confidentialité des données</strong><br/></th>
+<th><strong>Gouvernance des données et confidentialité</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Grâce à son cadre de gouvernance DULE (Data Usage Labelling and Enforcement), Journey Orchestration peut désormais tirer parti des politiques de gouvernance d’Adobe Experience Platform pour empêcher l’exportation de champs sensibles vers des systèmes tiers au moyen d’actions personnalisées. Si le système identifie un champ restreint dans les paramètres d’action personnalisée, une erreur s’affiche, vous empêchant de publier le parcours.</p>
+<p>Grâce à son cadre de gouvernance DULE (Data Usage Labelling and Enforcement), Journey Orchestration peut désormais tirer parti des politiques de gouvernance d’Adobe Experience Platform pour empêcher l’export de champs sensibles vers des systèmes tiers au moyen d’actions personnalisées. Si le système identifie un champ restreint dans les paramètres d’action personnalisée, une erreur s’affiche, vous empêchant de publier le parcours.</p>
 <p>L’utilisation de l’outil DULE (Data Usage Labelling and Enforcement) est actuellement limitée à certains clients et sera déployée dans tous les environnements dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html?lang=fr">documentation</a> de Journey Optimizer.
 </td>
@@ -119,7 +119,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations{#sept-2022-improvements}
 
-* Une nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#events-g){target="_blank"} de Journey Optimizer.
+* Une nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#events-g){target="_blank"} de Journey Optimizer.
 
 ### Autres modifications{#sept-2022-other}
 
@@ -154,7 +154,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations
 
-* Les événements d’étape Journey Orchestration peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}. Le champ **profileID**, dans le schéma d’événement d’étape du parcours intégré, est désormais défini comme un champ d’identité. [En savoir plus](../building-journeys/sharing-overview.md#integration-cja)
+* Les événements d’étape Journey Orchestration peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}. Le champ **profileID**, dans le schéma intégré d’événement d’étape du parcours, est désormais défini comme un champ d’identité. [En savoir plus](../building-journeys/sharing-overview.md#integration-cja)
 * La règle de limitation pour les actions Adobe Campaign Standard a été modifiée et passe à 4 000 appels/5 minutes. [En savoir plus](../action/working-with-adobe-campaign.md)
 
 ## Version d’octobre 2021 {#october-2021-release}
@@ -164,7 +164,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 * **Éditeur dʼexpression** : compte tenu de vos compétences techniques, vous pouvez désormais utiliser des fonctions pour travailler avec les cartes. [En savoir plus](../expression/field-references.md)
 * **Accessibilité** : des améliorations d’accessibilité ont été apportées. Journey Orchestration répond désormais entièrement aux exigences en matière d’accessibilité.
 * **Collections** : les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](../usecase/collections.md)
-* **Surveillance** : les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](../building-journeys/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories dans le schéma d’événement d’étape du parcours pour Journey Orchestration. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../building-journeys/sharing-legacy-fields.md).
+* **Surveillance** : les événements d’étape pour les parcours actifs et le mode test ont été améliorés. Des [nouveaux champs](../building-journeys/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’export de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories dans le schéma d’événement d’étape du parcours pour Journey Orchestration. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../building-journeys/sharing-legacy-fields.md).
 
 ## Version de septembre 2021 {#september-2021-release}
 
@@ -248,10 +248,10 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 * Pour les sources de données externes, une règle de limitation de 15 appels par seconde est maintenant définie automatiquement. [En savoir plus](../about/external-systems.md#capping)
 * Les éditeurs d’expression simple et avancés prennent maintenant en charge le format de date XDM.
-* Un nouveau filtre a été ajouté à l’écran de liste de parcours. Vous pouvez maintenant filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification du segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
+* Un nouveau filtre a été ajouté à l’écran de liste de parcours. Vous pouvez maintenant filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification de segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
 * Pour les parcours actifs, l’écran des propriétés du parcours affiche maintenant la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## Version d’avril 2021 {#april-2021-release}
+## Version d&#39;avril 2021 {#april-2021-release}
 
 ### Améliorations
 
@@ -271,7 +271,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 <table>
 <thead>
 <tr>
-<th><strong>Mettre à jour l’activité du profil</strong><br/></th>
+<th><strong>Activité Mettre à jour un profil</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -348,13 +348,13 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles (version bêta)</strong><br/></th>
+<th><strong>Événements basés sur des règles (version Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle méthode est maintenant disponible pour configurer vos événements plus facilement, sans utiliser d’identifiant d’événement eventID : des événements basés sur des règles évaluent si l’événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clientes et clients via le programme Alpha, est maintenant disponible en version bêta pour tout le monde.
+<p>Une nouvelle méthode est maintenant disponible pour configurer vos événements plus facilement, sans utiliser d’identifiant d’événement eventID : des événements basés sur des règles évaluent si l’événement doit être déclenché selon une condition. Vous pouvez toujours utiliser la méthode existante, maintenant appelée « généré par le système ». Cette fonctionnalité, qui a été testée auprès d’un nombre limité de clientes et clients via le programme Alpha, est maintenant disponible en version Beta pour tout le monde.
 </p>
 </td>
 </tr>
@@ -427,7 +427,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 <ul>
 <li><p>Les parcours basés sur des segments affichent maintenant, au-dessus de la zone de travail, un rappel du type de planification du parcours Vous pouvez cliquer sur ce rappel pour accéder au menu de configuration des planifications.</p>
 </li>
-<li><p>La granularité des journaux du mode test a été améliorée pour afficher l’état d’avancement de l’export des segments.</p>
+<li><p>La granularité des logs du mode test a été améliorée pour afficher l’état d’avancement de l’export des segments.</p>
 </li>
 </ul>
 </td>
@@ -575,7 +575,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d’étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
+<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version Beta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
 </ul>
 </td>
@@ -633,7 +633,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 <li>Lorsqu’un parcours utilise plusieurs événements, vous pouvez maintenant les déclencher séparément depuis une liste déroulante dans l’écran <strong>Configuration d’événement</strong> du mode test. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p></li>
 <li><p>Lorsqu’une ou plusieurs activités d’<strong>attente</strong> sont utilisées dans un parcours, vous pouvez maintenant définir la durée de chacune d’entre elles en mode test. La valeur par défaut est de 10 secondes. Vous pouvez la modifier à l’aide du paramètre <strong>Temps d’attente en test</strong>, dans le coin inférieur gauche. <a href="../building-journeys/testing-the-journey.md">En savoir plus</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>En cas d’erreur lors de l’appel d’un système tiers (source de données ou action), le code d’erreur et la réponse d’erreur s’affichent maintenant dans les <strong>journaux de test</strong>. <a href="../building-journeys/testing-the-journey.md#viewing_logs">En savoir plus</a>
+<li>En cas d’erreur lors de l’appel d’un système tiers (source de données ou action), le code d’erreur et la réponse d’erreur s’affichent maintenant dans les <strong>logs de test</strong>. <a href="../building-journeys/testing-the-journey.md#viewing_logs">En savoir plus</a>
 </li>
 </ul>
 </td>
@@ -721,6 +721,6 @@ Journey Orchestration est désormais en version GA.
 
 Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
-Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au client ou à la cliente, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction de scores Sensei et de règles.
+Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au client ou à la cliente, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction des règles et des scores de l’IA.
 
 [En savoir plus](../action/working-with-adobe-campaign.md) sur Journey Orchestration.
