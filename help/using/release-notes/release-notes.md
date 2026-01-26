@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4458'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=fr){target="_blank"} de Journey Optimizer.
 
-## Version d&#39;avril 2023 {#apr-rn-2023}
+## Version d’avril 2023 {#apr-rn-2023}
 
 ### Améliorations {#april-2023-improvements}
 
@@ -251,7 +251,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 * Un nouveau filtre a été ajouté à l’écran de liste de parcours. Vous pouvez maintenant filtrer par type de parcours : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification de segment]**. [En savoir plus](../about/user-interface.md#section_lgm_hpz_pgb)
 * Pour les parcours actifs, l’écran des propriétés du parcours affiche maintenant la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours. Ces informations sont également disponibles lorsque vous copiez les détails techniques du parcours. [En savoir plus](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## Version d&#39;avril 2021 {#april-2021-release}
+## Version d’avril 2021 {#april-2021-release}
 
 ### Améliorations
 
@@ -721,6 +721,6 @@ Journey Orchestration est désormais en version GA.
 
 Créez des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
-Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au client ou à la cliente, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction des règles et des scores de l’IA.
+Journey Orchestration permet une orchestration en temps réel et s’appuie sur les données contextuelles issues d’événements, les informations provenant d’Adobe Experience Platform ou les données issues de services d’API tiers. L’application détermine, dans les flux à plusieurs étapes appelés parcours, les meilleures actions spécifiques au client ou à la cliente, en fonction de son profil et de ses comportements. Elles consistent à conjuguer une synchronisation optimale et un type d’action, comme l’envoi d’une notification push à l’aide des fonctionnalités de messages transactionnels d’Adobe Campaign Standard (nécessite Adobe Campaign Standard), ou d’une notification d’un système tiers. Ces décisions sont prises en fonction de scores IA et de règles.
 
 [En savoir plus](../action/working-with-adobe-campaign.md) sur Journey Orchestration.

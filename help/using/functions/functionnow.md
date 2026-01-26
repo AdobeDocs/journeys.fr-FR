@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '54'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -43,12 +43,12 @@ Renvoie une valeur dateTime.
 
 `now()`
 
-Renvoie 2019-06-03T06:30Z.
+Renvoie 2019-06-03T06:30Z.
 
 `toString(now())`
 
-Renvoie « 2019-06-03T06 :30Z »
+Renvoie « 2019-06-03T06:30Z ».
 
 `now("Europe/Paris")`
 
-Renvoie 2019-06-03T08:30+02:00.
+Renvoie 2019-06-03T08:30+02:00.

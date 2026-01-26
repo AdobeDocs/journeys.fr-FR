@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Agrégation
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* durée
+* duration
 * Entier
 * Décimal
 * dateTime
