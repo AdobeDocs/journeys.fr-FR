@@ -6,9 +6,9 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: ht
-source-wordcount: '100'
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+workflow-type: tm+mt
+source-wordcount: '97'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Conversion
 | date et heure au format ISO-8601 | chaîne |
 | identifiant de fuseau horaire | chaîne |
 | date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
-| valeur entière d’une époque en millisecondes | entier |
+| valeur entière epoch en millisecondes | entier |
 
 >[!NOTE]
 >
@@ -48,7 +48,8 @@ Conversion
 
 Renvoie une valeur **dateTime**.
 
-<!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
+<!--
+`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
 Returns a date time with default time zone UTC.
 
@@ -83,7 +84,8 @@ Renvoie 2016-08-18T23:17:59.123Z
 
 Renvoie 2019-06-17T09:03:10.189Z
 
-<!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
+<!--
+`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
 Returns 2016-08-18T23:17:59.123Z.
 
@@ -93,4 +95,5 @@ Returns 2016-08-18T23:17:59.000Z.
 
 `toDateTime("Z",2016,8,18)`
 
-Returns 2016-08-18T00:00:00.000Z.-->
+Returns 2016-08-18T00:00:00.000Z.
+-->

@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '998'
-ht-degree: 100%
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez également accéder à [!DNL Journey Orchestration] à partir de la 
 
 ![](../assets/journey1bis.png)
 
-## Découverte de l’interface{#section_jsq_zr1_ffb}
+## Découvrir l’interface{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
@@ -58,7 +58,7 @@ Pour accéder aux **[!UICONTROL filtres]**, cliquez sur l’icône en forme de f
 
 Pour filtrer des éléments en fonction de la date de création et de l’utilisateur, utilisez les **[!UICONTROL filtres de création]** contenus dans les listes **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**. Vous pouvez, par exemple, choisir de n’afficher que les événements créés au cours des 30 derniers jours.
 
-Dans la liste des parcours (page **[!UICONTROL Accueil]**), outre les **[!UICONTROL filtres de création]**, vous pouvez également filtrer les parcours affichés en fonction de leur statut, de leur type et de leur version (**[!UICONTROL filtres de statut et de version]**). Le type peut être : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification du segment]**. Vous pouvez aussi choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique (**[!UICONTROL Filtres d’activité]** et **[!UICONTROL Filtres de données]**). Les **[!UICONTROL Filtres de publication]** vous permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Voir [cette page](../building-journeys/using-the-journey-designer.md).
+Dans la liste des parcours (page **[!UICONTROL Accueil]**), outre les **[!UICONTROL filtres de création]**, vous pouvez également filtrer les parcours affichés en fonction de leur statut, de leur type et de leur version (**[!UICONTROL filtres de statut et de version]**). Le type peut être : **[!UICONTROL Événement unitaire]** ou **[!UICONTROL Qualification de segment]**. Vous pouvez aussi choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique (**[!UICONTROL Filtres d’activité]** et **[!UICONTROL Filtres de données]**). Les **[!UICONTROL Filtres de publication]** vous permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, de n’afficher que les dernières versions des parcours actifs publiées hier. Consultez [cette page](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Il est possible d&#39;effectuer des actions de base sur chaque élément des dif
 
 Lors de la définition de la [payload d&#39;événement](../event/defining-the-payload-fields.md), de la [payload du groupe de champs](../datasource/field-groups.md) et de la sélection de champs dans l&#39;[éditeur d&#39;expression](../expression/expressionadvanced.md), le nom d&#39;affichage s&#39;affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d&#39;expérience.
 
-Si des descripteurs tels que « xdm:alternateDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d&#39;affichage. Ceci est particulièrement utile lors de l’utilisation des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux par le biais d’un appel API. Pour plus d&#39;informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=fr).
+Si des descripteurs tels que « xdm :alternateDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d’affichage. Cela est particulièrement utile lorsque vous utilisez des « eVars » et des champs génériques.Vous pouvez configurer des descripteurs de noms conviviaux via un appel API. Pour plus d&#39;informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=fr).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -185,7 +185,8 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
     <td>Affichage des journaux de test</td>
     <td>L</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+//Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

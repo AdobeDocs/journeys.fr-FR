@@ -6,9 +6,9 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+workflow-type: tm+mt
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -39,15 +39,17 @@ Les événements d’expérience sont récupérés depuis Adobe Experience Platf
 * La fonction first renvoie l’événement le plus récent.
 * La fonction last renvoie l’événement le plus ancien.
 
-Par exemple, supposons que vous vouliez cibler des clients ayant abandonné leur panier au cours des 7 derniers jours et envoyer un message lorsqu’un client se trouve à proximité d’un magasin, avec une offre sur les articles qu’il souhaitait et qui se trouvent en magasin. 
+Par exemple, supposons que vous vouliez cibler des clients ayant abandonné leur panier au cours des 7 derniers jours et envoyer un message lorsqu’un client se trouve à proximité d’un magasin, avec une offre sur les articles qu’il souhaitait et qui se trouvent en magasin.
 
 **Vous devez créer les conditions suivantes :**
 
 Tout d’abord, il s’agit de cibler les clients qui ont accédé à la boutique en ligne, mais n’ont pas finalisé la commande au cours des 7 derniers jours.
 
-<!--**This expression looks for a specified value in a string value:**
+<!--
+**This expression looks for a specified value in a string value:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
+-->
 
 **Cette expression recherche tous les événements relatifs à cette personne spécifiés au cours des 7 derniers jours :**
 
@@ -55,7 +57,7 @@ Ensuite, il faut sélectionner tous les événements addtocart qui n’ont pas �
 
 >[!NOTE]
 >
->Pour insérer rapidement un champ dans l’expression, double-cliquez dessus dans le panneau de gauche de l’éditeur. 
+>Pour insérer rapidement un champ dans l’expression, double-cliquez dessus dans le panneau de gauche de l’éditeur.
 
 L’horodatage spécifié tient lieu de valeur de date et d’heure, la deuxième valeur correspond au nombre de jours.
 

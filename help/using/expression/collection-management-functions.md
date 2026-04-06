@@ -6,10 +6,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 91%
 
 ---
 
@@ -73,7 +73,7 @@ Dans une activité Condition de source de données, vous pouvez vérifier si le 
 
 **Exemple 1 :**
 
-Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément. 
+Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous obtenons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -91,7 +91,8 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 Le résultat sera true.
 
-<!--Alternatively, you can check if there is no token in the collection:
+<!--
+Alternatively, you can check if there is no token in the collection:
 
    ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
@@ -112,7 +113,8 @@ Note that when the condition in the **all()** function is empty, the filter will
 In both cases, the result of the expression is **3**.
 
 A query of experience events recorded on the Adobe Experience Platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the Adobe Experience Platform. For example, when using the .all() syntax to query experience events from the Adobe Experience Platform, we recommend enforcing the exclusion of the current event (by requiring an
-earlier timestamp) in order to only consider prior events.-->
+earlier timestamp) in order to only consider prior events.
+-->
 
 >[!NOTE]
 >
@@ -139,7 +141,7 @@ Le résultat sera true si aucun événement d’expérience ne correspond aux de
 
 **Exemple 4 :**
 
-Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel. 
+Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel.
 
 ```json
 count(
@@ -149,7 +151,8 @@ count(
 )._id}) > 0
 ```
 
-<!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
+<!--
+**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
@@ -163,13 +166,13 @@ Alternatively, you can check if there is NO token in the collection:
 
 The result will be:
 
-`false`-->
+`false`
+-->
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements et **currentDataPackField**,
->lors de la manipulation de collections de sources de données. Lors du traitement de collections avec les fonctions **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous
->les exécutons en boucle sur chaque élément de la collection. **[!UICONTROL currentEventField]** et **currentDataPackField**
+>**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation des collections d’événements et **currentDataPackField**
+>lors de la manipulation de collections de sources de données. Lors du traitement de collections avec les fonctions **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous>les exécutons en boucle sur chaque élément de la collection. **[!UICONTROL currentEventField]** et **currentDataPackField**
 >correspondent à l’élément exécuté en boucle.
 
 **Les fonctions « first(`<condition>`) » et « last(`<condition>`) »**
@@ -182,7 +185,7 @@ _`<listExpression>.last(<condition>)`_
 
 **Exemple 1 :**
 
-Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
@@ -192,7 +195,7 @@ Le résultat est « token_1 ».
 
 **Exemple 2 :**
 
-Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0.
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}

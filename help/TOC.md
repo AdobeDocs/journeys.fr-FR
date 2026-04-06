@@ -5,10 +5,10 @@ title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Journeys
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 90%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 100%
 + Prise en main de [!DNL Journey Orchestration] {#starting-with-journeys}
    + [À propos d’ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limites](using/about/limitations.md)
-   + [Prise en main](using/about/get-started.md)
-   + [Interface utilisateur](using/about/user-interface.md)
+   + [Commencer](using/about/get-started.md)
+   + [Interface d’utilisation](using/about/user-interface.md)
    + [Gestion des accès](using/about/access-management.md)
    + [Dépannage](using/about/troubleshooting.md)
    + [Intégration de systèmes externes](using/about/external-systems.md)
@@ -32,14 +32,14 @@ ht-degree: 100%
    + À propos des événements {#about-events}
       + [Principe général](using/event/about-events.md)
       + [Cycle des données](using/event/about-data-cycle.md)
-      + [Créer un événement       ](using/event/about-creating.md)
+      + [Créer un événement](using/event/about-creating.md)
       + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
       + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
-      + [Étapes supplémentaires pour l&#39;envoi d&#39;événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Définition des champs de payload](using/event/defining-the-payload-fields.md)
    + [Sélection de l’espace de noms](using/event/selecting-the-namespace.md)
    + [Définition de la clé d’événement](using/event/defining-the-event-key.md)
-   + [Aperçu de la payload](using/event/previewing-the-payload.md)
+   + [Prévisualisation du payload](using/event/previewing-the-payload.md)
 + Configuration d’une source de données {#data-source-journeys}
    + [À propos des sources de données](using/datasource/about-data-sources.md)
    + [Groupes de champs](using/datasource/field-groups.md)
@@ -76,8 +76,8 @@ ht-degree: 100%
          + [À propos des activités d’orchestration](using/building-journeys/about-orchestration-activities.md)
          + [Activité de condition](using/building-journeys/condition-activity.md)
          + [Activité de fin](using/building-journeys/end-activity.md)
-         + [Activité d&#39;attente](using/building-journeys/wait-activity.md)
-      + Activités d&#39;action {#action-activities}
+         + [Activité Attente](using/building-journeys/wait-activity.md)
+      + Activités d’action {#action-activities}
          + [À propos des activités d’action](using/building-journeys/about-action-activities.md)
          + [Utilisation d’Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
          + [Utilisation d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
@@ -86,10 +86,10 @@ ht-degree: 100%
          + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
    + [Test du parcours](using/building-journeys/testing-the-journey.md)
    + [Publication du parcours](using/building-journeys/publishing-the-journey.md)
-   + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
+   + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
       + [Présentation du partage des étapes du parcours](using/building-journeys/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/building-journeys/sharing-field-list.md)
-      + Champs d’événement d’étape anciens {#legacy-step-event-fields}
+      + Champs d’événement d’étape hérités {#legacy-step-event-fields}
          + [À propos des champs anciens](using/building-journeys/sharing-legacy-fields.md)
          + [Champs communs des événements journeySteps](using/building-journeys/sharing-common-fields.md)
          + [Champs d’exécution d’action des événements journeyStep](using/building-journeys/sharing-execution-fields.md)
@@ -97,8 +97,8 @@ ht-degree: 100%
          + [Champs d’identité des événements journeyStep](using/building-journeys/sharing-identity-fields.md)
          + [Champs du parcours](using/building-journeys/sharing-journey-fields.md)
       + [Exemples de requêtes](using/building-journeys/query-examples.md)
-+ Création d’expressions {#building-advanced-conditions-journeys}
-   + [Présentation](using/expression/expressionadvanced.md)
++ Créer des expressions {#building-advanced-conditions-journeys}
+   + [Vue d’ensemble](using/expression/expressionadvanced.md)
    + Syntaxe {#syntax}
       + [Généralités](using/expression/generalities.md)
       + [Instruction conditionnelle](using/expression/conditional-instruction.md)
@@ -146,14 +146,14 @@ ht-degree: 100%
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
          + [updateTimeZone](using/functions/functionupdatetimezone.md)
-      + Liste {#list}
+      + Liste {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
          + [intersect](using/functions/functionintersect.md)
-         + [limite](using/functions/functionlimit.md)
+         + [limit](using/functions/functionlimit.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -188,16 +188,16 @@ ht-degree: 100%
    + [À propos des rapports de parcours](using/reporting/about-journey-reports.md)
    + [Création de rapports de parcours](using/reporting/creating-your-journey-reports.md)
    + [Mesures et dimensions](using/reporting/metrics-and-dimensions.md)
-+ Intégration des Services intelligents{#use-case-advanced}
++ Intégration des services intelligents{#use-case-advanced}
    + [À propos de l’intégration de l’IA](using/ai-services/ai-services-overview.md)
    + [Utilisation de l’IA dédiée aux clients](using/ai-services/leveraging-customer-ai.md)
-+ Cas d&#39;utilisation{#use-cases-journeys}
++ Cas d’utilisation{#use-cases-journeys}
    + Envoyer un e-mail personnalisé{#use-case-simple}
       + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
       + [Configuration de l’événement](using/usecase/configuring-the-event.md)
       + [Configuration de la source de données](using/usecase/configuring-the-data-source.md)
       + [Créer le parcours](using/usecase/simple-uc-building-the-journey.md)
-   + Créer un parcours cross-canal{#use-case-advanced}
+   + Création d’un parcours cross-canal{#use-case-advanced}
       + [À propos du cas d’utilisation avancé](using/usecase/about-the-advanced-use-case.md)
       + [Configuration des événements](using/usecase/configuring-the-events.md)
       + [Configuration des sources de données](using/usecase/configuring-the-data-sources.md)

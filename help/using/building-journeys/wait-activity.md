@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Activité d'attente
+title: Activité Attente
 description: En savoir plus sur l'activité d'attente
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 99%
 
 ---
 
-# Activité d&#39;attente{#section_rlm_nft_dgb}
+# Activité Attente{#section_rlm_nft_dgb}
 
 
 >[!CAUTION]
@@ -28,7 +28,7 @@ ht-degree: 100%
 Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :
 
 * [Durée](#duration)
-* [Valeur](#custom) personnalisée
+* [Personnalisé](#custom)
   <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## À propos de l&#39;activité d&#39;attente{#about_wait}
@@ -43,7 +43,7 @@ Notez également que si deux attentes différentes s&#39;exécutent en parallèl
 >
 >En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
 
-## Durée de l&#39;attente{#duration}
+## Durée de l’attente{#duration}
 
 Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante.
 
@@ -57,11 +57,12 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 >
 >Vous pouvez tirer parti d&#39;une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Event.offerOpened.activity.endTime}), le champ de l’événement se présentant sous la forme 2016-08-12T09:46:06Z.
 >
->La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n&#39;est pas possible actuellement de pointer directement, à partir de l&#39;interface, vers un horodatage ISO-8601 complet associant l&#39;heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
+>La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n&#39;est pas possible actuellement de pointer directement, à partir de l&#39;interface, vers un horodatage ISO-8601 complet associant l&#39;heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Consultez [cette page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
-<!--## Email send time optimization{#email_send_time_optimization}
+<!--
+## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
@@ -83,4 +84,5 @@ This type of wait uses a score calculated in the Adobe Experience Platform. The 
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](../assets/journey57bis.png)
+-->
