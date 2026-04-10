@@ -6,12 +6,11 @@ feature: Journeys
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 100%
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -101,23 +100,23 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 * Ajout d’informations concernant la modification de la durée de mise en cache du jeton pour une source de données d’authentification personnalisée. [En savoir plus](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Mise à jour des captures d’écran et du texte pour prendre en compte le changement de nom de l’état de parcours **[!UICONTROL Terminé]** en **[!UICONTROL Fermé (aucune entrée)]**.
 * Ajout d’informations concernant la définition de la langue pour l’interface. [En savoir plus](../about/user-interface.md)
-* Déplacement de la liste des statuts du parcours d’un individu vers la section [Journaux du mode test](../building-journeys/testing-the-journey.md#viewing_logs).
+* Déplacement de la liste des statuts du parcours d’un individu vers la section [Logs du mode test](../building-journeys/testing-the-journey.md#viewing_logs).
 
 ## Avril 2020 {#april-2020}
 
-* Ajout d’une nouvelle section concernant la définition du schéma des événements d’expérience pour aider les utilisateurs à configurer leur premier événement. [En savoir plus](../event/experience-event-schema.md)
+* Ajout d’une nouvelle section concernant la définition du schéma des événements d’expérience pour aider les utilisateurs et utilisatrices à configurer leur premier événement. [En savoir plus](../event/experience-event-schema.md)
 * Mise à jour de la page d’accueil de la documentation [!DNL Journey Orchestration] avec des liens utiles supplémentaires. [En savoir plus](../../journey-orchestration-home.md)
 
 ## Mars 2020 {#march-2020}
 
-* Ajout de descriptions de paramètre pour _actionExecutionErrors_ et _fetchErrors_ dans la section des journaux de test. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
+* Ajout de descriptions de paramètre pour _actionExecutionErrors_ et _fetchErrors_ dans la section des logs de test. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
 * Les limites des actions personnalisées utilisées dans un parcours ont été mises à jour. Vous pouvez également modifier le champ **[!UICONTROL URL]** et les paramètres d’**[!UICONTROL authentification]**. [En savoir plus](../action/about-custom-action-configuration.md)
 * De nouvelles entrées d’aide contextuelle ont été ajoutées. Le volet relatif à la payload de l’authentification personnalisée (dans les actions et les sources de données) comprend maintenant une icône d’aide qui pointe vers cette [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Il est maintenant possible d’arrêter les parcours fermés. [En savoir plus](../building-journeys/using-the-journey-designer.md)
 * La section de description de l’interface a été réorganisée. [En savoir plus](../about/user-interface.md)
 * Des informations sur le déclenchement de plusieurs événements ont été ajoutées à la section sur le mode test [En savoir plus](../building-journeys/testing-the-journey.md#firing_events)
 * La section sur le mode test a été mise à jour avec des informations concernant le nouveau paramètre **[!UICONTROL Temps d’attente en test]**. [En savoir plus](../building-journeys/testing-the-journey.md)
-* La section sur les journaux de test a été mise à jour avec des informations sur les codes d’erreur et les réponses des appels externes. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
+* La section sur les logs de test a été mise à jour avec des informations sur les codes d’erreur et les réponses des appels externes. [En savoir plus](../building-journeys/testing-the-journey.md#viewing_logs)
 * La gestion des fuseaux horaires est maintenant centralisée dans le panneau des propriétés du parcours. En savoir plus [ici](../building-journeys/changing-properties.md#timezone) et [ici](../building-journeys/timezone-management.md)
 * La section Concepteur de parcours a été mise à jour pour prendre en compte les améliorations récentes. [En savoir plus](../building-journeys/using-the-journey-designer.md)
 * La description de l’interface a été mise à jour avec des informations sur l’aide contextuelle. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
@@ -137,7 +136,7 @@ Vous pouvez également consulter les [notes de mise à jour](../release-notes/re
 
 * Toutes les captures d’écran ont été mises à jour afin de prendre en compte les modifications de l’interface.
 * La section du mode test a été mise à jour. [En savoir plus](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=fr).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Il est maintenant possible de supprimer les parcours arrêtés. Les pages de documentation connexes ont été mises à jour.
 * Deux couleurs s’affichent maintenant lorsque des problèmes sont détectés dans un parcours. Rouge pour les erreurs et orange pour les avertissements. [En savoir plus](../about/troubleshooting.md)
 * La section de l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../expression/expressionadvanced.md).
