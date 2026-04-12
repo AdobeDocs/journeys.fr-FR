@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '329'
+workflow-type: tm+mt
+source-wordcount: '343'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Les actions sont des connexions par le biais desquelles vous proposez des expér
 
 Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec une payload au format JSON.
 
-Les actions apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. Voir [cette page](../building-journeys/about-action-activities.md).
+Les actions apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. Consultez [cette page](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >

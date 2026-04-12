@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '1389'
+workflow-type: tm+mt
+source-wordcount: '1429'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Pour le jeu de paramètres « long/lat », nous créons un groupe de champs av
 * **[!UICONTROL Utilisé dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour afficher la liste des parcours utilisant ce groupe de champs.
 * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous sélectionnons la méthode GET.
 * **[!UICONTROL Payload de réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple du payload renvoyé par l’appel. Dans notre exemple, nous avons utilisé un payload trouvé sur un site web d’API météorologique. Vérifiez que les types de champ sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller un nouveau payload]** si vous souhaitez modifier le payload actuellement transmis.
-* **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres séparés par une virgule, « long,lat » dans notre exemple. Les valeurs des paramètres dépendant du contexte d’exécution, elles seront définies dans les parcours. Voir [cette page](../expression/expressionadvanced.md).
+* **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres séparés par une virgule, « long,lat » dans notre exemple. Les valeurs des paramètres dépendant du contexte d’exécution, elles seront définies dans les parcours. Consultez [cette page](../expression/expressionadvanced.md).
 * **[!UICONTROL Payload envoyé]** : ce champ n’apparaît pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez le payload qui sera envoyé au système tiers.
 
 Dans le cas d’une méthode GET nécessitant un ou plusieurs paramètres, vous saisissez le ou les paramètres dans le champ **[!UICONTROL Valeurs dynamiques]** et ils sont automatiquement ajoutés à la fin de l’appel. Dans le cas d’un appel POST, vous devez procéder comme suit :
@@ -97,7 +97,7 @@ Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La source de données est maintenant configurée et prête à être utilisée dans vos parcours, par exemple dans vos conditions ou pour personnaliser un e-mail. Si la température est supérieure à 30 °C, vous pouvez choisir d’envoyer une communication spécifique.
 
-## Mode d’authentification personnalisé {#section_wjp_nl5_nhb}
+## Mode d’authentification personnalisé{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
@@ -140,7 +140,7 @@ La définition de la méthode d’injection du jeton d’accès dans la requête
 
 * tokenInResponse : indique comment extraire le jeton d’accès de l’appel d’authentification. Cette propriété peut être l’un des éléments suivants :
    * &#39;response&#39; : indique que la réponse HTTP est le jeton d’accès ;
-   * un sélecteur dans un fichier JSON (en supposant que la réponse soit un fichier JSON, nous ne prenons pas en charge d’autres formats, tels que XML). Le format de ce sélecteur est _json://&lt;path to the access token property>_. Par exemple, si la réponse de l’appel est : _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse sera : _json: //access_token_.
+   * un sélecteur dans un fichier JSON (en supposant que la réponse soit un fichier JSON, nous ne prenons pas en charge d’autres formats, tels que XML). Le format de ce sélecteur est _json://&lt;path to the access token property>_. Par exemple, si la réponse de l’appel est : _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse sera :_ json: //access_token_.
 
 Le format de cette authentification est le suivant :
 
