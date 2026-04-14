@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: ht
-source-wordcount: '607'
+source-wordcount: '614'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,9 @@ Si vous utilisez des caractères spéciaux dans un champ, vous devez avoir recou
 
 * Le champ commence par des caractères numériques.
 * Le champ commence par le caractère « - ».
-* Le champ contient d’autres caractères que : _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
+* Le champ contient d’autres caractères que : _a_-_z_, _A_-_Z_, _0_-_9_, _,_-_
 
-Par exemple, si votre champ est _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Par exemple, si votre champ est _3h_ : _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -63,7 +63,7 @@ Il est possible d’associer une valeur par défaut à un nom de champ. La synta
 
 >[!NOTE]
 >
->Le type du champ et la valeur par défaut doivent être identiques. Par exemple, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ne sera pas valide, car la valeur par défaut est un entier alors que la valeur attendue doit être une chaîne.
+>Le type du champ et la valeur par défaut doivent être identiques.Par exemple, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ne sera pas valide, car la valeur par défaut est un entier alors que la valeur attendue doit être une chaîne.
 
 Exemples :
 
@@ -128,7 +128,7 @@ Dans cette expression, nous obtenons l’entrée correspondant à la clé « E-
 
 ### Fonction `firstEntryKey`
 
-Pour récupérer la première clé d’entrée d’un mappage, utilisez la fonction `firstEntryKey`. 
+Pour récupérer la première clé d’entrée d’un mappage, utilisez la fonction `firstEntryKey`.
 
 Cet exemple montre comment récupérer la première adresse e-mail des abonnés d’une liste spécifique :
 
@@ -136,11 +136,11 @@ Cet exemple montre comment récupérer la première adresse e-mail des abonnés 
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements. 
+Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements.
 
 ### Fonction `keys`
 
-Pour récupérer toutes les clés d’un mapping, utilisez la fonction `keys`. 
+Pour récupérer toutes les clés d’un mapping, utilisez la fonction `keys`.
 
 Cet exemple montre comment récupérer, pour un profil spécifique, toutes les adresses e-mail associées aux abonnés d’une liste spécifique :
 
@@ -156,7 +156,7 @@ Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les param
 
 >[!NOTE]
 >
->Lorsque vous définissez les valeurs de paramètre dans l’expression, l’onglet de droite disparaît. 
+>Lorsque vous définissez les valeurs de paramètre dans l’expression, l’onglet de droite disparaît.
 
 Utilisez la syntaxe suivante :
 

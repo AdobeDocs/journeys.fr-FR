@@ -9,7 +9,7 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: ht
-source-wordcount: '206'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 En savoir plus sur Journey Orchestration.
 
 * **[Créer votre premier parcours](using/about/get-started.md)**<br/>
-Découvrez les principales étapes de configuration de Journey Orchestration et créez votre premier parcours.
+Découvrez les étapes principales pour configurer Journey Orchestration et créer votre premier parcours.
 
 * **[Configurer un événement](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
 Découvrez comment configurer les événements qui seront écoutés dans vos parcours.
@@ -82,6 +82,6 @@ Découvrez les détails des dernières versions.
 * [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
 * [Définition de champs XDM Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr)
 * [Documentation sur le service Espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr)
-* [API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr)
+* [API d’ingestion en streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr)
 * [Documentation sur la messagerie transactionnelle de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr)
 

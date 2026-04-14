@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Dans une activité Condition de source de données, vous pouvez vérifier si le 
 
 **Exemple 1 :**
 
-Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous obtenons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
+Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est 1.0.Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -171,7 +171,7 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation des collections d’événements et **currentDataPackField**
+>**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements et **currentDataPackField**
 >lors de la manipulation de collections de sources de données. Lors du traitement de collections avec les fonctions **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous>les exécutons en boucle sur chaque élément de la collection. **[!UICONTROL currentEventField]** et **currentDataPackField**
 >correspondent à l’élément exécuté en boucle.
 
