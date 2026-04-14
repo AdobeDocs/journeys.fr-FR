@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 89%
          + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
    + [Test du parcours](using/building-journeys/testing-the-journey.md)
    + [Publication du parcours](using/building-journeys/publishing-the-journey.md)
-   + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
+   + Partage d’étapes de parcours avec Adobe Experience Platform {#sharing-journey-steps}
       + [Présentation du partage des étapes du parcours](using/building-journeys/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/building-journeys/sharing-field-list.md)
       + Champs d’événement d’étape hérités {#legacy-step-event-fields}
@@ -188,11 +188,11 @@ ht-degree: 89%
    + [À propos des rapports de parcours](using/reporting/about-journey-reports.md)
    + [Création de rapports de parcours](using/reporting/creating-your-journey-reports.md)
    + [Mesures et dimensions](using/reporting/metrics-and-dimensions.md)
-+ Intégration des services intelligents{#use-case-advanced}
++ Intégration aux services intelligents{#use-case-advanced}
    + [À propos de l’intégration de l’IA](using/ai-services/ai-services-overview.md)
    + [Utilisation de l’IA dédiée aux clients](using/ai-services/leveraging-customer-ai.md)
 + Cas d’utilisation{#use-cases-journeys}
-   + Envoyer un e-mail personnalisé{#use-case-simple}
+   + Envoi d’un e-mail personnalisé{#use-case-simple}
       + [À propos du cas d’utilisation simple](using/usecase/about-the-simple-use-case.md)
       + [Configuration de l’événement](using/usecase/configuring-the-event.md)
       + [Configuration de la source de données](using/usecase/configuring-the-data-source.md)
