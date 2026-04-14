@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '836'
+source-wordcount: '923'
 ht-degree: 100%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 ## À propos des API de plafonnement et de limitation
 
-Lors de la configuration d’une source de données ou d’une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires à utiliser dans vos parcours ou pour envoyer des messages ou des appels API.
+En configurant une source de données ou une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires pour enrichir vos parcours, les messages que vous envoyez ou les appels API.
 
-Les API de Journeys prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes externes ou API peuvent ne pas avoir un débit équivalent. Pour éviter de surcharger ces systèmes, vous pouvez utiliser les API de **Plafonnement** et de **Limitation** pour limiter le nombre d’événements envoyés par seconde.
+Les API de Journeys prennent en charge jusqu’à 5000 événements par seconde, mais certains systèmes externes ou API peuvent ne pas avoir un débit équivalent. Pour éviter de surcharger ces systèmes, vous pouvez utiliser les API de **Plafonnement** et de **Limitation** pour limiter le nombre d’événements envoyés par seconde.
 
-Chaque fois qu’un appel API est réalisé par Journeys, le moteur d’API est sollicité. Si la limite définie dans l’API est atteinte, deux scénarios peuvent se présenter selon l’API utilisée : avec l’API de plafonnement, l’appel est rejeté. Si vous utilisez l’API de limitation, l’appel est mis en file d’attente pendant 6 heures au maximum et traité dès que possible, dans l’ordre où il a été reçu.
+Chaque fois qu’un appel API est réalisé par les parcours, le moteur d’API est sollicité. Si la limite définie dans l’API est atteinte, deux scénarios peuvent se présenter selon l’API utilisée : avec l’API de plafonnement, l’appel est rejeté. Si vous utilisez l’API de limitation, l’appel est mis en file d’attente pendant 6 heures au maximum et traité dès que possible, dans l’ordre où il a été reçu.
 
 Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et rejette ou met en file d’attente les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
 
@@ -56,11 +56,11 @@ Pour les **sources de données externes**, le nombre maximal d’appels par seco
 >
 >Si une source de données utilise une authentification personnalisée avec un point d’entrée différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point d’entrée dans la liste autorisée.
 
-Pour les **actions personnalisées**, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une configuration de plafonnement ou de limitation afin que votre système ne sature pas. [Découvrez comment configurer des actions](../action/action.md).
+Pour les **actions personnalisées**, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une configuration de plafonnement ou de limitation afin que votre système ne sature pas. [Découvrir comment configurer des actions](../action/action.md)
 
 ## Configuration de l&#39;accès aux API {#api}
 
-Pour utiliser ces API avec votre instance [!DNL Journey Orchestration], vous devez utiliser la console Adobe I/O. La configuration de l’accès aux API [!DNL Journey Orchestration] est effectuée comme suit. Chacune de ces étapes est détaillée dans la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Pour utiliser ces API avec votre instance [!DNL Journey Orchestration], vous devez utiliser la console Adobe I/O. [!DNL Journey Orchestration] La configuration de l’accès aux API est effectuée comme suit.Chacune de ces étapes est détaillée dans la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
@@ -73,10 +73,7 @@ Pour utiliser ces API avec votre instance [!DNL Journey Orchestration], vous dev
 >
 >La méthode JWT de génération des jetons d’accès a été abandonnée. Toutes les nouvelles intégrations doivent être créées à l’aide de la [méthode d’authentification OAuth de serveur à serveur](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr#select-oauth-server-to-server). Adobe vous recommande également de migrer vos intégrations existantes vers la méthode OAuth.
 >
->Consultez attentivement les documents suivants :
->[Guide de migration de vos applications de JWT vers OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
->[Guide de mise en œuvre pour les nouvelles et les anciennes applications avec OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
->[Avantages de l’utilisation de la méthode d’identification OAuth de serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials).
+>Consultez attentivement les documents suivants :>[Guide de migration de vos applications de JWT vers OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),>[Guide de mise en œuvre pour les nouvelles et les anciennes applications avec OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),>[Avantages de l’utilisation de la méthode d’identification OAuth de serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials).
 
 Pour établir une session d’API Adobe I/O de service à service sécurisée, chaque requête adressée à un service Adobe doit inclure les informations ci-dessous dans l’en-tête d’autorisation.
 
@@ -87,7 +84,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZATION>** : il s’agit de votre ORGANIZATION ID personnel, fourni par Adobe pour chacune de vos instances. Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)).
+* **&lt;ORGANIZATION>** : il s’agit de votre ORGANIZATION ID personnel, fourni par Adobe pour chacune de vos instances. Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre administratrice ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la [documentation Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)).
 
 * **&lt;ACCESS_TOKEN>** : votre jeton d’accès personnel.
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '627'
+source-wordcount: '635'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 >_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, contactez votre équipe en charge des comptes._
 
 
-Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
+Ce mixin sera partagé par les éléments journeyStepEvent et journeyStepProfileEvent.
 
 Il s’agit des champs XDM communs que [!DNL Journey Orchestration] envoie à Adobe Experience Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
 
@@ -38,7 +38,7 @@ Type : booléen
 
 Valeurs : Vrai/Faux
 
-## reentrance
+## rentrée
 
 Indique si l’utilisateur est entré de nouveau dans le parcours avec la même instance. S’il n’est pas présent, nous supposons que la valeur est false.
 
@@ -101,7 +101,7 @@ Le statut peut être :
 * erreur : le traitement de l’étape a généré une erreur.
 * transitions : l’étape attend qu’un événement effectue une transition vers une autre étape.
 * limitée : l’étape a échoué avec une erreur de limitation survenue pendant une action ou un enrichissement.
-* dépassement de délai : l’étape a échoué avec une erreur de dépassement de délai survenue pendant une action ou un enrichissement.
+* temporisation : l’étape a échoué avec une erreur de temporisation survenue pendant une action ou un enrichissement.
 * instanceTimedout : l’étape a arrêté son traitement, car l’instance a atteint son délai d’expiration.
 
 ## journeyID
@@ -186,7 +186,7 @@ Valeurs : batch/unitary
 
 ## recurrenceIndex
 
-Indice de la récurrence si le parcours est &quot;batch&quot; et récurrent (pour la première exécution, recurrenceIndex = 1).
+Indice de la récurrence si le parcours est « batch » et récurrent (pour la première exécution, recurrenceIndex = 1).
 
 Type : long
 
@@ -212,4 +212,4 @@ Type : chaîne
 
 si l’instance a été déclenchée à partir d’une instance de lot, ID de branche unitaire.
 
-Type : Chaîne
+Type : chaîne

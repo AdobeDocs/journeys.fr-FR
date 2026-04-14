@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '1508'
+source-wordcount: '1526'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Pour accéder aux **[!UICONTROL filtres]**, cliquez sur l’icône en forme de f
 
 ![](../assets/journey74.png)
 
-Toutes les versions de vos parcours apparaissent dans la liste, accompagnées d’un numéro. Voir [cette page](../building-journeys/journey-versions.md).
+Toutes les versions de vos parcours apparaissent dans la liste, accompagnées d’un numéro. Consultez [cette page](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -56,7 +56,7 @@ L&#39;icône **[!UICONTROL Filtrer les éléments]** dans le coin supérieur gau
 
 * **Afficher uniquement les éléments disponibles** : masquez ou affichez les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, ils apparaîtront grisés.
 
-* **Afficher uniquement les éléments récents** : ce filtre vous permet d&#39;afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d&#39;usine. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments s&#39;affichent.
+* **Afficher uniquement les éléments récents** : ce filtre vous permet d&#39;afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d&#39;usine. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments s’affichent.
 
 ![](../assets/palette-filter.png)
 
@@ -80,7 +80,7 @@ Par défaut, les champs en lecture seule sont masqués. Pour afficher les champs
 
 ## Actions de la barre supérieure {#top_actions}
 
-Selon le statut du parcours, vous pouvez effectuer différentes actions à l&#39;aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s&#39;affichent lorsqu&#39;aucune activité n&#39;est sélectionnée. Certains boutons s&#39;affichent en fonction du contexte. Ainsi, le bouton de journal du mode test s’affiche lorsque le mode test est activé (voir [cette page](../building-journeys/testing-the-journey.md)). Le bouton de reporting s’affiche dans le cas d’un parcours actif, arrêté ou fermé.
+Selon le statut du parcours, vous pouvez effectuer différentes actions à l&#39;aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s&#39;affichent lorsqu&#39;aucune activité n&#39;est sélectionnée. Certains boutons s&#39;affichent en fonction du contexte. Ainsi, le bouton de log du mode test s’affiche lorsque le mode test est activé (voir [cette page](../building-journeys/testing-the-journey.md)). Le bouton de reporting s’affiche dans le cas d’un parcours actif, arrêté ou fermé.
 
 ![](../assets/journey41.png)
 
@@ -121,7 +121,7 @@ Pour copier/coller des activités, procédez comme suit :
 1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
    ![](../assets/copy-paste1.png)
 1. Appuyez sur **Ctrl/Commande + C**.
-Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dessus et utiliser l&#39;icône **Copier** en haut à gauche du volet de configuration de l&#39;activité.
+Si vous ne souhaitez copier qu’une seule activité, vous pouvez cliquer dessus et utiliser l’icône **Copier** en haut à gauche du volet de configuration de l’activité.
    ![](../assets/copy-paste2.png)
 1. Dans un parcours quelconque, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
    ![](../assets/copy-paste3.png)
