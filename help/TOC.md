@@ -1,11 +1,10 @@
 ---
-product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Guide Journey Orchestration
 user-guide-description: Fournit des instructions pratiques pour la mise en œuvre et la création de parcours.
 index: true
 feature: Journeys
-source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+source-git-commit: 3d103df093f77f0dabee9a291eb999f959f3180f
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 99%
