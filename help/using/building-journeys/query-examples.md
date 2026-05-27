@@ -6,8 +6,8 @@ role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '1328'
+workflow-type: tm+mt
+source-wordcount: '1341'
 ht-degree: 100%
 
 ---
@@ -449,7 +449,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car la tâche d&#39;exportation a été exécutée en mode test, mais le profil n&#39;a pas défini l&#39;attribut testProfile sur vrai.
+La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car la tâche d’export a été exécutée en mode test, mais le profil n’a pas défini l’attribut testProfile sur vrai.
 
 **Nombre de profils qui ont été ignorés par le parcours en raison d&#39;une erreur interne**
 
@@ -496,20 +496,20 @@ WHERE
 Elle renvoie tous les événements de service liés à la version de parcours donnée. Nous pouvons suivre la chaîne des opérations :
 
 * création de rubrique
-* création de tâche d&#39;exportation
-* arrêt de tâche d&#39;exportation (avec des mesures sur les profils exportés)
+* création de tâche d’export
+* arrêt de tâche d’export (avec des mesures sur les profils exportés)
 * arrêt de traitement secondaire
 
 Nous pouvons également détecter des problèmes tels que :
 
-* erreurs lors de la création d&#39;une tâche d&#39;exportation ou de rubrique (y compris les temporisations sur les appels API d&#39;exportation de segments)
-* tâches d&#39;exportation pouvant être bloquées (dans le cas d&#39;une version de parcours donnée, aucun événement n&#39;est associé à la fin de la tâche d&#39;exportation)
+* erreurs lors de la création d’une tâche d’export ou de rubrique (y compris les temporisations sur les appels API d’export de segments)
+* tâches d’export pouvant être bloquées (dans le cas d’une version de parcours donnée, aucun événement n’est associé à la fin de la tâche d’export)
 * problèmes secondaires, si nous avons reçu un événement de fin de tâche d&#39;exportation, mais pas de fin de traitement secondaire
 
 IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela peut être dû à l&#39;une des raisons suivantes :
 
 * la version du parcours n&#39;a pas atteint le planning
-* si la version de parcours est censée déclencher la tâche d&#39;exportation en appelant l&#39;orchestrateur, un problème est survenu dans le flux en amont : problème sur déploiement de parcours, événement métier ou problème avec le planificateur.
+* si la version de parcours est censée déclencher la tâche d’export en appelant l’orchestrateur, un problème est survenu dans le flux en amont : problème sur déploiement de parcours, événement métier ou problème avec le planificateur.
 
 **Obtention des erreurs de lecture de segment pour une version de parcours donnée**
 
@@ -563,8 +563,8 @@ WHERE
 
 Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 
-* une erreur s&#39;est produite lors de la création d&#39;une tâche d&#39;exportation ou rubrique
-* la tâche d&#39;exportation est toujours en cours d&#39;exécution
+* une erreur s’est produite lors de la création d’une tâche d’export ou rubrique
+* la tâche d’export est toujours en cours d’exécution
 
 **Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de traitements d&#39;exportation pour chaque traitement d&#39;exportation**
 
@@ -687,9 +687,9 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 Cette requête est différente de la précédente.
 
-Elle renvoie les mesures globales d&#39;une version de parcours donnée, quelles que soient les tâches pouvant avoir été exécutées pour celle-ci (dans le cas de parcours récurrents, les événements métier ont déclenché les tâches exploitant la réutilisation de rubrique).
+Elle renvoie les mesures globales d&#39;une version de parcours donnée, quelles que soient les tâches qui ont pu être exécutées pour celle-ci (dans le cas de parcours récurrents, les événements métier ont déclenché les tâches exploitant la réutilisation de rubrique).
 
-## Requêtes relatives à la qualification du segment {#segment-qualification-queries}
+## Requêtes relatives à la qualification de segment {#segment-qualification-queries}
 
 **Profil ignoré en raison d&#39;une réalisation de segment différente de celle configurée**
 
@@ -837,7 +837,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Vérifier tous les événements ignorés car une nouvelle entrée n’était pas autorisée**
+**Vérifier tous les événements ignorés car une rentrée n’était pas autorisée**
 
 _Requête du lac de données_
 

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Voici les limites liées à l’utilisation de Journey Orchestration.
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
-* Les adresses Adobe internes (.adobe.)ne sont pas autorisées.
+* Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
 ## Limites des actions Adobe Campaign
 
