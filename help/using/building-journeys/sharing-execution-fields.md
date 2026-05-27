@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '367'
+workflow-type: tm+mt
+source-wordcount: '375'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Type : chaîne
 Valeurs :
 * http
 * capping
-* timeout
+* délai d’expiration
 * error
 
 ## actionExecutionErrorCode
@@ -78,12 +78,12 @@ Type : chaîne
 
 ## actionExecutionOriginError
 
-Un dépassement de délai peut se produire dans deux cas :
+Une temporisation peut se produire dans deux cas :
 
 * Lors de la première tentative d’exécution d’une action. Dans ce cas, l’exécution n’est pas terminée, il n’y a donc pas d’erreur associée.
 * Lors d’une nouvelle tentative : dans ce cas, le code actionExecOrigError/actionExecOrigErrorCode décrit l’erreur rencontrée lors de la tentative, et avant la nouvelle tentative.
 
-Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède le délai d’attente. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
+Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède le délai d’expiration. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
 
 ```
     ...

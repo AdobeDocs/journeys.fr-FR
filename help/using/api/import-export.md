@@ -4,8 +4,8 @@ title: Description de l’API d’import-export
 description: En savoir plus sur l’API d’import-export.
 products: journeys
 source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
-workflow-type: ht
-source-wordcount: '1027'
+workflow-type: tm+mt
+source-wordcount: '1160'
 ht-degree: 100%
 
 ---
@@ -59,10 +59,7 @@ La configuration de l’accès aux API Journey Orchestration est effectuée com
 >
 >La méthode JWT de génération des jetons d’accès a été abandonnée. Toutes les nouvelles intégrations doivent être créées à l’aide de la [méthode d’authentification OAuth de serveur à serveur](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr#select-oauth-server-to-server). Adobe vous recommande également de migrer vos intégrations existantes vers la méthode OAuth.
 >
->Consultez attentivement les documents suivants :
->[Guide de migration de vos applications de JWT vers OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
->[Guide de mise en œuvre pour les nouvelles et les anciennes applications avec OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
->[Avantages de l’utilisation de la méthode d’identification OAuth de serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials).
+>Consultez attentivement les documents suivants :>[Guide de migration de vos applications de JWT vers OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),>[Guide de mise en œuvre pour les nouvelles et les anciennes applications avec OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),>[Avantages de l’utilisation de la méthode d’identification OAuth de serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials).
 
 
 Pour établir une session d’API Adobe I/O de service à service sécurisée, chaque requête adressée à un service Adobe doit inclure les informations ci-dessous dans l’en-tête d’autorisation.
@@ -78,7 +75,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;ORGANIZATION> : votre instance de production
 
-  Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la [documentation Adobe I/O](https://www.adobe.io/authentication.html)).
+  Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre administratrice ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la [documentation Adobe I/O](https://www.adobe.io/authentication.html)).
 
 * **&lt;ACCESS_TOKEN>** : votre jeton d’accès personnel.
 

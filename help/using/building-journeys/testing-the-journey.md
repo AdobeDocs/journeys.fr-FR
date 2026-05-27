@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '1635'
+workflow-type: tm+mt
+source-wordcount: '1657'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
-Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des personnes dans le parcours et résoudre les problèmes avant la publication.
+Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication.
 
 Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
 
@@ -54,11 +54,11 @@ Pour utiliser le mode test, procédez comme suit :
 
    ![](../assets/journeyuctest1-bis.png)
 
-1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des journaux](#viewing_logs).
+1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des logs](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
-1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Voir [cette page](../building-journeys/publishing-the-journey.md).
+1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Consultez [cette page](../building-journeys/publishing-the-journey.md).
 
 ## Remarques importantes {#important_notes}
 
@@ -202,8 +202,8 @@ Voici les différents statuts du parcours d’une personne :
 
 * _En cours_ : la personne se trouve actuellement dans le parcours.
 * _Terminé_ : la personne est à la fin du parcours.
-* _Erreur_ : la personne est arrêtée dans le parcours en raison d’une erreur.
-* _Expiré_ : la personne est arrêtée dans le parcours à cause d’une étape qui a pris trop de temps.
+* _Erreur_ : le parcours de la personne a été arrêté en raison d’une erreur.
+* _Délai dépassé_ : le parcours de la personne a été arrêté, car l’exécution d’une étape a pris trop de temps.
 
 Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
 

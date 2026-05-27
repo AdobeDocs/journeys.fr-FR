@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '505'
+workflow-type: tm+mt
+source-wordcount: '513'
 ht-degree: 100%
 
 ---
@@ -46,11 +46,11 @@ Le nombre de parcours qui font appel à un groupe de champs est affiché dans le
 
 ## Cycle de vie du groupe de champs {#section_abk_njd_fjb}
 
-Vous pouvez ajouter des champs à un groupe qui n’est utilisé dans aucun parcours actif ou dans un état de brouillon, ou en supprimer.
+Vous pouvez ajouter ou supprimer des champs d‘un groupe de champs qui n’est utilisé dans aucun parcours actif ou à l’état de brouillon.
 
 Vous pouvez ajouter un champ à un groupe utilisé dans un ou plusieurs parcours actifs ou dans un état de brouillon, mais pas en supprimer. Cela permet d’éviter l’interruption des parcours.
 
-Pour supprimer un champ d’un groupe utilisé dans un ou plusieurs parcours, procédez comme suit. Prenons l’exemple d’un groupe de champs appelé « Groupe de champs A ».
+Pour supprimer un champ d’un groupe de champs utilisé dans un ou plusieurs parcours, procédez comme suit. Prenons l’exemple d’un groupe de champs appelé « Groupe de champs A ».
 
 1. Dans la liste des groupes de champs, placez le curseur sur « Groupe de champs A » et cliquez ensuite sur l’icône **[!UICONTROL Dupliquer]** située à droite. Appelez le groupe de champs dupliqué « Groupe de champs B », par exemple.
 1. Dans « Groupe de champs B », supprimez les champs dont vous n’avez plus besoin.

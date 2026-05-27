@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '448'
+workflow-type: tm+mt
+source-wordcount: '472'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 >_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, contactez votre équipe en charge des comptes._
 
 
-Un **utilisateur chargé de la conception de parcours** peut maintenant créer le parcours. Notre parcours n’inclura qu’un seul chemin avec les activités suivantes :
+L’**utilisateur chargé de la conception de parcours** peut maintenant créer le parcours. Notre parcours n’inclura qu’un seul chemin avec les activités suivantes :
 
 * L’**[!UICONTROL événement]** « SpaBeacon » : lorsqu’une personne se rapproche de la balise spa, le système reçoit un événement et le parcours de cette personne est lancé.
 * Une activité **[!UICONTROL Condition]** pour vérifier que la personne est une femme.
@@ -57,7 +57,7 @@ Pour plus d’informations sur la création d’un parcours, consultez [cette pa
 
    ![](../assets/journeyuc1_11.png)
 
-1. À l’aide de l’éditeur d’expression simple, recherchez le champ « gender » (_person > gender_) et déposez-le dans la partie droite pour créer la condition suivante : « gender est égale à female ».
+1. À l’aide de l’éditeur d’expression simple, recherchez le champ « gender » (_person > gender_) et déposez-le dans la partie droite pour créer la condition suivante : « gender » est égal à « Female ».
 
    ![](../assets/journeyuc1_12.png)
 
