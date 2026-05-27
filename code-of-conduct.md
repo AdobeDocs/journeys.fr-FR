@@ -19,7 +19,7 @@ orientation.
 ## Nos critères
 
 Exemples de comportements qui contribuent à créer un environnement positif
-inclure :
+sont généralement utilisées dans les cas suivants :
 
 * Utiliser un langage accueillant et inclusif
 * Respecter les différents points de vue et expériences
@@ -75,4 +75,4 @@ membres de la direction du projet.
 ## Attribution
 
 Le présent Code de conduite est adapté du [Pacte du contributeur](https://contributor-covenant.org), version 1.4,
-disponible à l’adresse [&#128279;](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct)
+disponible à l’adresse [](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct)
