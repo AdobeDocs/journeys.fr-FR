@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '847'
+workflow-type: tm+mt
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ L’activité d’action **[!UICONTROL Saut]** permet d’inviter des individus 
 * simplifier la conception de parcours très complexes en les divisant en plusieurs autres ;
 * créer des parcours basés sur des schémas de parcours communs et réutilisables.
 
-Dans le parcours d’origine, il suffit d’ajouter une activité **[!UICONTROL Saut]** et de sélectionner un parcours cible. Lorsque l’individu parvient à l’étape de **[!UICONTROL saut]**, un événement interne est envoyé au premier événement du parcours cible. Si l’action **[!UICONTROL Saut]** réussit, l’individu continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
+Dans le parcours d’origine, il suffit d’ajouter une activité **[!UICONTROL Saut]** et de sélectionner un parcours cible. Lorsque la personne parvient à l’étape de **[!UICONTROL saut]**, un événement interne est envoyé au premier événement du parcours cible. Si l’action **[!UICONTROL Saut]** réussit, l’individu continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
 
 Dans le parcours cible, le premier événement déclenché en interne par l’activité **[!UICONTROL Saut]** permettra à chaque individu de s’insérer dans le parcours.
 
@@ -54,14 +54,14 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 >
 >Le parcours B peut également être déclenché par un événement externe.
 
-## Bonnes pratiques et restrictions
+## Bonnes pratiques et limites
 
 ### Création
 
 * L’activité **[!UICONTROL Saut]** n’est disponible que dans les parcours utilisant un espace de noms.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
 * Vous ne pouvez pas accéder à un parcours commençant par un événement de **qualification de segment**.
-* Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement de **qualification du segment**.
+* Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement de **qualification de segment**.
 * Vous pouvez inclure autant d’activités **[!UICONTROL Saut]** que nécessaire dans un parcours. Après un **[!UICONTROL saut]**, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
 * Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
@@ -112,11 +112,11 @@ Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, u
 
 ![](../assets/jump7.png)
 
-## Dépannage
+## Résolution des problèmes
 
 Lorsque le parcours est publié ou en mode test, des erreurs se produisent dans les cas suivants :
 * le parcours cible n’existe plus ;
 * le parcours cible est en version brouillon, fermé ou arrêté ;
-* le premier événement du parcours cible a changé et le mappage est interrompu.
+* le premier événement du parcours cible a changé et le mapping est interrompu.
 
 ![](../assets/jump6.png)
