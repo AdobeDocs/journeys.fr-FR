@@ -8,14 +8,14 @@ role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '599'
+workflow-type: tm+mt
+source-wordcount: '639'
 ht-degree: 100%
 
 ---
 
 
-# Utiliser l’API de limitation {#work}
+# Utiliser l’API Capping {#work}
 
 
 >[!CAUTION]
@@ -26,7 +26,7 @@ ht-degree: 100%
 >_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, contactez votre équipe en charge des comptes._
 
 
-L’API de limitation vous permet de créer, de configurer et de suivre vos configurations de limitation.
+L’API Capping vous permet de créer, configurer et surveiller vos configurations de limitation.
 
 ## Description de l’API de limitation
 
@@ -125,7 +125,7 @@ Pour vous aider dans les tests et la configuration, une collection Postman est d
 
 Elle a été créée pour partager la collection de variables Postman générée par le biais des options __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayez-la > Télécharger pour Postman__, qui génère un fichier d’environnement Postman contenant les valeurs d’intégration sélectionnées.
 
-Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
+Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Orchestration]
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &#39;/authoring&#39;
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).

@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '791'
+workflow-type: tm+mt
+source-wordcount: '835'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ L’API de limitation vous permet de créer, de configurer et de surveiller vos 
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Récupération d’une configuration de limitation |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Suppression d’une configuration de limitation |
 
-## Configuration de limitation{#configuration}
+## Configuration de limitation {#configuration}
 
 Vous trouverez ci-dessous la structure d’une configuration de limitation. Les attributs **name** et **description** sont facultatifs.
 
@@ -91,7 +91,7 @@ Lors de la création ou de la mise à jour d’une configuration, le processus v
 Lors de la création, de la suppression ou du déploiement d’une configuration de limitation, les erreurs suivantes peuvent se produire :
 
 * **ERR_THROTTLING_CONFIG_100** - Configuration de limitation : `<mandatory attribute>` est obligatoire.
-* **ERR_THROTTLING_CONFIG_101** - Configuration de limitation : maxThroughput est obligatoire et doit être supérieur ou égal à 200 et inférieur ou égal à 5 000.
+* **ERR_THROTTLING_CONFIG_101** - Configuration de limitation : maxThroughput est obligatoire et doit être supérieur ou égal à 200 et inférieur ou égal à 5000.
 * **ERR_THROTTLING_CONFIG_104** - Configuration de limitation : modèle d’URL incorrect
 * **ERR_THROTTLING_CONFIG_105** - Configuration de limitation : la partie hôte du modèle d’URL contient des caractères génériques non autorisés.
 * **ERR_THROTTLING_CONFIG_106** - Configuration de limitation : payload non valide
@@ -100,7 +100,7 @@ Lors de la création, de la suppression ou du déploiement d’une configuration
 * **THROTTLING_CONFIG_DEPLOY_ERROR: 1458** - « Impossible de déployer la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459** - « Impossible d’annuler le déploiement de la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_GET_ERROR: 1460** - « Impossible d’obtenir la configuration de limitation en raison d’une erreur inattendue. »
-* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461** - « Impossible de mettre à jour la configuration de limitation : la version d’exécution n’est pas active. »
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, - « Impossible de mettre à jour la configuration de limitation : la version d’exécution n’est pas active. »
 * **THROTTLING_CONFIG_UPDATE_ERROR: 1462** - « Impossible de mettre à jour la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463** - « Opération non autorisée sur la configuration de limitation : il ne s’agit pas d’une sandbox de production. »
 * **THROTTLING_CONFIG_CREATE_ERROR: 1464** - « Impossible de créer la configuration de limitation en raison d’une erreur inattendue. »
@@ -147,7 +147,7 @@ Pour vous aider dans les tests et la configuration, une collection Postman est d
 
 Elle a été créée pour partager la collection de variables Postman générée par le biais des options __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayez-la > Télécharger pour Postman__, qui génère un fichier d’environnement Postman contenant les valeurs d’intégration sélectionnées.
 
-Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
+Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Orchestration]
 * `{BASE_PATH}` : point d’entrée pour l’API. La valeur est &#39;/authoring&#39;
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
