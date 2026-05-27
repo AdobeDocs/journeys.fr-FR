@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '1083'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ Le tableau ci-dessous contient la liste des mesures utilisées dans les différe
 | **Actuel** | Nombre total d’individus actuellement engagés dans le parcours, à savoir le nombre de personnes entrées moins celles qui sont sorties, les erreurs et les expirations de délai. |
 | **Taux d’encours** | Nombre total d’individus actuellement engagés dans le parcours par rapport au nombre total qui sont entrés dans le parcours. |
 | **Entrés** | Nombre total d’événements qui se sont produits pour démarrer une entrée individuelle dans le parcours. |
-| **Erreur** | Nombre total d’erreurs survenues au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
+| **Erreur** | Nombre total d’erreurs s’étant produites au cours d’un parcours, mais qui n’ont pas empêché sa réussite. |
 | **Erreurs dans les actions** | Nombre total d’erreurs s’étant produites pour les actions. |
 | **Erreurs dans un enrichissement** | Nombre total d’erreurs s’étant produites pour un enrichissement de données lors de l’appel d’une source de données/d’un groupe de champs. |
 | **Erreurs dans les événements** | Nombre total d’erreurs s’étant produites pour les événements. |
@@ -92,8 +92,8 @@ Le tableau ci-dessous contient la liste des mesures utilisées dans les différe
 
 ## Mesures de diffusion {#delivery-metrics}
 
-Le tableau ci-dessous contient la liste des mesures utilisées dans les
-différents rapports de parcours, ainsi que leurs définitions et leurs formules.
+Le tableau ci-dessous présente la liste des mesures utilisées dans le parcours
+les rapports, leurs définitions et leurs formules.
 
 | Mesure | Définition |
 |--- |--- |
