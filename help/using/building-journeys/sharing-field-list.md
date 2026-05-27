@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '351'
+workflow-type: tm+mt
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 Les champs d’événement d’étape sont organisés par catégorie.
 
 * Champs d’informations de débogage
-* Champs du parcours
+* Champs de parcours
 * Champs de profil
 * Champs d’événement de service
 

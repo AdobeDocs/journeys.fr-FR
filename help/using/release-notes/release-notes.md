@@ -7,8 +7,8 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: ht
-source-wordcount: '4458'
+workflow-type: tm+mt
+source-wordcount: '4776'
 ht-degree: 100%
 
 ---
@@ -284,7 +284,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 </tbody>
 </table>
 
-### Autres améliorations 
+### Autres améliorations
 
 * Désormais, lors de la configuration d’un événement, seuls les champs obligatoires pour la validation XDM sont présélectionnés par défaut. Ces champs ne peuvent pas être désélectionnés.
 * Un nouveau filtre a été ajouté à la palette du parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d’usine. Il est spécifique à chaque utilisateur ou utilisatrice. Par défaut, tous les éléments s’affichent. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
@@ -361,7 +361,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 </tbody>
 </table>
 
-### Autres améliorations 
+### Autres améliorations
 
 Des limites ont été ajoutées lors de la création de nouvelles versions d’un parcours. Ces limites évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
 
@@ -386,7 +386,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 </tbody>
 </table>
 
-### Autres améliorations 
+### Autres améliorations
 
 * Lorsque vous publiez une nouvelle version d’un parcours, la version précédente se termine automatiquement et passe au statut Fermé. [En savoir plus](../building-journeys/journey-versions.md)
 
@@ -470,7 +470,7 @@ La payload des événements de qualification de segment contient maintenant les 
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles       </strong><br/></th>
+<th><strong>Événements basés sur des règles</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -536,7 +536,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles       </strong><br/></th>
+<th><strong>Événements basés sur des règles</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -19,7 +19,7 @@ orientation.
 ## Nos critères
 
 Exemples de comportements qui contribuent à créer un environnement positif
-inclure :
+sont généralement utilisées dans les cas suivants :
 
 * Utiliser un langage accueillant et inclusif
 * Respecter les différents points de vue et expériences

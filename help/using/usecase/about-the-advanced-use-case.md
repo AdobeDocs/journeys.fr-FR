@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '456'
+workflow-type: tm+mt
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Tout d’abord, nous voulons envoyer un message dès qu’une personne entre dan
 
 Nous vérifions ensuite deux conditions :
 
-* Si cette personne n’est pas membre du programme de fidélité, nous lui envoyons un e-mail pour lui proposer d’y adhérer.
+* Si cette personne n’est pas membre du programme de fidélité, nous lui envoyons un e-mail pour lui proposer de s’y abonner.
 * Si cette personne est déjà membre du programme de fidélité, nous vérifions si elle a réservé une chambre :
    * Si ce n’est pas le cas, nous lui envoyons une notification push avec les tarifs des chambres.
    * Si elle a réservé une chambre, nous lui envoyons une notification push de bienvenue. En outre, si cette personne accède au restaurant dans les 6 heures qui suivent, nous lui envoyons une notification push avec une remise sur un repas.
@@ -52,7 +52,7 @@ Dans ce cas pratique, nous devrons créer deux événements (voir [cette page](.
 
 Nous devrons configurer une connexion à deux sources de données (voir [cette page](../usecase/configuring-the-data-sources.md)) :
 
-* La source de données Adobe Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’adhésion au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
+* La source de données Adobe Experience Platform intégrée, pour récupérer les informations de nos deux conditions (offre d’abonnement au programme de fidélité et date du dernier contact) ainsi que les informations de personnalisation du message.
 * Le système de réservation de l’hôtel, pour récupérer les informations de statut de la réservation.
 
 ## Prérequis {#prerequisites}

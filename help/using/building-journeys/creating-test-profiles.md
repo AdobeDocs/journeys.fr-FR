@@ -4,13 +4,13 @@ title: Création d’un profil de test
 description: En savoir plus sur la création d’un profil de test
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '732'
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
 
-# Création de profils de test {#create-test-profiles}
+# Créer des profils de test {#create-test-profiles}
 
 
 >[!CAUTION]
@@ -33,7 +33,7 @@ La création d&#39;un profil de test est similaire à la création de profils cl
 
 Pour pouvoir créer des profils, il vous faut d’abord créer un schéma ainsi qu’un jeu de données dans Adobe Experience Platform.
 
-Tout d&#39;abord, vous devez **créer un schéma**. Procédez de la façon suivante :
+Tout d&#39;abord, vous devez **créer un schéma**. Procédez comme suit :
 
 1. Dans Adobe Experience Platform, cliquez sur **[!UICONTROL Schémas]**, dans le menu de gauche.
    ![](../assets/test-profiles-0.png)
@@ -58,11 +58,11 @@ La liste des mixins s’affiche dans l’écran de vue d’ensemble du schéma.
 >
 >Pour plus d&#39;informations sur la création de schémas, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#prerequisites).
 
-Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez de la façon suivante :
+Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez comme suit :
 
 1. Dans Adobe Experience Platform, cliquez sur **[!UICONTROL Jeux de données]**, dans le menu de gauche, puis sur **[!UICONTROL Créer un jeu de données]**.
    ![](../assets/test-profiles-6.png)
-1. Choisissez **[!UICONTROL Créer un jeu de données à partir d&#39;un schéma]**.
+1. Choisissez **[!UICONTROL Créer un jeu de données à partir d’un schéma]**.
    ![](../assets/test-profiles-7.png)
 1. Sélectionnez le schéma créé précédemment, puis cliquez sur **[!UICONTROL Suivant]**.
    ![](../assets/test-profiles-8.png)
@@ -73,21 +73,21 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 
 >[!NOTE]
 >
-> Pour plus d&#39;informations sur la création de jeux de données, consultez la [documentation du service de catalogue](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started).
+> Pour plus d’informations sur la création de jeux de données, consultez la [documentation du service de catalogue](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started).
 
 ## Création d’un profil de test à l’aide d’un fichier CSV{#create-test-profiles-csv}
 
 Dans Adobe Experience Platform, vous pouvez créer des profils en téléchargeant un fichier CSV contenant les différents champs de profil dans votre jeu de données. Cette méthode est la plus simple.
 
 1. Créez un fichier CSV simple à l&#39;aide d&#39;un tableur.
-1. Ajoutez une colonne pour chaque champ nécessaire. Assurez-vous d&#39;ajouter le champ de l&#39;identité principale (« personID » dans l&#39;exemple ci-dessus) et le champ « testProfile » défini sur « true ».
+1. Ajoutez une colonne pour chaque champ nécessaire. Assurez-vous d’ajouter le champ de l&#39;’dentité principale (« personID » dans l’exemple ci-dessus) et le champ « testProfile » défini sur « true ».
    ![](../assets/test-profiles-11.png)
 1. Ajoutez une ligne par profil et remplissez les valeurs de chaque champ.
    ![](../assets/test-profiles-12.png)
 1. Enregistrez la feuille de calcul au format CSV. Assurez-vous que les virgules sont utilisées comme séparateurs.
 1. Dans Adobe Experience Platform, cliquez sur **[!UICONTROL Workflows]**, dans le menu de gauche.
    ![](../assets/test-profiles-14.png)
-1. Sélectionnez **[!UICONTROL Mapper un CSV à un schéma XDM]**, puis cliquez sur **[!UICONTROL Lancer]**.
+1. Sélectionnez **[!UICONTROL Mapper un fichier CSV à un schéma XDM]**, puis cliquez sur **[!UICONTROL Lancer]**.
    ![](../assets/test-profiles-16.png)
 1. Sélectionnez le jeu de données dans lequel vous souhaitez importer les profils. Cliquez sur **[!UICONTROL Suivant]**.
    ![](../assets/test-profiles-17.png)
@@ -105,7 +105,7 @@ Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du 
 >
 > Pour plus d&#39;informations sur les imports de fichiers CSV, consultez la [documentation sur l&#39;ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials).
 
-## Création de profils de test à l’aide d’appels d’API {#create-test-profiles-api}
+## Création de profils de test à l’aide d’appels d’API{#create-test-profiles-api}
 
 Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 
