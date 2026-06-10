@@ -15,7 +15,7 @@ Vous trouverez ci-dessous un recueil de directives à respecter lorsque vous con
 
 Ce projet respecte le [code de conduite](code-of-conduct.md) d’Adobe. En participant,
 vous devez respecter ce code. Veuillez signaler tout comportement inacceptable à
-[](mailto:Grp-opensourceoffice@adobe.com).
+[&#128279;](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Une question ?
 
