@@ -3,10 +3,10 @@ title: Mettre à niveau vers Adobe Journey Optimizer
 description: Découvrez comment mettre à niveau vers Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Qu&#39;est-ce qu’Adobe Journey Optimizer ?
 
-Adobe Journey Optimizer est une application agile et évolutive qui s’appuie sur Adobe Experience Platform pour orchestrer et diffuser des parcours client personnalisés, connectés et opportuns sur n’importe quelle application, appareil, écran ou canal.
+Adobe Journey Optimizer est une application agile et évolutive qui s’appuie sur le Adobe Experience Platform pour orchestrer et diffuser des parcours clients personnalisés, connectés et opportuns sur n’importe quelle application, appareil, écran ou canal.
 
 ## Présentation de Journey Orchestration
 
@@ -55,11 +55,8 @@ Profitez des autres **fonctionnalités Adobe Journey Optimizer** actuelles ainsi
 ## Comment mettre à niveau mon environnement Journey Orchestration ?
 
 1. Contactez votre équipe de compte pour mettre à jour votre contrat avec Adobe.
-
 1. Attendez que notre équipe d’ingénierie termine le changement.
-
 1. Mettez à jour vos autorisations à l’aide des profils de produit Journey Optimizer. Voir cette [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=fr).
-
 1. Vous avez maintenant accès à Adobe Journey Optimizer !
 
 ## Questions fréquentes
@@ -93,7 +90,7 @@ Oui, c’est normal. Il se peut que l’élément Journey Orchestration s’aff
 
 En passant à Adobe Journey Optimizer, vous pourrez toujours utiliser l’intégration entre les parcours et Adobe Campaign Standard en concevant votre parcours client dans Adobe Journey Optimizer et en laissant Adobe Campaign Standard envoyer la diffusion.
 
-Cependant, en raison du fonctionnement de la pile de rapports Adobe Journey Optimizer, la création de rapports ne combinera pas les données des parcours et de Campaign Standard. Les informations sur les parcours seront disponibles dans les rapports Adobe Journey Optimizer et les informations de diffusion dans Adobe Campaign Standard. Une configuration d’Experience Platform peut être effectuée pour ramener les données Adobe Campaign Standard dans Adobe Experience Platform, afin qu’elles soient disponibles pour Customer Journey Analytics ([en savoir plus](https://business.adobe.com/fr/products/experience-platform/customer-journey-analytics.html)) ou d’autres outils de création de rapports tiers tels que Tableau ou PowerBI.
+Cependant, en raison du fonctionnement de la pile de rapports Adobe Journey Optimizer, la création de rapports ne combinera pas les données des parcours et de Campaign Standard. Les informations sur les parcours seront disponibles dans les rapports Adobe Journey Optimizer et les informations de diffusion dans Adobe Campaign Standard. Une configuration d’Experience Platform peut être effectuée pour ramener les données Adobe Campaign Standard dans Adobe Experience Platform, afin qu’elles soient disponibles pour Customer Journey Analytics ([en savoir plus](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) ou d’autres outils de création de rapports tiers tels que Tableau ou PowerBI.
 
 Les rapports Adobe Journey Optimizer fonctionnent mieux lorsque vous utilisez les fonctionnalités de messagerie prêtes à l’emploi d’Adobe Journey Optimizer (disponibles dans les offres Adobe Journey Optimizer dédiées). Pour plus d&#39;informations sur la création de messages dans la zone de travail de parcours, référez-vous à cette [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=fr).
 
