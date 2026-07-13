@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '873'
+workflow-type: tm+mt
+source-wordcount: '890'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Le tableau **[!UICONTROL Insérer]** vous permet de personnaliser vos rapports e
 * **[!UICONTROL Nouveau panneau vierge]** : ajoute un nouveau panneau vierge à votre tableau de bord.
 * **[!UICONTROL Nouvelle structure libre]** : ajoute un nouveau tableau à structure libre à votre tableau de bord.
 * **[!UICONTROL Nouvelle ligne]** : ajoute un nouveau graphique linéaire à votre tableau de bord.
-* **[!UICONTROL Nouvelle barre]** : ajoute un nouveau graphique à barre à votre tableau de bord.
+* **[!UICONTROL Nouvelle barre]** : ajoute un nouveau graphique en barres à votre tableau de bord.
 
 Les onglets de gauche vous permettent de créer votre rapport et de filtrer vos données selon vos besoins.
 
@@ -70,8 +70,7 @@ Ces onglets vous donnent accès aux éléments suivants :
 
 ## Modèle de synthèse du parcours {#ootb-template}
 
-Les rapports sont répartis en deux catégories : un modèle d’usine et des rapports personnalisés.
-Le modèle d’usine, **[!UICONTROL Synthèse du parcours]**, donne une vue précise des données de suivi les plus importantes.
+Les rapports sont répartis en deux catégories : un modèle d’usine et des rapports personnalisés.Le modèle d’usine, **[!UICONTROL Synthèse du parcours]**, donne une vue précise des données de suivi les plus importantes.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -94,7 +93,7 @@ La visualisation du flux du parcours permet de voir le chemin de vos profils cib
 
 ![](../assets/dynamic_report_journey_10.png)
 
-La **[!UICONTROL synthèse du parcours]** contient les données disponibles le concernant, notamment :
+Le tableau **[!UICONTROL Synthèse du parcours]** contient les données disponibles le concernant, notamment :
 
 * **[!UICONTROL Entrés]** : nombre total d’individus ayant atteint l’événement d’entrée du parcours.
 * **[!UICONTROL Taux d’achèvement]** : nombre total d’individus ayant atteint la fin du parcours par rapport au nombre total d’individus entrés dans le parcours.
