@@ -6,18 +6,16 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
-
+source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 98%
 ---
-
 # Fonctions de gestion des collections {#collection-management-functions}
 
 Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections.
 
-Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
+Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, utilisons la payload d&#39;événement contenant une collection :
 
 ```json
                 { 
@@ -67,13 +65,13 @@ La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection
 <listExpression>.all(<condition>)
 ```
 
-Par exemple, parmi tous les utilisateurs de l’application, vous pouvez extraire ceux qui utilisent IOS 13 (expression booléenne « app used == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
+Par exemple, parmi tous les personnes utilisant l’application, vous pouvez extraire celles qui utilisent IOS 13 (expression booléenne « app used == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
 
 Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../building-journeys/condition-activity.md#data_source_condition).
 
 **Exemple 1 :**
 
-Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est 1.0.Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
+Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -172,7 +170,8 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements et **currentDataPackField**
->lors de la manipulation de collections de sources de données. Lors du traitement de collections avec les fonctions **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous>les exécutons en boucle sur chaque élément de la collection. **[!UICONTROL currentEventField]** et **currentDataPackField**
+>lors de la manipulation de collections de sources de données. Lors du traitement de collections avec les fonctions **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous
+>les exécutons en boucle sur chaque élément de la collection. **[!UICONTROL currentEventField]** et **currentDataPackField**
 >correspondent à l’élément exécuté en boucle.
 
 **Les fonctions « first(`<condition>`) » et « last(`<condition>`) »**
@@ -244,6 +243,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
