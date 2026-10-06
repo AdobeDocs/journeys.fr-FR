@@ -1,17 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Transmission dynamique des collections à l’aide d’actions personnalisées
+title: Transmettre des collections de manière dynamique à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '473'
+workflow-type: tm+mt
+source-wordcount: '481'
 ht-degree: 100%
-
 ---
-
-# Transmission dynamique des collections à l’aide d’actions personnalisées{#passing-collection}
+# Transmettre des collections de manière dynamique à l’aide d’actions personnalisées{#passing-collection}
 
 
 >[!CAUTION]
@@ -108,7 +106,7 @@ Dans cette section, nous utiliserons l’exemple de payload JSON ci-après. Il s
 
 Vous pouvez voir que « products » est un tableau de deux objets. Vous devez avoir au moins un objet.
 
-1. Créez votre action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
+1. Créez votre action personnalisée. Consultez [cette page](../action/about-custom-action-configuration.md).
 
 1. Dans la section **[!UICONTROL Paramètres d’action]**, collez l’exemple JSON. La structure affichée est statique : lorsque vous collez la payload, tous les champs sont définis comme des constantes.
 
@@ -130,7 +128,7 @@ Vous pouvez voir que « products » est un tableau de deux objets. Vous devez 
 
    ![](../assets/uc-collection-2.png)
 
-1. Créez votre parcours et ajoutez l’action personnalisée que vous avez créée. Voir [cette page](../building-journeys/using-custom-actions.md).
+1. Créez votre parcours et ajoutez l’action personnalisée que vous avez créée. Consultez [cette page](../building-journeys/using-custom-actions.md).
 
 1. Dans la section **[!UICONTROL Paramètres d’action]**, définissez le paramètre de tableau (« products » dans notre exemple) à l’aide de l’éditeur d’expression avancé.
 
@@ -177,6 +175,6 @@ Exemple de tableau de tableaux :
 }
 ```
 
-**Rubrique connexe**
+**Rubriques connexes**
 
 [Utilisation d’actions personnalisées](../building-journeys/using-custom-actions.md)

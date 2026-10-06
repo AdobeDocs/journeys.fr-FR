@@ -1,18 +1,16 @@
 ---
 product: adobe campaign
 title: Événements de qualification de segment
-description: En savoir plus sur les événements de qualification du segment
+description: En savoir plus sur les événements de qualification de segment
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '854'
+workflow-type: tm+mt
+source-wordcount: '887'
 ht-degree: 100%
-
 ---
-
 # Événements de qualification de segment {#segment-qualification}
 
 
@@ -25,7 +23,7 @@ ht-degree: 100%
 
 
 
-## À propos des événements de qualification du segment{#about-segment-qualification}
+## À propos des événements de qualification de segment{#about-segment-qualification}
 
 Cette activité permet à votre parcours d’écouter les entrées et les sorties des profils dans les segments Adobe Experience Platform pour que les particuliers puissent rejoindre le parcours ou y progresser. Pour plus d’informations sur la création de segments, consultez cette [section](../segment/about-segments.md).
 
@@ -76,29 +74,29 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 * l’horodatage de la qualification
 * l’identifiant de segment
 
-Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification du segment]**, vous avez accès au nœud **[!UICONTROL SegmentQualification]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
+Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité **[!UICONTROL Qualification de segment]**, vous avez accès au nœud **[!UICONTROL SegmentQualification]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
 
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
 
-Un nouveau parcours contenant un événement de qualification du segment est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
+Un nouveau parcours contenant un événement de qualification de segment est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
 
 ## Bonnes pratiques {#best-practices-segments}
 
-L’activité **[!UICONTROL Qualification du segment]** permet une entrée immédiate dans les parcours des particuliers qualifiés ou disqualifiés d’un segment Adobe Experience Platform.
+L’activité **[!UICONTROL Qualification de segment]** permet une entrée immédiate dans les parcours des personnes qualifiées ou disqualifiées d’un segment Adobe Experience Platform.
 
 La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, vous devez veiller à comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours.
 
 ### Segments par lot{#batch-speed-segment-qualification}
 
-Lorsque vous utilisez la qualification du segment pour un segment par lot, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre de particuliers qui rejoignent (ou quittent) le segment quotidiennement.
+Lorsque vous utilisez la qualification de segment pour un segment par lot, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre de particuliers qui rejoignent (ou quittent) le segment quotidiennement.
 
-De plus, si le segment par lot est créé et utilisé immédiatement dans un parcours, le premier lot de calculs peut faire qu’un très grand nombre de particuliers rejoignent le parcours.
+De plus, si le segment par lot est créé et utilisé immédiatement dans un parcours, le premier lot de calculs peut faire qu’un très grand nombre de p rejoignent le parcours.
 
 ### Segments en flux continu{#streamed-speed-segment-qualification}
 
-Lors de l’utilisation de la qualification du segment pour les segments en flux continu, il y a moins de risque d’obtenir d’importants pics d’entrées/sorties en raison de l’évaluation continue du segment. Néanmoins, si la définition du segment conduit à qualifier un grand volume de clients en même temps, un pic peut également se produire.
+Lors de l’utilisation de la qualification de segment pour les segments en flux continu, il y a moins de risque d’obtenir d’importants pics d’entrées/sorties en raison de l’évaluation continue du segment. Néanmoins, si la définition du segment conduit à qualifier un grand volume de clients en même temps, un pic peut également se produire.
 
 Pour plus d’informations sur la segmentation en diffusion continue, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr#api)
 
@@ -106,12 +104,12 @@ Pour plus d’informations sur la segmentation en diffusion continue, consultez 
 
 Voici quelques bonnes pratiques qui permettront d’éviter la surcharge des systèmes utilisés dans les parcours (sources de données, actions personnalisées, actions Adobe Campaign Standard).
 
-Dans une activité **[!UICONTROL Qualification du segment]**, n’utilisez pas un segment par lot immédiatement après sa création. Il évitera le premier pic de calcul. Notez qu’un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser un segment qui n’a jamais été calculé.
+Dans une activité **[!UICONTROL Qualification de segment]**, n’utilisez pas un segment par lot immédiatement après sa création. Il évitera le premier pic de calcul. Notez qu’un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser un segment qui n’a jamais été calculé.
 
 ![](../assets/segment-error.png)
 
 Mettez en place une règle de limitation pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger (consultez cette [section](../api/capping.md)). Notez que la règle de limitation ne permet pas de nouvelle tentative. Si vous avez besoin d’effectuer une nouvelle tentative, vous devez utiliser un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les conditions ou les actions.
 
-Avant d’utiliser le segment dans un parcours en production, évaluez toujours d’abord le volume de particuliers qualifiés pour ce segment tous les jours. Pour ce faire, vous pouvez vérifier la section **[!UICONTROL Segments]** d’Adobe Experience Platform et examiner le graphique sur le côté droit.
+Avant d’utiliser le segment dans un parcours en production, évaluez toujours d’abord le volume de personnes qualifiées pour ce segment tous les jours. Pour ce faire, vous pouvez vérifier la section **[!UICONTROL Segments]** d’Adobe Experience Platform et examiner le graphique sur le côté droit.
 
 ![](../assets/segment-overload.png)

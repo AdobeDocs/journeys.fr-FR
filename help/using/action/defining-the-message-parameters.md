@@ -7,12 +7,10 @@ role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '273'
+workflow-type: tm+mt
+source-wordcount: '281'
 ht-degree: 100%
-
 ---
-
 # Définition des paramètres d’action {#concept_wy4_bf1_2gb}
 
 
@@ -32,7 +30,7 @@ Dans la section **[!UICONTROL Paramètres d&#39;action]**, collez un exemple de 
 
 >[!NOTE]
 >
->Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; . Ils ne peuvent pas commencer par le caractère &quot;$&quot;.
+>Les noms de champ de la payload ne peuvent pas contenir de caractère « . » . Ils ne peuvent pas commencer par le caractère &quot;$&quot;.
 
 Vous pourrez définir le type de paramètre (par exemple : chaîne, entier, etc.).
 
