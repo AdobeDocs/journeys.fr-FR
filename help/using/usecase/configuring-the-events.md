@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '447'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '457'
 ht-degree: 100%
-
 ---
-
 # Configuration des événements {#concept_sbp_5cy_w2b}
 
 
@@ -58,8 +68,8 @@ Pour plus d’informations sur la configuration des événements, consultez [cet
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Cliquez sur l’icône **[!UICONTROL Afficher la payload]** pour avoir un aperçu de la payload attendue par le système et la partager avec la personne responsable de l’envoi de l’événement. Cette payload doit être configurée dans le postback de la console d’administration Mobile Services.
+1. Cliquez sur l’icône **[!UICONTROL Afficher la payload]** pour avoir un aperçu de la payload attendue par le système et la partager avec la personne responsable de l’envoi de l’événement.  Cette payload doit être configurée dans le postback de la console d’administration Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 
-De la même manière, créez l’événement « RestaurantBeacon ». Ces deux événements de balise sont créés et utilisables dans le parcours. Vous devez maintenant configurer l’application mobile afin qu’elle puisse envoyer la payload attendue au point d’entrée des API d’ingestion en flux continu. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+De la même manière, créez l’événement « RestaurantBeacon ». Ces deux événements de balise sont créés et utilisables dans le parcours. Vous devez maintenant configurer l’application mobile afin qu’elle puisse envoyer la payload attendue au point d’entrée des API d’ingestion en flux continu. Consultez [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

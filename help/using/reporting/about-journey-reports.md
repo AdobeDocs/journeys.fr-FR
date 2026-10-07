@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 100%
-
 ---
-
 # À propos des rapports de parcours {#concept_rfj_wpt_52b}
 
 
@@ -70,7 +80,8 @@ Ces onglets vous donnent accès aux éléments suivants :
 
 ## Modèle de synthèse du parcours {#ootb-template}
 
-Les rapports sont répartis en deux catégories : un modèle d’usine et des rapports personnalisés.Le modèle d’usine, **[!UICONTROL Synthèse du parcours]**, donne une vue précise des données de suivi les plus importantes.
+Les rapports sont répartis en deux catégories : un modèle d’usine et des rapports personnalisés.
+Le modèle d’usine, **[!UICONTROL Synthèse du parcours]**, donne une vue précise des données de suivi les plus importantes.
 
 ![](../assets/dynamic_report_journey_8.png)
 

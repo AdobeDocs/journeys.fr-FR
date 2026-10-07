@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '4776'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour {#release-notes}
 
 >[!CAUTION]
@@ -68,8 +78,8 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration){target="_blank"} de Journey Optimizer.
 * De nouveaux mécanismes de sécurisation ont été définis afin de gérer la croissance des expériences fournies par les parcours :
-   * Nous vous recommandons de limiter le nombre de nœuds à 50 ou moins afin d’assurer les performances et de faciliter la lecture, le contrôle qualité et la résolution de problèmes de vos parcours. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
-   * Développez et lancez vos premiers parcours. Dès que la barre des 100 parcours actifs à la fois se profile à l’horizon, nous ne manquerons pas de vous en informer. Si vous prévoyez d’emblée de lancer 100 parcours à la fois, créez un ticket de support après avoir reçu la notification et nous vous aiderons à concrétiser vos projets. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
+  * Nous vous recommandons de limiter le nombre de nœuds à 50 ou moins afin d’assurer les performances et de faciliter la lecture, le contrôle qualité et la résolution de problèmes de vos parcours. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
+  * Développez et lancez vos premiers parcours. Dès que la barre des 100 parcours actifs à la fois se profile à l’horizon, nous ne manquerons pas de vous en informer. Si vous prévoyez d’emblée de lancer 100 parcours à la fois, créez un ticket de support après avoir reçu la notification et nous vous aiderons à concrétiser vos projets. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
 
 ## Version de mars 2023 {#mar-2023}
 

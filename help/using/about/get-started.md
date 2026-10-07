@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '367'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # Commencer{#concept_y4b_4qt_52b}
 
 
@@ -48,9 +58,9 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
 1. **Configurer une action**
 
-   Si vous utilisez un système tiers pour envoyer vos messages, vous devez configurer sa connexion à [!DNL Journey Orchestration]. Voir [cette page](../action/about-custom-action-configuration.md).
+   Si vous utilisez un système tiers pour envoyer vos messages, vous devez configurer sa connexion à [!DNL Journey Orchestration]. Consultez [cette page](../action/about-custom-action-configuration.md).
 
-   Si vous utilisez Adobe Campaign Standard pour envoyer des messages, vous devez configurer l’action intégrée. Voir [cette page](../action/working-with-adobe-campaign.md).
+   Si vous utilisez Adobe Campaign Standard pour envoyer des messages, vous devez configurer l’action intégrée. Consultez [cette page](../action/working-with-adobe-campaign.md).
 
    Ces étapes sont effectuées par un **utilisateur technique**.
 
@@ -60,7 +70,7 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes. Cette étape est effectuée par un **utilisateur chargé de la conception de parcours**.
 
-   Consultez [cette page](../building-journeys/journey.md) pour plus d’informations.
+   Pour plus d’informations à ce sujet, consultez [cette page](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
@@ -72,10 +82,10 @@ Les principales étapes pour configurer et utiliser [!DNL Journey Orchestration]
 
    ![](../assets/journeyuc2_32bis.png)
 
-1. **Suivre le parcours**
+1. **Su le parcours**
 
    Utilisez les outils de reporting dédiés pour mesurer l’efficacité du parcours. Cette étape est effectuée par un **utilisateur chargé de la conception de parcours**.
 
-   Consultez [cette page](../reporting/about-journey-reports.md) pour plus d’informations.
+   Pour plus d’informations à ce sujet, consultez [cette page](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)

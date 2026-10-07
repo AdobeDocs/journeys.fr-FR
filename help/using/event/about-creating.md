@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
-
 ---
-
 # Création d’un événement {#section_tbk_5qt_pgb}
 
 
@@ -36,7 +46,7 @@ Les principales étapes nécessaires pour configurer un nouvel événement sont 
 
    >[!NOTE]
    >
-   >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
+   >N&#39;utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
 1. Dans le champ **[!UICONTROL Type d’identifiant d’événement]**, sélectionnez le type d’événement à utiliser.
 
