@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: ht
-source-wordcount: '504'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '514'
 ht-degree: 100%
-
 ---
-
 # Opérateurs {#concept_wd5_pj5_dgb}
 
 
@@ -44,8 +54,8 @@ Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs una
 ## Remarques importantes{#important-notes}
 
 * Lors de l’utilisation d’une multiplication (`*`), les deux champs d’opération doivent avoir le même type, entier ou décimal. Exemple :
-   * L’exemple suivant est correct :`3.0 * 4.0`
-   * `3 * 4.0` entraîne une erreur
+  * L’exemple suivant est correct :`3.0 * 4.0`
+  * `3 * 4.0` entraîne une erreur
 
 ## Logique  {#logical}
 

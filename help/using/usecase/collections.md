@@ -4,7 +4,10 @@ solution: Journey Orchestration
 title: Transmettre des collections de manière dynamique à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%

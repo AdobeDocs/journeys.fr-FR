@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '364'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '375'
 ht-degree: 100%
-
 ---
-
 # À propos de la configuration des actions personnalisées {#concept_sxy_bzs_dgb}
 
 
@@ -44,12 +54,12 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
 1. Ajoutez une description à l&#39;action. Cette étape est facultative.
 1. Le nombre de parcours qui font appel à cette action s’affiche dans le champ **[!UICONTROL Utilisé dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour afficher la liste des parcours utilisant cette action.
-1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Voir [cette page](../action/url-configuration.md).
+1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Consultez [cette page](../action/url-configuration.md).
 1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Voir [cette page](../action/defining-the-message-parameters.md).
+1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Consultez [cette page](../action/defining-the-message-parameters.md).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   L&#39;action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Voir [cette page](../building-journeys/about-action-activities.md).
+   L&#39;action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Consultez [cette page](../building-journeys/about-action-activities.md).
 
    >[!NOTE]
    >

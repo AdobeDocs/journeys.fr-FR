@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '944'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '960'
 ht-degree: 100%
-
 ---
-
 # Création de rapports de parcours {#concept_rfj_wpt_52b}
 
 
@@ -108,9 +118,9 @@ Chaque tableau et chaque visualisation peuvent être redimensionnés et déplac�
 
    L’option **[!UICONTROL Paramètres de colonne]** est composée des éléments suivants :
 
-   * **[!UICONTROL Nombre]** : permet d’afficher ou de masquer les nombres de synthèse dans la colonne.
+   * **[!UICONTROL Nombre]** : permet d&#39;afficher ou de masquer les nombres de synthèse dans la colonne.
    * **[!UICONTROL Pourcentage]** : permet d’afficher ou de masquer le pourcentage dans la colonne.
-   * **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]** : permet d’afficher ou de masquer une valeur lorsqu’elle est égale à zéro.
+   * **[!UICONTROL Interpréter zéro comme n&#39;étant pas une valeur]** : permet d&#39;afficher ou de masquer une valeur lorsqu&#39;elle est égale à zéro.
    * **[!UICONTROL Arrière-plan]** : permet d’afficher ou de masquer la barre de progression horizontale dans les cellules.
    * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Rebonds + erreurs]**.
 
@@ -128,12 +138,12 @@ Les composants vous permettent de personnaliser vos rapports grâce à différen
 
    ![](../assets/dynamic_report_components.png)
 
-1. Chaque catégorie présentée dans l’onglet **[!UICONTROL Composants]** affiche les cinq éléments les plus utilisés. Cliquez sur le nom d’une catégorie pour accéder à la liste complète de ses composants.
+1. Chaque catégorie présentée dans l&#39;onglet **[!UICONTROL Composants]** affiche les cinq éléments les plus utilisés. Cliquez sur le nom d&#39;une catégorie pour accéder à la liste complète de ses composants.
 
    Le tableau des composants se divise en trois parties :
 
    * **[!UICONTROL Dimensions]** : obtenez des détails issus du log de diffusion, tels que le navigateur du destinataire, son domaine, ou la réussite d’une diffusion.
-   * **[!UICONTROL Mesures]** : obtenez des détails sur le statut d’un message. Par exemple, s’il a été délivré et si l’utilisateur l’a ouvert.
+   * **[!UICONTROL Mesures]** : obtenez des détails sur le statut d&#39;un message. Par exemple, s’il a été délivré et si l’utilisateur l’a ouvert.
    * **[!UICONTROL Heure]** : définissez une période pour votre tableau.
 
 1. Faites glisser des composants dans un panneau pour commencer à filtrer vos données.

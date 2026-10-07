@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1429'
 ht-degree: 100%
-
 ---
-
 # Sources de données externes {#concept_t2s_kqt_52b}
 
 
@@ -51,7 +61,7 @@ Les principales étapes de création et de configuration d’une source de donn�
 
    >[!NOTE]
    >
-   >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
+   >N&#39;utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
 1. Ajoutez une description à votre source de données. Cette étape est facultative.
 1. Ajoutez l&#39;URL du service externe. Dans notre exemple : _https://api.adobeweather.org/weather_.
@@ -127,20 +137,20 @@ La définition du point d’entrée à appeler pour générer le jeton d’accè
 * Méthode de la requête HTTP sur le point d’entrée (GET ou POST)
 * headers : paires clé/valeur à injecter en tant qu’en-têtes dans cet appel, le cas échéant
 * body : décrit le corps de lʼappel en cas dʼutilisation de la méthode POST. Nous prenons en charge une structure de corps limitée, définie dans bodyParams (paires clé/valeur). bodyType décrit le format et le codage du corps dans lʼappel :
-   * &#39;form&#39; : signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées comme suit : key1=value1&amp;key2=value2&amp;…
-   * &#39;json&#39; : signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées sous la forme d’un objet json, tel quel : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+  * &#39;form&#39; : signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées comme suit : key1=value1&amp;key2=value2&amp;…
+  * &#39;json&#39; : signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées sous la forme d’un objet json, tel quel : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 La définition de la méthode d’injection du jeton d’accès dans la requête HTTP de l’action :
 
 * authorizationType : définit la manière dont le jeton d’accès généré doit être injecté dans l’appel HTTP pour l’action. Les valeurs possibles sont les suivantes :
 
-   * bearer : indique que le jeton d’accès doit être injecté dans l’en-tête Authorization, par exemple : _Autorization: Bearer &lt;access token>_
-   * header : indique que le jeton d’accès doit être injecté en tant qu’en-tête, le nom de l’en-tête étant défini par la propriété tokenTarget. Par exemple, si tokenTarget est myHeader, le jeton d’accès est injecté sous la forme d’un en-tête : _myHeader: &lt;access token>_
-   * queryParam : indique que le jeton d’accès doit être injecté en tant que queryParam, le nom du paramètre de requête étant défini par la propriété tokenTarget. Par exemple, si tokenTarget est myQueryParam, l’URL de l’appel d’action est : _&lt;url>?myQueryParam=&lt;access token>_
+  * bearer : indique que le jeton d’accès doit être injecté dans l’en-tête Authorization, par exemple : _Autorization: Bearer &lt;access token>_
+  * header : indique que le jeton d’accès doit être injecté en tant qu’en-tête, le nom de l’en-tête étant défini par la propriété tokenTarget. Par exemple, si tokenTarget est myHeader, le jeton d’accès est injecté sous la forme d’un en-tête : _myHeader: &lt;access token>_
+  * queryParam : indique que le jeton d’accès doit être injecté en tant que queryParam, le nom du paramètre de requête étant défini par la propriété tokenTarget. Par exemple, si tokenTarget est myQueryParam, l’URL de l’appel d’action est : _&lt;url>?myQueryParam=&lt;access token>_
 
 * tokenInResponse : indique comment extraire le jeton d’accès de l’appel d’authentification. Cette propriété peut être l’un des éléments suivants :
-   * &#39;response&#39; : indique que la réponse HTTP est le jeton d’accès ;
-   * un sélecteur dans un fichier JSON (en supposant que la réponse soit un fichier JSON, nous ne prenons pas en charge d’autres formats, tels que XML). Le format de ce sélecteur est _json://&lt;path to the access token property>_. Par exemple, si la réponse de l’appel est : _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse sera :_ json: //access_token_.
+  * &#39;response&#39; : indique que la réponse HTTP est le jeton d’accès ;
+  * un sélecteur dans un fichier JSON (en supposant que la réponse soit un fichier JSON, nous ne prenons pas en charge d’autres formats, tels que XML). Le format de ce sélecteur est _json://&lt;chemin d’accès à la propriété du jeton d’accès>_. Par exemple, si la réponse de l’appel est : _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse sera :_ json: //access_token_.
 
 Le format de cette authentification est le suivant :
 

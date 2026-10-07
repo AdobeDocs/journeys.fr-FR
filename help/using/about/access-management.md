@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1009'
 ht-degree: 100%
-
 ---
-
 # Gestion des accès{#concept_rfj_wpt_52b}
 
 
@@ -39,24 +49,24 @@ Pour pouvoir accéder à [!DNL Journey Orchestration], un utilisateur doit :
 Admin Console permet d’attribuer aux utilisateurs et utilisatrices l’un des profils de produit par défaut suivants :
 
 * **[!UICONTROL Utilisateur ou utilisatrice à accès limité]** : utilisateur ou utilisatrice disposant d’un accès en lecture seule aux parcours et aux rapports. Ce profil de produit comprend les autorisations suivantes :
-   * Lire les parcours
-   * Lire les rapports
+  * Lire les parcours
+  * Lire les rapports
 
 * **[!UICONTROL Administrateur]** : utilisateur ayant accès aux menus d’administration avec la possibilité de gérer les parcours, les événements et les rapports. Ce profil de produit comprend les autorisations suivantes :
-   * Gérer les parcours
-   * Publier les parcours
-   * Gérer les événements, les sources de données et les actions
-   * Gérer les rapports
+  * Gérer les parcours
+  * Publier les parcours
+  * Gérer les événements, les sources de données et les actions
+  * Gérer les rapports
 
   >[!NOTE]
   >
   >Le profil de produit **[!UICONTROL Administrateurs]** est le seul qui permet la création, la modification et la publication de messages transactionnels (ou de modèles de message) dans Adobe Campaign Standard. Ce profil de produit est nécessaire si vous utilisez Adobe Campaign Standard pour envoyer des messages dans vos parcours. Il ne doit pas être renommé dans Admin Console.
 
 * **[!UICONTROL Utilisateur standard]** : utilisateur disposant d’un accès de base, tel que la gestion des parcours. Ce profil de produit comprend les autorisations suivantes :
-   * Gérer les parcours
-   * Publier les parcours
-   * Gérer les rapports
-   * Lire les événements, les sources de données et les actions
+  * Gérer les parcours
+  * Publier les parcours
+  * Gérer les rapports
+  * Lire les événements, les sources de données et les actions
 
 Vous pouvez également créer vos propres profils de produit si les profils par défaut ne suffisent pas pour gérer vos utilisateurs.
 Les utilisateurs doivent toujours être liés à un profil de produit, ce qui vous permet de leur attribuer des autorisations intégrées spécifiques, telles que :
