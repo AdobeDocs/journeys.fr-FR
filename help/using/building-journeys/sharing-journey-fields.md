@@ -7,12 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '112'
+workflow-type: tm+mt
+source-wordcount: '120'
 ht-degree: 100%
-
 ---
-
 # Champs du parcours {#sharing-journey-fields}
 
 
@@ -38,7 +36,7 @@ Identifiant de la version du parcours. Cet identifiant représente l’identité
 
 Type : chaîne
 
-## name
+## nom
 
 Nom du parcours.
 
