@@ -7,12 +7,10 @@ role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '427'
+workflow-type: tm+mt
+source-wordcount: '437'
 ht-degree: 100%
-
 ---
-
 # Terminaison d’un parcours
 
 
@@ -24,7 +22,7 @@ ht-degree: 100%
 >_Cette documentation se rapporte aux anciens contenus de Journey Orchestration qui ont été remplacés par Journey Optimizer. Pour toute question concernant votre accès à Journey Orchestration ou Journey Optimizer, contactez votre équipe en charge des comptes._
 
 
-Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entrées]** permettent de terminer les parcours **actifs**. Fermer un parcours suppose le **blocage de tout nouvel accès** et la possibilité, pour les clients ayant déjà rejoints le parcours, de poursuivre l&#39;expérience jusqu&#39;à son terme. Il s&#39;agit de la méthode recommandée pour mettre fin à un parcours, car elle offre la meilleure expérience pour les clients. L&#39;arrêt d&#39;un parcours suppose qu&#39;il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt.
+Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entrées]** permettent de terminer les parcours **actifs**. Fermer un parcours suppose le **blocage de tout nouvel accès** et la possibilité, pour les clients ayant déjà rejoints le parcours, de poursuivre l&#39;expérience jusqu&#39;à son terme. Il s&#39;agit de la méthode recommandée pour mettre fin à un parcours, car elle offre la meilleure expérience pour les clients. L’arrêt d’un parcours entraîne l’arrêt de la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt.
 
 >[!NOTE]
 >
@@ -38,7 +36,7 @@ Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qu
 
 Lorsqu&#39;un parcours est fermé, le statut **[!UICONTROL Fermé (aucune entrée)]** lui est attribué. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
 
-La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
+La version dun parcours fermé ne peut être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
 
 Pour fermer un parcours, pointez dessus dans la liste, puis cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**.
 
@@ -54,13 +52,13 @@ Vous pouvez également réaliser les opérations suivantes :
 1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**. Une boîte de dialogue s&#39;affiche.
 1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** pour confirmer.
 
-## Arrêt d&#39;un parcours
+## Arrêt d’un parcours
 
 Vous pouvez arrêter un parcours lorsqu&#39;une urgence s&#39;est produite et qu&#39;il doit être mis fin immédiatement à tout processus.
 
-La version d&#39;un parcours arrêté ne peut pas être redémarrée.
+La version dun parcours arrêté ne peut pas être redémarrée.
 
-Lorsqu&#39;un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
+Lorsqu’un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
 
 Vous pouvez arrêter un parcours (par exemple, un spécialiste marketing se rend compte que l’audience ciblée n’est pas la bonne ou qu’une action personnalisée censée diffuser des messages ne fonctionne pas correctement) en cliquant sur **[!UICONTROL Arrêter]** après l’avoir sélectionné dans la liste des parcours.
 
