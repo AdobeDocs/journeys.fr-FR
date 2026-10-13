@@ -1,18 +1,16 @@
 ---
 product: adobe campaign
 title: À propos de la création de parcours
-description: En tant qu’utilisateur professionnel, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
+description: En tant qu’utilisateur professionnel ou utilisatrice professionnelle, apprenez à combiner des activités d’événement, d’orchestration et d’action afin de créer un parcours.
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '610'
+workflow-type: tm+mt
+source-wordcount: '624'
 ht-degree: 100%
-
 ---
-
 # Création d’un parcours {#concept_gq5_sqt_52b}
 
 
@@ -46,7 +44,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey31.png)
 
-1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Voir [cette page](../building-journeys/changing-properties.md).
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Consultez [cette page](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
@@ -58,7 +56,7 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
    ![](../assets/journey34.png)
 
-1. Votre parcours est automatiquement enregistré. Testez-le et publiez-le. Voir [Test du parcours](../building-journeys/testing-the-journey.md) et [Publication du parcours](../building-journeys/publishing-the-journey.md).
+1. Votre parcours est automatiquement enregistré. Testez votre parcours et publiez-le. Voir [Test du parcours](../building-journeys/testing-the-journey.md) et [Publication du parcours](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -66,18 +64,18 @@ Les principales étapes nécessaires pour créer et publier un parcours sont les
 
 Deux raisons peuvent entraîner la terminaison d&#39;un parcours pour un individu :
 
-* Le client arrive à la dernière activité d&#39;un chemin. Il ne doit pas nécessairement s&#39;agir d&#39;une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
+* L’individu arrive à la dernière activité d’un chemin. Cette dernière activité peut être une activité de fin ou une autre activité. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Consultez [cette page](../building-journeys/end-activity.md).
 * Le client ou la cliente arrive à une activité de condition (ou à une activité d&#39;attente avec une condition) et ne répond à aucune des conditions.
 
-La personne peut alors rejoindre de nouveau le parcours si la reprise est autorisée. Voir [cette page](../building-journeys/changing-properties.md).
+La personne peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Consultez [cette page](../building-journeys/changing-properties.md).
 
 Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
 * Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
 * La date de fin du parcours est atteinte.
 
-Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
+Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Le parcours n’autorisera plus de nouvelles personnes à rejoindre le parcours. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/changing-properties.md#entrance).
 
-Si nécessaire, il est possible d&#39;arrêter la progression de tous les individus dans le parcours. L&#39;arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
+Si nécessaire, il est possible d’arrêter la progression de toutes les personnes dans le parcours. L’arrêt du parcours entraîne la temporisation de toutes les personnes qui en font partie.
 
 Pour savoir comment fermer ou arrêter manuellement un parcours, consultez cette [section](../building-journeys/terminating-a-journey.md).
