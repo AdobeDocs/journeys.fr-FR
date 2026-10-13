@@ -7,12 +7,10 @@ role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '578'
+workflow-type: tm+mt
+source-wordcount: '588'
 ht-degree: 100%
-
 ---
-
 # À propos des activités d’événement {#concept_rws_1rt_52b}
 
 

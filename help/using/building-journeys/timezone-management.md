@@ -7,12 +7,10 @@ role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '322'
+workflow-type: tm+mt
+source-wordcount: '335'
 ht-degree: 100%
-
 ---
-
 # Gestion des fuseaux horaires {#timezone_management}
 
 
@@ -59,4 +57,4 @@ Si un fuseau horaire a été défini pour un profil, il est récupéré et utili
 
 ## Utilisation des fuseaux horaires dans les expressions {#timezone-in-expressions}
 
-Les dates de début et de fin d&#39;un parcours ne peuvent pas être liées à un fuseau horaire spécifique. Elles sont automatiquement associées à celui de l&#39;instance.
+Les dates de début et de fin d’un parcours ne peuvent pas être liées à un fuseau horaire spécifique. Elles sont automatiquement associées à celui de l&#39;instance.
