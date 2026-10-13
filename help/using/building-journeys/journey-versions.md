@@ -7,12 +7,10 @@ role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '293'
+workflow-type: tm+mt
+source-wordcount: '302'
 ht-degree: 100%
-
 ---
-
 # Versions de parcours{#concept_ldc_k55_zgb}
 
 
