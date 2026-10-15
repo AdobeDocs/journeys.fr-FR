@@ -69,7 +69,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations {#aug-2023-improvements}
 
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=fr){target="_blank"} de Journey Optimizer.
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de Private Beta. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=fr){target="_blank"} de Journey Optimizer.
 
 ## Version d’avril 2023 {#apr-rn-2023}
 
@@ -77,7 +77,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=fr#url-configuration){target="_blank"} de Journey Optimizer.
-* De nouveaux mécanismes de sécurisation ont été définis afin de gérer la croissance des expériences fournies par les parcours :
+* De nouveaux mécanismes de sécurisation pour gérer la croissance des expériences fournies par les parcours :
   * Nous vous recommandons de limiter le nombre de nœuds à 50 ou moins afin d’assurer les performances et de faciliter la lecture, le contrôle qualité et la résolution de problèmes de vos parcours. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
   * Développez et lancez vos premiers parcours. Dès que la barre des 100 parcours actifs à la fois se profile à l’horizon, nous ne manquerons pas de vous en informer. Si vous prévoyez d’emblée de lancer 100 parcours à la fois, créez un ticket de support après avoir reçu la notification et nous vous aiderons à concrétiser vos projets. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
 
@@ -95,7 +95,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations {#feb-2023-improvements}
 
-* Le champ **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#entrance){target="_blank"} de Journey Optimizer.
+* Le champ **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours dans les parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#entrance){target="_blank"} de Journey Optimizer.
 * Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=fr#dates){target="_blank"} de Journey Optimizer.
 
 ## Version de janvier 2023 {#jan-2023-release}
@@ -129,7 +129,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 ### Améliorations{#sept-2022-improvements}
 
-* Une nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#events-g){target="_blank"} de Journey Optimizer.
+* Un nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. Consultez la [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=fr#events-g){target="_blank"} de Journey Optimizer.
 
 ### Autres modifications{#sept-2022-other}
 
@@ -223,8 +223,8 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform vous permet de définir des relations entre les schémas afin d’utiliser un jeu de données comme table de choix pour un autre. Journey Orchestration peut désormais exploiter les données provenant d’un schéma lié.</p>
-<p>Ces champs sont disponibles dans la configuration d’événement unitaire, les conditions de parcours et la personnalisation d’action personnalisée.
+<p>Adobe Experience Platform vous permet de définir des relations entre les schémas afin d’utiliser un jeu de données comme table de correspondance pour un autre. Journey Orchestration peut désormais exploiter les données provenant d’un schéma lié.</p>
+<p>Ces champs sont disponibles dans la configuration d’événement unitaire, les conditions de parcours et la personnalisation des actions personnalisées.
 <p>Pour plus d’informations, consultez la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -281,7 +281,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 <table>
 <thead>
 <tr>
-<th><strong>Activité Mettre à jour un profil</strong><br/></th>
+<th><strong>Activité de mise à jour du profil</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -298,7 +298,7 @@ Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture s
 
 * Désormais, lors de la configuration d’un événement, seuls les champs obligatoires pour la validation XDM sont présélectionnés par défaut. Ces champs ne peuvent pas être désélectionnés.
 * Un nouveau filtre a été ajouté à la palette du parcours. Il vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d’usine. Il est spécifique à chaque utilisateur ou utilisatrice. Par défaut, tous les éléments s’affichent. [En savoir plus](../building-journeys/using-the-journey-designer.md#palette)
-* Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont désormais masqués. Cela concerne toutes les actions, l’activité de la condition, l’attente et la réaction.
+* Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont désormais masqués. Cela concerne toutes les actions, l’activité de condition, l’attente et la réaction.
 * Dans la partie gauche de l’éditeur d’expression avancé, les fonctions sont désormais regroupées sous une section **Fonctions** en fin de liste.
 
 ## Version de janvier 2021 {#january-2021-release}
@@ -326,7 +326,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle activité d’action vous permet d’inviter des individus à passer d’un parcours à un autre. L’activité <strong>Saut</strong> vous permet d’effectuer les opérations suivantes :
+<p>Une nouvelle activité d’action vous permet de faire passer des individus d’un parcours à un autre. L’activité <strong>Saut</strong> vous permet d’effectuer les opérations suivantes :
 </p>
 <ul>
 <li>simplifier la conception de parcours très complexes en les divisant en plusieurs autres ; </li>
@@ -358,7 +358,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 <table>
 <thead>
 <tr>
-<th><strong>Événements basés sur des règles (version Beta)</strong><br/></th>
+<th><strong>Événements basés sur des règles (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -375,7 +375,7 @@ Les fonctions [getListItem](../functions/functiongetlistitem.md) et [split](../f
 
 Des limites ont été ajoutées lors de la création de nouvelles versions d’un parcours. Ces limites évitent des changements trop radicaux dans le parcours pour maintenir une certaine cohérence entre les versions. [En savoir plus](../about/limitations.md#journey-versions-limitations)
 
-L’activité **Qualification de segment** ne peut plus être utilisée dans un parcours qui inclut des activités de messages Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l’utilisation de la qualification de segment peut conduire à des pics quotidiens d’envoi de messages qui surchargent les messages transactionnels de Campaign Standard. [En savoir plus](../about/limitations.md#segment-qualification)
+L’activité **Qualification de segment** ne peut plus être utilisée dans un parcours qui inclut des activités de messages Campaign Standard. Cette restriction protège l’intégrité des instances Adobe Campaign Standard. En effet, l’utilisation de la qualification de segment peut conduire à des pics quotidiens d’envoi de messages qui surchargent la messagerie transactionnelle de Campaign Standard. [En savoir plus](../about/limitations.md#segment-qualification)
 
 ## Version d’octobre 2020 {#october-release}
 
@@ -435,7 +435,7 @@ L’activité **Qualification de segment** ne peut plus être utilisée dans un 
 <p>Les améliorations suivantes ont été apportées à l’activité <strong>Lecture de segment</strong> :
 </p>
 <ul>
-<li><p>Les parcours basés sur des segments affichent maintenant, au-dessus de la zone de travail, un rappel du type de planification du parcours Vous pouvez cliquer sur ce rappel pour accéder au menu de configuration des planifications.</p>
+<li><p>Les parcours basés sur des segments affichent maintenant, au-dessus de la zone de travail, un rappel du type de planification du parcours. Vous pouvez cliquer sur ce rappel pour accéder au menu de configuration des planifications.</p>
 </li>
 <li><p>La granularité des logs du mode test a été améliorée pour afficher l’état d’avancement de l’export des segments.</p>
 </li>
@@ -467,7 +467,7 @@ La payload des événements de qualification de segment contient maintenant les 
 <ul>
 <li><p>Le nom de l’activité a été remplacé par « Lecture de segment ». </p>
 </li>
-<li><p>La configuration du planificateur de parcours a été supprimée des propriétés de l’activité. Elle est maintenant accessible directement à partir des propriétés du parcours, dans une section dédiée qui s’affichera si une activité de Lecture de segment a été déposée dans la zone de travail. </p>
+<li><p>La configuration du planificateur de parcours a été supprimée des propriétés de l’activité. Elle est maintenant accessible directement à partir des propriétés du parcours, dans une section dédiée qui s’affichera si une activité de lecture de segment a été déposée dans la zone de travail. </p>
 </li>
 <li><p>Vous pouvez maintenant tester le parcours sur un profil unitaire et suivre sa progression dans le parcours à l’aide du flux visuel.</p>
 </li>
@@ -519,7 +519,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <ul>
 <li><p>Menus déplacés du haut vers le côté gauche de l’interface </p>
 </li>
-<li><p>Regroupement des fonctionnalités d’administration en un seul tableau de bord</p>
+<li><p>Regroupement des fonctionnalités d’administration dans un seul tableau de bord</p>
 </li>
 </ul>
 </td>
@@ -582,10 +582,10 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <li><p>Dans l’éditeur d’expression simple, les segments Adobe Experience Platform sont maintenant directement répertoriés dans l’arborescence de navigation pour faciliter la configuration de conditions telles que « cette personne appartient-elle au segment A ? ». <a href="../segment/using-a-segment.md">En savoir plus</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Les erreurs potentielles rencontrées sont indiquées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d’étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
+<li><p>Journey Orchestration transmet maintenant automatiquement à Adobe Experience Platform les étapes exécutées dans les parcours. Cela inclut les erreurs potentielles rencontrées. Ces informations peuvent être utilisées à des fins de reporting et de dépannage en exécutant des requêtes sur les événements d’étape du parcours pour un parcours particulier ou pour tous les parcours. <a href="../building-journeys/sharing-overview.md">En savoir plus</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandbox sont une fonctionnalité en version Beta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
+<li><p>Il est maintenant possible de connecter Journey Orchestration aux sandbox Adobe Experience Platform pour la production et hors production. Notez que les sandboxes sont une fonctionnalité en version bêta. <a href="../about/access-management.md#sandboxes">En savoir plus</a></p>
 </li>
 </ul>
 </td>
@@ -604,7 +604,7 @@ Le programme Alpha offre des fonctionnalités qui sont actuellement testées aup
 <td>
 <p>Les améliorations suivantes ont été apportées au concepteur de parcours et au mode test :</p>
 <ul>
-<li><p>Vous pouvez maintenant copier/coller les activités d’un parcours vers un autre, en sélectionnant 1 ou N activités de parcours. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">En savoir plus</a></p>
+<li><p>Vous pouvez maintenant copier/coller les activités d’un parcours dans un autre, en sélectionnant une ou plusieurs activités de parcours. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">En savoir plus</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
 <li><p>Après avoir déclenché un événement pour qu’un profil de test rejoigne un parcours, vous pouvez maintenant voir sa progression tout au long du parcours grâce à un flux visuel coloré. En cas d’erreur dans le parcours, les détails des erreurs s’affichent également. <a href="../building-journeys/testing-the-journey.md#firing_events">En savoir plus</a></p>
@@ -687,7 +687,7 @@ L’interface de Journey Orchestration est disponible en japonais.
 <li>Lors de l’utilisation du champ <strong>Recherche</strong>, le nombre de résultats s’affiche maintenant pour chaque catégorie d’activité de la zone de travail.</li>
 <li>La navigation entre les différentes catégories d’activité a été améliorée.</li>
 </ul>
-<p>Dans le concepteur de parcours, vous pouvez maintenant vérifier que vous accédez à la dernière version d’un parcours. Cette information s’affiche en regard du numéro de version.</p>
+<p>Dans le concepteur de parcours, vous pouvez maintenant vérifier que vous accédez à la dernière version du parcours. Cette information s’affiche en regard du numéro de version.</p>
 <p>Dans la <strong>zone de travail</strong> des parcours, un message d’avertissement s’affiche maintenant lorsque deux activités sont déconnectées.</p>
 <img src="../assets/rn-canvas.png"/>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/using-the-journey-designer.md">documentation détaillée</a>.</p>
@@ -717,13 +717,13 @@ L’interface de Journey Orchestration est disponible en japonais.
 
 * Outre les États-Unis, Journey Orchestration est maintenant disponible dans les pays de la zone **EMEA**. L’application et la documentation sont disponibles en français et en allemand.
 
-* Le portail Experience League est maintenant intégré dans le produit. Cette intégration simplifie l’accès au contenu associé et vous permet de tirer le meilleur parti d’Experience Cloud. Vous pouvez accéder directement à la documentation de Journey Orchestration en bas de l’onglet Aide. De plus, vous pouvez cliquer sur Aide > Commentaires pour signaler des problèmes ou partager vos idées avec Adobe.
+* Experience League est maintenant intégré au produit. Cette intégration simplifie l’accès au contenu associé et vous permet de tirer le meilleur parti d’Experience Cloud. Vous pouvez accéder directement à la documentation de Journey Orchestration en bas de l’onglet Aide. De plus, vous pouvez cliquer sur Aide > Commentaires pour signaler des problèmes ou partager vos idées avec Adobe.
 
 * Le raccourci clavier **C**, qui vous permet de créer un élément, est maintenant disponible dans tous les écrans de liste : parcours, sources de données, actions et événements. [En savoir plus](../about/user-interface.md#section_ksq_zr1_ffb)
 
 * Vous pouvez maintenant **supprimer** les parcours arrêtés. Les rapports associés à ces parcours supprimés ne seront pas disponibles.
 
-* Lorsque vous parcourez les **champs Adobe Experience Platform** (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, l’autre nom d’affichage s’affiche. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
+* Lorsque vous parcourez les **champs Adobe Experience Platform** (format XDM), le nom d’affichage s’affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d’expérience. Lorsqu’il est disponible, l’autre nom d’affichage apparaît. Cette description conviviale, particulièrement utile dans le cas des champs eVar, vous permet d’identifier vos champs plus facilement. [En savoir plus](../about/user-interface.md#friendly-names-display)
 
 ## Version GA - Décembre 2019 {#ga-release---december-2019}
 
